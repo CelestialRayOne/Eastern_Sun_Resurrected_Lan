@@ -1363,12 +1363,12 @@ A5C Rune (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	Runes 1
 A5C Po1			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	po1	60																0
 A5C Po1 (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	po1	60	po2	6														0
 A5C Po1 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	po1	60	po2	12														0
-A5C Po3			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	fkn	120																0
-A5C Po3 (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	fkn	120																0
-A5C Po3 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	fkn	120																0
-A5C Po4			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	fkn	120																0
-A5C Po4 (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	fkn	120																0
-A5C Po4 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	fkn	120																0
+A5C Po3			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	po3	60																0
+A5C Po3 (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	po3	60																0
+A5C Po3 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	po3	60																0
+A5C Po4			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	po4	60																0
+A5C Po4 (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	po4	60																0
+A5C Po4 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	po4	60																0
 A5C Fkn			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	fkn	120																0
 A5C Fkn (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	fkn	120																0
 A5C Fkn (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	fkn	120																0
@@ -1456,15 +1456,15 @@ Andy_Clone (H)			5						Clone (H)	249	Uni Ore 5	1																						0
 Duri_Clone			5						Clone	999	Uni Ore 4	1																						0
 Duri_Clone (N)			5						Clone (N)	499	Uni Ore 4	1																						0
 Duri_Clone (H)			5						Clone (H)	249	Uni Ore 4	1																						0
-Nihla_Clone1			5						Clone	1600	Uni Ore 0	1	fkn	75																				0
-Nihla_Clone1 (N)			5						Clone (N)	1600	Uni Ore 0	4	fkn	75																				0
-Nihla_Clone1 (H)			5						Clone (H)	1600	Uni Ore 0	7	fkn	75																				0
+Nihla_Clone1			5						Clone	1600	Uni Ore 0	1	po3	45																				0
+Nihla_Clone1 (N)			5						Clone (N)	1600	Uni Ore 0	4	po3	45																				0
+Nihla_Clone1 (H)			5						Clone (H)	1600	Uni Ore 0	7	po3	45																				0
 Nihla_Clone2			5						Clone	1600	Uni Ore 0	1	fkn	75																				0
 Nihla_Clone2 (N)			5						Clone (N)	1600	Uni Ore 0	4	fkn	75																				0
 Nihla_Clone2 (H)			5						Clone (H)	1600	Uni Ore 0	7	fkn	75																				0
-Nihla_Clone3			5						Clone	1600	Uni Ore 0	1	fkn	75																				0
-Nihla_Clone3 (N)			5						Clone (N)	1600	Uni Ore 0	4	fkn	75																				0
-Nihla_Clone3 (H)			5						Clone (H)	1600	Uni Ore 0	7	fkn	75																				0
+Nihla_Clone3			5						Clone	1600	Uni Ore 0	1	po4	45																				0
+Nihla_Clone3 (N)			5						Clone (N)	1600	Uni Ore 0	4	po4	45																				0
+Nihla_Clone3 (H)			5						Clone (H)	1600	Uni Ore 0	7	po4	45																				0
 Nihla_Clone4			5						Clone	1600	Uni Ore 0	1																						0
 Nihla_Clone4 (N)			5						Clone (N)	1600	Uni Ore 0	4																						0
 Nihla_Clone4 (H)			5						Clone (H)	1600	Uni Ore 0	7																						0
