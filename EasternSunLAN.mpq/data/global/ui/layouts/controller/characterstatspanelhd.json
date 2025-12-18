@@ -3,7 +3,7 @@
     "type": "CharacterStatsPanel", "name": "CharacterStatsPanel",
     "fields": {
         "rect": "$CharacterStatsPanelRect",
-        "defaultWidget": [ "StrengthPointButton" ],
+        "defaultWidget": [ "StrengthPointButton" ]
     },
     "children": [
         {
@@ -824,13 +824,14 @@
             "children": [
                 // Add skill pt button
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "StrengthPointButton",
+                    "type": "ButtonWidget", "name": "StrengthPointButton",
                     "fields": {
                         "rect": { "x": 349, "y": 329 },
                         "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "focusIndicatorOffset": { "x": 0, "y": 0 },
                         "controllerRequireHold": false,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:0",
                         "navigation": {
                             "right": { "panelBoundary": true },
                             "down": { "name": "DexPointButton" },
@@ -838,13 +839,13 @@
                     },
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
+                    "type": "ButtonWidget", "name": "DexPointButton",
                     "fields": {
                         "rect": { "x": 349, "y": 465 },
                         "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:1",
                         "navigation": {
                             "right": { "panelBoundary": true },
                             "up": { "name": "StrengthPointButton" },
@@ -853,13 +854,13 @@
                     },
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
+                    "type": "ButtonWidget", "name": "VitalityPointButton",
                     "fields": {
                         "rect": { "x": 349, "y": 602 },
                         "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:2",
                         "navigation": {
                             "right": { "panelBoundary": true },
                             "up": { "name": "DexPointButton" },
@@ -868,13 +869,13 @@
                     },
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
+                    "type": "ButtonWidget", "name": "EnergyPointButton",
                     "fields": {
                         "rect": { "x": 349, "y": 738 },
                         "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:3",
                         "navigation": {
                             "right": { "panelBoundary": true },
                             "up": { "name": "VitalityPointButton" },
