@@ -35,14 +35,14 @@ armorclass_vs_missile	32		1	16											2	1		8	0	10	0																69	19		Mod
 armorclass_vs_hth	33		1	16											3	1		8	0	10	0																70	19		ModStr6b	ModStr6b										0
 normal_damage_reduction	34		1	16											47	50		6	0	10	0																22	19		ModStr2u	ModStr2u									2	0
 magic_damage_reduction	35		1	16											99	85		6	0	10	0																21	19		ModStr2t	ModStr2t									2	0
-damageresist	36		1	12											38	17		8	0	10	200																22	19		ModStr2uPercent	ModStr2uPercent									2	0
-magicresist	37		1	12											41	17		8	0	10	200																41	19		ModStr1m	ModStr1m									2	0
+damageresist	36		1	12											38	17		8	0	8	0																22	19		ModStr2uPercent	ModStr2uPercent									2	0
+magicresist	37		1	12											41	17		8	0	8	0																41	19		ModStr1m	ModStr1m									2	0
 maxmagicresist	38		1	9											2500	250		5	0	5	10																46	19		ModStr5x	ModStr5x									2	0
-fireresist	39		1	12											10	5		8	50	10	200																36	19		ModStr1j	ModStr1j		2	19		strModAllResistances	strModAllResistances				0
+fireresist	39		1	12											10	5		8	50	8	50																36	19		ModStr1j	ModStr1j		2	19		strModAllResistances	strModAllResistances				0
 maxfireresist	40		1	9											2500	250		5	0	5	0																42	19		ModStr5u	ModStr5u		7	19		allmaximumresistances	allmaximumresistances				0
-lightresist	41		1	12											10	5		8	50	10	200																38	19		ModStr1l	ModStr1l		2	19		strModAllResistances	strModAllResistances				0
+lightresist	41		1	12											10	5		8	50	8	50																38	19		ModStr1l	ModStr1l		2	19		strModAllResistances	strModAllResistances				0
 maxlightresist	42		1	9											2500	250		5	0	5	0																43	19		ModStr5w	ModStr5w		7	19		allmaximumresistances	allmaximumresistances				0
-coldresist	43		1	12											10	5		8	50	10	200																40	19		ModStr1k	ModStr1k		2	19		strModAllResistances	strModAllResistances				0
+coldresist	43		1	12											10	5		8	50	8	50																40	19		ModStr1k	ModStr1k		2	19		strModAllResistances	strModAllResistances				0
 maxcoldresist	44		1	9											2500	250		5	0	5	0																44	19		ModStr5v	ModStr5v		7	19		allmaximumresistances	allmaximumresistances				0
 poisonresist	45		1	12											10	5		8	50	10	200																34	19		ModStr1n	ModStr1n		2	19		strModAllResistances	strModAllResistances				0
 maxpoisonresist	46		1	9											2500	250		5	0	5	10																45	19		ModStr5y	ModStr5y		7	19		allmaximumresistances	allmaximumresistances				0
@@ -96,7 +96,7 @@ item_fasterattackrate	93	1	1	10											260	39		9	150	9	150											1					14
 placeholder94	94			32														7	20	8	64																														0
 lastblockframe	95			32														6	20																																0
 item_fastermovevelocity	96	1	1	9											1020	39		9	100	9	100																148	19		ModStr4s	ModStr4s		11	19		allspeeds	allspeeds			2	0
-item_nonclassskill	97		1	16	11						1			1				8	20	8	20	14																													0
+item_nonclassskill	97		1	16	14						1			1				8	20	8	20	14																													0
 state	98	1		1	10						1				103	16		6	20	1		9																													0
 item_fastergethitrate	99	1	1	9											266	18		8	100	8	100																139	19		ModStr4p	ModStr4p		11	19		allspeeds	allspeeds			2	0
 monster_playercount	100			32														7	20																																0
