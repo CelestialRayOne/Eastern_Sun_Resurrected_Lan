@@ -59,10 +59,10 @@ Ki Rune	r08L	18	r08	dmg-fire		40	80									res-fire		40	40									res-fire		40
 Ri Rune	r09L	18	r09	dmg-ltng		1	125									res-ltng		40	40									res-ltng		40	40								0
 Mi Rune	r10L	18	r10	dmg-cold	75	30	70									res-cold		40	40									res-cold		40	40								0
 Ya Rune	r11L	18	r11	lifesteal		8	8									thorns		250	250									thorns		250	250								0
-A Rune	r12L	18	r12	dmg-min		10	10									red-dmg		15	15									red-dmg		25	25								0
+A Rune	r12L	18	r12	dmg-min		10	10									red-dmg		10	10									red-dmg		15	15								0
 Tsu Rune	r13L	18	r13	swing2		20	20									balance2		20	20									block2		20	20								0
 Chi Rune	r14L	18	r14	regen		75	75									regen		75	75									regen		75	75								0
-Sa Rune	r15L	18	r15	dmg-mag		25	60									red-mag		15	15									red-mag		15	15								0
+Sa Rune	r15L	18	r15	dmg-mag		25	60									red-mag		10	10									red-mag		15	15								0
 Yu Rune	r16L	18	r16	vit		50	50									vit		50	50									vit		50	50								0
 Ke Rune	r17L	18	r17	enr		50	50									enr		50	50									enr		50	50								0
 E Rune	r18L	18	r18	dex		50	50									dex		50	50									dex		50	50								0
