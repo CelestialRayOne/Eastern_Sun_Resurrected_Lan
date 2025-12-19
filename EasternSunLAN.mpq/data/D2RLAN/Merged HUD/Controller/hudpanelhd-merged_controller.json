@@ -64,7 +64,7 @@
             "type": "ImageWidget", "name": "Overlay",
             "fields": {
                 "rect": { "x": -121, "y": -37 },
-                "filename": "..\\..\\..\\D2RLaunch\\Merged HUD\\Controller\\HUD"
+                "filename": "..\\..\\..\\D2RLAN\\Merged HUD\\Controller\\HUD"
             }
         },
         {
@@ -72,7 +72,7 @@
             "fields": {
                 "rect": { "x": 222, "y": 380 },
                 "hitMargin": { "top": 10, "bottom": 7 },
-                "filename": "..\\..\\..\\D2RLaunch\\Merged HUD\\Controller\\ExpBar"
+                "filename": "..\\..\\..\\D2RLAN\\Merged HUD\\Controller\\ExpBar"
             },
             "children": [
                 {
