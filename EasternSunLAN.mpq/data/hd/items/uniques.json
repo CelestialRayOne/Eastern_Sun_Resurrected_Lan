@@ -4303,5 +4303,12 @@
       "uber": "axe/void_crescent",
       "ultra": "axe/void_crescent"
     }
+  },
+  {
+    "hellfire_torch_new": {
+      "normal": "charm/hellfire_torch_new",
+      "uber": "charm/hellfire_torch_new",
+      "ultra": "charm/hellfire_torch_new"
+    }
   }
 ]

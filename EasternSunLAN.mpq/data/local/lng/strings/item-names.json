@@ -62664,5 +62664,22 @@
     "ptBR": "Pode ser vendido em mercadores",
     "ruRU": "Можно продать торговцам",
     "zhCN": "可售卖给商人"
+  },
+  {
+    "id": 28098,
+    "Key": "Hellfire Torch New",
+    "enUS": "Hellfire Torch",
+    "zhTW": "地獄火炬",
+    "deDE": "Höllenfeuerfackel",
+    "esES": "Antorcha de fuego infernal",
+    "frFR": "Torche des flammes infernales",
+    "itIT": "Torcia di Fuoco Infernale",
+    "koKR": "지옥불 횃불",
+    "plPL": "Pochodnia Piekielnego Ognia",
+    "esMX": "Antorcha de fuego infernal",
+    "jaJP": "業火のたいまつ",
+    "ptBR": "Tocha Infernígnea",
+    "zhCN": "地狱火炬",
+    "ruRU": "Hellfire Torch"
   }
 ]

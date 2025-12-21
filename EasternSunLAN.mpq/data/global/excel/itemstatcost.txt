@@ -35,7 +35,7 @@ armorclass_vs_missile	32		1	16											2	1		8	0	10	0																69	19		Mod
 armorclass_vs_hth	33		1	16											3	1		8	0	10	0																70	19		ModStr6b	ModStr6b										0
 normal_damage_reduction	34		1	16											47	50		6	0	10	0																22	19		ModStr2u	ModStr2u									2	0
 magic_damage_reduction	35		1	16											99	85		6	0	10	0																21	19		ModStr2t	ModStr2t									2	0
-damageresist	36		1	12											38	17		8	0	8	0																22	19		ModStr2uPercent	ModStr2uPercent									2	0
+damageresist	36		1	12											38	17		8	0	8	50																22	19		ModStr2uPercent	ModStr2uPercent									2	0
 magicresist	37		1	12											41	17		8	0	8	0																41	19		ModStr1m	ModStr1m									2	0
 maxmagicresist	38		1	9											2500	250		5	0	5	10																46	19		ModStr5x	ModStr5x									2	0
 fireresist	39		1	12											10	5		8	50	8	50																36	19		ModStr1j	ModStr1j		2	19		strModAllResistances	strModAllResistances				0
@@ -186,13 +186,13 @@ junk_01	183		1	16																16	0																99	3	2	jr1	jr1										0
 junk_02	184		1	16																16	0																98	3	2	jr2	jr2										0
 junk_03	185		1	16																16	0																97	3	2	jr3	jr3										0
 junk_04	186		1	16																16	0																96	3	2	jr4	jr4										0
-item_pierce_cold_immunity	187		1	16																12	0																95	3	2	jr5	jr5									2	0
+item_pierce_cold_immunity	187		1	16																12	0																													2	0
 item_addskill_tab	188		1	16	16						1				2760	192		10	0	7	0	16															151	14		StrSklTabItem1	StrSklTabItem1										0
-item_pierce_fire_immunity	189		1	16																12	0																94	3	2	jr6	jr6									2	0
-item_pierce_light_immunity	190			16											358	128				10																	100	19		ModItemMonLightSunder	ModItemMonLightSunder									2	0
-item_pierce_poison_immunity	191		1	16											269	42				10	0																100	19		magicmaxdamagedesc	magicmaxdamagedesc	increaseswithplaylevelX								2	0
-item_pierce_damage_immunity	192			16											358	128				10																	100	19		ModItemMonPhysicalSunder	ModItemMonPhysicalSunder									2	0
-item_pierce_magic_immunity	193		1	16																10	0																100	19		ModItemMonMagicSunder	ModItemMonMagicSunder									2	0
+item_pierce_fire_immunity	189		1	16																12	0																													2	0
+item_pierce_light_immunity	190			16											358	128				10																														2	0
+item_pierce_poison_immunity	191		1	16											269	42				10	0																													2	0
+item_pierce_damage_immunity	192			16											358	128				10																														2	0
+item_pierce_magic_immunity	193		1	16																10	0																													2	0
 item_numsockets	194		1	4											9	42		4	0	4	0																														0
 item_skillonattack	195		1	10	20						1			2				21	0	8	0	18										1	domeleeattack	20	domissileattack	20	160	15		ItemExpansiveChancX	ItemExpansiveChancX									2	0
 item_skillonkill	196		1	10	20						1			2				21	0	8	0	18										1	kill	30			160	15		ModitemskonKill	ModitemskonKill									2	0
@@ -202,7 +202,7 @@ item_skillonlevelup	199		1	10	20						1			2				21	0	8	0	18											levelup	30	
 unused200	200																																																		0
 item_skillongethit	201		1	10	20						1			2				21	0	8	0	18											damagedinmelee	21	damagedbymissile	21	160	15		ItemExpansiveChanc2	ItemExpansiveChanc2									2	0
 item_craftflag	202		1	10																12	0																163	3	0	Forged Equ	Unforgeable										0
-item_randomize	203		1	10																12	0																40	19		ModStr1k	ModStr1k										0
+item_randomize	203		1	10																12	0																														0
 item_charged_skill	204		1	30							1			3				30	0	16	0	18															1	24		ModStre10d	ModStre10d										0
 item_noconsume	205		1	8											26	64				8	0											1					4	19		ModStr6j	ModStr6j									2	0
 passive_mastery_noconsume	206		1	9	16															8	0																														0
