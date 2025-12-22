@@ -382,7 +382,7 @@ passive_summ_limit	379		1	10											250	75		6	0	8	5																297	19		ma
 summon_ele_mastery_base	380		1	14																12	0																														0
 mosaic_repeat_chance	381		1	14																4	0																298	20		mosaicrepeatchance	mosaicrepeatchance										0
 summon_ac_ar_base	382		1	24																12	0																														0
-placeholder383	383		1	14																12	0																26	3	2	r25	r25										0
+placeholder383	383		1	14																12	0																24	3	2	r26	r26										0
 placeholder384	384		1	14																12	0																24	3	2	r27	r27										0
 placeholder385	385		1	14																12	0																24	3	2	r27	r27										0
 placeholder386	386		1	14																12	0																23	3	2	r28	r28										0

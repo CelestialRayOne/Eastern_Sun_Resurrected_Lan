@@ -35,7 +35,7 @@ Jewels			1						jew	1	Nothing	1																						0
 Pandemonium Key A			1	1024				20	pk1	20																								0
 Pandemonium Key B			1	1024				20	pk2	20																								0
 Pandemonium Key C			1	1024				20	pk3	20																								0
-Worldstone Shards			1					20	wss	1	Nothing	20																						0
+Worldstone Shards			1					40	wss	1	Nothing	40																						0
 Regular Charms			1						cx1	1	cx2	1	cx3	1	Nothing	3																		0
 Unique Charm 1			1	1024					The Perfect Cell	6	Yello Jello	6	Lothar's Will	6	Deviant Cell	4																		0
 Unique Charm 2			1	1024					The Perfect Cell	6	Yello Jello	6	Lothar's Will	6	Gheed's Fortune	5	Deviant Cell	4	Vlad Tepe's Sustenance	1	Something Wicked	1	The Unknown Hero	1										0
