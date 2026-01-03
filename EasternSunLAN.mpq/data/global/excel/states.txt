@@ -180,7 +180,7 @@ delerium	177																																																																				
 antidote	178																		1																																																				0
 thawing	179																1																																																						0
 staminapot	180																	1																																																					0
-thetiesthatbindfire	181																																																																						0
+convicted	181					1																1	1	1	1																		convictionfront	convictionback						skill_conviction																					0
 thetiesthatbindcold	182																																																																						0
 thetiesthatbindlightning	183																																																																						0
 uberminion	184																												1		1		1	1																												impact_bluemotize_1									0

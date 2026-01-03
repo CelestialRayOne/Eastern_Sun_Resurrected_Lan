@@ -283,7 +283,7 @@ placeholder280	280		1	16											269	42				10	0			2	3	level	magicmaxdam					1	
 vitality_hidden2	281		1	16																10	928			9			hpregen																								0
 maxhpflag	282		1	32																11	150																														0
 maxmanaflag	283		1	32																11	150																														0
-item_upgraded	284		1	12																1	0																299	20		torchupgraded	torchupgraded										0
+item_upgraded	284		1	12																16	0																299	20		torchupgraded	torchupgraded										0
 item_anointed	285		1	12																4	0																300	20		Anointed	Anointed										0
 item_anointed_dummy	286		1	12																8	0																299	20		AnointIt	AnointIt										0
 item_skeleton_trade	287			12																9	0																298	19	2	moreskeletalmages	moreskeletalmages									2	0

@@ -51,7 +51,7 @@ Expansion
 I Rune	r01L	18	r01	dmg%		15	15									ac		30	30									ac		30	30								0
 U Rune	r02L	18	r02	att-undead		75	75	dmg-undead		75	75					move1		15	15									block		2	2								0
 Shi Rune	r03L	18	r03	mana-kill		5	5									mana-kill		5	5									mana-kill		5	5								0
-Ka Rune	r04L	18	r04	knock		1	1									ac-miss		75	75									ac-miss		45	45								0
+Ka Rune	r04L	18	r04	knock		1	1									ac-miss		50	50									ac-miss		100	100								0
 N Rune	r05L	18	r05	reduce-ac		25	25									regen-mana		40	40									regen-mana		40	40								0
 Ku Rune	r06L	18	r06	dmg-max		10	10									dmg-to-mana		40	40									dmg-to-mana		40	40								0
 Yo Rune	r07L	18	r07	dmg-pois	50	384	384									res-pois		40	40									res-pois		40	40								0
