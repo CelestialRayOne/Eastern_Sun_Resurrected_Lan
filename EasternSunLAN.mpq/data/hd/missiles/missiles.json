@@ -1060,7 +1060,7 @@
     "berserkfuryfurybolt": "holy_bolt_missile",
     "coldblast": "ice_orb",
     "coldblastexp": "ice_orb_explode",
-    "coldblastfragment": "ice_orb_explode",
+    "coldblastfragment": "ice_orb",
     "arrowhitskillmissile": "arrow",
     "fireenhancedarrow": "fire_arrow",
     "coldenhancedarrow": "ice_arrow",
@@ -1465,7 +1465,7 @@
     "poisonnovasimplemonuberbolt": "andariel_spell",
     "fistsoffirenovamonuberbolt": "firebolt",
     "fistsoffirefurymonuberbolt": "firebolt",
-    "fistsoffireflowermonuberbolt": "skull_fire",
+    "fistsoffireflowermonuberbolt": "skull_fire_notrack",
     "elementalfurymonuberfirespawner": "skull_fire_notrack",
     "elementalfurymonubercoldspawner": "skull_ice_notrack",
     "elementalfurymonuberltngspawner": "skull_unholy_notrack",
@@ -1601,5 +1601,12 @@
     "shurikenflurryspawnerone": "shuriken",
     "shurikenflurryspawnertwo": "shuriken",
     "shurikenflurryspawnerthree": "shuriken",
-    "shurikenflurryspawnerfour": "shuriken"
+    "shurikenflurryspawnerfour": "shuriken",
+    "shurikenthrow": "shuriken",
+    "shurikenfuryone": "shuriken",
+    "shurikenfurytwo": "shuriken",
+    "shurikenspawnerone": "shuriken",
+    "shurikenspawnertwo": "shuriken",
+    "shurikenspawnerthree": "shuriken",
+    "shurikenflurryshurikenlast": "shuriken"
 }

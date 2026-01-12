@@ -63,7 +63,7 @@ decrepify	60						1	1													1																						cursedecrepify					curs
 lowerresist	61						1	1															1	1	1	1																	curselowerresist					curse_hit		lightresist																					0
 unicha5	62																																																																						0
 killtracker	63					1																																																																	0
-elementalmastery	64																																																																						0
+spellmastery	64																																																																						0
 dodge	65																																																																						0
 avoid	66																																																																						0
 penetrate	67																																																																						0

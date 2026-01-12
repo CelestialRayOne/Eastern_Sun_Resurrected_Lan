@@ -4310,5 +4310,12 @@
       "uber": "charm/hellfire_torch_new",
       "ultra": "charm/hellfire_torch_new"
     }
+  },
+  {
+    "baals_vile_whisper_shuriken": {
+      "normal": "knife/baals_vile_whisper_shuriken",
+      "uber": "knife/baals_vile_whisper_shuriken",
+      "ultra": "knife/baals_vile_whisper_shuriken"
+    }
   }
 ]
