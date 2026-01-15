@@ -681,9 +681,9 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 680	ice	quest/scroll_of_self_resurrect						
 681	0sc	scroll/identify_scroll						
 682	tr2	quest/bark_scroll						
-683	pk1	key/mephisto_key						
-684	pk2	key/mephisto_key						
-685	pk3	key/mephisto_key						
+683	pk1	key/key_of_terror						
+684	pk2	key/key_of_hate						
+685	pk3	key/key_of_destruction						
 686	dhn	body_part/fang						
 687	bey	body_part/eye						
 688	mbr	body_part/brain						

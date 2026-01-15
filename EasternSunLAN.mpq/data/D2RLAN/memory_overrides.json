@@ -58,22 +58,6 @@
             "ModdedValues": "100000"
         },
         {
-            "Name": "Player Difficulty Scaling Override (Max/UI)",
-            "Description": "Allows you to control the maximum player difficulty. These addresses are for UI and client checks",
-            "Category": "Important",
-            "Addresses": [
-                "135EF8",
-                "135F16",
-                "1E31CCC",
-                "1E31D64"
-            ],
-            "Length": 4,
-            "Type": "Integer",
-            "Values": "20",
-            "OriginalValues": "8",
-            "ModdedValues": "20"
-        },
-        {
             "Name": "Force Classic Whirlwind",
             "Description": "Changes the WW BP calcs to use 1FPA attacks instead of 4FPA for max speed",
             "Category": "Alteration",
@@ -83,28 +67,6 @@
             "Values": "EB",
             "OriginalValues": "74",
             "ModdedValues": "EB"
-        },
-        {
-            "Name": "Player Difficulty Scaling Override (Command)",
-            "Description": "Allows you to control the maximum player difficulty. This address is for the player command",
-            "Category": "Important",
-            "Address": "11FE12",
-            "Length": 17,
-            "Type": "Hex",
-            "Values": "4189C49090909090909090909090909090",
-            "OriginalValues": "???",
-            "ModdedValues": "4189C49090909090909090909090909090"
-        },
-        {
-            "Name": "Player Difficulty Scaling Override (Actual)",
-            "Description": "Allows you to control the maximum player difficulty. This address is for the server value",
-            "Category": "Important",
-            "Address": "136910",
-            "Length": 3,
-            "Type": "Hex",
-            "Values": "89C890",
-            "OriginalValues": "???",
-            "ModdedValues": "89C890"
         },
         {
             "Name": "Hit Chance % (Lower Bound)",
