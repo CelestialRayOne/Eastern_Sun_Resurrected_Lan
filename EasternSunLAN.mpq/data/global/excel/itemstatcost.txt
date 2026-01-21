@@ -384,7 +384,7 @@ mosaic_repeat_chance	381		1	14																4	0																298	20		mosaicr
 summon_ac_ar_base	382		1	24																12	0																														0
 has_shuriken	383		1	1																1	0																														0
 summon_atd_base	384		1	24																12	0																														0
-placeholder385	385		1	14																12	0																24	3	2	r27	r27										0
+skillcontrolcold1	385		1	10																																															0
 placeholder386	386		1	14																12	0																23	3	2	r28	r28										0
 placeholder387	387		1	14																12	0																22	3	2	r29	r29										0
 placeholder388	388		1	14																12	0																21	3	2	r30	r30										0
