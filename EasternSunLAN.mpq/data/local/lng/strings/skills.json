@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 3122,
     "Key": "FireGolem",
@@ -3230,23 +3230,6 @@
     "zhCN": "蓄力打击"
   },
   {
-    "id": 4479,
-    "Key": "skillld26",
-    "enUS": "Magically split one arrow into several\nthat target multiple nearby enemies\nusing a crossbow causes main bolts to split in 3 additional\nbolts mid air, but total weapon damage is 25%",
-    "zhTW": "神奇地將一支箭分成幾支\n以附近多個敵人為目標\n使用十字弓會導致主螺栓分裂成另外 3 個\n在空中發射，但武器總傷害為 25%",
-    "deDE": "Teilen Sie einen Pfeil auf magische Weise in mehrere auf\ndie auf mehrere Feinde in der Nähe abzielen\nDie Verwendung einer Armbrust führt dazu, dass sich die Hauptbolzen in drei weitere spalten\nschießt mitten in die Luft, aber der Gesamtschaden der Waffe beträgt 25 %",
-    "esES": "Divide mágicamente una flecha en varias.\nque apuntan a múltiples enemigos cercanos\nusar una ballesta hace que los pernos principales se partan en 3 adicionales\nsale disparado en el aire, pero el daño total del arma es del 25%",
-    "esMX": "Divide mágicamente una flecha en varias.\nque apuntan a múltiples enemigos cercanos\nusar una ballesta hace que los pernos principales se partan en 3 adicionales\nsale disparado en el aire, pero el daño total del arma es del 25%",
-    "frFR": "Divisez comme par magie une flèche en plusieurs\nqui ciblent plusieurs ennemis proches\nl'utilisation d'une arbalète provoque la division des boulons principaux en 3 supplémentaires\ntire dans les airs, mais les dégâts totaux de l'arme sont de 25 %",
-    "itIT": "Dividi magicamente una freccia in più frecce\nche prendono di mira più nemici vicini\nl'uso di una balestra fa sì che i dardi principali si dividano in 3 aggiuntivi\nvola a mezz'aria, ma il danno totale dell'arma è del 25%",
-    "koKR": "마법처럼 하나의 화살을 여러 개로 나눕니다\n근처의 여러 적을 대상으로 삼는다.\n석궁을 사용하면 메인 볼트가 추가로 3개로 분리됩니다.\n공중에서 볼트를 발사하지만 총 무기 데미지는 25%입니다.",
-    "plPL": "Magicznie podziel jedną strzałę na kilka\nktóre celują w wielu pobliskich wrogów\nużycie kuszy powoduje rozszczepienie głównych bełtów na 3 dodatkowe\nstrzela w powietrzu, ale całkowite obrażenia od broni wynoszą 25%",
-    "jaJP": "魔法のように1本の矢をいくつかに分割します\n近くの複数の敵をターゲットにする\nクロスボウを使用するとメインボルトがさらに 3 つに裂けます\n空中でボルトを発射しますが、武器の合計ダメージは 25% です",
-    "ptBR": "Divida magicamente uma flecha em várias\nque têm como alvo vários inimigos próximos\nusar uma besta faz com que as setas principais se dividam em 3 adicionais\ndispara no ar, mas o dano total da arma é de 25%",
-    "ruRU": "Волшебным образом разделить одну стрелу на несколько\nкоторые нацелены на нескольких ближайших врагов\nиспользование арбалета приводит к тому, что основные болты разделяются на 3 дополнительных.\nстреляет в воздухе, но общий урон от оружия составляет 25%",
-    "zhCN": "神奇地将一支箭分成几支\n以附近多个敌人为目标\n使用十字弓会导致主螺栓分裂成另外 3 个\n在空中发射，但武器总伤害为 25%"
-  },
-  {
     "id": 4480,
     "Key": "skillan26",
     "enUS": "Strafe",
@@ -4182,23 +4165,6 @@
     "zhCN": "能量护盾"
   },
   {
-    "id": 4607,
-    "Key": "skillld58",
-    "enUS": "creates a magical shield that consumes mana\ninstead of health when you take damage\nEvery 10% of the lowest elemental resistance lowers the\nmana consumption cap by 1%, down to a minimum of 25%",
-    "zhTW": "創建一個消耗法力的魔法護盾\n當你受到傷害時而不是健康\n最低元素阻力每降低 10%，\n法力消耗上限提高 1%，降至最低 25%",
-    "deDE": "Erschafft einen magischen Schild, der Mana verbraucht\nstatt Gesundheit, wenn du Schaden erleidest\nAlle 10 % des niedrigsten Elementarwiderstands senken den\nObergrenze des Manaverbrauchs um 1 % auf mindestens 25 % gesenkt",
-    "esES": "Crea un escudo mágico que consume maná.\nen lugar de salud cuando recibes daño\nCada 10% de la resistencia elemental más baja reduce la\nLímite de consumo de maná en un 1%, hasta un mínimo de 25%.",
-    "frFR": "crée un bouclier magique qui consomme du mana\nau lieu de la santé lorsque vous subissez des dégâts\nTous les 10 % de la résistance élémentaire la plus basse diminuent la\nplafond de consommation de mana de 1%, jusqu'à un minimum de 25%",
-    "itIT": "crea uno scudo magico che consuma mana\ninvece della salute quando subisci danni\nOgni 10% della resistenza elementale più bassa abbassa il\nlimite al consumo di mana dell'1%, fino a un minimo del 25%",
-    "koKR": "마나를 소모하는 마법의 방패를 생성합니다.\n피해를 입을 때 건강 대신\n가장 낮은 원소 저항이 10%씩 감소할 때마다\n마나 소비 한도가 1% 증가하여 최소 25%로 감소합니다.",
-    "plPL": "tworzy magiczną tarczę, która pochłania manę\nzamiast zdrowia, gdy otrzymasz obrażenia\nKażde 10% najniższej odporności na żywioły obniża\nograniczenie zużycia many o 1%, do minimum 25%",
-    "esMX": "Crea un escudo mágico que consume maná.\nen lugar de salud cuando recibes daño\nCada 10% de la resistencia elemental más baja reduce la\nLímite de consumo de maná en un 1%, hasta un mínimo de 25%.",
-    "jaJP": "マナを消費する魔法の盾を作成する\nダメージを受けたときの健康の代わりに\n最低の属性抵抗が 10% ごとに低下します。\nマナ消費の上限が 1% 減少し、最低 25% に低下します。",
-    "ptBR": "cria um escudo mágico que consome mana\nem vez de saúde quando você sofre dano\nCada 10% da resistência elementar mais baixa diminui a\nlimite de consumo de mana em 1%, até um mínimo de 25%",
-    "ruRU": "создает магический щит, потребляющий ману\nвместо здоровья, когда вы получаете урон\nКаждые 10% наименьшего сопротивления стихиям снижают\nограничение потребления маны на 1%, вплоть до минимума 25%.",
-    "zhCN": "创建一个消耗法力的魔法护盾\n当你受到伤害时而不是健康\n最低元素阻力每降低 10%，\n法力消耗上限提高 1%，降至最低 25%"
-  },
-  {
     "id": 4608,
     "Key": "skillan58",
     "enUS": "Energy Shield",
@@ -4826,23 +4792,6 @@
     "ptBR": "transforma um cadáver em uma bomba",
     "ruRU": "превращает труп в бомбу",
     "zhCN": "将尸体变成炸弹"
-  },
-  {
-    "id": 4671,
-    "Key": "skillld74",
-    "enUS": "Cast on the corpse of a slain monster, exploding it and damaging\nnearby enemies. If 50% or more of the damage is converted to magic, then\nthe damage scales with magic instead of physical spell damage",
-    "zhTW": "對被殺死的怪物的屍體施放，使其爆炸並造成傷害\n附近的敵人。如果50%以上的傷害轉化為魔法，那麼\n傷害隨魔法而不是物理法術傷害變化",
-    "deDE": "Wirkt auf die Leiche eines getöteten Monsters, lässt es explodieren und verursacht Schaden\nFeinde in der Nähe. Wenn 50 % oder mehr des Schadens in Magie umgewandelt werden, dann\nDer Schaden skaliert mit Magie statt mit physischem Zauberschaden",
-    "esES": "Lanzado sobre el cadáver de un monstruo asesinado, haciéndolo explotar y dañarlo.\nenemigos cercanos. Si el 50% o más del daño se convierte en magia, entonces\nel daño aumenta con magia en lugar de daño físico con hechizos",
-    "frFR": "Lancer sur le cadavre d'un monstre tué, le faire exploser et lui infliger des dégâts.\nennemis proches. Si 50 % ou plus des dégâts sont convertis en magie, alors\nles dégâts augmentent avec la magie au lieu des dégâts physiques des sorts",
-    "itIT": "Lanciato sul cadavere di un mostro ucciso, facendolo esplodere e danneggiando\nnemici vicini. Se il 50% o più del danno viene convertito in magia, allora\nil danno aumenta con la magia anziché con il danno fisico degli incantesimi",
-    "koKR": "살해된 몬스터의 시체에 시전하여 폭발시키고 피해를 입힙니다.\n근처의 적. 피해의 50% 이상이 마법으로 전환되면\n피해는 물리적 주문 피해 대신 마법에 따라 증가합니다.",
-    "plPL": "Rzuć na zwłoki zabitego potwora, eksplodując i zadając obrażenia\npobliscy wrogowie. Jeśli 50% lub więcej obrażeń zostanie zamienionych na magię, wówczas\nobrażenia skalują się z magią, a nie z obrażeniami fizycznymi",
-    "esMX": "Lanzado sobre el cadáver de un monstruo asesinado, haciéndolo explotar y dañarlo.\nenemigos cercanos. Si el 50% o más del daño se convierte en magia, entonces\nel daño aumenta con magia en lugar de daño físico con hechizos",
-    "jaJP": "倒したモンスターの死体にキャストし、爆発させてダメージを与える\n近くの敵。ダメージの50％以上が魔法に変換された場合、\nダメージは物理的呪文ダメージではなく魔法に比例する",
-    "ptBR": "Lance no cadáver de um monstro morto, explodindo-o e causando dano\ninimigos próximos. Se 50% ou mais do dano for convertido em magia, então\no dano aumenta com magia em vez de dano físico",
-    "ruRU": "Применить к трупу убитого монстра, взорвав его и нанеся урон.\nближайшие враги. Если 50% или более урона конвертируется в магию, то\nурон зависит от магии, а не от физического урона от заклинаний",
-    "zhCN": "对被杀死的怪物的尸体施放，使其爆炸并造成伤害\n附近的敌人。如果50%以上的伤害转化为魔法，那么\n伤害随魔法而不是物理法术伤害变化"
   },
   {
     "id": 4672,
@@ -6356,23 +6305,6 @@
     "ptBR": "Zelo",
     "ruRU": "Рвение",
     "zhCN": "热情"
-  },
-  {
-    "id": 4799,
-    "Key": "skillld106",
-    "enUS": "Attacks multiple enemies in front of you multiple times\nZeal puts you into a divine frenzy, increasing your damage and\nattack speed and empowering your other combat skills for 15 seconds\n\nCrucify - Chance to Double the Damage and Number of Targets\nVengeance - Chance for Each Nova to Pulse Twice\nJudgement - Chance to Ignore Cooldown",
-    "zhTW": "多次攻擊面前的多個敵人\n熱情會讓你陷入神聖的狂熱，增加你的傷害並\n攻擊速度並增強你的其他戰鬥技能，持續 15 秒\n\n十字架 - 有機會使傷害和目標數量加倍\n復仇 - 每個新星有兩次脈衝的機會\n審判 - 有機會忽略冷卻時間",
-    "deDE": "Greift mehrere Feinde vor dir mehrmals an\nEifer versetzt Sie in göttliche Raserei, erhöht Ihren Schaden und\nAngriffsgeschwindigkeit und Stärkung Ihrer anderen Kampffähigkeiten für 15 Sekunden\n\nCrucify – Chance, den Schaden und die Anzahl der Ziele zu verdoppeln\nRache – Chance für jede Nova, zweimal zu pulsieren\nUrteil – Chance, die Abklingzeit zu ignorieren",
-    "esES": "Ataca a múltiples enemigos frente a ti varias veces\nZeal te pone en un frenesí divino, aumentando tu daño y\nvelocidad de ataque y potenciando tus otras habilidades de combate durante 15 segundos\n\nCrucificar: posibilidad de duplicar el daño y el número de objetivos\nVenganza: probabilidad de que cada nova pulse dos veces\nJuicio: posibilidad de ignorar el tiempo de reutilización",
-    "esMX": "Ataca a múltiples enemigos frente a ti varias veces\nZeal te pone en un frenesí divino, aumentando tu daño y\nvelocidad de ataque y potenciando tus otras habilidades de combate durante 15 segundos\n\nCrucificar: posibilidad de duplicar el daño y el número de objetivos\nVenganza: probabilidad de que cada nova pulse dos veces\nJuicio: posibilidad de ignorar el tiempo de reutilización",
-    "frFR": "Attaque plusieurs ennemis devant vous à plusieurs reprises\nLe zèle vous plonge dans une frénésie divine, augmentant vos dégâts et\nvitesse d'attaque et renforcement de vos autres compétences de combat pendant 15 secondes\n\nCrucify – Chance de doubler les dégâts et le nombre de cibles\nVengeance – Chance pour chaque Nova de pulser deux fois\nJugement – ​​Chance d’ignorer le temps de recharge",
-    "itIT": "Attacca più nemici di fronte a te più volte\nLo zelo ti mette in una frenesia divina, aumentando i tuoi danni e\nvelocità di attacco e potenziare le tue altre abilità di combattimento per 15 secondi\n\nCrocifiggere: possibilità di raddoppiare il danno e il numero di bersagli\nVendetta: possibilità che ogni Nova pulsa due volte\nGiudizio: possibilità di ignorare il tempo di recupero",
-    "koKR": "전방의 다수의 적을 여러 번 공격합니다.\n열의는 당신을 신성한 광란에 빠뜨려 피해량을 증가시키고\n15초 동안 공격 속도를 높이고 다른 전투 기술을 강화합니다.\n\n십자가에 못박기 - 피해량과 대상 수를 두 배로 늘릴 확률\n복수 - 각 노바가 두 번 펄스할 확률\n심판 - 재사용 대기시간 무시 확률",
-    "plPL": "Wielokrotnie atakuje wielu wrogów stojących przed tobą\nZapał wprawia cię w boski szał, zwiększając zadawane przez ciebie obrażenia i\nprędkość ataku i wzmacnia inne umiejętności bojowe na 15 sekund\n\nUkrzyżowanie – szansa na podwojenie obrażeń i liczby celów\nZemsta – szansa na dwukrotne pulsowanie każdej Novy\nWyrok – szansa na zignorowanie czasu odnowienia",
-    "ptBR": "Ataca vários inimigos à sua frente várias vezes\nZelo coloca você em um frenesi divino, aumentando seu dano e\nvelocidade de ataque e fortalecendo suas outras habilidades de combate por 15 segundos\n\nCrucificar – Chance de dobrar o dano e o número de alvos\nVingança – Chance de cada Nova pulsar duas vezes\nJulgamento – Chance de Ignorar o Tempo de Recarga",
-    "ruRU": "Атакует нескольких врагов перед вами несколько раз\nРвение вводит вас в божественное безумие, увеличивая ваш урон и\nскорость атаки и усиление других боевых навыков на 15 секунд.\n\nРаспятие — шанс удвоить урон и количество целей\nМесть — шанс для каждого Нова пульсировать дважды\nПравосудие — шанс игнорировать время восстановления",
-    "zhCN": "多次攻击面前的多个敌人\n热情会让你陷入神圣的狂热，增加你的伤害并\n攻击速度并增强你的其他战斗技能，持续 15 秒\n\n十字架 - 有机会使伤害和目标数量加倍\n复仇 - 每个新星有两次脉冲的机会\n审判 - 有机会忽略冷却时间",
-    "jaJP": "目の前の複数の敵を複数回攻撃する\n熱意はあなたを神聖な狂乱状態に陥らせ、ダメージを増加させ、\n攻撃速度が上がり、15 秒間他の戦闘スキルが強化されます\n\nCrucify - ダメージとターゲットの数を2倍にするチャンス\n復讐 - 各ノヴァが 2 回パルスするチャンス\nジャッジメント - クールダウンを無視するチャンス"
   },
   {
     "id": 4800,
@@ -8328,40 +8260,6 @@
     "ptBR": "",
     "ruRU": "",
     "zhCN": ""
-  },
-  {
-    "id": 10294,
-    "Key": "skillxld27",
-    "enUS": "Fire an arrow or bolt to create a pyre\nupon impact. Every third arrow or bolt is enhanced,\nreleasing consuming fires that seek down enemies\nAlways Hits",
-    "zhTW": "發射箭或螺栓以創建柴堆\n受到衝擊時。每三個箭頭或螺栓都會得到增強，\n釋放強大的火焰來尋找敵人\n總是熱門",
-    "deDE": "Feuern Sie einen Pfeil oder Bolzen ab, um einen Scheiterhaufen zu erschaffen\nbeim Aufprall. Jeder dritte Pfeil oder Bolzen ist verstärkt,\nEntfesselt verzehrende Feuer, die Feinde zur Strecke bringen\nImmer Treffer",
-    "esES": "Dispara una flecha o un rayo para crear una pira.\nal impacto. Se mejora cada tercera flecha o rayo,\nLiberando fuegos consumidores que buscan a los enemigos.\nSiempre golpea",
-    "frFR": "Tirez une flèche ou un carreau pour créer un bûcher\nlors de l'impact. Une flèche ou un éclair sur trois est amélioré,\nlibérant des feux dévorants qui traquent les ennemis\nFrappe toujours",
-    "itIT": "Spara una freccia o un dardo per creare una pira\nall'impatto. Ogni terza freccia o fulmine è migliorata,\nrilasciando fuochi consumanti che cercano i nemici\nColpisce sempre",
-    "koKR": "화살이나 볼트를 발사하여 장작더미를 만듭니다.\n충격 시. 세 번째 화살이나 볼트가 강화될 때마다\n적을 찾는 소모적인 불을 방출합니다.\n항상 히트",
-    "plPL": "Wystrzel strzałę lub bełt, aby utworzyć stos\npo uderzeniu. Co trzecia strzała lub bełt jest ulepszona,\nuwalniając trawiące ognie, które szukają wrogów\nZawsze hity",
-    "esMX": "Dispara una flecha o un rayo para crear una pira.\nal impacto. Se mejora cada tercera flecha o rayo,\nLiberando fuegos consumidores que buscan a los enemigos.\nSiempre golpea",
-    "jaJP": "矢またはボルトを発射して薪を作成します\n衝撃時。矢またはボルトが 3 つおきに強化されます。\n敵を追い詰める焼き尽くす炎を放つ\n常にヒットします",
-    "ptBR": "Dispare uma flecha ou dardo para criar uma pira\napós o impacto. Cada terceira flecha ou dardo é aprimorada,\nliberando fogos consumidores que perseguem os inimigos\nSempre acerta",
-    "ruRU": "Выпустите стрелу или болт, чтобы создать костер.\nпри ударе. Каждая третья стрела или болт усилена,\nвыпуская всепоглощающее пламя, которое преследует врагов\nВсегда хиты",
-    "zhCN": "发射箭或螺栓以创建柴堆\n受到冲击时。每三个箭头或螺栓都会得到增强，\n释放强大的火焰来寻找敌人\n总是热门"
-  },
-  {
-    "id": 10310,
-    "Key": "skillxld31",
-    "enUS": "Fire an arrow or bolt that freezes enemies in an\narea of effect. Every third arrow or bolt is enhanced, spawning\nicy shards that track down and destroy your enemies\nAlways Hits",
-    "zhTW": "發射箭或螺栓將敵人凍結在\n影響範圍。每第三個箭頭或螺栓都會增強，生成\n冰冷的碎片可以追踪並摧毀你的敵人\n總是熱門",
-    "deDE": "Feuern Sie einen Pfeil oder Bolzen ab, der Feinde einfriert\nWirkungsbereich. Jeder dritte Pfeil oder Bolzen ist verstärkt und spawnt\nEisscherben, die deine Feinde aufspüren und vernichten\nImmer Treffer",
-    "esES": "Dispara una flecha o un rayo que congela a los enemigos en un\nárea de efecto. Cada tercera flecha o rayo se mejora, generando\nfragmentos helados que rastrean y destruyen a tus enemigos\nSiempre golpea",
-    "frFR": "Tirez une flèche ou un éclair qui gèle les ennemis dans un\nzone d’effet. Une flèche ou un éclair sur trois est amélioré, apparaissant\ndes éclats de glace qui traquent et détruisent vos ennemis\nFrappe toujours",
-    "itIT": "Spara una freccia o un dardo che congela i nemici in un\nzona di effetto. Ogni terza freccia o fulmine viene potenziata e si genera\nframmenti di ghiaccio che rintracciano e distruggono i tuoi nemici\nColpisce sempre",
-    "koKR": "적을 얼리는 화살이나 화살을 발사합니다.\n효과 영역. 세 번째 화살이나 화살은 모두 강화되어 생성됩니다.\n적을 추적하고 파괴하는 얼음 파편\n항상 히트",
-    "plPL": "Wystrzel strzałę lub bełt, który zamraża wrogów w\nobszar działania. Co trzecia strzała lub bełt jest ulepszana i pojawia się\nlodowe odłamki, które tropią i niszczą twoich wrogów\nZawsze hity",
-    "esMX": "Dispara una flecha o un rayo que congela a los enemigos en un\nárea de efecto. Cada tercera flecha o rayo se mejora, generando\nfragmentos helados que rastrean y destruyen a tus enemigos\nSiempre golpea",
-    "jaJP": "敵を凍らせる矢またはボルトを発射します。\n効果範囲。 3 つおきの矢またはボルトが強化され、スポーンします。\n敵を追跡して破壊する氷の破片\n常にヒットします",
-    "ptBR": "Dispara uma flecha ou raio que congela os inimigos em um\nárea de efeito. Cada terceira flecha ou parafuso é aprimorado, gerando\nfragmentos de gelo que rastreiam e destroem seus inimigos\nSempre acerta",
-    "ruRU": "Выпустите стрелу или болт, который замораживает врагов на\nобласть действия. Каждая третья стрела или болт усиливается, создавая\nледяные осколки, которые выслеживают и уничтожают ваших врагов\nВсегда хиты",
-    "zhCN": "发射箭或螺栓将敌人冻结在\n影响范围。每第三个箭头或螺栓都会增强，生成\n冰冷的碎片可以追踪并摧毁你的敌人\n总是热门"
   },
   {
     "id": 10428,
@@ -10844,23 +10742,6 @@
     "ptBR": "Selvageria Primordial",
     "ruRU": "Первобытная дикость",
     "zhCN": "原始野蛮"
-  },
-  {
-    "id": 22124,
-    "Key": "Skillld243",
-    "enUS": "When in werewolf or werebear form, enrage for 3 seconds, increasing\ntotal physical damage done based on the amount of current\nnumber of Feral Rage or Maul charges",
-    "zhTW": "當處於狼人或熊人形態時，激怒 3 秒，持續時間增加\n根據電流量造成的總物理傷害\n野性之怒或重擊次數",
-    "deDE": "In Werwolf- oder Werbärengestalt wird der Zorn 3 Sekunden lang verstärkt, was zunimmt\nGesamter verursachter physischer Schaden basierend auf der Stromstärke\nAnzahl der Wildwut- oder Maul-Ladungen",
-    "esES": "Cuando estás en forma de hombre lobo o hombre oso, enfurece durante 3 segundos, aumentando\nDaño físico total causado en función de la cantidad de corriente.\nnúmero de cargas de Feral Rage o Maul",
-    "esMX": "Cuando estás en forma de hombre lobo o hombre oso, enfurece durante 3 segundos, aumentando\nDaño físico total causado en función de la cantidad de corriente.\nnúmero de cargas de Feral Rage o Maul",
-    "frFR": "Sous forme de loup-garou ou d'ours-garou, enragez pendant 3 secondes, augmentant ainsi\ndommage physique total causé en fonction de la quantité de courant\nnombre de charges de Feral Rage ou Maul",
-    "itIT": "Quando sei in forma di lupo mannaro o di orso mannaro, infuria per 3 secondi, aumentando\ndanno fisico totale causato in base alla quantità di corrente\nnumero di cariche di Furia Ferale o Maglio",
-    "koKR": "늑대인간이나 늑대곰 형태일 때 3초 동안 격노합니다.\n전류량에 따른 총 물리 피해\n야생의 분노 또는 마울 충전 횟수",
-    "plPL": "Będąc w formie wilkołaka lub niedźwiedziołaka, wściekaj się przez 3 sekundy, zwiększając się\ncałkowite obrażenia fizyczne zadane w oparciu o ilość prądu\nliczba ładunków Dzikiego Szału lub Maula",
-    "jaJP": "ウェアウルフまたはウェアベアの状態の場合、3 秒間激怒し、増加します\n電流量に基づく物理的ダメージの合計\nFeral Rage または Maul チャージの数",
-    "ptBR": "Quando estiver na forma de lobisomem ou lobisomem, enfurece-se por 3 segundos, aumentando\ndano físico total causado com base na quantidade de corrente\nnúmero de cargas de Feral Rage ou Maul",
-    "ruRU": "В форме оборотня или медведя-оборотня впадает в ярость на 3 секунды, увеличивая\nобщий физический урон, нанесенный в зависимости от силы тока\nколичество зарядов Feral Rage или Maul",
-    "zhCN": "当处于狼人或熊人形态时，激怒 3 秒，持续时间增加\n根据电流量造成的总物理伤害\n野性之怒或重击次数"
   },
   {
     "id": 22125,
@@ -14501,23 +14382,6 @@
     "zhCN": "美猴王之跃"
   },
   {
-    "id": 47603,
-    "Key": "mkb2",
-    "enUS": "Lunges forward infused with the power of the monkey king,\nlanding in a devastating shockwave at the target location\nThe cooldown cannot be reduced by any means",
-    "zhTW": "充滿了美猴王的力量向前衝刺，\n在毀滅性的衝擊波中降落在目標位置\n冷卻時間無法以任何方式減少",
-    "deDE": "Springt vorwärts, erfüllt von der Kraft des Affenkönigs,\nLandung in einer verheerenden Schockwelle am Zielort\nDie Abklingzeit kann auf keinen Fall verringert werden",
-    "esES": "Se lanza hacia adelante imbuido del poder del rey mono,\naterrizando en una onda de choque devastadora en la ubicación objetivo\nEl tiempo de reutilización no se puede reducir de ninguna manera.",
-    "frFR": "Se jette en avant, imprégné du pouvoir du roi singe,\natterrir dans une onde de choc dévastatrice à l'emplacement cible\nLe temps de recharge ne peut en aucun cas être réduit",
-    "itIT": "Si lancia in avanti intriso del potere del re scimmia,\natterrando con un'onda d'urto devastante nella posizione target\nIl tempo di recupero non può essere ridotto in alcun modo",
-    "koKR": "원숭이왕의 힘을 담아 앞으로 돌진하며,\n대상 위치에 파괴적인 충격파가 착지합니다.\n쿨타임은 어떤 방법으로도 줄일 수 없습니다.",
-    "plPL": "Rzuca się do przodu przepełniony mocą małpiego króla,\nlądowanie w niszczycielskiej fali uderzeniowej w docelowym miejscu\nCzasu odnowienia nie można w żaden sposób skrócić",
-    "esMX": "Se lanza hacia adelante imbuido del poder del rey mono,\naterrizando en una onda de choque devastadora en la ubicación objetivo\nEl tiempo de reutilización no se puede reducir de ninguna manera.",
-    "jaJP": "猿王の力を込めて突進し、\n破壊的な衝撃波で標的の場所に着地する\nクールダウンはどうやっても短縮できません",
-    "ptBR": "Avança para frente infundido com o poder do rei macaco,\npousando em uma onda de choque devastadora no local alvo\nO cooldown não pode ser reduzido de forma alguma",
-    "ruRU": "Выпад вперед, наполненный силой короля обезьян,\nприземление разрушительной ударной волной в целевом месте\nВремя восстановления нельзя уменьшить никакими способами.",
-    "zhCN": "充满了美猴王的力量向前冲刺，\n在毁灭性的冲击波中降落在目标位置\n冷却时间无法以任何方式减少"
-  },
-  {
     "id": 47605,
     "Key": "mkslam1",
     "enUS": "Monkey King's Wrath",
@@ -14586,23 +14450,6 @@
     "zhCN": "闪击"
   },
   {
-    "id": 47623,
-    "Key": "blinkstrike2",
-    "enUS": "Blink at a target enemy, striking him and three other nearby enemies\nCooldown is reduced by 1/25th of a second for each 100 dexterity\nOne extra hit every 15 levels",
-    "zhTW": "對目標敵人眨眼，擊中他和附近的其他三個敵人\n每 100 點敏捷，冷卻時間減少 1/25 秒\n每 15 級額外擊中一次",
-    "deDE": "Blinzeln Sie einen anvisierten Feind an und treffen Sie ihn und drei weitere Feinde in der Nähe\nDie Abklingzeit wird pro 100 Geschicklichkeit um 1/25 Sekunde verringert\nEin zusätzlicher Treffer alle 15 Level",
-    "esES": "Parpadea hacia un enemigo objetivo, golpeándolo a él y a otros tres enemigos cercanos.\nEl tiempo de reutilización se reduce en 1/25 de segundo por cada 100 de destreza.\nUn golpe extra cada 15 niveles.",
-    "frFR": "Clignez des yeux vers un ennemi ciblé, le frappant ainsi que trois autres ennemis proches\nLe temps de recharge est réduit de 1/25ème de seconde tous les 100 de dextérité.\nUn coup supplémentaire tous les 15 niveaux",
-    "itIT": "Trasla verso un nemico bersaglio, colpendo lui e altri tre nemici vicini\nIl tempo di recupero è ridotto di 1/25 di secondo per ogni 100 di destrezza\nUn colpo extra ogni 15 livelli",
-    "koKR": "대상 적에게 눈을 깜박여 그와 근처의 다른 적 3명을 공격합니다.\n민첩성이 100마다 재사용 대기시간이 1/25초씩 감소합니다.\n15레벨마다 1개의 추가 타격",
-    "plPL": "Mrugnij do docelowego wroga, uderzając go i trzech innych pobliskich wrogów\nCzas odnowienia zostaje skrócony o 1/25 sekundy za każde 100 punktów zręczności\nJedno dodatkowe trafienie co 15 poziomów",
-    "esMX": "Parpadea hacia un enemigo objetivo, golpeándolo a él y a otros tres enemigos cercanos.\nEl tiempo de reutilización se reduce en 1/25 de segundo por cada 100 de destreza.\nUn golpe extra cada 15 niveles.",
-    "jaJP": "ターゲットの敵に向かって瞬きし、その敵と近くにいる他の 3 人の敵を攻撃する\n器用さ 100 ごとにクールダウンが 1/25 秒減少します\n15 レベルごとに 1 回の追加ヒット",
-    "ptBR": "Pisca para um inimigo alvo, atingindo ele e outros três inimigos próximos\nO tempo de recarga é reduzido em 1/25 de segundo para cada 100 de destreza\nUm golpe extra a cada 15 níveis",
-    "ruRU": "Моргайте на выбранного врага, нанося удары ему и трем другим ближайшим врагам.\nВремя восстановления сокращается на 1/25 секунды за каждые 100 ловкости.\nОдин дополнительный удар каждые 15 уровней.",
-    "zhCN": "对目标敌人眨眼，击中他和附近的其他三个敌人\n每 100 点敏捷，冷却时间减少 1/25 秒\n每 15 级额外击中一次"
-  },
-  {
     "id": 47626,
     "Key": "starfall1",
     "enUS": "Starfall",
@@ -14618,23 +14465,6 @@
     "ptBR": "Queda Estelar",
     "ruRU": "Звездопад",
     "zhCN": "星落"
-  },
-  {
-    "id": 47627,
-    "Key": "starfall2",
-    "enUS": "Calls down a rain of stars on all nearby enemies.\nEach star deals splash damage on hit and weakens\nthe affected enemies' magic resist\nOne additional wave every 35 levels",
-    "zhTW": "對附近的所有敵人召喚星雨。\n每顆星星都會在擊中時造成濺射傷害並削弱\n受影響敵人的魔抗\n每 35 級額外增加一波",
-    "deDE": "Beschwört einen Sternenregen auf alle Gegner in der Nähe.\nJeder Stern verursacht bei einem Treffer Spritzschaden und wird schwächer\ndie Magieresistenz der betroffenen Feinde\nEine zusätzliche Welle alle 35 Level",
-    "esES": "Invoca una lluvia de estrellas sobre todos los enemigos cercanos.\nCada estrella causa daño por salpicadura al golpear y se debilita.\nLa resistencia mágica de los enemigos afectados.\nUna ola adicional cada 35 niveles.",
-    "frFR": "Invoque une pluie d'étoiles sur tous les ennemis proches.\nChaque étoile inflige des dégâts de zone en cas de coup et s'affaiblit\nla magie des ennemis affectés résiste\nUne vague supplémentaire tous les 35 niveaux",
-    "itIT": "Richiama una pioggia di stelle su tutti i nemici vicini.\nOgni stella infligge danni da schizzi in caso di colpo e si indebolisce\nla resistenza magica dei nemici colpiti\nUn'ondata aggiuntiva ogni 35 livelli",
-    "koKR": "근처의 모든 적에게 별의 비를 내립니다.\n각 별은 적중 시 방사 피해를 입히고 약화됩니다.\n영향을 받은 적의 마법 저항력\n35레벨마다 웨이브 1개 추가",
-    "plPL": "Przywołuje deszcz gwiazd na wszystkich pobliskich wrogów.\nKażda gwiazda zadaje obrażenia obszarowe przy trafieniu i słabnie\nodporność na magię dotkniętych wrogów\nJedna dodatkowa fala co 35 poziomów",
-    "esMX": "Invoca una lluvia de estrellas sobre todos los enemigos cercanos.\nCada estrella causa daño por salpicadura al golpear y se debilita.\nLa resistencia mágica de los enemigos afectados.\nUna ola adicional cada 35 niveles.",
-    "jaJP": "近くの敵全員に星の雨を降らせます。\n各スターはヒット時にスプラッシュダメージを与え、弱体化します\n影響を受けた敵の魔法抵抗\n35 レベルごとに 1 つの追加ウェーブ",
-    "ptBR": "Invoca uma chuva de estrelas sobre todos os inimigos próximos.\nCada estrela causa dano espalhado ao acertar e enfraquece\na resistência mágica dos inimigos afetados\nUma onda adicional a cada 35 níveis",
-    "ruRU": "Вызывает звездный дождь на всех ближайших врагов.\nКаждая звезда наносит урон при попадании и ослабляет.\nсопротивление магии затронутых врагов\nОдна дополнительная волна каждые 35 уровней.",
-    "zhCN": "对附近的所有敌人召唤星雨。\n每颗星星都会在击中时造成溅射伤害并削弱\n受影响敌人的魔抗\n每 35 级额外增加一波"
   },
   {
     "id": 47628,
@@ -14688,23 +14518,6 @@
     "zhCN": "永久冻土风暴"
   },
   {
-    "id": 47635,
-    "Key": "permafroststorm2",
-    "enUS": "Attack an enemy and summon a devastating\nstorm of ice that seeks onto nearby enemies\nEach storm branch bounces three times\nOne additional branch every 25 levels\n100%% Physical Damage Converted to Cold Damage",
-    "zhTW": "攻擊敵人並召喚毀滅性的\n尋找附近敵人的冰風暴\n每個風暴分支彈跳3次\n每 25 級增加一個分支\n100%% 物理傷害轉化為冰冷傷害",
-    "deDE": "Greife einen Feind an und beschwöre eine verheerende Wirkung\nEissturm, der auf nahe Feinde zielt\nJeder Sturmzweig prallt dreimal ab\nAlle 25 Level ein zusätzlicher Zweig\n100%% Physischer Schaden in Kälteschaden umgewandelt",
-    "esES": "Ataca a un enemigo y convoca un devastador\ntormenta de hielo que busca a los enemigos cercanos\nCada rama de tormenta rebota tres veces\nUna rama adicional cada 25 niveles.\n100%% Daño físico convertido en daño por frío",
-    "frFR": "Attaquez un ennemi et invoquez un dévastateur\ntempête de glace qui cherche les ennemis proches\nChaque branche de tempête rebondit trois fois\nUne branche supplémentaire tous les 25 niveaux\n100%% Dégâts physiques convertis en dégâts de froid",
-    "itIT": "Attacca un nemico ed evoca un devastante\ntempesta di ghiaccio che attacca i nemici vicini\nOgni ramo della tempesta rimbalza tre volte\nUn ramo aggiuntivo ogni 25 livelli\n100%% Danno fisico convertito in danno da freddo",
-    "koKR": "적을 공격하고 파괴적인 존재를 소환합니다.\n근처의 적을 찾아다니는 얼음 폭풍\n각 폭풍 가지가 세 번 튕깁니다.\n25레벨마다 하나의 추가 분기\n100%% 물리 피해가 냉기 피해로 전환됨",
-    "plPL": "Zaatakuj wroga i przyzwij niszczycielską siłę\nburza lodowa, która wyszukuje pobliskich wrogów\nKażda gałąź burzy odbija się trzy razy\nJedna dodatkowa gałąź co 25 poziomów\n100%% Obrażenia fizyczne zamienione na obrażenia od zimna",
-    "esMX": "Ataca a un enemigo y convoca un devastador\ntormenta de hielo que busca a los enemigos cercanos\nCada rama de tormenta rebota tres veces\nUna rama adicional cada 25 niveles.\n100%% Daño físico convertido en daño por frío",
-    "jaJP": "敵を攻撃し、破壊的なものを召喚する\n近くの敵を狙う氷の嵐\n各嵐の枝は 3 回跳ね返ります\n25 レベルごとに 1 つの追加分岐\n100%% 物理ダメージを冷気ダメージに変換",
-    "ptBR": "Ataque um inimigo e convoque um devastador\ntempestade de gelo que procura inimigos próximos\nCada galho da tempestade salta três vezes\nUma filial adicional a cada 25 níveis\n100%% Dano Físico Convertido em Dano de Gelo",
-    "ruRU": "Атакуйте врага и призовите разрушительное\nЛедяной шторм, который нападает на ближайших врагов\nКаждая ветвь шторма отскакивает три раза.\nОдна дополнительная ветка каждые 25 уровней.\n100%% физического урона конвертируется в урон от холода",
-    "zhCN": "攻击敌人并召唤毁灭性的\n寻找附近敌人的冰风暴\n每个风暴分支弹跳3次\n每 25 级增加一个分支\n100%% 物理伤害转化为冰冷伤害"
-  },
-  {
     "id": 47636,
     "Key": "permafrostbranch",
     "enUS": "Ice branches: %d",
@@ -14722,40 +14535,6 @@
     "zhCN": "冰枝：%d"
   },
   {
-    "id": 47637,
-    "Key": "lichkingessencefiredesc",
-    "enUS": "ÿc@1% Fire Spell Damage and 3-6 Fire Damage to Attacks for every 1% Fire Resistance for 3 seconds\nIf you have 15 or more Anointed Items, you have 25% chance on kill to gain",
-    "zhTW": "ÿc@1% 火焰法術傷害，每 1% 火焰抗性造成 3-6 點火焰傷害，持續 3 秒\n如果你有 15 個或更多受膏物品，你有 25% 的機率擊殺獲得",
-    "deDE": "ÿc@1 % Feuerzauberschaden und 3–6 Feuerschaden bei Angriffen pro 1 % Feuerwiderstand für 3 Sekunden\nWenn Sie 15 oder mehr gesalbte Gegenstände haben, besteht eine Chance von 25 %, dass Sie bei Tötungen gewinnen",
-    "esES": "ÿc@1% de daño de hechizos de fuego y 3-6 de daño de fuego a los ataques por cada 1% de resistencia al fuego durante 3 segundos\nSi tienes 15 o más objetos ungidos, tienes un 25 % de posibilidades de ganar al matarlos.",
-    "frFR": "ÿc@1 % de dégâts des sorts de feu et 3 à 6 dégâts de feu aux attaques pour chaque 1 % de résistance au feu pendant 3 secondes\nSi vous possédez 15 objets oints ou plus, vous avez 25 % de chances de gagner en tuant",
-    "itIT": "ÿc@1% di danni da incantesimo di fuoco e 3-6 danni da fuoco agli attacchi per ogni 1% di resistenza al fuoco per 3 secondi\nSe hai 15 o più oggetti unti, hai una probabilità del 25% di ottenerli uccidendoli",
-    "koKR": "ÿc@1% 화염 주문 피해 및 3초 동안 1% 화염 저항당 공격 시 3-6 화염 피해\n기름부음받은 아이템이 15개 이상인 경우 처치 시 25%의 확률로 획득할 수 있습니다.",
-    "plPL": "ÿc@1% obrażeń od zaklęć ognia i 3-6 obrażeń od ognia do ataków za każdy 1% odporności na ogień przez 3 sekundy\nJeśli masz 15 lub więcej Namaszczonych Przedmiotów, masz 25% szansy na zabicie",
-    "esMX": "ÿc@1% de daño de hechizos de fuego y 3-6 de daño de fuego a los ataques por cada 1% de resistencia al fuego durante 3 segundos\nSi tienes 15 o más objetos ungidos, tienes un 25 % de posibilidades de ganar al matarlos.",
-    "jaJP": "ÿc@3 秒間、1% の炎耐性ごとに 1% の炎呪文ダメージと 3 ～ 6 の炎ダメージを攻撃に与える\n15 個以上の油注がれたアイテムを持っている場合、25% の確率でキルして獲得できる",
-    "ptBR": "ÿc@1% de Dano Mágico de Fogo e 3-6 de Dano de Fogo em Ataques para cada 1% de Resistência ao Fogo por 3 segundos\nSe você tiver 15 ou mais Itens Ungidos, você terá 25% de chance de ganhar",
-    "ruRU": "ÿc@1% урона от огненных заклинаний и 3–6 урона от огня атакам за каждые 1% сопротивления огню в течение 3 секунд.\nЕсли у вас есть 15 или более Помазанных предметов, у вас есть 25% шанс получить при убийстве",
-    "zhCN": "ÿc@1% 火焰法术伤害，每 1% 火焰抗性造成 3-6 点火焰伤害，持续 3 秒\n如果你有 15 个或更多受膏物品，你有 25% 的几率击杀获得"
-  },
-  {
-    "id": 690,
-    "Key": "D2bnetHelp1",
-    "enUS": "SEND displays your message to everyone in your chat Channel, regardless of what character portrait is currently selected. This button is activated as soon as you start typing in the Text Box.",
-    "zhTW": "無論當前選擇什麼角色肖像，SEND 都會向聊天頻道中的每個人顯示您的消息。當您開始在文本框中鍵入內容時，該按鈕就會被激活。",
-    "deDE": "SENDEN zeigt Ihre Nachricht allen in Ihrem Chat-Kanal an, unabhängig davon, welches Charakterporträt gerade ausgewählt ist. Diese Schaltfläche wird aktiviert, sobald Sie mit der Eingabe in das Textfeld beginnen.",
-    "esES": "ENVIAR muestra su mensaje a todos en su canal de chat, independientemente del retrato de personaje seleccionado actualmente. Este botón se activa tan pronto como comienza a escribir en el cuadro de texto.",
-    "frFR": "ENVOYER affiche votre message à tous les utilisateurs de votre canal de discussion, quel que soit le portrait de personnage actuellement sélectionné. Ce bouton est activé dès que vous commencez à taper dans la zone de texte.",
-    "itIT": "INVIA mostra il tuo messaggio a tutti nel tuo canale di chat, indipendentemente dal ritratto del personaggio attualmente selezionato. Questo pulsante viene attivato non appena inizi a digitare nella casella di testo.",
-    "koKR": "SEND는 현재 선택된 캐릭터 초상화에 관계없이 채팅 채널의 모든 사람에게 메시지를 표시합니다. 이 버튼은 텍스트 상자에 입력을 시작하자마자 활성화됩니다.",
-    "plPL": "WYŚLIJ wyświetla Twoją wiadomość wszystkim na Twoim kanale czatu, niezależnie od tego, jaki portret postaci jest aktualnie wybrany. Ten przycisk jest aktywowany natychmiast po rozpoczęciu pisania w polu tekstowym.",
-    "esMX": "ENVIAR muestra su mensaje a todos en su canal de chat, independientemente del retrato de personaje seleccionado actualmente. Este botón se activa tan pronto como comienza a escribir en el cuadro de texto.",
-    "jaJP": "SEND では、現在選択されているキャラクターのポートレートに関係なく、チャット チャネル内の全員にメッセージが表示されます。このボタンは、テキスト ボックスに入力を開始するとすぐにアクティブになります。",
-    "ptBR": "ENVIAR exibe sua mensagem para todos em seu canal de bate-papo, independentemente do retrato do personagem selecionado no momento. Este botão é ativado assim que você começa a digitar na caixa de texto.",
-    "ruRU": "SEND отображает ваше сообщение всем в вашем канале чата, независимо от того, какой портрет персонажа выбран в данный момент. Эта кнопка активируется, как только вы начинаете вводить текст в текстовое поле.",
-    "zhCN": "无论当前选择什么角色肖像，SEND 都会向聊天频道中的每个人显示您的消息。当您开始在文本框中键入内容时，该按钮就会被激活。"
-  },
-  {
     "id": 701,
     "Key": "D2bnetHelp11",
     "enUS": "ÿc1Red Textÿc4 represents error messages sent directly from battle.net.",
@@ -14771,23 +14550,6 @@
     "ptBR": "ÿc1Red Textÿc4 representa mensagens de erro enviadas diretamente do battle.net.",
     "ruRU": "ÿc1Red Textÿc4 представляет собой сообщения об ошибках, отправленные непосредственно с сайта Battle.net.",
     "zhCN": "ÿc1Red Textÿc4 表示直接从 Battle.net 发送的错误消息。"
-  },
-  {
-    "id": 709,
-    "Key": "D2bnetHelp41",
-    "enUS": "Maximum Number of Players sets a limit as to how many characters can be in your game at any one time. The default setting is 4. You can change the number of players, up to a maximum of 8, by clicking the Up or Down arrows next to the box.",
-    "zhTW": "最大玩家數量設置了遊戲中同時可以有多少角色的限制。默認設置為 4。您可以通過單擊框旁邊的向上或向下箭頭來更改玩家數量，最多可達 8 人。",
-    "deDE": "Mit der Option „Maximale Spielerzahl“ legen Sie fest, wie viele Charaktere sich gleichzeitig in Ihrem Spiel befinden können. Die Standardeinstellung ist 4. Sie können die Anzahl der Spieler bis zu einem Maximum von 8 ändern, indem Sie auf den Aufwärts- oder Abwärtspfeil neben dem Feld klicken.",
-    "esES": "Número máximo de jugadores establece un límite en cuanto a cuántos personajes pueden haber en tu juego en un momento dado. La configuración predeterminada es 4. Puedes cambiar el número de jugadores, hasta un máximo de 8, haciendo clic en las flechas hacia arriba o hacia abajo junto al cuadro.",
-    "frFR": "Le nombre maximum de joueurs définit une limite quant au nombre de personnages pouvant être présents dans votre jeu à tout moment. Le paramètre par défaut est 4. Vous pouvez modifier le nombre de joueurs, jusqu'à un maximum de 8, en cliquant sur les flèches Haut ou Bas à côté de la case.",
-    "itIT": "Il numero massimo di giocatori imposta un limite al numero di personaggi che possono essere presenti contemporaneamente nel gioco. L'impostazione predefinita è 4. Puoi modificare il numero di giocatori, fino a un massimo di 8, facendo clic sulle frecce Su o Giù accanto alla casella.",
-    "koKR": "최대 플레이어 수는 동시에 게임에 참여할 수 있는 캐릭터 수에 대한 제한을 설정합니다. 기본 설정은 4입니다. 상자 옆에 있는 위쪽 또는 아래쪽 화살표를 클릭하여 플레이어 수를 최대 8명까지 변경할 수 있습니다.",
-    "plPL": "Maksymalna liczba graczy określa limit liczby postaci, które mogą jednocześnie znajdować się w grze. Ustawienie domyślne to 4. Możesz zmienić liczbę graczy do maksymalnie 8, klikając strzałkę w górę lub w dół obok pola.",
-    "esMX": "Número máximo de jugadores establece un límite en cuanto a cuántos personajes pueden haber en tu juego en un momento dado. La configuración predeterminada es 4. Puedes cambiar el número de jugadores, hasta un máximo de 8, haciendo clic en las flechas hacia arriba o hacia abajo junto al cuadro.",
-    "jaJP": "最大プレイヤー数は、一度にゲームに参加できるキャラクターの数の制限を設定します。デフォルト設定は 4 です。ボックスの横にある上矢印または下矢印をクリックすると、プレーヤーの数を最大 8 人まで変更できます。",
-    "ptBR": "O Número Máximo de Jogadores define um limite de quantos personagens podem estar no seu jogo ao mesmo tempo. A configuração padrão é 4. Você pode alterar o número de jogadores, até um máximo de 8, clicando nas setas para cima ou para baixo ao lado da caixa.",
-    "ruRU": "Максимальное количество игроков устанавливает ограничение на количество персонажей, которые могут одновременно участвовать в вашей игре. По умолчанию установлено 4. Вы можете изменить количество игроков (максимум до 8), нажимая стрелки вверх или вниз рядом с полем.",
-    "zhCN": "最大玩家数量设置了游戏中同时可以有多少角色的限制。默认设置为 4。您可以通过单击框旁边的向上或向下箭头来更改玩家数量，最多可达 8 人。"
   },
   {
     "id": 47651,
@@ -15351,40 +15113,6 @@
     "zhTW": "犧牲數量：%d"
   },
   {
-    "id": 47692,
-    "Key": "buckshot23",
-    "enUS": "Perform a brutal, short range attack that deals very high damage to close enemies\nEach fragment splits into two additional fragments that are flung towards nearby enemies",
-    "deDE": "Führe einen brutalen Angriff auf kurze Distanz aus, der nahen Feinden sehr hohen Schaden zufügt\nJedes Fragment teilt sich in zwei weitere Fragmente, die auf nahe Feinde geschleudert werden",
-    "esES": "Realiza un ataque brutal de corto alcance que causa un daño muy alto a los enemigos cercanos.\nCada fragmento se divide en dos fragmentos adicionales que se lanzan hacia los enemigos cercanos.",
-    "esMX": "Realiza un ataque brutal de corto alcance que causa un daño muy alto a los enemigos cercanos.\nCada fragmento se divide en dos fragmentos adicionales que se lanzan hacia los enemigos cercanos.",
-    "frFR": "Effectuez une attaque brutale à courte portée qui inflige des dégâts très importants aux ennemis proches.\nChaque fragment se divise en deux fragments supplémentaires qui sont projetés vers les ennemis proches.",
-    "itIT": "Esegui un attacco brutale a corto raggio che infligge danni molto elevati ai nemici vicini\nOgni frammento si divide in due frammenti aggiuntivi che vengono lanciati verso i nemici vicini",
-    "jaJP": "残忍な短距離攻撃を実行し、近くの敵に非常に高いダメージを与えます\n各破片はさらに 2 つの破片に分割され、近くの敵に向かって投げられます。",
-    "koKR": "가까운 적에게 매우 높은 피해를 주는 잔혹한 단거리 공격을 수행합니다.\n각 조각은 근처의 적에게 던져지는 두 개의 추가 조각으로 분할됩니다.",
-    "plPL": "Wykonaj brutalny atak o krótkim zasięgu, który zadaje bardzo duże obrażenia bliskim wrogom\nKażdy fragment dzieli się na dwa dodatkowe fragmenty, które są rzucane w stronę pobliskich wrogów",
-    "ptBR": "Execute um ataque brutal e de curto alcance que causa dano muito alto a inimigos próximos\nCada fragmento se divide em dois fragmentos adicionais que são arremessados ​​contra os inimigos próximos.",
-    "ruRU": "Выполните жестокую атаку на близком расстоянии, которая нанесет очень большой урон близким врагам.\nКаждый фрагмент разделяется на два дополнительных фрагмента, которые бросаются в ближайших врагов.",
-    "zhCN": "进行残酷的短程攻击，对近距离敌人造成极高伤害\n每个碎片都会分裂成两个额外的碎片，并被抛向附近的敌人",
-    "zhTW": "進行殘酷的短程攻擊，對近距離敵人造成極高傷害\n每個碎片都會分裂成兩個額外的碎片，並被拋向附近的敵人"
-  },
-  {
-    "id": 47701,
-    "Key": "prismaticshot23",
-    "enUS": "Fires prismatic arrows that cycle through\neach element after hitting an enemy\n100% Physical Damage Converted to Elemental Damage\nGains 1 additional arrow every 15 levels up to a maximum of 4\nArrows cannot pierce, but you gain total flat elemental\ndamage bonus equal to your pierce chance on attack",
-    "zhTW": "發射循環穿過的棱柱箭\n擊中敵人後的每個元素\n100% 物理傷害轉化為元素傷害\n每 15 級獲得 1 個額外箭頭，最多 4 個\n箭不能穿透，但你獲得完全平坦的元素\n傷害加值等於你攻擊時的穿刺機率",
-    "deDE": "Feuert prismatische Pfeile ab, die durchlaufen\njedes Element, nachdem es einen Feind getroffen hat\n100 % physischer Schaden werden in Elementarschaden umgewandelt\nErhält alle 15 Level 1 zusätzlichen Pfeil, bis zu einem Maximum von 4\nPfeile können nicht durchdringen, aber du erhältst insgesamt flaches Elementar\nDer Schadensbonus entspricht deiner Durchdringungschance bei einem Angriff",
-    "esES": "Dispara flechas prismáticas que circulan a través de\ncada elemento después de golpear a un enemigo\n100% de daño físico convertido en daño elemental\nGana 1 flecha adicional cada 15 niveles hasta un máximo de 4\nLas flechas no pueden perforar, pero obtienes un elemental plano total.\nBonificación de daño igual a tu probabilidad de perforar al atacar.",
-    "frFR": "Tire des flèches prismatiques qui parcourent\nchaque élément après avoir touché un ennemi\n100 % de dégâts physiques convertis en dégâts élémentaires\nGagne 1 flèche supplémentaire tous les 15 niveaux jusqu'à un maximum de 4\nLes flèches ne peuvent pas percer, mais vous gagnez un élémentaire plat total.\nbonus de dégâts égal à votre chance de percer lors d'une attaque",
-    "itIT": "Spara frecce prismatiche che si spostano attraverso\nogni elemento dopo aver colpito un nemico\n100% del danno fisico convertito in danno elementale\nOttiene 1 freccia aggiuntiva ogni 15 livelli fino a un massimo di 4\nLe frecce non possono perforare, ma ottieni un elementale piatto totale\nbonus al danno pari alla tua probabilità di sfondamento durante l'attacco",
-    "koKR": "순환하는 프리즘 화살을 발사합니다.\n적을 공격한 후의 각 요소\n100% 물리 피해를 원소 피해로 전환\n15레벨마다 화살 1개를 추가로 얻습니다. 최대 4레벨까지 가능합니다.\n화살은 관통할 수 없지만 완전한 평면 원소를 얻습니다.\n공격 시 관통 확률과 동일한 피해 보너스",
-    "plPL": "Wystrzeliwuje pryzmatyczne strzały, które przechodzą przez nie\nkażdy element po trafieniu wroga\n100% obrażeń fizycznych zamienionych na obrażenia od żywiołów\nZyskuje 1 dodatkową strzałę co 15 poziomów, maksymalnie do 4\nStrzały nie mogą przebić, ale zyskujesz całkowicie płaskie żywiołaki\npremia do obrażeń równa szansie na przebicie w ataku",
-    "esMX": "Dispara flechas prismáticas que circulan a través de\ncada elemento después de golpear a un enemigo\n100% de daño físico convertido en daño elemental\nGana 1 flecha adicional cada 15 niveles hasta un máximo de 4\nLas flechas no pueden perforar, pero obtienes un elemental plano total.\nBonificación de daño igual a tu probabilidad de perforar al atacar.",
-    "jaJP": "周期的にプリズムアローを発射します\n敵を攻撃した後の各要素\n100% 物理ダメージを要素ダメージに変換\n15 レベルごとに 1 つの追加の矢を最大 4 つまで獲得します\n矢は貫通できませんが、完全にフラットなエレメンタルを獲得します\n攻撃時の貫通確率に等しいダメージボーナス",
-    "ptBR": "Dispara flechas prismáticas que percorrem\ncada elemento depois de atingir um inimigo\n100% de Dano Físico Convertido em Dano Elemental\nGanha 1 flecha adicional a cada 15 níveis até um máximo de 4\nAs flechas não podem perfurar, mas você ganha um elemental plano total\nbônus de dano igual à sua chance de perfuração no ataque",
-    "ruRU": "Выпускает призматические стрелы, которые циклически проходят сквозь\nкаждый элемент после удара по врагу\n100% физического урона конвертируется в урон от стихий\nПолучает 1 дополнительную стрелу каждые 15 уровней, максимум до 4.\nСтрелы не могут пробить, но вы получаете полный плоский элементаль.\nбонус к урону, равный вашему шансу пробить при атаке",
-    "zhCN": "发射循环穿过的棱柱箭\n击中敌人后的每个元素\n100% 物理伤害转化为元素伤害\n每 15 级获得 1 个额外箭头，最多 4 个\n箭不能穿透，但你获得完全平坦的元素\n伤害加值等于你攻击时的穿刺几率"
-  },
-  {
     "id": 47716,
     "Key": "sharpenedfocus23",
     "enUS": "Improves Inner Sight by increasing the physical resist effect\nand adding elemental and poison resistance reduction effect",
@@ -15622,23 +15350,6 @@
     "jaJP": "伝説の矢を放つ"
   },
   {
-    "id": 64398,
-    "Key": "Skillld363",
-    "enUS": "Fire a legendary guided arrow that hits\na single target multiple times\nusing a crossbow causes you to fire two\nmain bolts, each dealing 25% weapon damage",
-    "zhTW": "發射傳說中的引導箭，擊中目標\n同一目標多次\n使用十字弓會導致你發射兩發\n主螺栓，每個造成 25% 的武器傷害",
-    "deDE": "Feuern Sie einen legendären gelenkten Pfeil ab, der trifft\nein einzelnes Ziel mehrmals\nWenn Sie eine Armbrust verwenden, feuern Sie zwei davon ab\nHauptbolzen, die jeweils 25 % Waffenschaden verursachen",
-    "esES": "Dispara una flecha guiada legendaria que impacta\nun solo objetivo varias veces\nusar una ballesta hace que dispares dos\nrayos principales, cada uno de los cuales inflige un 25% de daño de arma",
-    "esMX": "Dispara una flecha guiada legendaria que impacta\nun solo objetivo varias veces\nusar una ballesta hace que dispares dos\nrayos principales, cada uno de los cuales inflige un 25% de daño de arma",
-    "frFR": "Tirez une flèche guidée légendaire qui touche\nune seule cible plusieurs fois\nutiliser une arbalète vous fait tirer deux\nboulons principaux, chacun infligeant 25 % des dégâts de l'arme",
-    "itIT": "Spara una leggendaria freccia guidata che colpisce\nun unico bersaglio più volte\nusare una balestra ti fa sparare due\ndardi principali, ciascuno dei quali infligge il 25% dei danni dell'arma",
-    "koKR": "명중하는 전설적인 유도 화살을 발사하세요\n단일 대상을 여러 번\n석궁을 사용하면 두 발을 발사할 수 있습니다.\n각각 무기 피해량의 25%를 주는 메인 볼트",
-    "plPL": "Wystrzel legendarną, kierowaną strzałę, która trafia\nwielokrotnie ten sam cel\nużycie kuszy powoduje wystrzelenie dwóch\ngłówne bełty, każdy zadający 25% obrażeń od broni",
-    "ptBR": "Dispare uma flecha guiada lendária que atinge\num único alvo várias vezes\nusar uma besta faz com que você dispare duas\nparafusos principais, cada um causando 25% do dano da arma",
-    "ruRU": "Выпустите легендарную управляемую стрелу, которая попадает\nодна цель несколько раз\nиспользование арбалета заставляет вас выстрелить двумя\nосновные болты, каждый из которых наносит 25% урона от оружия.",
-    "zhCN": "发射传说中的引导箭，击中目标\n同一目标多次\n使用十字弓会导致你发射两发\n主螺栓，每个造成 25% 的武器伤害",
-    "jaJP": "伝説の誘導された矢を発射して命中させる\n単一のターゲットを複数回\nクロスボウを使うと2発発射できる\nメインボルト、それぞれが 25% の武器ダメージを与える"
-  },
-  {
     "id": 64430,
     "Key": "firearmor3",
     "enUS": "Increases your defense rating\nand your cooldown reduction speed",
@@ -15654,23 +15365,6 @@
     "ptBR": "Aumenta sua classificação de defesa\ne sua velocidade de redução de resfriamento",
     "ruRU": "Повышает ваш рейтинг защиты\nи скорость снижения вашего времени восстановления",
     "zhCN": "提高你的防御等级\n和你的冷却减少速度"
-  },
-  {
-    "id": 64434,
-    "Key": "poisonarrow3",
-    "enUS": "Fire a poison arrow that explodes on impact,\ndealing area of effect damage. Every third arrow or bolt is enhanced,\ndealing double damage in a bigger area of effect\nAlways hits",
-    "zhTW": "發射毒箭，撞擊時會爆炸，\n造成範圍傷害。每三個箭頭或螺栓都會得到增強，\n在更大的影響範圍內造成雙倍傷害\n總是命中",
-    "deDE": "Feuern Sie einen Giftpfeil ab, der beim Aufprall explodiert.\nverursacht Flächenschaden. Jeder dritte Pfeil oder Bolzen ist verstärkt,\nVerursacht doppelten Schaden in einem größeren Wirkungsbereich\nEs trifft immer",
-    "esES": "Dispara una flecha venenosa que explota al impactar.\ninfligiendo daño de área de efecto. Se mejora cada tercera flecha o rayo,\nInfligir el doble de daño en un área de efecto más grande.\nSiempre golpea",
-    "frFR": "Tire une flèche empoisonnée qui explose à l'impact,\ninfligeant des dégâts de zone. Une flèche ou un éclair sur trois est amélioré,\ninfligeant le double de dégâts dans une zone d'effet plus grande\nFrappe toujours",
-    "itIT": "Scocca una freccia avvelenata che esplode all'impatto,\ninfliggendo danni ad area d'effetto. Ogni terza freccia o fulmine è migliorata,\ninfliggendo danni doppi in un'area di effetto più ampia\nColpisce sempre",
-    "koKR": "충격을 받으면 폭발하는 독화살을 발사합니다.\n효과 범위 피해를 줍니다. 세 번째 화살이나 볼트가 강화될 때마다\n더 넓은 효과 영역에서 두 배의 피해를 줍니다.\n항상 히트",
-    "plPL": "Wystrzel zatrutą strzałę, która eksploduje przy uderzeniu,\nZadaje obrażenia obszarowe. Co trzecia strzała lub bełt jest ulepszona,\nzadaje podwójne obrażenia na większym obszarze działania\nZawsze trafia",
-    "esMX": "Dispara una flecha venenosa que explota al impactar.\ninfligiendo daño de área de efecto. Se mejora cada tercera flecha o rayo,\nInfligir el doble de daño en un área de efecto más grande.\nSiempre golpea",
-    "jaJP": "衝撃で爆発する毒矢を発射し、\n効果範囲にダメージを与えます。矢またはボルトが 3 つおきに強化されます。\nより広い範囲で2倍のダメージを与える\n必ずヒットします",
-    "ptBR": "Dispare uma flecha envenenada que explode com o impacto,\ncausando dano de área de efeito. Cada terceira flecha ou dardo é aprimorada,\ncausando dano duplo em uma área de efeito maior\nSempre acerta",
-    "ruRU": "Выпустите ядовитую стрелу, которая взрывается при ударе.\nнанесение урона по области действия. Каждая третья стрела или болт усилена,\nнанесение двойного урона в большей области действия\nВсегда попадает",
-    "zhCN": "发射毒箭，撞击时会爆炸，\n造成范围伤害。每三个箭头或螺栓都会得到增强，\n在更大的影响范围内造成双倍伤害\n总是命中"
   },
   {
     "id": 64438,
@@ -15756,23 +15450,6 @@
     "ptBR": "Jogue violentamente um dardo gelado que chama\nderruba meteoros gelados sobre inimigos atingidos\nSempre acerta",
     "ruRU": "Яростно бросьте ледяное копье, которое зовет\nобрушивать ледяные метеоры на пораженных врагов\nВсегда попадает",
     "zhCN": "猛烈地投掷冰冻标枪，召唤\n冰冷的流星落在被击中的敌人身上\n总是命中"
-  },
-  {
-    "id": 64456,
-    "Key": "lightningarrow3",
-    "enUS": "Fire a lightning arrow that splits into several bolts\non impact. Every third arrow or bolt is enhanced, making the secondary\nbolts split into an additional bolt on hitting an enemy\nAlways Hits",
-    "zhTW": "發射一支閃電箭，分裂成數支箭\n關於影響。每第三個箭頭或螺栓都會得到增強，從而使次要箭頭或螺栓\n擊中敵人時螺栓會分裂成額外的螺栓\n總是熱門",
-    "deDE": "Feuern Sie einen Blitzpfeil ab, der sich in mehrere Blitze aufteilt\nbeim Aufprall. Jeder dritte Pfeil oder Bolzen ist verstärkt und somit sekundär\nBolzen teilen sich in einen zusätzlichen Bolzen auf, wenn sie einen Feind treffen\nImmer Treffer",
-    "esES": "Dispara una flecha relámpago que se divide en varios rayos.\nen el impacto. Cada tercera flecha o perno se mejora, haciendo que la secundaria\nLos rayos se dividen en un rayo adicional al golpear a un enemigo.\nSiempre golpea",
-    "frFR": "Tire une flèche éclair qui se divise en plusieurs éclairs\nsur l'impact. Une flèche ou un boulon sur trois est amélioré, ce qui rend le secondaire\nles boulons se divisent en un boulon supplémentaire lorsqu'ils frappent un ennemi\nFrappe toujours",
-    "itIT": "Spara una freccia fulminante che si divide in diversi dardi\nall'impatto. Ogni terza freccia o fulmine viene potenziata, diventando secondaria\ni dardi si dividono in un dardo aggiuntivo quando si colpisce un nemico\nColpisce sempre",
-    "koKR": "여러 개의 볼트로 갈라지는 번개 화살을 발사합니다.\n충격에. 세 번째 화살이나 화살은 모두 강화되어 보조 화살이 됩니다.\n적을 타격하면 볼트가 추가 볼트로 분할됩니다.\n항상 히트",
-    "plPL": "Wystrzel strzałę błyskawicy, która rozpada się na kilka pocisków\nna uderzeniu. Co trzecia strzała lub bełt jest ulepszona, czyniąc ją drugorzędną\nbełty rozdzielają się na dodatkowy bełt po trafieniu wroga\nZawsze hity",
-    "esMX": "Dispara una flecha relámpago que se divide en varios rayos.\nen el impacto. Cada tercera flecha o perno se mejora, haciendo que la secundaria\nLos rayos se dividen en un rayo adicional al golpear a un enemigo.\nSiempre golpea",
-    "jaJP": "いくつかのボルトに分かれる稲妻の矢を発射します\nインパクトに関して。 3 つおきの矢またはボルトが強化され、2 番目の矢またはボルトが強化されます。\n敵を攻撃するとボルトが追加のボルトに分割される\n常にヒットします",
-    "ptBR": "Dispare uma flecha relâmpago que se divide em vários raios\nno impacto. Cada terceira flecha ou parafuso é aprimorado, tornando o secundário\nparafusos se dividem em um parafuso adicional ao atingir um inimigo\nSempre acerta",
-    "ruRU": "Выпустите стрелу-молнию, которая распадается на несколько разрядов.\nпо удару. Каждая третья стрела или болт усиливается, что делает их второстепенными.\nболты разделяются на дополнительный болт при попадании во врага\nВсегда хиты",
-    "zhCN": "发射一支闪电箭，分裂成数支箭\n关于影响。每第三个箭头或螺栓都会得到增强，从而使次要箭头或螺栓\n击中敌人时螺栓会分裂成额外的螺栓\n总是热门"
   },
   {
     "id": 64459,
@@ -15980,23 +15657,6 @@
     "zhCN": "转变怪物来对抗\n其他邪恶的恶魔和野兽"
   },
   {
-    "id": 64501,
-    "Key": "tstrike3",
-    "enUS": "Release a series of chaotic moving lightning trails to destroy your foes\nUsing Thunder Strike increases your lightning pierce for a short period of time",
-    "zhTW": "釋放一系列混亂的移動閃電軌跡來消滅你的敵人\n使用雷霆之擊會在短時間內增加你的閃電穿透力",
-    "deDE": "Lassen Sie eine Reihe chaotischer, sich bewegender Blitzspuren los, um Ihre Feinde zu vernichten\nDie Verwendung von „Donnerschlag“ erhöht für kurze Zeit die Durchschlagskraft Ihres Blitzes",
-    "esES": "Libera una serie de caóticos senderos de relámpagos en movimiento para destruir a tus enemigos.\nUsar Thunder Strike aumenta tu penetración de rayos durante un corto período de tiempo.",
-    "esMX": "Libera una serie de caóticos senderos de relámpagos en movimiento para destruir a tus enemigos.\nUsar Thunder Strike aumenta tu penetración de rayos durante un corto período de tiempo.",
-    "frFR": "Libérez une série de traînées de foudre chaotiques pour détruire vos ennemis\nUtiliser Thunder Strike augmente votre perçage de foudre pendant une courte période",
-    "itIT": "Rilascia una serie di scie caotiche di fulmini in movimento per distruggere i tuoi nemici\nL'uso di Thunder Strike aumenta la perforazione del fulmine per un breve periodo di tempo",
-    "koKR": "일련의 혼란스러운 번개 궤적을 방출하여 적을 파괴하세요\nThunder Strike를 사용하면 짧은 시간 동안 번개 관통력이 증가합니다.",
-    "plPL": "Wypuść serię chaotycznie poruszających się błyskawic, aby zniszczyć swoich wrogów\nUżycie Uderzenia Pioruna zwiększa na krótki czas siłę przebicia błyskawicy",
-    "ptBR": "Solte uma série de rastros de relâmpagos em movimento caótico para destruir seus inimigos\nUsar Thunder Strike aumenta sua penetração de raio por um curto período de tempo",
-    "ruRU": "Выпустите серию хаотических движущихся следов молний, ​​чтобы уничтожить своих врагов.\nИспользование Thunder Strike увеличивает пронзительность вашей молнии на короткий период времени.",
-    "zhCN": "释放一系列混乱的移动闪电轨迹来消灭你的敌人\n使用雷霆之击会在短时间内增加你的闪电穿透力",
-    "jaJP": "一連の混沌とし​​た動く稲妻の軌跡を放ち、敵を破壊します\nサンダーストライクを使用すると、短期間雷の貫通力が増加します"
-  },
-  {
     "id": 64504,
     "Key": "twave3",
     "enUS": "Summon the fury of the ancients around you,\nstriking your foes down with bolts of lightning",
@@ -16114,23 +15774,6 @@
     "ptBR": "passivo – aumenta a vitalidade, velocidade de corrida/caminhada\nFornece vida de reposição adicional igual a 0,1% da vida total por nível",
     "ruRU": "пассивный — увеличивает жизненную силу, скорость бега/ходьбы.\nОбеспечивает дополнительное пополнение жизни, равное 0,1% от общего количества жизни за уровень.",
     "zhCN": "被动 - 增加活力、跑步/步行速度\n每级提供相当于总生命 0.1% 的额外补充生命"
-  },
-  {
-    "id": 64525,
-    "Key": "stampede3",
-    "enUS": "Throws a flurry of axes that travel in a\nzigzag pattern. Each axe splits into another axe\non impact that seeks nearby enemies\nRequires a throwing weapon",
-    "zhTW": "拋出一連串的斧頭，以\n之字形圖案。每把斧頭都會分裂成另一把斧頭\n尋找附近敵人的影響\n需要投擲武器",
-    "deDE": "Wirft eine Flut von Äxten, die sich in einem bewegen\nZickzackmuster. Jede Axt teilt sich in eine andere Axt\nbeim Aufprall, der nach Feinden in der Nähe sucht\nErfordert eine Wurfwaffe",
-    "esES": "Lanza una ráfaga de hachas que viajan en un\npatrón en zigzag. Cada hacha se divide en otra hacha.\nal impactar que busca enemigos cercanos\nRequiere un arma arrojadiza",
-    "esMX": "Lanza una ráfaga de hachas que viajan en un\npatrón en zigzag. Cada hacha se divide en otra hacha.\nal impactar que busca enemigos cercanos\nRequiere un arma arrojadiza",
-    "frFR": "Lance une rafale de haches qui se déplacent dans un\nmotif en zigzag. Chaque hache se divise en une autre hache\nsur l'impact qui cherche les ennemis proches\nNécessite une arme de lancer",
-    "itIT": "Lancia una raffica di asce che viaggiano in a\nmotivo a zigzag. Ogni ascia si divide in un'altra ascia\nall'impatto che cerca i nemici vicini\nRichiede un'arma da lancio",
-    "koKR": "방향으로 이동하는 도끼를 난무합니다.\n지그재그 패턴. 각 도끼는 다른 도끼로 분리됩니다.\n근처의 적을 찾는 충격에\n투척 무기가 필요합니다.",
-    "plPL": "Rzuca grad toporów, które poruszają się w\nwzór zygzakowaty. Każdy topór dzieli się na inny topór\nprzy uderzeniu, który szuka pobliskich wrogów\nWymaga broni do rzucania",
-    "ptBR": "Lança uma rajada de machados que viajam em um\npadrão em ziguezague. Cada machado se divide em outro machado\nno impacto que busca inimigos próximos\nRequer uma arma de arremesso",
-    "ruRU": "Бросает шквал топоров, которые летят в\nзигзагообразный узор. Каждый топор распадается на другой топор\nпри ударе, который ищет ближайших врагов\nТребуется метательное оружие",
-    "zhCN": "抛出一连串的斧头，以\n之字形图案。每把斧头都会分裂成另一把斧头\n寻找附近敌人的影响\n需要投掷武器",
-    "jaJP": "矢を飛ばして移動します。\nジグザグのパターン。それぞれの斧が別の斧に分かれる\n近くの敵を探す衝撃時\n投擲武器が必要"
   },
   {
     "id": 64528,
@@ -16252,23 +15895,6 @@
     "zhCN": "攻击如此之快，以至于你击中\n附近有多个敌人"
   },
   {
-    "id": 64552,
-    "Key": "pstream3",
-    "enUS": "Throw a flurry of shurikens that home in on a target, shredding it to pieces\nUsing a shuriken weapon doubles the amount of shurikens and\nmakes each shuriken seek multiple enemies, but shurikens\ncan no longer home in on enemies multiple times\nThrowing knives and shurikens only",
-    "zhTW": "投擲一連串飛鏢，瞄準目標，將其撕成碎片\n使用手裡劍武器會使手裡劍的數量加倍，並且\n使每個手裡劍尋找多個敵人，但是手裡劍\n無法再多次瞄準敵人\n僅限飛刀和手裡劍",
-    "deDE": "Wirf einen Schwall Shuriken, der auf ein Ziel trifft und es in Stücke reißt\nDie Verwendung einer Shuriken-Waffe verdoppelt die Anzahl der Shuriken und\nlässt jeden Shuriken mehrere Feinde suchen, aber Shuriken\nkann Feinde nicht mehr mehrmals anvisieren\nNur Wurfmesser und Shuriken",
-    "esES": "Lanza una ráfaga de shurikens que se dirigen a un objetivo y lo hacen pedazos.\nUsar un arma shuriken duplica la cantidad de shurikens y\nhace que cada shuriken busque múltiples enemigos, pero los shuriken\nYa no puedo apuntar a los enemigos varias veces.\nLanzar cuchillos y shurikens únicamente",
-    "esMX": "Lanza una ráfaga de shurikens que se dirigen a un objetivo y lo hacen pedazos.\nUsar un arma shuriken duplica la cantidad de shurikens y\nhace que cada shuriken busque múltiples enemigos, pero los shuriken\nYa no puedo apuntar a los enemigos varias veces.\nLanzar cuchillos y shurikens únicamente",
-    "frFR": "Lancez une rafale de shurikens qui se dirigent vers une cible et la déchiquetent en morceaux.\nUtiliser une arme shuriken double le nombre de shurikens et\noblige chaque shuriken à rechercher plusieurs ennemis, mais les shurikens\nne peut plus cibler les ennemis plusieurs fois\nCouteaux de lancer et shurikens uniquement",
-    "itIT": "Lancia una raffica di shuriken che si avventano su un bersaglio, facendolo a pezzi\nL'uso di un'arma shuriken raddoppia la quantità di shuriken e\nfa sì che ogni shuriken cerchi più nemici, ma gli shuriken\nnon è più possibile colpire i nemici più volte\nSolo coltelli da lancio e shuriken",
-    "koKR": "대상을 향해 표창을 쏟아부어 산산조각냅니다.\n수리검 무기를 사용하면 수리검의 양이 두 배로 늘어납니다.\n각 수리검은 여러 명의 적을 찾게 되지만 수리검은\n더 이상 적에게 여러 번 접근할 수 없습니다.\n투척용 칼과 수리검만 사용",
-    "plPL": "Rzuć serię shurikenów, które celują w cel, rozrywając go na kawałki\nUżywanie broni shuriken podwaja liczbę shurikenów i\nsprawia, że ​​każdy shuriken szuka wielu wrogów, ale shurikeny\nnie może już wielokrotnie namierzać wrogów\nTylko rzucanie nożami i shurikenami",
-    "jaJP": "ターゲットに狙いを定めて手裏剣を大量に投げ、ターゲットを粉々にします。\n手裏剣武器を使用すると手裏剣の量が2倍になり、\n各手裏剣は複数の敵を探索しますが、手裏剣は\n敵を何度もホーミングできなくなりました\n投げナイフと手裏剣のみ",
-    "ptBR": "Jogue uma enxurrada de shurikens que atingem um alvo, destruindo-o em pedaços\nUsar uma arma shuriken dobra a quantidade de shurikens e\nfaz com que cada shuriken procure vários inimigos, mas shurikens\nnão pode mais atacar os inimigos várias vezes\nApenas jogando facas e shurikens",
-    "ruRU": "Выбросьте в цель шквал сюрикенов, разбивая ее на куски.\nИспользование сюрикена удваивает количество сюрикенов и\nзаставляет каждый сюрикен искать нескольких врагов, но сюрикены\nбольше не может нацеливаться на врагов несколько раз\nТолько метательные ножи и сюрикены.",
-    "zhCN": "投掷一连串飞镖，瞄准目标，将其撕成碎片\n使用手里剑武器会使手里剑的数量加倍，并且\n使每个手里剑寻找多个敌人，但是手里剑\n无法再多次瞄准敌人\n仅限飞刀和手里剑"
-  },
-  {
     "id": 64555,
     "Key": "lavasentry3",
     "enUS": "Lay a trap that shoots fire waves at your enemies",
@@ -16369,23 +15995,6 @@
     "ptBR": "lança uma poderosa shuriken mágica",
     "ruRU": "бросает мощный магический сюрикен",
     "zhCN": "投掷强大的魔法手里剑"
-  },
-  {
-    "id": 64600,
-    "Key": "Skillld393",
-    "enUS": "Throw a shuriken that chains to multiple enemies\nShurikens can chain and pierce at the same time\nUsing a shuriken weapon makes the shurikens split several times\nand home in on nearby enemies, but can no longer chain\nThrowing knives and shurikens only",
-    "zhTW": "投擲一枚手裡劍，將多個敵人鎖住\n手裡劍可以同時連鎖和刺穿\n使用手裡劍武器會使手裡劍分裂數次\n並瞄準附近的敵人，但無法再連鎖\n僅限飛刀和手裡劍",
-    "deDE": "Wirf einen Shuriken, der mehrere Feinde angreift\nShurikens können gleichzeitig fesseln und durchbohren\nDurch den Einsatz einer Shuriken-Waffe spalten sich die Shuriken mehrmals\nund auf Feinde in der Nähe zielen, kann aber nicht mehr verkettet werden\nNur Wurfmesser und Shuriken",
-    "esES": "Lanza un shuriken que encadena a múltiples enemigos\nLos shurikens pueden encadenar y perforar al mismo tiempo.\nUsar un arma shuriken hace que los shuriken se dividan varias veces\ny apuntar a los enemigos cercanos, pero ya no puede encadenar\nLanzar cuchillos y shurikens únicamente",
-    "frFR": "Lancez un shuriken qui enchaîne plusieurs ennemis\nLes Shurikens peuvent enchaîner et percer en même temps\nL'utilisation d'une arme shuriken fait diviser les shurikens plusieurs fois\net se concentre sur les ennemis proches, mais ne peut plus enchaîner\nCouteaux de lancer et shurikens uniquement",
-    "itIT": "Lancia uno shuriken che incatena più nemici\nGli Shuriken possono incatenare e perforare allo stesso tempo\nL'uso di un'arma shuriken fa sì che gli shuriken si dividano più volte\ne puntare sui nemici vicini, ma non può più incatenarsi\nSolo coltelli da lancio e shuriken",
-    "koKR": "다수의 적에게 연쇄적으로 연결되는 수리검을 던집니다.\n수리검은 사슬과 관통을 동시에 할 수 있습니다.\n수리검 무기를 사용하면 수리검이 여러 번 갈라집니다.\n근처의 적을 공격하지만 더 이상 연결할 수 없습니다.\n투척용 칼과 수리검만 사용",
-    "plPL": "Rzuć shurikenem, który łączy się z wieloma wrogami\nShurikeny mogą jednocześnie łączyć i przebijać\nUżycie broni shuriken powoduje, że shurikeny rozdzielają się kilka razy\ni celuje w pobliskich wrogów, ale nie może już łączyć się w łańcuchy\nTylko rzucanie nożami i shurikenami",
-    "esMX": "Lanza un shuriken que encadena a múltiples enemigos\nLos shurikens pueden encadenar y perforar al mismo tiempo.\nUsar un arma shuriken hace que los shuriken se dividan varias veces\ny apuntar a los enemigos cercanos, pero ya no puede encadenar\nLanzar cuchillos y shurikens únicamente",
-    "jaJP": "複数の敵に連鎖する手裏剣を投げる\n手裏剣は連鎖と貫通を同時に行うことができます\n手裏剣武器を使用すると手裏剣が数回分裂します\n近くの敵を狙い撃ちしますが、連鎖することはできなくなります\n投げナイフと手裏剣のみ",
-    "ptBR": "Jogue uma shuriken que acorrenta vários inimigos\nShurikens podem acorrentar e perfurar ao mesmo tempo\nUsar uma arma shuriken faz com que as shurikens se dividam várias vezes\ne mirar em inimigos próximos, mas não pode mais acorrentar\nApenas jogando facas e shurikens",
-    "ruRU": "Бросьте сюрикен, который приковывает нескольких врагов.\nСюрикены могут сковывать и пронзать одновременно.\nПри использовании сюрикенового оружия сюрикены раскалываются несколько раз.\nи нацеливается на ближайших врагов, но больше не может цеплять\nТолько метательные ножи и сюрикены.",
-    "zhCN": "投掷一枚手里剑，将多个敌人锁住\n手里剑可以同时连锁和刺穿\n使用手里剑武器会使手里剑分裂数次\n并瞄准附近的敌人，但无法再连锁\n仅限飞刀和手里剑"
   },
   {
     "id": 64601,
@@ -16847,23 +16456,6 @@
     "zhCN": "尝试寻找回春药水\n在被杀敌人的尸体中"
   },
   {
-    "id": 46658,
-    "Key": "magicarrow3",
-    "enUS": "Shoot a Magical Arrow that calls down\na Star upon impact which releases several\nCosmic Shards that seek nearby enemies\nDeals increased damage near the impact center",
-    "zhTW": "射出召喚向下的魔法箭\n撞擊時一顆星會釋放出數個\n尋找附近敵人的宇宙碎片\n在撞擊中心附近造成更大的傷害",
-    "deDE": "Schieße einen magischen Pfeil ab, der nach unten ruft\nBeim Aufprall entsteht ein Stern, der mehrere freigibt\nKosmische Splitter, die nach Feinden in der Nähe suchen\nVerursacht erhöhten Schaden in der Nähe des Einschlagzentrums",
-    "esES": "Dispara una flecha mágica que invoca\nuna estrella al impactar que libera varios\nFragmentos cósmicos que buscan enemigos cercanos\nInflige mayor daño cerca del centro de impacto.",
-    "frFR": "Tirez une flèche magique qui appelle\nune étoile à l'impact qui libère plusieurs\nDes éclats cosmiques qui recherchent les ennemis proches\nInflige des dégâts accrus près du centre d'impact",
-    "itIT": "Spara una freccia magica che richiama\nuna stella all'impatto che ne rilascia diverse\nFrammenti cosmici che cercano i nemici vicini\nInfligge danni maggiori vicino al centro di impatto",
-    "koKR": "아래로 떨어지는 마법 화살을 쏘세요\n충격을 받으면 여러 가지를 방출하는 별\n근처의 적을 찾는 우주 파편\n충격 중심 근처에서 피해량이 증가합니다.",
-    "plPL": "Wystrzel magiczną strzałę, która wzywa w dół\nGwiazda po uderzeniu, która uwalnia kilka\nKosmiczne Odłamki, które szukają pobliskich wrogów\nZadaje zwiększone obrażenia w pobliżu środka uderzenia",
-    "esMX": "Dispara una flecha mágica que invoca\nuna estrella al impactar que libera varios\nFragmentos cósmicos que buscan enemigos cercanos\nInflige mayor daño cerca del centro de impacto.",
-    "jaJP": "呼び下ろす魔法の矢を放て\n衝突すると星がいくつか放出される\n近くの敵を探すコズミックシャード\n衝撃中心付近に与えるダメージが増加します",
-    "ptBR": "Atire uma flecha mágica que invoca\numa estrela no impacto que libera vários\nFragmentos Cósmicos que procuram inimigos próximos\nCausa dano aumentado perto do centro de impacto",
-    "ruRU": "Выстрелите волшебной стрелой, призывающей вниз.\nЗвезда при ударе высвобождает несколько\nКосмические осколки, которые ищут ближайших врагов.\nНаносит повышенный урон вблизи центра удара.",
-    "zhCN": "射出召唤向下的魔法箭\n撞击时一颗星会释放出数个\n寻找附近敌人的宇宙碎片\n在撞击中心附近造成更大的伤害"
-  },
-  {
     "id": 46661,
     "Key": "coldarrow3",
     "enUS": "Magically enhances a bolt or arrow\nto split into several shards upon impact\nwhich seek nearby enemies",
@@ -16947,23 +16539,6 @@
     "ptBR": "Jogue um dardo que se estilhaça com o impacto e explode\nem uma nova de lascas após um pequeno atraso",
     "ruRU": "Бросайте копье, которое раскалывается при ударе и взрывается.\nв кольцо осколков после небольшой задержки",
     "zhCN": "投掷标枪，标枪在撞击时会碎裂并爆炸\n短暂延迟后变成一颗碎片新星"
-  },
-  {
-    "id": 46700,
-    "Key": "spearstorm3",
-    "enUS": "Unleash a flurry of spear shards upon striking an enemy\nwhich seek other enemies in close proximity\nApplies a short duration global physical damage buff",
-    "zhTW": "攻擊敵人時釋放一連串長矛碎片\n尋找附近的其他敵人\n應用短暫的全局物理傷害增益",
-    "deDE": "Entfessle einen Schwall Speersplitter, wenn du einen Feind triffst\ndie andere Feinde in unmittelbarer Nähe suchen\nWendet eine kurzzeitige globale Verbesserung des physischen Schadens an",
-    "esES": "Desata una ráfaga de fragmentos de lanza al golpear a un enemigo.\nque buscan otros enemigos en las proximidades\nAplica una mejora de daño físico global de corta duración.",
-    "esMX": "Desata una ráfaga de fragmentos de lanza al golpear a un enemigo.\nque buscan otros enemigos en las proximidades\nAplica una mejora de daño físico global de corta duración.",
-    "frFR": "Libère une rafale d'éclats de lance en frappant un ennemi\nqui cherchent d'autres ennemis à proximité\nApplique un buff de dégâts physiques global de courte durée",
-    "itIT": "Scatena una raffica di schegge di lancia quando colpisci un nemico\nche cercano altri nemici nelle immediate vicinanze\nApplica un potenziamento ai danni fisici globali di breve durata",
-    "koKR": "적을 공격하면 창 파편을 흩뿌립니다.\n가까이 있는 다른 적을 찾는다.\n짧은 시간 동안 전역 물리 피해 버프를 적용합니다.",
-    "plPL": "Po trafieniu wroga uwolnij grad odłamków włóczni\nktóre szukają innych wrogów w bliskiej odległości\nStosuje krótkotrwałe globalne wzmocnienie obrażeń fizycznych",
-    "ptBR": "Liberte uma enxurrada de fragmentos de lança ao atingir um inimigo\nque procuram outros inimigos nas proximidades\nAplica um buff global de dano físico de curta duração",
-    "ruRU": "Выпустите шквал осколков копья при ударе по врагу.\nкоторые ищут других врагов в непосредственной близости\nПрименяет кратковременный глобальный бафф физического урона.",
-    "zhCN": "攻击敌人时释放一连串长矛碎片\n寻找附近的其他敌人\n应用短暂的全局物理伤害增益",
-    "jaJP": "敵を攻撃すると槍の破片を大量に発射する\n近くにいる他の敵を探す\n短期間の全体的な物理ダメージバフを適用します"
   },
   {
     "id": 46708,
@@ -17068,91 +16643,6 @@
     "zhCN": "终结动作\n\n用爆炸性的踢击击退你的敌人\n将充值奖金添加到踢球中\n总是命中"
   },
   {
-    "id": 46731,
-    "Key": "psychichammer3",
-    "enUS": "Use the power of your mind to turn your enemies' brains to mush\nThe effort is so intense that it leaves you vulnerable to the physical world\nAlways hits",
-    "zhTW": "使用你的心靈力量將敵人的大腦變成糊狀\n這種努力如此強烈，以至於讓你容易受到物質世界的影響\n總是命中",
-    "deDE": "Nutzen Sie die Kraft Ihres Geistes, um die Gehirne Ihrer Feinde in Brei zu verwandeln\nDie Anstrengung ist so intensiv, dass Sie für die physische Welt anfällig werden\nEs trifft immer",
-    "esES": "Usa el poder de tu mente para convertir los cerebros de tus enemigos en papilla\nEl esfuerzo es tan intenso que te deja vulnerable al mundo físico.\nSiempre golpea",
-    "frFR": "Utilisez le pouvoir de votre esprit pour réduire en bouillie le cerveau de vos ennemis\nL'effort est si intense qu'il vous rend vulnérable au monde physique\nFrappe toujours",
-    "itIT": "Usa il potere della tua mente per ridurre in poltiglia il cervello dei tuoi nemici\nLo sforzo è così intenso che ti lascia vulnerabile al mondo fisico\nColpisce sempre",
-    "koKR": "마음의 힘을 사용하여 적의 두뇌를 흐트러지게 만드세요.\n노력이 너무 강해서 물리적 세계에 취약해질 수 있습니다.\n항상 히트",
-    "plPL": "Wykorzystaj moc swojego umysłu, aby zamienić mózgi wrogów w papkę\nWysiłek jest tak intensywny, że sprawia, że ​​jesteś podatny na kontakt ze światem fizycznym\nZawsze trafia",
-    "esMX": "Usa el poder de tu mente para convertir los cerebros de tus enemigos en papilla\nEl esfuerzo es tan intenso que te deja vulnerable al mundo físico.\nSiempre golpea",
-    "jaJP": "精神の力を使って敵の脳をドロドロに変えましょう\n努力があまりにも激しいので、物理的な世界に対して脆弱になってしまいます\n必ずヒットします",
-    "ptBR": "Use o poder da sua mente para transformar os cérebros dos seus inimigos em mingau\nO esforço é tão intenso que deixa você vulnerável ao mundo físico\nSempre acerta",
-    "ruRU": "Используйте силу своего разума, чтобы превратить мозги ваших врагов в кашу.\nУсилия настолько интенсивны, что делают вас уязвимыми для физического мира.\nВсегда попадает",
-    "zhCN": "使用你的心灵力量将敌人的大脑变成糊状\n这种努力如此强烈，以至于让你容易受到物质世界的影响\n总是命中"
-  },
-  {
-    "id": 46744,
-    "Key": "mindblast3",
-    "enUS": "Using the power of your mind bombard an area with deadly\nshockwaves and release a devastating wave of pure energy\nThe shockwaves reduce the magic resist of affected enemies",
-    "zhTW": "使用你的心靈力量以致命的方式轟炸一個區域\n衝擊波並釋放毀滅性的純粹能量波\n衝擊波會降低受影響敵人的魔抗",
-    "deDE": "Bombardieren Sie mit der Kraft Ihres Geistes einen Bereich mit tödlichem Gift\nSchockwellen und setzen eine verheerende Welle reiner Energie frei\nDie Schockwellen verringern die Magieresistenz betroffener Feinde",
-    "esES": "Usando el poder de tu mente, bombardea un área con armas mortales.\nondas de choque y liberan una ola devastadora de energía pura\nLas ondas de choque reducen la resistencia mágica de los enemigos afectados.",
-    "frFR": "En utilisant le pouvoir de votre esprit, bombardez une zone avec des bombes mortelles.\ndes ondes de choc et libèrent une vague dévastatrice d’énergie pure\nLes ondes de choc réduisent la résistance magique des ennemis affectés",
-    "itIT": "Usando il potere della tua mente bombarda un'area con armi mortali\nonde d'urto e rilasciano un'onda devastante di pura energia\nLe onde d'urto riducono la resistenza magica dei nemici colpiti",
-    "koKR": "당신의 정신의 힘을 사용하여 치명적인 공격을 가하세요.\n충격파를 발생시키고 순수한 에너지의 파괴적인 파동을 방출합니다.\n충격파는 영향을 받은 적의 마법 저항력을 감소시킵니다.",
-    "plPL": "Używając mocy swojego umysłu, bombarduj obszar zabójczymi substancjami\nfale uderzeniowe i uwolnij niszczycielską falę czystej energii\nFale uderzeniowe zmniejszają odporność na magię dotkniętych wrogów",
-    "esMX": "Usando el poder de tu mente, bombardea un área con armas mortales.\nondas de choque y liberan una ola devastadora de energía pura\nLas ondas de choque reducen la resistencia mágica de los enemigos afectados.",
-    "jaJP": "精神の力を使ってエリアを致命的な攻撃で攻撃する\n衝撃波を発生させ、純粋なエネルギーの破壊的な波を放出します\n衝撃波は影響を受けた敵の魔法抵抗を減少させます",
-    "ptBR": "Usando o poder da sua mente, bombardeie uma área com\nondas de choque e liberar uma onda devastadora de pura energia\nAs ondas de choque reduzem a resistência mágica dos inimigos afetados",
-    "ruRU": "Используя силу своего разума, бомбардируйте область смертельными\nударные волны и выпустить разрушительную волну чистой энергии\nУдарные волны уменьшают сопротивление магии пораженных врагов.",
-    "zhCN": "使用你的心灵力量以致命的方式轰炸一个区域\n冲击波并释放毁灭性的纯粹能量波\n冲击波会降低受影响敌人的魔抗"
-  },
-  {
-    "id": 46747,
-    "Key": "fistsoffire23",
-    "enUS": "Charge-up Skill\n\nConsecutive hits add special fire effects to finishing moves\ncan only be used with claw class weapons\nmust use a dragon finishing move or\nnormal attack to release charges",
-    "zhTW": "蓄力技能\n\n連續攻擊為終結技添加特殊火焰效果\n只能與爪類武器一起使用\n必須使用龍終結技或\n普通攻擊釋放電荷",
-    "deDE": "Aufladefähigkeit\n\nAufeinanderfolgende Treffer fügen den Finishing-Moves besondere Feuereffekte hinzu\nKann nur mit Waffen der Klauenklasse verwendet werden\nmuss einen Drachen-Finishing-Move verwenden oder\nNormaler Angriff, um Ladungen freizusetzen",
-    "esES": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos de fuego especiales a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "frFR": "Compétence de recharge\n\nLes coups consécutifs ajoutent des effets de feu spéciaux aux mouvements de finition\nne peut être utilisé qu'avec des armes de classe griffes\ndoit utiliser un coup de grâce du dragon ou\nattaque normale pour libérer les charges",
-    "itIT": "Abilità di ricarica\n\nI colpi consecutivi aggiungono effetti di fuoco speciali alle mosse finali\npuò essere utilizzato solo con armi di classe artiglio\ndeve usare una mossa finale del drago o\nattacco normale per rilasciare le accuse",
-    "koKR": "충전 스킬\n\n연속 히트 시 마무리 동작에 특수 화염 효과가 추가됩니다.\n클로급 무기에만 사용할 수 있습니다.\n드래곤 마무리 동작을 사용해야 합니다.\n충전을 해제하는 일반 공격",
-    "plPL": "Umiejętność ładowania\n\nKolejne trafienia dodają specjalne efekty ognia do ruchów kończących\nmożna używać tylko z bronią klasy pazurów\nmusi użyć smoczego ruchu kończącego lub\nnormalny atak w celu uwolnienia ładunków",
-    "esMX": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos de fuego especiales a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "jaJP": "チャージアップスキル\n\n連続ヒットで必殺技に特殊な炎の効果が追加される\nクロークラスの武器でのみ使用可能\nドラゴンのフィニッシュムーブを使用するか、\n通常攻撃でチャージ解除",
-    "ptBR": "Habilidade de carga\n\nGolpes consecutivos adicionam efeitos especiais de fogo aos movimentos finais\nsó pode ser usado com armas da classe garra\ndeve usar um movimento de finalização de dragão ou\nataque normal para liberar cargas",
-    "ruRU": "Навык зарядки\n\nПоследовательные попадания добавляют особые эффекты огня к завершающим ударам.\nможно использовать только с оружием класса «когти».\nдолжен использовать завершающий прием дракона или\nобычная атака для снятия зарядов",
-    "zhCN": "蓄力技能\n\n连续攻击为终结技添加特殊火焰效果\n只能与爪类武器一起使用\n必须使用龙终结技或\n普通攻击释放电荷"
-  },
-  {
-    "id": 46748,
-    "Key": "clawsofthunder23",
-    "enUS": "Charge-up Skill\n\nConsecutive hits add special lightning effects to finishing moves\ncan only be used with claw class weapons\nmust use a dragon finishing move or\nnormal attack to release charges",
-    "zhTW": "蓄力技能\n\n連續攻擊為終結技添加特殊閃電效果\n只能與爪類武器一起使用\n必須使用龍終結技或\n普通攻擊釋放電荷",
-    "deDE": "Aufladefähigkeit\n\nAufeinanderfolgende Treffer verleihen den Finishing-Moves besondere Blitzeffekte\nKann nur mit Waffen der Klauenklasse verwendet werden\nmuss einen Drachen-Finishing-Move verwenden oder\nNormaler Angriff, um Ladungen freizusetzen",
-    "esES": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos especiales de relámpago a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "frFR": "Compétence de recharge\n\nLes coups consécutifs ajoutent des effets de foudre spéciaux aux mouvements de finition\nne peut être utilisé qu'avec des armes de classe griffes\ndoit utiliser un coup de grâce du dragon ou\nattaque normale pour libérer les charges",
-    "itIT": "Abilità di ricarica\n\nI colpi consecutivi aggiungono speciali effetti di fulmine alle mosse finali\npuò essere utilizzato solo con armi di classe artiglio\ndeve usare una mossa finale del drago o\nattacco normale per rilasciare le accuse",
-    "koKR": "충전 스킬\n\n연속 공격은 마무리 동작에 특별한 번개 효과를 추가합니다.\n클로급 무기에만 사용할 수 있습니다.\n드래곤 마무리 동작을 사용해야 합니다.\n충전을 해제하는 일반 공격",
-    "plPL": "Umiejętność ładowania\n\nKolejne trafienia dodają specjalne efekty błyskawic do ruchów kończących\nmożna używać tylko z bronią klasy pazurów\nmusi użyć smoczego ruchu kończącego lub\nnormalny atak w celu uwolnienia ładunków",
-    "esMX": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos especiales de relámpago a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "jaJP": "チャージアップスキル\n\n連続ヒットにより、必殺技に特別な稲妻効果が追加されます。\nクロークラスの武器でのみ使用可能\nドラゴンのフィニッシュムーブを使用するか、\n通常攻撃でチャージ解除",
-    "ptBR": "Habilidade de carga\n\nGolpes consecutivos adicionam efeitos especiais de relâmpago aos movimentos finais\nsó pode ser usado com armas da classe garra\ndeve usar um movimento de finalização de dragão ou\nataque normal para liberar cargas",
-    "ruRU": "Навык зарядки\n\nПоследовательные удары добавляют особые молниеносные эффекты к добивающим ударам.\nможно использовать только с оружием класса «когти».\nдолжен использовать завершающий прием дракона или\nобычная атака для снятия зарядов",
-    "zhCN": "蓄力技能\n\n连续攻击为终结技添加特殊闪电效果\n只能与爪类武器一起使用\n必须使用龙终结技或\n普通攻击释放电荷"
-  },
-  {
-    "id": 46749,
-    "Key": "bladesofice23",
-    "enUS": "Charge-up Skill\n\nConsecutive hits add special cold effects to finishing moves\ncan only be used with claw class weapons\nmust use a dragon finishing move or\nnormal attack to release charges\nLast charge Ice Bolts freeze enemies instead of slowing them",
-    "zhTW": "蓄力技能\n\n連續攻擊為終結技帶來特殊的冰冷效果\n只能與爪類武器一起使用\n必須使用龍終結技或\n普通攻擊釋放電荷\n最後一次沖鋒冰箭會凍結敵人而不是減慢他們的速度",
-    "deDE": "Aufladefähigkeit\n\nAufeinanderfolgende Treffer verleihen Finishing-Moves besondere Kälteeffekte\nKann nur mit Waffen der Klauenklasse verwendet werden\nmuss einen Drachen-Finishing-Move verwenden oder\nNormaler Angriff, um Ladungen freizusetzen\nEisblitze mit der letzten Ladung frieren Gegner ein, anstatt sie zu verlangsamen",
-    "esES": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos fríos especiales a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos\nLa última carga de Ice Bolts congela a los enemigos en lugar de ralentizarlos.",
-    "frFR": "Compétence de recharge\n\nLes coups consécutifs ajoutent des effets de froid spéciaux aux mouvements de finition\nne peut être utilisé qu'avec des armes de classe griffes\ndoit utiliser un coup de grâce du dragon ou\nattaque normale pour libérer les charges\nDernière charge : les éclairs de glace gèlent les ennemis au lieu de les ralentir",
-    "itIT": "Abilità di ricarica\n\nI colpi consecutivi aggiungono speciali effetti di freddo alle mosse finali\npuò essere utilizzato solo con armi di classe artiglio\ndeve usare una mossa finale del drago o\nattacco normale per rilasciare le accuse\nL'ultima carica dei Dardi di ghiaccio congela i nemici invece di rallentarli",
-    "koKR": "충전 스킬\n\n연속 히트는 마무리 동작에 특별한 냉기 효과를 추가합니다.\n클로급 무기에만 사용할 수 있습니다.\n드래곤 마무리 동작을 사용해야 합니다.\n충전을 해제하는 일반 공격\n마지막 충전 아이스 볼트는 적의 속도를 늦추는 대신 동결시킵니다.",
-    "plPL": "Umiejętność ładowania\n\nKolejne trafienia dodają specjalne efekty zimna do ruchów kończących\nmożna używać tylko z bronią klasy pazurów\nmusi użyć smoczego ruchu kończącego lub\nnormalny atak w celu uwolnienia ładunków\nOstatni ładunek Lodowych Pocisków zamraża wrogów, zamiast ich spowalniać",
-    "esMX": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos fríos especiales a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos\nLa última carga de Ice Bolts congela a los enemigos en lugar de ralentizarlos.",
-    "jaJP": "チャージアップスキル\n\n連続ヒットにより、必殺技に特別な冷気効果が追加されます。\nクロークラスの武器でのみ使用可能\nドラゴンのフィニッシュムーブを使用するか、\n通常攻撃でチャージ解除\nラストチャージアイスボルトは敵を遅くする代わりに凍らせる",
-    "ptBR": "Habilidade de carga\n\nGolpes consecutivos adicionam efeitos especiais de frio aos movimentos finais\nsó pode ser usado com armas da classe garra\ndeve usar um movimento de finalização de dragão ou\nataque normal para liberar cargas\nA última carga de Ice Bolts congela os inimigos em vez de retardá-los",
-    "ruRU": "Навык зарядки\n\nПоследовательные удары добавляют особые эффекты холода к завершающим ударам.\nможно использовать только с оружием класса «когти».\nдолжен использовать завершающий прием дракона или\nобычная атака для снятия зарядов\nПоследний заряд Ледяных стрел замораживает врагов, а не замедляет их.",
-    "zhCN": "蓄力技能\n\n连续攻击为终结技带来特殊的冰冷效果\n只能与爪类武器一起使用\n必须使用龙终结技或\n普通攻击释放电荷\n最后一次冲锋冰箭会冻结敌人而不是减慢他们的速度"
-  },
-  {
     "id": 46752,
     "Key": "fistsoffirecharge3",
     "enUS": "Charge 3 - Converging Fire Nova: %d-%d Fire Damage",
@@ -17202,23 +16692,6 @@
     "ptBR": "Carga 3 - Parafusos de gelo teleguiados: %d-%d Dano de frio",
     "ruRU": "Заряд 3 — Самонаводящиеся ледяные стрелы: %d-%d урона от холода",
     "zhCN": "冲锋 3 - 自导冰箭：%d-%d 寒冷伤害"
-  },
-  {
-    "id": 46765,
-    "Key": "dragonfury23",
-    "enUS": "Charge-up Skill\n\nConsecutive hits add special shuriken effects to finishing moves\ncan only be used with claw class weapons\nmust use a dragon finishing move or\nnormal attack to release charges",
-    "zhTW": "蓄力技能\n\n連續攻擊會給終結技帶來特殊的手裡劍效果\n只能與爪類武器一起使用\n必須使用龍終結技或\n普通攻擊釋放電荷",
-    "deDE": "Aufladefähigkeit\n\nAufeinanderfolgende Treffer verleihen den Finishing-Moves besondere Shuriken-Effekte\nKann nur mit Waffen der Klauenklasse verwendet werden\nmuss einen Drachen-Finishing-Move verwenden oder\nNormaler Angriff, um Ladungen freizusetzen",
-    "esES": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos especiales de shuriken a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "frFR": "Compétence de recharge\n\nLes coups consécutifs ajoutent des effets shuriken spéciaux aux mouvements de finition\nne peut être utilisé qu'avec des armes de classe griffes\ndoit utiliser un coup de grâce du dragon ou\nattaque normale pour libérer les charges",
-    "itIT": "Abilità di ricarica\n\nI colpi consecutivi aggiungono effetti shuriken speciali alle mosse finali\npuò essere utilizzato solo con armi di classe artiglio\ndeve usare una mossa finale del drago o\nattacco normale per rilasciare le accuse",
-    "koKR": "충전 스킬\n\n연속 공격 시 마무리 동작에 특수 수리검 효과가 추가됩니다.\n클로급 무기에만 사용할 수 있습니다.\n드래곤 마무리 동작을 사용해야 합니다.\n충전을 해제하는 일반 공격",
-    "plPL": "Umiejętność ładowania\n\nKolejne trafienia dodają specjalne efekty shurikenów do ruchów kończących\nmożna używać tylko z bronią klasy pazurów\nmusi użyć smoczego ruchu kończącego lub\nnormalny atak w celu uwolnienia ładunków",
-    "esMX": "Habilidad de carga\n\nLos golpes consecutivos añaden efectos especiales de shuriken a los movimientos finales.\nSólo se puede utilizar con armas de clase garra.\ndebe usar un movimiento final de dragón o\nataque normal para liberar cargos",
-    "jaJP": "チャージアップスキル\n\n連続ヒットで必殺技に特殊な手裏剣効果が追加される\nクロークラスの武器でのみ使用可能\nドラゴンのフィニッシュムーブを使用するか、\n通常攻撃でチャージ解除",
-    "ptBR": "Habilidade de carga\n\nGolpes consecutivos adicionam efeitos especiais de shuriken aos movimentos finais\nsó pode ser usado com armas da classe garra\ndeve usar um movimento de finalização de dragão ou\nataque normal para liberar cargas",
-    "ruRU": "Навык зарядки\n\nПоследовательные удары добавляют особые эффекты сюрикена к добивающим ударам.\nможно использовать только с оружием класса «когти».\nдолжен использовать завершающий прием дракона или\nобычная атака для снятия зарядов",
-    "zhCN": "蓄力技能\n\n连续攻击会给终结技带来特殊的手里剑效果\n只能与爪类武器一起使用\n必须使用龙终结技或\n普通攻击释放电荷"
   },
   {
     "id": 46768,
@@ -17272,23 +16745,6 @@
     "zhCN": "诅咒一群怪物，\n减少他们造成的伤害\n并增加他们受到的元素伤害"
   },
   {
-    "id": 46821,
-    "Key": "vigorlong3",
-    "enUS": "When active, aura increases stamina recovery rate, maximum stamina\nand movement speed for you and your party\nIncreases gold and magic find based on total stamina",
-    "zhTW": "活躍時，光環會增加耐力恢復速度、最大耐力\n以及您和您的隊伍的移動速度\n根據總耐力增加金幣和魔法發現",
-    "deDE": "Wenn sie aktiv ist, erhöht die Aura die Wiederherstellungsrate der Ausdauer, also die maximale Ausdauer\nund Bewegungsgeschwindigkeit für Sie und Ihre Gruppe\nErhöht den Gold- und Magiefund basierend auf der Gesamtausdauer",
-    "esES": "Cuando está activo, el aura aumenta la tasa de recuperación de resistencia, resistencia máxima\ny velocidad de movimiento para ti y tu grupo\nAumenta el hallazgo de oro y magia según la resistencia total.",
-    "frFR": "Lorsqu'elle est active, l'aura augmente le taux de récupération d'endurance et l'endurance maximale.\net vitesse de déplacement pour vous et votre groupe\nAugmente la découverte d'or et de magie en fonction de l'endurance totale",
-    "itIT": "Quando è attiva, l'aura aumenta il tasso di recupero della resistenza, la resistenza massima\ne velocità di movimento per te e il tuo gruppo\nAumenta il ritrovamento di oro e magia in base alla resistenza totale",
-    "koKR": "활성화되면 오라가 스태미나 회복 속도, 최대 스태미나를 증가시킵니다.\n당신과 당신의 파티의 이동 속도\n총 체력에 따라 금과 마법 발견량이 증가합니다.",
-    "plPL": "Kiedy jest aktywna, aura zwiększa szybkość regeneracji wytrzymałości, maksymalną wytrzymałość\ni prędkość ruchu dla Ciebie i Twojej drużyny\nZwiększa ilość złota i magii w oparciu o całkowitą wytrzymałość",
-    "esMX": "Cuando está activo, el aura aumenta la tasa de recuperación de resistencia, resistencia máxima\ny velocidad de movimiento para ti y tu grupo\nAumenta el hallazgo de oro y magia según la resistencia total.",
-    "jaJP": "オーラが発動するとスタミナ回復率、最大スタミナが増加する\nあなたとあなたのパーティーの移動速度\n合計スタミナに基づいてゴールドと魔法の発見量が増加します",
-    "ptBR": "Quando ativa, a aura aumenta a taxa de recuperação de resistência, resistência máxima\ne velocidade de movimento para você e seu grupo\nAumenta a descoberta de ouro e magia com base na resistência total",
-    "ruRU": "При активации аура увеличивает скорость восстановления выносливости, максимальную выносливость.\nи скорость передвижения для вас и вашей группы\nУвеличивает количество золота и магии в зависимости от общей выносливости.",
-    "zhCN": "活跃时，光环会增加耐力恢复速度、最大耐力\n以及您和您的队伍的移动速度\n根据总耐力增加金币和魔法发现"
-  },
-  {
     "id": 46822,
     "Key": "blessedaim23",
     "enUS": "When active, aura increases the crushing blow chance\nand total attack speed for you and and your party",
@@ -17321,23 +16777,6 @@
     "ptBR": "Quando ativa, a aura reflete o dano corpo a corpo causado a você\ne seu grupo de volta ao atacante\nAumenta o dano físico com base nas estatísticas de dano do atacante",
     "ruRU": "Когда активна, аура отражает нанесенный вам урон в ближнем бою.\nи ваша группа возвращается к нападавшему\nУвеличивает физический урон в зависимости от получаемого атакующим урона.",
     "zhCN": "激活时，光环会反映对你造成的近战伤害\n然后你的队伍回到攻击者身边\n根据攻击者受到的伤害统计增加物理伤害"
-  },
-  {
-    "id": 46826,
-    "Key": "sanctuary23",
-    "enUS": "When active, adds magic damage to attacks and\nlowers nearby enemies' magic resist and movement speed\nbased on your total damage to undead and demons amount",
-    "zhTW": "激活時，會為攻擊增加魔法傷害並\n降低附近敵人的魔抗和移動速度\n基於你對不死族和惡魔的總傷害",
-    "deDE": "Wenn aktiv, fügt es Angriffen magischen Schaden hinzu\nVerringert die Magieresistenz und Bewegungsgeschwindigkeit von Gegnern in der Nähe\nbasierend auf Ihrem Gesamtschaden an Untoten und Dämonen",
-    "esES": "Cuando está activo, agrega daño mágico a los ataques y\nReduce la resistencia mágica y la velocidad de movimiento de los enemigos cercanos.\nbasado en la cantidad total de daño a muertos vivientes y demonios",
-    "frFR": "Lorsqu'il est actif, ajoute des dégâts magiques aux attaques et\nréduit la résistance magique et la vitesse de déplacement des ennemis proches\nbasé sur le montant total de vos dégâts infligés aux morts-vivants et aux démons",
-    "itIT": "Quando attivo, aggiunge danni magici agli attacchi e\nriduce la resistenza magica e la velocità di movimento dei nemici vicini\nin base all'importo totale dei danni ai non morti e ai demoni",
-    "koKR": "활성화되면 공격에 마법 피해를 추가하고\n주변 적의 마법 저항력과 이동 속도를 감소시킵니다.\n언데드와 악마에 대한 총 피해량에 따라",
-    "plPL": "Gdy jest aktywny, dodaje obrażenia magiczne do ataków i\nzmniejsza odporność na magię i prędkość ruchu pobliskich wrogów\nw oparciu o całkowitą ilość obrażeń zadanych nieumarłym i demonom",
-    "esMX": "Cuando está activo, agrega daño mágico a los ataques y\nReduce la resistencia mágica y la velocidad de movimiento de los enemigos cercanos.\nbasado en la cantidad total de daño a muertos vivientes y demonios",
-    "jaJP": "発動すると攻撃に魔法ダメージを追加し、\n近くの敵の魔法耐性と移動速度を低下させる\nアンデッドとデーモンに対する合計ダメージ量に基づいて",
-    "ptBR": "Quando ativo, adiciona dano mágico aos ataques e\nreduz a resistência mágica e a velocidade de movimento dos inimigos próximos\ncom base no seu dano total a mortos-vivos e demônios",
-    "ruRU": "При активации добавляет магический урон к атакам и\nснижает сопротивление магии и скорость передвижения ближайших врагов\nв зависимости от вашего общего урона по нежити и демонам",
-    "zhCN": "激活时，会为攻击增加魔法伤害并\n降低附近敌人的魔抗和移动速度\n基于你对不死族和恶魔的总伤害"
   },
   {
     "id": 46829,
@@ -17425,23 +16864,6 @@
     "zhCN": "当处于狼人或熊人形态时，\n释放毁灭性的火焰，搜索并吞噬附近的敌人"
   },
   {
-    "id": 46843,
-    "Key": "chargedclaws23",
-    "enUS": "When in werewolf or werebear form,\nunleash a random number of charged bolts to blanket the battlefield\nEach charged bolt splits into 2 other bolts, up to 2 times",
-    "zhTW": "當處於狼人或熊人形態時，\n釋放隨機數量的帶電閃電來覆蓋戰場\n每個帶電螺栓會分裂成另外 2 個螺栓，最多 2 次",
-    "deDE": "In Werwolf- oder Werbärengestalt,\nEntfessle eine zufällige Anzahl geladener Blitze, um das Schlachtfeld zu bedecken\nJeder geladene Bolzen teilt sich bis zu 2 Mal in zwei weitere Bolzen auf",
-    "esES": "Cuando estás en forma de hombre lobo o hombre oso,\nLibera una cantidad aleatoria de rayos cargados para cubrir el campo de batalla.\nCada rayo cargado se divide en otros 2 rayos, hasta 2 veces",
-    "frFR": "Sous forme de loup-garou ou d'ours-garou,\nlibérez un nombre aléatoire d'éclairs chargés pour couvrir le champ de bataille\nChaque boulon chargé se divise en 2 autres boulons, jusqu'à 2 fois",
-    "itIT": "Quando sei in forma di lupo mannaro o di orso mannaro,\nscatena un numero casuale di dardi carichi per ricoprire il campo di battaglia\nOgni dardo caricato si divide in altri 2 dardi, fino a 2 volte",
-    "koKR": "늑대인간이나 늑대곰 형태일 때,\n전장을 뒤덮기 위해 무작위 수의 충전된 볼트를 발사합니다.\n각 충전된 볼트는 최대 2번까지 2개의 다른 볼트로 분할됩니다.",
-    "plPL": "Będąc w formie wilkołaka lub niedźwiedziołaka,\nwyzwolić losową liczbę naładowanych piorunów, aby zasłonić pole bitwy\nKażdy naładowany pocisk dzieli się na 2 inne, maksymalnie 2 razy",
-    "esMX": "Cuando estás en forma de hombre lobo o hombre oso,\nLibera una cantidad aleatoria de rayos cargados para cubrir el campo de batalla.\nCada rayo cargado se divide en otros 2 rayos, hasta 2 veces",
-    "jaJP": "ウェアウルフまたはウェアベアの状態のとき、\nランダムな数のチャージボルトを放ち、戦場を一面に覆う\nチャージされた各ボルトは最大 2 回、他の 2 つのボルトに分割されます。",
-    "ptBR": "Quando na forma de lobisomem ou lobisomem,\nlibere um número aleatório de raios carregados para cobrir o campo de batalha\nCada parafuso carregado se divide em 2 outros parafusos, até 2 vezes",
-    "ruRU": "В форме оборотня или медведя-оборотня\nвыпустить случайное количество заряженных болтов, чтобы заполнить поле битвы\nКаждый заряженный болт разделяется на 2 других болта, до 2 раз.",
-    "zhCN": "当处于狼人或熊人形态时，\n释放随机数量的带电闪电来覆盖战场\n每个带电螺栓会分裂成另外 2 个螺栓，最多 2 次"
-  },
-  {
     "id": 46847,
     "Key": "shockwave23",
     "enUS": "When in werebear form, unleash a shockwave\nthat reverberates upon hitting enemies",
@@ -17508,23 +16930,6 @@
     "ptBR": "Torne-se fortalecido pelos elementos, melhorando seu\ncapacidades de lançamento de feitiços ao custo de sua mana\nPode ser ativado e desativado",
     "ruRU": "Получите силу стихий, улучшив свои\nколдовские способности за счет вашей маны\nМожно включать и выключать",
     "zhCN": "获得元素的力量，提高你的\n以法力为代价的施法能力\n可以打开和关闭"
-  },
-  {
-    "id": 46869,
-    "Key": "fissure3",
-    "enUS": "Open volcanic vents at the target location, releasing\nmagma balls that explode on landing, scorching your enemies\nand lowering their fire resistance briefly",
-    "zhTW": "在目標位置打開火山噴口，釋放\n岩漿球落地時爆炸，燒焦你的敵人\n並短暫降低其耐火性",
-    "deDE": "Öffnen Sie Vulkanschlote am Zielort und lassen Sie sie frei\nMagmabälle, die bei der Landung explodieren und deine Feinde versengen\nund ihre Feuerbeständigkeit kurzzeitig verringert",
-    "esES": "Abrir respiraderos volcánicos en el lugar objetivo, liberando\nBolas de magma que explotan al aterrizar y queman a tus enemigos.\ny reduciendo brevemente su resistencia al fuego",
-    "esMX": "Abrir respiraderos volcánicos en el lugar objetivo, liberando\nBolas de magma que explotan al aterrizar y queman a tus enemigos.\ny reduciendo brevemente su resistencia al fuego",
-    "frFR": "Ouvrez les bouches volcaniques à l'emplacement cible, libérant\ndes boules de magma qui explosent à l'atterrissage, brûlant vos ennemis\net en diminuant brièvement leur résistance au feu",
-    "itIT": "Apri le bocche vulcaniche nella posizione bersaglio, rilasciandole\nsfere di magma che esplodono all'atterraggio, bruciando i tuoi nemici\ne abbassando brevemente la loro resistenza al fuoco",
-    "koKR": "대상 위치에 화산 분출구를 열어 방출합니다.\n착지 시 폭발하여 적을 불태우는 마그마 볼\n화재 저항력이 잠시 감소합니다.",
-    "plPL": "Otwórz kominy wulkaniczne w docelowym miejscu i uwolnij je\nkule magmy, które eksplodują przy lądowaniu, spalając wrogów\ni krótkotrwałe obniżenie ich odporności ogniowej",
-    "jaJP": "狙った場所で噴火口を開けて放出する\n着地すると爆発して敵を焼き尽くすマグマボール\n耐火性を一時的に低下させます",
-    "ptBR": "Abra aberturas vulcânicas no local alvo, liberando\nbolas de magma que explodem ao pousar, queimando seus inimigos\ne diminuindo brevemente sua resistência ao fogo",
-    "ruRU": "Открыть жерла вулканов в выбранном месте, выпустив\nмагматические шары, которые взрываются при приземлении, обжигая ваших врагов\nи кратковременно понизить их огнестойкость",
-    "zhCN": "在目标位置打开火山喷口，释放\n岩浆球落地时爆炸，烧焦你的敌人\n并短暂降低其耐火性"
   },
   {
     "id": 46871,
@@ -26360,23 +25765,6 @@
     "zhCN": "用你的心灵力量消灭你的敌人"
   },
   {
-    "id": 46779,
-    "Key": "mythicaldragontalon2",
-    "enUS": "Kicks an enemy without expending any charges\nCharge duration increased significantly with this weapon equipped\nApplies a drastic penalty to all damage\nAlways hits",
-    "zhTW": "踢敵人而不消耗任何能量\n配備該武器後，蓄力持續時間顯著增加\n對所有傷害施加嚴厲懲罰\n總是命中",
-    "deDE": "Tritt einen Feind, ohne Ladungen zu verbrauchen\nMit dieser Waffe erhöhte sich die Ladedauer erheblich\nVerhängt eine drastische Strafe auf sämtlichen Schaden\nEs trifft immer",
-    "esES": "Patea a un enemigo sin gastar ninguna carga.\nLa duración de la carga aumentó significativamente con esta arma equipada.\nAplica una penalización drástica a todos los daños.\nSiempre golpea",
-    "frFR": "Frappe un ennemi sans dépenser de charges\nLa durée de charge a considérablement augmenté avec cette arme équipée\nApplique une pénalité drastique à tous les dégâts\nFrappe toujours",
-    "itIT": "Calcia un nemico senza spendere alcuna carica\nLa durata della carica è aumentata significativamente con quest'arma equipaggiata\nApplica una penalità drastica a tutti i danni\nColpisce sempre",
-    "koKR": "충전량을 소모하지 않고 적을 걷어차냅니다.\n이 무기를 장착하면 돌격 시간이 크게 증가합니다.\n모든 피해에 큰 페널티를 적용합니다.\n항상 히트",
-    "plPL": "Kopie wroga, nie zużywając żadnych ładunków\nCzas trwania ładowania znacznie się wydłuża, gdy ta broń jest wyposażona\nStosuje drastyczną karę do wszystkich obrażeń\nZawsze trafia",
-    "esMX": "Patea a un enemigo sin gastar ninguna carga.\nLa duración de la carga aumentó significativamente con esta arma equipada.\nAplica una penalización drástica a todos los daños.\nSiempre golpea",
-    "jaJP": "チャージを消費せずに敵を蹴る\nこの武器を装備するとチャージ持続時間が大幅に増加しました\nすべてのダメージに大幅なペナルティを適用します\n必ずヒットします",
-    "ptBR": "Chuta um inimigo sem gastar nenhuma carga\nA duração da carga aumentou significativamente com esta arma equipada\nAplica uma penalidade drástica a todos os danos\nSempre acerta",
-    "ruRU": "Ударяет врага ногой, не тратя зарядов.\nДлительность заряда значительно увеличена при использовании этого оружия.\nПрименяет резкий штраф ко всему урону.\nВсегда попадает",
-    "zhCN": "踢敌人而不消耗任何能量\n配备该武器后，蓄力持续时间显着增加\n对所有伤害施加严厉惩罚\n总是命中"
-  },
-  {
     "id": 46837,
     "Key": "freezingclaws2",
     "enUS": "Shred enemies to pieces",
@@ -27550,23 +26938,6 @@
     "zhCN": "芬德"
   },
   {
-    "id": 50028,
-    "Key": "skillld30",
-    "enUS": "Unleash alternating waves of spear novas, one smaller\nand one larger. The smaller nova deals 50% more damage\nThe bigger nova applies a physical resist debuff and slows enemies",
-    "zhTW": "交替釋放一波較小的矛新星\n還有一個更大的。較小的新星造成的傷害增加 50%\n更大的新星會施加物理抵抗減益並減慢敵人的速度",
-    "deDE": "Entfessle abwechselnd Wellen von Speernovas, eine davon kleiner\nund eins größer. Die kleinere Nova verursacht 50 % mehr Schaden\nDie größere Nova verursacht einen physischen Resistenz-Debuff und verlangsamt Gegner",
-    "esES": "Libera ondas alternas de novas de lanza, una más pequeña\ny uno más grande. La nova más pequeña causa un 50% más de daño.\nLa nova más grande aplica una desventaja de resistencia física y ralentiza a los enemigos.",
-    "esMX": "Libera ondas alternas de novas de lanza, una más pequeña\ny uno más grande. La nova más pequeña causa un 50% más de daño.\nLa nova más grande aplica una desventaja de resistencia física y ralentiza a los enemigos.",
-    "frFR": "Libérez des vagues alternées de lances novas, une plus petite\net un plus grand. La plus petite nova inflige 50 % de dégâts en plus\nLa plus grosse nova applique un débuff de résistance physique et ralentit les ennemis",
-    "itIT": "Scatena ondate alternate di lance nova, una più piccola\ne uno più grande. La nova più piccola infligge il 50% di danni in più\nLa nova più grande applica un debuff di resistenza fisica e rallenta i nemici",
-    "koKR": "하나 더 작은 창 신성의 교대 파도를 풀어보세요.\n그리고 하나 더 큰 것. 더 작은 노바는 50% 더 많은 피해를 줍니다.\n노바가 클수록 물리 저항 디버프가 적용되고 적의 속도가 느려집니다.",
-    "plPL": "Uwolnij naprzemienne fale nowych włóczni, jedną mniejszą\ni jeden większy. Mniejsza nowa zadaje o 50% więcej obrażeń\nWiększa nova nakłada debuff na odporność fizyczną i spowalnia wrogów",
-    "ptBR": "Liberte ondas alternadas de lanças novas, uma menor\ne um maior. A nova menor causa 50% mais dano\nA nova maior aplica um debuff de resistência física e retarda os inimigos",
-    "ruRU": "Выпустите чередующиеся волны копьевидных нов, одна из которых меньшего размера.\nи один побольше. Меньшая новая звезда наносит на 50% больше урона.\nБольшая звезда накладывает дебафф на физическое сопротивление и замедляет врагов.",
-    "zhCN": "交替释放一波较小的矛新星\n还有一个更大的。较小的新星造成的伤害增加 50%\n更大的新星会施加物理抵抗减益并减慢敌人的速度",
-    "jaJP": "1つ小さいスピアノヴァの波を交互に放ちます\nそしてもう一つ大きいもの。小さいノバは与えるダメージが 50% 増加します\nより大きなノヴァは物理抵抗デバフを適用し、敵を遅くします"
-  },
-  {
     "id": 50029,
     "Key": "skillan30",
     "enUS": "Fend",
@@ -27771,23 +27142,6 @@
     "zhCN": "法力碎片"
   },
   {
-    "id": 50041,
-    "Key": "manashards23",
-    "enUS": "Cast a volley of ice shards that grow in numbers based on total mana\nThe shards split 2 times on impact, searching neaby enemies\nGain +1 shard for every 3000 maximum mana, up to a maximum of 15\nGains synergy damage bonus from all damage dealing cold spells",
-    "zhTW": "施放一連串的冰碎片，冰碎片的數量會根據總法力而增加\n碎片在撞擊時分裂兩次，搜索附近的敵人\n每 3000 最大法力獲得 +1 碎片，最多 15\n從所有造成寒冷法術的傷害中獲得協同傷害加值",
-    "deDE": "Wirf eine Salve aus Eissplittern, deren Anzahl je nach Gesamtmana zunimmt\nDie Scherben teilen sich beim Aufprall zweimal und suchen nach Feinden in der Nähe\nErhalte +1 Splitter pro 3000 maximales Mana, bis zu einem Maximum von 15\nErhält einen Synergieschadensbonus durch alle Schaden verursachenden Kältezauber",
-    "esES": "Lanza una andanada de fragmentos de hielo que aumentan en número según el maná total.\nLos fragmentos se dividen 2 veces al impactar, buscando enemigos cercanos.\nGana +1 fragmento por cada 3000 de maná máximo, hasta un máximo de 15\nObtiene bonificación de daño de sinergia de todo el daño que inflige hechizos de frío.",
-    "frFR": "Lancez une volée d'éclats de glace dont le nombre augmente en fonction du mana total.\nLes éclats se divisent 2 fois à l'impact, recherchant les ennemis proches.\nGagnez +1 fragment tous les 3 000 manas maximum, jusqu'à un maximum de 15\nGagne un bonus de dégâts de synergie pour tous les dégâts infligés par les sorts de froid.",
-    "itIT": "Lancia una raffica di frammenti di ghiaccio che crescono in numero in base al mana totale\nI frammenti si dividono 2 volte all'impatto, cercando i nemici vicini\nOttieni +1 frammento per ogni 3000 mana massimo, fino a un massimo di 15\nOttiene un bonus ai danni sinergici da tutti gli incantesimi di freddo che infliggono danni",
-    "koKR": "총 마나에 따라 숫자가 늘어나는 얼음 파편을 일제 사격합니다.\n충돌 시 파편이 2번 갈라져 근처의 적을 탐색합니다.\n최대 마나 3000마다 파편 +1개를 얻습니다. 최대 15개까지 가능합니다.\n모든 피해를 입히는 냉기 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Rzuć salwę odłamków lodu, których liczba rośnie w zależności od całkowitej many\nOdłamki rozdzielają się 2 razy przy uderzeniu, przeszukując pobliskich wrogów\nOtrzymujesz +1 odłamek za każde 3000 maksymalnej many, maksymalnie do 15\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć zimna zadających obrażenia",
-    "esMX": "Lanza una andanada de fragmentos de hielo que aumentan en número según el maná total.\nLos fragmentos se dividen 2 veces al impactar, buscando enemigos cercanos.\nGana +1 fragmento por cada 3000 de maná máximo, hasta un máximo de 15\nObtiene bonificación de daño de sinergia de todo el daño que inflige hechizos de frío.",
-    "jaJP": "総マナに応じて数が増える氷の破片を一斉射撃します\n衝撃で破片が2回分裂し、近くの敵を探索します\n最大マナ 3000 ごとに +1 シャードを獲得 (最大 15)\n冷気呪文を与えるすべてのダメージから相乗ダメージボーナスを得る",
-    "ptBR": "Lance uma saraivada de fragmentos de gelo que aumentam em número com base na mana total\nOs fragmentos se dividem 2 vezes com o impacto, procurando inimigos próximos\nGanhe +1 fragmento para cada 3.000 de mana máximo, até um máximo de 15\nGanha bônus de dano de sinergia de todos os feitiços de frio que causam dano",
-    "ruRU": "Выпустите залп ледяных осколков, число которых увеличивается в зависимости от общего количества маны.\nОсколки раскололись 2 раза при ударе, обыскивая ближайших врагов.\nПолучите +1 осколок за каждые 3000 максимума маны, максимум до 15.\nПолучает синергический бонус к урону от всего урона, наносящего заклинания холода.",
-    "zhCN": "施放一连串的冰碎片，冰碎片的数量会根据总法力而增加\n碎片在撞击时分裂两次，搜索附近的敌人\n每 3000 最大法力获得 +1 碎片，最多 15\n从所有造成寒冷法术的伤害中获得协同伤害加值"
-  },
-  {
     "id": 50042,
     "Key": "shardnumber",
     "enUS": "%d shards",
@@ -27873,23 +27227,6 @@
     "jaJP": "プラズマの群れ"
   },
   {
-    "id": 50047,
-    "Key": "plasmaswarm23",
-    "enUS": "Summon a devastating lightning tempest at the target location\nthat swarms nearby enemies with charged bolts\nThe bolts split up to 2 times on impact, searching neaby enemies\nPierce modifiers apply to charged bolts\nGains synergy damage bonus from all damage dealing lightning spells",
-    "zhTW": "在目標位置召喚毀滅性的閃電風暴\n用帶電的螺栓包圍附近的敵人\n閃電在撞擊時最多分裂 2 次，搜索附近的敵人\n穿刺修改器適用於帶電螺栓\n從所有造成閃電法術傷害的法術中獲得協同傷害加值",
-    "deDE": "Beschwöre einen verheerenden Blitzsturm am Zielort\ndas in der Nähe befindliche Feinde mit geladenen Blitzen umschwärmt\nDie Bolzen teilen sich beim Aufprall bis zu zwei Mal und suchen nach Feinden in der Nähe\nDurchdringungsmodifikatoren gelten für geladene Bolzen\nErhält einen Synergieschadensbonus durch alle Schaden verursachenden Blitzzauber",
-    "esES": "Invoca una devastadora tormenta eléctrica en la ubicación objetivo.\nque ataca a los enemigos cercanos con rayos cargados\nLos rayos se dividen hasta 2 veces al impactar, buscando enemigos cercanos.\nLos modificadores de perforación se aplican a pernos cargados.\nObtiene bonificación de daño de sinergia de todo el daño que inflige hechizos de relámpago.",
-    "esMX": "Invoca una devastadora tormenta eléctrica en la ubicación objetivo.\nque ataca a los enemigos cercanos con rayos cargados\nLos rayos se dividen hasta 2 veces al impactar, buscando enemigos cercanos.\nLos modificadores de perforación se aplican a pernos cargados.\nObtiene bonificación de daño de sinergia de todo el daño que inflige hechizos de relámpago.",
-    "frFR": "Invoquez une tempête de foudre dévastatrice à l'emplacement cible\nqui envahit les ennemis proches avec des éclairs chargés\nLes carreaux se fendent jusqu'à 2 fois à l'impact, recherchant les ennemis proches\nLes modificateurs de perçage s'appliquent aux boulons chargés\nGagne un bonus de dégâts de synergie pour tous les sorts de foudre infligeant des dégâts",
-    "itIT": "Evoca una devastante tempesta di fulmini nella posizione bersaglio\nche sciama i nemici vicini con dardi carichi\nI dardi si dividono fino a 2 volte all'impatto, colpendo i nemici vicini\nI modificatori di perforazione si applicano ai dardi caricati\nOttiene un bonus ai danni sinergici da tutti gli incantesimi fulminanti che infliggono danni",
-    "koKR": "대상 위치에 파괴적인 번개 폭풍을 소환합니다.\n충전된 볼트로 근처의 적들을 몰아냅니다.\n충격 시 볼트가 최대 2번 분리되어 근처의 적을 검색합니다.\n관통 수정자는 충전된 볼트에 적용됩니다.\n모든 피해를 입히는 번개 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Przywołaj niszczycielską burzę piorunów w wybranym miejscu\nktóry zasypuje pobliskich wrogów naładowanymi pociskami\nPociski rozdzielają się do 2 razy przy uderzeniu, przeszukując pobliskich wrogów\nModyfikatory przebicia dotyczą naładowanych śrub\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć błyskawic zadających obrażenia",
-    "ptBR": "Invoca uma tempestade de raios devastadora no local alvo\nque ataca inimigos próximos com raios carregados\nOs raios se dividem até 2 vezes com o impacto, procurando inimigos próximos\nModificadores de perfuração se aplicam a parafusos carregados\nGanha bônus de dano de sinergia de todos os feitiços de raio que causam dano",
-    "ruRU": "Вызов разрушительной грозы молний в выбранном месте.\nкоторый поражает ближайших врагов заряженными болтами\nПри ударе болты раскалываются до 2 раз, обыскивая ближайших врагов.\nМодификаторы пробивания применяются к заряженным болтам.\nПолучает синергический бонус к урону от всех заклинаний, наносящих урон молнией.",
-    "zhCN": "在目标位置召唤毁灭性的闪电风暴\n用带电的螺栓包围附近的敌人\n闪电在撞击时最多分裂 2 次，搜索附近的敌人\n穿刺修改器适用于带电螺栓\n从所有造成闪电法术伤害的法术中获得协同伤害加值",
-    "jaJP": "ターゲットの場所に壊滅的な雷の嵐を呼び起こす\n近くの敵をチャージボルトで群がる\n衝撃でボルトが最大 2 回分割され、近くの敵を索敵します\nピアスモディファイアは充電ボルトに適用されます\n雷呪文を与えるすべてのダメージから相乗ダメージボーナスを得る"
-  },
-  {
     "id": 50048,
     "Key": "numberoftargets",
     "enUS": "Bolts seek up to %d targets",
@@ -27922,23 +27259,6 @@
     "ruRU": "Апокалипсис",
     "zhCN": "启示录",
     "jaJP": "黙示録"
-  },
-  {
-    "id": 50050,
-    "Key": "apocalypse23",
-    "enUS": "Draw the ultimate power from your very soul and\nunleash the most destructive spell imaginable. Skies rupture,\nearth shatters, and everything standing is utterly obliterated.\nGains synergy damage bonus from all damage dealing elemental spells",
-    "zhTW": "從你的靈魂中汲取終極力量\n釋放出可以想像到的最具破壞性的咒語。天空裂開，\n大地崩裂，一切存在的事物都被徹底毀滅。\n從所有造成傷害的元素法術中獲得協同傷害加值",
-    "deDE": "Ziehen Sie die ultimative Kraft aus Ihrer Seele und\nEntfessle den zerstörerischsten Zauber, den man sich vorstellen kann. Himmelsbruch,\nDie Erde zerbricht und alles, was noch steht, wird völlig ausgelöscht.\nErhält einen Synergieschadensbonus durch alle Schaden verursachenden Elementarzauber",
-    "esES": "Saca el máximo poder de tu propia alma y\ndesata el hechizo más destructivo imaginable. Los cielos se rompen,\nla tierra se hace añicos y todo lo que queda en pie queda completamente destruido.\nObtiene bonificación de daño de sinergia de todos los hechizos elementales que infligen daño.",
-    "esMX": "Saca el máximo poder de tu propia alma y\ndesata el hechizo más destructivo imaginable. Los cielos se rompen,\nla tierra se hace añicos y todo lo que queda en pie queda completamente destruido.\nObtiene bonificación de daño de sinergia de todos los hechizos elementales que infligen daño.",
-    "frFR": "Tirez le pouvoir ultime de votre âme et\ndéclenchez le sort le plus destructeur imaginable. Le ciel se rompt,\nla terre se brise et tout ce qui est debout est complètement anéanti.\nGagne un bonus de dégâts de synergie de tous les sorts élémentaires infligeant des dégâts",
-    "itIT": "Attingi il potere supremo dalla tua stessa anima e\nscatena l'incantesimo più distruttivo immaginabile. Rottura dei cieli,\nla terra va in frantumi e tutto ciò che esiste viene completamente cancellato.\nOttiene un bonus ai danni sinergici da tutti gli incantesimi elementali che infliggono danni",
-    "koKR": "당신의 영혼에서 궁극적인 힘을 끌어내십시오.\n상상할 수 있는 가장 파괴적인 주문을 발동합니다. 하늘이 부서지고,\n땅이 부서지고, 모든 것이 완전히 소멸되었습니다.\n모든 피해를 입히는 원소 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Wyciągnij najwyższą moc ze swojej duszy i\nuwolnij najbardziej niszczycielskie zaklęcie, jakie można sobie wyobrazić. Niebo pęka,\nziemia się rozpada i wszystko, co stoi, zostaje całkowicie zniszczone.\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć żywiołów zadających obrażenia",
-    "ptBR": "Extraia o poder supremo de sua própria alma e\ndesencadear o feitiço mais destrutivo que se possa imaginar. Ruptura dos céus,\na terra se estilhaça e tudo o que existe é totalmente destruído.\nGanha bônus de dano de sinergia de todos os feitiços elementais que causam dano",
-    "ruRU": "Черпайте высшую силу из самой своей души и\nприменить самое разрушительное заклинание, какое только можно себе представить. Небеса разрываются,\nземля расколется, и все стоящее будет полностью уничтожено.\nПолучает синергический бонус к урону от всех стихийных заклинаний, наносящих урон.",
-    "zhCN": "从你的灵魂中汲取终极力量\n释放出可以想象到的最具破坏性的咒语。天空裂开，\n大地崩裂，一切存在的事物都被彻底毁灭。\n从所有造成伤害的元素法术中获得协同伤害加值",
-    "jaJP": "魂から究極の力を引き出し、\n考えられる限り最も破壊的な呪文を解き放つ。空が裂け、\n大地は砕け、そこにあるものはすべて完全に消滅します。\nダメージを与えるすべての属性呪文から相乗ダメージボーナスを得る"
   },
   {
     "id": 50051,
@@ -29183,23 +28503,6 @@
     "jaJP": "トラップは 20% の確率で 2 倍の手裏剣を生成します\n手裏剣トラップと跳弾の両方の基本ポイントが 20 の場合:"
   },
   {
-    "id": 50128,
-    "Key": "ricochetdoublerangesynergy",
-    "enUS": "Shurikens have a 20% chance to split an additional time (Shurikens)\nYou have a 20% chance to double the number of targets and seek range (Throwing Knives)\nIf both Ricochet and Flurry of Shurikens have 20 base points:",
-    "zhTW": "手裡劍有 20% 的機率再分裂一次（手裡劍）\n你有 20% 的機會將目標數量和搜索範圍加倍（飛刀）\n如果跳彈和手裡劍亂舞都有 20 個基點：",
-    "deDE": "Shurikens haben eine Chance von 20 %, sich ein weiteres Mal zu teilen (Shurikens)\nSie haben eine Chance von 20 %, die Anzahl der Ziele und die Suchreichweite zu verdoppeln (Wurfmesser).\nWenn sowohl Ricochet als auch Flurry of Shurikens 20 Basispunkte haben:",
-    "esES": "Los Shurikens tienen un 20% de posibilidades de dividir un tiempo adicional (Shurikens)\nTienes un 20% de probabilidad de duplicar el número de objetivos y buscar alcance (Lanzar cuchillos)\nSi tanto Ricochet como Flurry of Shurikens tienen 20 puntos base:",
-    "esMX": "Los Shurikens tienen un 20% de posibilidades de dividir un tiempo adicional (Shurikens)\nTienes un 20% de probabilidad de duplicar el número de objetivos y buscar alcance (Lanzar cuchillos)\nSi tanto Ricochet como Flurry of Shurikens tienen 20 puntos base:",
-    "frFR": "Les Shurikens ont 20 % de chances de se diviser une fois supplémentaire (Shurikens)\nVous avez 20 % de chances de doubler le nombre de cibles et de rechercher la portée (Couteaux de lancer)\nSi Ricochet et Flurry of Shurikens ont tous deux 20 points de base :",
-    "itIT": "Gli Shuriken hanno una probabilità del 20% di dividersi un tempo aggiuntivo (Shuriken)\nHai una probabilità del 20% di raddoppiare il numero di bersagli e raggiungere la distanza (Coltelli da lancio)\nSe sia Ricochet che Raffica di Shuriken hanno 20 punti base:",
-    "koKR": "수리검은 20%의 확률로 추가 시간을 분할합니다(수리검).\n20%의 확률로 대상 수와 탐색 범위를 두 배로 늘립니다(투척칼).\nRicochet과 Flurry of Shuriken의 기본 포인트가 모두 20인 경우:",
-    "plPL": "Shurikeny mają 20% szansy na rozdzielenie dodatkowego czasu (Shurikens)\nMasz 20% szans na podwojenie liczby celów i zasięgu szukania (Noże do rzucania)\nJeśli zarówno Rykoszet, jak i Fala Shurikenów mają 20 punktów bazowych:",
-    "jaJP": "手裏剣は 20% の確率で追加の時間を分割します (手裏剣)\n20% の確率でターゲットの数が 2 倍になり、範囲が広がります (投げナイフ)\nRicochet と Flurry of Shurikens の両方の基本ポイントが 20 の場合:",
-    "ptBR": "Shurikens têm 20% de chance de dividir um tempo adicional (Shurikens)\nVocê tem 20% de chance de dobrar o número de alvos e o alcance de busca (Facas de Arremesso)\nSe Ricochet e Flurry of Shurikens tiverem 20 pontos base:",
-    "ruRU": "Сюрикены имеют 20% шанс разделить дополнительное время (Сюрикены)\nУ вас есть 20% шанс удвоить количество целей и дальность поиска (метательные ножи).\nЕсли и Рикошет, и Шквал сюрикенов имеют по 20 базовых очков:",
-    "zhCN": "手里剑有 20% 的几率再分裂一次（手里剑）\n你有 20% 的机会将目标数量和搜索范围加倍（飞刀）\n如果跳弹和手里剑乱舞都有 20 个基点："
-  },
-  {
     "id": 50129,
     "Key": "extraprojectilesynergy",
     "enUS": "%s: +1 Additional Missile per %d Levels",
@@ -30240,23 +29543,6 @@
     "zhCN": "攻击时的法力：+%d"
   },
   {
-    "id": 50192,
-    "Key": "fanaticswingspecialsynergies",
-    "enUS": "Life and mana on striking and damage reduction are tripled\nIf All Elemental Armors have 20 base points:\nFanatic Swing has a 30% chance to double the number of hits\nIf both Fanatic Swing and Meteor Shower have 20 base points:",
-    "zhTW": "攻擊時的生命和法力以及傷害減免增加三倍\n如果所有元素護甲有 20 點基礎點：\n狂熱揮擊有 30% 的機率使命中次數翻倍\n如果狂熱搖擺和流星雨都有20個基點：",
-    "deDE": "Leben und Mana bei Schlägen und Schadensreduzierung werden verdreifacht\nWenn alle Elementarrüstungen 20 Basispunkte haben:\nFanatic Swing hat eine Chance von 30 %, die Anzahl der Treffer zu verdoppeln\nWenn sowohl Fanatic Swing als auch Meteor Shower 20 Basispunkte haben:",
-    "esES": "La vida y el maná al golpear y reducir el daño se triplican.\nSi todas las armaduras elementales tienen 20 puntos base:\nFanatic Swing tiene un 30% de posibilidades de duplicar el número de golpes\nSi tanto Fanatic Swing como Meteor Shower tienen 20 puntos base:",
-    "frFR": "La vie et le mana lors de la frappe et la réduction des dégâts sont triplés\nSi toutes les armures élémentaires ont 20 points de base :\nFanatic Swing a 30 % de chances de doubler le nombre de coups\nSi Fanatic Swing et Meteor Shower ont tous deux 20 points de base :",
-    "itIT": "La vita e il mana in caso di attacco e riduzione del danno vengono triplicati\nSe tutte le armature elementali hanno 20 punti base:\nFanatic Swing ha una probabilità del 30% di raddoppiare il numero di colpi\nSe sia Fanatic Swing che Meteor Shower hanno 20 punti base:",
-    "koKR": "타격 및 피해 감소 시 생명력과 마나가 3배로 증가합니다.\n모든 원소 갑옷의 ​​기본 포인트가 20인 경우:\n파나틱 스윙의 30% 확률로 적중 횟수가 2배 증가합니다.\nFanatic Swing과 Meteor 샤워 모두 기본 포인트가 20인 경우:",
-    "plPL": "Życie i mana przy ataku oraz redukcji obrażeń zostają potrojone\nJeśli wszystkie zbroje żywiołów mają 20 punktów bazowych:\nFanatyczny Swing ma 30% szans na podwojenie liczby trafień\nJeśli zarówno Fanatyczny Huśtawka, jak i Deszcz Meteorów mają 20 punktów bazowych:",
-    "esMX": "La vida y el maná al golpear y reducir el daño se triplican.\nSi todas las armaduras elementales tienen 20 puntos base:\nFanatic Swing tiene un 30% de posibilidades de duplicar el número de golpes\nSi tanto Fanatic Swing como Meteor Shower tienen 20 puntos base:",
-    "jaJP": "打撃時とダメージ軽減時のライフとマナが3倍になる\nすべてのエレメンタル アーマーのベース ポイントが 20 の場合:\nFanatic Swing は 30% の確率でヒット数が 2 倍になります\nファナティック スイングとメテオ シャワーの両方の基本ポイントが 20 の場合:",
-    "ptBR": "Vida e mana em golpes e redução de danos são triplicados\nSe todas as armaduras elementares tiverem 20 pontos base:\nFanatic Swing tem 30% de chance de dobrar o número de acertos\nSe Fanatic Swing e Meteor Shower tiverem 20 pontos base:",
-    "ruRU": "Жизнь и мана при ударе и уменьшении урона утроены.\nЕсли все стихийные доспехи имеют 20 базовых очков:\nФанатический взмах имеет 30% шанс удвоить количество ударов.\nЕсли и Фанатический взмах, и Метеоритный дождь имеют по 20 базовых точек:",
-    "zhCN": "攻击时的生命和法力以及伤害减免增加三倍\n如果所有元素护甲有 20 点基础点：\n狂热挥击有 30% 的几率使命中次数翻倍\n如果狂热摇摆和流星雨都有20个基点："
-  },
-  {
     "id": 50193,
     "Key": "fanaticswingdamage",
     "enUS": "Deals %d%% Weapon Damage as Fire, Lightning, and Cold in Equal Parts",
@@ -30595,23 +29881,6 @@
     "ruRU": "Ледяное мерцание",
     "zhCN": "冰闪",
     "zhTW": "冰閃"
-  },
-  {
-    "id": 50213,
-    "Key": "iceblink23",
-    "enUS": "Teleport to the target location, dealing devastating\ncold damage to the surrounding enemies and freezing them\nThis spell ignores cooldown reduction cap\nGains synergy damage bonus from all direct damage dealing cold spells",
-    "deDE": "Teleportiere dich zum Zielort und verursache verheerenden Schaden\nKälteschaden an den umliegenden Feinden und Einfrieren dieser\nDieser Zauber ignoriert die Obergrenze der Abklingzeitverringerung\nErhält einen Synergieschadensbonus durch alle direkten Schaden verursachenden Kältezauber",
-    "esES": "Teletransportarse a la ubicación objetivo, causando efectos devastadores.\ndaño por frío a los enemigos circundantes y congelarlos\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene una bonificación de daño de sinergia de todo el daño directo que inflige hechizos de frío.",
-    "esMX": "Teletransportarse a la ubicación objetivo, causando efectos devastadores.\ndaño por frío a los enemigos circundantes y congelarlos\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene una bonificación de daño de sinergia de todo el daño directo que inflige hechizos de frío.",
-    "frFR": "Téléportez-vous à l'emplacement cible, infligeant des dégâts dévastateurs\ndégâts de froid sur les ennemis environnants et les geler\nCe sort ignore le plafond de réduction du temps de recharge.\nGagne un bonus de dégâts de synergie pour tous les dégâts directs infligeant des sorts de froid.",
-    "itIT": "Teletrasportarsi nella posizione bersaglio, con effetti devastanti\ndanni da freddo ai nemici circostanti e congelandoli\nQuesto incantesimo ignora il limite di riduzione del tempo di recupero\nOttiene un bonus ai danni sinergici da tutti gli incantesimi di freddo che infliggono danni diretti",
-    "jaJP": "ターゲットの場所にテレポートし、壊滅的な攻撃を行います\n周囲の敵に冷気ダメージを与え、凍結させる\nこの呪文はクールダウン短縮の上限を無視します\nコールドスペルを与えるすべての直接ダメージから相乗ダメージボーナスを得る",
-    "koKR": "대상 위치로 순간이동하여 파괴적인 피해를 입힙니다.\n주변 적들에게 냉기 피해를 주고 얼려줍니다.\n이 주문은 재사용 대기시간 감소 한도를 무시합니다.\n모든 직접적인 피해를 주는 냉기 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Teleportuj się do docelowej lokalizacji, zadając niszczycielskie obrażenia\nobrażenia od zimna zadawane otaczającym wrogom i zamrażanie ich\nZaklęcie to ignoruje limit redukcji czasu odnowienia\nOtrzymuje premię do obrażeń synergicznych ze wszystkich bezpośrednich obrażeń zadających czary zimna",
-    "ptBR": "Teleporte-se para o local alvo, causando danos devastadores\ndano de frio aos inimigos ao redor e congelando-os\nEste feitiço ignora o limite de redução do tempo de recarga\nGanha bônus de dano de sinergia de todos os feitiços de frio que causam dano direto",
-    "ruRU": "Телепортируйтесь в указанное место, нанося разрушительный урон.\nхолодный урон окружающим врагам и их замораживание\nЭто заклинание игнорирует ограничение на сокращение времени восстановления.\nПолучает синергический бонус к урону от всего прямого урона, наносящего заклинания холода.",
-    "zhCN": "传送到目标地点，造成毁灭性的伤害\n对周围的敌人造成冰冷伤害并将其冻结\n该法术忽略冷却减少上限\n从所有造成寒冷法术的直接伤害中获得协同伤害加值",
-    "zhTW": "傳送到目標地點，造成毀滅性的傷害\n對周圍的敵人造成冰冷傷害並將其凍結\n該法術忽略冷卻減少上限\n從所有造成寒冷法術的直接傷害中獲得協同傷害加值"
   },
   {
     "id": 50214,
@@ -31090,23 +30359,6 @@
     "zhTW": "閃電扭曲"
   },
   {
-    "id": 50242,
-    "Key": "lightningwarp23",
-    "enUS": "Teleport to the target location, dealing devastating\nlightning damage to the surrounding enemies\nThis spell ignores cooldown reduction cap\nGains synergy damage bonus from all direct damage dealing lightning spells",
-    "deDE": "Teleportiere dich zum Zielort und verursache verheerenden Schaden\nBlitzschaden an den umliegenden Feinden\nDieser Zauber ignoriert die Obergrenze der Abklingzeitverringerung\nErhält einen Synergieschadensbonus durch alle Blitzzauber, die direkten Schaden verursachen",
-    "esES": "Teletransportarse a la ubicación objetivo, causando efectos devastadores.\nDaño por rayo a los enemigos circundantes.\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene bonificación de daño de sinergia de todo el daño directo que inflige hechizos de relámpago.",
-    "esMX": "Teletransportarse a la ubicación objetivo, causando efectos devastadores.\nDaño por rayo a los enemigos circundantes.\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene bonificación de daño de sinergia de todo el daño directo que inflige hechizos de relámpago.",
-    "frFR": "Téléportez-vous à l'emplacement cible, infligeant des dégâts dévastateurs\ndégâts de foudre sur les ennemis environnants\nCe sort ignore le plafond de réduction du temps de recharge.\nGagne un bonus de dégâts de synergie pour tous les dégâts directs infligeant des sorts de foudre.",
-    "itIT": "Teletrasportarsi nella posizione bersaglio, con effetti devastanti\ndanni da fulmine ai nemici circostanti\nQuesto incantesimo ignora il limite di riduzione del tempo di recupero\nOttiene un bonus ai danni sinergici da tutti gli incantesimi fulminanti che infliggono danni diretti",
-    "jaJP": "ターゲットの場所にテレポートし、壊滅的な攻撃を行います\n周囲の敵に雷ダメージ\nこの呪文はクールダウン短縮の上限を無視します\n雷呪文を与えるすべての直接ダメージから相乗ダメージボーナスを得る",
-    "koKR": "대상 위치로 순간이동하여 파괴적인 피해를 입힙니다.\n주변 적들에게 번개 피해\n이 주문은 재사용 대기시간 감소 한도를 무시합니다.\n모든 직접 피해를 입히는 번개 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Teleportuj się do docelowej lokalizacji, zadając niszczycielskie obrażenia\nobrażenia od błyskawic zadawane otaczającym wrogom\nZaklęcie to ignoruje limit redukcji czasu odnowienia\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć błyskawic zadających obrażenia bezpośrednie",
-    "ptBR": "Teleporte-se para o local alvo, causando danos devastadores\ndano relâmpago aos inimigos ao redor\nEste feitiço ignora o limite de redução do tempo de recarga\nGanha bônus de dano de sinergia de todos os feitiços de raio que causam dano direto",
-    "ruRU": "Телепортируйтесь в указанное место, нанося разрушительный урон.\nурон молнией окружающим врагам\nЭто заклинание игнорирует ограничение на сокращение времени восстановления.\nПолучает синергический бонус к урону от всего прямого урона, наносящего заклинания молнии.",
-    "zhCN": "传送到目标地点，造成毁灭性的伤害\n对周围敌人造成闪电伤害\n该法术忽略冷却减少上限\n从所有造成闪电法术的直接伤害中获得协同伤害加值",
-    "zhTW": "傳送到目標地點，造成毀滅性的傷害\n對周圍敵人造成閃電傷害\n該法術忽略冷卻減少上限\n從所有造成閃電法術的直接傷害中獲得協同傷害加值"
-  },
-  {
     "id": 50243,
     "Key": "piercedesc",
     "enUS": "%+d%% Pierce",
@@ -31258,23 +30510,6 @@
     "ruRU": "Огненный каскад",
     "zhCN": "消防梯",
     "zhTW": "消防梯"
-  },
-  {
-    "id": 50254,
-    "Key": "firecascade23",
-    "enUS": "Summon a cascade of fire that rains fiery arrows upon nearby enemies\nEach subsequent cascade can extend the duration of existing ones to up to 1.2 seconds",
-    "deDE": "Beschwöre eine Feuerkaskade, die feurige Pfeile auf in der Nähe befindliche Feinde niederprasseln lässt\nJede weitere Kaskade kann die Dauer bestehender Kaskaden auf bis zu 1,2 Sekunden verlängern",
-    "esES": "Invoca una cascada de fuego que lanza flechas de fuego sobre los enemigos cercanos.\nCada cascada posterior puede ampliar la duración de las existentes hasta 1,2 segundos.",
-    "esMX": "Invoca una cascada de fuego que lanza flechas de fuego sobre los enemigos cercanos.\nCada cascada posterior puede ampliar la duración de las existentes hasta 1,2 segundos.",
-    "frFR": "Invoque une cascade de feu qui fait pleuvoir des flèches enflammées sur les ennemis proches.\nChaque cascade suivante peut prolonger la durée de celles existantes jusqu'à 1,2 seconde",
-    "itIT": "Evoca una cascata di fuoco che fa piovere frecce infuocate sui nemici vicini\nOgni cascata successiva può prolungare la durata di quelle esistenti fino a 1,2 secondi",
-    "jaJP": "火の滝を召喚し、近くの敵に燃えるような矢の雨を降らせる\n後続の各カスケードでは、既存のカスケードの継続時間を最大 1.2 秒まで延長できます。",
-    "koKR": "근처 적들에게 불화살을 퍼붓는 불의 폭포를 소환합니다.\n각 후속 캐스케이드는 기존 캐스케이드의 지속 시간을 최대 1.2초까지 연장할 수 있습니다.",
-    "plPL": "Przywołaj kaskadę ognia, która rzuca ogniste strzały na pobliskich wrogów\nKażda kolejna kaskada może wydłużyć czas trwania już istniejących aż do 1,2 sekundy",
-    "ptBR": "Invoca uma cascata de fogo que faz chover flechas de fogo sobre os inimigos próximos\nCada cascata subsequente pode estender a duração das existentes para até 1,2 segundos",
-    "ruRU": "Вызов каскада огня, который обрушивает огненные стрелы на ближайших врагов.\nКаждый последующий каскад может продлевать длительность уже существующих до 1,2 секунды.",
-    "zhCN": "召唤一连串火焰，向附近的敌人倾泻火焰箭雨\n每个后续级联都可以将现有级联的持续时间延长至最多 1.2 秒",
-    "zhTW": "召喚一連串火焰，向附近的敵人傾瀉火焰箭雨\n每個後續級聯都可以將現有級聯的持續時間延長至最多 1.2 秒"
   },
   {
     "id": 50255,
@@ -31498,23 +30733,6 @@
     "zhTW": "洛薩之怒"
   },
   {
-    "id": 50271,
-    "Key": "lotharwrath23",
-    "enUS": "Call the spirits of the loyal dead from the grave, stampeding unsuspecting enemies\nBoth the physical and magic damage scales with summon damage\ninstead of physical and magic spell damage\nGains synergy damage bonus from all damage dealing magic and physical spells",
-    "deDE": "Rufen Sie die Geister der treuen Toten aus dem Grab und zerstampfen Sie ahnungslose Feinde\nSowohl der physische als auch der magische Schaden skalieren mit dem Beschwörungsschaden\nanstelle von physischem und magischem Zauberschaden\nErhält einen Synergieschadensbonus durch alle schadensverursachenden magischen und physischen Zauber",
-    "esES": "Invoca a los espíritus de los muertos leales desde la tumba y ahuyenta a enemigos desprevenidos.\nTanto el daño físico como el mágico aumentan con el daño de invocación.\nen lugar de daño de hechizo físico y mágico\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos y físicos que infligen daño.",
-    "esMX": "Invoca a los espíritus de los muertos leales desde la tumba y ahuyenta a enemigos desprevenidos.\nTanto el daño físico como el mágico aumentan con el daño de invocación.\nen lugar de daño de hechizo físico y mágico\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos y físicos que infligen daño.",
-    "frFR": "Appelez les esprits des morts fidèles de la tombe, chassant les ennemis sans méfiance\nLes dégâts physiques et magiques s'adaptent aux dégâts d'invocation.\nau lieu des dégâts physiques et magiques\nGagne un bonus de dégâts de synergie de tous les sorts magiques et physiques infligeant des dégâts",
-    "itIT": "Richiama gli spiriti dei morti leali dalla tomba, facendo precipitare i nemici ignari\nSia il danno fisico che quello magico aumentano con il danno da evocazione\ninvece dei danni fisici e magici derivanti dagli incantesimi\nOttiene un bonus ai danni sinergici da tutti gli incantesimi magici e fisici che infliggono danni",
-    "jaJP": "忠実な死者の霊を墓から呼び起こし、疑いを持たない敵を踏みにじる\n物理ダメージと魔法ダメージは両方とも召喚ダメージに比例する\n物理的および魔法によるダメージの代わりに\n魔法と物理呪文を与えるすべてのダメージから相乗ダメージボーナスを得る",
-    "koKR": "충성스러운 죽은 자들의 영혼을 무덤에서 불러내 방심하고 있는 적들을 짓밟습니다.\n물리 피해와 마법 피해 모두 소환 피해에 따라 증가합니다.\n물리, 마법 피해 대신\n모든 피해를 입히는 마법 및 물리 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Przywołaj duchy lojalnych zmarłych z grobów, depcząc niczego niepodejrzewających wrogów\nZarówno obrażenia fizyczne, jak i magiczne skalują się wraz z obrażeniami przywołania\nzamiast obrażeń fizycznych i magicznych\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć magicznych i fizycznych zadających obrażenia",
-    "ptBR": "Chame os espíritos dos mortos leais do túmulo, debandando inimigos desavisados\nTanto o dano físico quanto o mágico aumentam com o dano de invocação\nem vez de dano físico e mágico\nGanha bônus de dano de sinergia de todos os feitiços mágicos e físicos que causam dano",
-    "ruRU": "Вызовите из могилы духов верных мертвецов, разгоняющих ничего не подозревающих врагов.\nИ физический, и магический урон зависят от урона призыва.\nвместо физического и магического урона от заклинаний\nПолучает синергический бонус к урону от всех магических и физических заклинаний, наносящих урон.",
-    "zhCN": "将忠诚死者的灵魂从坟墓中召唤出来，驱散毫无戒心的敌人\n物理伤害和魔法伤害都与召唤伤害成正比\n而不是物理和魔法法术伤害\n从所有造成魔法和物理伤害的法术中获得协同伤害加值",
-    "zhTW": "將忠誠死者的靈魂從墳墓中召喚出來，驅散毫無戒心的敵人\n物理傷害和魔法傷害都與召喚傷害成正比\n而不是物理和魔法法術傷害\n從所有造成魔法和物理傷害的法術中獲得協同傷害加值"
-  },
-  {
     "id": 50272,
     "Key": "fistsoffiredischarge1",
     "enUS": "Fists of Fire Discharge",
@@ -31581,23 +30799,6 @@
     "ruRU": "Порченное кольцо яда",
     "zhCN": "腐化的毒新星",
     "zhTW": "腐化的毒新星"
-  },
-  {
-    "id": 50276,
-    "Key": "corruptedpoisonnova23",
-    "enUS": "Unleash a ring of toxic spores from the nature itself, poisoning all nearby enemies\nGains synergy damage bonus from all elemental tree damage spells\nRequires Elemental Form to cast",
-    "deDE": "Entfessle einen Ring giftiger Sporen aus der Natur selbst und vergifte alle Feinde in der Nähe\nErhält einen Synergieschadensbonus durch alle Elementarbaum-Schadenszauber\nZum Wirken ist eine Elementarform erforderlich",
-    "esES": "Libera un anillo de esporas tóxicas de la propia naturaleza, envenenando a todos los enemigos cercanos.\nObtiene bonificación de daño de sinergia de todos los hechizos de daño de árbol elemental.\nRequiere forma elemental para lanzar",
-    "esMX": "Libera un anillo de esporas tóxicas de la propia naturaleza, envenenando a todos los enemigos cercanos.\nObtiene bonificación de daño de sinergia de todos los hechizos de daño de árbol elemental.\nRequiere forma elemental para lanzar",
-    "frFR": "Libérez un anneau de spores toxiques provenant de la nature elle-même, empoisonnant tous les ennemis proches.\nGagne un bonus de dégâts de synergie de tous les sorts de dégâts d'arbre élémentaire\nNécessite une forme élémentaire pour lancer",
-    "itIT": "Scatena un anello di spore tossiche dalla natura stessa, avvelenando tutti i nemici vicini\nOttiene bonus ai danni sinergici da tutti gli incantesimi di danno agli alberi elementali\nRichiede la Forma Elementale per essere lanciata",
-    "jaJP": "自然そのものから有毒な胞子の輪を解き放ち、近くの敵をすべて毒殺します\nすべてのエレメンタル・ツリー・ダメージ・スペルから相乗ダメージ・ボーナスを得る\nキャストするにはエレメンタルフォームが必要です",
-    "koKR": "자연 자체에서 독성 포자의 고리를 방출하여 근처의 모든 적을 중독시킵니다.\n모든 원소 나무 피해 주문에서 시너지 피해 보너스를 얻습니다.\n시전하려면 원소 형태가 필요합니다.",
-    "plPL": "Uwolnij pierścień toksycznych zarodników z samej natury, zatruwając wszystkich pobliskich wrogów\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć zadających obrażenia drzewom żywiołów\nDo rzucenia wymaga Formy Żywiołu",
-    "ptBR": "Liberte um anel de esporos tóxicos da própria natureza, envenenando todos os inimigos próximos\nGanha bônus de dano de sinergia de todos os feitiços de dano elemental da árvore\nRequer Forma Elemental para lançar",
-    "ruRU": "Выпустить кольцо токсичных спор самой природы, отравляющее всех ближайших врагов.\nПолучает синергический бонус к урону от всех заклинаний, наносящих элементальный урон деревьям.\nДля применения требуется Форма Элементаля.",
-    "zhCN": "从大自然中释放出一圈有毒孢子，使附近的所有敌人中毒\n从所有元素树伤害法术中获得协同伤害加值\n需要元素形态才能施放",
-    "zhTW": "從大自然中釋放出一圈有毒孢子，使附近的所有敵人中毒\n從所有元素樹傷害法術中獲得協同傷害加值\n需要元素形態才能施放"
   },
   {
     "id": 50277,
@@ -31787,23 +30988,6 @@
     "zhCN": "翼之拥抱"
   },
   {
-    "id": 50293,
-    "Key": "wingedembrace23",
-    "enUS": "Summon forth an ancient spirit of the dead, unleashing\nvengeful wraiths that devastate anything in their path\nGains synergy damage bonus from all damage dealing magic spells",
-    "deDE": "Beschwöre einen uralten Geist der Toten und entfessele ihn\nrachsüchtige Geister, die alles zerstören, was ihnen in den Weg kommt\nErhält einen Synergieschadensbonus durch alle Schaden verursachenden Zaubersprüche",
-    "esES": "Invoca un antiguo espíritu de los muertos, desatando\nEspectros vengativos que devastan todo lo que encuentran a su paso.\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos que infligen daño.",
-    "esMX": "Invoca un antiguo espíritu de los muertos, desatando\nEspectros vengativos que devastan todo lo que encuentran a su paso.\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos que infligen daño.",
-    "frFR": "Invoquez un ancien esprit des morts, libérant\ndes spectres vengeurs qui dévastent tout sur leur passage\nGagne un bonus de dégâts de synergie de tous les sorts magiques infligeant des dégâts",
-    "itIT": "Evoca un antico spirito dei morti, scatenandolo\nspettri vendicativi che devastano qualsiasi cosa sul loro cammino\nOttiene un bonus ai danni sinergici da tutti gli incantesimi magici che infliggono danni",
-    "koKR": "고대의 죽은 자의 영혼을 소환하여 해방시킵니다.\n자신의 길에 있는 모든 것을 파괴하는 복수심에 불타는 망령\n모든 피해를 입히는 마법 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Przywołaj starożytnego ducha zmarłych, uwalniając go\nmściwe upiory, które niszczą wszystko na swojej drodze\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć magicznych zadających obrażenia",
-    "jaJP": "古代の死者の魂を召喚し、解き放つ\n行く手にあるものを破壊する復讐に燃える幽霊\nすべてのダメージを与える魔法の呪文から相乗ダメージボーナスを得る",
-    "ptBR": "Invoque um antigo espírito dos mortos, liberando\nespectros vingativos que devastam qualquer coisa em seu caminho\nGanha bônus de dano de sinergia de todos os feitiços mágicos que causam dano",
-    "ruRU": "Призовите древний дух мертвых, высвободив\nмстительные призраки, разрушающие все на своем пути\nПолучает синергический бонус к урону от всех магических заклинаний, наносящих урон.",
-    "zhCN": "召唤古老的死者灵魂，释放\n复仇心重的幽灵会摧毁路上的一切\n从所有造成伤害的魔法法术中获得协同伤害加值",
-    "zhTW": "召喚古老的死者靈魂，釋放\n復仇心重的幽靈會摧毀路上的一切\n從所有造成傷害的魔法法術中獲得協同傷害加值"
-  },
-  {
     "id": 50294,
     "Key": "iceblink1",
     "enUS": "Ice Blink",
@@ -31819,23 +31003,6 @@
     "ruRU": "Ледяное мерцание",
     "zhCN": "冰闪",
     "zhTW": "冰閃"
-  },
-  {
-    "id": 50295,
-    "Key": "iceblink23",
-    "enUS": "Teleport to the target location, dealing\ndevastating magic damage to the surrounding enemies\nThis spell ignores cooldown reduction cap\nGains synergy damage bonus from all direct damage dealing magic spells",
-    "deDE": "Zum Zielort teleportieren und austeilen\nVerursacht verheerenden magischen Schaden an den umliegenden Feinden\nDieser Zauber ignoriert die Obergrenze der Abklingzeitverringerung\nErhält einen Synergieschadensbonus durch alle Zaubersprüche, die direkten Schaden verursachen",
-    "esES": "Teletransportarse a la ubicación objetivo, lo que inflige\nDaño mágico devastador a los enemigos circundantes.\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos que infligen daño directo.",
-    "esMX": "Teletransportarse a la ubicación objetivo, lo que inflige\nDaño mágico devastador a los enemigos circundantes.\nEste hechizo ignora el límite de reducción de tiempo de reutilización.\nObtiene bonificación de daño de sinergia de todos los hechizos mágicos que infligen daño directo.",
-    "frFR": "Téléportez-vous à l'emplacement cible, infligeant\ndégâts magiques dévastateurs sur les ennemis environnants\nCe sort ignore le plafond de réduction du temps de recharge.\nGagne un bonus de dégâts de synergie de tous les sorts magiques infligeant des dégâts directs",
-    "itIT": "Teletrasportarsi nella posizione di destinazione, occuparsi\ndanni magici devastanti ai nemici circostanti\nQuesto incantesimo ignora il limite di riduzione del tempo di recupero\nOttiene un bonus ai danni sinergici da tutti gli incantesimi magici che infliggono danni diretti",
-    "jaJP": "ターゲットの場所にテレポートし、対処します\n周囲の敵に壊滅的な魔法ダメージを与える\nこの呪文はクールダウン短縮の上限を無視します\nすべての直接ダメージを与える魔法の呪文から相乗ダメージボーナスを得る",
-    "koKR": "대상 위치로 순간이동하여 처리합니다.\n주변 적들에게 엄청난 마법 피해를 입힙니다.\n이 주문은 재사용 대기시간 감소 한도를 무시합니다.\n모든 직접 피해를 입히는 마법 주문에서 시너지 피해 보너스를 얻습니다.",
-    "plPL": "Teleportuj się do docelowej lokalizacji, rozdając\nniszczycielskie obrażenia magiczne zadawane otaczającym wrogom\nZaklęcie to ignoruje limit redukcji czasu odnowienia\nOtrzymuje premię do obrażeń synergicznych ze wszystkich zaklęć magicznych zadających bezpośrednie obrażenia",
-    "ptBR": "Teleporte-se para o local alvo, distribuindo\ndano mágico devastador aos inimigos ao redor\nEste feitiço ignora o limite de redução do tempo de recarga\nGanha bônus de dano de sinergia de todos os feitiços mágicos que causam dano direto",
-    "ruRU": "Телепортируйтесь в указанное место, нанося\nразрушительный магический урон окружающим врагам\nЭто заклинание игнорирует ограничение на сокращение времени восстановления.\nПолучает синергический бонус к урону от всех магических заклинаний, наносящих прямой урон.",
-    "zhCN": "传送到目标地点，进行处理\n对周围敌人造成毁灭性的魔法伤害\n该法术忽略冷却减少上限\n从所有造成直接伤害的魔法法术中获得协同伤害加值",
-    "zhTW": "傳送到目標地點，進行處理\n對周圍敵人造成毀滅性的魔法傷害\n該法術忽略冷卻減少上限\n從所有造成直接傷害的魔法法術中獲得協同傷害加值"
   },
   {
     "id": 50297,
@@ -32076,23 +31243,6 @@
     "zhCN": "消失并出现在目标位置\n揭幕时造成毁灭性的魔法伤害"
   },
   {
-    "id": 50314,
-    "Key": "chaosaura",
-    "enUS": "ÿc@per each level of Fists of Fire, Blades of Ice or Claws of Thunder, respectively\nYou have a 45% chance to gain either 5% Fire, Cold or Lightning Spell Damage",
-    "zhTW": "ÿc@分別為每級火拳、冰刃或雷霆之爪\n你有 45% 的機率獲得 5% 火焰、冰冷或閃電法術傷害",
-    "deDE": "ÿc@pro jedem Level von Fists of Fire, Blades of Ice oder Claws of Thunder\nSie haben eine Chance von 45 %, entweder 5 % Feuer-, Kälte- oder Blitzzauberschaden zu erhalten",
-    "esES": "ÿc@por cada nivel de Puños de Fuego, Espadas de Hielo o Garras de Trueno, respectivamente\nTienes un 45 % de posibilidades de obtener un 5 % de daño con hechizos de fuego, frío o relámpagos.",
-    "esMX": "ÿc@por cada nivel de Puños de Fuego, Espadas de Hielo o Garras de Trueno, respectivamente\nTienes un 45 % de posibilidades de obtener un 5 % de daño con hechizos de fuego, frío o relámpagos.",
-    "frFR": "ÿc@pour chaque niveau de Poings de Feu, Lames de Glace ou Griffes de Tonnerre, respectivement\nVous avez 45 % de chances de bénéficier de 5 % de dégâts des sorts de feu, de froid ou de foudre.",
-    "itIT": "ÿc@per ciascun livello rispettivamente di Pugni di fuoco, Lame di ghiaccio o Artigli di tuono\nHai una probabilità del 45% di ottenere il 5% di danni da incantesimi di fuoco, freddo o fulmine",
-    "koKR": "ÿc@불의 주먹, 얼음의 칼날, 천둥의 발톱 각 레벨당\n45%의 확률로 화염, 냉기, 번개 주문 피해가 5% 증가합니다.",
-    "plPL": "ÿc@za każdy poziom odpowiednio Pięści Ognia, Ostrzy Lodu lub Szponów Gromu\nMasz 45% szans na uzyskanie 5% obrażeń od zaklęć ognia, zimna lub błyskawicy",
-    "jaJP": "火の拳、氷の刃、サンダーの爪の各レベルごとに ÿc@\n45% の確率で 5% の火、冷気、または雷の呪文ダメージを獲得します。",
-    "ptBR": "ÿc@por cada nível de Punhos de Fogo, Lâminas de Gelo ou Garras de Trovão, respectivamente\nVocê tem 45% de chance de ganhar 5% de Dano Mágico de Fogo, Gelo ou Raio",
-    "ruRU": "ÿc@за каждый уровень Огненных Кулаков, Ледяных Клинков или Громовых Когтей соответственно\nУ вас есть 45% шанс получить 5% урона от заклинаний огня, холода или молнии.",
-    "zhCN": "ÿc@分别为每级火拳、冰刃或雷霆之爪\n你有 45% 的几率获得 5% 火焰、冰冷或闪电法术伤害"
-  },
-  {
     "id": 50315,
     "Key": "rainstarnumber",
     "enUS": "Rains %d stars",
@@ -32195,23 +31345,6 @@
     "zhCN": "ÿc@攻击有 10% 的几率造成三倍的总伤害"
   },
   {
-    "id": 50322,
-    "Key": "ruptureofstars23",
-    "enUS": "Shoot a star at the target location that shatters\ninto multiple stars which seek nearby enemies\nSecondary stars only deal damage after traveling a short period",
-    "zhTW": "向目標位置射擊一顆星星，使其破碎\n進入多顆尋找附近敵人的星星\n次星僅在短暫旅行後造成傷害",
-    "deDE": "Schieße einen Stern auf den Zielort, der zerbricht\nin mehrere Sterne, die nach Feinden in der Nähe suchen\nSekundärsterne verursachen erst nach kurzer Reisedauer Schaden",
-    "esES": "Dispara una estrella al lugar objetivo que se hace añicos.\nen múltiples estrellas que buscan enemigos cercanos\nLas estrellas secundarias sólo causan daño después de viajar un corto período",
-    "esMX": "Dispara una estrella al lugar objetivo que se hace añicos.\nen múltiples estrellas que buscan enemigos cercanos\nLas estrellas secundarias sólo causan daño después de viajar un corto período",
-    "frFR": "Tirez une étoile à l'emplacement cible qui se brise\nen plusieurs étoiles qui recherchent les ennemis proches\nLes étoiles secondaires n'infligent des dégâts qu'après un court voyage",
-    "itIT": "Spara una stella nella posizione bersaglio che si frantuma\nin più stelle che cercano i nemici vicini\nLe stelle secondarie infliggono danni solo dopo aver viaggiato per un breve periodo",
-    "koKR": "부서지는 별을 목표 위치에 쏘세요\n근처의 적을 찾는 여러 별들로\n보조 별은 짧은 기간 동안 이동한 후에만 피해를 입힙니다.",
-    "plPL": "Wystrzel gwiazdę w wybrane miejsce, która się rozbije\nna wiele gwiazd, które szukają pobliskich wrogów\nGwiazdy drugorzędne zadają obrażenia tylko po krótkiej podróży",
-    "jaJP": "狙った場所に星を発射して砕けます\n複数の星に分かれて近くの敵を探す\n副星は短期間移動した後にのみダメージを与えます",
-    "ptBR": "Atire uma estrela no local alvo que se estilhaça\nem múltiplas estrelas que procuram inimigos próximos\nEstrelas secundárias só causam dano após viajarem por um curto período",
-    "ruRU": "Выстрелите в указанное место звездой, которая разобьется.\nна несколько звезд, которые ищут ближайших врагов\nВторостепенные звезды наносят урон только после короткого путешествия.",
-    "zhCN": "向目标位置射击一颗星星，使其破碎\n进入多颗寻找附近敌人的星星\n次星仅在短暂旅行后造成伤害"
-  },
-  {
     "id": 50323,
     "Key": "highlordwrathdesc",
     "enUS": "ÿc@You have 10% chance to deal three times more total damage",
@@ -32278,23 +31411,6 @@
     "ptBR": "Lança Sangrenta",
     "ruRU": "Кровавое копье",
     "zhCN": "血腥之矛"
-  },
-  {
-    "id": 50332,
-    "Key": "scosglenresonancedesc",
-    "enUS": "ÿc@Elemental spells now synergize across all elements\nmaking Flameburst, Twister or Frozen Blast fire three times more projectiles, respectively\nEvery 5 attacks, you gain Resonance with a specific element, empowering the element and",
-    "zhTW": "ÿc@元素法術現在可以在所有元素之間協同作用\n使火焰爆裂、扭曲或冰凍爆炸分別發射三倍以上的射彈\n每 5 次攻擊，你就會獲得與特定元素的共鳴，增強該元素並",
-    "deDE": "ÿc@Elementarzauber wirken jetzt synergetisch über alle Elemente hinweg\nDadurch feuern Flameburst, Twister oder Frozen Blast jeweils dreimal mehr Projektile ab\nAlle 5 Angriffe erhalten Sie Resonanz mit einem bestimmten Element, wodurch das Element gestärkt wird und",
-    "esES": "ÿc@Los hechizos elementales ahora tienen sinergia entre todos los elementos.\nhaciendo que Flameburst, Twister o Frozen Blast disparen tres veces más proyectiles, respectivamente\nCada 5 ataques, obtienes Resonancia con un elemento específico, potenciando el elemento y",
-    "esMX": "ÿc@Los hechizos elementales ahora tienen sinergia entre todos los elementos.\nhaciendo que Flameburst, Twister o Frozen Blast disparen tres veces más proyectiles, respectivamente\nCada 5 ataques, obtienes Resonancia con un elemento específico, potenciando el elemento y",
-    "frFR": "ÿc@Les sorts élémentaires sont désormais en synergie entre tous les éléments.\nce qui fait que Flameburst, Twister ou Frozen Blast tirent respectivement trois fois plus de projectiles\nToutes les 5 attaques, vous gagnez en résonance avec un élément spécifique, renforçant ainsi l'élément et",
-    "itIT": "ÿc@Gli incantesimi elementali ora funzionano in sinergia con tutti gli elementi\nfacendo sì che Flameburst, Twister o Frozen Blast sparino rispettivamente tre volte più proiettili\nOgni 5 attacchi, ottieni Risonanza con un elemento specifico, potenziando l'elemento e",
-    "koKR": "ÿc@원소 주문은 이제 모든 요소에 걸쳐 시너지 효과를 발휘합니다.\nFlameburst, Twister 또는 Frozen Blast가 각각 3배 더 많은 발사체를 발사하도록 합니다.\n5번의 공격마다 특정 요소에 대한 공명을 얻어 요소를 강화하고",
-    "plPL": "ÿc@Zaklęcia żywiołów współdziałają teraz ze wszystkimi żywiołami\ndzięki czemu Flameburst, Twister lub Frozen Blast wystrzeliwują odpowiednio trzy razy więcej pocisków\nCo 5 ataków zyskujesz Rezonans z określonym żywiołem, wzmacniając go i",
-    "jaJP": "ÿc@エレメンタル呪文がすべてのエレメントにわたって相乗効果を発揮するようになりました。\nフレイムバースト、ツイスター、またはフローズン ブラストをそれぞれ 3 倍の発射体を発射します。\n5回の攻撃ごとに、特定の要素との共鳴を獲得し、その要素に力を与え、",
-    "ptBR": "ÿc@Os feitiços elementais agora têm sinergia entre todos os elementos\nfazendo com que Flameburst, Twister ou Frozen Blast disparem três vezes mais projéteis, respectivamente\nA cada 5 ataques, você ganha Ressonância com um elemento específico, fortalecendo o elemento e",
-    "ruRU": "ÿc@Заклинания стихий теперь взаимодействуют со всеми стихиями.\nзаставляя Flameburst, Twister или Frozen Blast выпускать в три раза больше снарядов соответственно\nКаждые 5 атак вы получаете Резонанс с определенным элементом, усиливая этот элемент и",
-    "zhCN": "ÿc@元素法术现在可以在所有元素之间协同作用\n使火焰爆裂、扭曲或冰冻爆炸分别发射三倍以上的射弹\n每 5 次攻击，你就会获得与特定元素的共鸣，增强该元素并"
   },
   {
     "id": 50333,
@@ -32380,23 +31496,6 @@
     "ptBR": "Viaje para o submundo",
     "ruRU": "Путешествие в подземный мир",
     "zhCN": "前往地下世界"
-  },
-  {
-    "id": 50338,
-    "Key": "traveltotheunderworld23",
-    "enUS": "Send your soul to the underworld for 3 seconds, draining 150% of maximum life\nover 3 seconds, but granting immense power during the effect\nAfter the 3 seconds have elapsed, your life and mana is fully restored",
-    "zhTW": "將你的靈魂送入冥界3秒，消耗最大生命的150%\n超過3秒，但在效果期間賦予巨大的力量\n3秒過去後，你的生命和法力完全恢復",
-    "deDE": "Schicken Sie Ihre Seele für 3 Sekunden in die Unterwelt und entziehen Sie ihr 150 % des maximalen Lebens\nüber 3 Sekunden, gewährt aber während der Wirkung enorme Kraft\nNach Ablauf der 3 Sekunden sind Ihr Leben und Ihr Mana vollständig wiederhergestellt",
-    "esES": "Envía tu alma al inframundo durante 3 segundos, drenando el 150% de la vida máxima.\nDurante 3 segundos, pero otorgando un poder inmenso durante el efecto.\nDespués de que hayan transcurrido los 3 segundos, tu vida y maná se restaurarán por completo.",
-    "esMX": "Envía tu alma al inframundo durante 3 segundos, drenando el 150% de la vida máxima.\nDurante 3 segundos, pero otorgando un poder inmenso durante el efecto.\nDespués de que hayan transcurrido los 3 segundos, tu vida y maná se restaurarán por completo.",
-    "frFR": "Envoyez votre âme aux enfers pendant 3 secondes, drainant 150 % de votre vie maximale\npendant 3 secondes, mais conférant une immense puissance pendant l'effet\nUne fois les 3 secondes écoulées, votre vie et votre mana sont entièrement restaurés",
-    "itIT": "Manda la tua anima negli inferi per 3 secondi, prosciugando il 150% della vita massima\npiù di 3 secondi, ma garantendo un potere immenso durante l'effetto\nTrascorsi i 3 secondi, la tua vita e il tuo mana saranno completamente ripristinati",
-    "koKR": "3초 동안 영혼을 지하 세계로 보내 최대 생명력의 150%를 소모합니다.\n3초에 걸쳐 지속되지만, 효과가 지속되는 동안 엄청난 위력을 부여합니다.\n3초가 지나면 생명력과 마나가 완전히 회복됩니다.",
-    "plPL": "Wyślij swoją duszę do podziemi na 3 sekundy, wysysając 150% maksymalnego życia\nprzez 3 sekundy, ale dając ogromną moc podczas efektu\nPo upływie 3 sekund twoje życie i mana zostaną w pełni przywrócone",
-    "jaJP": "魂を 3 秒間冥界に送り、最大ライフの 150% を消耗します\n3秒以上かかるが、効果中は絶大なパワーが得られる\n3秒経過後、ライフとマナが完全に回復します",
-    "ptBR": "Envie sua alma para o submundo por 3 segundos, drenando 150% da vida máxima\nmais de 3 segundos, mas concedendo imenso poder durante o efeito\nDepois de decorridos os 3 segundos, sua vida e mana serão totalmente restauradas",
-    "ruRU": "Отправьте свою душу в подземный мир на 3 секунды, истощая 150% максимального количества жизни.\nболее 3 секунд, но дает огромную силу во время эффекта\nПо истечении 3 секунд ваша жизнь и мана полностью восстанавливаются.",
-    "zhCN": "将你的灵魂送入冥界3秒，消耗最大生命的150%\n超过3秒，但在效果期间赋予巨大的力量\n3秒过去后，你的生命和法力完全恢复"
   },
   {
     "id": 50340,
@@ -32499,23 +31598,6 @@
     "ptBR": "ÿc@Ataques têm 3% de chance de causar cinco vezes mais dano total",
     "ruRU": "ÿc@Атаки с вероятностью 3% могут нанести в пять раз больше общего урона.",
     "zhCN": "ÿc@攻击有 3% 的几率造成五倍的总伤害"
-  },
-  {
-    "id": 50348,
-    "Key": "shadowdescent23",
-    "enUS": "Jump into the air and land at the target location,\nreleasing a shuriken nova that lowers resistances of impacted enemies\nCooldown cannot be reduced by any means",
-    "zhTW": "跳到空中並降落在目標位置，\n釋放手裡劍新星，降低受影響敵人的抵抗力\n冷卻時間無法以任何方式減少",
-    "deDE": "Springen Sie in die Luft und landen Sie am Zielort.\nFreisetzung einer Shuriken-Nova, die den Widerstand getroffener Feinde verringert\nDie Abklingzeit kann auf keinen Fall verringert werden",
-    "esES": "Salta al aire y aterriza en el lugar objetivo.\nliberando una nova shuriken que reduce las resistencias de los enemigos impactados\nEl tiempo de reutilización no se puede reducir de ninguna manera.",
-    "esMX": "Salta al aire y aterriza en el lugar objetivo.\nliberando una nova shuriken que reduce las resistencias de los enemigos impactados\nEl tiempo de reutilización no se puede reducir de ninguna manera.",
-    "frFR": "Sautez dans les airs et atterrissez à l'emplacement cible,\nlibérant une nova shuriken qui réduit les résistances des ennemis touchés\nLe temps de recharge ne peut en aucun cas être réduit",
-    "itIT": "Salta in aria e atterra nella posizione target,\nrilasciando una nova shuriken che abbassa le resistenze dei nemici colpiti\nIl tempo di recupero non può essere ridotto in alcun modo",
-    "koKR": "공중으로 뛰어올라 목표 위치에 착지하고,\n영향을 받은 적의 저항을 낮추는 수리검 신성을 방출합니다.\n쿨타임은 어떤 방법으로도 줄일 수 없습니다.",
-    "plPL": "Wyskocz w powietrze i wyląduj w docelowym miejscu,\nuwalniając shuriken nove, która obniża odporność trafionych wrogów\nCzasu odnowienia nie można w żaden sposób skrócić",
-    "jaJP": "空中に飛び上がり、狙った場所に着地し、\n衝撃を受けた敵の抵抗力を低下させる手裏剣新星を放つ\nクールダウンはどうやっても短縮できません",
-    "ptBR": "Salte no ar e pouse no local alvo,\nliberando uma nova shuriken que reduz a resistência dos inimigos impactados\nO cooldown não pode ser reduzido de forma alguma",
-    "ruRU": "Подпрыгните в воздух и приземлитесь в заданном месте.\nвыпуск сюрикена, который снижает сопротивление пораженных врагов\nВремя восстановления не может быть уменьшено никакими способами.",
-    "zhCN": "跳到空中并降落在目标位置，\n释放手里剑新星，降低受影响敌人的抵抗力\n冷却时间无法以任何方式减少"
   },
   {
     "id": 50350,
@@ -32737,23 +31819,6 @@
     "ptBR": "Cascata do redemoinho",
     "ruRU": "Каскад Водоворота",
     "zhCN": "漩涡瀑布"
-  },
-  {
-    "id": 50363,
-    "Key": "maelstromcascade23",
-    "enUS": "Channel a volley of lightning javelins that release charged bolts on hit\nBoth attack speed and levels increase the number of javelins released\nper second, up to a maximum of 12 javelins per second",
-    "zhTW": "引導一連串閃電標槍，擊中時釋放帶電箭\n攻擊速度和等級都會增加釋放標槍的數量\n每秒，每秒最多 12 個標槍",
-    "deDE": "Kanalisiere eine Salve Blitzspeere, die bei einem Treffer geladene Blitze abfeuern\nSowohl die Angriffsgeschwindigkeit als auch das Level erhöhen die Anzahl der abgefeuerten Speere\npro Sekunde, bis zu einem Maximum von 12 Speeren pro Sekunde",
-    "esES": "Canaliza una andanada de jabalinas relámpago que liberan rayos cargados al impactar.\nTanto la velocidad de ataque como los niveles aumentan la cantidad de jabalinas lanzadas.\npor segundo, hasta un máximo de 12 jabalinas por segundo",
-    "frFR": "Canalisez une volée de javelots éclair qui libèrent des éclairs chargés en cas de coup.\nLa vitesse et les niveaux d'attaque augmentent le nombre de javelots libérés\npar seconde, jusqu'à un maximum de 12 javelots par seconde",
-    "itIT": "Canalizza una raffica di giavellotti fulminanti che rilasciano dardi carichi al colpo\nSia la velocità di attacco che i livelli aumentano il numero di giavellotti rilasciati\nal secondo, fino a un massimo di 12 giavellotti al secondo",
-    "koKR": "적중 시 충전된 볼트를 발사하는 라이트닝 자벨린을 집중적으로 발사합니다.\n공격 속도와 레벨 모두 방출되는 자벨린의 수를 증가시킵니다.\n초당 최대 12개의 자벨린",
-    "plPL": "Skieruj salwę błyskawicowych oszczepów, które przy trafieniu uwalniają naładowane pociski\nZarówno prędkość ataku, jak i poziomy zwiększają liczbę wypuszczanych oszczepów\nna sekundę, maksymalnie do 12 oszczepów na sekundę",
-    "esMX": "Canaliza una andanada de jabalinas relámpago que liberan rayos cargados al impactar.\nTanto la velocidad de ataque como los niveles aumentan la cantidad de jabalinas lanzadas.\npor segundo, hasta un máximo de 12 jabalinas por segundo",
-    "jaJP": "命中した瞬間にチャージボルトを放出する稲妻ジャベリンの一斉射撃を行う\n攻撃速度とレベルの両方で、リリースされるジャベリンの数が増加します\n1 秒あたり最大 12 個のジャベリン",
-    "ptBR": "Canalize uma saraivada de dardos relâmpagos que liberam raios carregados ao serem atingidos\nTanto a velocidade de ataque quanto os níveis aumentam o número de dardos lançados\npor segundo, até um máximo de 12 dardos por segundo",
-    "ruRU": "Направьте залп молниеносных копий, которые при ударе выпускают заряженные болты.\nИ скорость атаки, и уровни увеличивают количество выпущенных копий.\nв секунду, максимум до 12 копий в секунду",
-    "zhCN": "引导一连串闪电标枪，击中时释放带电箭\n攻击速度和等级都会增加释放标枪的数量\n每秒，每秒最多 12 个标枪"
   },
   {
     "id": 50364,

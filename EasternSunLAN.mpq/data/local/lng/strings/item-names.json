@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1060,
     "Key": "qf1",
@@ -59555,23 +59555,6 @@
     "jaJP": "元帳を殺す"
   },
   {
-    "id": 28045,
-    "Key": "leddesc",
-    "enUS": "ÿc1Re-equip after death to Refresh Bonusesÿc0\n+1% to Summon Damage per 50 Energy Points\nIncreases to Maximum Life and Mana now work on Soft Vitality and Energy Points at 50% Efficiency\nUsed by certain skills for their random effects\nUnlocks unique bonuses at specific kill milestones\nTracks the amount of enemies you have slain",
-    "zhTW": "ÿc1R死後電子裝備刷新獎勵ÿc0\n每 50 點能量點 +1% 召喚傷害\n最大生命和法力的增加現在以 50% 的效率作用於軟活力和能量點\n被某些技能用於產生隨機效果\n在特定擊殺里程碑解鎖獨特獎勵\n追踪你殺死的敵人數量",
-    "deDE": "ÿc1RE-Ausrüsten nach dem Tod, um Boni aufzufrischenÿc0\n+1 % auf Beschwörungsschaden pro 50 Energiepunkte\nErhöhungen des maximalen Lebens und Manas funktionieren jetzt bei sanfter Vitalität und Energiepunkten mit einer Effizienz von 50 %\nWird von bestimmten Fertigkeiten aufgrund ihrer zufälligen Effekte verwendet\nSchaltet einzigartige Boni bei bestimmten Kill-Meilensteinen frei\nVerfolgt die Anzahl der Feinde, die Sie getötet haben",
-    "esES": "ÿc1Re-equipar después de la muerte para actualizar los bonosÿc0\n+1% al daño de invocación por cada 50 puntos de energía\nLos aumentos de vida máxima y maná ahora funcionan en puntos de vitalidad y energía suaves con una eficiencia del 50 %.\nUsado por ciertas habilidades por sus efectos aleatorios.\nDesbloquea bonificaciones únicas en hitos de muerte específicos.\nRealiza un seguimiento de la cantidad de enemigos que has matado",
-    "esMX": "ÿc1Re-equipar después de la muerte para actualizar los bonosÿc0\n+1% al daño de invocación por cada 50 puntos de energía\nLos aumentos de vida máxima y maná ahora funcionan en puntos de vitalidad y energía suaves con una eficiencia del 50 %.\nUsado por ciertas habilidades por sus efectos aleatorios.\nDesbloquea bonificaciones únicas en hitos de muerte específicos.\nRealiza un seguimiento de la cantidad de enemigos que has matado",
-    "frFR": "ÿc1Re-équipez-vous après la mort pour actualiser les bonusÿc0\n+1 % pour invoquer des dégâts tous les 50 points d'énergie\nLes augmentations de la vie maximale et du mana fonctionnent désormais sur la vitalité douce et les points d'énergie avec une efficacité de 50 %\nUtilisé par certaines compétences pour leurs effets aléatoires\nDébloque des bonus uniques à des étapes de mise à mort spécifiques\nSuit le nombre d'ennemis que vous avez tués",
-    "itIT": "ÿc1Re-equipaggia dopo la morte per aggiornare i bonusÿc0\n+1% al danno da evocazione ogni 50 punti energia\nGli aumenti alla vita massima e al mana ora funzionano su vitalità morbida e punti energia con un'efficienza del 50%.\nUtilizzato da alcune abilità per i loro effetti casuali\nSblocca bonus unici a specifici traguardi di uccisione\nTiene traccia della quantità di nemici che hai ucciso",
-    "koKR": "ÿc1R사망 후 갱신 보너스를 위한 전자 장비ÿc0\n에너지 포인트 50당 소환 피해 +1%\n최대 생명력 및 마나 증가는 이제 50% 효율로 소프트 활력 및 에너지 포인트에 적용됩니다.\n특정 스킬의 무작위 효과에 사용됩니다.\n특정 킬 이정표에서 고유한 보너스를 잠금 해제합니다.\n당신이 죽인 적의 수를 추적합니다.",
-    "plPL": "ÿc1Re-wyposaż się po śmierci, aby odświeżyć bonusyÿc0\n+1% do obrażeń przywołania za każde 50 punktów energii\nZwiększenie maksymalnego życia i many działa teraz na miękką witalność i punkty energii przy 50% wydajności\nUżywane przez niektóre umiejętności ze względu na ich losowe efekty\nOdblokowuje unikalne bonusy przy określonych kamieniach milowych zabicia\nŚledzi liczbę zabitych wrogów",
-    "ptBR": "ÿc1Re-equipar após a morte para bônus de atualizaçãoÿc0\n+1% para Invocar Dano a cada 50 Pontos de Energia\nAumentos para Vida e Mana Máximas agora funcionam em Vitalidade Suave e Pontos de Energia com 50% de Eficiência\nUsado por certas habilidades por seus efeitos aleatórios\nDesbloqueia bônus exclusivos em marcos específicos de mortes\nRastreia a quantidade de inimigos que você matou",
-    "ruRU": "ÿc1Re-экипируйте после смерти, чтобы получить бонусы за обновлениеÿc0\n+1% к урону призыва за каждые 50 очков энергии\nУвеличение максимального количества здоровья и маны теперь влияет на мягкую жизненную силу и энергетические точки с эффективностью 50%.\nИспользуется определенными навыками из-за их случайных эффектов.\nОткрывает уникальные бонусы на определенных этапах убийства.\nОтслеживает количество убитых вами врагов.",
-    "zhCN": "ÿc1R死后电子装备刷新奖励ÿc0\n每 50 点能量点 +1% 召唤伤害\n最大生命和法力的增加现在以 50% 的效率作用于软活力和能量点\n被某些技能用于产生随机效果\n在特定击杀里程碑解锁独特奖励\n追踪你杀死的敌人数量",
-    "jaJP": "ÿc1R死亡後に装備するとリフレッシュボーナスÿc0\n50 エネルギー ポイントごとに召喚ダメージ +1%\n最大ライフとマナの増加は、50% の効率でソフトバイタリティとエネルギーポイントに作用するようになりました。\nランダム効果のために特定のスキルによって使用されます\n特定のキルマイルストーンでユニークなボーナスのロックを解除します\n倒した敵の数を追跡します"
-  },
-  {
     "id": 28046,
     "Key": "Kill Ledger",
     "enUS": "ÿc@Kill Ledger",
@@ -59842,23 +59825,6 @@
     "ptBR": "Farol Celestial de Yaerius",
     "ruRU": "Небесный маяк Яериуса",
     "zhCN": "亚里乌斯的天体信标"
-  },
-  {
-    "id": 28063,
-    "Key": "celestialempowermentdesc",
-    "enUS": "ÿc@This effect stacks up to 20 times and lasts 2 seconds\nthat grant 15% Total Physical Damage and 15% Maximum Life when you pick them up\nYou have a small chance to summon Light's Fiery Beacons on the battlefield on hitting an enemy",
-    "zhTW": "ÿc@該效果最多疊加20次，持續2秒\n當你拿起它們時，它們會提供 15% 的總物理傷害和 15% 的最大生命\n在戰場上擊中敵人時，你有很小的機率召喚聖光的熾熱信標",
-    "deDE": "ÿc@Dieser Effekt ist bis zu 20-mal stapelbar und hält 2 Sekunden an\ndie beim Aufheben 15 % physischen Gesamtschaden und 15 % maximales Leben gewähren\nWenn du einen Feind triffst, hast du eine kleine Chance, die feurigen Leuchtfeuer des Lichts auf dem Schlachtfeld zu beschwören",
-    "esES": "ÿc@Este efecto se acumula hasta 20 veces y dura 2 segundos.\nque otorgan 15% de daño físico total y 15% de vida máxima cuando los recoges\nTienes una pequeña posibilidad de invocar las Balizas Ardientes de la Luz en el campo de batalla al golpear a un enemigo.",
-    "esMX": "ÿc@Este efecto se acumula hasta 20 veces y dura 2 segundos.\nque otorgan 15% de daño físico total y 15% de vida máxima cuando los recoges\nTienes una pequeña posibilidad de invocar las Balizas Ardientes de la Luz en el campo de batalla al golpear a un enemigo.",
-    "frFR": "ÿc@Cet effet se cumule jusqu'à 20 fois et dure 2 secondes\nqui accordent 15 % de dégâts physiques totaux et 15 % de vie maximale lorsque vous les récupérez\nVous avez une petite chance d'invoquer des balises ardentes de lumière sur le champ de bataille en frappant un ennemi.",
-    "itIT": "ÿc@Questo effetto si accumula fino a 20 volte e dura 2 secondi\nche garantiscono il 15% di danno fisico totale e il 15% di vita massima quando li raccogli\nHai una piccola possibilità di evocare i Fiery Beacons di Light sul campo di battaglia quando colpisci un nemico",
-    "koKR": "ÿc@이 효과는 최대 20번까지 중첩되며 2초간 지속됩니다.\n획득 시 총 물리 피해 15%와 최대 생명력 15%를 부여합니다.\n적을 타격할 때 전장에 빛의 불타는 봉화를 소환할 수 있는 작은 기회가 있습니다.",
-    "plPL": "ÿc@Ten efekt kumuluje się do 20 razy i trwa 2 sekundy\nktóre zapewniają 15% całkowitych obrażeń fizycznych i 15% maksymalnego życia, gdy je podniesiesz\nMasz małą szansę na przywołanie Ognistych Latarni Światła na polu bitwy po trafieniu wroga",
-    "jaJP": "ÿc@この効果は最大 20 回重複し、2 秒間持続します\n拾ったときに15%の合計物理ダメージと15%の最大ライフを与える\n敵を攻撃すると、戦場で光の燃えるようなビーコンを召喚する可能性が低いです",
-    "ptBR": "ÿc@Este efeito acumula até 20 vezes e dura 2 segundos\nque concedem 15% de Dano Físico Total e 15% de Vida Máxima quando você os pega\nVocê tem uma pequena chance de invocar os Faróis Ardentes da Luz no campo de batalha ao atingir um inimigo",
-    "ruRU": "ÿc@Этот эффект суммируется до 20 раз и длится 2 секунды.\nкоторые дают 15% общего физического урона и 15% максимального здоровья, когда вы их подбираете\nУ вас есть небольшой шанс вызвать Огненные Маяки Света на поле битвы при попадании по врагу.",
-    "zhCN": "ÿc@该效果最多叠加20次，持续2秒\n当你拿起它们时，它们会提供 15% 的总物理伤害和 15% 的最大生命\n在战场上击中敌人时，你有很小的几率召唤圣光的炽热信标"
   },
   {
     "id": 28064,
