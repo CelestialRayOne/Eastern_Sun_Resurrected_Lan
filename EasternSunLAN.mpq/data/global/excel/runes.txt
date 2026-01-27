@@ -899,13 +899,13 @@ Runeword907	Memory	1			staf						orb	mana		Ki O Ku	r08	r21	r06				pierce-ltng		2
 Runeword908	Rain	1			orb	mana								A Me	r12	r23					kill-skill	Rain of Fire	5	33	allskills		2	2	enr		25	25	cast2		30	30	pierce-fire		15	15	pierce-ltng		15	15	kill-skill	Pole Arm Mastery	5	33	0
 Runeword909	Rain	1			staf						orb	mana		A Me	r12	r23					kill-skill	Rain of Fire	5	45	allskills		3	3	enr		40	40	cast2		40	40	pierce-fire		20	20	pierce-ltng		20	20	kill-skill	Pole Arm Mastery	5	45	0
 Runeword910	Winter	1			staf						orb	mana		Fu Yu	r32	r16					aura	Cold Pierce Aura	15	15	kill-skill	Cold Surge	100	25	gethit-skill	Time Stop	10	40	pierce-cold		20	20	cast2		30	30	coldskill		3	3	res-cold-max		5	5	0
-Runeword912	Psychic	1			char									A Ki Ra	r12	r08	r20				aura	Sanctuary	10	10	dmg-undead		200	200	dmg-demon		200	200	item-skill-cooldown		15	15	ac%		150	150	hit-skill	Psychic Hammer	3	45					0
+Runeword912	Psychic	1			char									A Ki Ra	r12	r08	r20				dmg-mag		500	1000	dmg-undead		200	200	dmg-demon		200	200	item-skill-cooldown		15	15	ac%		150	150	hit-skill	Psychic Hammer	3	45	hit-skill	Cloak of Shadows	3	40	0
 Runeword913	Captive	1			char									Ho Ri Yo	r22	r09	r07				extra-summ		20	20	allskills		1	1	oskill	Raise Skeleton	3	3	skill	Raise Skeleton	12	12	oskill	Raise Skeletal Mage	3	3	skill	Raise Skeletal Mage	12	12	ac		200	200	0
 Runeword914	Wealth	1			char									To Mi	r26	r10					ac%		75	75	gold%		125	125	mag%		75	75	gold%/lvl	16			mag%/lvl	8			oskill	Find Potion	5	5					0
-Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				aura	Prayer	15	15	regen		800	800	regen-mana		100	100	allskills		1	1	move2		30	30	balance2		30	30	vit		50	50	0
+Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				oskill	Call of the Wild	3	3	skill	Call of the Wild	17	17	regen		800	800	regen-mana		100	100	allskills		1	1	move2		50	50	balance2		50	50	0
 Runeword916	Harmony	1			char									Wa Se I	r27	r31	r01				hp%		25	25	balance3		25	25	mana%		25	25	swing3		25	25	move3		25	25	cast3		25	25	red-dmg%		20	20	0
 Runeword917	Daylight	1			char									Hi Ru Ma	r34	r24	r33				hit-skill	Fire Surge	1	40	hit-skill	Lightning Surge	1	40	pierce-fire		20	20	pierce-ltng		20	20	res-all		35	35	ac		150	150	allskills		1	1	0
-Runeword918	Spirit	1			char									Ko Ko Ro	r19	r19	r38				skill	Spirit of Nature	3	3	oskill	Spirit of Nature	27	27	passive-summ-life		35	35	ac		200	200	hp		200	200	oskill	Battle Orders	10	10	aura	Salvation	5	5	0
+Runeword918	Spirit	1			char									Ko Ko Ro	r19	r19	r38				skill	Spirit of Nature	3	3	oskill	Spirit of Nature	27	27	passive-summ-life		35	35	hp		200	200	oskill	Battle Orders	10	10	passive-summ-elemental-resist		30	30	res-all		50	50	0
 Runeword919	Abandon	1			char									Su Te Ru	r43	r37	r24				oskill	Shade Armor	10	10	curse-res		50	50	allskills		1	1	res-all		35	35	ac		200	200	gethit-skill	Time Lapse	15	1	oskill	Battle Command	10	10	0
 Runeword920	Stone				tors	shld								JEW I Shi	jew	r01	r03				ac		50	50	res-ltng		20	20	red-dmg		5	5	red-mag		5	5	hp		50	50									0
 Runeword921	Void				tors	shld								JEW Ku U	jew	r06	r02				res-cold		15	15	res-ltng		15	15	res-pois-len		50	50	red-dmg%		5	5													0
