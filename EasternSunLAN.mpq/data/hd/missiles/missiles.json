@@ -73,7 +73,6 @@
     "icebolt": "icebolt",
     "infernoflame_1": "diablo_lightning",
     "infernoflame_2": "diablo_lightning",
-    "fireball": "fireball",
     "mummy_1": "greater_mummy_breath",
     "mummy_2": "greater_mummy_breath",
     "mummy_3": "greater_mummy_breath",
@@ -918,7 +917,7 @@
     "shockwavedrunova": "expansion_shockwave",
     "shockwavedrubolt": "expansion_shockwave",
     "fissurenovabolt": "fireball",
-    "firewavefire": "ground_fire_big",
+    "firewavefire": "expansion_firestorm_emitter",
     "meteorshowerdebris": "expansion_volcano_rock",
     "meteorshowersecondarybolt": "firebolt",
     "meteorshower": "meteor",
@@ -1635,7 +1634,7 @@
     "conduitnine": "chainlightningBolt",
     "conduitten": "chainlightningBolt",
     "stormnexusnovabolt": "electric_nova",
-    "fireballbolt": "ground_fire_small",
-    "fireballsecondbolt": "ground_fire_small",
-    "fireboltbuff": "firebolt"
+    "fireball": "fireball",
+    "fireballfuryspawner": "fireball",
+    "rainoffiremeteor": "meteor"
 }

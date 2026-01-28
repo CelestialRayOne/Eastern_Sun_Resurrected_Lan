@@ -3555,7 +3555,7 @@
   {
     "id": 4519,
     "Key": "skillld36",
-    "enUS": "creates a magical flaming missile",
+    "enUS": "Create a magical flaming missile to scorch your target\nEvery cast of Fire Bolt grants one Firestarter stack\nEach Firestarter stack adds microexplosions on impact",
     "zhTW": "射出魔法火焰彈",
     "deDE": "Erschafft ein magisches Flammengeschoss.",
     "esES": "Crea un misil llameante mágico.",
@@ -3878,7 +3878,7 @@
   {
     "id": 4563,
     "Key": "skillld47",
-    "enUS": "creates an explosive sphere of fiery death\nto engulf your enemies",
+    "enUS": "creates an explosive sphere of fiery death to engulf your enemies",
     "zhTW": "發射一團爆炸的致命火球，將敵人吞沒",
     "deDE": "Erschafft einen tödlichen explodierenden\nFeuerball, der Gegner verschlingt.",
     "esES": "Crea una esfera explosiva de muerte abrasadora\nque engulle a tus enemigos.",
@@ -16032,7 +16032,7 @@
   {
     "id": 64479,
     "Key": "flamewave3",
-    "enUS": "Creates a moving wall of flame that\ntracks down and engulfs nearby enemies into flames",
+    "enUS": "Create a fiery trail that explodes\nin a devastating wave of flame",
     "zhTW": "創建一個移動的火焰牆\n追蹤附近的敵人並將其吞入火焰中",
     "deDE": "Erzeugt eine sich bewegende Flammenwand\nSpürt Gegner in der Nähe auf und setzt sie in Flammen",
     "esES": "Crea una pared de llamas en movimiento que\nrastrea y envuelve a los enemigos cercanos en llamas",
@@ -16679,7 +16679,7 @@
   {
     "id": 46538,
     "Key": "rainoffire3",
-    "enUS": "call down heaven's vengeance\nto obliterate your enemies",
+    "enUS": "Call down meteors upon all enemies near the\ntarget location or multiple meteors on a single target",
     "zhTW": "召喚上天的報復\n消滅你的敵人",
     "deDE": "Rufe die Rache des Himmels herab\num deine Feinde auszulöschen",
     "esES": "invocar la venganza del cielo\npara destruir a tus enemigos",
@@ -28130,7 +28130,7 @@
   {
     "id": 50054,
     "Key": "stundoubledamage",
-    "enUS": "Stun gains Double Damage against Main target\nIf both Stun and Strength of the Ancients have 20 base points:",
+    "enUS": "Stun gains Double Damage against Main target\nIf both Stun and Strength of the Ancients have 20 levels:",
     "zhTW": "擊暈對主要目標造成雙倍傷害\n如果擊暈和遠古力量都有 20 基礎點數：",
     "deDE": "Betäubung verursacht doppelten Schaden gegen Hauptziele\nWenn sowohl Betäubung als auch Stärke der Alten 20 Basispunkte haben:",
     "esES": "El aturdimiento inflige doble daño al objetivo principal\nSi tanto Aturdir como Fuerza de los Antiguos tienen 20 puntos base:",
@@ -28164,7 +28164,7 @@
   {
     "id": 50056,
     "Key": "concentratecurseimmunity",
-    "enUS": "Provides Curse Immunity while Active (Does not clear active curses)\nIf both Concentrate and Iron Skin have 20 base points:",
+    "enUS": "Provides Curse Immunity while Active (Does not clear active curses)\nIf both Concentrate and Iron Skin have 20 levels:",
     "zhTW": "啟用時提供詛咒免疫（不清除現有詛咒）\n如果專注和鋼鐵皮膚都有 20 基礎點數：",
     "deDE": "Gewährt Fluch-Immunität, solange aktiv (löst keine aktiven Flüche auf)\nWenn sowohl Konzentration als auch Eisenhaut 20 Basispunkte haben:",
     "esES": "Proporciona inmunidad a maldiciones mientras está activo (no elimina maldiciones activas)\nSi tanto Concentración como Piel de Hierro tienen 20 puntos base:",
@@ -28181,7 +28181,7 @@
   {
     "id": 50057,
     "Key": "overwhelmmaxrockssynergy",
-    "enUS": "Number of Rocks caps at Level 60 instead of 50\nIf both Overwhelm and Close Combat Mastery have 20 base points:",
+    "enUS": "Number of Rocks caps at Level 60 instead of 50\nIf both Overwhelm and Close Combat Mastery have 20 levels:",
     "zhTW": "岩石數量上限為 60 級，而非 50 級\n如果壓倒和近戰精通都有 20 基礎點數：",
     "deDE": "Anzahl der Felsen ist bei Level 60 statt 50 begrenzt\nWenn sowohl Überwältigen als auch Nahkampfbeherrschung 20 Basispunkte haben:",
     "esES": "El número de rocas se limita al nivel 60 en lugar de 50\nSi tanto Abrumar como Maestría en Combate Cercano tienen 20 puntos base:",
@@ -28198,7 +28198,7 @@
   {
     "id": 50058,
     "Key": "berserkmaxressynergy",
-    "enUS": "All Maximum Resistances value is Positive instead of Negative\nIf both Berserk and Vigor of the Ancients have 20 base points:",
+    "enUS": "All Maximum Resistances value is Positive instead of Negative\nIf both Berserk and Vigor of the Ancients have 20 levels:",
     "zhTW": "所有最大抗性值為正值而非負值\n如果狂暴和遠古活力都有 20 基礎點數：",
     "deDE": "Alle maximalen Widerstandswerte sind positiv statt negativ\nWenn sowohl Berserker als auch Lebenskraft der Alten 20 Basispunkte haben:",
     "esES": "Todos los valores de resistencias máximas son positivos en lugar de negativos\nSi tanto Berserker como Vigor de los Antiguos tienen 20 puntos base:",
@@ -28232,7 +28232,7 @@
   {
     "id": 50060,
     "Key": "axeswarmaxessynergy",
-    "enUS": "Increase the Total Number of Axes by 30%\nIf both Axe Swarm and Close Combat Mastery have 20 base points:",
+    "enUS": "Increase the Total Number of Axes by 30%\nIf both Axe Swarm and Close Combat Mastery have 20 levels:",
     "zhTW": "斧頭總數增加 30%\n如果斧頭群和近戰精通都有 20 基礎點數：",
     "deDE": "Erhöht die Gesamtzahl der Äxte um 30%\nWenn sowohl Axtschwarm als auch Nahkampfbeherrschung 20 Basispunkte haben:",
     "esES": "Aumenta el número total de hachas en un 30%\nSi tanto Enjambre de Hachas como Maestría en Combate Cuerpo a Cuerpo tienen 20 puntos base:",
@@ -28283,7 +28283,7 @@
   {
     "id": 50063,
     "Key": "overwhelmconversionsynergy",
-    "enUS": "Convert all Physical Damage to Fire Damage\nIf both Overwhelm and Natural Resistance have 20 base points:",
+    "enUS": "Convert all Physical Damage to Fire Damage\nIf both Overwhelm and Natural Resistance have 20 levels:",
     "zhTW": "將所有物理傷害轉換為火焰傷害\n如果壓倒和自然抵抗都有 20 基礎點數：",
     "deDE": "Wandelt allen physischen Schaden in Feuerschaden um\nWenn sowohl Überwältigen als auch Natürliche Resistenz 20 Basispunkte haben:",
     "esES": "Convierte todo el daño físico en daño de fuego\nSi tanto Abrumar como Resistencia Natural tienen 20 puntos base:",
@@ -28351,7 +28351,7 @@
   {
     "id": 50067,
     "Key": "hatchetflurryarsynergy",
-    "enUS": "Double the Total Amount of Attack Rating from Skill\nIf both Hatchet Flurry and Throwing Mastery have 20 base points:",
+    "enUS": "Double the Total Amount of Attack Rating from Skill\nIf both Hatchet Flurry and Throwing Mastery have 20 levels:",
     "zhTW": "技能提供的總攻擊評價加倍\n如果飛斧亂舞和投擲精通都有 20 基礎點數：",
     "deDE": "Verdoppelt den Gesamtangriffswert aus der Fertigkeit\nWenn sowohl Axtwirbel als auch Wurfbegabung 20 Basispunkte haben:",
     "esES": "Duplica la cantidad total de índice de ataque de la habilidad\nSi tanto Aluvión de Hachas como Maestría en Lanzamiento tienen 20 puntos base:",
@@ -28368,7 +28368,7 @@
   {
     "id": 50068,
     "Key": "hatchetflurryarsynergy",
-    "enUS": "Double the Total Amount of Attack Rating from Skill\nIf both Hatchet Flurry and Throwing Mastery have 20 base points:",
+    "enUS": "Double the Total Amount of Attack Rating from Skill\nIf both Hatchet Flurry and Throwing Mastery have 20 levels:",
     "zhTW": "技能提供的總攻擊評價加倍\n如果飛斧亂舞和投擲精通都有 20 基礎點數：",
     "deDE": "Verdoppelt den Gesamtangriffswert aus der Fertigkeit\nWenn sowohl Axtwirbel als auch Wurfbegabung 20 Basispunkte haben:",
     "esES": "Duplica la cantidad total de índice de ataque de la habilidad\nSi tanto Aluvión de Hachas como Maestría en Lanzamiento tienen 20 puntos base:",
@@ -28385,7 +28385,7 @@
   {
     "id": 50069,
     "Key": "phantomhatchetsnovasynergy",
-    "enUS": "Every 3 Attacks, Unleash a Nova of Hatchets\nIf both Phantom Hatchets and Leap have 20 base points:",
+    "enUS": "Every 3 Attacks, Unleash a Nova of Hatchets\nIf both Phantom Hatchets and Leap have 20 levels:",
     "zhTW": "每 3 次攻擊，釋放一個飛斧新星\n如果幻影飛斧和跳躍都有 20 基礎點數：",
     "deDE": "Alle 3 Angriffe entfessle eine Nova von Beilen\nWenn sowohl Phantomäxte als auch Sprung 20 Basispunkte haben:",
     "esES": "Cada 3 ataques, desata una Nova de Hachas\nSi tanto Hachas Fantasma como Salto tienen 20 puntos base:",
@@ -28572,7 +28572,7 @@
   {
     "id": 50081,
     "Key": "multipleshotchainsynergy",
-    "enUS": "Every 3 Attacks, Projectiles Chain Twice\nIf both Multiple Shot and Strafe have 20 base points:",
+    "enUS": "Every 3 Attacks, Projectiles Chain Twice\nIf both Multiple Shot and Strafe have 20 levels:",
     "zhTW": "每 3 次攻擊，投射物連鎖兩次\n如果多重箭和掃射都有 20 基礎點數：",
     "deDE": "Alle 3 Angriffe verketten Projektile zweimal\nWenn sowohl Mehrfachschuss als auch Sperrfeuer 20 Basispunkte haben:",
     "esES": "Cada 3 ataques, los proyectiles encadenan dos veces\nSi tanto Disparo Múltiple como Ráfaga tienen 20 puntos base:",
@@ -28606,7 +28606,7 @@
   {
     "id": 50083,
     "Key": "tornadoshotmaimsynergy",
-    "enUS": "Projectiles Maim, Impairing Movement and Increasing Physical Damage Taken\nIf both Tornado Shot and Sharpened Focus have 20 base points:",
+    "enUS": "Projectiles Maim, Impairing Movement and Increasing Physical Damage Taken\nIf both Tornado Shot and Sharpened Focus have 20 levels:",
     "zhTW": "投射物致殘，減緩移動並增加承受的物理傷害\n如果龍捲射擊和銳化專注都有 20 基礎點數：",
     "deDE": "Projektile verursachen Verkrüppelung, beeinträchtigen die Bewegung und erhöhen den erlittenen physischen Schaden\nWenn sowohl Tornado-Schuss als auch Geschärfter Fokus 20 Basispunkte haben:",
     "esES": "Los proyectiles Mutilan, dificultando el movimiento y aumentando el daño físico recibido\nSi tanto Disparo de Tornado como Enfoque Agudizado tienen 20 puntos base:",
@@ -28691,7 +28691,7 @@
   {
     "id": 50088,
     "Key": "strafemaintargetsynergy",
-    "enUS": "Max Hits per Target is Doubled\nIf both Strafe and Eagle Eye have 20 base points:",
+    "enUS": "Max Hits per Target is Doubled\nIf both Strafe and Eagle Eye have 20 levels:",
     "zhTW": "每個目標的最大命中次數加倍\n如果掃射和鷹眼都有 20 基礎點數：",
     "deDE": "Maximale Treffer pro Ziel werden verdoppelt\nWenn sowohl Sperrfeuer als auch Adlerauge 20 Basispunkte haben:",
     "esES": "Los golpes máximos por objetivo se duplican\nSi tanto Ráfaga como Ojo de Águila tienen 20 puntos base:",
@@ -28708,7 +28708,7 @@
   {
     "id": 50089,
     "Key": "magicarrowmissilesynergy",
-    "enUS": "Fire 5 Main Projectiles, but Lose All Cosmic Shards\nIf both Magic Arrow and Petrify have 20 base points:",
+    "enUS": "Fire 5 Main Projectiles, but Lose All Cosmic Shards\nIf both Magic Arrow and Petrify have 20 levels:",
     "zhTW": "發射 5 個主要投射物，但失去所有宇宙碎片\n如果魔法箭和石化都有 20 基礎點數：",
     "deDE": "Feuert 5 Hauptprojektile ab, verliert aber alle Kosmischen Splitter\nWenn sowohl Magischer Pfeil als auch Versteinern 20 Basispunkte haben:",
     "esES": "Dispara 5 proyectiles principales, pero pierde todos los Fragmentos Cósmicos\nSi tanto Flecha Mágica como Petrificación tienen 20 puntos base:",
@@ -28725,7 +28725,7 @@
   {
     "id": 50090,
     "Key": "coldarrowchainsynergy",
-    "enUS": "Secondary Projectiles Chain an Additional Time\nIf both Cold Arrow and Athulua's Power have 20 base points:",
+    "enUS": "Secondary Projectiles Chain an Additional Time\nIf both Cold Arrow and Athulua's Power have 20 levels:",
     "zhTW": "次要投射物額外連鎖一次\n如果冰冷箭和阿圖盧亞的力量都有 20 基礎點數：",
     "deDE": "Sekundäre Projektile ketten eine zusätzliche Zeit\nWenn sowohl Kältepfeil als auch Athuluas Macht 20 Basispunkte haben:",
     "esES": "Los proyectiles secundarios encadenan una vez adicional\nSi tanto Flecha de Frío como Poder de Athulua tienen 20 puntos base:",
@@ -28742,7 +28742,7 @@
   {
     "id": 50091,
     "Key": "explodingarrowmeteorsynergy",
-    "enUS": "Main Projectile Calls Down a Fiery Arrow on the Main Target\nIf both Fire Arrow and Athulua's Wisdom have 20 base points:",
+    "enUS": "Main Projectile Calls Down a Fiery Arrow on the Main Target\nIf both Fire Arrow and Athulua's Wisdom have 20 levels:",
     "zhTW": "主要投射物對主要目標召喚一支火焰箭\n如果火焰箭和阿圖盧亞的智慧都有 20 基礎點數：",
     "deDE": "Hauptprojektil ruft einen feurigen Pfeil auf das Hauptziel herab\nWenn sowohl Feuerpfeil als auch Athuluas Weisheit 20 Basispunkte haben:",
     "esES": "El proyectil principal invoca una Flecha de Fuego sobre el objetivo principal\nSi tanto Flecha de Fuego como Sabiduría de Athulua tienen 20 puntos base:",
@@ -28827,7 +28827,7 @@
   {
     "id": 50096,
     "Key": "fenddurationsynergy",
-    "enUS": "The physical resist debuff lasts 10 seconds\nIf both Fend and Critical Strike have 20 base points:",
+    "enUS": "The physical resist debuff lasts 10 seconds\nIf both Fend and Critical Strike have 20 levels:",
     "zhTW": "物理抗性減益效果持續 10 秒\n如果格擋和致命攻擊都有 20 基礎點數：",
     "deDE": "Der Debuff für physische Resistenz hält 10 Sekunden an\nWenn sowohl Abwehren als auch Kritischer Treffer 20 Basispunkte haben:",
     "esES": "La reducción de resistencia física dura 10 segundos\nSi tanto Esquivar como Golpe Crítico tienen 20 puntos base:",
@@ -28877,7 +28877,7 @@
   {
     "id": 50099,
     "Key": "spearstormdurationsynergy",
-    "enUS": "The global physical damage lasts 10 seconds\nIf both Spearstorm and Sharpened Focus have 20 base points:",
+    "enUS": "The global physical damage lasts 10 seconds\nIf both Spearstorm and Sharpened Focus have 20 levels:",
     "zhTW": "全域物理傷害持續 10 秒\n如果長矛風暴和銳化專注都有 20 基礎點數：",
     "deDE": "Der globale physische Schaden hält 10 Sekunden an\nWenn sowohl Speerwurf als auch Geschärfter Fokus 20 Basispunkte haben:",
     "esES": "El daño físico global dura 10 segundos\nSi tanto Tormenta de Lanzas como Enfoque Agudizado tienen 20 puntos base:",
@@ -28893,7 +28893,7 @@
   {
     "id": 50100,
     "Key": "danceofdeathquaddamage",
-    "enUS": "Dance of Death has a 15% chance to deal 4 times more damage instead\nIf both Dance of Death and Spearstorm have 20 base points:",
+    "enUS": "Dance of Death has a 15% chance to deal 4 times more damage instead\nIf both Dance of Death and Spearstorm have 20 levels:",
     "zhTW": "死亡之舞有 15% 機率造成 4 倍傷害\n如果死亡之舞和長矛風暴都有 20 基礎點數：",
     "deDE": "Tanz des Todes hat eine 15%ige Chance, 4-fachen Schaden zu verursachen\nWenn sowohl Tanz des Todes als auch Speersturm 20 Basispunkte haben:",
     "esES": "Danza de la Muerte tiene un 15% de probabilidad de infligir 4 veces más daño\nSi tanto Danza de la Muerte como Tormenta de Lanzas tienen 20 puntos base:",
@@ -28960,7 +28960,7 @@
   {
     "id": 50104,
     "Key": "infernofuryfrequencysynergy",
-    "enUS": "Main projectile generates up to 50% more fire bolts\nIf both Inferno Fury and Athulua's Power have 20 base points:",
+    "enUS": "Main projectile generates up to 50% more fire bolts\nIf both Inferno Fury and Athulua's Power have 20 levels:",
     "zhTW": "主要投射物產生最多 50% 額外火焰箭\n如果地獄怒火和阿圖盧亞的力量都有 20 基礎點數：",
     "deDE": "Hauptprojektil erzeugt bis zu 50% mehr Feuerblitze\nWenn sowohl Infernozorn als auch Athuluas Macht 20 Basispunkte haben:",
     "esES": "El proyectil principal genera hasta un 50% más de saetas de fuego\nSi tanto Furia Infernal como Poder de Athulua tienen 20 puntos base:",
@@ -28976,7 +28976,7 @@
   {
     "id": 50105,
     "Key": "hailstormaoesynergy",
-    "enUS": "Area of effect increased by 50% and total projectile count is doubled\nIf both Hailtorm and Athulua's Wisdom have 20 base points:",
+    "enUS": "Area of effect increased by 50% and total projectile count is doubled\nIf both Hailtorm and Athulua's Wisdom have 20 levels:",
     "zhTW": "作用範圍增加 50%，總投射物數量加倍\n如果冰雹風暴和阿圖盧亞的智慧都有 20 基礎點數：",
     "deDE": "Wirkungsbereich um 50% erhöht und Gesamtzahl der Projektile verdoppelt\nWenn sowohl Hagelsturm als auch Athuluas Weisheit 20 Basispunkte haben:",
     "esES": "Área de efecto aumentada en un 50% y el recuento total de proyectiles se duplica\nSi tanto Tormenta de Granizo como Sabiduría de Athulua tienen 20 puntos base:",
@@ -28992,7 +28992,7 @@
   {
     "id": 50106,
     "Key": "lightningstrikedoublesynergy",
-    "enUS": "You have a 10% chance to release two times more charged bolts\nIf both Maelstrom Cascade and Sharpened Focus have 20 base points:",
+    "enUS": "You have a 10% chance to release two times more charged bolts\nIf both Maelstrom Cascade and Sharpened Focus have 20 levels:",
     "zhTW": "你有 10% 機率釋放兩倍的充能飛彈\n如果漩渦瀑布和磨練專注都有 20 基礎點數：",
     "deDE": "Du hast eine 10%ige Chance, zweimal mehr geladene Bolzen freizusetzen\nWenn sowohl Mahlstrom-Kaskade als auch Geschärfter Fokus 20 Basispunkte haben:",
     "esES": "Tienes un 10% de probabilidad de liberar el doble de proyectiles cargados\nSi tanto Cascada de Maelstrom como Foco Agudizado tienen 20 puntos base:",
@@ -29008,7 +29008,7 @@
   {
     "id": 50107,
     "Key": "splinteringjavelinbonusmissiles",
-    "enUS": "Splintering Javelin has a 50% chance to release twice more splinters\nIf both Splintering Javelin and Eagle Eye have 20 base points:",
+    "enUS": "Splintering Javelin has a 50% chance to release twice more splinters\nIf both Splintering Javelin and Eagle Eye have 20 levels:",
     "zhTW": "分裂標槍有 50% 機率額外釋放兩倍分裂物\n如果分裂標槍和鷹眼都有 20 基礎點數：",
     "deDE": "Splitternder Speer hat eine 50% Chance, zweimal mehr Splitter freizusetzen\nWenn sowohl Splitternder Speer als auch Adlerauge 20 Basispunkte haben:",
     "esES": "Jabalina Astilladora tiene un 50% de probabilidad de liberar el doble de astillas\nSi tanto Jabalina Astilladora como Ojo de Águila tienen 20 puntos base:",
@@ -29025,7 +29025,7 @@
   {
     "id": 50108,
     "Key": "dragontailaoesynergy",
-    "enUS": "You have a 50% chance to double the area of effect\nIf both Dragon Tail and Weapon Mastery have 20 base points:",
+    "enUS": "You have a 50% chance to double the area of effect\nIf both Dragon Tail and Weapon Mastery have 20 levels:",
     "zhTW": "你有 50% 機率使作用範圍加倍\n如果龍尾和武器專精都有 20 基礎點數：",
     "deDE": "Du hast eine 50%ige Chance, den Wirkungsbereich zu verdoppeln\nWenn sowohl Drachenschwanz als auch Waffenbeherrschung 20 Basispunkte haben:",
     "esES": "Tienes un 50% de probabilidad de duplicar el área de efecto\nSi tanto Cola de Dragón como Maestría con Armas tienen 20 puntos base:",
@@ -29160,7 +29160,7 @@
   {
     "id": 50116,
     "Key": "bladenovadoublesynergy",
-    "enUS": "Blade Nova duration is reduced to 1 second, but bonuses are doubled\nIf both Blade Nova and Any Finishing Move have 20 base points:",
+    "enUS": "Blade Nova duration is reduced to 1 second, but bonuses are doubled\nIf both Blade Nova and Any Finishing Move have 20 levels:",
     "zhTW": "刀刃新星持續時間減少到 1 秒，但獎勵加倍\n如果刀刃新星和任何終結技都有 20 基礎點數：",
     "deDE": "Die Dauer der Klingen-Nova wird auf 1 Sekunde reduziert, aber die Boni werden verdoppelt\nWenn sowohl Klingen-Nova als auch beliebiger Finishing Move 20 Basispunkte haben:",
     "esES": "La duración de Nova de Cuchillas se reduce a 1 segundo, pero las bonificaciones se duplican\nSi tanto Nova de Cuchillas como cualquier Golpe Final tienen 20 puntos base:",
@@ -29193,7 +29193,7 @@
   {
     "id": 50118,
     "Key": "dragonbladeseekrangesynergy",
-    "enUS": "Target seek range is doubled\nIf both Dragon Blade and Weapon Mastery have 20 base points:",
+    "enUS": "Target seek range is doubled\nIf both Dragon Blade and Weapon Mastery have 20 levels:",
     "zhTW": "目標搜尋範圍加倍\n如果龍刃和武器專精都有 20 基礎點數：",
     "deDE": "Zielsuchreichweite wird verdoppelt\nWenn sowohl Drachenklinge als auch Waffenbeherrschung 20 Basispunkte haben:",
     "esES": "El alcance de búsqueda de objetivos se duplica\nSi tanto Hoja de Dragón como Maestría con Armas tienen 20 puntos base:",
@@ -29209,7 +29209,7 @@
   {
     "id": 50119,
     "Key": "dragonfurystunsynergy",
-    "enUS": "Stunning nova stun duration is doubled\nIf both Dragon Fury and Iaigiri have 20 base points:",
+    "enUS": "Stunning nova stun duration is doubled\nIf both Dragon Fury and Iaigiri have 20 levels:",
     "zhTW": "暈眩新星的暈眩持續時間加倍\n如果龍之怒和居合斬都有 20 基礎點數：",
     "deDE": "Die Betäubungsdauer der Betäubungs-Nova wird verdoppelt\nWenn sowohl Drachenwut als auch Iaigiri 20 Basispunkte haben:",
     "esES": "La duración del aturdimiento de la nova aturdidora se duplica\nSi tanto Furia de Dragón como Iaigiri tienen 20 puntos base:",
@@ -29225,7 +29225,7 @@
   {
     "id": 50120,
     "Key": "dragonfuryflurrysynergy",
-    "enUS": "You have a 15% chance to release two flurries of shurikens\nIf both Dragon Fury and Dragon Talon have 20 base points:",
+    "enUS": "You have a 15% chance to release two flurries of shurikens\nIf both Dragon Fury and Dragon Talon have 20 levels:",
     "zhTW": "你有 15% 機率釋放兩次飛舞的飛鏢\n如果龍之怒和龍爪都有 20 基礎點數：",
     "deDE": "Du hast eine 15%ige Chance, zwei Schauer Shuriken freizusetzen\nWenn sowohl Drachenwut als auch Drachenklaue 20 Basispunkte haben:",
     "esES": "Tienes un 15% de probabilidad de lanzar dos ráfagas de shurikens\nSi tanto Furia de Dragón como Garra de Dragón tienen 20 puntos base:",
@@ -29241,7 +29241,7 @@
   {
     "id": 50121,
     "Key": "executehealsynergy",
-    "enUS": "Self heal from first charge is doubled\nIf both Execute and Iaigiri have 20 base points:",
+    "enUS": "Self heal from first charge is doubled\nIf both Execute and Iaigiri have 20 levels:",
     "zhTW": "第一次衝鋒的自我治療量加倍\n如果執行和居合斬都有 20 基礎點數：",
     "deDE": "Selbstheilung durch erste Aufladung wird verdoppelt\nWenn sowohl Exekutieren als auch Iaigiri 20 Basispunkte haben:",
     "esES": "La autosanación de la primera carga se duplica\nSi tanto Ejecutar como Iaigiri tienen 20 puntos base:",
@@ -29257,7 +29257,7 @@
   {
     "id": 50122,
     "Key": "executenovasynergy",
-    "enUS": "You have a 10% chance to release another converging shuriken nova\nIf both Execute and Dragon Talon have 20 base points:",
+    "enUS": "You have a 10% chance to release another converging shuriken nova\nIf both Execute and Dragon Talon have 20 levels:",
     "zhTW": "你有 10% 機率釋放另一個匯聚的飛鏢新星\n如果執行和龍爪都有 20 基礎點數：",
     "deDE": "Du hast eine 10%ige Chance, eine weitere konvergierende Shuriken-Nova freizusetzen\nWenn sowohl Exekutieren als auch Drachenklaue 20 Basispunkte haben:",
     "esES": "Tienes un 10% de probabilidad de lanzar otra nova de shurikens convergentes\nSi tanto Ejecutar como Garra de Dragón tienen 20 puntos base:",
@@ -29273,7 +29273,7 @@
   {
     "id": 50123,
     "Key": "psychichammerhitssynergy",
-    "enUS": "You have a 10% chance to triple the number of hits\nIf both Psychic Hammer and Mind Blast have 20 base points:",
+    "enUS": "You have a 10% chance to triple the number of hits\nIf both Psychic Hammer and Mind Blast have 20 levels:",
     "zhTW": "你有 10% 機率使命中次數增加三倍\n如果心靈錘和精神衝擊都有 20 基礎點數：",
     "deDE": "Du hast eine 10%ige Chance, die Anzahl der Treffer zu verdreifachen\nWenn sowohl Psychohammer als auch Gedankenexplosion 20 Basispunkte haben:",
     "esES": "Tienes un 10% de probabilidad de triplicar el número de golpes\nSi tanto Martillo Psíquico como Explosión Mental tienen 20 puntos base:",
@@ -29289,7 +29289,7 @@
   {
     "id": 50124,
     "Key": "mindblastcooldownsynergy",
-    "enUS": "You have a 10% chance to refresh the cooldown instantly\nIf both Mind Blast and Psychic Hammer have 20 base points:",
+    "enUS": "You have a 10% chance to refresh the cooldown instantly\nIf both Mind Blast and Psychic Hammer have 20 levels:",
     "zhTW": "你有 10% 機率立即重置冷卻時間\n如果精神衝擊和心靈錘都有 20 基礎點數：",
     "deDE": "Du hast eine 10%ige Chance, die Abklingzeit sofort zu aktualisieren\nWenn sowohl Gedankenexplosion als auch Psychohammer 20 Basispunkte haben:",
     "esES": "Tienes un 10% de probabilidad de refrescar el tiempo de recarga al instante\nSi tanto Explosión Mental como Martillo Psíquico tienen 20 puntos base:",
@@ -29305,7 +29305,7 @@
   {
     "id": 50125,
     "Key": "shurikentraptriplesynergy",
-    "enUS": "The trap has a 20% chance to spawn 2 times more shurikens\nIf both Shuriken Trap and Ricochet have 20 base points:",
+    "enUS": "The trap has a 20% chance to spawn 2 times more shurikens\nIf both Shuriken Trap and Ricochet have 20 levels:",
     "zhTW": "陷阱有 20% 機率產生 2 倍飛鏢\n如果飛鏢陷阱和彈射都有 20 基礎點數：",
     "deDE": "Die Falle hat eine 20%ige Chance, 2-mal mehr Shuriken zu spawnen\nWenn sowohl Shuriken-Falle als auch Ricochet 20 Basispunkte haben:",
     "esES": "La trampa tiene un 20% de probabilidad de generar 2 veces más shurikens\nSi tanto Trampa de Shuriken como Ricochet tienen 20 puntos base:",
@@ -29321,7 +29321,7 @@
   {
     "id": 50128,
     "Key": "ricochetdoublerangesynergy",
-    "enUS": "Shurikens have a 20% chance to split an additional time (Shurikens)\nYou have a 20% chance to double the number of targets and seek range (Throwing Knives)\nIf both Ricochet and Flurry of Shurikens have 20 base points:",
+    "enUS": "Shurikens have a 20% chance to split an additional time (Shurikens)\nYou have a 20% chance to double the number of targets and seek range (Throwing Knives)\nIf both Ricochet and Flurry of Shurikens have 20 levels:",
     "zhTW": "你有 20% 機率使目標數量和搜尋範圍加倍\n如果彈射和手裡劍亂舞都有 20 基礎點數：",
     "deDE": "Du hast eine 20%ige Chance, die Anzahl der Ziele und die Suchreichweite zu verdoppeln\nWenn sowohl Ricochet als auch Wirbelnde Shuriken 20 Basispunkte haben:",
     "esES": "Tienes un 20% de probabilidad de duplicar el número de objetivos y el alcance de búsqueda\nSi tanto Ricochet como Torrente de Shurikens tienen 20 puntos base:",
@@ -29372,7 +29372,7 @@
   {
     "id": 50131,
     "Key": "freezingclawsdoublehitssynergy",
-    "enUS": "You have a 10% chance to double the number of hits\nIf both Freezing Claws and Fire Claws have 20 base points:",
+    "enUS": "You have a 10% chance to double the number of hits\nIf both Freezing Claws and Fire Claws have 20 levels:",
     "zhTW": "你有 10% 機率使命中次數加倍\n如果冰凍爪和火焰爪都有 20 基礎點數：",
     "deDE": "Du hast eine 10%ige Chance, die Anzahl der Treffer zu verdoppeln\nWenn sowohl Frostklauen als auch Feuerklauen 20 Basispunkte haben:",
     "esES": "Tienes un 10% de probabilidad de duplicar el número de golpes\nSi tanto Garras Congelantes como Garras de Fuego tienen 20 puntos base:",
@@ -29405,7 +29405,7 @@
   {
     "id": 50133,
     "Key": "fireclawsdebuffsynergy",
-    "enUS": "Fire Claws debuffs enemies for 3 seconds, lowering their elemental resists\nIf both Fire Claws and Charged Claws have 20 base points:",
+    "enUS": "Fire Claws debuffs enemies for 3 seconds, lowering their elemental resists\nIf both Fire Claws and Charged Claws have 20 levels:",
     "zhTW": "火焰爪對敵人施加 3 秒的減益效果，降低其元素抗性\n如果火焰爪和帶電爪都有 20 基礎點數：",
     "deDE": "Feuerklauen belegen Gegner 3 Sekunden lang mit einem Debuff, der ihre Elementarresistenzen senkt\nWenn sowohl Feuerklauen als auch Geladene Klauen 20 Basispunkte haben:",
     "esES": "Garras de Fuego aplica una desventaja a los enemigos durante 3 segundos, reduciendo sus resistencias elementales\nSi tanto Garras de Fuego como Garras Cargadas tienen 20 puntos base:",
@@ -29421,7 +29421,7 @@
   {
     "id": 50134,
     "Key": "hungercooldownsynergy",
-    "enUS": "The cooldown is reduced by 3 seconds\nIf both Primal Savagery and Lycanthropy have 20 base points:",
+    "enUS": "The cooldown is reduced by 3 seconds\nIf both Primal Savagery and Lycanthropy have 20 levels:",
     "zhTW": "冷卻時間減少 3 秒\n如果原始野蠻和狼人變身都有 20 基礎點數：",
     "deDE": "Die Abklingzeit ist um 3 Sekunden reduziert\nWenn sowohl Ursprüngliche Wildheit als auch Lykanthropie 20 Basispunkte haben:",
     "esES": "El tiempo de recarga se reduce en 3 segundos\nSi tanto Salvajes Primigenia como Licantropía tienen 20 puntos base:",
@@ -29455,7 +29455,7 @@
   {
     "id": 50137,
     "Key": "chargedclawsboltssynergy",
-    "enUS": "Increase the number of minimum and maximum charged bolts by 2\nIf both Charged Claws and Freezing Claws have 20 base points:",
+    "enUS": "Increase the number of minimum and maximum charged bolts by 2\nIf both Charged Claws and Freezing Claws have 20 levels:",
     "zhTW": "最小和最大帶電飛彈數量增加 2 個\n如果帶電爪和冰凍爪都有 20 基礎點數：",
     "deDE": "Erhöht die minimale und maximale Anzahl geladener Bolzen um 2\nWenn sowohl 'Geladene Klauen' als auch 'Frostklauen' 20 Basispunkte haben:",
     "esES": "Aumenta el número mínimo y máximo de rayos cargados en 2\nSi tanto Garras Cargadas como Garras Congelantes tienen 20 puntos base:",
@@ -29489,7 +29489,7 @@
   {
     "id": 50139,
     "Key": "furydebuffsynergy",
-    "enUS": "physical resist of affected enemies for 1 second\nYou have a 5% chance to drastically reduce the\nIf both Fury and Werewolf have 20 base points:",
+    "enUS": "physical resist of affected enemies for 1 second\nYou have a 5% chance to drastically reduce the\nIf both Fury and Werewolf have 20 levels:",
     "zhTW": "受影響敵人的物理抗性降低 1 秒\n你有 5% 機率大幅降低\n如果狂怒和狼人都有 20 基礎點數：",
     "deDE": "Die physische Resistenz betroffener Gegner für 1 Sekunde drastisch zu reduzieren\nDu hast eine 5%ige Chance, die\nWenn sowohl 'Wut' als auch 'Werwolf' 20 Basispunkte haben:",
     "esES": "resistencia física de los enemigos afectados durante 1 segundo\nTienes un 5% de probabilidad de reducir drásticamente la\nSi tanto Furia como Hombre Lobo tienen 20 puntos base:",
@@ -29522,7 +29522,7 @@
   {
     "id": 50141,
     "Key": "shockwavequaddamagesynergy",
-    "enUS": "You have a 20% chance to deal 4 times more damage against the main target\nIf both Shock Wave and Werebear have 20 base points:",
+    "enUS": "You have a 20% chance to deal 4 times more damage against the main target\nIf both Shock Wave and Werebear have 20 levels:",
     "zhTW": "你有 20% 機率對主要目標造成 4 倍傷害\n如果震波和熊人都有 20 基礎點數：",
     "deDE": "Du hast eine 20%ige Chance, 4-mal mehr Schaden gegen das Hauptziel zu verursachen\nWenn sowohl Schockwelle als auch Werbär 20 Basispunkte haben:",
     "esES": "Tienes un 20% de probabilidad de infligir 4 veces más daño al objetivo principal\nSi tanto Onda de Choque como Hombre Oso tienen 20 puntos base:",
@@ -29707,7 +29707,7 @@
   {
     "id": 50152,
     "Key": "reapsoulspoisonpiercesynergy",
-    "enUS": "You also gain poison pierce for the duration\nIf both Reap Souls and Bone Armor have 20 base points:",
+    "enUS": "You also gain poison pierce for the duration\nIf both Reap Souls and Bone Armor have 20 levels:",
     "zhTW": "期間內你也會獲得毒素穿透\n如果收割靈魂和骸骨護甲都有 20 基礎點數：",
     "deDE": "Du erhältst auch Gift-Durchdringung für die Dauer\nWenn sowohl Seelen ernten als auch Knochenrüstung 20 Basispunkte haben:",
     "esES": "También ganas penetración de veneno durante la duración\nSi tanto Cosechar Almas como Armadura de Hueso tienen 20 puntos base:",
@@ -29723,7 +29723,7 @@
   {
     "id": 50153,
     "Key": "poisonweaponpiercesynergy",
-    "enUS": "Affected enemies also have their physical and magic resistance reduced\nIf both Poison Weapon and Bone Armor have 20 base points:",
+    "enUS": "Affected enemies also have their physical and magic resistance reduced\nIf both Poison Weapon and Bone Armor have 20 levels:",
     "zhTW": "受影響的敵人也會降低物理和魔法抗性\n如果毒素武器和骸骨護甲都有 20 基礎點數：",
     "deDE": "Betroffene Gegner haben auch ihre physische und magische Resistenz reduziert\nWenn sowohl Giftwaffe als auch Knochenrüstung 20 Basispunkte haben:",
     "esES": "Los enemigos afectados también tienen su resistencia física y mágica reducida\nSi tanto Arma Envenenada como Armadura de Hueso tienen 20 puntos base:",
@@ -29841,7 +29841,7 @@
   {
     "id": 50160,
     "Key": "zealdoubledamagesynergy",
-    "enUS": "Zeal has a 10% Chance to Double the Number of Hits\nIf both Zeal and Might have 20 base points:",
+    "enUS": "Zeal has a 10% Chance to Double the Number of Hits\nIf both Zeal and Might have 20 levels:",
     "zhTW": "熱忱有 10% 機率使擊中次數加倍\n如果熱忱和力量都有 20 基礎點數：",
     "deDE": "Eifer hat eine 10%ige Chance, die Anzahl der Treffer zu verdoppeln\nWenn sowohl 'Eifer' als auch 'Macht' 20 Basispunkte haben:",
     "esES": "Celo tiene un 10% de probabilidad de duplicar el número de golpes\nSi tanto Celo como Potencia tienen 20 puntos base:",
@@ -29857,7 +29857,7 @@
   {
     "id": 50161,
     "Key": "crucifyregensynergy",
-    "enUS": "You Regenerate 5% of Total Life over 1 second on use\nIf both Crucify and Divinity have 20 base points:",
+    "enUS": "You Regenerate 5% of Total Life over 1 second on use\nIf both Crucify and Divinity have 20 levels:",
     "zhTW": "使用時你在 1 秒內回復總生命值的 5%\n如果苦行和神性都有 20 基礎點數：",
     "deDE": "Du regenerierst bei Gebrauch 5% des Gesamtlebens über 1 Sekunde\nWenn sowohl 'Kreuzigen' als auch 'Göttlichkeit' 20 Basispunkte haben:",
     "esES": "Regeneras un 5% de la Vida Total durante 1 segundo al usarlo\nSi tanto Crucificar como Divinidad tienen 20 puntos base:",
@@ -29873,7 +29873,7 @@
   {
     "id": 50162,
     "Key": "vengeanceabsorbsynergy",
-    "enUS": "You gain 10% Elemental Absorb for 1 second on use\nIf both Vengeance and Salvation have 20 base points:",
+    "enUS": "You gain 10% Elemental Absorb for 1 second on use\nIf both Vengeance and Salvation have 20 levels:",
     "zhTW": "使用時你獲得 10% 元素吸收，持續 1 秒\n如果復仇和救贖都有 20 基礎點數：",
     "deDE": "Du erhältst bei Gebrauch 10% Elementarabsorption für 1 Sekunde\nWenn sowohl 'Rache' als auch 'Erlösung' 20 Basispunkte haben:",
     "esES": "Ganas un 10% de Absorción Elemental durante 1 segundo al usar\nSi tanto Venganza como Salvación tienen 20 puntos base:",
@@ -29889,7 +29889,7 @@
   {
     "id": 50163,
     "Key": "judgementelementalpiercesynergy",
-    "enUS": "Judgement lowers the elemental resists of affected enemies for 6 seconds\nIf both Judgement and Conviction have 20 base points:",
+    "enUS": "Judgement lowers the elemental resists of affected enemies for 6 seconds\nIf both Judgement and Conviction have 20 levels:",
     "zhTW": "審判降低受影響敵人的元素抗性 6 秒\n如果審判和信念都有 20 基礎點數：",
     "deDE": "Urteil senkt die Elementarresistenzen betroffener Gegner für 6 Sekunden\nWenn sowohl 'Urteil' als auch 'Überzeugung' 20 Basispunkte haben:",
     "esES": "Juicio reduce las resistencias elementales de los enemigos afectados durante 6 segundos\nSi tanto Juicio como Convicción tienen 20 puntos base:",
@@ -29922,7 +29922,7 @@
   {
     "id": 50165,
     "Key": "holyraindoublesynergy",
-    "enUS": "Holy Rain has a 15% chance to double the number of orbs and targets\nIf both Holy Rain and Holy Armor have 20 base points:",
+    "enUS": "Holy Rain has a 15% chance to double the number of orbs and targets\nIf both Holy Rain and Holy Armor have 20 levels:",
     "zhTW": "聖雨有 15% 機率使寶珠和目標數量加倍\n如果聖雨和聖護甲都有 20 基礎點數：",
     "deDE": "Heiliger Regen hat eine 15%ige Chance, die Anzahl der Kugeln und Ziele zu verdoppeln\nWenn sowohl 'Heiliger Regen' als auch 'Heilige Rüstung' 20 Basispunkte haben:",
     "esES": "Lluvia Sagrada tiene un 15% de probabilidad de duplicar el número de orbes y objetivos\nSi tanto Lluvia Sagrada como Armadura Sagrada tienen 20 puntos base:",
@@ -30023,7 +30023,7 @@
   {
     "id": 50171,
     "Key": "trinitypentamissiles",
-    "enUS": "Trinity has a 10% chance to release double the amount of holy bolts\nIf both Trinity and Holy Armor have 20 base points:",
+    "enUS": "Trinity has a 10% chance to release double the amount of holy bolts\nIf both Trinity and Holy Armor have 20 levels:",
     "zhTW": "三位一體有 10% 機率發射雙倍的聖光彈\n如果三位一體和聖護甲都有 20 基礎點數：",
     "deDE": "Dreifaltigkeit hat eine 10%ige Chance, die doppelte Menge an heiligen Blitzen freizusetzen\nWenn sowohl 'Dreifaltigkeit' als auch 'Heilige Rüstung' 20 Basispunkte haben:",
     "esES": "Trinidad tiene un 10% de probabilidad de liberar el doble de saetas sagradas\nSi tanto Trinidad como Armadura Sagrada tienen 20 puntos base:",
@@ -30294,7 +30294,7 @@
   {
     "id": 50187,
     "Key": "thunderstrikechainsynergy",
-    "enUS": "Lightning Trails have a 50% chance to chain 2 more times\nIf both Thunder Strike and Storm of the Old Gods have 20 base points:",
+    "enUS": "Lightning Trails have a 50% chance to chain 2 more times\nIf both Thunder Strike and Storm of the Old Gods have 20 levels:",
     "zhTW": "閃電軌跡有 50% 機率額外連鎖 2 次\n如果雷霆打擊和舊神風暴都有 20 基礎點數：",
     "deDE": "Blitzspuren haben eine 50%ige Chance, 2 weitere Male zu ketten\nWenn sowohl 'Donnerschlag' als auch 'Sturm der Alten Götter' 20 Basispunkte haben:",
     "esES": "Los Rastros de Rayo tienen un 50% de probabilidad de encadenarse 2 veces más\nSi tanto Golpe Trueno como Tormenta de los Dioses Antiguos tienen 20 puntos base:",
@@ -30378,7 +30378,7 @@
   {
     "id": 50192,
     "Key": "fanaticswingspecialsynergies",
-    "enUS": "Life and mana on striking and damage reduction are tripled\nIf All Elemental Armors have 20 base points:\nFanatic Swing has a 30% chance to double the number of hits\nIf both Fanatic Swing and Meteor Shower have 20 base points:",
+    "enUS": "Life and mana on striking and damage reduction are tripled\nIf All Elemental Armors have 20 levels:\nFanatic Swing has a 30% chance to double the number of hits\nIf both Fanatic Swing and Meteor Shower have 20 levels:",
     "zhTW": "擊中恢復生命與法力以及傷害減免提高三倍\n如果所有元素裝甲都有 20 基礎點數：\n狂熱之擊有 30% 機率使命中次數加倍\n如果狂熱之擊和隕石術都有 20 基礎點數：",
     "deDE": "Leben und Mana bei Treffer sowie Schadensreduktion werden verdreifacht\nWenn alle Elementarpanzerungen 20 Basispunkte haben:\nFanatischer Schwung hat eine 30% Chance, die Anzahl der Treffer zu verdoppeln\nWenn sowohl Fanatischer Schwung als auch Meteoritenregen 20 Basispunkte haben:",
     "esES": "La vida y el maná al golpear y la reducción de daño se triplican\nSi todas las Armaduras Elementales tienen 20 puntos base:\nGolpe Fanático tiene un 30% de probabilidad de duplicar el número de golpes\nSi tanto Golpe Fanático como Lluvia de Meteoritos tienen 20 puntos base:",
@@ -30446,7 +30446,7 @@
   {
     "id": 50196,
     "Key": "meteorshowerdelaysynergy",
-    "enUS": "Reduce the minimum delay between meteors by 0.2 seconds\nIf both Meteor Shower and Fanatic Swing have 20 base points:",
+    "enUS": "Reduce the minimum delay between meteors by 0.2 seconds\nIf both Meteor Shower and Fanatic Swing have 20 levels:",
     "zhTW": "減少流星之間的最小延遲 0.2 秒\n如果隕石術和狂熱之擊都有 20 基礎點數：",
     "deDE": "Reduziert die minimale Verzögerung zwischen Meteoriten um 0,2 Sekunden\nWenn sowohl Meteoritenregen als auch Fanatischer Schwung 20 Basispunkte haben:",
     "esES": "Reduce el retraso mínimo entre meteoros en 0.2 segundos\nSi tanto Lluvia de Meteoritos como Golpe Fanático tienen 20 puntos base:",
@@ -30463,7 +30463,7 @@
   {
     "id": 50197,
     "Key": "meteorshowerpentahitssynergy",
-    "enUS": "Each meteor has a 50% chance to spawn 5 times more secondary bolts\nIf both Meteor Shower and Enchant have 20 base points:",
+    "enUS": "Each meteor has a 50% chance to spawn 5 times more secondary bolts\nIf both Meteor Shower and Enchant have 20 levels:",
     "zhTW": "每個流星有 50% 機率產生 5 倍多的次要閃電箭\n如果隕石術和附魔都有 20 基礎點數：",
     "deDE": "Jeder Meteorit hat eine 50% Chance, 5-mal mehr sekundäre Blitze zu erzeugen\nWenn sowohl Meteoritenregen als auch Verzauberung 20 Basispunkte haben:",
     "esES": "Cada meteoro tiene un 50% de probabilidad de generar 5 veces más rayos secundarios\nSi tanto Lluvia de Meteoritos como Encantar tienen 20 puntos base:",
@@ -30480,7 +30480,7 @@
   {
     "id": 50198,
     "Key": "stormoldgodsdoublehitsynergy",
-    "enUS": "Storm of the Old Gods has a 20% chance to strike twice in a row\nIf both Storm of the Old Gods and Thunder Strike have 20 base points:",
+    "enUS": "Storm of the Old Gods has a 20% chance to strike twice in a row\nIf both Storm of the Old Gods and Thunder Strike have 20 levels:",
     "zhTW": "古神風暴有 20% 機率連續打擊兩次\n如果古神風暴和雷霆一擊都有 20 基礎點數：",
     "deDE": "Sturm der Alten Götter hat eine 20% Chance, zweimal hintereinander zu treffen\nWenn sowohl Sturm der Alten Götter als auch Donnerschlag 20 Basispunkte haben:",
     "esES": "Tormenta de los Dioses Antiguos tiene un 20% de probabilidad de golpear dos veces seguidas\nSi tanto Tormenta de los Dioses Antiguos como Golpe Trueno tienen 20 puntos base:",
@@ -30497,7 +30497,7 @@
   {
     "id": 50199,
     "Key": "stormoldgodsdoubledamagesynergy",
-    "enUS": "Storm of the Old Gods has a 10% chance deal double damage\nIf both Storm of the Old Gods and Strength of the Ancients have 20 base points:",
+    "enUS": "Storm of the Old Gods has a 10% chance deal double damage\nIf both Storm of the Old Gods and Strength of the Ancients have 20 levels:",
     "zhTW": "古神風暴有 10% 機率造成雙倍傷害\n如果古神風暴和遠古之力都有 20 基礎點數：",
     "deDE": "Sturm der Alten Götter hat eine 10% Chance, doppelten Schaden zu verursachen\nWenn sowohl Sturm der Alten Götter als auch Stärke der Alten 20 Basispunkte haben:",
     "esES": "Tormenta de los Dioses Antiguos tiene un 10% de probabilidad de infligir el doble de daño\nSi tanto Tormenta de los Dioses Antiguos como Fuerza de los Antiguos tienen 20 puntos base:",
@@ -33047,7 +33047,7 @@
   {
     "id": 50373,
     "Key": "flurryofshurikensdoublesynergy",
-    "enUS": "Flurry of Shurikens has 10% chance to release twice as many shurikens\nIf both Flurry of Shurikens and Weapon Mastery have 20 base points:",
+    "enUS": "Flurry of Shurikens has 10% chance to release twice as many shurikens\nIf both Flurry of Shurikens and Weapon Mastery have 20 levels:",
     "zhTW": "手裡劍亂舞有 10% 機率釋放兩倍的手裡劍\n如果手裡劍亂舞和武器專精都有 20 基礎點數：",
     "deDE": "Wirbelnde Shuriken hat eine Chance von 10%, doppelt so viele Shuriken freizusetzen\nWenn sowohl Wirbelnde Shuriken als auch Waffenbeherrschung 20 Basispunkte haben:",
     "esES": "Torrente de Shurikens tiene un 10% de probabilidad de liberar el doble de shurikens\nSi tanto Torrente de Shurikens como Maestría con Armas tienen 20 puntos base:",
@@ -33217,7 +33217,7 @@
   {
     "id": 50385,
     "Key": "bladenovacooldownsynergy",
-    "enUS": "Blade Nova's total cooldown is reduced by one third\nIf both Blade Nova and Dragon Blade have 20 base points:",
+    "enUS": "Blade Nova's total cooldown is reduced by one third\nIf both Blade Nova and Dragon Blade have 20 levels:",
     "zhTW": "刀鋒新星的總冷卻時間減少三分之一\n如果刀鋒新星與龍之刃都有 20 點基礎點數：",
     "deDE": "Die gesamte Abklingzeit von Klingen-Nova wird um ein Drittel verringert\nWenn sowohl Klingen-Nova als auch Drachenklinge 20 Basispunkte haben:",
     "esES": "El enfriamiento total de Nova de cuchillas se reduce en un tercio\nSi tanto Nova de cuchillas como Hoja de dragón tienen 20 puntos base:",
@@ -33796,6 +33796,57 @@
     "id": 50419,
     "Key": "uptolightningresistreduction",
     "enUS": "Enemy Lightning Resistance up to: -%d%%",
+    "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
+    "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
+    "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "frFR": "Imprégnez-vous de l'essence de la foudre,\naugmentant le maximum de mana et la résistance à la foudre",
+    "itIT": "Potenziati con l'essenza del fulmine,\naumentando il mana massimo e la resistenza ai fulmini",
+    "koKR": "번개의 정수로 강화되어,\n최대 마나와 번개 저항이 증가합니다",
+    "plPL": "Zostań wzmocniony esencją błyskawic,\nzwiększając maksymalną manę i odporność na błyskawice",
+    "esMX": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "jaJP": "電撃のエッセンスによって強化され、\n最大マナと電撃耐性が上昇します",
+    "ptBR": "Torne-se fortalecido com a essência do raio,\naumentando a mana máxima e a resistência a raios",
+    "ruRU": "Наполнитесь силой сущности молнии,\nувеличивая максимум маны и сопротивление молнии",
+    "zhCN": "获得闪电精华的力量，\n增加最大法力值与闪电抗性"
+  },
+  {
+    "id": 50420,
+    "Key": "fireboltstacks",
+    "enUS": "Firestarter duration: 4 seconds\nFire Bolt can use up to %d firestarter stacks",
+    "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
+    "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
+    "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "frFR": "Imprégnez-vous de l'essence de la foudre,\naugmentant le maximum de mana et la résistance à la foudre",
+    "itIT": "Potenziati con l'essenza del fulmine,\naumentando il mana massimo e la resistenza ai fulmini",
+    "koKR": "번개의 정수로 강화되어,\n최대 마나와 번개 저항이 증가합니다",
+    "plPL": "Zostań wzmocniony esencją błyskawic,\nzwiększając maksymalną manę i odporność na błyskawice",
+    "esMX": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "jaJP": "電撃のエッセンスによって強化され、\n最大マナと電撃耐性が上昇します",
+    "ptBR": "Torne-se fortalecido com a essência do raio,\naumentando a mana máxima e a resistência a raios",
+    "ruRU": "Наполнитесь силой сущности молнии,\nувеличивая максимум маны и сопротивление молнии",
+    "zhCN": "获得闪电精华的力量，\n增加最大法力值与闪电抗性"
+  },
+  {
+    "id": 50421,
+    "Key": "fireballstacks",
+    "enUS": "Fire Ball reduces fire resistance at 5 firestarter stacks\nFire Ball splits into 3 additional fire balls at 3 firestarter stacks",
+    "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
+    "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
+    "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "frFR": "Imprégnez-vous de l'essence de la foudre,\naugmentant le maximum de mana et la résistance à la foudre",
+    "itIT": "Potenziati con l'essenza del fulmine,\naumentando il mana massimo e la resistenza ai fulmini",
+    "koKR": "번개의 정수로 강화되어,\n최대 마나와 번개 저항이 증가합니다",
+    "plPL": "Zostań wzmocniony esencją błyskawic,\nzwiększając maksymalną manę i odporność na błyskawice",
+    "esMX": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
+    "jaJP": "電撃のエッセンスによって強化され、\n最大マナと電撃耐性が上昇します",
+    "ptBR": "Torne-se fortalecido com a essência do raio,\naumentando a mana máxima e a resistência a raios",
+    "ruRU": "Наполнитесь силой сущности молнии,\nувеличивая максимум маны и сопротивление молнии",
+    "zhCN": "获得闪电精华的力量，\n增加最大法力值与闪电抗性"
+  },
+  {
+    "id": 50422,
+    "Key": "rainoffirestacks",
+    "enUS": "Double the amount of meteors at 8 firestarter stacks",
     "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
     "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
     "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
