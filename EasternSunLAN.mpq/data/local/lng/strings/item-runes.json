@@ -1169,7 +1169,7 @@
     "esMX": "ArchiDimeron",
     "jaJP": "アーチディメロン",
     "ptBR": "ArquiDimero",
-    "ruRU": "АрхДимерон",
+    "ruRU": "ArchDimeron",
     "zhCN": "大二聚龙"
   },
   {
@@ -1186,7 +1186,7 @@
     "esMX": "Verraco",
     "jaJP": "イノシシ",
     "ptBR": "Javali",
-    "ruRU": "Кабан",
+    "ruRU": "Boar",
     "zhCN": "公猪"
   },
   {
@@ -1203,7 +1203,7 @@
     "esMX": "liebre",
     "jaJP": "野ウサギ",
     "ptBR": "lebre",
-    "ruRU": "заяц",
+    "ruRU": "Hare",
     "zhCN": "野兔"
   },
   {
@@ -1220,7 +1220,7 @@
     "esMX": "Muerte",
     "jaJP": "死",
     "ptBR": "Morte",
-    "ruRU": "Смерть",
+    "ruRU": "Death",
     "zhCN": "死亡"
   },
   {
@@ -1237,7 +1237,7 @@
     "esMX": "Piedra",
     "jaJP": "石",
     "ptBR": "Pedra",
-    "ruRU": "Камень",
+    "ruRU": "Stone",
     "zhCN": "石头"
   },
   {
@@ -1254,7 +1254,7 @@
     "esMX": "Vaca",
     "jaJP": "牛",
     "ptBR": "Vaca",
-    "ruRU": "Корова",
+    "ruRU": "Cow",
     "zhCN": "奶牛"
   },
   {
@@ -1271,14 +1271,14 @@
     "esMX": "Suerte",
     "jaJP": "運",
     "ptBR": "Sorte",
-    "ruRU": "Удача",
+    "ruRU": "Luck",
     "zhCN": "运气"
   },
   {
     "id": 63088,
     "Key": "Runeword586",
     "enUS": "Evolution",
-    "zhTW": "進化",
+    "zhTW": "演化",
     "deDE": "Evolution",
     "esES": "Evolución",
     "frFR": "Évolution",
@@ -1288,7 +1288,7 @@
     "esMX": "Evolución",
     "jaJP": "進化",
     "ptBR": "Evolução",
-    "ruRU": "Эволюция",
+    "ruRU": "Evolution",
     "zhCN": "进化"
   },
   {
@@ -1305,7 +1305,7 @@
     "esMX": "Sentir",
     "jaJP": "感じる",
     "ptBR": "Sentir",
-    "ruRU": "Чувствовать",
+    "ruRU": "Feel",
     "zhCN": "感觉"
   },
   {
@@ -1322,7 +1322,7 @@
     "esMX": "Vacío",
     "jaJP": "空所",
     "ptBR": "Vazio",
-    "ruRU": "Пустота",
+    "ruRU": "Void",
     "zhCN": "空白"
   },
   {
@@ -1339,7 +1339,7 @@
     "esMX": "Blandir",
     "jaJP": "振り回す",
     "ptBR": "Brandir",
-    "ruRU": "Брандиш",
+    "ruRU": "Brandish",
     "zhCN": "挥舞"
   },
   {
@@ -1356,7 +1356,7 @@
     "esMX": "presentimiento",
     "jaJP": "フォアフィール",
     "ptBR": "Pressentimento",
-    "ruRU": "Предчувствовать",
+    "ruRU": "Forefeel",
     "zhCN": "预感"
   },
   {
@@ -1373,7 +1373,7 @@
     "esMX": "Codicia",
     "jaJP": "貪欲",
     "ptBR": "Ambição",
-    "ruRU": "Жадность",
+    "ruRU": "Greed",
     "zhCN": "贪婪"
   },
   {
@@ -1390,7 +1390,7 @@
     "esMX": "Máquina",
     "jaJP": "機械",
     "ptBR": "Máquina",
-    "ruRU": "Машина",
+    "ruRU": "Machine",
     "zhCN": "机器"
   },
   {
@@ -1407,7 +1407,7 @@
     "esMX": "Oro",
     "jaJP": "金",
     "ptBR": "Ouro",
-    "ruRU": "Золото",
+    "ruRU": "Gold",
     "zhCN": "金子"
   },
   {
@@ -1424,7 +1424,7 @@
     "esMX": "Calma",
     "jaJP": "落ち着き",
     "ptBR": "Compostura",
-    "ruRU": "Самообладание",
+    "ruRU": "Composure",
     "zhCN": "镇静"
   },
   {
@@ -1441,7 +1441,7 @@
     "esMX": "Melodía",
     "jaJP": "メロディー",
     "ptBR": "Melodia",
-    "ruRU": "Мелодия",
+    "ruRU": "Melody",
     "zhCN": "旋律"
   },
   {
@@ -1458,7 +1458,7 @@
     "esMX": "Hambruna",
     "jaJP": "飢饉",
     "ptBR": "Fome",
-    "ruRU": "Голод",
+    "ruRU": "Famine",
     "zhCN": "饥荒"
   },
   {
@@ -1475,7 +1475,7 @@
     "esMX": "Locura",
     "jaJP": "狂気",
     "ptBR": "Insanidade",
-    "ruRU": "безумие",
+    "ruRU": "Insanity",
     "zhCN": "疯狂"
   },
   {
@@ -1492,7 +1492,7 @@
     "esMX": "Caza",
     "jaJP": "ハント",
     "ptBR": "Caçar",
-    "ruRU": "Охота",
+    "ruRU": "Hunt",
     "zhCN": "打猎"
   },
   {
@@ -1509,7 +1509,7 @@
     "esMX": "Ira",
     "jaJP": "怒り",
     "ptBR": "Fúria",
-    "ruRU": "Гнев",
+    "ruRU": "Wrath",
     "zhCN": "愤怒"
   },
   {
@@ -1526,7 +1526,7 @@
     "esMX": "Niebla",
     "jaJP": "霧",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Fog",
     "zhCN": "多雾路段"
   },
   {
@@ -1543,7 +1543,7 @@
     "esMX": "negro",
     "jaJP": "ノワール",
     "ptBR": "Preto",
-    "ruRU": "Нуар",
+    "ruRU": "Noir",
     "zhCN": "黑色"
   },
   {
@@ -1560,7 +1560,7 @@
     "esMX": "Serpiente",
     "jaJP": "蛇",
     "ptBR": "Serpente",
-    "ruRU": "Змея",
+    "ruRU": "Serpent",
     "zhCN": "蛇"
   },
   {
@@ -1577,7 +1577,7 @@
     "esMX": "infierno",
     "jaJP": "ハデス",
     "ptBR": "Hades",
-    "ruRU": "Аид",
+    "ruRU": "Hades",
     "zhCN": "哈迪斯"
   },
   {
@@ -1594,7 +1594,7 @@
     "esMX": "Oscuridad",
     "jaJP": "暗闇",
     "ptBR": "Escuridão",
-    "ruRU": "Тьма",
+    "ruRU": "Darkness",
     "zhCN": "黑暗"
   },
   {
@@ -1611,7 +1611,7 @@
     "esMX": "Rojo",
     "jaJP": "赤",
     "ptBR": "Vermelho",
-    "ruRU": "Красный",
+    "ruRU": "Red",
     "zhCN": "红色的"
   },
   {
@@ -1628,7 +1628,7 @@
     "esMX": "Exuberancia",
     "jaJP": "活気",
     "ptBR": "Exuberância",
-    "ruRU": "Изобилие",
+    "ruRU": "Exuberance",
     "zhCN": "繁荣"
   },
   {
@@ -1645,7 +1645,7 @@
     "esMX": "Demonio",
     "jaJP": "悪",
     "ptBR": "Mal",
-    "ruRU": "Зло",
+    "ruRU": "Evil",
     "zhCN": "邪恶的"
   },
   {
@@ -1662,7 +1662,7 @@
     "esMX": "Malicia",
     "jaJP": "悪意",
     "ptBR": "Malícia",
-    "ruRU": "Злоба",
+    "ruRU": "Malice",
     "zhCN": "恶意"
   },
   {
@@ -1679,7 +1679,7 @@
     "esMX": "Otoño",
     "jaJP": "秋",
     "ptBR": "Outono",
-    "ruRU": "Осень",
+    "ruRU": "Autumn",
     "zhCN": "秋天"
   },
   {
@@ -1696,7 +1696,7 @@
     "esMX": "Luz",
     "jaJP": "ライト",
     "ptBR": "Luz",
-    "ruRU": "Свет",
+    "ruRU": "Light",
     "zhCN": "光"
   },
   {
@@ -1713,7 +1713,7 @@
     "esMX": "Belleza",
     "jaJP": "美しさ",
     "ptBR": "Beleza",
-    "ruRU": "Красота",
+    "ruRU": "Beauty",
     "zhCN": "美丽"
   },
   {
@@ -1730,7 +1730,7 @@
     "esMX": "Fortaleza",
     "jaJP": "強さ",
     "ptBR": "Força",
-    "ruRU": "Сила",
+    "ruRU": "Strength",
     "zhCN": "力量"
   },
   {
@@ -1747,7 +1747,7 @@
     "esMX": "Luna",
     "jaJP": "月",
     "ptBR": "Lua",
-    "ruRU": "Луна",
+    "ruRU": "Moon",
     "zhCN": "月亮"
   },
   {
@@ -1764,7 +1764,7 @@
     "esMX": "Pecado",
     "jaJP": "罪",
     "ptBR": "Pecado",
-    "ruRU": "Грех",
+    "ruRU": "Sin",
     "zhCN": "罪"
   },
   {
@@ -1781,7 +1781,7 @@
     "esMX": "Victoria",
     "jaJP": "勝利",
     "ptBR": "Vitória",
-    "ruRU": "Победа",
+    "ruRU": "Victory",
     "zhCN": "胜利"
   },
   {
@@ -1798,7 +1798,7 @@
     "esMX": "Juramento",
     "jaJP": "誓い",
     "ptBR": "Juramento",
-    "ruRU": "Клятва",
+    "ruRU": "Oath",
     "zhCN": "誓言"
   },
   {
@@ -1815,7 +1815,7 @@
     "esMX": "milenio",
     "jaJP": "ミレニアム",
     "ptBR": "Milênio",
-    "ruRU": "Миллениум",
+    "ruRU": "Millenium",
     "zhCN": "千禧年"
   },
   {
@@ -1832,7 +1832,7 @@
     "esMX": "Conocimiento",
     "jaJP": "知識",
     "ptBR": "Conhecimento",
-    "ruRU": "Знание",
+    "ruRU": "Knowledge",
     "zhCN": "知识"
   },
   {
@@ -1849,7 +1849,7 @@
     "esMX": "Fortaleza",
     "jaJP": "要塞",
     "ptBR": "Fortaleza",
-    "ruRU": "Крепость",
+    "ruRU": "Fortress",
     "zhCN": "堡垒"
   },
   {
@@ -1866,7 +1866,7 @@
     "esMX": "Susurro",
     "jaJP": "ささやき",
     "ptBR": "Sussurrar",
-    "ruRU": "Шепот",
+    "ruRU": "Whisper",
     "zhCN": "耳语"
   },
   {
@@ -1883,7 +1883,7 @@
     "esMX": "Razón",
     "jaJP": "理由",
     "ptBR": "Razão",
-    "ruRU": "Причина",
+    "ruRU": "Reason",
     "zhCN": "原因"
   },
   {
@@ -1900,7 +1900,7 @@
     "esMX": "Sabio",
     "jaJP": "サヴァン",
     "ptBR": "Sábio",
-    "ruRU": "Савант",
+    "ruRU": "Savant",
     "zhCN": "学者"
   },
   {
@@ -1917,7 +1917,7 @@
     "esMX": "Oscuridad",
     "jaJP": "憂鬱",
     "ptBR": "Melancolia",
-    "ruRU": "Мрак",
+    "ruRU": "Gloom",
     "zhCN": "愁云"
   },
   {
@@ -1929,12 +1929,12 @@
     "esES": "Hiten Misturugi Ryu",
     "frFR": "Hiten Misturugi Ryu",
     "itIT": "Hiten Misturugi Ryu",
-    "koKR": "히텐 미츠루기 류",
+    "koKR": "Hiten Misturugi Ryu",
     "plPL": "Hiten Misturugi Ryu",
     "esMX": "Hiten Misturugi Ryu",
     "jaJP": "Hiten Misturugi Ryu",
     "ptBR": "Hiten Misturugi Ryu",
-    "ruRU": "Хитен Мистуруги Рю",
+    "ruRU": "Hiten Misturugi Ryu",
     "zhCN": "飞天密斯图鲁木龙"
   },
   {
@@ -1951,7 +1951,7 @@
     "esMX": "Humilde",
     "jaJP": "謙虚な",
     "ptBR": "Humilde",
-    "ruRU": "Скромный",
+    "ruRU": "Humble",
     "zhCN": "谦逊的"
   },
   {
@@ -1968,7 +1968,7 @@
     "esMX": "Ascender",
     "jaJP": "昇る",
     "ptBR": "Subir",
-    "ruRU": "Восхождение",
+    "ruRU": "Ascend",
     "zhCN": "登高"
   },
   {
@@ -1985,7 +1985,7 @@
     "esMX": "Sabiduría",
     "jaJP": "知恵",
     "ptBR": "Sabedoria",
-    "ruRU": "Мудрость",
+    "ruRU": "Wisdom",
     "zhCN": "智慧"
   },
   {
@@ -2002,7 +2002,7 @@
     "esMX": "Sangre",
     "jaJP": "血",
     "ptBR": "Sangue",
-    "ruRU": "Кровь",
+    "ruRU": "Blood",
     "zhCN": "血"
   },
   {
@@ -2019,7 +2019,7 @@
     "esMX": "Eternidad",
     "jaJP": "永遠",
     "ptBR": "Eternidade",
-    "ruRU": "Вечность",
+    "ruRU": "Eternity",
     "zhCN": "永恒"
   },
   {
@@ -2036,7 +2036,7 @@
     "esMX": "Realeza",
     "jaJP": "ロイヤリティー",
     "ptBR": "Realeza",
-    "ruRU": "Роялти",
+    "ruRU": "Royalty",
     "zhCN": "版税"
   },
   {
@@ -2053,7 +2053,7 @@
     "esMX": "Fortuna",
     "jaJP": "運",
     "ptBR": "Fortuna",
-    "ruRU": "Удача",
+    "ruRU": "Fortune",
     "zhCN": "财富"
   },
   {
@@ -2070,7 +2070,7 @@
     "esMX": "Fortuna",
     "jaJP": "運",
     "ptBR": "Fortuna",
-    "ruRU": "Удача",
+    "ruRU": "Fortune",
     "zhCN": "财富"
   },
   {
@@ -2087,7 +2087,7 @@
     "esMX": "Fe",
     "jaJP": "信仰",
     "ptBR": "Fé",
-    "ruRU": "Вера",
+    "ruRU": "Faith",
     "zhCN": "信仰"
   },
   {
@@ -2104,7 +2104,7 @@
     "esMX": "Viaje",
     "jaJP": "旅",
     "ptBR": "Jornada",
-    "ruRU": "Путешествие",
+    "ruRU": "Journey",
     "zhCN": "旅行"
   },
   {
@@ -2121,7 +2121,7 @@
     "esMX": "Eficiencia",
     "jaJP": "効率",
     "ptBR": "Eficiência",
-    "ruRU": "Эффективность",
+    "ruRU": "Efficiency",
     "zhCN": "效率"
   },
   {
@@ -2138,7 +2138,7 @@
     "esMX": "Saludable",
     "jaJP": "健康",
     "ptBR": "Saudável",
-    "ruRU": "Здоровый",
+    "ruRU": "Healthy",
     "zhCN": "健康"
   },
   {
@@ -2155,7 +2155,7 @@
     "esMX": "Gloria",
     "jaJP": "栄光",
     "ptBR": "Glória",
-    "ruRU": "Слава",
+    "ruRU": "Glory",
     "zhCN": "荣耀"
   },
   {
@@ -2172,7 +2172,7 @@
     "esMX": "Confianza",
     "jaJP": "信頼",
     "ptBR": "Confiar",
-    "ruRU": "Доверять",
+    "ruRU": "Trust",
     "zhCN": "相信"
   },
   {
@@ -2189,7 +2189,7 @@
     "esMX": "Confianza",
     "jaJP": "信頼",
     "ptBR": "Confiar",
-    "ruRU": "Доверять",
+    "ruRU": "Trust",
     "zhCN": "相信"
   },
   {
@@ -2206,7 +2206,7 @@
     "esMX": "Tormenta",
     "jaJP": "嵐",
     "ptBR": "Tempestade",
-    "ruRU": "Шторм",
+    "ruRU": "Storm",
     "zhCN": "风暴"
   },
   {
@@ -2223,7 +2223,7 @@
     "esMX": "Psíquico",
     "jaJP": "霊能者",
     "ptBR": "Psíquico",
-    "ruRU": "экстрасенс",
+    "ruRU": "Psychic",
     "zhCN": "精神"
   },
   {
@@ -2240,7 +2240,7 @@
     "esMX": "flor de cerezo",
     "jaJP": "桜",
     "ptBR": "Flor de cerejeira",
-    "ruRU": "Вишневый цвет",
+    "ruRU": "Cherry Blossom",
     "zhCN": "樱花"
   },
   {
@@ -2257,7 +2257,7 @@
     "esMX": "Conquista",
     "jaJP": "征服",
     "ptBR": "Conquista",
-    "ruRU": "Завоевание",
+    "ruRU": "Conquest",
     "zhCN": "征服"
   },
   {
@@ -2274,7 +2274,7 @@
     "esMX": "Memoria",
     "jaJP": "メモリ",
     "ptBR": "Memória",
-    "ruRU": "Память",
+    "ruRU": "Memory",
     "zhCN": "记忆"
   },
   {
@@ -2291,7 +2291,7 @@
     "esMX": "Hielo",
     "jaJP": "氷",
     "ptBR": "Gelo",
-    "ruRU": "Лед",
+    "ruRU": "Ice",
     "zhCN": "冰"
   },
   {
@@ -2308,7 +2308,7 @@
     "esMX": "Cautivo",
     "jaJP": "捕虜",
     "ptBR": "Cativo",
-    "ruRU": "пленник",
+    "ruRU": "Captive",
     "zhCN": "俘虏"
   },
   {
@@ -2325,7 +2325,7 @@
     "esMX": "Radioactivo",
     "jaJP": "放射性物質",
     "ptBR": "Radioativo",
-    "ruRU": "Радиоактивный",
+    "ruRU": "Radioactive",
     "zhCN": "放射性"
   },
   {
@@ -2342,7 +2342,7 @@
     "esMX": "Ley",
     "jaJP": "法",
     "ptBR": "Lei",
-    "ruRU": "Закон",
+    "ruRU": "Law",
     "zhCN": "法律"
   },
   {
@@ -2359,7 +2359,7 @@
     "esMX": "Orgullo",
     "jaJP": "誇り",
     "ptBR": "Orgulho",
-    "ruRU": "Гордость",
+    "ruRU": "Pride",
     "zhCN": "自豪"
   },
   {
@@ -2376,7 +2376,7 @@
     "esMX": "Destino",
     "jaJP": "運命",
     "ptBR": "Destino",
-    "ruRU": "Судьба",
+    "ruRU": "Destiny",
     "zhCN": "命运"
   },
   {
@@ -2393,7 +2393,7 @@
     "esMX": "Honor",
     "jaJP": "名誉",
     "ptBR": "Honra",
-    "ruRU": "Честь",
+    "ruRU": "Honor",
     "zhCN": "荣誉"
   },
   {
@@ -2410,7 +2410,7 @@
     "esMX": "Lluvia",
     "jaJP": "雨",
     "ptBR": "Chuva",
-    "ruRU": "Дождь",
+    "ruRU": "Rain",
     "zhCN": "雨"
   },
   {
@@ -2427,7 +2427,7 @@
     "esMX": "Lluvia",
     "jaJP": "雨",
     "ptBR": "Chuva",
-    "ruRU": "Дождь",
+    "ruRU": "Rain",
     "zhCN": "雨"
   },
   {
@@ -2444,7 +2444,7 @@
     "esMX": "Princesa",
     "jaJP": "お姫様",
     "ptBR": "Princesa",
-    "ruRU": "Принцесса",
+    "ruRU": "Princess",
     "zhCN": "公主"
   },
   {
@@ -2461,7 +2461,7 @@
     "esMX": "Sueño",
     "jaJP": "夢",
     "ptBR": "Sonhar",
-    "ruRU": "Мечтать",
+    "ruRU": "Dream",
     "zhCN": "梦"
   },
   {
@@ -2478,7 +2478,7 @@
     "esMX": "Sueño",
     "jaJP": "夢",
     "ptBR": "Sonhar",
-    "ruRU": "Мечтать",
+    "ruRU": "Dream",
     "zhCN": "梦"
   },
   {
@@ -2495,7 +2495,7 @@
     "esMX": "Sueño",
     "jaJP": "夢",
     "ptBR": "Sonhar",
-    "ruRU": "Мечтать",
+    "ruRU": "Dream",
     "zhCN": "梦"
   },
   {
@@ -2512,7 +2512,7 @@
     "esMX": "Trueno",
     "jaJP": "雷",
     "ptBR": "Trovão",
-    "ruRU": "Гром",
+    "ruRU": "Thunder",
     "zhCN": "雷"
   },
   {
@@ -2546,7 +2546,7 @@
     "esMX": "Mono",
     "jaJP": "猿",
     "ptBR": "Macaco",
-    "ruRU": "Обезьяна",
+    "ruRU": "Monkey",
     "zhCN": "猴"
   },
   {
@@ -2563,7 +2563,7 @@
     "esMX": "Elogio",
     "jaJP": "賞賛",
     "ptBR": "Louvar",
-    "ruRU": "Хвалить",
+    "ruRU": "Praise",
     "zhCN": "称赞"
   },
   {
@@ -2580,7 +2580,7 @@
     "esMX": "Doloroso",
     "jaJP": "痛い",
     "ptBR": "Doloroso",
-    "ruRU": "Болезненный",
+    "ruRU": "Painful",
     "zhCN": "痛苦"
   },
   {
@@ -2597,7 +2597,7 @@
     "esMX": "Halcón",
     "jaJP": "鷹",
     "ptBR": "Falcão",
-    "ruRU": "Ястреб",
+    "ruRU": "Hawk",
     "zhCN": "鹰"
   },
   {
@@ -2614,7 +2614,7 @@
     "esMX": "Absoluto",
     "jaJP": "絶対",
     "ptBR": "Absoluto",
-    "ruRU": "Абсолютный",
+    "ruRU": "Absolute",
     "zhCN": "绝对"
   },
   {
@@ -2631,7 +2631,7 @@
     "esMX": "Dragón",
     "jaJP": "ドラゴン",
     "ptBR": "Dragão",
-    "ruRU": "Дракон",
+    "ruRU": "Dragon",
     "zhCN": "龙"
   },
   {
@@ -2648,7 +2648,7 @@
     "esMX": "Coraje",
     "jaJP": "勇気",
     "ptBR": "Coragem",
-    "ruRU": "Храбрость",
+    "ruRU": "Courage",
     "zhCN": "勇气"
   },
   {
@@ -2665,7 +2665,7 @@
     "esMX": "Tradición",
     "jaJP": "伝統",
     "ptBR": "Tradição",
-    "ruRU": "Традиция",
+    "ruRU": "Tradition",
     "zhCN": "传统"
   },
   {
@@ -2682,7 +2682,7 @@
     "esMX": "Pájaro",
     "jaJP": "鳥",
     "ptBR": "Pássaro",
-    "ruRU": "Птица",
+    "ruRU": "Bird",
     "zhCN": "鸟"
   },
   {
@@ -2699,7 +2699,7 @@
     "esMX": "Poder",
     "jaJP": "富",
     "ptBR": "Fortuna",
-    "ruRU": "Богатство",
+    "ruRU": "Wealth",
     "zhCN": "财富"
   },
   {
@@ -2716,7 +2716,7 @@
     "esMX": "Poder",
     "jaJP": "富",
     "ptBR": "Fortuna",
-    "ruRU": "Богатство",
+    "ruRU": "Wealth",
     "zhCN": "财富"
   },
   {
@@ -2732,15 +2732,15 @@
     "plPL": "Przeciwne przeznaczeniu",
     "esMX": "Destino opuesto",
     "jaJP": "相反する運命",
-    "ptBR": "Opondo-se ao Destino",
-    "ruRU": "Противостояние судьбы",
+    "ptBR": "Opondo-se ao destino",
+    "ruRU": "Opposing Destiny",
     "zhCN": "对抗命运"
   },
   {
     "id": 63181,
     "Key": "Runeword679",
     "enUS": "Jealousy",
-    "zhTW": "妒忌",
+    "zhTW": "嫉妒",
     "deDE": "Eifersucht",
     "esES": "Celos",
     "frFR": "Jalousie",
@@ -2750,8 +2750,8 @@
     "esMX": "Celos",
     "jaJP": "嫉妬",
     "ptBR": "Ciúme",
-    "ruRU": "ревность",
-    "zhCN": "妒忌"
+    "ruRU": "Зависть",
+    "zhCN": "嫉妒"
   },
   {
     "id": 63182,
@@ -2767,7 +2767,7 @@
     "esMX": "Tigre",
     "jaJP": "虎",
     "ptBR": "Tigre",
-    "ruRU": "Тигр",
+    "ruRU": "Tiger",
     "zhCN": "老虎"
   },
   {
@@ -2784,25 +2784,25 @@
     "esMX": "Lograr",
     "jaJP": "成し遂げる",
     "ptBR": "Alcançar",
-    "ruRU": "Достигать",
+    "ruRU": "Achieve",
     "zhCN": "达到"
   },
   {
     "id": 63184,
     "Key": "Runeword682",
     "enUS": "Mibu's Wolf",
-    "zhTW": "米布斯的沃爾",
-    "deDE": "Mibus’s Wol",
-    "esES": "Wol de Mibus",
-    "frFR": "Wol de Mibus",
-    "itIT": "Il Wol di Mibus",
-    "koKR": "미버스의 월",
-    "plPL": "Wol Mibusa",
-    "esMX": "Wol de Mibus",
-    "jaJP": "ミブスのウォル",
-    "ptBR": "Wol de Mibus",
-    "ruRU": "Мибусс Воль",
-    "zhCN": "米布斯的沃尔"
+    "zhTW": "壬生之狼",
+    "deDE": "Mibus Wolf",
+    "esES": "El lobo de Mibu",
+    "frFR": "Le loup de Mibu",
+    "itIT": "Il lupo di Mibu",
+    "koKR": "미부의 늑대",
+    "plPL": "Wilk Mibu",
+    "esMX": "El lobo de Mibu",
+    "jaJP": "壬生の狼",
+    "ptBR": "Lobo de Mibu",
+    "ruRU": "Mibu's Wolf",
+    "zhCN": "壬生之狼"
   },
   {
     "id": 63185,
@@ -2818,7 +2818,7 @@
     "esMX": "Impetuoso",
     "jaJP": "衝動的な",
     "ptBR": "Impetuoso",
-    "ruRU": "порывистый",
+    "ruRU": "Impetuous",
     "zhCN": "浮躁"
   },
   {
@@ -2835,7 +2835,7 @@
     "esMX": "Armagedón",
     "jaJP": "ハルマゲドン",
     "ptBR": "Armagedom",
-    "ruRU": "Армагеддон",
+    "ruRU": "Armageddon",
     "zhCN": "世界末日"
   },
   {
@@ -2852,7 +2852,7 @@
     "esMX": "Caos",
     "jaJP": "カオス",
     "ptBR": "Caos",
-    "ruRU": "Хаос",
+    "ruRU": "Chaos",
     "zhCN": "混乱"
   },
   {
@@ -2869,7 +2869,7 @@
     "esMX": "Doncella",
     "jaJP": "乙女",
     "ptBR": "Donzela",
-    "ruRU": "Дева",
+    "ruRU": "Maiden",
     "zhCN": "少女"
   },
   {
@@ -2886,7 +2886,7 @@
     "esMX": "Mito",
     "jaJP": "神話",
     "ptBR": "Mito",
-    "ruRU": "Миф",
+    "ruRU": "Myth",
     "zhCN": "神话"
   },
   {
@@ -2903,7 +2903,7 @@
     "esMX": "Engaño",
     "jaJP": "欺瞞",
     "ptBR": "Decepção",
-    "ruRU": "Обман",
+    "ruRU": "Deception",
     "zhCN": "欺骗"
   },
   {
@@ -2920,7 +2920,7 @@
     "esMX": "Engaño",
     "jaJP": "欺瞞",
     "ptBR": "Decepção",
-    "ruRU": "Обман",
+    "ruRU": "Deception",
     "zhCN": "欺骗"
   },
   {
@@ -2937,7 +2937,7 @@
     "esMX": "Juventud",
     "jaJP": "若者",
     "ptBR": "Juventude",
-    "ruRU": "Молодость",
+    "ruRU": "Youth",
     "zhCN": "青年"
   },
   {
@@ -2954,7 +2954,7 @@
     "esMX": "Ilustre",
     "jaJP": "著名な",
     "ptBR": "Ilustre",
-    "ruRU": "прославленный",
+    "ruRU": "Illustrious",
     "zhCN": "杰出"
   },
   {
@@ -2971,7 +2971,7 @@
     "esMX": "Tentación",
     "jaJP": "誘惑",
     "ptBR": "Tentação",
-    "ruRU": "Искушение",
+    "ruRU": "Temptation",
     "zhCN": "诱惑"
   },
   {
@@ -2988,7 +2988,7 @@
     "esMX": "Sinceridad",
     "jaJP": "誠実さ",
     "ptBR": "Sinceridade",
-    "ruRU": "Искренность",
+    "ruRU": "Sincerity",
     "zhCN": "诚意"
   },
   {
@@ -3005,7 +3005,7 @@
     "esMX": "Abolir",
     "jaJP": "廃止",
     "ptBR": "Abolir",
-    "ruRU": "Отменять",
+    "ruRU": "Abolish",
     "zhCN": "取消"
   },
   {
@@ -3022,14 +3022,14 @@
     "esMX": "Destrucción",
     "jaJP": "破壊",
     "ptBR": "Destruição",
-    "ruRU": "Разрушение",
+    "ruRU": "Destruction",
     "zhCN": "毁灭"
   },
   {
     "id": 63200,
     "Key": "Runeword698",
     "enUS": "Echo",
-    "zhTW": "迴聲",
+    "zhTW": "迴音",
     "deDE": "Echo",
     "esES": "Eco",
     "frFR": "Écho",
@@ -3039,7 +3039,7 @@
     "esMX": "Eco",
     "jaJP": "エコー",
     "ptBR": "Eco",
-    "ruRU": "Эхо",
+    "ruRU": "Echo",
     "zhCN": "回声"
   },
   {
@@ -3056,7 +3056,7 @@
     "esMX": "Coacción",
     "jaJP": "強迫",
     "ptBR": "Coação",
-    "ruRU": "Принуждение",
+    "ruRU": "Duress",
     "zhCN": "胁迫"
   },
   {
@@ -3073,7 +3073,7 @@
     "esMX": "Caballero",
     "jaJP": "主",
     "ptBR": "Senhor",
-    "ruRU": "Господин",
+    "ruRU": "Lord",
     "zhCN": "主"
   },
   {
@@ -3090,7 +3090,7 @@
     "esMX": "Juicio",
     "jaJP": "判定",
     "ptBR": "Julgamento",
-    "ruRU": "Решение",
+    "ruRU": "Judgment",
     "zhCN": "判断"
   },
   {
@@ -3107,7 +3107,7 @@
     "esMX": "Pilar de fe",
     "jaJP": "信仰の柱",
     "ptBR": "Pilar da Fé",
-    "ruRU": "Столп веры",
+    "ruRU": "Pillar of Faith",
     "zhCN": "信仰之柱"
   },
   {
@@ -3117,14 +3117,14 @@
     "zhTW": "賽亞人",
     "deDE": "Saiyajin",
     "esES": "saiyajin",
-    "frFR": "Saiyen",
+    "frFR": "Saiyan",
     "itIT": "Saiyan",
     "koKR": "사이어인",
     "plPL": "Saiyanin",
     "esMX": "saiyajin",
     "jaJP": "サイヤ人",
     "ptBR": "Saiyajin",
-    "ruRU": "Саян",
+    "ruRU": "Saiyajin",
     "zhCN": "赛亚人"
   },
   {
@@ -3141,7 +3141,7 @@
     "esMX": "Primavera",
     "jaJP": "春",
     "ptBR": "Primavera",
-    "ruRU": "Весна",
+    "ruRU": "Spring",
     "zhCN": "春天"
   },
   {
@@ -3158,7 +3158,7 @@
     "esMX": "Amigo animal",
     "jaJP": "アニマルフレンド",
     "ptBR": "Amigo Animal",
-    "ruRU": "Друг животных",
+    "ruRU": "Animal Friend",
     "zhCN": "动物朋友"
   },
   {
@@ -3175,7 +3175,7 @@
     "esMX": "Amigo animal",
     "jaJP": "アニマルフレンド",
     "ptBR": "Amigo Animal",
-    "ruRU": "Друг животных",
+    "ruRU": "Animal Friend",
     "zhCN": "动物朋友"
   },
   {
@@ -3192,7 +3192,7 @@
     "esMX": "Pena",
     "jaJP": "悲しみ",
     "ptBR": "Tristeza",
-    "ruRU": "Печаль",
+    "ruRU": "Sorrow",
     "zhCN": "悲哀"
   },
   {
@@ -3209,7 +3209,7 @@
     "esMX": "Pena",
     "jaJP": "悲しみ",
     "ptBR": "Tristeza",
-    "ruRU": "Печаль",
+    "ruRU": "Sorrow",
     "zhCN": "悲哀"
   },
   {
@@ -3226,7 +3226,7 @@
     "esMX": "Iluminación",
     "jaJP": "稲妻",
     "ptBR": "Raio",
-    "ruRU": "Молния",
+    "ruRU": "Lightning",
     "zhCN": "闪电"
   },
   {
@@ -3243,7 +3243,7 @@
     "esMX": "Verano",
     "jaJP": "夏",
     "ptBR": "Verão",
-    "ruRU": "Лето",
+    "ruRU": "Summer",
     "zhCN": "夏天"
   },
   {
@@ -3260,7 +3260,7 @@
     "esMX": "Verano",
     "jaJP": "夏",
     "ptBR": "Verão",
-    "ruRU": "Лето",
+    "ruRU": "Summer",
     "zhCN": "夏天"
   },
   {
@@ -3277,14 +3277,14 @@
     "esMX": "juraí",
     "jaJP": "樹来",
     "ptBR": "Jurai",
-    "ruRU": "Джурай",
+    "ruRU": "Jurai",
     "zhCN": "十来"
   },
   {
     "id": 63218,
     "Key": "Runeword716",
     "enUS": "Lionheart",
-    "zhTW": "狮心王",
+    "zhTW": "獅心王",
     "deDE": "Löwenherz",
     "esES": "corazón de león",
     "frFR": "Cœur de Lion",
@@ -3294,7 +3294,7 @@
     "esMX": "corazón de león",
     "jaJP": "ライオンハート",
     "ptBR": "Coração de Leão",
-    "ruRU": "Львиное Сердце",
+    "ruRU": "Lionheart",
     "zhCN": "狮心王"
   },
   {
@@ -3311,7 +3311,7 @@
     "esMX": "Odio",
     "jaJP": "憎しみ",
     "ptBR": "Ódio",
-    "ruRU": "Ненависть",
+    "ruRU": "Hatred",
     "zhCN": "仇恨"
   },
   {
@@ -3328,7 +3328,7 @@
     "esMX": "Carnicero",
     "jaJP": "肉屋",
     "ptBR": "Açougueiro",
-    "ruRU": "мясник",
+    "ruRU": "Butcher",
     "zhCN": "屠夫"
   },
   {
@@ -3345,7 +3345,7 @@
     "esMX": "Autoridad",
     "jaJP": "権限",
     "ptBR": "Autoridade",
-    "ruRU": "Власть",
+    "ruRU": "Authority",
     "zhCN": "权威"
   },
   {
@@ -3362,7 +3362,7 @@
     "esMX": "Autoridad",
     "jaJP": "権限",
     "ptBR": "Autoridade",
-    "ruRU": "Власть",
+    "ruRU": "Authority",
     "zhCN": "权威"
   },
   {
@@ -3379,7 +3379,7 @@
     "esMX": "Secreto",
     "jaJP": "秘密",
     "ptBR": "Segredo",
-    "ruRU": "Секрет",
+    "ruRU": "Secret",
     "zhCN": "秘密"
   },
   {
@@ -3396,7 +3396,7 @@
     "esMX": "Paciencia",
     "jaJP": "忍耐",
     "ptBR": "Paciência",
-    "ruRU": "Терпение",
+    "ruRU": "Patience",
     "zhCN": "耐心"
   },
   {
@@ -3413,7 +3413,7 @@
     "esMX": "Fósil del sol",
     "jaJP": "太陽の化石",
     "ptBR": "Fóssil do Sol",
-    "ruRU": "Ископаемое Солнца",
+    "ruRU": "Fossil of the Sun",
     "zhCN": "太阳化石"
   },
   {
@@ -3430,7 +3430,7 @@
     "esMX": "Divino",
     "jaJP": "神聖な",
     "ptBR": "Divino",
-    "ruRU": "Божественный",
+    "ruRU": "Divine",
     "zhCN": "神圣的"
   },
   {
@@ -3447,7 +3447,7 @@
     "esMX": "Exactitud",
     "jaJP": "正確さ",
     "ptBR": "Precisão",
-    "ruRU": "Точность",
+    "ruRU": "Accuracy",
     "zhCN": "准确性"
   },
   {
@@ -3464,7 +3464,7 @@
     "esMX": "Ácido",
     "jaJP": "酸",
     "ptBR": "Ácido",
-    "ruRU": "Кислота",
+    "ruRU": "Acid",
     "zhCN": "酸"
   },
   {
@@ -3481,7 +3481,7 @@
     "esMX": "Armonía",
     "jaJP": "調和",
     "ptBR": "Harmonia",
-    "ruRU": "Гармония",
+    "ruRU": "Harmony",
     "zhCN": "和谐"
   },
   {
@@ -3498,7 +3498,7 @@
     "esMX": "El erudito",
     "jaJP": "学んだ者",
     "ptBR": "Aprendi um",
-    "ruRU": "Учёный",
+    "ruRU": "Learned One",
     "zhCN": "学到一"
   },
   {
@@ -3515,7 +3515,7 @@
     "esMX": "Hambre",
     "jaJP": "飢え",
     "ptBR": "Fome",
-    "ruRU": "Голод",
+    "ruRU": "Hunger",
     "zhCN": "饥饿"
   },
   {
@@ -3532,7 +3532,7 @@
     "esMX": "Terror",
     "jaJP": "テロ",
     "ptBR": "Terror",
-    "ruRU": "Террор",
+    "ruRU": "Terror",
     "zhCN": "恐怖"
   },
   {
@@ -3549,7 +3549,7 @@
     "esMX": "Dolor de estómago",
     "jaJP": "腹痛",
     "ptBR": "Dor de estômago",
-    "ruRU": "Боли в животе",
+    "ruRU": "Stomach Ache",
     "zhCN": "腹痛"
   },
   {
@@ -3566,7 +3566,7 @@
     "esMX": "Borde",
     "jaJP": "角",
     "ptBR": "Borda",
-    "ruRU": "Край",
+    "ruRU": "Edge",
     "zhCN": "边缘"
   },
   {
@@ -3583,7 +3583,7 @@
     "esMX": "Fénix",
     "jaJP": "フェニックス",
     "ptBR": "Fênix",
-    "ruRU": "Финикс",
+    "ruRU": "Phoenix",
     "zhCN": "凤凰"
   },
   {
@@ -3600,7 +3600,7 @@
     "esMX": "Invierno",
     "jaJP": "冬",
     "ptBR": "Inverno",
-    "ruRU": "Зима",
+    "ruRU": "Winter",
     "zhCN": "冬天"
   },
   {
@@ -3617,7 +3617,7 @@
     "esMX": "Venganza",
     "jaJP": "復讐",
     "ptBR": "Vingança",
-    "ruRU": "Месть",
+    "ruRU": "Vengeance",
     "zhCN": "复仇"
   },
   {
@@ -3634,7 +3634,7 @@
     "esMX": "Abundante",
     "jaJP": "豊富な",
     "ptBR": "Abundante",
-    "ruRU": "Обильный",
+    "ruRU": "Abundant",
     "zhCN": "丰富"
   },
   {
@@ -3651,7 +3651,7 @@
     "esMX": "Ilegal",
     "jaJP": "違法",
     "ptBR": "Ilegal",
-    "ruRU": "Незаконный",
+    "ruRU": "Unlawful",
     "zhCN": "非法"
   },
   {
@@ -3668,7 +3668,7 @@
     "esMX": "Glotonería",
     "jaJP": "大食い",
     "ptBR": "Glutonaria",
-    "ruRU": "Чревоугодие",
+    "ruRU": "Gluttony",
     "zhCN": "暴食"
   },
   {
@@ -3685,7 +3685,7 @@
     "esMX": "Caballo",
     "jaJP": "馬",
     "ptBR": "Cavalo",
-    "ruRU": "Лошадь",
+    "ruRU": "Horse",
     "zhCN": "马"
   },
   {
@@ -3702,7 +3702,7 @@
     "esMX": "indomable",
     "jaJP": "不屈の",
     "ptBR": "Indomável",
-    "ruRU": "Неукротимый",
+    "ruRU": "Indominable",
     "zhCN": "不屈不挠"
   },
   {
@@ -3719,7 +3719,7 @@
     "esMX": "Ogro noble",
     "jaJP": "ノーブルオーガ",
     "ptBR": "Nobre Ogro",
-    "ruRU": "Благородный огр",
+    "ruRU": "Noble Ogre",
     "zhCN": "高贵的食人魔"
   },
   {
@@ -3736,7 +3736,7 @@
     "esMX": "Medicamento",
     "jaJP": "薬",
     "ptBR": "Medicamento",
-    "ruRU": "Лекарство",
+    "ruRU": "Medicine",
     "zhCN": "药品"
   },
   {
@@ -3753,7 +3753,7 @@
     "esMX": "Oveja",
     "jaJP": "羊",
     "ptBR": "Ovelha",
-    "ruRU": "Овца",
+    "ruRU": "Sheep",
     "zhCN": "羊"
   },
   {
@@ -3770,7 +3770,7 @@
     "esMX": "Resplandor",
     "jaJP": "ラディアンス",
     "ptBR": "Radiância",
-    "ruRU": "Сияние",
+    "ruRU": "Radiance",
     "zhCN": "辐射"
   },
   {
@@ -3787,7 +3787,7 @@
     "esMX": "Viaje",
     "jaJP": "旅行",
     "ptBR": "Viagem",
-    "ruRU": "Путешествие",
+    "ruRU": "Trip",
     "zhCN": "旅行"
   },
   {
@@ -3804,7 +3804,7 @@
     "esMX": "Uno",
     "jaJP": "1つ",
     "ptBR": "Um",
-    "ruRU": "Один",
+    "ruRU": "One",
     "zhCN": "一"
   },
   {
@@ -3821,7 +3821,7 @@
     "esMX": "los amantes",
     "jaJP": "恋人たち",
     "ptBR": "Os amantes",
-    "ruRU": "Влюбленные",
+    "ruRU": "The Lovers",
     "zhCN": "恋人"
   },
   {
@@ -3838,7 +3838,7 @@
     "esMX": "Luz",
     "jaJP": "日光",
     "ptBR": "Luz do dia",
-    "ruRU": "Дневной свет",
+    "ruRU": "Daylight",
     "zhCN": "日光"
   },
   {
@@ -3855,7 +3855,7 @@
     "esMX": "Patrón",
     "jaJP": "パターン",
     "ptBR": "Padrão",
-    "ruRU": "Шаблон",
+    "ruRU": "Pattern",
     "zhCN": "图案"
   },
   {
@@ -3872,7 +3872,7 @@
     "esMX": "Neblina",
     "jaJP": "ミスト",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Mist",
     "zhCN": "薄雾"
   },
   {
@@ -3889,7 +3889,7 @@
     "esMX": "Neblina",
     "jaJP": "ミスト",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Mist",
     "zhCN": "薄雾"
   },
   {
@@ -3906,7 +3906,7 @@
     "esMX": "Neblina",
     "jaJP": "ミスト",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Mist",
     "zhCN": "薄雾"
   },
   {
@@ -3923,7 +3923,7 @@
     "esMX": "Pregunta",
     "jaJP": "質問",
     "ptBR": "Pergunta",
-    "ruRU": "Вопрос",
+    "ruRU": "Question",
     "zhCN": "问题"
   },
   {
@@ -3940,7 +3940,7 @@
     "esMX": "Pregunta",
     "jaJP": "質問",
     "ptBR": "Pergunta",
-    "ruRU": "Вопрос",
+    "ruRU": "Question",
     "zhCN": "问题"
   },
   {
@@ -3957,7 +3957,7 @@
     "esMX": "Silencio",
     "jaJP": "沈黙",
     "ptBR": "Silêncio",
-    "ruRU": "Тишина",
+    "ruRU": "Silence",
     "zhCN": "沉默"
   },
   {
@@ -3974,7 +3974,7 @@
     "esMX": "Ilustración",
     "jaJP": "啓発",
     "ptBR": "Iluminação",
-    "ruRU": "Просвещение",
+    "ruRU": "Enlightenment",
     "zhCN": "启示"
   },
   {
@@ -3991,7 +3991,7 @@
     "esMX": "Congelación",
     "jaJP": "凍傷",
     "ptBR": "Congelamento",
-    "ruRU": "Обморожение",
+    "ruRU": "Frostbite",
     "zhCN": "冻疮"
   },
   {
@@ -4008,7 +4008,7 @@
     "esMX": "Disciplina",
     "jaJP": "規律",
     "ptBR": "Disciplina",
-    "ruRU": "Дисциплина",
+    "ruRU": "Discipline",
     "zhCN": "纪律"
   },
   {
@@ -4025,7 +4025,7 @@
     "esMX": "Oración",
     "jaJP": "祈り",
     "ptBR": "Oração",
-    "ruRU": "Молитва",
+    "ruRU": "Prayer",
     "zhCN": "祷告"
   },
   {
@@ -4042,7 +4042,7 @@
     "esMX": "Capaz",
     "jaJP": "できる",
     "ptBR": "Capaz",
-    "ruRU": "Способный",
+    "ruRU": "Able",
     "zhCN": "有能力的"
   },
   {
@@ -4059,7 +4059,7 @@
     "esMX": "Dragón Dorado",
     "jaJP": "ゴールデンドラゴン",
     "ptBR": "Dragão Dourado",
-    "ruRU": "Золотой Дракон",
+    "ruRU": "Golden Dragon",
     "zhCN": "金龙"
   },
   {
@@ -4076,7 +4076,7 @@
     "esMX": "estrella oscura",
     "jaJP": "ダークスター",
     "ptBR": "Estrela Negra",
-    "ruRU": "Темная Звезда",
+    "ruRU": "Dark Star",
     "zhCN": "暗星"
   },
   {
@@ -4084,7 +4084,7 @@
     "Key": "Runeword764",
     "enUS": "Nature's Kingdom",
     "zhTW": "自然王國",
-    "deDE": "Das Königreich der Natur",
+    "deDE": "Das Reich der Natur",
     "esES": "Reino de la naturaleza",
     "frFR": "Le royaume de la nature",
     "itIT": "Regno della natura",
@@ -4093,7 +4093,7 @@
     "esMX": "Reino de la naturaleza",
     "jaJP": "自然の王国",
     "ptBR": "Reino da Natureza",
-    "ruRU": "Царство природы",
+    "ruRU": "Nature's Kingdom",
     "zhCN": "自然王国"
   },
   {
@@ -4110,7 +4110,7 @@
     "esMX": "Llave maestra",
     "jaJP": "マスターキー",
     "ptBR": "Chave mestra",
-    "ruRU": "Мастер Ключ",
+    "ruRU": "Master Key",
     "zhCN": "万能钥匙"
   },
   {
@@ -4127,7 +4127,7 @@
     "esMX": "Cenit",
     "jaJP": "天頂",
     "ptBR": "Zênite",
-    "ruRU": "Зенит",
+    "ruRU": "Zenith",
     "zhCN": "真力时"
   },
   {
@@ -4144,7 +4144,7 @@
     "esMX": "Letal",
     "jaJP": "致死",
     "ptBR": "Letal",
-    "ruRU": "Смертельный",
+    "ruRU": "Lethal",
     "zhCN": "致命"
   },
   {
@@ -4161,7 +4161,7 @@
     "esMX": "Sed",
     "jaJP": "渇き",
     "ptBR": "Sede",
-    "ruRU": "Жажда",
+    "ruRU": "Thirst",
     "zhCN": "口渴"
   },
   {
@@ -4178,7 +4178,7 @@
     "esMX": "Femenino",
     "jaJP": "フェミニン",
     "ptBR": "Feminino",
-    "ruRU": "Женственный",
+    "ruRU": "Feminine",
     "zhCN": "女性化"
   },
   {
@@ -4195,7 +4195,7 @@
     "esMX": "Femenino",
     "jaJP": "フェミニン",
     "ptBR": "Feminino",
-    "ruRU": "Женственный",
+    "ruRU": "Feminine",
     "zhCN": "女性化"
   },
   {
@@ -4212,7 +4212,7 @@
     "esMX": "Femenino",
     "jaJP": "フェミニン",
     "ptBR": "Feminino",
-    "ruRU": "Женственный",
+    "ruRU": "Feminine",
     "zhCN": "女性化"
   },
   {
@@ -4229,7 +4229,7 @@
     "esMX": "La voluntad del cielo",
     "jaJP": "天の意志",
     "ptBR": "Vontade do Céu",
-    "ruRU": "Небесная воля",
+    "ruRU": "Heaven's Will",
     "zhCN": "天意"
   },
   {
@@ -4246,7 +4246,7 @@
     "esMX": "Blanco",
     "jaJP": "白",
     "ptBR": "Branco",
-    "ruRU": "Белый",
+    "ruRU": "White",
     "zhCN": "白色的"
   },
   {
@@ -4263,7 +4263,7 @@
     "esMX": "Negro",
     "jaJP": "黒",
     "ptBR": "Preto",
-    "ruRU": "Черный",
+    "ruRU": "Black",
     "zhCN": "黑色的"
   },
   {
@@ -4280,7 +4280,7 @@
     "esMX": "Espíritu",
     "jaJP": "精神",
     "ptBR": "Espírito",
-    "ruRU": "Дух",
+    "ruRU": "Spirit",
     "zhCN": "精神"
   },
   {
@@ -4297,7 +4297,7 @@
     "esMX": "Vagabundo",
     "jaJP": "放浪者",
     "ptBR": "Andarilho",
-    "ruRU": "странник",
+    "ruRU": "Wanderer",
     "zhCN": "流浪者"
   },
   {
@@ -4314,7 +4314,7 @@
     "esMX": "Desteñir",
     "jaJP": "フェード",
     "ptBR": "Desaparecer",
-    "ruRU": "Тускнеть",
+    "ruRU": "Fade",
     "zhCN": "褪色"
   },
   {
@@ -4331,7 +4331,7 @@
     "esMX": "Pensamiento",
     "jaJP": "考え",
     "ptBR": "Pensamento",
-    "ruRU": "Мысль",
+    "ruRU": "Thought",
     "zhCN": "想法"
   },
   {
@@ -4348,7 +4348,7 @@
     "esMX": "Furia",
     "jaJP": "フューリー",
     "ptBR": "Fúria",
-    "ruRU": "Ярость",
+    "ruRU": "Fury",
     "zhCN": "愤怒"
   },
   {
@@ -4365,7 +4365,7 @@
     "esMX": "Guerra",
     "jaJP": "戦争",
     "ptBR": "Guerra",
-    "ruRU": "Война",
+    "ruRU": "War",
     "zhCN": "战争"
   },
   {
@@ -4382,7 +4382,7 @@
     "esMX": "Fumar",
     "jaJP": "煙",
     "ptBR": "Fumaça",
-    "ruRU": "Дым",
+    "ruRU": "Smoke",
     "zhCN": "抽烟"
   },
   {
@@ -4399,7 +4399,7 @@
     "esMX": "Envidiar",
     "jaJP": "妬み",
     "ptBR": "Inveja",
-    "ruRU": "Завидовать",
+    "ruRU": "Envy",
     "zhCN": "嫉妒"
   },
   {
@@ -4416,7 +4416,7 @@
     "esMX": "Rata",
     "jaJP": "ねずみ",
     "ptBR": "Rato",
-    "ruRU": "Крыса",
+    "ruRU": "Rat",
     "zhCN": "鼠"
   },
   {
@@ -4433,7 +4433,7 @@
     "esMX": "Caliente",
     "jaJP": "熱い",
     "ptBR": "Quente",
-    "ruRU": "Горячий",
+    "ruRU": "Hot",
     "zhCN": "热的"
   },
   {
@@ -4450,7 +4450,7 @@
     "esMX": "Zorro",
     "jaJP": "キツネ",
     "ptBR": "Raposa",
-    "ruRU": "Лиса",
+    "ruRU": "Fox",
     "zhCN": "狐狸"
   },
   {
@@ -4467,7 +4467,7 @@
     "esMX": "Hueso",
     "jaJP": "骨",
     "ptBR": "Osso",
-    "ruRU": "Кость",
+    "ruRU": "Bone",
     "zhCN": "骨"
   },
   {
@@ -4484,7 +4484,7 @@
     "esMX": "Camisón",
     "jaJP": "ナイトガウン",
     "ptBR": "Camisola",
-    "ruRU": "Ночная рубашка",
+    "ruRU": "Nightgown",
     "zhCN": "睡衣"
   },
   {
@@ -4501,7 +4501,7 @@
     "esMX": "Cúpula",
     "jaJP": "ドーム",
     "ptBR": "Cúpula",
-    "ruRU": "Купол",
+    "ruRU": "Dome",
     "zhCN": "圆顶"
   },
   {
@@ -4518,7 +4518,7 @@
     "esMX": "Gran León",
     "jaJP": "グランド レオン",
     "ptBR": "Grande Leão",
-    "ruRU": "Гранд Леон",
+    "ruRU": "Grand Leon",
     "zhCN": "格兰德莱昂"
   },
   {
@@ -4535,7 +4535,7 @@
     "esMX": "Grieta",
     "jaJP": "リフト",
     "ptBR": "Fenda",
-    "ruRU": "Рифт",
+    "ruRU": "Rift",
     "zhCN": "裂痕"
   },
   {
@@ -4552,7 +4552,7 @@
     "esMX": "Obediencia",
     "jaJP": "従順",
     "ptBR": "Obediência",
-    "ruRU": "Послушание",
+    "ruRU": "Obedience",
     "zhCN": "服从"
   },
   {
@@ -4569,7 +4569,7 @@
     "esMX": "Miedo",
     "jaJP": "恐怖",
     "ptBR": "Temor",
-    "ruRU": "Страх",
+    "ruRU": "Dread",
     "zhCN": "恐惧"
   },
   {
@@ -4586,14 +4586,14 @@
     "esMX": "Desconocido",
     "jaJP": "未知",
     "ptBR": "Desconhecido",
-    "ruRU": "Неизвестный",
+    "ruRU": "Unknown",
     "zhCN": "未知"
   },
   {
     "id": 63296,
     "Key": "Runeword794",
     "enUS": "Dodge",
-    "zhTW": "躲閃",
+    "zhTW": "閃避",
     "deDE": "Ausweichen",
     "esES": "Esquivar",
     "frFR": "Esquiver",
@@ -4603,7 +4603,7 @@
     "esMX": "Esquivar",
     "jaJP": "ドッジ",
     "ptBR": "Desviar",
-    "ruRU": "Уклоняться",
+    "ruRU": "Dodge",
     "zhCN": "躲闪"
   },
   {
@@ -4620,7 +4620,7 @@
     "esMX": "Admiración",
     "jaJP": "賞賛",
     "ptBR": "Admiração",
-    "ruRU": "Восхищение",
+    "ruRU": "Admiration",
     "zhCN": "钦佩"
   },
   {
@@ -4637,7 +4637,7 @@
     "esMX": "Jindujun",
     "jaJP": "ジンドゥジュン",
     "ptBR": "Jindujun",
-    "ruRU": "Чиндуджун",
+    "ruRU": "Jindujun",
     "zhCN": "金都君"
   },
   {
@@ -4654,7 +4654,7 @@
     "esMX": "Venganza",
     "jaJP": "復讐",
     "ptBR": "Vingança",
-    "ruRU": "Месть",
+    "ruRU": "Revenge",
     "zhCN": "复仇"
   },
   {
@@ -4671,7 +4671,7 @@
     "esMX": "Quemar",
     "jaJP": "やけど",
     "ptBR": "Queimar",
-    "ruRU": "Гореть",
+    "ruRU": "Burn",
     "zhCN": "烧伤"
   },
   {
@@ -4688,7 +4688,7 @@
     "esMX": "Abandonar",
     "jaJP": "放棄する",
     "ptBR": "Abandonar",
-    "ruRU": "Покидать",
+    "ruRU": "Abandon",
     "zhCN": "放弃"
   },
   {
@@ -4705,7 +4705,7 @@
     "esMX": "Transformación",
     "jaJP": "変換",
     "ptBR": "Transformação",
-    "ruRU": "Трансформация",
+    "ruRU": "Transformation",
     "zhCN": "转型"
   },
   {
@@ -4722,7 +4722,7 @@
     "esMX": "Paz",
     "jaJP": "平和",
     "ptBR": "Paz",
-    "ruRU": "Мир",
+    "ruRU": "Peace",
     "zhCN": "和平"
   },
   {
@@ -4739,7 +4739,7 @@
     "esMX": "Placidez",
     "jaJP": "穏やかさ",
     "ptBR": "Placidez",
-    "ruRU": "спокойствие",
+    "ruRU": "Placidity",
     "zhCN": "平静"
   },
   {
@@ -4756,7 +4756,7 @@
     "esMX": "Horizonte",
     "jaJP": "地平線",
     "ptBR": "Horizonte",
-    "ruRU": "Горизонт",
+    "ruRU": "Horizon",
     "zhCN": "地平线"
   },
   {
@@ -4773,7 +4773,7 @@
     "esMX": "Descontento",
     "jaJP": "不満",
     "ptBR": "Descontentamento",
-    "ruRU": "Недовольство",
+    "ruRU": "Discontent",
     "zhCN": "不满"
   },
   {
@@ -4790,7 +4790,7 @@
     "esMX": "Sabueso",
     "jaJP": "ハウンド",
     "ptBR": "Cão",
-    "ruRU": "гончая",
+    "ruRU": "Hound",
     "zhCN": "猎犬"
   },
   {
@@ -4807,7 +4807,7 @@
     "esMX": "Demonio",
     "jaJP": "悪魔",
     "ptBR": "Demônio",
-    "ruRU": "Демон",
+    "ruRU": "Demon",
     "zhCN": "恶魔"
   },
   {
@@ -4824,7 +4824,7 @@
     "esMX": "Conocimiento",
     "jaJP": "洞察力",
     "ptBR": "Entendimento",
-    "ruRU": "Понимание",
+    "ruRU": "Insight",
     "zhCN": "洞察力"
   },
   {
@@ -4841,7 +4841,7 @@
     "esMX": "Astuto",
     "jaJP": "狡猾な",
     "ptBR": "Ardiloso",
-    "ruRU": "Хитрость",
+    "ruRU": "Cunning",
     "zhCN": "狡猾"
   },
   {
@@ -4858,7 +4858,7 @@
     "esMX": "Furia",
     "jaJP": "怒り",
     "ptBR": "Raiva",
-    "ruRU": "Ярость",
+    "ruRU": "Rage",
     "zhCN": "愤怒"
   },
   {
@@ -4875,7 +4875,7 @@
     "esMX": "Terminar",
     "jaJP": "終了",
     "ptBR": "Encerrar",
-    "ruRU": "Прекратить",
+    "ruRU": "Terminate",
     "zhCN": "终止"
   },
   {
@@ -4892,7 +4892,7 @@
     "esMX": "Reino eterno",
     "jaJP": "永遠の統治",
     "ptBR": "Reinado Eterno",
-    "ruRU": "Вечное Царство",
+    "ruRU": "Eternal Reign",
     "zhCN": "永恒的统治"
   },
   {
@@ -4909,7 +4909,7 @@
     "esMX": "Cambiar",
     "jaJP": "変化",
     "ptBR": "Mudar",
-    "ruRU": "Изменять",
+    "ruRU": "Change",
     "zhCN": "改变"
   },
   {
@@ -4926,7 +4926,7 @@
     "esMX": "Ladrón de almas",
     "jaJP": "ソウルスティーラー",
     "ptBR": "Ladrão de Almas",
-    "ruRU": "Похититель душ",
+    "ruRU": "Soul Stealer",
     "zhCN": "盗魂者"
   },
   {
@@ -4943,7 +4943,7 @@
     "esMX": "Promesa de los antiguos",
     "jaJP": "古代の誓い",
     "ptBR": "Juramento do Ancião",
-    "ruRU": "Обещание Древнего",
+    "ruRU": "Ancient's Pledge",
     "zhCN": "古人的誓言"
   },
   {
@@ -4960,7 +4960,7 @@
     "esMX": "Negro",
     "jaJP": "黒",
     "ptBR": "Preto",
-    "ruRU": "Черный",
+    "ruRU": "Black",
     "zhCN": "黑色的"
   },
   {
@@ -4977,7 +4977,7 @@
     "esMX": "Furia",
     "jaJP": "フューリー",
     "ptBR": "Fúria",
-    "ruRU": "Ярость",
+    "ruRU": "Fury",
     "zhCN": "愤怒"
   },
   {
@@ -4994,7 +4994,7 @@
     "esMX": "Santo Trueno",
     "jaJP": "ホーリーサンダー",
     "ptBR": "Santo Trovão",
-    "ruRU": "Святой Гром",
+    "ruRU": "Holy Thunder",
     "zhCN": "圣雷"
   },
   {
@@ -5011,7 +5011,7 @@
     "esMX": "Honor",
     "jaJP": "名誉",
     "ptBR": "Honra",
-    "ruRU": "Честь",
+    "ruRU": "Honor",
     "zhCN": "荣誉"
   },
   {
@@ -5028,7 +5028,7 @@
     "esMX": "gracia del rey",
     "jaJP": "キングス・グレース",
     "ptBR": "Graça do Rei",
-    "ruRU": "Королевская милость",
+    "ruRU": "King's Grace",
     "zhCN": "国王的恩典"
   },
   {
@@ -5045,14 +5045,14 @@
     "esMX": "Hoja",
     "jaJP": "葉",
     "ptBR": "Folha",
-    "ruRU": "Лист",
+    "ruRU": "Leaf",
     "zhCN": "叶子"
   },
   {
     "id": 63324,
     "Key": "Runeword822",
     "enUS": "Lionheart",
-    "zhTW": "狮心王",
+    "zhTW": "獅心王",
     "deDE": "Löwenherz",
     "esES": "corazón de león",
     "frFR": "Cœur de Lion",
@@ -5062,7 +5062,7 @@
     "esMX": "corazón de león",
     "jaJP": "ライオンハート",
     "ptBR": "Coração de Leão",
-    "ruRU": "Львиное Сердце",
+    "ruRU": "Lionheart",
     "zhCN": "狮心王"
   },
   {
@@ -5079,7 +5079,7 @@
     "esMX": "Ciencia",
     "jaJP": "伝承",
     "ptBR": "História",
-    "ruRU": "Лор",
+    "ruRU": "Lore",
     "zhCN": "知识"
   },
   {
@@ -5096,7 +5096,7 @@
     "esMX": "Malicia",
     "jaJP": "悪意",
     "ptBR": "Malícia",
-    "ruRU": "Злоба",
+    "ruRU": "Malice",
     "zhCN": "恶意"
   },
   {
@@ -5113,7 +5113,7 @@
     "esMX": "Melodía",
     "jaJP": "メロディー",
     "ptBR": "Melodia",
-    "ruRU": "Мелодия",
+    "ruRU": "Melody",
     "zhCN": "旋律"
   },
   {
@@ -5130,7 +5130,7 @@
     "esMX": "Memoria",
     "jaJP": "メモリ",
     "ptBR": "Memória",
-    "ruRU": "Память",
+    "ruRU": "Memory",
     "zhCN": "记忆"
   },
   {
@@ -5147,7 +5147,7 @@
     "esMX": "Nadir",
     "jaJP": "天底",
     "ptBR": "Nadir",
-    "ruRU": "Надир",
+    "ruRU": "Nadir",
     "zhCN": "最低点"
   },
   {
@@ -5164,7 +5164,7 @@
     "esMX": "Resplandor",
     "jaJP": "ラディアンス",
     "ptBR": "Radiância",
-    "ruRU": "Сияние",
+    "ruRU": "Radiance",
     "zhCN": "辐射"
   },
   {
@@ -5181,7 +5181,7 @@
     "esMX": "Rima",
     "jaJP": "韻",
     "ptBR": "Rima",
-    "ruRU": "рифма",
+    "ruRU": "Rhyme",
     "zhCN": "韵"
   },
   {
@@ -5198,7 +5198,7 @@
     "esMX": "Silencio",
     "jaJP": "沈黙",
     "ptBR": "Silêncio",
-    "ruRU": "Тишина",
+    "ruRU": "Silence",
     "zhCN": "沉默"
   },
   {
@@ -5215,7 +5215,7 @@
     "esMX": "Fumar",
     "jaJP": "煙",
     "ptBR": "Fumaça",
-    "ruRU": "Дым",
+    "ruRU": "Smoke",
     "zhCN": "抽烟"
   },
   {
@@ -5231,8 +5231,8 @@
     "plPL": "Podstęp",
     "esMX": "Sigilo",
     "jaJP": "ステルス",
-    "ptBR": "Furtivo",
-    "ruRU": "Скрытность",
+    "ptBR": "Furtividade",
+    "ruRU": "Stealth",
     "zhCN": "隐身"
   },
   {
@@ -5249,7 +5249,7 @@
     "esMX": "Acero",
     "jaJP": "鋼鉄",
     "ptBR": "Aço",
-    "ruRU": "Сталь",
+    "ruRU": "Steel",
     "zhCN": "钢"
   },
   {
@@ -5266,7 +5266,7 @@
     "esMX": "Fuerza",
     "jaJP": "強さ",
     "ptBR": "Força",
-    "ruRU": "Сила",
+    "ruRU": "Strenght",
     "zhCN": "实力"
   },
   {
@@ -5283,7 +5283,7 @@
     "esMX": "Veneno",
     "jaJP": "ヴェノム",
     "ptBR": "Veneno",
-    "ruRU": "Яд",
+    "ruRU": "Venom",
     "zhCN": "毒液"
   },
   {
@@ -5300,7 +5300,7 @@
     "esMX": "Poder",
     "jaJP": "富",
     "ptBR": "Fortuna",
-    "ruRU": "Богатство",
+    "ruRU": "Wealth",
     "zhCN": "财富"
   },
   {
@@ -5317,7 +5317,7 @@
     "esMX": "Blanco",
     "jaJP": "白",
     "ptBR": "Branco",
-    "ruRU": "Белый",
+    "ruRU": "White",
     "zhCN": "白色的"
   },
   {
@@ -5334,7 +5334,7 @@
     "esMX": "Céfiro",
     "jaJP": "ゼファー",
     "ptBR": "Zéfiro",
-    "ruRU": "Зефир",
+    "ruRU": "Zephyr",
     "zhCN": "和风"
   },
   {
@@ -5351,7 +5351,7 @@
     "esMX": "Bestia",
     "jaJP": "獣",
     "ptBR": "Besta",
-    "ruRU": "Зверь",
+    "ruRU": "Beast",
     "zhCN": "兽"
   },
   {
@@ -5368,7 +5368,7 @@
     "esMX": "Zarza",
     "jaJP": "ブランブル",
     "ptBR": "Espinheiro",
-    "ruRU": "Брамбл",
+    "ruRU": "Bramble",
     "zhCN": "荆棘"
   },
   {
@@ -5385,7 +5385,7 @@
     "esMX": "Aliento de los moribundos",
     "jaJP": "瀕死の息吹",
     "ptBR": "Respiração dos Moribundos",
-    "ruRU": "Дыхание умирающего",
+    "ruRU": "Breath of the Dying",
     "zhCN": "临终之息"
   },
   {
@@ -5402,7 +5402,7 @@
     "esMX": "Llamar a las armas",
     "jaJP": "軍への呼びかけ",
     "ptBR": "Chamado às Armas",
-    "ruRU": "Призыв к оружию",
+    "ruRU": "Call to Arms",
     "zhCN": "武装号召"
   },
   {
@@ -5419,7 +5419,7 @@
     "esMX": "Caos",
     "jaJP": "カオス",
     "ptBR": "Caos",
-    "ruRU": "Хаос",
+    "ruRU": "Chaos",
     "zhCN": "混乱"
   },
   {
@@ -5436,7 +5436,7 @@
     "esMX": "Cadenas de honor",
     "jaJP": "名誉の連鎖",
     "ptBR": "Correntes de Honra",
-    "ruRU": "Цепи чести",
+    "ruRU": "Chains of Honor",
     "zhCN": "荣誉之链"
   },
   {
@@ -5453,7 +5453,7 @@
     "esMX": "Luna creciente",
     "jaJP": "三日月",
     "ptBR": "Lua Crescente",
-    "ruRU": "Полумесяц",
+    "ruRU": "Crescent Moon",
     "zhCN": "新月"
   },
   {
@@ -5470,7 +5470,7 @@
     "esMX": "Delirio",
     "jaJP": "せん妄",
     "ptBR": "Delírio",
-    "ruRU": "Бред",
+    "ruRU": "Delirium",
     "zhCN": "谵妄"
   },
   {
@@ -5487,7 +5487,7 @@
     "esMX": "Condenar",
     "jaJP": "ドゥーム",
     "ptBR": "Ruína",
-    "ruRU": "Рок",
+    "ruRU": "Doom",
     "zhCN": "厄运"
   },
   {
@@ -5504,7 +5504,7 @@
     "esMX": "Coacción",
     "jaJP": "強迫",
     "ptBR": "Coação",
-    "ruRU": "Принуждение",
+    "ruRU": "Duress",
     "zhCN": "胁迫"
   },
   {
@@ -5521,7 +5521,7 @@
     "esMX": "Enigma",
     "jaJP": "エニグマ",
     "ptBR": "Enigma",
-    "ruRU": "Энигма",
+    "ruRU": "Enigma",
     "zhCN": "谜"
   },
   {
@@ -5538,7 +5538,7 @@
     "esMX": "Eternidad",
     "jaJP": "永遠",
     "ptBR": "Eternidade",
-    "ruRU": "Вечность",
+    "ruRU": "Eternity",
     "zhCN": "永恒"
   },
   {
@@ -5555,7 +5555,7 @@
     "esMX": "Exilio",
     "jaJP": "亡命",
     "ptBR": "Exílio",
-    "ruRU": "Изгнание",
+    "ruRU": "Exile",
     "zhCN": "流亡"
   },
   {
@@ -5572,7 +5572,7 @@
     "esMX": "Hambruna",
     "jaJP": "飢饉",
     "ptBR": "Fome",
-    "ruRU": "Голод",
+    "ruRU": "Famine",
     "zhCN": "饥荒"
   },
   {
@@ -5589,7 +5589,7 @@
     "esMX": "Oscuridad",
     "jaJP": "憂鬱",
     "ptBR": "Melancolia",
-    "ruRU": "Мрак",
+    "ruRU": "Gloom",
     "zhCN": "愁云"
   },
   {
@@ -5606,7 +5606,7 @@
     "esMX": "mano de justicia",
     "jaJP": "正義の手",
     "ptBR": "mão da Justiça",
-    "ruRU": "рука правосудия",
+    "ruRU": "hand of Justice",
     "zhCN": "正义之手"
   },
   {
@@ -5623,7 +5623,7 @@
     "esMX": "corazón del roble",
     "jaJP": "オークの中心部",
     "ptBR": "Coração do Carvalho",
-    "ruRU": "Сердце Дуба",
+    "ruRU": "Heart of the Oak",
     "zhCN": "橡树之心"
   },
   {
@@ -5640,7 +5640,7 @@
     "esMX": "Asesino de reyes",
     "jaJP": "キングスレイヤー",
     "ptBR": "Regicida",
-    "ruRU": "Цареубийца",
+    "ruRU": "Kingslayer",
     "zhCN": "弑君者"
   },
   {
@@ -5657,7 +5657,7 @@
     "esMX": "Pasión",
     "jaJP": "情熱",
     "ptBR": "Paixão",
-    "ruRU": "Страсть",
+    "ruRU": "Passion",
     "zhCN": "热情"
   },
   {
@@ -5674,7 +5674,7 @@
     "esMX": "Prudencia",
     "jaJP": "慎重",
     "ptBR": "Prudência",
-    "ruRU": "Благоразумие",
+    "ruRU": "Prudence",
     "zhCN": "普鲁登斯"
   },
   {
@@ -5691,7 +5691,7 @@
     "esMX": "Santuario",
     "jaJP": "サンクチュアリ",
     "ptBR": "Santuário",
-    "ruRU": "Святилище",
+    "ruRU": "Sanctuary",
     "zhCN": "避难所"
   },
   {
@@ -5708,7 +5708,7 @@
     "esMX": "Esplendor",
     "jaJP": "素晴らしさ",
     "ptBR": "Esplendor",
-    "ruRU": "Великолепие",
+    "ruRU": "Splendor",
     "zhCN": "辉煌"
   },
   {
@@ -5725,7 +5725,7 @@
     "esMX": "Piedra",
     "jaJP": "石",
     "ptBR": "Pedra",
-    "ruRU": "Камень",
+    "ruRU": "Stone",
     "zhCN": "石头"
   },
   {
@@ -5742,7 +5742,7 @@
     "esMX": "Viento",
     "jaJP": "風",
     "ptBR": "Vento",
-    "ruRU": "Ветер",
+    "ruRU": "Wind",
     "zhCN": "风"
   },
   {
@@ -5759,7 +5759,7 @@
     "esMX": "Marca",
     "jaJP": "ブランド",
     "ptBR": "Marca",
-    "ruRU": "Бренд",
+    "ruRU": "Brand",
     "zhCN": "品牌"
   },
   {
@@ -5776,7 +5776,7 @@
     "esMX": "Muerte",
     "jaJP": "死",
     "ptBR": "Morte",
-    "ruRU": "Смерть",
+    "ruRU": "Death",
     "zhCN": "死亡"
   },
   {
@@ -5793,7 +5793,7 @@
     "esMX": "Destrucción",
     "jaJP": "破壊",
     "ptBR": "Destruição",
-    "ruRU": "Разрушение",
+    "ruRU": "Destruction",
     "zhCN": "毁灭"
   },
   {
@@ -5810,7 +5810,7 @@
     "esMX": "Dragón",
     "jaJP": "ドラゴン",
     "ptBR": "Dragão",
-    "ruRU": "Дракон",
+    "ruRU": "Dragon",
     "zhCN": "龙"
   },
   {
@@ -5827,7 +5827,7 @@
     "esMX": "Sueño",
     "jaJP": "夢",
     "ptBR": "Sonhar",
-    "ruRU": "Мечтать",
+    "ruRU": "Dream",
     "zhCN": "梦"
   },
   {
@@ -5844,7 +5844,7 @@
     "esMX": "Borde",
     "jaJP": "角",
     "ptBR": "Borda",
-    "ruRU": "Край",
+    "ruRU": "Edge",
     "zhCN": "边缘"
   },
   {
@@ -5861,7 +5861,7 @@
     "esMX": "Fe",
     "jaJP": "信仰",
     "ptBR": "Fé",
-    "ruRU": "Вера",
+    "ruRU": "Faith",
     "zhCN": "信仰"
   },
   {
@@ -5878,7 +5878,7 @@
     "esMX": "Fortaleza",
     "jaJP": "不屈の精神",
     "ptBR": "Fortaleza",
-    "ruRU": "Стойкость",
+    "ruRU": "Fortitude",
     "zhCN": "刚毅"
   },
   {
@@ -5895,7 +5895,7 @@
     "esMX": "Dolor",
     "jaJP": "悲しみ",
     "ptBR": "Pesar",
-    "ruRU": "Горе",
+    "ruRU": "Grief",
     "zhCN": "悲伤"
   },
   {
@@ -5912,7 +5912,7 @@
     "esMX": "Armonía",
     "jaJP": "調和",
     "ptBR": "Harmonia",
-    "ruRU": "Гармония",
+    "ruRU": "Harmony",
     "zhCN": "和谐"
   },
   {
@@ -5929,7 +5929,7 @@
     "esMX": "Hielo",
     "jaJP": "氷",
     "ptBR": "Gelo",
-    "ruRU": "Лед",
+    "ruRU": "Ice",
     "zhCN": "冰"
   },
   {
@@ -5946,7 +5946,7 @@
     "esMX": "Infinidad",
     "jaJP": "無限大",
     "ptBR": "Infinidade",
-    "ruRU": "Бесконечность",
+    "ruRU": "Infinity",
     "zhCN": "无限"
   },
   {
@@ -5963,7 +5963,7 @@
     "esMX": "Conocimiento",
     "jaJP": "洞察力",
     "ptBR": "Entendimento",
-    "ruRU": "Понимание",
+    "ruRU": "Insight",
     "zhCN": "洞察力"
   },
   {
@@ -5980,7 +5980,7 @@
     "esMX": "último deseo",
     "jaJP": "最後の願い",
     "ptBR": "Último desejo",
-    "ruRU": "Последнее желание",
+    "ruRU": "Last Wish",
     "zhCN": "最后的愿望"
   },
   {
@@ -5997,7 +5997,7 @@
     "esMX": "justiciero",
     "jaJP": "法をもたらす者",
     "ptBR": "Legislador",
-    "ruRU": "Законник",
+    "ruRU": "Lawbringer",
     "zhCN": "法律使者"
   },
   {
@@ -6014,7 +6014,7 @@
     "esMX": "Juramento",
     "jaJP": "誓い",
     "ptBR": "Juramento",
-    "ruRU": "Клятва",
+    "ruRU": "Oath",
     "zhCN": "誓言"
   },
   {
@@ -6031,7 +6031,7 @@
     "esMX": "Obediencia",
     "jaJP": "従順",
     "ptBR": "Obediência",
-    "ruRU": "Послушание",
+    "ruRU": "Obedience",
     "zhCN": "服从"
   },
   {
@@ -6048,7 +6048,7 @@
     "esMX": "Fénix",
     "jaJP": "フェニックス",
     "ptBR": "Fênix",
-    "ruRU": "Финикс",
+    "ruRU": "Phoenix",
     "zhCN": "凤凰"
   },
   {
@@ -6065,7 +6065,7 @@
     "esMX": "Orgullo",
     "jaJP": "誇り",
     "ptBR": "Orgulho",
-    "ruRU": "Гордость",
+    "ruRU": "Pride",
     "zhCN": "自豪"
   },
   {
@@ -6082,7 +6082,7 @@
     "esMX": "Grieta",
     "jaJP": "リフト",
     "ptBR": "Fenda",
-    "ruRU": "Рифт",
+    "ruRU": "Rift",
     "zhCN": "裂痕"
   },
   {
@@ -6099,7 +6099,7 @@
     "esMX": "Espíritu",
     "jaJP": "精神",
     "ptBR": "Espírito",
-    "ruRU": "Дух",
+    "ruRU": "Spirit",
     "zhCN": "精神"
   },
   {
@@ -6116,7 +6116,7 @@
     "esMX": "Voz de la razón",
     "jaJP": "理性の声",
     "ptBR": "Voz da Razão",
-    "ruRU": "Голос Разума",
+    "ruRU": "Voice of Reason",
     "zhCN": "理性之声"
   },
   {
@@ -6133,7 +6133,7 @@
     "esMX": "Ira",
     "jaJP": "怒り",
     "ptBR": "Fúria",
-    "ruRU": "Гнев",
+    "ruRU": "Wrath",
     "zhCN": "愤怒"
   },
   {
@@ -6150,7 +6150,7 @@
     "esMX": "Hueso",
     "jaJP": "骨",
     "ptBR": "Osso",
-    "ruRU": "Кость",
+    "ruRU": "Bone",
     "zhCN": "骨"
   },
   {
@@ -6167,7 +6167,7 @@
     "esMX": "Ilustración",
     "jaJP": "啓発",
     "ptBR": "Iluminação",
-    "ruRU": "Просвещение",
+    "ruRU": "Enlightenment",
     "zhCN": "启示"
   },
   {
@@ -6184,7 +6184,7 @@
     "esMX": "Mito",
     "jaJP": "神話",
     "ptBR": "Mito",
-    "ruRU": "Миф",
+    "ruRU": "Myth",
     "zhCN": "神话"
   },
   {
@@ -6201,7 +6201,7 @@
     "esMX": "Principio",
     "jaJP": "原理",
     "ptBR": "Princípio",
-    "ruRU": "Принцип",
+    "ruRU": "Principle",
     "zhCN": "原则"
   },
   {
@@ -6218,7 +6218,7 @@
     "esMX": "Lluvia",
     "jaJP": "雨",
     "ptBR": "Chuva",
-    "ruRU": "Дождь",
+    "ruRU": "Rain",
     "zhCN": "雨"
   },
   {
@@ -6235,7 +6235,7 @@
     "esMX": "Traición",
     "jaJP": "裏切り",
     "ptBR": "Traição",
-    "ruRU": "Предательство",
+    "ruRU": "Treachery",
     "zhCN": "背信弃义"
   },
   {
@@ -6252,7 +6252,7 @@
     "esMX": "Patrón",
     "jaJP": "パターン",
     "ptBR": "Padrão",
-    "ruRU": "Шаблон",
+    "ruRU": "Pattern",
     "zhCN": "图案"
   },
   {
@@ -6269,7 +6269,7 @@
     "esMX": "Plaga",
     "jaJP": "ペスト",
     "ptBR": "Praga",
-    "ruRU": "Чума",
+    "ruRU": "Plague",
     "zhCN": "瘟疫"
   },
   {
@@ -6286,7 +6286,7 @@
     "esMX": "Bailar",
     "jaJP": "ダンス",
     "ptBR": "Dança",
-    "ruRU": "Танец",
+    "ruRU": "Dance",
     "zhCN": "舞蹈"
   },
   {
@@ -6303,7 +6303,7 @@
     "esMX": "granizo fuego",
     "jaJP": "ヘイルファイア",
     "ptBR": "Granizo Fogo",
-    "ruRU": "Приветствую огонь",
+    "ruRU": "Hail Fire",
     "zhCN": "冰雹火"
   },
   {
@@ -6320,7 +6320,7 @@
     "esMX": "Ladrón",
     "jaJP": "泥棒",
     "ptBR": "Ladrão",
-    "ruRU": "Вор",
+    "ruRU": "Thief",
     "zhCN": "贼"
   },
   {
@@ -6337,7 +6337,7 @@
     "esMX": "Piedra",
     "jaJP": "石",
     "ptBR": "Pedra",
-    "ruRU": "Камень",
+    "ruRU": "Stone",
     "zhCN": "石头"
   },
   {
@@ -6371,7 +6371,7 @@
     "esMX": "presentimiento",
     "jaJP": "フォアフィール",
     "ptBR": "Pressentimento",
-    "ruRU": "Предчувствовать",
+    "ruRU": "Forefeel",
     "zhCN": "预感"
   },
   {
@@ -6388,7 +6388,7 @@
     "esMX": "Oro",
     "jaJP": "金",
     "ptBR": "Ouro",
-    "ruRU": "Золото",
+    "ruRU": "Gold",
     "zhCN": "金子"
   },
   {
@@ -6405,7 +6405,7 @@
     "esMX": "Niebla",
     "jaJP": "霧",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Fog",
     "zhCN": "多雾路段"
   },
   {
@@ -6422,7 +6422,7 @@
     "esMX": "Luna",
     "jaJP": "月",
     "ptBR": "Lua",
-    "ruRU": "Луна",
+    "ruRU": "Moon",
     "zhCN": "月亮"
   },
   {
@@ -6439,7 +6439,7 @@
     "esMX": "Pecado",
     "jaJP": "罪",
     "ptBR": "Pecado",
-    "ruRU": "Грех",
+    "ruRU": "Sin",
     "zhCN": "罪"
   },
   {
@@ -6456,7 +6456,7 @@
     "esMX": "Caliente",
     "jaJP": "熱い",
     "ptBR": "Quente",
-    "ruRU": "Горячий",
+    "ruRU": "Hot",
     "zhCN": "热的"
   },
   {
@@ -6473,7 +6473,7 @@
     "esMX": "milenio",
     "jaJP": "ミレニアム",
     "ptBR": "Milênio",
-    "ruRU": "Миллениум",
+    "ruRU": "Millenium",
     "zhCN": "千禧年"
   },
   {
@@ -6490,7 +6490,7 @@
     "esMX": "Memoria",
     "jaJP": "メモリ",
     "ptBR": "Memória",
-    "ruRU": "Память",
+    "ruRU": "Memory",
     "zhCN": "记忆"
   },
   {
@@ -6507,7 +6507,7 @@
     "esMX": "Lluvia",
     "jaJP": "雨",
     "ptBR": "Chuva",
-    "ruRU": "Дождь",
+    "ruRU": "Rain",
     "zhCN": "雨"
   },
   {
@@ -6524,7 +6524,7 @@
     "esMX": "Lluvia",
     "jaJP": "雨",
     "ptBR": "Chuva",
-    "ruRU": "Дождь",
+    "ruRU": "Rain",
     "zhCN": "雨"
   },
   {
@@ -6541,7 +6541,7 @@
     "esMX": "Invierno",
     "jaJP": "冬",
     "ptBR": "Inverno",
-    "ruRU": "Зима",
+    "ruRU": "Winter",
     "zhCN": "冬天"
   },
   {
@@ -6558,7 +6558,7 @@
     "esMX": "Psíquico",
     "jaJP": "霊能者",
     "ptBR": "Psíquico",
-    "ruRU": "экстрасенс",
+    "ruRU": "Psychic",
     "zhCN": "精神"
   },
   {
@@ -6575,7 +6575,7 @@
     "esMX": "Cautivo",
     "jaJP": "捕虜",
     "ptBR": "Cativo",
-    "ruRU": "пленник",
+    "ruRU": "Captive",
     "zhCN": "俘虏"
   },
   {
@@ -6592,7 +6592,7 @@
     "esMX": "Poder",
     "jaJP": "富",
     "ptBR": "Fortuna",
-    "ruRU": "Богатство",
+    "ruRU": "Wealth",
     "zhCN": "财富"
   },
   {
@@ -6609,7 +6609,7 @@
     "esMX": "Juventud",
     "jaJP": "若者",
     "ptBR": "Juventude",
-    "ruRU": "Молодость",
+    "ruRU": "Youth",
     "zhCN": "青年"
   },
   {
@@ -6626,7 +6626,7 @@
     "esMX": "Armonía",
     "jaJP": "調和",
     "ptBR": "Harmonia",
-    "ruRU": "Гармония",
+    "ruRU": "Harmony",
     "zhCN": "和谐"
   },
   {
@@ -6643,7 +6643,7 @@
     "esMX": "Luz",
     "jaJP": "日光",
     "ptBR": "Luz do dia",
-    "ruRU": "Дневной свет",
+    "ruRU": "Daylight",
     "zhCN": "日光"
   },
   {
@@ -6660,7 +6660,7 @@
     "esMX": "Espíritu",
     "jaJP": "精神",
     "ptBR": "Espírito",
-    "ruRU": "Дух",
+    "ruRU": "Spirit",
     "zhCN": "精神"
   },
   {
@@ -6677,7 +6677,7 @@
     "esMX": "Abandonar",
     "jaJP": "放棄する",
     "ptBR": "Abandonar",
-    "ruRU": "Покидать",
+    "ruRU": "Abandon",
     "zhCN": "放弃"
   },
   {
@@ -6694,7 +6694,7 @@
     "esMX": "Piedra",
     "jaJP": "石",
     "ptBR": "Pedra",
-    "ruRU": "Камень",
+    "ruRU": "Stone",
     "zhCN": "石头"
   },
   {
@@ -6711,7 +6711,7 @@
     "esMX": "Vacío",
     "jaJP": "空所",
     "ptBR": "Vazio",
-    "ruRU": "Пустота",
+    "ruRU": "Void",
     "zhCN": "空白"
   },
   {
@@ -6728,7 +6728,7 @@
     "esMX": "presentimiento",
     "jaJP": "フォアフィール",
     "ptBR": "Pressentimento",
-    "ruRU": "Предчувствовать",
+    "ruRU": "Forefeel",
     "zhCN": "预感"
   },
   {
@@ -6745,7 +6745,7 @@
     "esMX": "Oro",
     "jaJP": "金",
     "ptBR": "Ouro",
-    "ruRU": "Золото",
+    "ruRU": "Gold",
     "zhCN": "金子"
   },
   {
@@ -6762,7 +6762,7 @@
     "esMX": "Niebla",
     "jaJP": "霧",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Fog",
     "zhCN": "多雾路段"
   },
   {
@@ -6779,7 +6779,7 @@
     "esMX": "Luna",
     "jaJP": "月",
     "ptBR": "Lua",
-    "ruRU": "Луна",
+    "ruRU": "Moon",
     "zhCN": "月亮"
   },
   {
@@ -6796,7 +6796,7 @@
     "esMX": "Pecado",
     "jaJP": "罪",
     "ptBR": "Pecado",
-    "ruRU": "Грех",
+    "ruRU": "Sin",
     "zhCN": "罪"
   },
   {
@@ -6813,7 +6813,7 @@
     "esMX": "Dragón",
     "jaJP": "ドラゴン",
     "ptBR": "Dragão",
-    "ruRU": "Дракон",
+    "ruRU": "Dragon",
     "zhCN": "龙"
   },
   {
@@ -6830,7 +6830,7 @@
     "esMX": "Sueño",
     "jaJP": "夢",
     "ptBR": "Sonhar",
-    "ruRU": "Мечтать",
+    "ruRU": "Dream",
     "zhCN": "梦"
   },
   {
@@ -6847,7 +6847,7 @@
     "esMX": "Lince",
     "jaJP": "オオヤマネコ",
     "ptBR": "Lince",
-    "ruRU": "Рысь",
+    "ruRU": "Lynx",
     "zhCN": "山猫"
   },
   {
@@ -6864,7 +6864,7 @@
     "esMX": "Pera",
     "jaJP": "梨",
     "ptBR": "Pera",
-    "ruRU": "Груша",
+    "ruRU": "Pear",
     "zhCN": "梨"
   },
   {
@@ -6881,7 +6881,7 @@
     "esMX": "Maníaco",
     "jaJP": "マニアック",
     "ptBR": "Maníaco",
-    "ruRU": "Маньяк",
+    "ruRU": "Maniac",
     "zhCN": "疯子"
   },
   {
@@ -6898,7 +6898,7 @@
     "esMX": "Soleado",
     "jaJP": "晴れ",
     "ptBR": "Ensolarado",
-    "ruRU": "Солнечно",
+    "ruRU": "Sunny",
     "zhCN": "阳光明媚"
   },
   {
@@ -6915,7 +6915,7 @@
     "esMX": "América",
     "jaJP": "アメリカ",
     "ptBR": "América",
-    "ruRU": "Америка",
+    "ruRU": "America",
     "zhCN": "美国"
   },
   {
@@ -6932,7 +6932,7 @@
     "esMX": "Austria",
     "jaJP": "オーストリア",
     "ptBR": "Áustria",
-    "ruRU": "Австрия",
+    "ruRU": "Austria",
     "zhCN": "奥地利"
   },
   {
@@ -6949,7 +6949,7 @@
     "esMX": "Gran Bretaña",
     "jaJP": "英国",
     "ptBR": "Grã-Bretanha",
-    "ruRU": "Британия",
+    "ruRU": "Britain",
     "zhCN": "英国"
   },
   {
@@ -6966,7 +6966,7 @@
     "esMX": "Canadá",
     "jaJP": "カナダ",
     "ptBR": "Canadá",
-    "ruRU": "Канада",
+    "ruRU": "Canada",
     "zhCN": "加拿大"
   },
   {
@@ -6983,7 +6983,7 @@
     "esMX": "Porcelana",
     "jaJP": "中国",
     "ptBR": "China",
-    "ruRU": "Китай",
+    "ruRU": "China",
     "zhCN": "中国"
   },
   {
@@ -7000,7 +7000,7 @@
     "esMX": "Francia",
     "jaJP": "フランス",
     "ptBR": "França",
-    "ruRU": "Франция",
+    "ruRU": "France",
     "zhCN": "法国"
   },
   {
@@ -7017,7 +7017,7 @@
     "esMX": "Alemania",
     "jaJP": "ドイツ",
     "ptBR": "Alemanha",
-    "ruRU": "Германия",
+    "ruRU": "Germany",
     "zhCN": "德国"
   },
   {
@@ -7034,7 +7034,7 @@
     "esMX": "Japón",
     "jaJP": "日本",
     "ptBR": "Japão",
-    "ruRU": "Япония",
+    "ruRU": "Japan",
     "zhCN": "日本"
   },
   {
@@ -7051,7 +7051,7 @@
     "esMX": "Portugal",
     "jaJP": "ポルトガル",
     "ptBR": "Portugal",
-    "ruRU": "Португалия",
+    "ruRU": "Portugal",
     "zhCN": "葡萄牙"
   },
   {
@@ -7068,7 +7068,7 @@
     "esMX": "Rusia",
     "jaJP": "ロシア",
     "ptBR": "Rússia",
-    "ruRU": "Россия",
+    "ruRU": "Russia",
     "zhCN": "俄罗斯"
   },
   {
@@ -7085,7 +7085,7 @@
     "esMX": "Italia",
     "jaJP": "イタリア",
     "ptBR": "Itália",
-    "ruRU": "Италия",
+    "ruRU": "Italy",
     "zhCN": "意大利"
   },
   {
@@ -7102,7 +7102,7 @@
     "esMX": "Tierra",
     "jaJP": "土地",
     "ptBR": "Terra",
-    "ruRU": "Земля",
+    "ruRU": "Land",
     "zhCN": "土地"
   },
   {
@@ -7119,7 +7119,7 @@
     "esMX": "Hércules",
     "jaJP": "ヘラクレス",
     "ptBR": "Hércules",
-    "ruRU": "Геркулес",
+    "ruRU": "Hercules",
     "zhCN": "赫拉克勒斯"
   },
   {
@@ -7136,7 +7136,7 @@
     "esMX": "experto",
     "jaJP": "メイビン",
     "ptBR": "Maven",
-    "ruRU": "Мавен",
+    "ruRU": "Maven",
     "zhCN": "梅文"
   },
   {
@@ -7153,7 +7153,7 @@
     "esMX": "Ilegal",
     "jaJP": "無法地帯",
     "ptBR": "Sem lei",
-    "ruRU": "Лоулесс",
+    "ruRU": "Lawless",
     "zhCN": "无法无天"
   },
   {
@@ -7170,7 +7170,7 @@
     "esMX": "Prohibir",
     "jaJP": "禁止する",
     "ptBR": "Proibir",
-    "ruRU": "Запретить",
+    "ruRU": "Prohibit",
     "zhCN": "禁止"
   },
   {
@@ -7187,7 +7187,7 @@
     "esMX": "Prohibir",
     "jaJP": "禁止する",
     "ptBR": "Proibir",
-    "ruRU": "Запретить",
+    "ruRU": "Prohibit",
     "zhCN": "禁止"
   },
   {
@@ -7204,7 +7204,7 @@
     "esMX": "Prohibir",
     "jaJP": "禁止する",
     "ptBR": "Proibir",
-    "ruRU": "Запретить",
+    "ruRU": "Prohibit",
     "zhCN": "禁止"
   },
   {
@@ -7221,7 +7221,7 @@
     "esMX": "Rinoceronte",
     "jaJP": "サイ",
     "ptBR": "Rinoceronte",
-    "ruRU": "Носорог",
+    "ruRU": "Rhino",
     "zhCN": "犀牛"
   },
   {
@@ -7238,7 +7238,7 @@
     "esMX": "Patada",
     "jaJP": "キック",
     "ptBR": "Chute",
-    "ruRU": "Пинать",
+    "ruRU": "Kick",
     "zhCN": "踢"
   },
   {
@@ -7255,7 +7255,7 @@
     "esMX": "Leñador",
     "jaJP": "木こり",
     "ptBR": "Lenhador",
-    "ruRU": "Вудсман",
+    "ruRU": "Woodsman",
     "zhCN": "樵夫"
   },
   {
@@ -7272,7 +7272,7 @@
     "esMX": "Temporada de lluvias",
     "jaJP": "雨季",
     "ptBR": "Estação chuvosa",
-    "ruRU": "Сезон дождей",
+    "ruRU": "Rainy Season",
     "zhCN": "雨季"
   },
   {
@@ -7289,7 +7289,7 @@
     "esMX": "Rebelión",
     "jaJP": "反乱",
     "ptBR": "Rebelião",
-    "ruRU": "Восстание",
+    "ruRU": "Rebellion",
     "zhCN": "叛乱"
   },
   {
@@ -7306,7 +7306,7 @@
     "esMX": "Dirigible",
     "jaJP": "飛行船",
     "ptBR": "Dirigível",
-    "ruRU": "Дирижабль",
+    "ruRU": "Airship",
     "zhCN": "飞艇"
   },
   {
@@ -7323,7 +7323,7 @@
     "esMX": "Caña",
     "jaJP": "シャンク",
     "ptBR": "Haste",
-    "ruRU": "хвостовик",
+    "ruRU": "Shank",
     "zhCN": "柄"
   },
   {
@@ -7340,7 +7340,7 @@
     "esMX": "Ombligo",
     "jaJP": "へそ",
     "ptBR": "Umbigo",
-    "ruRU": "Пупок",
+    "ruRU": "Navel",
     "zhCN": "脐"
   },
   {
@@ -7357,7 +7357,7 @@
     "esMX": "Pantano",
     "jaJP": "沼地",
     "ptBR": "Pântano",
-    "ruRU": "Болото",
+    "ruRU": "Swamp",
     "zhCN": "沼泽"
   },
   {
@@ -7374,7 +7374,7 @@
     "esMX": "Prohibir",
     "jaJP": "禁止する",
     "ptBR": "Proibir",
-    "ruRU": "Запретить",
+    "ruRU": "Prohibit",
     "zhCN": "禁止"
   },
   {
@@ -7391,7 +7391,7 @@
     "esMX": "Rinoceronte",
     "jaJP": "サイ",
     "ptBR": "Rinoceronte",
-    "ruRU": "Носорог",
+    "ruRU": "Rhino",
     "zhCN": "犀牛"
   },
   {
@@ -7408,7 +7408,7 @@
     "esMX": "Maestro del fuego",
     "jaJP": "マスター・オブ・ファイアー",
     "ptBR": "Mestre do Fogo",
-    "ruRU": "Мастер огня",
+    "ruRU": "Master of Fire",
     "zhCN": "火之大师"
   },
   {
@@ -7425,7 +7425,7 @@
     "esMX": "Maestro del agua",
     "jaJP": "水の達人",
     "ptBR": "Mestre da Água",
-    "ruRU": "Мастер Воды",
+    "ruRU": "Master of Water",
     "zhCN": "水大师"
   },
   {
@@ -7442,7 +7442,7 @@
     "esMX": "Maestro del trueno",
     "jaJP": "マスター・オブ・サンダー",
     "ptBR": "Mestre do Trovão",
-    "ruRU": "Мастер Грома",
+    "ruRU": "Master of Thunder",
     "zhCN": "雷霆大师"
   },
   {
@@ -7459,7 +7459,7 @@
     "esMX": "Ángel",
     "jaJP": "天使",
     "ptBR": "Anjo",
-    "ruRU": "Ангел",
+    "ruRU": "Angel",
     "zhCN": "天使"
   },
   {
@@ -7476,7 +7476,7 @@
     "esMX": "obra de dios",
     "jaJP": "神の働き",
     "ptBR": "Obra de Deus",
-    "ruRU": "Работа Божия",
+    "ruRU": "Work of God",
     "zhCN": "神的工作"
   },
   {
@@ -7493,7 +7493,7 @@
     "esMX": "Escarabajo de oro",
     "jaJP": "ゴールドスカラベ",
     "ptBR": "Escaravelho Dourado",
-    "ruRU": "Золотой скарабей",
+    "ruRU": "Gold Scarab",
     "zhCN": "黄金圣甲虫"
   },
   {
@@ -7510,7 +7510,7 @@
     "esMX": "Criatura",
     "jaJP": "生き物",
     "ptBR": "Criatura",
-    "ruRU": "Существо",
+    "ruRU": "Creature",
     "zhCN": "生物"
   },
   {
@@ -7527,7 +7527,7 @@
     "esMX": "shinigamis",
     "jaJP": "死神",
     "ptBR": "Shinigami",
-    "ruRU": "Синигами",
+    "ruRU": "Shinigami",
     "zhCN": "死神"
   },
   {
@@ -7539,12 +7539,12 @@
     "esES": "shinigamis",
     "frFR": "Shinigami",
     "itIT": "Shinigami",
-    "koKR": "사신의",
+    "koKR": "사신",
     "plPL": "Shinigami",
     "esMX": "shinigamis",
     "jaJP": "死神",
     "ptBR": "Shinigami",
-    "ruRU": "Синигами",
+    "ruRU": "Shinigami",
     "zhCN": "死神"
   },
   {
@@ -7561,7 +7561,7 @@
     "esMX": "Luz de la luna",
     "jaJP": "月光",
     "ptBR": "Luar",
-    "ruRU": "Лунный свет",
+    "ruRU": "Moonlight",
     "zhCN": "月光"
   },
   {
@@ -7578,7 +7578,7 @@
     "esMX": "Luz del sol",
     "jaJP": "日光",
     "ptBR": "Luz solar",
-    "ruRU": "Солнечный свет",
+    "ruRU": "Sunlight",
     "zhCN": "阳光"
   },
   {
@@ -7595,7 +7595,7 @@
     "esMX": "Tourbillon",
     "jaJP": "トゥールビリオン",
     "ptBR": "Turbilhão",
-    "ruRU": "Турбийон",
+    "ruRU": "Tourbillion",
     "zhCN": "陀飞轮"
   },
   {
@@ -7612,7 +7612,7 @@
     "esMX": "Llama parpadeante",
     "jaJP": "揺らめく炎",
     "ptBR": "Chama Cintilante",
-    "ruRU": "Мерцающее пламя",
+    "ruRU": "Flickering Flame",
     "zhCN": "闪烁的火焰"
   },
   {
@@ -7629,14 +7629,14 @@
     "esMX": "Neblina",
     "jaJP": "ミスト",
     "ptBR": "Névoa",
-    "ruRU": "Туман",
+    "ruRU": "Mist",
     "zhCN": "薄雾"
   },
   {
     "id": 63478,
     "Key": "Runeword976",
     "enUS": "Obsession",
-    "zhTW": "痴迷",
+    "zhTW": "迷戀",
     "deDE": "Besessenheit",
     "esES": "Obsesión",
     "frFR": "Obsession",
@@ -7646,7 +7646,7 @@
     "esMX": "Obsesión",
     "jaJP": "執着",
     "ptBR": "Obsessão",
-    "ruRU": "Одержимость",
+    "ruRU": "Obsession",
     "zhCN": "痴迷"
   },
   {
@@ -7663,24 +7663,24 @@
     "esMX": "Plaga",
     "jaJP": "ペスト",
     "ptBR": "Praga",
-    "ruRU": "Чума",
+    "ruRU": "Plague",
     "zhCN": "瘟疫"
   },
   {
     "id": 63480,
     "Key": "Runeword978",
     "enUS": "Unbending Will",
-    "zhTW": "不屈的意志",
+    "zhTW": "不屈不撓的意志",
     "deDE": "Unbeugsamer Wille",
-    "esES": "Voluntad inflexible",
+    "esES": "Voluntad inquebrantable",
     "frFR": "Volonté inflexible",
     "itIT": "Volontà inflessibile",
     "koKR": "굽히지 않는 의지",
     "plPL": "Nieugięta wola",
-    "esMX": "Voluntad inflexible",
+    "esMX": "Voluntad inquebrantable",
     "jaJP": "折れない意志",
     "ptBR": "Vontade Inflexível",
-    "ruRU": "Несгибаемая воля",
+    "ruRU": "Unbending Will",
     "zhCN": "不屈的意志"
   },
   {
@@ -7697,7 +7697,7 @@
     "esMX": "Sabiduría",
     "jaJP": "知恵",
     "ptBR": "Sabedoria",
-    "ruRU": "Мудрость",
+    "ruRU": "Wisdom",
     "zhCN": "智慧"
   },
   {
@@ -7714,7 +7714,7 @@
     "esMX": "diablos",
     "jaJP": "ディアブロ",
     "ptBR": "Diabo",
-    "ruRU": "Диабло",
+    "ruRU": "Diablo",
     "zhCN": "暗黑破坏神"
   },
   {
@@ -7731,7 +7731,7 @@
     "esMX": "Ajetreo",
     "jaJP": "ハッスル",
     "ptBR": "Labuta",
-    "ruRU": "Суетиться",
+    "ruRU": "Hustle",
     "zhCN": "喧嚣"
   },
   {
@@ -7748,7 +7748,7 @@
     "esMX": "Ajetreo",
     "jaJP": "ハッスル",
     "ptBR": "Labuta",
-    "ruRU": "Суетиться",
+    "ruRU": "Hustle",
     "zhCN": "喧嚣"
   },
   {
@@ -7765,7 +7765,7 @@
     "esMX": "Mosaico",
     "jaJP": "モザイク",
     "ptBR": "Mosaico",
-    "ruRU": "Мозаика",
+    "ruRU": "Mosaic",
     "zhCN": "马赛克"
   },
   {
@@ -7782,7 +7782,7 @@
     "esMX": "Metamorfosis",
     "jaJP": "変態",
     "ptBR": "Metamorfose",
-    "ruRU": "Метаморфоза",
+    "ruRU": "Metamorphosis",
     "zhCN": "变态"
   },
   {
@@ -7799,7 +7799,7 @@
     "esMX": "Suelo",
     "jaJP": "地面",
     "ptBR": "Chão",
-    "ruRU": "Земля",
+    "ruRU": "Ground",
     "zhCN": "地面"
   },
   {
@@ -7816,7 +7816,7 @@
     "esMX": "Temperamento",
     "jaJP": "気性",
     "ptBR": "Temperamento",
-    "ruRU": "Характер",
+    "ruRU": "Temper",
     "zhCN": "脾气"
   },
   {
@@ -7833,7 +7833,7 @@
     "esMX": "Tierra",
     "jaJP": "地球",
     "ptBR": "Terra",
-    "ruRU": "Земля",
+    "ruRU": "Earth",
     "zhCN": "地球"
   },
   {
@@ -7850,7 +7850,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7867,7 +7867,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7884,7 +7884,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7901,7 +7901,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7918,7 +7918,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7935,7 +7935,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7952,7 +7952,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7969,7 +7969,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -7986,7 +7986,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -8003,7 +8003,7 @@
     "esMX": "Espeluznante",
     "jaJP": "ぞっとする",
     "ptBR": "Arrepiante",
-    "ruRU": "Отдыхающий",
+    "ruRU": "Chilling",
     "zhCN": "令人心寒"
   },
   {
@@ -8012,116 +8012,116 @@
     "enUS": "Might of the Earth",
     "zhTW": "大地之力",
     "deDE": "Macht der Erde",
-    "esES": "poder de la tierra",
+    "esES": "Poder de la Tierra",
     "frFR": "Puissance de la Terre",
-    "itIT": "Potenza della Terra",
+    "itIT": "Potere della Terra",
     "koKR": "대지의 힘",
     "plPL": "Potęga Ziemi",
-    "esMX": "poder de la tierra",
-    "jaJP": "地球の力",
-    "ptBR": "Poder da Terra",
-    "ruRU": "Мощь Земли",
+    "esMX": "Poder de la Tierra",
+    "jaJP": "大地の力",
+    "ptBR": "Força da Terra",
+    "ruRU": "Might of the Earth",
     "zhCN": "大地之力"
   },
   {
     "id": 47148,
     "Key": "Runeword988",
     "enUS": "Wooden Colossus",
-    "zhTW": "木製巨像",
-    "deDE": "Koloss aus Holz",
-    "esES": "Coloso de madera",
-    "frFR": "Colosse en bois",
-    "itIT": "Colosso di legno",
-    "koKR": "나무 거상",
-    "plPL": "Drewniany kolos",
-    "esMX": "Coloso de madera",
-    "jaJP": "木製の巨像",
+    "zhTW": "木巨人",
+    "deDE": "Hölzerner Koloss",
+    "esES": "Coloso de Madera",
+    "frFR": "Colosse de Bois",
+    "itIT": "Colosso di Legno",
+    "koKR": "나무 거인",
+    "plPL": "Drewniany Kolos",
+    "esMX": "Coloso de Madera",
+    "jaJP": "木の巨人",
     "ptBR": "Colosso de Madeira",
-    "ruRU": "Деревянный Колосс",
-    "zhCN": "木制巨像"
+    "ruRU": "Wooden Colossus",
+    "zhCN": "木巨人"
   },
   {
     "id": 47149,
     "Key": "Runeword989",
     "enUS": "Dragon Master",
-    "zhTW": "龍師",
+    "zhTW": "龍之主",
     "deDE": "Drachenmeister",
-    "esES": "Maestro Dragón",
-    "frFR": "Maître Dragon",
-    "itIT": "Maestro Drago",
+    "esES": "Maestro de Dragones",
+    "frFR": "Maître des Dragons",
+    "itIT": "Maestro dei Draghi",
     "koKR": "드래곤 마스터",
     "plPL": "Mistrz Smoków",
-    "esMX": "Maestro Dragón",
+    "esMX": "Maestro de Dragones",
     "jaJP": "ドラゴンマスター",
-    "ptBR": "Mestre Dragão",
-    "ruRU": "Мастер Драконов",
-    "zhCN": "龙师"
+    "ptBR": "Mestre dos Dragões",
+    "ruRU": "Dragon Master",
+    "zhCN": "龙之主"
   },
   {
     "id": 47172,
     "Key": "Runeword991",
     "enUS": "Storm, Earth and Fire",
-    "zhTW": "風暴、大地與火焰",
-    "deDE": "Sturm, Erde und Feuer",
-    "esES": "Tormenta, Tierra y Fuego",
-    "frFR": "Tempête, Terre et Feu",
-    "itIT": "Tempesta, Terra e Fuoco",
-    "koKR": "폭풍, 대지 그리고 불",
-    "plPL": "Burza, Ziemia i Ogień",
-    "esMX": "Tormenta, Tierra y Fuego",
-    "jaJP": "嵐、大地、そして火",
-    "ptBR": "Tempestade, Terra e Fogo",
-    "ruRU": "Буря, Земля и Огонь",
-    "zhCN": "风暴、大地与火焰"
+    "zhTW": "需要聖雨技能",
+    "deDE": "Erfordert Heiliger Regen",
+    "esES": "Requiere Lluvia Sagrada",
+    "frFR": "Nécessite Pluie Sacrée",
+    "itIT": "Richiede Pioggia Sacra",
+    "koKR": "성스러운 비가 필요합니다",
+    "plPL": "Wymaga Świętego Deszczu",
+    "esMX": "Requiere Lluvia Sagrada",
+    "jaJP": "神聖な雨が必要です",
+    "ptBR": "Requer Chuva Sagrada",
+    "ruRU": "Storm, Earth and Fire",
+    "zhCN": "需要圣雨技能"
   },
   {
     "id": 46791,
     "Key": "r93",
     "enUS": "ÿcNDragon Rune",
-    "zhTW": "ÿcND龍符文",
-    "deDE": "ÿcNDragon Rune",
-    "esES": "ÿcNDRuna Ragón",
-    "frFR": "ÿcNDRune de Dragon",
-    "itIT": "ÿcNDRuna del drago",
-    "koKR": "ÿcNDragon 룬",
-    "plPL": "ÿcNDRagon Runa",
-    "esMX": "ÿcNDRuna Ragón",
-    "jaJP": "ÿcNDラゴン ルーン",
-    "ptBR": "ÿcNDRuna do Dragão",
-    "ruRU": "ÿcNDРуна Дракона",
-    "zhCN": "ÿcND龙符文"
+    "zhTW": "ÿcN龍紋",
+    "deDE": "ÿcNDrachenrune",
+    "esES": "ÿcNRuna del Dragón",
+    "frFR": "ÿcNRune de dragon",
+    "itIT": "ÿcNRuna del Drago",
+    "koKR": "ÿcN드래곤 룬",
+    "plPL": "ÿcNRuna Smoka",
+    "esMX": "ÿcNRuna del Dragón",
+    "jaJP": "ÿcNドラゴンルーン",
+    "ptBR": "ÿcNRuna do Dragão",
+    "ruRU": "ÿcNDragon Rune",
+    "zhCN": "ÿcN龙纹"
   },
   {
     "id": 40015,
     "Key": "r34",
-    "deDE": "ÿc2Hin Rune",
+    "deDE": "ÿc2Hi Rune",
     "enUS": "ÿc2Hi Rune",
-    "esES": "ÿc2Hen Runa",
-    "esMX": "ÿc2Hen Runa",
-    "frFR": "ÿc2Hen rune",
-    "itIT": "ÿc2Hnella runa",
-    "jaJP": "ルーンのÿc2H",
-    "koKR": "ÿc2H룬",
-    "plPL": "ÿc2Hw runie",
-    "ptBR": "ÿc2Hem Runa",
-    "ruRU": "ÿc2Hв Руне",
-    "zhCN": "符文中的 ÿc2H",
-    "zhTW": "符文中的 ÿc2H"
+    "esES": "ÿc2Hi Runa",
+    "esMX": "ÿc2Hi Runa",
+    "frFR": "ÿc2Hi Rune",
+    "itIT": "ÿc2Hi Runa",
+    "jaJP": "ÿc2Hi ルーン",
+    "koKR": "ÿc2Hi 룬",
+    "plPL": "ÿc2Hi Runa",
+    "ptBR": "ÿc2Hi Runa",
+    "ruRU": "ÿc2Hi Rune",
+    "zhCN": "ÿc2Hi 符文",
+    "zhTW": "ÿc2Hi 符文"
   },
   {
     "id": 40016,
     "Key": "r35",
     "deDE": "ÿc2Mo Rune",
     "enUS": "ÿc2Mo Rune",
-    "esES": "ÿc2Mo Runa",
-    "esMX": "ÿc2Mo Runa",
-    "frFR": "ÿc2Mo Rune",
-    "itIT": "ÿc2Mo Runa",
+    "esES": "Runa ÿc2Mo",
+    "esMX": "Runa ÿc2Mo",
+    "frFR": "Rune ÿc2Mo",
+    "itIT": "Runa ÿc2Mo",
     "jaJP": "ÿc2Mo ルーン",
     "koKR": "ÿc2Mo 룬",
-    "plPL": "ÿc2Mo Runa",
-    "ptBR": "ÿc2Mo Runa",
-    "ruRU": "ÿc2Mo Руна",
+    "plPL": "Runa c2Mo",
+    "ptBR": "Runa ÿc2Mo",
+    "ruRU": "ÿc2Mo Rune",
     "zhCN": "ÿc2Mo 符文",
     "zhTW": "ÿc2Mo 符文"
   },
@@ -8130,49 +8130,49 @@
     "Key": "r36",
     "deDE": "ÿc4No Rune",
     "enUS": "ÿc4No Rune",
-    "esES": "ÿc4No Runa",
-    "esMX": "ÿc4No Runa",
-    "frFR": "ÿc4No Rune",
-    "itIT": "ÿc4No Runa",
-    "jaJP": "ÿc4No ルーン",
-    "koKR": "ÿc4No 룬",
-    "plPL": "ÿc4No Runa",
+    "esES": "ÿc4No runa",
+    "esMX": "ÿc4No runa",
+    "frFR": "ÿc4No rune",
+    "itIT": "ÿc4No runa",
+    "jaJP": "ÿc4ルーンなし",
+    "koKR": "ÿc4룬 없음",
+    "plPL": "ÿc4No runy",
     "ptBR": "ÿc4No Runa",
-    "ruRU": "ÿc4No Руна",
-    "zhCN": "ÿc4No 符文",
-    "zhTW": "ÿc4No 符文"
+    "ruRU": "ÿc4No Rune",
+    "zhCN": "ÿc4无符文",
+    "zhTW": "ÿc4無符文"
   },
   {
     "id": 40018,
     "Key": "r37",
     "deDE": "ÿc4Te Rune",
     "enUS": "ÿc4Te Rune",
-    "esES": "ÿc4Te Runa",
-    "esMX": "ÿc4Te Runa",
-    "frFR": "ÿc4Te Rune",
-    "itIT": "ÿc4Te Runa",
+    "esES": "Runa ÿc4Te",
+    "esMX": "Runa ÿc4Te",
+    "frFR": "Rune ÿc4Te",
+    "itIT": "Runa ÿc4Te",
     "jaJP": "ÿc4Te ルーン",
     "koKR": "ÿc4Te 룬",
-    "plPL": "ÿc4Te Runa",
-    "ptBR": "ÿc4Te Runa",
-    "ruRU": "ÿc4Te Руна",
-    "zhCN": "ÿc4Te 符文",
-    "zhTW": "ÿc4Te 符文"
+    "plPL": "Runa c4Te",
+    "ptBR": "Runa ÿc4Te",
+    "ruRU": "ÿc4Te Rune",
+    "zhCN": "ÿc4Te符文",
+    "zhTW": "ÿc4Te符文"
   },
   {
     "id": 40019,
     "Key": "r38",
-    "deDE": "ÿc4Ro Rune",
+    "deDE": "ÿc4Ro Runen",
     "enUS": "ÿc4Ro Rune",
-    "esES": "ÿc4Ro Runa",
-    "esMX": "ÿc4Ro Runa",
-    "frFR": "ÿc4Ro Rune",
-    "itIT": "ÿc4Ro Runa",
+    "esES": "Runas ÿc4Ro",
+    "esMX": "Runas ÿc4Ro",
+    "frFR": "Runes ÿc4Ro",
+    "itIT": "ÿc4Ro Rune",
     "jaJP": "ÿc4Ro ルーン",
     "koKR": "ÿc4Ro 룬",
-    "plPL": "ÿc4Ro Runa",
-    "ptBR": "ÿc4Ro Runa",
-    "ruRU": "ÿc4Ro Руна",
+    "plPL": "Runy c4Ro",
+    "ptBR": "Runas ÿc4Ro",
+    "ruRU": "ÿc4Ro Rune",
     "zhCN": "ÿc4Ro 符文",
     "zhTW": "ÿc4Ro 符文"
   },
@@ -8189,24 +8189,24 @@
     "koKR": "ÿc4So 룬",
     "plPL": "ÿc4So Runa",
     "ptBR": "ÿc4So Runa",
-    "ruRU": "ÿc4So Руна",
+    "ruRU": "ÿc4So Rune",
     "zhCN": "ÿc4So 符文",
     "zhTW": "ÿc4So 符文"
   },
   {
     "id": 40021,
     "Key": "r40",
-    "deDE": "ÿc4Mu Rune",
+    "deDE": "ÿc4Mu Runen",
     "enUS": "ÿc4Mu Rune",
-    "esES": "ÿc4Mu Runa",
-    "esMX": "ÿc4Mu Runa",
-    "frFR": "ÿc4Mu Rune",
-    "itIT": "ÿc4Mu Runa",
+    "esES": "Runas ÿc4Mu",
+    "esMX": "Runas ÿc4Mu",
+    "frFR": "Runes ÿc4Mu",
+    "itIT": "Rune ÿc4Mu",
     "jaJP": "ÿc4Mu ルーン",
     "koKR": "ÿc4Mu 룬",
-    "plPL": "ÿc4Mu Runa",
-    "ptBR": "Runa ÿc4Mu",
-    "ruRU": "ÿc4Mу Руна",
+    "plPL": "Runy c4Mu",
+    "ptBR": "Runas ÿc4Mu",
+    "ruRU": "ÿc4Mu Rune",
     "zhCN": "ÿc4Mu 符文",
     "zhTW": "ÿc4Mu 符文"
   },
@@ -8215,15 +8215,15 @@
     "Key": "r41",
     "deDE": "ÿc4Ne Rune",
     "enUS": "ÿc4Ne Rune",
-    "esES": "ÿc4Ne Runa",
-    "esMX": "ÿc4Ne Runa",
-    "frFR": "ÿc4Ne Rune",
-    "itIT": "ÿc4Ne Runa",
+    "esES": "Runa ÿc4Ne",
+    "esMX": "Runa ÿc4Ne",
+    "frFR": "Rune ÿc4Ne",
+    "itIT": "Runa ÿc4Ne",
     "jaJP": "ÿc4Ne ルーン",
     "koKR": "ÿc4Ne 룬",
-    "plPL": "ÿc4Ne Runa",
-    "ptBR": "ÿc4Ne Runa",
-    "ruRU": "ÿc4Ne Руна",
+    "plPL": "Runa c4Ne",
+    "ptBR": "Runa ÿc4Ne",
+    "ruRU": "ÿc4Ne Rune",
     "zhCN": "ÿc4Ne 符文",
     "zhTW": "ÿc4Ne 符文"
   },
@@ -8232,17 +8232,17 @@
     "Key": "r42",
     "deDE": "ÿc4Re Rune",
     "enUS": "ÿc4Re Rune",
-    "esES": "ÿc4Re Runa",
-    "esMX": "ÿc4Re Runa",
-    "frFR": "ÿc4Re Rune",
-    "itIT": "ÿc4Re Runa",
+    "esES": "Runa ÿc4Re",
+    "esMX": "Runa ÿc4Re",
+    "frFR": "Rune ÿc4Re",
+    "itIT": "Runa ÿc4Re",
     "jaJP": "ÿc4Re ルーン",
     "koKR": "ÿc4Re 룬",
-    "plPL": "ÿc4Re Runa",
-    "ptBR": "ÿc4Re Runa",
-    "ruRU": "ÿc4Re Руна",
-    "zhCN": "ÿc4Re 符文",
-    "zhTW": "ÿc4Re 符文"
+    "plPL": "Runa c4Re",
+    "ptBR": "Runa ÿc4Re",
+    "ruRU": "ÿc4Re Rune",
+    "zhCN": "ÿc4Re符文",
+    "zhTW": "ÿc4Re符文"
   },
   {
     "id": 40025,
@@ -8251,32 +8251,32 @@
     "enUS": "ÿc;He Rune",
     "esES": "ÿc;He Runa",
     "esMX": "ÿc;He Runa",
-    "frFR": "ÿc;He Runes",
-    "itIT": "ÿc;He Runa",
-    "jaJP": "ÿc;He ルーン",
+    "frFR": "ÿc;He Rune",
+    "itIT": "ÿc;He Rune",
+    "jaJP": "ÿc;彼のルーン",
     "koKR": "ÿc;He 룬",
     "plPL": "ÿc;He Runa",
     "ptBR": "ÿc;He Runa",
-    "ruRU": "ÿc;He Руна",
-    "zhCN": "ÿc;He 符文",
-    "zhTW": "ÿc;He 符文"
+    "ruRU": "ÿc;He Rune",
+    "zhCN": "ÿc;He Rune",
+    "zhTW": "ÿc;He Rune"
   },
   {
     "id": 40026,
     "Key": "r45",
-    "deDE": "ÿc;Nu Rune",
+    "deDE": "ÿc;Nu Runen",
     "enUS": "ÿc;Nu Rune",
-    "esES": "ÿc;Nu Runa",
-    "esMX": "ÿc;Nu Runa",
-    "frFR": "ÿc;Nu Runes",
-    "itIT": "ÿc;Nu Runa",
-    "jaJP": "ÿc;Nu ルーン",
-    "koKR": "ÿc;Nu 룬",
-    "plPL": "ÿc;Nu Runa",
-    "ptBR": "ÿc;Nu Runa",
-    "ruRU": "ÿc;Nu Руна",
-    "zhCN": "ÿc;Nu 符文",
-    "zhTW": "ÿc;Nu 符文"
+    "esES": "ÿc;Nu runas",
+    "esMX": "ÿc;Nu runas",
+    "frFR": "ÿc;Nu rune",
+    "itIT": "ÿc;Nu rune",
+    "jaJP": "ÿc;ルーンなし",
+    "koKR": "ÿc;룬 없음",
+    "plPL": "ÿc;Nu run",
+    "ptBR": "ÿc;Nu Runas",
+    "ruRU": "ÿc;Nu Rune",
+    "zhCN": "ÿc;没有符文",
+    "zhTW": "ÿc;沒有符文"
   },
   {
     "id": 40027,
@@ -8285,423 +8285,423 @@
     "enUS": "ÿc;Wo Rune",
     "esES": "ÿc;Wo Runa",
     "esMX": "ÿc;Wo Runa",
-    "frFR": "ÿc;Wo Runes",
-    "itIT": "ÿc;Wo Runa",
-    "jaJP": "ÿc;Wo ルーン",
+    "frFR": "ÿc;Wo Rune",
+    "itIT": "ÿc;Wo Rune",
+    "jaJP": "ウー・ルーン",
     "koKR": "ÿc;Wo 룬",
     "plPL": "ÿc;Wo Runa",
     "ptBR": "ÿc;Wo Runa",
-    "ruRU": "ÿc;Wo Руна",
-    "zhCN": "ÿc;Wo 符文",
-    "zhTW": "ÿc;Wo 符文"
+    "ruRU": "ÿc;Wo Rune",
+    "zhCN": "ÿc;沃符文",
+    "zhTW": "ÿc;沃符文"
   },
   {
     "id": 40077,
     "Key": "r51",
-    "deDE": "El Rune",
+    "deDE": "Die Rune",
     "enUS": "El Rune",
-    "esES": "El Runa",
-    "esMX": "El Runa",
-    "frFR": "El Rune",
-    "itIT": "El Runa",
-    "jaJP": "El ルーン",
-    "koKR": "El 룬",
-    "plPL": "El Runa",
-    "ptBR": "El Runa",
-    "ruRU": "El Руна",
-    "zhCN": "El 符文",
-    "zhTW": "El 符文"
+    "esES": "El Rune",
+    "esMX": "El Rune",
+    "frFR": "La rune",
+    "itIT": "La Runa",
+    "jaJP": "ルーン",
+    "koKR": "룬",
+    "plPL": "Runa",
+    "ptBR": "A Runa",
+    "ruRU": "El Rune",
+    "zhCN": "符文",
+    "zhTW": "符文"
   },
   {
     "id": 40078,
     "Key": "r52",
-    "deDE": "Eld Rune",
+    "deDE": "Eld-Rune",
     "enUS": "Eld Rune",
-    "esES": "Eld Runa",
-    "esMX": "Eld Runa",
-    "frFR": "Eld Rune",
-    "itIT": "Eld Runa",
-    "jaJP": "Eld ルーン",
-    "koKR": "Eld 룬",
-    "plPL": "Eld Runa",
-    "ptBR": "Eld Runa",
-    "ruRU": "Eld Руна",
-    "zhCN": "Eld 符文",
-    "zhTW": "Eld 符文"
+    "esES": "Runa antigua",
+    "esMX": "Runa antigua",
+    "frFR": "Rune ancienne",
+    "itIT": "Runa Antica",
+    "jaJP": "エルルドルーン",
+    "koKR": "엘드 룬",
+    "plPL": "Stara Runa",
+    "ptBR": "Runa Eld",
+    "ruRU": "Eld Rune",
+    "zhCN": "埃尔德符文",
+    "zhTW": "艾爾德符文"
   },
   {
     "id": 40080,
     "Key": "r54",
     "deDE": "Nef Rune",
     "enUS": "Nef Rune",
-    "esES": "Nef Runa",
-    "esMX": "Nef Runa",
-    "frFR": "Nef Rune",
-    "itIT": "Nef Runa",
-    "jaJP": "Nef ルーン",
-    "koKR": "Nef 룬",
-    "plPL": "Nef Runa",
-    "ptBR": "Nef Runa",
-    "ruRU": "Nef Руна",
-    "zhCN": "Nef 符文",
-    "zhTW": "Nef 符文"
+    "esES": "Runa Nef",
+    "esMX": "Runa Nef",
+    "frFR": "Rune Nef",
+    "itIT": "Runa Nef",
+    "jaJP": "ネフ・ルーン",
+    "koKR": "네프 룬",
+    "plPL": "Nef Rune",
+    "ptBR": "Runa Nef",
+    "ruRU": "Nef Rune",
+    "zhCN": "内夫符文",
+    "zhTW": "內夫符文"
   },
   {
     "id": 40081,
     "Key": "r55",
-    "deDE": "Eth Rune",
+    "deDE": "Eth-Rune",
     "enUS": "Eth Rune",
-    "esES": "Eth Runa",
-    "esMX": "Eth Runa",
-    "frFR": "Eth Rune",
-    "itIT": "Eth Runa",
-    "jaJP": "Eth ルーン",
-    "koKR": "Eth 룬",
-    "plPL": "Eth Runa",
-    "ptBR": "Eth Runa",
-    "ruRU": "Eth Руна",
-    "zhCN": "Eth 符文",
-    "zhTW": "Eth 符文"
+    "esES": "Runa Eth",
+    "esMX": "Runa Eth",
+    "frFR": "Rune Eth",
+    "itIT": "Runa Eth",
+    "jaJP": "エスルーン",
+    "koKR": "에트 룬",
+    "plPL": "Runa Eta",
+    "ptBR": "Runa Eth",
+    "ruRU": "Eth Rune",
+    "zhCN": "以太符文",
+    "zhTW": "以太符文"
   },
   {
     "id": 40082,
     "Key": "r56",
-    "deDE": "Ith Rune",
+    "deDE": "Ith-Rune",
     "enUS": "Ith Rune",
     "esES": "Ith Runa",
     "esMX": "Ith Runa",
     "frFR": "Ith Rune",
     "itIT": "Ith Runa",
-    "jaJP": "Ith ルーン",
-    "koKR": "Ith 룬",
-    "plPL": "Ith Runa",
-    "ptBR": "Ith Runa",
-    "ruRU": "Ith Руна",
-    "zhCN": "Ith 符文",
-    "zhTW": "Ith 符文"
+    "jaJP": "I 番目のルーン",
+    "koKR": "I번째 룬",
+    "plPL": "Runa It",
+    "ptBR": "Runa",
+    "ruRU": "Ith Rune",
+    "zhCN": "伊斯符文",
+    "zhTW": "伊斯符文"
   },
   {
     "id": 40083,
     "Key": "r57",
     "deDE": "Tal Rune",
     "enUS": "Tal Rune",
-    "esES": "Tal Runa",
-    "esMX": "Tal Runa",
-    "frFR": "Tal Rune",
-    "itIT": "Tal Runa",
-    "jaJP": "Tal ルーン",
-    "koKR": "Tal 룬",
-    "plPL": "Tal Runa",
-    "ptBR": "Tal Runa",
-    "ruRU": "Tal Руна",
-    "zhCN": "Tal 符文",
-    "zhTW": "Tal 符文"
+    "esES": "Runa tal",
+    "esMX": "Runa tal",
+    "frFR": "Rune de Tal",
+    "itIT": "Runa Tal",
+    "jaJP": "タル・ルーン",
+    "koKR": "탈 룬",
+    "plPL": "Runa Tal",
+    "ptBR": "Runa Tal",
+    "ruRU": "Tal Rune",
+    "zhCN": "塔尔符文",
+    "zhTW": "塔爾符文"
   },
   {
     "id": 40084,
     "Key": "r58",
     "deDE": "Ral Rune",
     "enUS": "Ral Rune",
-    "esES": "Ral Runa",
-    "esMX": "Ral Runa",
-    "frFR": "Ral Rune",
-    "itIT": "Ral Runa",
-    "jaJP": "Ral ルーン",
-    "koKR": "Ral 룬",
-    "plPL": "Ral Runa",
-    "ptBR": "Ral Runa",
-    "ruRU": "Ral Руна",
-    "zhCN": "Ral 符文",
-    "zhTW": "Ral 符文"
+    "esES": "Runa Ral",
+    "esMX": "Runa Ral",
+    "frFR": "Rune Ral",
+    "itIT": "Runa Ral",
+    "jaJP": "ラルーン",
+    "koKR": "랄 룬",
+    "plPL": "Ral Rune",
+    "ptBR": "Runa Ral",
+    "ruRU": "Ral Rune",
+    "zhCN": "拉尔符文",
+    "zhTW": "拉爾符文"
   },
   {
     "id": 40085,
     "Key": "r59",
-    "deDE": "Ort Rune",
+    "deDE": "Ort-Rune",
     "enUS": "Ort Rune",
-    "esES": "Ort Runa",
-    "esMX": "Ort Runa",
-    "frFR": "Ort Rune",
-    "itIT": "Ort Runa",
-    "jaJP": "Ort ルーン",
-    "koKR": "Ort 룬",
-    "plPL": "Ort Runa",
-    "ptBR": "Ort Runa",
-    "ruRU": "Ort Руна",
-    "zhCN": "Ort 符文",
-    "zhTW": "Ort 符文"
+    "esES": "Runa Ort",
+    "esMX": "Runa Ort",
+    "frFR": "Rune Ort",
+    "itIT": "Runa Ort",
+    "jaJP": "オルトルーン",
+    "koKR": "오르트 룬",
+    "plPL": "Runa Orta",
+    "ptBR": "Runa Ort",
+    "ruRU": "Ort Rune",
+    "zhCN": "奥特符文",
+    "zhTW": "奧特符文"
   },
   {
     "id": 40086,
     "Key": "r60",
     "deDE": "Thul Rune",
     "enUS": "Thul Rune",
-    "esES": "Thul Runa",
-    "esMX": "Thul Runa",
-    "frFR": "Thul Rune",
-    "itIT": "Thul Runa",
-    "jaJP": "Thul ルーン",
-    "koKR": "Thul 룬",
-    "plPL": "Thul Runa",
-    "ptBR": "Thul Runa",
-    "ruRU": "Thul Руна",
-    "zhCN": "Thul 符文",
-    "zhTW": "Thul 符文"
+    "esES": "Runa Thul",
+    "esMX": "Runa Thul",
+    "frFR": "Rune Thul",
+    "itIT": "Runa Thul",
+    "jaJP": "トゥール・ルーン",
+    "koKR": "주울 룬",
+    "plPL": "Runa Thula",
+    "ptBR": "Runa Thul",
+    "ruRU": "Thul Rune",
+    "zhCN": "苏尔符文",
+    "zhTW": "蘇爾符文"
   },
   {
     "id": 40087,
     "Key": "r61",
     "deDE": "Amn Rune",
     "enUS": "Amn Rune",
-    "esES": "Amn Runa",
-    "esMX": "Amn Runa",
-    "frFR": "Amn Rune",
-    "itIT": "Amn Runa",
-    "jaJP": "Amn ルーン",
-    "koKR": "Amn 룬",
-    "plPL": "Amn Runa",
-    "ptBR": "Amn Runa",
-    "ruRU": "Amn Руна",
-    "zhCN": "Amn 符文",
-    "zhTW": "Amn 符文"
+    "esES": "Runa amn",
+    "esMX": "Runa amn",
+    "frFR": "Rune Amn",
+    "itIT": "Amn Rune",
+    "jaJP": "アン・ルーン",
+    "koKR": "앰 룬",
+    "plPL": "Runa Amn",
+    "ptBR": "Runa Amn",
+    "ruRU": "Amn Rune",
+    "zhCN": "安姆符文",
+    "zhTW": "安姆符文"
   },
   {
     "id": 40088,
     "Key": "r62",
     "deDE": "Sol Rune",
     "enUS": "Sol Rune",
-    "esES": "Sol Runa",
-    "esMX": "Sol Runa",
-    "frFR": "Sol Rune",
-    "itIT": "Sol Runa",
-    "jaJP": "Sol ルーン",
-    "koKR": "Sol 룬",
-    "plPL": "Sol Runa",
-    "ptBR": "Sol Runa",
-    "ruRU": "Sol Руна",
-    "zhCN": "Sol 符文",
-    "zhTW": "Sol 符文"
+    "esES": "Runa solar",
+    "esMX": "Runa solar",
+    "frFR": "Rune solaire",
+    "itIT": "Runa solare",
+    "jaJP": "ソル・ルーン",
+    "koKR": "솔 룬",
+    "plPL": "Runa Sol",
+    "ptBR": "Runa do Sol",
+    "ruRU": "Sol Rune",
+    "zhCN": "索尔符文",
+    "zhTW": "索爾符文"
   },
   {
     "id": 40090,
     "Key": "r64",
     "deDE": "Dol Rune",
     "enUS": "Dol Rune",
-    "esES": "Dol Runa",
-    "esMX": "Dol Runa",
-    "frFR": "Dol Rune",
-    "itIT": "Dol Runa",
-    "jaJP": "Dol ルーン",
-    "koKR": "Dol 룬",
-    "plPL": "Dol Runa",
-    "ptBR": "Dol Runa",
-    "ruRU": "Dol Руна",
-    "zhCN": "Dol 符文",
-    "zhTW": "Dol 符文"
+    "esES": "Runa Dol",
+    "esMX": "Runa Dol",
+    "frFR": "Rune Dol",
+    "itIT": "Runa Dol",
+    "jaJP": "ドルーン",
+    "koKR": "돌룬",
+    "plPL": "Dol Rune",
+    "ptBR": "Runa Dol",
+    "ruRU": "Dol Rune",
+    "zhCN": "多尔符文",
+    "zhTW": "多爾符文"
   },
   {
     "id": 40091,
     "Key": "r65",
-    "deDE": "Hel Rune",
+    "deDE": "Ganze Rune",
     "enUS": "Hel Rune",
-    "esES": "Hel Runa",
-    "esMX": "Hel Runa",
-    "frFR": "Hel Rune",
-    "itIT": "Hel Runa",
-    "jaJP": "Hel ルーン",
-    "koKR": "Hel 룬",
-    "plPL": "Hel Runa",
-    "ptBR": "Hel Runa",
-    "ruRU": "Hel Руна",
-    "zhCN": "Hel 符文",
-    "zhTW": "Hel 符文"
+    "esES": "Runa entera",
+    "esMX": "Runa entera",
+    "frFR": "Rune entière",
+    "itIT": "Runa intera",
+    "jaJP": "ルーン全体",
+    "koKR": "전체 룬",
+    "plPL": "Cała Runa",
+    "ptBR": "Runa inteira",
+    "ruRU": "Hel Rune",
+    "zhCN": "整个符文",
+    "zhTW": "整個符文"
   },
   {
     "id": 40092,
     "Key": "r66",
-    "deDE": "Io Rune",
+    "deDE": "Ich Rune",
     "enUS": "Io Rune",
-    "esES": "Io Runa",
-    "esMX": "Io Runa",
-    "frFR": "Io Rune",
-    "itIT": "Io Runa",
-    "jaJP": "Io ルーン",
-    "koKR": "Io 룬",
-    "plPL": "Io Runa",
-    "ptBR": "Io Runa",
-    "ruRU": "Io Руна",
-    "zhCN": "Io 符文",
-    "zhTW": "Io 符文"
+    "esES": "yo runo",
+    "esMX": "yo runo",
+    "frFR": "Je rune",
+    "itIT": "Io Rune",
+    "jaJP": "アイルーン",
+    "koKR": "나는 룬",
+    "plPL": "Runa",
+    "ptBR": "Eu runo",
+    "ruRU": "Io Rune",
+    "zhCN": "我符文",
+    "zhTW": "我符文"
   },
   {
     "id": 40093,
     "Key": "r67",
-    "deDE": "Lum Rune",
+    "deDE": "Lum-Rune",
     "enUS": "Lum Rune",
-    "esES": "Lum Runa",
-    "esMX": "Lum Runa",
-    "frFR": "Lum Rune",
-    "itIT": "Lum Runa",
-    "jaJP": "Lum ルーン",
-    "koKR": "Lum 룬",
-    "plPL": "Lum Runa",
-    "ptBR": "Lum Runa",
-    "ruRU": "Lum Руна",
-    "zhCN": "Lum 符文",
-    "zhTW": "Lum 符文"
+    "esES": "Runa Lum",
+    "esMX": "Runa Lum",
+    "frFR": "Rune de Lum",
+    "itIT": "Runa Lum",
+    "jaJP": "ラムルーン",
+    "koKR": "룸 룬",
+    "plPL": "Runa Luma",
+    "ptBR": "Runa Lum",
+    "ruRU": "Lum Rune",
+    "zhCN": "卢姆符文",
+    "zhTW": "盧姆符文"
   },
   {
     "id": 40094,
     "Key": "r68",
     "deDE": "Ko Rune",
     "enUS": "Ko Rune",
-    "esES": "Ko Runa",
-    "esMX": "Ko Runa",
+    "esES": "Runa Ko",
+    "esMX": "Runa Ko",
     "frFR": "Ko Rune",
-    "itIT": "Ko Runa",
-    "jaJP": "Ko ルーン",
-    "koKR": "Ko 룬",
-    "plPL": "Ko Runa",
-    "ptBR": "Ko Runa",
-    "ruRU": "Ko Руна",
-    "zhCN": "Ko 符文",
-    "zhTW": "Ko 符文"
+    "itIT": "Ko Rune",
+    "jaJP": "Ko Rune",
+    "koKR": "Ko Rune",
+    "plPL": "Runa Ko",
+    "ptBR": "Runa Ko",
+    "ruRU": "Ko Rune",
+    "zhCN": "科鲁恩",
+    "zhTW": "科魯恩"
   },
   {
     "id": 40095,
     "Key": "r69",
-    "deDE": "Fal Rune",
+    "deDE": "Fal-Rune",
     "enUS": "Fal Rune",
-    "esES": "Fal Runa",
-    "esMX": "Fal Runa",
-    "frFR": "Fal Rune",
-    "itIT": "Fal Runa",
-    "jaJP": "Fal ルーン",
-    "koKR": "Fal 룬",
+    "esES": "Runa falsa",
+    "esMX": "Runa falsa",
+    "frFR": "Rune Fal",
+    "itIT": "Runa Fal",
+    "jaJP": "ファル・ルーン",
+    "koKR": "팔 룬",
     "plPL": "Fal Runa",
-    "ptBR": "Fal Runa",
-    "ruRU": "Fal Руна",
-    "zhCN": "Fal 符文",
-    "zhTW": "Fal 符文"
+    "ptBR": "Runa Fal",
+    "ruRU": "Fal Rune",
+    "zhCN": "法符文",
+    "zhTW": "法符文"
   },
   {
     "id": 40096,
     "Key": "r70",
     "deDE": "Lem Rune",
     "enUS": "Lem Rune",
-    "esES": "Lem Runa",
-    "esMX": "Lem Runa",
-    "frFR": "Lem Rune",
-    "itIT": "Lem Runa",
-    "jaJP": "Lem ルーン",
-    "koKR": "Lem 룬",
-    "plPL": "Lem Runa",
-    "ptBR": "Lem Runa",
-    "ruRU": "Lem Руна",
-    "zhCN": "Lem 符文",
-    "zhTW": "Lem 符文"
+    "esES": "Runa Lem",
+    "esMX": "Runa Lem",
+    "frFR": "Rune de Lem",
+    "itIT": "Runa Lem",
+    "jaJP": "レムルーン",
+    "koKR": "렘 룬",
+    "plPL": "Lema Runa",
+    "ptBR": "Runa Lem",
+    "ruRU": "Lem Rune",
+    "zhCN": "莱姆符文",
+    "zhTW": "萊姆符文"
   },
   {
     "id": 40097,
     "Key": "r71",
-    "deDE": "Pul Rune",
+    "deDE": "Pul-Rune",
     "enUS": "Pul Rune",
-    "esES": "Pul Runa",
-    "esMX": "Pul Runa",
-    "frFR": "Pul Rune",
-    "itIT": "Pul Runa",
-    "jaJP": "Pul ルーン",
-    "koKR": "Pul 룬",
-    "plPL": "Pul Runa",
-    "ptBR": "Pul Runa",
-    "ruRU": "Pul Руна",
-    "zhCN": "Pul 符文",
-    "zhTW": "Pul 符文"
+    "esES": "Runa Pul",
+    "esMX": "Runa Pul",
+    "frFR": "Rune Pul",
+    "itIT": "Runa Pul",
+    "jaJP": "プル・ルーン",
+    "koKR": "풀 룬",
+    "plPL": "Runa Pula",
+    "ptBR": "Runa Pul",
+    "ruRU": "Pul Rune",
+    "zhCN": "普尔符文",
+    "zhTW": "普爾符文"
   },
   {
     "id": 40098,
     "Key": "r72",
-    "deDE": "Um Rune",
+    "deDE": "Eine Rune",
     "enUS": "Um Rune",
-    "esES": "Um Runa",
-    "esMX": "Um Runa",
-    "frFR": "Um Rune",
-    "itIT": "Um Runa",
-    "jaJP": "Um ルーン",
-    "koKR": "Um 룬",
-    "plPL": "Um Runa",
-    "ptBR": "Um Runa",
-    "ruRU": "Um Руна",
-    "zhCN": "Um 符文",
-    "zhTW": "Um 符文"
+    "esES": "una runa",
+    "esMX": "una runa",
+    "frFR": "Une rune",
+    "itIT": "Una runa",
+    "jaJP": "ルーン",
+    "koKR": "룬",
+    "plPL": "Runa",
+    "ptBR": "Um Rune",
+    "ruRU": "Um Rune",
+    "zhCN": "符文",
+    "zhTW": "符文"
   },
   {
     "id": 40100,
     "Key": "r74",
     "deDE": "Ist Rune",
     "enUS": "Ist Rune",
-    "esES": "Ist Runa",
-    "esMX": "Ist Runa",
-    "frFR": "Ist Rune",
-    "itIT": "Ist Runa",
-    "jaJP": "Ist ルーン",
-    "koKR": "Ist 룬",
-    "plPL": "Ist Runa",
-    "ptBR": "Ist Runa",
-    "ruRU": "Ist Руна",
-    "zhCN": "Ist 符文",
-    "zhTW": "Ist 符文"
+    "esES": "es runa",
+    "esMX": "es runa",
+    "frFR": "Est une rune",
+    "itIT": "È runa",
+    "jaJP": "ルーンです",
+    "koKR": "룬인가",
+    "plPL": "Jest runą",
+    "ptBR": "É runa",
+    "ruRU": "Ist Rune",
+    "zhCN": "是符文",
+    "zhTW": "是符文"
   },
   {
     "id": 40101,
     "Key": "r75",
-    "deDE": "Gul Rune",
+    "deDE": "Gelbe Rune",
     "enUS": "Gul Rune",
-    "esES": "Gul Runa",
-    "esMX": "Gul Runa",
-    "frFR": "Gul Rune",
-    "itIT": "Gul Runa",
-    "jaJP": "Gul ルーン",
-    "koKR": "Gul 룬",
-    "plPL": "Gul Runa",
-    "ptBR": "Gul Runa",
-    "ruRU": "Gul Руна",
-    "zhCN": "Gul 符文",
-    "zhTW": "Gul 符文"
+    "esES": "Runa amarilla",
+    "esMX": "Runa amarilla",
+    "frFR": "Rune jaune",
+    "itIT": "Runa Gialla",
+    "jaJP": "黄色のルーン",
+    "koKR": "노란 룬",
+    "plPL": "Żółta Runa",
+    "ptBR": "Runa Amarela",
+    "ruRU": "Gul Rune",
+    "zhCN": "黄色符文",
+    "zhTW": "黃色符文"
   },
   {
     "id": 40102,
     "Key": "r76",
-    "deDE": "Vex Rune",
+    "deDE": "Vex-Rune",
     "enUS": "Vex Rune",
-    "esES": "Vex Runa",
-    "esMX": "Vex Runa",
-    "frFR": "Vex Rune",
-    "itIT": "Vex Runa",
-    "jaJP": "Vex ルーン",
-    "koKR": "Vex 룬",
-    "plPL": "Vex Runa",
-    "ptBR": "Vex Runa",
-    "ruRU": "Vex Руна",
-    "zhCN": "Vex 符文",
-    "zhTW": "Vex 符文"
+    "esES": "Runa vex",
+    "esMX": "Runa vex",
+    "frFR": "Rune Vex",
+    "itIT": "Runa vex",
+    "jaJP": "ヴェックスのルーン",
+    "koKR": "벡스 룬",
+    "plPL": "Runa Wściekłości",
+    "ptBR": "Runa Vex",
+    "ruRU": "Vex Rune",
+    "zhCN": "威克斯符文",
+    "zhTW": "威克斯符文"
   },
   {
     "id": 40103,
     "Key": "r77",
-    "deDE": "Ohm Rune",
+    "deDE": "Ohm-Rune",
     "enUS": "Ohm Rune",
-    "esES": "Ohm Runa",
-    "esMX": "Ohm Runa",
-    "frFR": "Ohm Rune",
+    "esES": "Runa Ohm",
+    "esMX": "Runa Ohm",
+    "frFR": "Rune Ohm",
     "itIT": "Ohm Runa",
-    "jaJP": "Ohm ルーン",
-    "koKR": "Ohm 룬",
-    "plPL": "Ohm Runa",
-    "ptBR": "Ohm Runa",
-    "ruRU": "Ohm Руна",
-    "zhCN": "Ohm 符文",
-    "zhTW": "Ohm 符文"
+    "jaJP": "オーム・ルーン",
+    "koKR": "옴 룬",
+    "plPL": "Runa Ohma",
+    "ptBR": "Runa Ohm",
+    "ruRU": "Ohm Rune",
+    "zhCN": "欧姆符文",
+    "zhTW": "歐姆符文"
   },
   {
     "id": 40104,
@@ -8711,82 +8711,99 @@
     "esES": "Lo Runa",
     "esMX": "Lo Runa",
     "frFR": "Lo Rune",
-    "itIT": "Lo Runa",
-    "jaJP": "Lo ルーン",
-    "koKR": "Lo 룬",
-    "plPL": "Lo Runa",
-    "ptBR": "Lo Runa",
-    "ruRU": "Lo Руна",
-    "zhCN": "Lo 符文",
-    "zhTW": "Lo 符文"
+    "itIT": "Lo Rune",
+    "jaJP": "ロ・ルーン",
+    "koKR": "로 룬",
+    "plPL": "Lo Rune",
+    "ptBR": "Runa Lo",
+    "ruRU": "Lo Rune",
+    "zhCN": "洛符文",
+    "zhTW": "洛符文"
   },
   {
     "id": 40105,
     "Key": "r79",
-    "deDE": "Sur Rune",
+    "deDE": "Auf Rune",
     "enUS": "Sur Rune",
-    "esES": "Sur Runa",
-    "esMX": "Sur Runa",
+    "esES": "En runa",
+    "esMX": "En runa",
     "frFR": "Sur Rune",
-    "itIT": "Sur Runa",
-    "jaJP": "Sur ルーン",
-    "koKR": "Sur 룬",
-    "plPL": "Sur Runa",
-    "ptBR": "Sur Runa",
-    "ruRU": "Sur Руна",
-    "zhCN": "Sur 符文",
-    "zhTW": "Sur 符文"
+    "itIT": "Sulla runa",
+    "jaJP": "ルーンについて",
+    "koKR": "룬에",
+    "plPL": "Na Runie",
+    "ptBR": "Na runa",
+    "ruRU": "Sur Rune",
+    "zhCN": "关于符文",
+    "zhTW": "關於符文"
   },
   {
     "id": 40106,
     "Key": "r80",
     "deDE": "Ber Rune",
     "enUS": "Ber Rune",
-    "esES": "Ber Runa",
-    "esMX": "Ber Runa",
-    "frFR": "Ber Rune",
-    "itIT": "Ber Runa",
-    "jaJP": "Ber ルーン",
-    "koKR": "Ber 룬",
-    "plPL": "Ber Runa",
-    "ptBR": "Ber Runa",
-    "ruRU": "Ber Руна",
-    "zhCN": "Ber 符文",
-    "zhTW": "Ber 符文"
+    "esES": "Runa Ber",
+    "esMX": "Runa Ber",
+    "frFR": "Rune de Ber",
+    "itIT": "Ber Rune",
+    "jaJP": "ベル・ルーン",
+    "koKR": "베르 룬",
+    "plPL": "Runa Bera",
+    "ptBR": "Runa Ber",
+    "ruRU": "Ber Rune",
+    "zhCN": "伯鲁尼",
+    "zhTW": "貝魯尼"
   },
   {
     "id": 40107,
     "Key": "r81",
     "deDE": "Jah Rune",
     "enUS": "Jah Rune",
-    "esES": "Jah Runa",
-    "esMX": "Jah Runa",
-    "frFR": "Jah Rune",
-    "itIT": "Jah Runa",
-    "jaJP": "Jah ルーン",
-    "koKR": "Jah 룬",
-    "plPL": "Jah Runa",
-    "ptBR": "Jah Runa",
-    "ruRU": "Jah Руна",
-    "zhCN": "Jah 符文",
-    "zhTW": "Jah 符文"
+    "esES": "runa jah",
+    "esMX": "runa jah",
+    "frFR": "Rune de Jah",
+    "itIT": "Runa Jah",
+    "jaJP": "ジャールーン",
+    "koKR": "자 룬",
+    "plPL": "Jah runa",
+    "ptBR": "Runa Jah",
+    "ruRU": "Jah Rune",
+    "zhCN": "贾赫符文",
+    "zhTW": "賈赫符文"
   },
   {
     "id": 40108,
     "Key": "r82",
-    "deDE": "Cham Rune",
+    "deDE": "Cham-Rune",
     "enUS": "Cham Rune",
-    "esES": "Cham Runa",
-    "esMX": "Cham Runa",
-    "frFR": "Cham Rune",
-    "itIT": "Cham Runa",
-    "jaJP": "Cham ルーン",
-    "koKR": "Cham 룬",
-    "plPL": "Cham Runa",
-    "ptBR": "Cham Runa",
-    "ruRU": "Cham Руна",
-    "zhCN": "Cham 符文",
-    "zhTW": "Cham 符文"
+    "esES": "Runa Cham",
+    "esMX": "Runa Cham",
+    "frFR": "Rune Cham",
+    "itIT": "Runa Cham",
+    "jaJP": "チャム・ルーン",
+    "koKR": "참룬",
+    "plPL": "Cham Rune",
+    "ptBR": "Runa Cham",
+    "ruRU": "Cham Rune",
+    "zhCN": "占符文",
+    "zhTW": "佔符文"
+  },
+  {
+    "id": 61565,
+    "Key": "25b",
+    "enUS": "Ethereal Unique Item of the Same Type\n->\n(this scroll)\nElite Unique Weapon/Armor +3 Unique Jewels + Su Rune\nExceptional Elite Unique Weapon/Armor +2 Unique Jewels + Ma Rune\nNormal Unique Weapon/Armor + Unique Jewel + Ho Rune",
+    "zhTW": "同類型的空靈獨特物品\n->\n（這捲軸）\n菁英獨特武器/盔甲 +3 獨特珠寶 + 蘇符文\n卓越菁英獨特武器/盔甲 +2 獨特珠寶 + 馬符文\n普通獨特武器/盔甲 + 獨特寶石 + Ho Rune",
+    "deDE": "Ätherischer einzigartiger Gegenstand desselben Typs\n->\n(diese Schriftrolle)\nEinzigartige Elite-Waffe/Rüstung +3 einzigartige Juwelen + Su-Rune\nAußergewöhnliche einzigartige Elite-Waffe/Rüstung +2 einzigartige Juwelen + Ma-Rune\nNormale einzigartige Waffe/Rüstung + einzigartiges Juwel + Ho-Rune",
+    "esES": "Objeto único etéreo del mismo tipo\n->\n(este pergamino)\nArma/armadura única de élite +3 joyas únicas + Runa Su\nArma/armadura única de élite excepcional +2 joyas únicas + Runa Ma\nArma/Armadura Única Normal + Joya Única + Runa Ho",
+    "frFR": "Objet unique éthéré du même type\n->\n(ce parchemin)\nArme/armure unique d'élite +3 joyaux uniques + Su Rune\nArme/armure unique d'élite exceptionnelle +2 joyaux uniques + Ma Rune\nArme/armure unique normale + Joyau unique + Rune Ho",
+    "itIT": "Oggetto unico etereo dello stesso tipo\n->\n(questo rotolo)\nArma/armatura unica d'élite +3 gioielli unici + Runa Su\nArma/armatura unica eccezionale d'élite +2 gioielli unici + Runa Ma\nArma/armatura unica normale + Gioiello unico + Runa Ho",
+    "koKR": "동일한 유형의 천상의 고유 아이템\n->\n(이 두루마리)\n엘리트 고유 무기/방어구 +3개의 고유 보석 + 수 룬\n익셉셔널 엘리트 고유 무기/방어구 +2 고유 보석 + 마 룬\n일반 고유 무기/방어구 + 고유 보석 + 호 룬",
+    "plPL": "Eteryczny, unikalny przedmiot tego samego typu\n->\n(ten zwój)\nElitarna unikalna broń/zbroja +3 unikalne klejnoty + Rune Su\nWyjątkowa elitarna unikalna broń/zbroja +2 unikalne klejnoty + Runa Ma\nNormalna Unikalna Broń/Zbroja + Unikalny Klejnot + Runa Ho",
+    "esMX": "Objeto único etéreo del mismo tipo\n->\n(este pergamino)\nArma/armadura única de élite +3 joyas únicas + Runa Su\nArma/armadura única de élite excepcional +2 joyas únicas + Runa Ma\nArma/Armadura Única Normal + Joya Única + Runa Ho",
+    "jaJP": "同じタイプのエーテルのユニークなアイテム\n->\n（この巻物）\nエリートユニーク武器/防具 + 3 ユニークジュエル + スルーン\n例外的なエリートのユニークな武器/防具 + 2 つのユニークな宝石 + マ ルーン\n通常ユニーク武器/防具 + ユニークジュエル + ホルーン",
+    "ptBR": "Item Etéreo Único do Mesmo Tipo\n->\n(este pergaminho)\nArma/Armadura Única de Elite +3 Jóias Únicas + Runa Su\nArma/Armadura Única de Elite Excepcional +2 Joias Únicas + Runa Ma\nArma/Armadura Única Normal + Jóia Única + Runa Ho",
+    "ruRU": "Ethereal Unique Item of the Same Type\n->\n(this scroll)\nElite Unique Weapon/Armor +3 Unique Jewels + Su Rune\nExceptional Elite Unique Weapon/Armor +2 Unique Jewels + Ma Rune\nNormal Unique Weapon/Armor + Unique Jewel + Ho Rune",
+    "zhCN": "同类型的空灵独特物品\n->\n（这卷轴）\n精英独特武器/盔甲 +3 独特珠宝 + 苏符文\n卓越精英独特武器/盔甲 +2 独特珠宝 + 马符文\n普通独特武器/盔甲 + 独特宝石 + Ho Rune"
   },
   {
     "id": 63769,
@@ -8797,319 +8814,319 @@
     "esES": "ÿc;Runa nula",
     "frFR": "ÿc;Rune nulle",
     "itIT": "ÿc;Runa nulla",
-    "koKR": "ÿc;무효 룬",
+    "koKR": "ÿc;널 룬",
     "plPL": "ÿc;Runa zerowa",
     "esMX": "ÿc;Runa nula",
-    "jaJP": "ÿc;ヌル ルーン",
-    "ptBR": "ÿc; Runa Nula",
-    "ruRU": "ÿc;Нулевая руна",
+    "jaJP": "ÿc;ヌルルーン",
+    "ptBR": "ÿc;Runa Nula",
+    "ruRU": "ÿc;Null Rune",
     "zhCN": "ÿc;空符文"
   },
   {
     "id": 46782,
     "Key": "r84",
     "enUS": "ÿcNMoon Rune",
-    "zhTW": "ÿcNMoon 符文",
-    "deDE": "ÿcNMoon Rune",
-    "esES": "ÿcNMruna de la tarde",
-    "frFR": "ÿcNMoon Rune",
-    "itIT": "ÿcNMoon Runa",
-    "koKR": "ÿcNMoon 룬",
-    "plPL": "ÿcNMRunun",
-    "esMX": "ÿcNMruna de la tarde",
-    "jaJP": "ÿcNMoon ルーン",
-    "ptBR": "Runa ÿcNMoon",
-    "ruRU": "ÿcNMoon Руна",
-    "zhCN": "ÿcNMoon 符文"
+    "zhTW": "ÿcN月亮符文",
+    "deDE": "ÿcNMondrune",
+    "esES": "ÿcNRuna Lunar",
+    "frFR": "ÿcNRune de lune",
+    "itIT": "ÿcNRuna della Luna",
+    "koKR": "ÿcN달의 룬",
+    "plPL": "ÿcNRuna Księżyca",
+    "esMX": "ÿcNRuna Lunar",
+    "jaJP": "ÿcNムーンルーン",
+    "ptBR": "ÿcNRuna da Lua",
+    "ruRU": "ÿcNMoon Rune",
+    "zhCN": "ÿcN月亮符文"
   },
   {
     "id": 46783,
     "Key": "r85",
     "enUS": "ÿcNFire Rune",
-    "zhTW": "ÿcNF憤怒符文",
-    "deDE": "ÿcNFIre-Rune",
-    "esES": "ÿcNFRuna de ira",
-    "frFR": "Rune ÿcNFire",
-    "itIT": "ÿcNFRuna del fuoco",
-    "koKR": "ÿcNFire 룬",
-    "plPL": "ÿcNFire Runa",
-    "esMX": "ÿcNFRuna de ira",
-    "jaJP": "ÿcNFire ルーン",
-    "ptBR": "ÿcNFRuna de fogo",
-    "ruRU": "ÿcNFОгненная руна",
-    "zhCN": "ÿcNF愤怒符文"
+    "zhTW": "ÿcN火符文",
+    "deDE": "ÿcNFeuerrune",
+    "esES": "ÿcNRuna de fuego",
+    "frFR": "ÿcNRune de Feu",
+    "itIT": "ÿcNRuna del fuoco",
+    "koKR": "ÿcN불의 룬",
+    "plPL": "ÿcNRuna Ognia",
+    "esMX": "ÿcNRuna de fuego",
+    "jaJP": "ÿcNファイアルーン",
+    "ptBR": "ÿcNRuna de Fogo",
+    "ruRU": "ÿcNFire Rune",
+    "zhCN": "ÿcN火符文"
   },
   {
     "id": 46784,
     "Key": "r86",
     "enUS": "ÿcNWater Rune",
-    "zhTW": "ÿcNWater 符文",
-    "deDE": "ÿcNWater Rune",
-    "esES": "ÿcNWRuna de agua",
-    "frFR": "ÿcNWRune d'eau",
-    "itIT": "ÿcNWRuna dell'acqua",
-    "koKR": "ÿcNWater 룬",
-    "plPL": "ÿcNWater Runa",
-    "esMX": "ÿcNWRuna de agua",
-    "jaJP": "ÿcNW後のルーン",
-    "ptBR": "Runa ÿcNWater",
-    "ruRU": "ÿcNWатер Руна",
-    "zhCN": "ÿcNWater 符文"
+    "zhTW": "ÿcN水符",
+    "deDE": "ÿcNWasserrune",
+    "esES": "ÿcNRuna de agua",
+    "frFR": "ÿcNRune d'eau",
+    "itIT": "ÿcNRuna dell'Acqua",
+    "koKR": "ÿcN물의 룬",
+    "plPL": "ÿcNRuna Wody",
+    "esMX": "ÿcNRuna de agua",
+    "jaJP": "ÿcNウォータールーン",
+    "ptBR": "ÿcNRuna da Água",
+    "ruRU": "ÿcNWater Rune",
+    "zhCN": "ÿcN水符"
   },
   {
     "id": 46785,
     "Key": "r87",
     "enUS": "ÿcNWood Rune",
-    "zhTW": "ÿcNW好符文",
-    "deDE": "ÿcNWood Rune",
-    "esES": "ÿcNWRuna buena",
-    "frFR": "ÿcNWbonne Rune",
-    "itIT": "ÿcNWbuona runa",
-    "koKR": "ÿcNWood 룬",
-    "plPL": "ÿcNWdobra runa",
-    "esMX": "ÿcNWRuna buena",
-    "jaJP": "ÿcNWウッドルーン",
-    "ptBR": "ÿcNWboa Runa",
-    "ruRU": "ÿcNWпищевая руна",
-    "zhCN": "ÿcNW好符文"
+    "zhTW": "ÿcN木符文",
+    "deDE": "ÿcNHolzrune",
+    "esES": "ÿcNRuna de madera",
+    "frFR": "ÿcNRune de bois",
+    "itIT": "ÿcNRuna del legno",
+    "koKR": "ÿcN나무 룬",
+    "plPL": "ÿcNRuna Drewna",
+    "esMX": "ÿcNRuna de madera",
+    "jaJP": "ÿcNウッドルーン",
+    "ptBR": "ÿcNRuna de Madeira",
+    "ruRU": "ÿcNWood Rune",
+    "zhCN": "ÿcN木符文"
   },
   {
     "id": 46786,
     "Key": "r88",
     "enUS": "ÿcNMetal Rune",
-    "zhTW": "ÿcNM等符文",
-    "deDE": "ÿcNMetal Rune",
-    "esES": "ÿcNMRuna metálica",
-    "frFR": "ÿcNMRune étale",
-    "itIT": "ÿcNMRuna etale",
-    "koKR": "ÿcNM에탈 룬",
-    "plPL": "ÿcNMmetalowa runa",
-    "esMX": "ÿcNMRuna metálica",
-    "jaJP": "ÿcNMエタル ルーン",
-    "ptBR": "ÿcNMRuna etal",
-    "ruRU": "ÿcNMэтальная руна",
-    "zhCN": "ÿcNM等符文"
+    "zhTW": "ÿcN金屬符文",
+    "deDE": "ÿcNMetallrune",
+    "esES": "ÿcNRuna Metálica",
+    "frFR": "ÿcNRune en métal",
+    "itIT": "ÿcNRuna di metallo",
+    "koKR": "ÿcN금속 룬",
+    "plPL": "ÿcNRuna Metalu",
+    "esMX": "ÿcNRuna Metálica",
+    "jaJP": "ÿcNメタルルーン",
+    "ptBR": "ÿcNRuna Metálica",
+    "ruRU": "ÿcNMetal Rune",
+    "zhCN": "ÿcN金属符文"
   },
   {
     "id": 46787,
     "Key": "r89",
     "enUS": "ÿcNEarth Rune",
-    "zhTW": "ÿcNE大地符文",
-    "deDE": "ÿcNEarth Rune",
-    "esES": "ÿcNERuna de la Tierra",
-    "frFR": "ÿcNERune de la Terre",
-    "itIT": "ÿcNEruna della terra",
-    "koKR": "ÿcNEarth 룬",
-    "plPL": "ÿcNERuna Artha",
-    "esMX": "ÿcNERuna de la Tierra",
-    "jaJP": "ÿcNEarth ルーン",
-    "ptBR": "ÿcNERuna Arth",
-    "ruRU": "ÿcNEАрт Руна",
-    "zhCN": "ÿcNE大地符文"
+    "zhTW": "ÿcN大地符文",
+    "deDE": "ÿcNErdrune",
+    "esES": "ÿcNRuna de la Tierra",
+    "frFR": "ÿcNRune de Terre",
+    "itIT": "ÿcNRuna della Terra",
+    "koKR": "ÿcN대지의 룬",
+    "plPL": "ÿcNRuna Ziemi",
+    "esMX": "ÿcNRuna de la Tierra",
+    "jaJP": "ÿcNアースルーン",
+    "ptBR": "ÿcNRuna da Terra",
+    "ruRU": "ÿcNEarth Rune",
+    "zhCN": "ÿcN大地符文"
   },
   {
     "id": 46788,
     "Key": "r90",
     "enUS": "ÿcNSun Rune",
-    "zhTW": "ÿcNSa 符文",
-    "deDE": "ÿcNSa Rune",
-    "esES": "ÿcNSa Runa",
-    "frFR": "ÿcNSune rune",
-    "itIT": "ÿcNSuna runa",
-    "koKR": "ÿcNSa 룬",
-    "plPL": "ÿcNSa Runa",
-    "esMX": "ÿcNSa Runa",
-    "jaJP": "ÿcNSa ルーン",
-    "ptBR": "ÿcNSa Runa",
-    "ruRU": "ÿcNSруна",
-    "zhCN": "ÿcNSa 符文"
+    "zhTW": "ÿcN太陽符文",
+    "deDE": "ÿcNSonnenrune",
+    "esES": "ÿcNRuna del Sol",
+    "frFR": "ÿcNRune solaire",
+    "itIT": "ÿcNRuna del Sole",
+    "koKR": "ÿcN태양의 룬",
+    "plPL": "ÿcNRuna Słońca",
+    "esMX": "ÿcNRuna del Sol",
+    "jaJP": "ÿcNサンルーン",
+    "ptBR": "ÿcNRuna do Sol",
+    "ruRU": "ÿcNSun Rune",
+    "zhCN": "ÿcN太阳符文"
   },
   {
     "id": 46789,
     "Key": "r91",
     "enUS": "ÿcNThunder Rune",
-    "zhTW": "ÿcNT狗符文",
-    "deDE": "ÿcNTdogs Rune",
-    "esES": "ÿcNTperros Runa",
-    "frFR": "ÿcNTdogs Rune",
-    "itIT": "ÿcNTRuna dei cani",
-    "koKR": "ÿcNTdogs 룬",
-    "plPL": "Runa ÿcNTpsów",
-    "esMX": "ÿcNTperros Runa",
-    "jaJP": "ÿcNT犬のルーン",
-    "ptBR": "ÿcNTRuna de cães",
-    "ruRU": "ÿcNTсобаки Руна",
-    "zhCN": "ÿcNT狗符文"
+    "zhTW": "ÿcN雷霆符文",
+    "deDE": "ÿcNDonnerrune",
+    "esES": "ÿcNRuna del trueno",
+    "frFR": "ÿcNRune du tonnerre",
+    "itIT": "ÿcNRuna del tuono",
+    "koKR": "ÿcN천둥의 룬",
+    "plPL": "ÿcNRuna Gromu",
+    "esMX": "ÿcNRuna del trueno",
+    "jaJP": "ÿcNサンダールーン",
+    "ptBR": "ÿcNRuna do Trovão",
+    "ruRU": "ÿcNThunder Rune",
+    "zhCN": "ÿcN雷霆符文"
   },
   {
     "id": 46790,
     "Key": "r92",
     "enUS": "ÿcNWind Rune",
-    "zhTW": "ÿcNWind 符文",
-    "deDE": "ÿcNWind Rune",
-    "esES": "ÿcNWind Runa",
-    "frFR": "ÿcNWind Rune",
-    "itIT": "ÿcNWind Runa",
-    "koKR": "ÿcNWind 룬",
-    "plPL": "ÿcNWind Runa",
-    "esMX": "ÿcNWind Runa",
-    "jaJP": "ÿcNWインドのルーン",
-    "ptBR": "ÿcNWind Runa",
-    "ruRU": "ÿcNWиндовая руна",
-    "zhCN": "ÿcNWind 符文"
+    "zhTW": "ÿcN風符文",
+    "deDE": "ÿcNWindrune",
+    "esES": "ÿcNRuna de viento",
+    "frFR": "ÿcNRune du vent",
+    "itIT": "ÿcNRuna del vento",
+    "koKR": "ÿcN바람의 룬",
+    "plPL": "ÿcNRuna Wiatru",
+    "esMX": "ÿcNRuna de viento",
+    "jaJP": "ÿcNウィンドルーン",
+    "ptBR": "ÿcNRuna do Vento",
+    "ruRU": "ÿcNWind Rune",
+    "zhCN": "ÿcN风符文"
   },
   {
     "id": 46792,
     "Key": "r94",
     "enUS": "ÿcNLife Rune",
-    "zhTW": "ÿcNLife 符文",
-    "deDE": "ÿcNLife Rune",
-    "esES": "ÿcNLRuna de vida",
-    "frFR": "ÿcNLRune de vie",
-    "itIT": "ÿcNLRuna della vita",
-    "koKR": "ÿcNLife 룬",
-    "plPL": "ÿcNLife Runa",
-    "esMX": "ÿcNLRuna de vida",
-    "jaJP": "ÿcNLife ルーン",
-    "ptBR": "ÿcNLRuna da vida",
-    "ruRU": "ÿcNLруна жизни",
-    "zhCN": "ÿcNLife 符文"
+    "zhTW": "ÿcN生命符文",
+    "deDE": "ÿcNLebensrune",
+    "esES": "ÿcNRuna de vida",
+    "frFR": "ÿcNRune de vie",
+    "itIT": "ÿcNRuna della vita",
+    "koKR": "ÿcN생명의 룬",
+    "plPL": "ÿcNRuna Życia",
+    "esMX": "ÿcNRuna de vida",
+    "jaJP": "ÿcNライフルーン",
+    "ptBR": "ÿcNRuna da Vida",
+    "ruRU": "ÿcNLife Rune",
+    "zhCN": "ÿcN生命符文"
   },
   {
     "id": 46793,
     "Key": "r95",
     "enUS": "ÿcNDeath Rune",
-    "zhTW": "ÿcND死亡符文",
-    "deDE": "ÿcNDeath Rune",
-    "esES": "ÿcNDRuna de muerte",
-    "frFR": "ÿcNDRune de la mort",
-    "itIT": "ÿcNDRuna della morte",
-    "koKR": "ÿcND죽음의 룬",
-    "plPL": "ÿcNDRuna śmierci",
-    "esMX": "ÿcNDRuna de muerte",
-    "jaJP": "ÿcNDアースルーン",
-    "ptBR": "ÿcNDRuna de morte",
-    "ruRU": "ÿcNDРуна смерти",
-    "zhCN": "ÿcND死亡符文"
+    "zhTW": "ÿcN死亡符文",
+    "deDE": "ÿcNTodesrune",
+    "esES": "ÿcNRuna de la muerte",
+    "frFR": "ÿcNRune de la mort",
+    "itIT": "ÿcNRuna della morte",
+    "koKR": "ÿcN죽음의 룬",
+    "plPL": "ÿcNRuna Śmierci",
+    "esMX": "ÿcNRuna de la muerte",
+    "jaJP": "ÿcNデスルーン",
+    "ptBR": "ÿcNRuna da Morte",
+    "ruRU": "ÿcNDeath Rune",
+    "zhCN": "ÿcN死亡符文"
   },
   {
     "id": 46794,
     "Key": "r96",
     "enUS": "ÿcNHeaven Rune",
-    "zhTW": "ÿcNH甚至符文",
-    "deDE": "ÿcNHeven Rune",
-    "esES": "ÿcNHruna par",
-    "frFR": "ÿcNHmême Rune",
-    "itIT": "ÿcNHanche Runa",
-    "koKR": "ÿcNH심지어 룬",
-    "plPL": "ÿcNHnawet Runa",
-    "esMX": "ÿcNHruna par",
-    "jaJP": "ÿcNHルーンさえ",
-    "ptBR": "ÿcNHRuna par",
-    "ruRU": "ÿcNHэвен Руна",
-    "zhCN": "ÿcNH甚至符文"
+    "zhTW": "ÿcN天符",
+    "deDE": "ÿcNHimmelsrune",
+    "esES": "ÿcNRuna del cielo",
+    "frFR": "ÿcNRune du Ciel",
+    "itIT": "ÿcNRuna del Cielo",
+    "koKR": "ÿcN천국의 룬",
+    "plPL": "ÿcNRuna Nieba",
+    "esMX": "ÿcNRuna del cielo",
+    "jaJP": "ÿcNヘブンルーン",
+    "ptBR": "ÿcNRuna do Céu",
+    "ruRU": "ÿcNHeaven Rune",
+    "zhCN": "ÿcN天符"
   },
   {
     "id": 46795,
     "Key": "r97",
     "enUS": "ÿcNGod Rune",
-    "zhTW": "ÿcNG來自符文",
-    "deDE": "ÿcNGvon Rune",
-    "esES": "ÿcNGde Runa",
-    "frFR": "ÿcNGde Rune",
-    "itIT": "ÿcNGdalla runa",
-    "koKR": "ÿcNG룬에서",
-    "plPL": "ÿcNGod Rune",
-    "esMX": "ÿcNGde Runa",
-    "jaJP": "ÿcNGルーンより",
-    "ptBR": "ÿcNGda Runa",
-    "ruRU": "ÿcNGиз Руны",
-    "zhCN": "ÿcNG来自符文"
+    "zhTW": "ÿcN神符",
+    "deDE": "ÿcNGott Rune",
+    "esES": "ÿcNruna de dios",
+    "frFR": "ÿcNRune de Dieu",
+    "itIT": "ÿcNDio Rune",
+    "koKR": "ÿcN신의 룬",
+    "plPL": "ÿcNRuna Boga",
+    "esMX": "ÿcNruna de dios",
+    "jaJP": "ÿcNゴッドルーン",
+    "ptBR": "ÿcNRuna de Deus",
+    "ruRU": "ÿcNGod Rune",
+    "zhCN": "ÿcN神符"
   },
   {
     "id": 40024,
     "Key": "r43",
-    "deDE": "ÿc;Su Rune",
+    "deDE": "ÿc;Su Runen",
     "enUS": "ÿc;Su Rune",
-    "esES": "ÿc;Su Runa",
-    "esMX": "ÿc;Su Runa",
+    "esES": "ÿc;Su Runas",
+    "esMX": "ÿc;Su Runas",
     "frFR": "ÿc;Su Runes",
-    "itIT": "ÿc;Su Runa",
+    "itIT": "ÿc;Su Rune",
     "jaJP": "ÿc;Su ルーン",
     "koKR": "ÿc;Su 룬",
-    "plPL": "ÿc;Su Runa",
-    "ptBR": "ÿc;Su Runa",
-    "ruRU": "ÿc;Su Руна",
-    "zhCN": "ÿc;Su 符文",
-    "zhTW": "ÿc;Su 符文"
+    "plPL": "ÿc;Su Runes",
+    "ptBR": "ÿc;Su Runas",
+    "ruRU": "ÿc;Su Rune",
+    "zhCN": "ÿc;苏符文",
+    "zhTW": "ÿc;蘇符文"
   },
   {
     "id": 40079,
     "Key": "r53",
-    "deDE": "Tir Rune",
+    "deDE": "Tir-Rune",
     "enUS": "Tir Rune",
-    "esES": "Tir Runa",
-    "esMX": "Tir Runa",
-    "frFR": "Tir Rune",
-    "itIT": "Tir Runa",
-    "jaJP": "Tir ルーン",
-    "koKR": "Tir 룬",
-    "plPL": "Tir Runa",
-    "ptBR": "Tir Runa",
-    "ruRU": "Tir Руна",
-    "zhCN": "Tir 符文",
-    "zhTW": "Tir 符文"
+    "esES": "Runa Tir",
+    "esMX": "Runa Tir",
+    "frFR": "Rune de Tir",
+    "itIT": "Runa Tir",
+    "jaJP": "ティル・ルーン",
+    "koKR": "티르 룬",
+    "plPL": "Runa Tir",
+    "ptBR": "Runa Tir",
+    "ruRU": "Tir Rune",
+    "zhCN": "提尔鲁恩",
+    "zhTW": "提爾魯恩"
   },
   {
     "id": 40089,
     "Key": "r63",
     "deDE": "Shael Rune",
     "enUS": "Shael Rune",
-    "esES": "Shael Runa",
-    "esMX": "Shael Runa",
-    "frFR": "Shael Rune",
-    "itIT": "Shael Runa",
-    "jaJP": "Shael ルーン",
-    "koKR": "Shael 룬",
-    "plPL": "Shael Runa",
-    "ptBR": "Shael Runa",
-    "ruRU": "Shael Руна",
-    "zhCN": "Shael 符文",
-    "zhTW": "Shael 符文"
+    "esES": "Runa Shael",
+    "esMX": "Runa Shael",
+    "frFR": "Rune de Shael",
+    "itIT": "Runa Shael",
+    "jaJP": "シャエル・ルーン",
+    "koKR": "샤엘 룬",
+    "plPL": "Shaela Runa",
+    "ptBR": "Runa Shael",
+    "ruRU": "Shael Rune",
+    "zhCN": "沙尔·鲁恩",
+    "zhTW": "沙爾·魯恩"
   },
   {
     "id": 40099,
     "Key": "r73",
     "deDE": "Mal Rune",
     "enUS": "Mal Rune",
-    "esES": "Mal Runa",
-    "esMX": "Mal Runa",
-    "frFR": "Mal Rune",
-    "itIT": "Mal Runa",
-    "jaJP": "Mal ルーン",
-    "koKR": "Mal 룬",
-    "plPL": "Mal Runa",
-    "ptBR": "Mal Runa",
-    "ruRU": "Mal Руна",
-    "zhCN": "Mal 符文",
-    "zhTW": "Mal 符文"
+    "esES": "Runa Mal",
+    "esMX": "Runa Mal",
+    "frFR": "Rune Mal",
+    "itIT": "Runa Mal",
+    "jaJP": "マル・ルーン",
+    "koKR": "말 룬",
+    "plPL": "Mala Rune’a",
+    "ptBR": "Runa Mal",
+    "ruRU": "Mal Rune",
+    "zhCN": "马尔符文",
+    "zhTW": "馬爾符文"
   },
   {
     "id": 40109,
     "Key": "r83",
-    "deDE": "Zod Rune",
+    "deDE": "Zod-Rune",
     "enUS": "Zod Rune",
-    "esES": "Zod Runa",
-    "esMX": "Zod Runa",
-    "frFR": "Zod Rune",
-    "itIT": "Zod Runa",
-    "jaJP": "Zod ルーン",
-    "koKR": "Zod 룬",
-    "plPL": "Zod Runa",
-    "ptBR": "Zod Runa",
-    "ruRU": "Zod Руна",
-    "zhCN": "Zod 符文",
-    "zhTW": "Zod 符文"
+    "esES": "Runa Zod",
+    "esMX": "Runa Zod",
+    "frFR": "Rune Zod",
+    "itIT": "Runa Zod",
+    "jaJP": "ゾッドルーン",
+    "koKR": "조드 룬",
+    "plPL": "Runa Zoda",
+    "ptBR": "Runa Zod",
+    "ruRU": "Zod Rune",
+    "zhCN": "佐德符文",
+    "zhTW": "佐德符文"
   },
   {
     "id": 41000,
@@ -9125,93 +9142,93 @@
     "esMX": "Fénix",
     "jaJP": "フェニックス",
     "ptBR": "Fênix",
-    "ruRU": "Финикс",
+    "ruRU": "Phoenix",
     "zhCN": "凤凰"
   },
   {
     "id": 41001,
     "Key": "Runeword993",
     "enUS": "Bulwark",
-    "zhTW": "堡壘",
+    "zhTW": "壁壘",
     "deDE": "Bollwerk",
     "esES": "Baluarte",
     "frFR": "Rempart",
-    "itIT": "Murata",
-    "koKR": "성채",
+    "itIT": "Baluardo",
+    "koKR": "보루",
     "plPL": "Bastion",
     "esMX": "Baluarte",
-    "jaJP": "ブルワーク",
+    "jaJP": "防塁",
     "ptBR": "Baluarte",
-    "ruRU": "оплот",
-    "zhCN": "堡垒"
+    "ruRU": "Оплот",
+    "zhCN": "壁垒"
   },
   {
     "id": 41002,
     "Key": "Runeword994",
     "enUS": "Cure",
-    "zhTW": "治愈",
+    "zhTW": "治癒",
     "deDE": "Heilung",
-    "esES": "Curar",
-    "frFR": "Guérir",
+    "esES": "Cura",
+    "frFR": "Guérison",
     "itIT": "Cura",
-    "koKR": "치유법",
-    "plPL": "Wyleczyć",
-    "esMX": "Curar",
-    "jaJP": "治す",
+    "koKR": "치유",
+    "plPL": "Uleczenie",
+    "esMX": "Cura",
+    "jaJP": "治療",
     "ptBR": "Cura",
-    "ruRU": "Излечивать",
-    "zhCN": "治愈"
+    "ruRU": "Лечение",
+    "zhCN": "治疗"
   },
   {
     "id": 41003,
     "Key": "Runeword80",
     "enUS": "Mighty",
-    "zhTW": "強大的",
+    "zhTW": "強力",
     "deDE": "Mächtig",
     "esES": "Poderoso",
     "frFR": "Puissant",
-    "itIT": "Potente",
-    "koKR": "거대한",
+    "itIT": "Possente",
+    "koKR": "강력한",
     "plPL": "Potężny",
     "esMX": "Poderoso",
-    "jaJP": "マイティ",
+    "jaJP": "強力な",
     "ptBR": "Poderoso",
-    "ruRU": "Могучий",
-    "zhCN": "强大的"
+    "ruRU": "Могущественный",
+    "zhCN": "强大"
   },
   {
     "id": 41004,
     "Key": "Runeword995",
     "enUS": "Master of Earth",
-    "zhTW": "地球大師",
+    "zhTW": "大地大師",
     "deDE": "Meister der Erde",
     "esES": "Maestro de la Tierra",
     "frFR": "Maître de la Terre",
     "itIT": "Maestro della Terra",
-    "koKR": "지구의 주인",
+    "koKR": "대지의 지배자",
     "plPL": "Mistrz Ziemi",
     "esMX": "Maestro de la Tierra",
-    "jaJP": "マスター・オブ・アース",
+    "jaJP": "大地のマスター",
     "ptBR": "Mestre da Terra",
-    "ruRU": "Мастер Земли",
-    "zhCN": "地球大师"
+    "ruRU": "Владыка Земли",
+    "zhCN": "大地大师"
   },
   {
     "id": 41005,
     "Key": "Runeword996",
     "enUS": "Master of Wind",
-    "zhTW": "風之大師",
+    "zhTW": "疾風大師",
     "deDE": "Meister des Windes",
-    "esES": "Maestro del viento",
-    "frFR": "Maître du vent",
-    "itIT": "Maestro del vento",
-    "koKR": "바람의 주인",
+    "esES": "Maestro del Viento",
+    "frFR": "Maître du Vent",
+    "itIT": "Maestro del Vento",
+    "koKR": "바람의 지배자",
     "plPL": "Mistrz Wiatru",
-    "esMX": "Maestro del viento",
+    "esMX": "Maestro del Viento",
     "jaJP": "風のマスター",
     "ptBR": "Mestre do Vento",
-    "ruRU": "Мастер ветра",
-    "zhCN": "风之大师"
+    "ruRU": "Владыка Ветра",
+    "zhCN": "疾风大师"
   },
   {
     "id": 41006,
@@ -9219,260 +9236,260 @@
     "enUS": "Master of Aether",
     "zhTW": "以太大師",
     "deDE": "Meister des Äthers",
-    "esES": "Maestro del éter",
+    "esES": "Maestro del Éter",
     "frFR": "Maître de l'Éther",
-    "itIT": "Maestro dell'etere",
-    "koKR": "에테르의 주인",
+    "itIT": "Maestro dell'Etere",
+    "koKR": "에테르의 지배자",
     "plPL": "Mistrz Eteru",
-    "esMX": "Maestro del éter",
-    "jaJP": "マスター・オブ・エーテル",
+    "esMX": "Maestro del Éter",
+    "jaJP": "エーテルのマスター",
     "ptBR": "Mestre do Éter",
-    "ruRU": "Мастер эфира",
+    "ruRU": "Владыка Эфира",
     "zhCN": "以太大师"
   },
   {
     "id": 41007,
     "Key": "Runeword998",
     "enUS": "Master of Puppets",
-    "zhTW": "木偶大師",
-    "deDE": "Meister der Puppen",
-    "esES": "Maestro de marionetas",
-    "frFR": "Maître des marionnettes",
-    "itIT": "Maestro dei burattini",
-    "koKR": "인형의 달인",
+    "zhTW": "傀儡大師",
+    "deDE": "Meister der Marionetten",
+    "esES": "Maestro de las Marionetas",
+    "frFR": "Maître des Marionnettes",
+    "itIT": "Maestro delle Marionette",
+    "koKR": "꼭두각시의 주인",
     "plPL": "Mistrz Marionetek",
-    "esMX": "Maestro de marionetas",
-    "jaJP": "人形の達人",
-    "ptBR": "Mestre dos fantoches",
-    "ruRU": "Мастер кукол",
-    "zhCN": "木偶大师"
+    "esMX": "Maestro de las Marionetas",
+    "jaJP": "傀儡の主",
+    "ptBR": "Mestre das Marionetes",
+    "ruRU": "Повелитель Марионеток",
+    "zhCN": "傀儡大师"
   },
   {
     "id": 41008,
     "Key": "Runeword999",
     "enUS": "Armament",
-    "zhTW": "武器",
+    "zhTW": "軍備",
     "deDE": "Rüstung",
     "esES": "Armamento",
     "esMX": "Armamento",
     "frFR": "Armement",
     "itIT": "Armamento",
-    "koKR": "군비",
+    "koKR": "무장",
     "plPL": "Uzbrojenie",
-    "jaJP": "武装",
+    "jaJP": "兵装",
     "ptBR": "Armamento",
     "ruRU": "Вооружение",
-    "zhCN": "武器"
+    "zhCN": "军备"
   },
   {
     "id": 41009,
     "Key": "Runeword1000",
     "enUS": "Peerless",
-    "zhTW": "絕世",
+    "zhTW": "無與倫比",
     "deDE": "Unvergleichlich",
-    "esES": "Sin igual",
-    "esMX": "Sin igual",
-    "frFR": "Hors pair",
+    "esES": "Inigualable",
+    "esMX": "Inigualable",
+    "frFR": "Sans Pareil",
     "itIT": "Impareggiabile",
-    "koKR": "비길 데 없는",
+    "koKR": "비할 데 없는",
     "plPL": "Niezrównany",
-    "jaJP": "比類のない",
-    "ptBR": "Inigualável",
+    "jaJP": "比類なき",
+    "ptBR": "Incomparável",
     "ruRU": "Бесподобный",
-    "zhCN": "绝世"
+    "zhCN": "无与伦比"
   },
   {
     "id": 41010,
     "Key": "runewhite",
     "enUS": "ÿc0White Rune Points",
-    "zhTW": "ÿc0White符文點",
-    "deDE": "ÿc0White Runenpunkte",
-    "esES": "ÿc0Wpuntos de runas blancas",
-    "esMX": "ÿc0Wpuntos de runas blancas",
-    "frFR": "ÿc0White points runiques",
-    "itIT": "ÿc0WPunti runici bianchi",
-    "koKR": "ÿc0W하이트 룬 포인트",
-    "plPL": "ÿc0White Punkty Runiczne",
-    "jaJP": "ÿc0White ルーンポイント",
-    "ptBR": "ÿc0Wpontos rúnicos brancos",
-    "ruRU": "ÿc0White Рунные очки",
-    "zhCN": "ÿc0White符文点"
+    "zhTW": "白色符文點數",
+    "deDE": "Weiße Runenpunkte",
+    "esES": "Puntos de Runa Blanca",
+    "esMX": "Puntos de Runa Blanca",
+    "frFR": "Points de Rune Blancs",
+    "itIT": "Punti Runa Bianchi",
+    "koKR": "흰색 룬 포인트",
+    "plPL": "Punkty Białej Runy",
+    "jaJP": "白ルーンポイント",
+    "ptBR": "Pontos de Runa Branca",
+    "ruRU": "Очки Белой Руны",
+    "zhCN": "白色符文点数"
   },
   {
     "id": 41011,
     "Key": "runered",
     "enUS": "ÿc1Red Rune Points",
-    "zhTW": "ÿc1Red 符文點",
-    "deDE": "ÿc1Red Runenpunkte",
-    "esES": "ÿc1Red Puntos de Runa",
-    "esMX": "ÿc1Red Puntos de Runa",
-    "frFR": "Points de runes ÿc1Red",
-    "itIT": "Punti runici ÿc1Red",
-    "koKR": "ÿc1Red 룬 포인트",
-    "plPL": "ÿc1Red Punkty runiczne",
-    "jaJP": "ÿc1Red ルーン ポイント",
-    "ptBR": "ÿc1Rpontos de runa eliminados",
-    "ruRU": "ÿc1Red Очки рун",
-    "zhCN": "ÿc1Red 符文点"
+    "zhTW": "ÿc1紅色符文點數",
+    "deDE": "ÿc1Rote Runenpunkte",
+    "esES": "ÿc1Puntos de Runa Roja",
+    "esMX": "ÿc1Puntos de Runa Roja",
+    "frFR": "ÿc1Points de Rune Rouges",
+    "itIT": "ÿc1Punti Runa Rossi",
+    "koKR": "ÿc1빨간색 룬 포인트",
+    "plPL": "ÿc1Punkty Czerwonej Runy",
+    "jaJP": "ÿc1赤ルーンポイント",
+    "ptBR": "ÿc1Pontos de Runa Vermelha",
+    "ruRU": "ÿc1Очки Красной Руны",
+    "zhCN": "ÿc1红色符文点数"
   },
   {
     "id": 41012,
     "Key": "runeyellow",
     "enUS": "ÿc9Yellow Rune Points",
-    "zhTW": "ÿc9Yellow 符文點",
-    "deDE": "ÿc9Yellow Runenpunkte",
-    "esES": "ÿc9Ypuntos de runas amarillas",
-    "esMX": "ÿc9Ypuntos de runas amarillas",
-    "frFR": "ÿc9YPoints runiques jaunes",
-    "itIT": "ÿc9YPunti runici gialli",
-    "koKR": "ÿc9Y노란색 룬 포인트",
-    "plPL": "ÿc9Yżółte punkty runiczne",
-    "jaJP": "ÿc9Y黄色のルーンポイント",
-    "ptBR": "ÿc9Ypontos rúnicos amarelos",
-    "ruRU": "ÿc9Yжелтые рунные очки",
-    "zhCN": "ÿc9Yellow 符文点"
+    "zhTW": "ÿc9黃色符文點數",
+    "deDE": "ÿc9Gelbe Runenpunkte",
+    "esES": "ÿc9Puntos de Runa Amarilla",
+    "esMX": "ÿc9Puntos de Runa Amarilla",
+    "frFR": "ÿc9Points de Rune Jaunes",
+    "itIT": "ÿc9Punti Runa Gialli",
+    "koKR": "ÿc9노란색 룬 포인트",
+    "plPL": "ÿc9Punkty Żółtej Runy",
+    "jaJP": "ÿc9黄ルーンポイント",
+    "ptBR": "ÿc9Pontos de Runa Amarela",
+    "ruRU": "ÿc9Очки Желтой Руны",
+    "zhCN": "ÿc9黄色符文点数"
   },
   {
     "id": 41013,
     "Key": "runeorange",
     "enUS": "ÿc@Orange Rune Points",
-    "zhTW": "ÿc@橙色符文點",
+    "zhTW": "ÿc@橘色符文點數",
     "deDE": "ÿc@Orange Runenpunkte",
-    "esES": "ÿc@Puntos de runa naranja",
-    "esMX": "ÿc@Puntos de runa naranja",
-    "frFR": "ÿc@Points de runes orange",
-    "itIT": "ÿc@Punti runici arancioni",
+    "esES": "ÿc@Puntos de Runa Naranja",
+    "esMX": "ÿc@Puntos de Runa Naranja",
+    "frFR": "ÿc@Points de Rune Oranges",
+    "itIT": "ÿc@Punti Runa Arancioni",
     "koKR": "ÿc@주황색 룬 포인트",
-    "plPL": "ÿc@Pomarańczowe punkty runiczne",
-    "jaJP": "ÿc@オレンジ ルーン ポイント",
+    "plPL": "ÿc@Punkty Pomarańczowej Runy",
+    "jaJP": "ÿc@オレンジルーンポイント",
     "ptBR": "ÿc@Pontos de Runa Laranja",
-    "ruRU": "ÿc@Оранжевые рунные очки",
-    "zhCN": "ÿc@橙色符文点"
+    "ruRU": "ÿc@Очки Оранжевой Руны",
+    "zhCN": "ÿc@橙色符文点数"
   },
   {
     "id": 41014,
     "Key": "runegreen",
     "enUS": "ÿc2Green Rune Points",
-    "zhTW": "ÿc2G綠符文點",
-    "deDE": "ÿc2Green Runenpunkte",
-    "esES": "ÿc2Gpuntos de runas verdes",
-    "esMX": "ÿc2Gpuntos de runas verdes",
-    "frFR": "ÿc2Gpoints de runes vertes",
-    "itIT": "ÿc2Gpunti runici rossi",
-    "koKR": "ÿc2Green 룬 포인트",
-    "plPL": "ÿc2Green Punkty Runiczne",
-    "jaJP": "ÿc2Green ルーンポイント",
-    "ptBR": "ÿc2Gpontos rúnicos reais",
-    "ruRU": "ÿc2Green Очки рун",
-    "zhCN": "ÿc2G绿符文点"
+    "zhTW": "ÿc2綠色符文點數",
+    "deDE": "ÿc2Grüne Runenpunkte",
+    "esES": "ÿc2Puntos de Runa Verde",
+    "esMX": "ÿc2Puntos de Runa Verde",
+    "frFR": "ÿc2Points de Rune Verts",
+    "itIT": "ÿc2Punti Runa Verdi",
+    "koKR": "ÿc2초록색 룬 포인트",
+    "plPL": "ÿc2Punkty Zielonej Runy",
+    "jaJP": "ÿc2緑ルーンポイント",
+    "ptBR": "ÿc2Pontos de Runa Verde",
+    "ruRU": "ÿc2Очки Зеленой Руны",
+    "zhCN": "ÿc2绿色符文点数"
   },
   {
     "id": 41015,
     "Key": "runegold",
     "enUS": "ÿc4Gold Rune Points",
-    "zhTW": "ÿc4G舊符文點",
-    "deDE": "ÿc4Galte Runenpunkte",
-    "esES": "ÿc4Gpuntos de runas antiguos",
-    "esMX": "ÿc4Gpuntos de runas antiguos",
-    "frFR": "ÿc4Ganciens points runiques",
-    "itIT": "ÿc4Gvecchi punti runici",
-    "koKR": "ÿc4G기존 룬 포인트",
-    "plPL": "ÿc4Gstare punkty runiczne",
-    "jaJP": "ÿc4G古いルーンポイント",
-    "ptBR": "ÿc4GPontos Rúnicos Antigos",
-    "ruRU": "ÿc4Gстарые очки рун",
-    "zhCN": "ÿc4G旧符文点"
+    "zhTW": "ÿc4金色符文點數",
+    "deDE": "ÿc4Goldene Runenpunkte",
+    "esES": "ÿc4Puntos de Runa Dorada",
+    "esMX": "ÿc4Puntos de Runa Dorada",
+    "frFR": "ÿc4Points de Rune Dorés",
+    "itIT": "ÿc4Punti Runa Oro",
+    "koKR": "ÿc4금색 룬 포인트",
+    "plPL": "ÿc4Punkty Złotej Runy",
+    "jaJP": "ÿc4金ルーンポイント",
+    "ptBR": "ÿc4Pontos de Runa Ouro",
+    "ruRU": "ÿc4Очки Золотой Руны",
+    "zhCN": "ÿc4金色符文点数"
   },
   {
     "id": 41016,
     "Key": "runepurple",
     "enUS": "ÿc;Purple Rune Points",
-    "zhTW": "ÿc;紫色符文點",
-    "deDE": "ÿc;Lila Runenpunkte",
-    "esES": "ÿc;Puntos de runas moradas",
-    "esMX": "ÿc;Puntos de runas moradas",
-    "frFR": "ÿc;Points de runes violettes",
-    "itIT": "ÿc;Punti runici viola",
+    "zhTW": "ÿc;紫色符文點數",
+    "deDE": "ÿc;Violette Runenpunkte",
+    "esES": "ÿc;Puntos de Runa Púrpura",
+    "esMX": "ÿc;Puntos de Runa Púrpura",
+    "frFR": "ÿc;Points de Rune Violets",
+    "itIT": "ÿc;Punti Runa Viola",
     "koKR": "ÿc;보라색 룬 포인트",
-    "plPL": "ÿc;Fioletowe punkty runiczne",
-    "jaJP": "ÿc;紫のルーンポイント",
-    "ptBR": "ÿc;Pontos Rúnicos Roxos",
-    "ruRU": "ÿc;Фиолетовые руны",
-    "zhCN": "ÿc;紫色符文点"
+    "plPL": "ÿc;Punkty Fioletowej Runy",
+    "jaJP": "ÿc;紫ルーンポイント",
+    "ptBR": "ÿc;Pontos de Runa Púrpura",
+    "ruRU": "ÿc;Очки Фиолетовой Руны",
+    "zhCN": "ÿc;紫色符文点数"
   },
   {
     "id": 41017,
     "Key": "runelodlow",
     "enUS": "ÿc0Low Decal Points",
-    "zhTW": "ÿc0Low 貼花點",
-    "deDE": "ÿc0Low Aufkleberpunkte",
-    "esES": "ÿc0Low Puntos de calcomanía",
-    "esMX": "ÿc0Low Puntos de calcomanía",
-    "frFR": "ÿc0Low points de décalcomanie",
-    "itIT": "ÿc0Low Punti decalcomania",
-    "koKR": "ÿc0Low 데칼 포인트",
-    "plPL": "ÿc0Low punkty naklejek",
-    "jaJP": "ÿc0Low デカール ポイント",
-    "ptBR": "ÿc0Low pontos de decalque",
-    "ruRU": "ÿc0Low точки декалей",
-    "zhCN": "ÿc0Low 贴花点"
+    "zhTW": "ÿc0低級貼花點數",
+    "deDE": "ÿc0Niedrige Abziehbildpunkte",
+    "esES": "ÿc0Puntos de Calcomanía Bajos",
+    "esMX": "ÿc0Puntos de Calcomanía Bajos",
+    "frFR": "ÿc0Points de Décalque Faibles",
+    "itIT": "ÿc0Punti Decalcomania Bassi",
+    "koKR": "ÿc0낮은 데칼 포인트",
+    "plPL": "ÿc0Niskie Punkty Naklejek",
+    "jaJP": "ÿc0低デカールポイント",
+    "ptBR": "ÿc0Pontos de Decalque Baixos",
+    "ruRU": "ÿc0Очки Низкого Декали",
+    "zhCN": "ÿc0低级贴花点数"
   },
   {
     "id": 41018,
     "Key": "runelodmedium",
     "enUS": "ÿc@Medium Decal Points",
-    "zhTW": "ÿc@中貼花點",
-    "deDE": "ÿc@Mittlere Aufkleberpunkte",
-    "esES": "ÿc@Puntos de calcomanía medianos",
-    "esMX": "ÿc@Puntos de calcomanía medianos",
-    "frFR": "ÿc@Points de décalcomanie moyens",
-    "itIT": "ÿc@Punti decalcomania medi",
-    "koKR": "ÿc@중형 데칼 포인트",
-    "plPL": "ÿc@Średnie punkty naklejek",
-    "jaJP": "ÿc@中デカール ポイント",
-    "ptBR": "ÿc@Pontos Médios de Decalque",
-    "ruRU": "ÿc@Средние точки декалей",
-    "zhCN": "ÿc@中贴花点"
+    "zhTW": "ÿc@中級貼花點數",
+    "deDE": "ÿc@Mittlere Abziehbildpunkte",
+    "esES": "ÿc@Puntos de Calcomanía Medios",
+    "esMX": "ÿc@Puntos de Calcomanía Medios",
+    "frFR": "ÿc@Points de Décalque Moyens",
+    "itIT": "ÿc@Punti Decalcomania Medi",
+    "koKR": "ÿc@중간 데칼 포인트",
+    "plPL": "ÿc@Średnie Punkty Naklejek",
+    "jaJP": "ÿc@中デカールポイント",
+    "ptBR": "ÿc@Pontos de Decalque Médios",
+    "ruRU": "ÿc@Очки Среднего Декали",
+    "zhCN": "ÿc@中级贴花点数"
   },
   {
     "id": 41019,
     "Key": "runelodhigh",
     "enUS": "ÿc;High Decal Points",
-    "zhTW": "ÿc;高貼花點",
-    "deDE": "ÿc;Hohe Aufkleberpunkte",
-    "esES": "ÿc;Puntos de calcomanía altos",
-    "esMX": "ÿc;Puntos de calcomanía altos",
-    "frFR": "ÿc ; Points de décalcomanie élevés",
-    "itIT": "ÿc;Punti decalcomania elevati",
+    "zhTW": "ÿc;高級貼花點數",
+    "deDE": "ÿc;Hohe Abziehbildpunkte",
+    "esES": "ÿc;Puntos de Calcomanía Altos",
+    "esMX": "ÿc;Puntos de Calcomanía Altos",
+    "frFR": "ÿc;Points de Décalque Élevés",
+    "itIT": "ÿc;Punti Decalcomania Alti",
     "koKR": "ÿc;높은 데칼 포인트",
-    "plPL": "ÿc;Wysokie punkty na naklejkach",
-    "jaJP": "ÿc;高いデカールポイント",
-    "ptBR": "ÿc;Pontos altos de decalque",
-    "ruRU": "ÿc;Высокие очки декалей",
-    "zhCN": "ÿc;高贴花点"
+    "plPL": "ÿc;Wysokie Punkty Naklejek",
+    "jaJP": "ÿc;高デカールポイント",
+    "ptBR": "ÿc;Pontos de Decalque Altos",
+    "ruRU": "ÿc;Очки Высокого Декали",
+    "zhCN": "ÿc;高级贴花点数"
   },
   {
     "id": 41020,
     "Key": "Poisonous",
     "enUS": "Poisonous",
-    "zhTW": "有毒",
+    "zhTW": "有毒的",
     "deDE": "Giftig",
     "esES": "Venenoso",
     "esMX": "Venenoso",
     "frFR": "Toxique",
     "itIT": "Velenoso",
-    "koKR": "유해한",
+    "koKR": "독성의",
     "plPL": "Trujący",
-    "jaJP": "有毒",
+    "jaJP": "毒の",
     "ptBR": "Venenoso",
     "ruRU": "Ядовитый",
-    "zhCN": "有毒"
+    "zhCN": "有毒的"
   },
   {
     "id": 41021,
     "Key": "Ancient",
     "enUS": "Ancient",
-    "zhTW": "古老的",
+    "zhTW": "古老",
     "deDE": "Uralt",
     "esES": "Antiguo",
     "esMX": "Antiguo",
@@ -9480,27 +9497,27 @@
     "itIT": "Antico",
     "koKR": "고대의",
     "plPL": "Starożytny",
-    "jaJP": "古代",
-    "ptBR": "Ancestral",
+    "jaJP": "古の",
+    "ptBR": "Antigo",
     "ruRU": "Древний",
-    "zhCN": "古老的"
+    "zhCN": "古老"
   },
   {
     "id": 41022,
     "Key": "Ruin",
     "enUS": "Ruin",
-    "zhTW": "廢墟",
-    "deDE": "Ruine",
+    "zhTW": "毀滅",
+    "deDE": "Ruin",
     "esES": "Ruina",
     "esMX": "Ruina",
     "frFR": "Ruine",
     "itIT": "Rovina",
-    "koKR": "망치다",
+    "koKR": "파멸",
     "plPL": "Ruina",
-    "jaJP": "台無しにする",
+    "jaJP": "滅び",
     "ptBR": "Ruína",
-    "ruRU": "Руины",
-    "zhCN": "废墟"
+    "ruRU": "Разрушение",
+    "zhCN": "毁灭"
   },
   {
     "id": 41023,
@@ -9508,49 +9525,49 @@
     "enUS": "Killing Intend",
     "zhTW": "殺意",
     "deDE": "Tötungsabsicht",
-    "esES": "intención de matar",
-    "esMX": "intención de matar",
-    "frFR": "Intention de tuer",
-    "itIT": "Intenzione di uccidere",
-    "koKR": "살해 의도",
-    "plPL": "Zamiar Zabicia",
+    "esES": "Intento de Matar",
+    "esMX": "Intento de Matar",
+    "frFR": "Intention de Tuer",
+    "itIT": "Intento Omicida",
+    "koKR": "살의",
+    "plPL": "Żądza Mordu",
     "jaJP": "殺意",
-    "ptBR": "Intenção de matar",
-    "ruRU": "Намерение убийства",
+    "ptBR": "Intenção de Matar",
+    "ruRU": "Жажда Убийства",
     "zhCN": "杀意"
   },
   {
     "id": 41024,
     "Key": "Runeword1002",
     "enUS": "Annihilation",
-    "zhTW": "湮滅",
+    "zhTW": "殲滅",
     "deDE": "Vernichtung",
     "esES": "Aniquilación",
     "esMX": "Aniquilación",
     "frFR": "Annihilation",
     "itIT": "Annientamento",
     "koKR": "전멸",
-    "plPL": "Unicestwienie",
-    "jaJP": "消滅",
+    "plPL": "Anihilacja",
+    "jaJP": "殲滅",
     "ptBR": "Aniquilação",
-    "ruRU": "Уничтожение",
-    "zhCN": "湮灭"
+    "ruRU": "Аннигиляция",
+    "zhCN": "歼灭"
   },
   {
     "id": 41025,
     "Key": "Runeword1003",
     "enUS": "Double Kill",
     "zhTW": "雙殺",
-    "deDE": "Doppelter Kill",
-    "esES": "Doble muerte",
-    "esMX": "Doble muerte",
-    "frFR": "Double tuerie",
-    "itIT": "Doppia uccisione",
+    "deDE": "Doppelkiller",
+    "esES": "Doble Muerte",
+    "esMX": "Doble Muerte",
+    "frFR": "Double Meurtre",
+    "itIT": "Doppia Uccisione",
     "koKR": "더블 킬",
-    "plPL": "Podwójne zabójstwo",
+    "plPL": "Podwójne Zabójstwo",
     "jaJP": "ダブルキル",
     "ptBR": "Morte Dupla",
-    "ruRU": "Двойное убийство",
+    "ruRU": "Двойное Убийство",
     "zhCN": "双杀"
   }
 ]
