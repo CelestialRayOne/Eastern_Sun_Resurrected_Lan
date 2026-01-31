@@ -917,7 +917,6 @@
     "shockwavedrunova": "expansion_shockwave",
     "shockwavedrubolt": "expansion_shockwave",
     "fissurenovabolt": "fireball",
-    "firewavefire": "expansion_firestorm_emitter",
     "meteorshowerdebris": "expansion_volcano_rock",
     "meteorshowersecondarybolt": "firebolt",
     "meteorshower": "meteor",
@@ -1636,5 +1635,9 @@
     "stormnexusnovabolt": "electric_nova",
     "fireball": "fireball",
     "fireballfuryspawner": "fireball",
-    "rainoffiremeteor": "meteor"
+    "rainoffiremeteor": "meteor",
+    "firewavefire": "ground_fire_big",
+    "conflagratefire": "ground_fire_big",
+    "conflagratefury": "ground_fire_big_notrail",
+    "conflagratespawnerfour": "ground_fire_big"
 }

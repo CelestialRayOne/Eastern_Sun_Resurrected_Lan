@@ -55422,8 +55422,8 @@
   },
   {
     "id": 64478,
-    "Key": "flamewave2",
-    "enUS": "Creates a moving wall of flame",
+    "Key": "flamewave23",
+    "enUS": "Focus your magical energies to incinerate a target enemy\nEvery cast of Scorch grants one Firestarter stack\nFirestarter stacks intensify and spread the fire to nearby enemies",
     "zhTW": "創建移動的火焰牆",
     "deDE": "Erzeugt eine sich bewegende Flammenwand",
     "esES": "Crea una pared de llamas en movimiento.",
@@ -56888,7 +56888,7 @@
   {
     "id": 46870,
     "Key": "immolationsplash",
-    "enUS": "Projectiles deal area of effect damage",
+    "enUS": "Projectiles deal area of effect damage and pierce",
     "zhTW": "射彈造成範圍傷害",
     "deDE": "Projektile verursachen Flächenschaden",
     "esES": "Los proyectiles causan daño de área de efecto.",

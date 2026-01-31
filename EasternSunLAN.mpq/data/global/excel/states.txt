@@ -222,7 +222,7 @@ penaltydefensestate	219																																																									
 progressive_physical	220																																				1										progressive_physical_1			progressive_physical	1	1																			0
 progressive_execute	221																																				1										progressive_execute_1			progressive_execute	1	1																			0
 gold	222																												1	1																											85	103	255	255	255										0
-fanaticswing	223																																																								99	114	255	255	255	paladin_aura_salvation									0
+unused223	223																																																								99	114	255	255	255	paladin_aura_salvation									0
 annihilationdebuff	224																																										aura_elemcry																												0
 ravagedebuff	225																																																								100	106	255	255	255										0
 furyofcreationdebuff	226																																										aura_elemcry																												0
@@ -249,8 +249,8 @@ headhunterspeed	246																																										staminafront	stamin
 headhunterskills	247																																										aura_of_divinity																			paladin_aura_meditation									0
 headhunterhealth	248																																										battleorders																			barbarian_battleorders_1									0
 white	249																																																								90	111	255	255	255										0
-lichkingessence	250																																										lich_king_essence_front																			paladin_aura_purification									0
-empoweredenchant	251											1																															thunderstormfront					enchant		skill_enchant																					0
+firecontrolprogressive	250																																				1										firecontrolprogressive_1			firecontrolprogressive	1	1																			0
+empoweredenchant	251																																										thunderstormfront					enchant		skill_enchant																					0
 eternalhourglass	252																																										baal_on_throne																			paladin_redeemed_soul									0
 bonemastery	253																																																																						0
 magicmastery	254																																																																						0
