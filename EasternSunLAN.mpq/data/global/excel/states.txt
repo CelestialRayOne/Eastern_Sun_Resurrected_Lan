@@ -181,8 +181,8 @@ antidote	178																		1																																																	
 thawing	179																1																																																						0
 staminapot	180																	1																																																					0
 convicted	181					1																1	1	1	1																		convictionfront	convictionback						skill_conviction																					0
-thetiesthatbindcold	182																																																																						0
-thetiesthatbindlightning	183																																																																						0
+blue	182																																																								100	108	150	215	255										0
+moltenfocus	183																																																																						0
 uberminion	184																												1		1		1	1																												impact_bluemotize_1									0
 cooldown	185																																																																						0
 sharedstash	186																																																																						0
@@ -190,9 +190,9 @@ hidedead	187																											1	1			1																																		
 paralyze	188																																																								100	105	255	255	255										0
 desecrated	189																												1	1																																									0
 eagleeye	190	2																																									quickness							attackrate																					0
-thetiesthatbindpoison	191																																																																						0
+glacialfocus	191																																																																						0
 aerialshield	192	6												1																													frenzy							toblock																					0
-thetiesthatbindmagic	193																																																																						0
+staticfocus	193																																																																						0
 divineaura	194																																										aura_of_divinity																			paladin_aura_sanctuary									0
 elemcry	195						1	1					1	1																													aura_elemcry							coldresist												barbarian_battlecry_state									0
 finditem	196																																																	item_magicbonus																					0
@@ -222,7 +222,7 @@ penaltydefensestate	219																																																									
 progressive_physical	220																																				1										progressive_physical_1			progressive_physical	1	1																			0
 progressive_execute	221																																				1										progressive_execute_1			progressive_execute	1	1																			0
 gold	222																												1	1																											85	103	255	255	255										0
-fanaticswing	223																																																								99	114	255	255	255	paladin_aura_salvation									0
+unused223	223																																																								99	114	255	255	255	paladin_aura_salvation									0
 annihilationdebuff	224																																										aura_elemcry																												0
 ravagedebuff	225																																																								100	106	255	255	255										0
 furyofcreationdebuff	226																																										aura_elemcry																												0
@@ -233,24 +233,24 @@ valkyriemastery	230																																																													
 justkilledbosstwo	231																																										baal_on_throne														102	112	255	255	255	paladin_redeemed_soul									0
 justkilledbossthree	232																																										baal_on_throne														102	112	255	255	255	paladin_redeemed_soul									0
 celestialempowerment	233																																																								100	101	255	255	255	paladin_aura_salvation									0
-elementalfury	234	6																																									elementalfury																												0
+exclusiveskill	234	8																																			1										exclusiveskill_1			exclusiveskill	1	1																			0
 coldenchant	235											1	1																																			frozenarmor		skill_cold_enchant					weap	cblu															0
-thetiesthatbindsummon	236																																																																						0
+oddcharmaura	236					1																																																																	0
 athuluawisdom	237																																																																						0
-thunderlightning	238																																																								90	113	255	255	255	paladin_aura_holylight									0
+thunderlightning	238																																																								90	113	255	255	255										0
 windmastery	239																																																																						0
 generalmythicalarmorstate	240																																																																						0
 damagebonusnew	241					1																																																																	0
 headhunterphysicaldamage	242																																										undeadfrenzy																			barbarian_shout_1									0
 headhunterstats	243																																										callofthewild							skill_armor_percent												paladin_aura_sanctuary									0
-headhunterelementaldamage	244																																										elementalfury_fire	elementalfury_cold	elementalfury_ltng																	paladin_aura_purification									0
+headhunterelementaldamage	244																																										exclusiveskill_1																			paladin_aura_purification									0
 headhunterresistances	245																																										aura_resistall_front	aura_resistall_back				cast_resistall		lightresist												paladin_aura_salvation									0
 headhunterspeed	246																																										staminafront	staminaback						maxstamina												paladin_aura_stamina									0
 headhunterskills	247																																										aura_of_divinity																			paladin_aura_meditation									0
 headhunterhealth	248																																										battleorders																			barbarian_battleorders_1									0
 white	249																																																								90	111	255	255	255										0
-lichkingessence	250																																										lich_king_essence_front																			paladin_aura_purification									0
-empoweredenchant	251											1																															thunderstormfront					enchant		skill_enchant																					0
+firecontrolprogressive	250																																				1										firecontrolprogressive_1			firecontrolprogressive	1	1																			0
+empoweredenchant	251																																										thunderstormfront					enchant		skill_enchant																					0
 eternalhourglass	252																																										baal_on_throne																			paladin_redeemed_soul									0
 bonemastery	253																																																																						0
 magicmastery	254																																																																						0
