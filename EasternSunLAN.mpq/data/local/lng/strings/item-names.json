@@ -33050,7 +33050,7 @@
   {
     "id": 60727,
     "Key": "Spacial Distortion",
-    "enUS": "Spacial Distortion",
+    "enUS": "Spatial Distortion",
     "zhTW": "空間扭曲",
     "deDE": "Räumliche Verzerrung",
     "esES": "Distorsión espacial",
@@ -40972,7 +40972,7 @@
   {
     "id": 61378,
     "Key": "ko2",
-    "enUS": "(needs 50 pts for crystals)\n(needs 9 pts)\nCurrent Output: Standard Gem\nCube to select output size",
+    "enUS": "(needs 50 pts for crystals)\n(needs 9 pts)\nCurrent Output: Standard Gem/Crystal\nCube to select output size",
     "zhTW": "（水晶需要50點）\n（需要9分）\n電流輸出：標準寶石\n用於選擇輸出大小的立方體",
     "deDE": "(benötigt 50 Punkte für Kristalle)\n(benötigt 9 Punkte)\nAktueller Ausgang: Standard Gem\nWürfel zur Auswahl der Ausgabegröße",
     "esES": "(necesita 50 pts para cristales)\n(necesita 9 puntos)\nSalida actual: Gema estándar\nCubo para seleccionar el tamaño de salida",
@@ -56461,23 +56461,6 @@
     "ruRU": "Снаряды пронзают всех врагов"
   },
   {
-    "id": 46719,
-    "Key": "poisonstreamvenomsynergy",
-    "enUS": ": +0.4 seconds to Poison Length per Level",
-    "zhTW": "：每級毒藥長度+0.4秒",
-    "deDE": ": +0,4 Sekunden zur Giftdauer pro Level",
-    "esES": ": +0,4 segundos a la duración del veneno por nivel",
-    "frFR": ": +0,4 secondes à la durée du poison par niveau",
-    "itIT": ": +0,4 secondi alla durata del veleno per livello",
-    "koKR": ": 레벨당 독 지속 시간 +0.4초",
-    "plPL": ": +0.4 seconds to Poison Length per Level",
-    "esMX": ": +0,4 segundos a la duración del veneno por nivel",
-    "jaJP": ": レベルあたりの毒の長さ +0.4 秒",
-    "ptBR": ": +0,4 segundos de duração do veneno por nível",
-    "zhCN": "：每级毒药长度+0.4秒",
-    "ruRU": ": +0,4 секунды к продолжительности действия яда за уровень."
-  },
-  {
     "id": 46721,
     "Key": "bladenova2",
     "enUS": "Release a ring of shurikens",
@@ -56544,23 +56527,6 @@
     "ptBR": "Liberte uma enxurrada de ondas de choque mentais devastadoras",
     "zhCN": "释放一连串毁灭性的精神冲击波",
     "ruRU": "Высвободите шквал разрушительных ментальных шоковых волн."
-  },
-  {
-    "id": 46764,
-    "Key": "execute1",
-    "enUS": "Execute",
-    "zhTW": "執行",
-    "deDE": "Ausführen",
-    "esES": "Ejecutar",
-    "frFR": "Exécuter",
-    "itIT": "Eseguire",
-    "koKR": "실행하다",
-    "plPL": "Execute",
-    "esMX": "Ejecutar",
-    "jaJP": "実行する",
-    "ptBR": "Executar",
-    "zhCN": "执行",
-    "ruRU": "Выполнять"
   },
   {
     "id": 46769,
@@ -62413,7 +62379,7 @@
   {
     "id": 28085,
     "Key": "lucionessencedesc",
-    "enUS": "ÿc9Rareÿc0 and ÿc4Uniqueÿc0 Quivers get 1 socket\n(excluding jewelry) to add 2/3/3/4 sockets, respectively\nTransmute with a ÿc4Uniqueÿc0/ÿc9Rareÿc0/ÿc@Craftedÿc0/ÿc3Magicÿc0 equippable item",
+    "enUS": "ÿc9Rareÿc0 and ÿc4Uniqueÿc0 Quivers get 1 socket\n(excluding jewelry) to set its sockets to 2/3/3/4, respectively\nTransmute with a ÿc4Uniqueÿc0/ÿc9Rareÿc0/ÿc@Craftedÿc0/ÿc3Magicÿc0 equippable item",
     "zhTW": "ÿc9Rareÿc0 和 ÿc4Uniqueÿc0 箭袋獲得 1 個插槽\n（不含飾品）分別添加2/3/3/4個插座\n使用 ÿc4Uniqueÿc0/ÿc9Rareÿc0/ÿc@Craftedÿc0/ÿc3Magicÿc0 可裝備物品進行轉化",
     "deDE": "ÿc9Rareÿc0 und ÿc4Uniqueÿc0 Köcher erhalten 1 Sockel\n(ausgenommen Schmuck), um jeweils 2/3/3/4 Fassungen hinzuzufügen\nVerwandeln Sie sich mit einem ÿc4Uniqueÿc0/ÿc9Rareÿc0/ÿc@Craftedÿc0/ÿc3Magicÿc0 ausrüstbaren Gegenstand",
     "esES": "ÿc9Rareÿc0 y ÿc4Uniqueÿc0 Los carcaj obtienen 1 enchufe\n(excluyendo joyas) para agregar 2/3/3/4 enchufes, respectivamente\nTransmutar con un objeto equipable ÿc4Uniqueÿc0/ÿc9Rareÿc0/ÿc@Craftedÿc0/ÿc3Magicÿc0.",
@@ -62822,6 +62788,23 @@
     "id": 28110,
     "Key": "Celestialray",
     "enUS": "Celestialray",
+    "zhTW": "Celestialray",
+    "deDE": "Celestialray",
+    "esES": "Celestialray",
+    "frFR": "Celestialray",
+    "itIT": "Celestialray",
+    "koKR": "Celestialray",
+    "plPL": "Celestialray",
+    "esMX": "Celestialray",
+    "jaJP": "Celestialray",
+    "ptBR": "Celestialray",
+    "ruRU": "Celestialray",
+    "zhCN": "Celestialray"
+  },
+  {
+    "id": 28111,
+    "Key": "Hellfire Torch New",
+    "enUS": "Hellfire Torch",
     "zhTW": "Celestialray",
     "deDE": "Celestialray",
     "esES": "Celestialray",

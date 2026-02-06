@@ -243,7 +243,7 @@ generalmythicalarmorstate	240																																																			
 damagebonusnew	241					1																																																																	0
 headhunterphysicaldamage	242																																										undeadfrenzy																			barbarian_shout_1									0
 headhunterstats	243																																										callofthewild							skill_armor_percent												paladin_aura_sanctuary									0
-headhunterelementaldamage	244																																										elementalfury_fire	elementalfury_cold	elementalfury_ltng																	paladin_aura_purification									0
+headhunterelementaldamage	244																																										exclusiveskill_1																			paladin_aura_purification									0
 headhunterresistances	245																																										aura_resistall_front	aura_resistall_back				cast_resistall		lightresist												paladin_aura_salvation									0
 headhunterspeed	246																																										staminafront	staminaback						maxstamina												paladin_aura_stamina									0
 headhunterskills	247																																										aura_of_divinity																			paladin_aura_meditation									0

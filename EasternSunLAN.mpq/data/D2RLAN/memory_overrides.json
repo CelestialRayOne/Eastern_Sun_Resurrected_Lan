@@ -130,9 +130,9 @@
             "Address": "351263",
             "Length": 5,
             "Type": "Hex",
-            "Values": "BB80969800",
-            "OriginalValues": "BB80000000",
-            "ModdedValues": "BB80969800"
+            "Values": "BB19000000",
+            "OriginalValues": "BB08000000",
+            "ModdedValues": "BB19000000"
         },
         {
             "Name": "CB regular monsters x4 nerf (hook -> cave)",
@@ -152,9 +152,9 @@
             "Address": "11A75BC",
             "Length": 12,
             "Type": "Hex",
-            "Values": "F7FEC1F8028BF0E9D09D1AFF",
+            "Values": "F7FEC1F8018BF0E9D09D1AFF",
             "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCC",
-            "ModdedValues": "F7FEC1F8028BF0E9D09D1AFF"
+            "ModdedValues": "F7FEC1F8018BF0E9D09D1AFF"
         }
     ]
 }

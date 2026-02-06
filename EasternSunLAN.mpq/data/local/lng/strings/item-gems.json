@@ -750,7 +750,7 @@
   {
     "id": 61376,
     "Key": "ko0",
-    "enUS": "(needs 1 pt)\nCurrent Output: Chipped Gem\nCube to select output size",
+    "enUS": "(needs 1 pt)\nCurrent Output: Chipped Gem/Crystal\nCube to select output size",
     "zhTW": "（需要1分）\n電流輸出：碎寶石\n用於選擇輸出大小的立方體",
     "deDE": "(benötigt 1 Punkt)\nAktuelle Ausgabe: Gesplitterter Edelstein\nWürfel zur Auswahl der Ausgabegröße",
     "esES": "(necesita 1 punto)\nSalida actual: Gema desconchada\nCubo para seleccionar el tamaño de salida",
@@ -1107,7 +1107,7 @@
   {
     "id": 61377,
     "Key": "ko1",
-    "enUS": "(needs 5 pts for crystals)\n(needs 3 pts)\nCurrent Output: Flawed Gem\nCube to select output size",
+    "enUS": "(needs 5 pts for crystals)\n(needs 3 pts)\nCurrent Output: Flawed Gem/Crystal\nCube to select output size",
     "zhTW": "（水晶需要5點）\n（需要3分）\n當前輸出：有缺陷的寶石\n用於選擇輸出大小的立方體",
     "deDE": "(benötigt 5 Punkte für Kristalle)\n(benötigt 3 Punkte)\nAktuelle Ausgabe: Fehlerhafter Edelstein\nWürfel zur Auswahl der Ausgabegröße",
     "esES": "(necesita 5 pts para cristales)\n(necesita 3 puntos)\nSalida actual: Gema defectuosa\nCubo para seleccionar el tamaño de salida",
