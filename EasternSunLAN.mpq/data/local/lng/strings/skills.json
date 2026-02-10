@@ -15659,7 +15659,7 @@
   {
     "id": 46603,
     "Key": "allresistskill",
-    "enUS": "All resists: %+d%%",
+    "enUS": "All resistances: %+d%%",
     "zhTW": "所有抵抗:%+d%%",
     "deDE": "Alle Widerstände: %+d%%",
     "esES": "Todas las resistencias: %+d%%",
@@ -22361,7 +22361,7 @@
   {
     "id": 50420,
     "Key": "fireboltstacks",
-    "enUS": "Firestarter duration: 4 seconds\nFire Bolt can use up to %d firestarter stacks",
+    "enUS": "Firestarter duration: 6 seconds\nFire Bolt can use up to %d firestarter stacks",
     "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
     "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
     "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
@@ -22412,7 +22412,7 @@
   {
     "id": 50423,
     "Key": "scorchstacks",
-    "enUS": "Firestarter duration: 4 seconds\nScorch can use up to %d firestarter stacks",
+    "enUS": "Firestarter duration: 6 seconds\nScorch can use up to %d firestarter stacks",
     "zhTW": "獲得閃電精華的力量，\n增加最大法力值與閃電抗性",
     "deDE": "Werdet durch die Essenz des Blitzes gestärkt,\nwas das maximale Mana und den Blitzwiderstand erhöht",
     "esES": "Empodérate con la esencia del rayo,\naumentando el maná máximo y la resistencia al rayo",
