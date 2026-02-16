@@ -737,7 +737,6 @@
     "angeldust_center": "null",
     "angeldust_1": "bone_spirit_explode",
     "angeldustexplode_1": "charged_bolt",
-    "elemcry": "b_a_yell_shock_wave_01",
     "phantomhatchets": "missile_hand_axe",
     "phantomhatchetsbolt": "missile_hand_axe",
     "hypnoblast_center": "expansion_mindblast",
@@ -1638,5 +1637,6 @@
     "vengefulspiritfive": "bone_spirit",
     "vengefulspiritbolt": "frost_nova",
     "zap": "lightningbolt",
-    "zapdamagebolt": "electric_nova"
+    "zapdamagebolt": "electric_nova",
+    "elemcrybolt": "b_a_yell_shock_wave_01"
 }

@@ -9062,7 +9062,7 @@
   {
     "id": 64558,
     "Key": "ancientscall3",
-    "enUS": "Conjure the presence of the ancients, lowering\nthe resistances of nearby enemies periodically",
+    "enUS": "Shout with the wrath of the ancients, lowering the\nelemental and magic resistances of nearby enemies",
     "zhTW": "召喚古人的存在，定期降低附近敵人的抵抗力",
     "deDE": "Beschwört die Präsenz der Alten, die periodisch\ndie Widerstände nahegelegener Feinde verringert",
     "esES": "Conjura la presencia de los Antiguos, reduciendo\nperiódicamente las resistencias de los enemigos cercanos",
@@ -12154,23 +12154,6 @@
     "zhCN": "所有技能:"
   },
   {
-    "id": 63927,
-    "Key": "StrSkill181",
-    "enUS": "Physical Damage Reduced by: %+d%%",
-    "zhTW": "物理傷害減少:%+d%%",
-    "deDE": "Physischer Schaden verringert um: %+d%%",
-    "esES": "Daño físico reducido en: %+d%%",
-    "frFR": "Dégâts physiques réduits de : %+d%%",
-    "itIT": "Danno fisico ridotto di: %+d%%",
-    "koKR": "물리 피해 감소량: %+d%%",
-    "plPL": "Obrażenia fizyczne zmniejszone o: %+d%%",
-    "esMX": "Daño físico reducido en: %+d%%",
-    "jaJP": "物理ダメージの減少: %+d%%",
-    "ptBR": "Dano Físico Reduzido em: %+d%%",
-    "ruRU": "Physical Damage Reduced by: %+d%%",
-    "zhCN": "物理伤害减少:%+d%%"
-  },
-  {
     "id": 63993,
     "Key": "StrSkill161",
     "enUS": "Faster Block: ",
@@ -12548,7 +12531,7 @@
   {
     "id": 64556,
     "Key": "ancientscall1",
-    "enUS": "Ancients' Presence",
+    "enUS": "Shout of the Ancients",
     "zhTW": "古人的存在",
     "deDE": "Präsenz der Alten",
     "esES": "Presencia de los Antiguos",
@@ -15318,8 +15301,8 @@
   },
   {
     "id": 46937,
-    "Key": "feralmasterylifeardefense",
-    "enUS": "and defense: +%d%%\nAll druid summons life, attack rating",
+    "Key": "feralmasteryardefense",
+    "enUS": "All druid summons attack and defense rating: +%d%%",
     "zhTW": "與防禦:+%d%%\n所有德魯伊召喚生命、攻擊等級",
     "deDE": "und Verteidigung: +%d%%\nAlle Druiden beschwören Leben, Angriffswertung",
     "esES": "y defensa: +%d%%\nTodo druida invoca vida, índice de ataque.",
@@ -16114,23 +16097,6 @@
     "ptBR": "Nível de feitiço:",
     "ruRU": "Spell Level: ",
     "zhCN": "法术等级:"
-  },
-  {
-    "id": 64151,
-    "Key": "StrSkill232",
-    "enUS": "-1% Extra Enemy Resistance per 2 Base Point",
-    "zhTW": "每 2 個基點降低敵人額外抗性 -1%",
-    "deDE": "-1% Zusätzlicher Feindwiderstand pro 2 Basispunkte",
-    "esES": "-1% Resistencia Extra Enemiga por Cada 2 Puntos Base",
-    "esMX": "-1% Resistencia Extra Enemiga por Cada 2 Puntos Base",
-    "frFR": "-1% Résistance Supplémentaire des Ennemis pour 2 Points de Base",
-    "itIT": "-1% Resistenza Extra Nemica per Ogni 2 Punti Base",
-    "koKR": "2 기본 포인트당 적 추가 저항 -1%",
-    "plPL": "-1% Dodatkowej Odporności Wrogów na Każde 2 Punkty Bazowe",
-    "jaJP": "2ベースポイントごとに敵の追加耐性 -1%",
-    "ptBR": "-1% Resistência Extra dos Inimigos por 2 Pontos Base",
-    "ruRU": "-1% Дополнительного Сопротивления Врага за Каждые 2 Базовых Очка",
-    "zhCN": "每 2 个基点降低敌人额外抗性 -1%"
   },
   {
     "id": 46588,
@@ -17529,7 +17495,7 @@
   {
     "id": 50091,
     "Key": "explodingarrowmeteorsynergy",
-    "enUS": "Main Projectile Calls Down a Fiery Arrow on the Main Target\nIf both Fire Arrow and Athulua's Wisdom have 20 levels:",
+    "enUS": "Main Projectile Calls Down a Fiery Arrow on the Main Target\nIf both Exploding Arrow and Athulua's Wisdom have 20 levels:",
     "zhTW": "主要投射物對主要目標召喚一支火焰箭\n如果火焰箭和阿圖盧亞的智慧都有 20 基礎點數：",
     "deDE": "Hauptprojektil ruft einen feurigen Pfeil auf das Hauptziel herab\nWenn sowohl Feuerpfeil als auch Athuluas Weisheit 20 Basispunkte haben:",
     "esES": "El proyectil principal invoca una Flecha de Fuego sobre el objetivo principal\nSi tanto Flecha de Fuego como Sabiduría de Athulua tienen 20 puntos base:",
@@ -22799,5 +22765,22 @@
     "ptBR": "Absorção Elemental %d%%",
     "ruRU": "Elemental Absorb %d%%",
     "zhCN": "元素吸收 %d%%"
+  },
+  {
+    "id": 50446,
+    "Key": "feralmasterylife",
+    "enUS": "All druid summons life: +%d%%",
+    "zhTW": "與防禦:+%d%%\n所有德魯伊召喚生命、攻擊等級",
+    "deDE": "und Verteidigung: +%d%%\nAlle Druiden beschwören Leben, Angriffswertung",
+    "esES": "y defensa: +%d%%\nTodo druida invoca vida, índice de ataque.",
+    "frFR": "et défense : +%d%%\nTous les druides invoquent la vie, leur score d'attaque",
+    "itIT": "e difesa: +%d%%\nTutti i druidi evocano vita, punteggio di attacco",
+    "koKR": "그리고 방어: +%d%%\n모든 드루이드 소환 생명력, 공격 등급",
+    "plPL": "i obrona: +%d%%\nKażdy druid przywołuje życie, współczynnik ataku",
+    "esMX": "y defensa: +%d%%\nTodo druida invoca vida, índice de ataque.",
+    "jaJP": "防御: +%d%%\nすべてのドルイド召喚のライフ、攻撃力",
+    "ptBR": "e defesa: +%d%%\nTodos os druidas invocam vida, classificação de ataque",
+    "ruRU": "and defense: +%d%%\nAll druid summons life, attack rating",
+    "zhCN": "和防御:+%d%%\n所有德鲁伊召唤生命、攻击等级"
   }
 ]
