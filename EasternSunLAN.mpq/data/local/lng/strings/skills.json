@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 3122,
     "Key": "FireGolem",
@@ -8277,57 +8277,6 @@
     "ruRU": "Время перезарядки арбалета: %d секунд",
     "zhCN": "弩重装时间：%d 秒",
     "zhTW": "弩的重裝時間：%d 秒"
-  },
-  {
-    "id": 47683,
-    "Key": "crossbowbasereloadtimeten",
-    "enUS": "Base Reload Time: 1.9 seconds",
-    "deDE": "Basis Nachladezeit: 1,9 Sekunden",
-    "esES": "Tiempo de recarga base: 1.9 segundos",
-    "esMX": "Tiempo de recarga base: 1.9 segundos",
-    "frFR": "Temps de rechargement de base : 1,9 secondes",
-    "itIT": "Tempo di ricarica base: 1,9 secondi",
-    "jaJP": "基本リロード時間: 1.9秒",
-    "koKR": "기본 재장전 시간: 1.9 초",
-    "plPL": "Czas przeładowania podstawowego: 1,9 sekundy",
-    "ptBR": "Tempo de Recarga Base: 1,9 segundos",
-    "ruRU": "Базовое время перезарядки: 1.9 секунд",
-    "zhCN": "基础重装时间：1.9秒",
-    "zhTW": "基礎重裝時間：1.9 秒"
-  },
-  {
-    "id": 47684,
-    "Key": "crossbowbasereloadtimetwenty",
-    "enUS": "Base Reload Time: 1.8 seconds",
-    "deDE": "Basis Nachladezeit: 1,8 Sekunden",
-    "esES": "Tiempo de recarga base: 1.8 segundos",
-    "esMX": "Tiempo de recarga base: 1.8 segundos",
-    "frFR": "Temps de rechargement de base : 1,8 secondes",
-    "itIT": "Tempo di Ricarica Base: 1,8 secondi",
-    "jaJP": "基礎リロード時間: 1.8秒",
-    "koKR": "기본 재장전 시간: 1.8초",
-    "plPL": "Czas przeładowania podstawowy: 1,8 sekundy",
-    "ptBR": "Tempo de Recarga Base: 1,8 segundos",
-    "ruRU": "Базовое время перезарядки: 1.8 секунды",
-    "zhCN": "基础重装时间：1.8秒",
-    "zhTW": "基礎重裝時間：1.8 秒"
-  },
-  {
-    "id": 47685,
-    "Key": "crossbowbasereloadtimefourty",
-    "enUS": "Base Reload Time: 1.6 seconds",
-    "deDE": "Basis Nachladezeit: 1,6 Sekunden",
-    "esES": "Tiempo de recarga base: 1.6 segundos",
-    "esMX": "Tiempo de recarga base: 1.6 segundos",
-    "frFR": "Temps de rechargement de base : 1,6 secondes",
-    "itIT": "Tempo di ricarica base: 1,6 secondi",
-    "jaJP": "基本リロード時間: 1.6秒",
-    "koKR": "기본 재장전 시간: 1.6초",
-    "plPL": "Czas przeładowania podstawowego: 1,6 sekundy",
-    "ptBR": "Tempo de Recarga Base: 1,6 segundos",
-    "ruRU": "Базовое время перезарядки: 1.6 секунды",
-    "zhCN": "基础重装时间：1.6秒",
-    "zhTW": "基礎重裝時間：1.6 秒"
   },
   {
     "id": 47686,
@@ -22544,23 +22493,6 @@
     "ptBR": "%s: %+d%% Eficácia para Todos os Bônus por Nível",
     "ruRU": "%s: %+d%% Эффективность ко Всем Бонусам за Уровень",
     "zhCN": "%s: %+d%% 对所有奖励的效果提升每级"
-  },
-  {
-    "id": 50433,
-    "Key": "oddcharmdesc",
-    "enUS": "ÿc1Re-equip after death to Refresh Bonusesÿc0\nEnables functionality related to sorceress' exclusive skills",
-    "zhTW": "ÿc1死亡後重新裝備以刷新獎勵ÿc0  \n啟用與女巫專屬技能相關的功能",
-    "deDE": "ÿc1Nach dem Tod neu ausrüsten, um Boni zu aktualisierenÿc0  \nAktiviert Funktionen, die mit den exklusiven Fähigkeiten der Zauberin verbunden sind.",
-    "esES": "ÿc1Re-equipar tras la muerte para refrescar bonificacionesÿc0  \nHabilita la funcionalidad relacionada con las habilidades exclusivas de la hechicera",
-    "frFR": "ÿc1Rééquipez-vous après la mort pour rafraîchir les bonusÿc0  \nActive la fonctionnalité liée aux compétences exclusives de la sorcière",
-    "itIT": "ÿc1Riequipaggia dopo la morte per aggiornare i bonusÿc0  \nAbilita la funzionalità relativa alle abilità esclusive della strega",
-    "koKR": "ÿc1죽음 이후 장비를 재장착하여 보너스를 새로 고침합니다ÿc0  \n여사제 전용 기술과 관련된 기능을 활성화합니다",
-    "plPL": "ÿc1Przełóż po śmierci, aby odświeżyć bonusyÿc0  \nUmożliwia funkcjonalność związaną z ekskluzywnymi umiejętnościami czarodziejki",
-    "esMX": "ÿc1Re-equipar después de la muerte para refrescar bonificacionesÿc0  \nHabilita la funcionalidad relacionada con las habilidades exclusivas de la hechicera.",
-    "jaJP": "ÿc1死後に再装備してボーナスをリフレッシュÿc0  \n魔女専用スキルに関連する機能を有効にします",
-    "ptBR": "ÿc1Re-equipar após a morte para Atualizar Bônusÿc0  \nHabilita funcionalidades relacionadas às habilidades exclusivas da feiticeira",
-    "ruRU": "ÿc1Переоснастить после смерти для обновления бонусовÿc0  \nВключает функциональность, связанную с эксклюзивными навыками волшебницы",
-    "zhCN": "ÿc1死亡后重新装备以刷新奖励ÿc0  \n启用与女巫专属技能相关的功能"
   },
   {
     "id": 50434,

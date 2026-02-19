@@ -1807,1155 +1807,1087 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1806	ytb	boot/light_plate_boots						
 1807	aqv	quiver/arrows						
 1808	cqv	quiver/bolts						
-1809	elk	potion/elixir_of_skill						
-1810	ek2	potion/elixir_of_skill						
-1811	eht	circlet/spirit_crown						
-1812	xht	circlet/spirit_crown						
-1813	yht	circlet/spirit_crown						
-1814	as2	quest/book_of_skill						
-1815	cx0	charm/small_charm2						
-1816	dfc	body_part/devils_food						
-1817	hly	quest/holy_symbol						
-1818	ggg	quest/crushed_gem						
-1819	elk	potion/elixir						
-1820	fkn	quest/ancient_scroll						
-1821	el2	potion/elixir						
-1822	q3a	sword/two_handed_sword						
-1823	w31	quest/tome_Scrolls						
-1824	w32	quest/tome_Scrolls						
-1825	w33	quest/tome_Scrolls						
-1826	w34	quest/tome_Scrolls						
-1827	w35	quest/tome_Scrolls						
-1828	w36	quest/tome_Scrolls						
-1829	w37	quest/tome_Scrolls						
-1830	w38	quest/tome_Scrolls						
-1831	w39	quest/tome_Scrolls						
-1832	w40	quest/tome_Scrolls						
-1833	w41	quest/tome_Scrolls						
-1834	w42	quest/tome_Scrolls						
-1835	w43	quest/tome_Scrolls						
-1836	w44	quest/tome_Scrolls						
-1837	w45	quest/tome_Scrolls						
-1838	w46	quest/tome_Scrolls						
-1839	w47	quest/tome_Scrolls						
-1840	w48	quest/tome_Scrolls						
-1841	w49	quest/tome_Scrolls						
-1842	w50	quest/tome_Scrolls						
-1843	w51	quest/tome_Scrolls						
-1844	w52	quest/tome_Scrolls						
-1845	w53	quest/tome_Scrolls						
-1846	w54	quest/tome_Scrolls						
-1847	w55	quest/tome_Scrolls						
-1848	w56	quest/tome_Scrolls						
-1849	w57	quest/tome_Scrolls						
-1850	w58	quest/tome_Scrolls						
-1851	w59	quest/tome_Scrolls						
-1852	w60	quest/tome_Scrolls						
-1853	w61	quest/tome_Scrolls						
-1854	w62	quest/tome_Scrolls						
-1855	w63	quest/tome_Scrolls						
-1856	w64	quest/tome_Scrolls						
-1857	w65	quest/tome_Scrolls						
-1858	w66	quest/tome_Scrolls						
-1859	w67	quest/tome_Scrolls						
-1860	w68	quest/tome_Scrolls						
-1861	w69	quest/tome_Scrolls						
-1862	w70	quest/tome_Scrolls						
-1863	w71	quest/tome_Scrolls						
-1864	w72	quest/tome_Scrolls						
-1865	w73	quest/tome_Scrolls						
-1866	w74	quest/tome_Scrolls						
-1867	w75	quest/tome_Scrolls						
-1868	w76	quest/tome_Scrolls						
-1869	w77	quest/tome_Scrolls						
-1870	w78	quest/tome_Scrolls						
-1871	w79	quest/tome_Scrolls						
-1872	w80	quest/tome_Scrolls						
-1873	w81	quest/tome_Scrolls						
-1874	w82	quest/tome_Scrolls						
-1875	w83	quest/tome_Scrolls						
-1876	w84	quest/tome_Scrolls						
-1877	w85	quest/tome_Scrolls						
-1878	w86	quest/tome_Scrolls						
-1879	w87	quest/tome_Scrolls						
-1880	w88	quest/tome_Scrolls						
-1881	0rm	h2h/arm						
-1882	9rm	h2h/arm						
-1883	arm	h2h/arm						
-1884	an0	quest/invustone1						
-1885	an1	quest/invustone2						
-1886	an2	quest/invustone3						
-1887	me0	quest/magic_eraser						
-1888	me1	quest/magic_eraser						
-1889	me2	quest/magic_eraser						
-1890	me3	quest/magic_eraser						
-1891	me4	quest/magic_eraser						
-1892	me5	quest/magic_eraser						
-1893	me6	quest/magic_eraser						
-1894	me7	quest/magic_eraser						
-1895	me8	quest/magic_eraser						
-1896	96j	quest/coupon_nor						
-1897	97j	quest/coupon_exc						
-1898	98j	quest/coupon_eli						
-1899	aj1	quest/coupon_eli						
-1900	aj2	quest/coupon_eli						
-1901	ap	helmet/cap_hat						
-1902	hlm	helmet/helm						
-1903	fhl	helmet/full_helm						
-1904	ghm	helmet/great_helm						
-1905	crn	helmet/crown						
-1906	2ui	armor/quilted_armor						
-1907	2ea	armor/leather_armor						
-1908	2la	armor/hard_leather_armor						
-1909	2tu	armor/studded_leather						
-1910	2ng	armor/ring_mail						
-1911	2cl	armor/scale_mail						
-1912	2hn	armor/chain_mail						
-1913	2rs	armor/breast_plate						
-1914	spl	armor/splint_mail						
-1915	2lt	armor/plate_mail						
-1916	2ld	armor/field_plate						
-1917	2th	armor/gothic_plate						
-1918	2ul	armor/full_plate_mail						
-1919	2ar	armor/ancient_armor						
-1920	2tp	armor/light_plate						
-1921	2uc	shield/buckler						
-1922	2ml	shield/small_shield						
-1923	2rg	shield/large_shield						
-1924	2it	shield/kite_shield						
-1925	2ow	shield/tower_shield						
-1926	2ts	shield/gothic_shield						
-1927	2lg	glove/gloves_l						
-1928	2vg	glove/heavy_gloves						
-1929	2mg	glove/bracers_m						
-1930	2tg	glove/light_gauntlets						
-1931	2hg	glove/gaunlets_h						
-1932	2lb	boot/leather_boots						
-1933	2vb	boot/heavy_boots						
-1934	2mb	boot/chain_boots						
-1935	2tb	boot/light_plate_boots						
-1936	2hb	boot/plate_boots						
-1937	3lb	belt/sash_l						
-1938	3vb	belt/light_belt						
-1939	3mb	belt/belt_m						
-1940	3tb	belt/heavy_belt						
-1941	3hb	belt/girdle_h						
-1942	2h9	helmet/bone_helm						
-1943	2sh	shield/bone_shield						
-1944	2pk	shield/spiked_shield						
-1945	4ap	helmet/cap_hat						
-1946	4kp	helmet/skull_cap						
-1947	4lm	helmet/helm						
-1948	4hl	helmet/full_helm						
-1949	4hm	helmet/great_helm						
-1950	4rn	helmet/crown						
-1951	4sk	helmet/mask						
-1952	4ui	armor/quilted_armor						
-1953	4ea	armor/leather_armor						
-1954	4la	armor/hard_leather_armor						
-1955	4tu	armor/studded_leather						
-1956	4ng	armor/ring_mail						
-1957	4cl	armor/scale_mail						
-1958	4hn	armor/chain_mail						
-1959	4rs	armor/breast_plate						
-1960	4pl	armor/splint_mail						
-1961	4lt	armor/plate_mail						
-1962	4ld	armor/field_plate						
-1963	4th	armor/gothic_plate						
-1964	4ul	armor/full_plate_mail						
-1965	4ar	armor/ancient_armor						
-1966	4tp	armor/light_plate						
-1967	4uc	shield/buckler						
-1968	4ml	shield/small_shield						
-1969	4rg	shield/large_shield						
-1970	4it	shield/kite_shield						
-1971	4ow	shield/tower_shield						
-1972	4ts	shield/gothic_shield						
-1973	4lg	glove/gloves_l						
-1974	4vg	glove/heavy_gloves						
-1975	4mg	glove/bracers_m						
-1976	4tg	glove/light_gauntlets						
-1977	4hg	glove/gaunlets_h						
-1978	4lb	boot/leather_boots						
-1979	4vb	boot/heavy_boots						
-1980	4mb	boot/chain_boots						
-1981	4tb	boot/light_plate_boots						
-1982	4hb	boot/plate_boots						
-1983	5lb	belt/sash_l						
-1984	5vb	belt/light_belt						
-1985	5mb	belt/belt_m						
-1986	5tb	belt/heavy_belt						
-1987	5hb	belt/girdle_h						
-1988	4h9	helmet/bone_helm						
-1989	4sh	shield/bone_shield						
-1990	4pk	shield/spiked_shield						
-1991	qi2	circlet/tiara						
-1992	qi3	circlet/diadem						
-1993	po1	potion/full_healing_potion						
-1994	po2	potion/full_healing_potion						
-1995	po3	potion/flask_of_renewal						
-1996	q79	javelin/maiden_javelin						
-1997	q77	bow/reflex_bow						
-1998	q78	spear/maiden_spear						
-1999	am4	spear/maiden_pike						
-2000	q83	orb/dragon_stone						
-2001	qp9	shield/heraldic_shield						
-2002	q73	h2h/claws						
-2003	qda	pelt/spirit_mask						
-2004	q72	axe/throwing_axe						
-2005	qba	helmet/assault_helmet						
-2006	qbe	helmet/avenger_guard						
-2007	qna	voodoo_head/gargoyle_head						
-2008	qpc	shield/rondache						
-2009	qne	voodoo_head/demon_head						
-2010	qbc	helmet/fanged_helm						
-2011	qde	pelt/falcon_mask						
-2012	qdd	pelt/antlers						
-2013	qdf	pelt/antlers						
-2014	q86	h2h/scissors_katar						
-2015	po4	herb/herb						
-2016	wss	quest/worldstone_shard						
-2017	2hm	helmet/great_helm						
-2018	q76	h2h/claws						
-2019	q84	orb/sacred_globe						
-2020	q85	orb/dragon_stone						
-2021	qpe	shield/aerin_shield						
-2022	q82	javelin/maiden_javelin						
-2023	q75	h2h/hatchet_hands						
-2024	q80	bow/stag_bow						
-2025	qnf	voodoo_head/demon_head						
-2026	qbd	helmet/horned_helm						
-2027	q81	spear/maiden_spear						
-2028	qdb	pelt/wolf_head						
-2029	q74	h2h/katar						
-2030	q71	knife/throwing_knife						
-2031	2pl	armor/splint_mail						
-2032	2sk	helmet/mask						
-2033	2rn	helmet/crown						
-2034	2hl	helmet/full_helm						
-2035	2lm	helmet/helm						
-2036	2kp	helmet/skull_cap						
-2037	2ap	helmet/cap_hat						
-2038	ht1	body_part/fang						
-2039	ht2	body_part/eye						
-2040	ht3	body_part/brain						
-2041	std	body_part/flag						
-2042	z01	quest/map_cellarofpain						
-2043	z02	quest/map_chasmofhorrors						
-2044	z03	quest/map_cryptofdamnation						
-2045	z04	quest/map_necropolis						
-2046	z05	quest/map_ancienttomb						
-2047	z06	quest/map_chaosrift						
-2048	z07	quest/map_infestedlair						
-2049	z08	quest/map_labyrinthofsuffering						
-2050	z09	quest/map_decayingdepths						
-2051	z10	quest/map_endlessabyss						
-2052	z11	quest/map_frozenwastes						
-2053	z12	quest/map_twistedmaze						
-2054	z13	quest/map_cursedossuary						
-2055	z14	quest/map_infernalnexus						
-2056	z15	quest/map_reliquaryofsouls						
-2057	z16	quest/map_shrineofdestruction						
-2058	z17	quest/map_eyeofthestorm						
-2059	z18	quest/map_icecrowncitadel						
-2060	z19	quest/map_thesanctumofthedead						
-2061	z20	quest/map_thereliquaryoffalselight						
-2062	m01	bow/long_battle_bow						
-2063	m02	bow/heavy_crossbow						
-2064	m03	hammer/great_maul						
-2065	m04	wand/grim_wand						
-2066	m05	polearm/necroscythe2						
-2067	m06	armor/studded_leather						
-2068	m07	orb/dragon_stone						
-2069	m08	knife/balanced_knife						
-2070	m09	sword/mana_blade						
-2071	m10	belt/sash_l						
-2072	m11	staff/war_staff						
-2073	m12	scepter/great_scepter						
-2074	m13	h2h/scissors_katar						
-2075	m14	knife/ceremonial_dagger						
-2076	m15	pelt/spirit_mask						
-2077	m16	sword/saber						
-2078	m17	scepter/scepter						
-2079	m18	sword/great_sword						
-2080	m20	circlet/diadem						
-2081	m21	axe/military_pick						
-2082	m22	sword/flamberge						
-2083	m23	wand/yew_wand						
-2084	m24	bow/long_bow						
-2085	m25	bow/crossbow						
-2086	m26	axe/balanced_axe						
-2087	m27	knife/balanced_knife						
-2088	m28	javelin/throwing_spear						
-2089	m29	staff/gnarled_staff						
-2090	um1	body_part/fang						
-2091	um2	body_part/eye						
-2092	um3	body_part/brain						
-2093	um4	body_part/broken_hourglass_shard_1						
-2094	um5	body_part/broken_hourglass_shard_2						
-2095	um6	body_part/broken_hourglass						
-2096	um7	body_part/orb_of_anointment						
-2097	um8	quest/liliths_crystallized_tear						
-2098	um9	quest/tyraels_eternal_feather						
-2099	u10	quest/pandemonium_key_set						
-2100	u11	quest/orb_of_storm						
-2101	u12	quest/orb_of_earth						
-2102	u13	quest/orb_of_water						
-2103	u14	quest/orb_of_fire						
-2104	u15	quest/orb_of_wind						
-2105	u16	quest/orb_of_creation						
-2106	u17	quest/lucion_essence						
-2107	u18	quest/lucion_fiery_relic						
-2108	u19	quest/primordial_soulstone						
-2109	u20	quest/astrogha_petrified_heart						
-2110	u21	quest/ore_shards						
-2111	u22	quest/weapons_crate						
-2112	dd1	sword/great_sword						
-2113	br2	armor/breast_plate						
-2114	sp2	shield/spiked_shield						
-2115	cr2	sword/crystal_sword						
-2116	mam	amulet/amulet						
-2117	ast	charm/ascendancy_stone						
-2118	led	charm/kill_ledger						
-2119	m30	bow/long_war_bow						
-2120	m31	javelin/maiden_javelin						
-2121	m32	javelin/throwing_spear						
-2122	m33	javelin/javelin						
-2123	m34	club/druid_club						
-2124	m35	sword/paladin_sword						
-2125	m36	staff/battle_staff						
-2126	m37	sword/katana						
-2127	m38	axe/barbarian_taxe						
-2128	mrn	ring/ring						
-2129	srk	knife/shuriken						
-2130	fsk	knife/shuriken						
-2131	kgk	knife/shuriken						
-2132	m39	knife/shuriken						
-2133	c11	charm/odd_charm						
-2134	c12	charm/odd_charm						
-2135	ib1	quest/introductory_book_1						
-2136	ib2	quest/introductory_book_2						
-2137	ib3	quest/introductory_book_2						
-2138	ib4	quest/introductory_book_2						
-2139	ib5	quest/introductory_book_2						
-2140	ib6	quest/introductory_book_2						
-2141	ib7	quest/introductory_book_2						
-2142	ib8	quest/introductory_book_3						
-2143	civerbs_ward		shield/stormguild	shield/stormguild	shield/stormguild			
-2144	civerbs_icon		amulet/amulet	amulet/amulet	amulet/amulet			
-2145	civerbs_cudgel		scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter			
-2146	hsarus_iron_heel		boot/chain_boots	boot/chain_boots	boot/chain_boots			
-2147	hsarus_iron_fist		shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata			
-2148	hsarus_iron_stay		belt/belt_m	belt/belt_m	belt/belt_m			
-2149	cleglaws_tooth		sword/hellplague	sword/hellplague	sword/hellplague			
-2150	cleglaws_claw		shield/umbral_disk	shield/umbral_disk	shield/umbral_disk			
-2151	cleglaws_pincers		glove/bracers_m	glove/bracers_m	glove/bracers_m			
-2152	irathas_collar		amulet/amulet	amulet/amulet	amulet/amulet			
-2153	irathas_cuff		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
-2154	irathas_coil		helmet/crown	helmet/crown	helmet/crown			
-2155	irathas_cord		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
-2156	isenharts_lightbrand		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
-2157	isenharts_parry		shield/the_ward	shield/the_ward	shield/the_ward			
-2158	isenharts_case		armor/breast_plate	armor/breast_plate	armor/breast_plate			
-2159	isenharts_horns		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
-2160	vidalas_barb		bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow			
-2161	vidalas_fetlock		boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots			
-2162	vidalas_ambush		armor/leather_armor	armor/leather_armor	armor/leather_armor			
-2163	vidalas_snare		amulet/amulet	amulet/amulet	amulet/amulet			
-2164	milabregas_orb		shield/umbral_disk	shield/umbral_disk	shield/umbral_disk			
-2165	milabregas_rod		scepter/war_scepter	scepter/war_scepter	scepter/war_scepter			
-2166	milabregas_diadem		helmet/crown	helmet/crown	helmet/crown			
-2167	milabregas_cape		armor/victors_silk	armor/victors_silk	armor/victors_silk			
-2168	cathans_rule		staff/battle_staff	staff/battle_staff	staff/battle_staff			
-2169	cathans_mesh		armor/chain_mail	armor/chain_mail	armor/chain_mail			
-2170	cathans_visage		helmet/mask	helmet/mask	helmet/mask			
-2171	cathans_sigil		amulet/amulet	amulet/amulet	amulet/amulet			
-2172	cathans_seal		ring/ring	ring/ring	ring/ring			
-2173	tancreds_crowbill		axe/mindrend	axe/mindrend	axe/mindrend			
-2174	tancreds_spine		armor/goldskin	armor/goldskin	armor/goldskin			
-2175	tancreds_hobnails		boot/leather_boots	boot/leather_boots	boot/leather_boots			
-2176	tancreds_weird		amulet/amulet	amulet/amulet	amulet/amulet			
-2177	tancreds_skull		helmet/wormskull	helmet/wormskull	helmet/wormskull			
-2178	sigons_gage		glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h			
-2179	sigons_visor		helmet/great_helm	helmet/great_helm	helmet/great_helm			
-2180	sigons_shelter		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
-2181	sigons_sabot		boot/plate_boots	boot/plate_boots	boot/plate_boots			
-2182	sigons_wrap		belt/girdle_h	belt/girdle_h	belt/girdle_h			
-2183	sigons_guard		shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep			
-2184	infernal_cranium		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
-2185	infernal_torch		wand/grim_wand	wand/grim_wand	wand/grim_wand			
-2186	infernal_sign		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
-2187	berserkers_headgear		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
-2188	berserkers_hauberk		armor/leather_armor	armor/leather_armor	armor/leather_armor			
-2189	berserkers_hatchet		axe/hand_axe	axe/hand_axe	axe/hand_axe			
-2190	deaths_hand		glove/gloves_l	glove/gloves_l	glove/gloves_l			
-2191	deaths_guard		belt/sash_l	belt/sash_l	belt/sash_l			
-2192	deaths_touch		sword/war_sword	sword/war_sword	sword/war_sword			
-2193	angelic_sickle		sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer			
-2194	angelic_mantle		armor/ring_mail	armor/ring_mail	armor/ring_mail			
-2195	angelic_halo		ring/ring	ring/ring	ring/ring			
-2196	angelic_wings		amulet/amulet	amulet/amulet	amulet/amulet			
-2197	arctic_horn		bow/hellclap	bow/hellclap	bow/hellclap			
-2198	arctic_furs		armor/quilted_armor	armor/quilted_armor	armor/quilted_armor			
-2199	arctic_binding		belt/light_belt	belt/light_belt	belt/light_belt			
-2200	arctic_mitts		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
-2201	arcannas_sign		amulet/amulet	amulet/amulet	amulet/amulet			
-2202	arcannas_deathwand		staff/war_staff	staff/war_staff	staff/war_staff			
-2203	arcannas_head		helmet/skull_cap	helmet/skull_cap	helmet/skull_cap			
-2204	arcannas_flesh		armor/light_plate	armor/light_plate	armor/light_plate			
-2205	natalyas_totem		helmet/wormskull	helmet/wormskull	helmet/wormskull			
-2206	natalyas_mark		h2h/natalyas_mark	h2h/natalyas_mark	h2h/natalyas_mark			
-2207	natalyas_shadow		armor/scale_mail	armor/scale_mail	armor/scale_mail			
-2208	natalyas_soul		boot/chain_boots	boot/chain_boots	boot/chain_boots			
-2209	aldurs_stony_gaze		pelt/antlers	pelt/antlers	pelt/antlers			
-2210	aldurs_deception		armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail			
-2211	aldurs_gauntlet		mace/bloodrise	mace/bloodrise	mace/bloodrise			
-2212	aldurs_advance		boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots			
-2213	immortal_kings_will		helmet/avenger_guard	helmet/avenger_guard	helmet/avenger_guard			
-2214	immortal_kings_soul_cage		armor/victors_silk	armor/victors_silk	armor/victors_silk			
-2215	immortal_kings_detail		belt/girdle_h	belt/girdle_h	belt/girdle_h			
-2216	immortal_kings_forge		glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h			
-2217	immortal_kings_pillar		boot/plate_boots	boot/plate_boots	boot/plate_boots			
-2218	immortal_kings_stone_crusher		hammer/maul	hammer/maul	hammer/maul			
-2219	tal_rashas_fire_spun_cloth		belt/belt_m	belt/belt_m	belt/belt_m			
-2220	tal_rashas_adjudication		amulet/amulet	amulet/amulet	amulet/amulet			
-2221	tal_rashas_lidless_eye		orb/dragon_stone	orb/dragon_stone	orb/dragon_stone			
-2222	tal_rashas_howling_wind		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
-2223	tal_rashas_horadric_crest		helmet/mask	helmet/mask	helmet/mask			
-2224	griswolds_valor		helmet/crown	helmet/crown	helmet/crown			
-2225	griswolds_heart		armor/corpsemourn	armor/corpsemourn	armor/corpsemourn			
-2226	griswoldss_redemption		scepter/war_scepter	scepter/war_scepter	scepter/war_scepter			
-2227	griswolds_honor		shield/crown_shield	shield/crown_shield	shield/crown_shield			
-2228	trang_ouls_guise		helmet/wormskull	helmet/wormskull	helmet/wormskull			
-2229	trang_ouls_scales		armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail			
-2230	trang_ouls_wing		voodoo_head/gargoyle_head	voodoo_head/gargoyle_head	voodoo_head/gargoyle_head			
-2231	trang_ouls_claws		glove/bracers_m	glove/bracers_m	glove/bracers_m			
-2232	trang_ouls_girth		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
-2233	mavinas_true_sight		circlet/diadem	circlet/diadem	circlet/diadem			
-2234	mavinas_embrace		armor/field_plate	armor/field_plate	armor/field_plate			
-2235	mavinas_icy_clutch		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
-2236	mavinas_tenet		belt/light_belt	belt/light_belt	belt/light_belt			
-2237	mavinas_caster		bow/reflex_bow	bow/reflex_bow	bow/reflex_bow			
-2238	telling_of_beads		amulet/amulet	amulet/amulet	amulet/amulet			
-2239	laying_of_hands		glove/gloves_l	glove/gloves_l	glove/gloves_l			
-2240	rite_of_passage		boot/leather_boots	boot/leather_boots	boot/leather_boots			
-2241	spiritual_custodian		armor/quilted_armor	armor/quilted_armor	armor/quilted_armor			
-2242	credendum		belt/belt_m	belt/belt_m	belt/belt_m			
-2243	dangoons_teaching		mace/dangoons_teaching	mace/dangoons_teaching	mace/dangoons_teaching			
-2244	heavens_taebaek		shield/heavens_taebaek	shield/heavens_taebaek	shield/heavens_taebaek			
-2245	haemosus_adament		armor/haemosus_adament	armor/haemosus_adament	armor/haemosus_adament			
-2246	ondals_almighty		helmet/ondals_almighty	helmet/ondals_almighty	helmet/ondals_almighty			
-2247	guillaumes_face		helmet/great_helm	helmet/great_helm	helmet/great_helm			
-2248	wilhelms_pride		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
-2249	magnus_skin		glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves			
-2250	wihtstans_guard		shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle			
-2251	hwanins_splendor		helmet/crown_of_thieves	helmet/crown_of_thieves	helmet/crown_of_thieves			
-2252	hwanins_refuge		armor/scale_mail	armor/scale_mail	armor/scale_mail			
-2253	hwanins_seal		belt/belt_m	belt/belt_m	belt/belt_m			
-2254	hwanins_justice		polearm/voulge	polearm/voulge	polearm/voulge			
-2255	sazabis_cobalt_redeemer		sword/hellplague	sword/hellplague	sword/hellplague			
-2256	sazabis_ghost_liberator		armor/splint_mail	armor/splint_mail	armor/splint_mail			
-2257	sazabis_mental_sheath		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
-2258	bul_kathos_sacred_charge		sword/the_patriarch	sword/the_patriarch	sword/the_patriarch			
-2259	bul_kathos_tribal_guardian		sword/war_sword	sword/war_sword	sword/war_sword			
-2260	cow_kings_horns		helmet/cap_hat	helmet/cap_hat	helmet/cap_hat			
-2261	cow_kings_hide		armor/studded_leather	armor/studded_leather	armor/studded_leather			
-2262	cow_kings_hoofs		boot/heavy_boots	boot/heavy_boots	boot/heavy_boots			
-2263	najs_puzzler		staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire			
-2264	najs_light_plate		armor/plate_mail	armor/plate_mail	armor/plate_mail			
-2265	najs_circlet		circlet/circlet	circlet/circlet	circlet/circlet			
-2266	mc_auleys_paragon		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
-2267	mc_auleys_riprap		boot/heavy_boots	boot/heavy_boots	boot/heavy_boots			
-2268	mc_auleys_taboo		glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves			
-2269	band_of_war		amulet/amulet4	amulet/amulet4	amulet/amulet4			
-2270	mc_auleys_superstition		wand/gravenspine	wand/gravenspine	wand/gravenspine			
-2271	tasselhoffs_jerkin		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2272	iron_wolfs_guard_normal		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
-2273	iron_wolfs_guard_nightmare		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
-2274	iron_wolfs_guard_hell		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
-2275	infernal_cranium-nec		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
-2276	griffiths_stare		helmet/griffith_helmet	helmet/griffith_helmet	helmet/griffith_helmet			
-2277	griffiths_protection		armor/light_plate	armor/light_plate	armor/light_plate			
-2278	griffiths_charm		amulet/behelit	amulet/behelit	amulet/behelit			
-2279	the_acolytes_spirit		ring/ring5	ring/ring5	ring/ring5			
-2280	lixos_jewel		ring/ring4	ring/ring4	ring/ring4			
-2281	motokos_charm		amulet/amulet4	amulet/amulet4	amulet/amulet4			
-2282	the_lichs_cage		armor/crypt_armor	armor/crypt_armor	armor/crypt_armor			
-2283	lim-duls_hex		wand/blackhand_key	wand/blackhand_key	wand/blackhand_key			
-2284	mask_of_the_angel_of_death		helmet/ordinance_helm	helmet/ordinance_helm	helmet/ordinance_helm			
-2285	messerschmidts_reaver		axe/the_chieftan	axe/the_chieftan	axe/the_chieftan			
-2286	blood_baron		sword/the_patriarch	sword/the_patriarch	sword/the_patriarch			
-2287	kains_sentinel		shield/the_ward	shield/the_ward	shield/the_ward			
-2288	kains_fear		armor/victors_silk	armor/victors_silk	armor/victors_silk			
-2289	griffiths_parry		sword/hexfire	sword/hexfire	sword/hexfire			
-2290	wrathamons_skull		helmet/wrathamons_skull	helmet/wrathamons_skull	helmet/wrathamons_skull			
-2291	barbarians_shelter_normal		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
-2292	barbarians_shelter_nightmare		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
-2293	barbarians_shelter_hell		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
-2294	barbarians_point_normal		sword/blacktongue	sword/blacktongue	sword/blacktongue			
-2295	barbarians_point_nightmare		sword/blacktongue	sword/blacktongue	sword/blacktongue			
-2296	barbarians_point_hell		sword/blacktongue	sword/blacktongue	sword/blacktongue			
-2297	barbarians_visage_normal		helmet/great_helm	helmet/great_helm	helmet/great_helm			
-2298	barbarians_visage_nightmare		helmet/great_helm	helmet/great_helm	helmet/great_helm			
-2299	barbarians_visage_hell		helmet/great_helm	helmet/great_helm	helmet/great_helm			
-2300	rogues_cap_normal		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
-2301	rogues_cap_nightmare		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
-2302	rogues_cap_hell		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
-2303	iron_wolfs_coif_normal		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
-2304	iron_wolfs_coif_nightmare		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
-2305	iron_wolfs_coif_hell		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
-2306	iron_wolfs_broad_sword_normal		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
-2307	iron_wolfs_sword_nightmare		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
-2308	iron_wolfs_broad_sword_hell		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
-2309	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2310	mercenarys_wraps_nightmare		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2311	mercenarys_wraps_hell		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2312	nupraptors_skull		helmet/deaths_cowl	helmet/deaths_cowl	helmet/deaths_cowl			
-2313	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2314	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2315	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
-2316	tyraels_faith		shield/steelclash	shield/steelclash	shield/steelclash			
-2317	keeper_of_the_fire		sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift			
-2318	iron_wolfs_robes_normal		armor/robe	armor/robe	armor/robe			
-2319	iron_wolfs_robes_nightmare		armor/robe	armor/robe	armor/robe			
-2320	iron_wolfs_robes_hell		armor/robe	armor/robe	armor/robe			
-2321	tharns_ward		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
-2322	divadas_screen		shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata			
-2323	raistlins_mark		amulet/amulet4	amulet/amulet4	amulet/amulet4			
-2324	lim_duls_hex		wand/blackhand_key	wand/blackhand_key	wand/blackhand_key			
-2325	darkshades_skewer		mace/bloodrise	mace/bloodrise	mace/bloodrise			
-2326	helm_of_spirits		circlet/spirit_crown	circlet/spirit_crown	circlet/spirit_crown			
-2327	vegas_beauty		circlet/vegas_beauty	circlet/vegas_beauty	circlet/vegas_beauty			
-2328	motokos_kimono		armor/motokos_kimono	armor/motokos_kimono	armor/motokos_kimono			
-2329	ihsans_gaze		helmet/ihsan_helm	helmet/ihsan_helm	helmet/ihsan_helm			
-2330	optic_amulet		amulet/optic_amulet	amulet/optic_amulet	amulet/optic_amulet			
-2331	rogues_suit_normal		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
-2332	rogues_suit_nightmare		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
-2333	rogues_suit_hell		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
-2334	wrathamons_cloak_of_night		armor/wrathamon_cloak	armor/wrathamon_cloak	armor/wrathamon_cloak			
-2335	alaziels_buckler		shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle			
-2336	taras_mirror		shield/taras_mirror	shield/taras_mirror	shield/taras_mirror			
-2337	lancelots_heraldic_lion		shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion			
-2338	alaziels_protector		armor/alaziel_armor	armor/alaziel_armor	armor/alaziel_armor			
-2339	flesh_of_the_angel_of_chaos		armor/ordinance_armor	armor/ordinance_armor	armor/ordinance_armor			
-2340	gaias_carapace		armor/gaia_carapace	armor/gaia_carapace	armor/gaia_carapace			
-2341	gaias_carapace		armor/gaia_carapace	armor/gaia_carapace	armor/gaia_carapace			
-2342	raistlins_glance		circlet/raistlin_mask	circlet/raistlin_mask	circlet/raistlin_mask			
-2343	taras_vision		circlet/taras_circlet	circlet/taras_circlet	circlet/taras_circlet			
-2344	the_gnasher					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2345	deathspade					axe/deathspade	axe/deathspade	axe/deathspade
-2346	bladebone					axe/double_axe	axe/double_axe	axe/double_axe
-2347	mindrend					axe/mindrend	axe/mindrend	axe/mindrend
-2348	rakescar					axe/war_axe	axe/war_axe	axe/war_axe
-2349	fechmars_axe					axe/large_axe	axe/large_axe	axe/large_axe
-2350	goreshovel					axe/broad_axe	axe/broad_axe	axe/broad_axe
-2351	the_chieftan					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
-2352	brainhew					axe/brainhew	axe/brainhew	axe/brainhew
-2353	the_humongous					axe/giant_axe	axe/the_minataur	axe/giant_axe
-2354	iros_torch					wand/iros_torch	wand/iros_torch	wand/iros_torch
-2355	maelstromwrath					wand/yew_wand	wand/yew_wand	wand/yew_wand
-2356	gravenspine					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2357	umes_lament					wand/grim_wand	wand/blackhand_key	wand/grim_wand
-2358	felloak					club/felloak	club/felloak	club/felloak
-2359	knell_striker					scepter/scepter	scepter/scepter	scepter/scepter
-2360	rusthandle					scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter
-2361	stormeye					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
-2362	stoutnail					club/stoutnail	club/stoutnail	club/stoutnail
-2363	crushflange					mace/mace	mace/mace	mace/mace
-2364	bloodrise					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2365	the_generals_tan_do_li_ga					mace/flail	mace/flail	mace/flail
-2366	ironstone					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
-2367	bonesob					hammer/bonesob	hammer/bonesob	hammer/bonesob
-2368	steeldriver					hammer/great_maul	hammer/great_maul	hammer/great_maul
-2369	rixots_keen					sword/short_sword	sword/short_sword	sword/short_sword
-2370	blood_crescent					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2371	krintizs_skewer					sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer
-2372	gleamscythe					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
-2373	griswolds_edge					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
-2374	hellplague					sword/hellplague	sword/hellplague	sword/hellplague
-2375	culwens_point					sword/war_sword	sword/war_sword	sword/war_sword
-2376	shadowfang					sword/shadowfang	sword/shadowfang	sword/shadowfang
-2377	soulflay					sword/claymore	sword/claymore	sword/claymore
-2378	kinemils_awl					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
-2379	blacktongue					sword/blacktongue	sword/blacktongue	sword/blacktongue
-2380	ripsaw					sword/flamberge	sword/todesfaelle_flamme	sword/flamberge
-2381	the_patriarch					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
-2382	gull					knife/dagger	knife/dagger	knife/dagger
-2383	the_diggler					knife/dirk	knife/dirk	knife/dirk
-2384	the_jade_tan_do					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
-2385	irices_shard					knife/blade	knife/stormspike	knife/blade
-2386	the_dragon_chang					spear/spear	spear/spear	spear/spear
-2387	razortine					spear/razortine	spear/razortine	spear/razortine
-2388	bloodthief					spear/brandistock	spear/soulfeast_tine	spear/brandistock
-2389	lance_of_yaggai					spear/spetum	spear/spetum	spear/spetum
-2390	the_tannr_gorerod					spear/pike	spear/pike	spear/pike
-2391	dimoaks_hew					polearm/bardiche	polearm/bardiche	polearm/bardiche
-2392	steelgoad					polearm/voulge	polearm/voulge	polearm/voulge
-2393	soul_harvest					polearm/soul_harvest	polearm/soul_harvest	polearm/soul_harvest
-2394	the_battlebranch					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
-2395	woestave					polearm/halberd	polearm/halberd	polearm/halberd
-2396	the_grim_reaper					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
-2397	bane_ash					staff/short_staff	staff/short_staff	staff/short_staff
-2398	serpent_lord					staff/long_staff	staff/long_staff	staff/long_staff
-2399	lazarus_spire					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
-2400	the_salamander					staff/battle_staff	staff/battle_staff	staff/battle_staff
-2401	the_iron_jang_bong					staff/war_staff	staff/skullcollector	staff/war_staff
-2402	pluckeye					bow/short_bow	bow/short_bow	bow/short_bow
-2403	witherstring					bow/hunters_bow	bow/hunters_bow	bow/hunters_bow
-2404	rimeraven					bow/long_bow	bow/kuko_shakaku	bow/long_bow
-2405	piercerib					bow/piercerib	bow/piercerib	bow/piercerib
-2406	pullspite					bow/pullspite	bow/pullspite	bow/pullspite
-2407	wizendraw					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
-2408	hellclap					bow/hellclap	bow/hellclap	bow/hellclap
-2409	blastbark					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
-2410	leadcrow					bow/leadcrow	bow/leadcrow	bow/leadcrow
-2411	ichorsting					bow/ichorsting	bow/ichorsting	bow/ichorsting
-2412	hellcast					bow/hellcast	bow/hellcast	bow/hellcast
-2413	doomspittle					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2414	war_bonnet					helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet
-2415	tarnhelm					helmet/skull_cap	helmet/rockstopper	helmet/skull_cap
-2416	coif_of_glory					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
-2417	duskdeep					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
-2418	wormskull					helmet/wormskull	helmet/wormskull	helmet/wormskull
-2419	howltusk					helmet/great_helm	helmet/great_helm	helmet/great_helm
-2420	undead_crown					helmet/crown	helmet/crown_of_thieves	helmet/crown
-2421	the_face_of_horror					helmet/mask	helmet/mask	helmet/mask
-2422	greyform					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
-2423	blinkbats_form					armor/leather_armor	armor/leather_armor	armor/leather_armor
-2424	the_centurion					armor/hard_leather_armor	armor/hard_leather_armor	armor/hard_leather_armor
-2425	twitchthroe					armor/studded_leather	armor/ironpelt	armor/studded_leather
-2426	darkglow					armor/ring_mail	armor/ring_mail	armor/ring_mail
-2427	hawkmail					armor/scale_mail	armor/scale_mail	armor/scale_mail
-2428	sparking_mail					armor/chain_mail	armor/chain_mail	armor/chain_mail
-2429	venomsward					armor/breast_plate	armor/breast_plate	armor/breast_plate
-2430	iceblink					armor/splint_mail	armor/splint_mail	armor/splint_mail
-2431	boneflesh					armor/plate_mail	armor/plate_mail	armor/plate_mail
-2432	rockfleece					armor/field_plate	armor/field_plate	armor/field_plate
-2433	rattlecage					armor/gothic_plate	armor/gothic_plate	armor/gothic_plate
-2434	goldskin					armor/goldskin	armor/goldskin	armor/goldskin
-2435	victors_silk					armor/victors_silk	armor/victors_silk	armor/victors_silk
-2436	heavenly_garb					armor/light_plate	armor/light_plate	armor/light_plate
-2437	pelta_lunata					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
-2438	umbral_disk					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
-2439	stormguild					shield/stormguild	shield/stormguild	shield/stormguild
-2440	wall_of_the_eyeless					shield/wall_of_the_eyeless	shield/wall_of_the_eyeless	shield/wall_of_the_eyeless
-2441	swordback_hold					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
-2442	steelclash					shield/steelclash	shield/steelclash	shield/steelclash
-2443	bverrit_keep					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
-2444	the_ward					shield/the_ward	shield/the_ward	shield/the_ward
-2445	the_hand_of_broc					glove/gloves_l	glove/gloves_l	glove/gloves_l
-2446	bloodfist					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
-2447	chance_guards					glove/bracers_m	glove/bracers_m	glove/bracers_m
-2448	magefist					glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets
-2449	frostburn					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
-2450	hotspur					boot/leather_boots	boot/leather_boots	boot/leather_boots
-2451	gorefoot					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
-2452	treads_of_cthon					boot/chain_boots	boot/chain_boots	boot/chain_boots
-2453	goblin_toe					boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots
-2454	tearhaunch					boot/plate_boots	boot/plate_boots	boot/plate_boots
-2455	lenyms_cord					belt/sash_l	belt/sash_l	belt/sash_l
-2456	snakecord					belt/light_belt	belt/light_belt	belt/light_belt
-2457	nightsmoke					belt/belt_m	belt/belt_m	belt/belt_m
-2458	goldwrap					belt/heavy_belt	belt/heavy_belt	belt/heavy_belt
-2459	bladebuckle					belt/girdle_h	belt/girdle_h	belt/girdle_h
-2460	nokozan_relic					amulet/amulet	amulet/amulet	amulet/amulet
-2461	the_eye_of_etlich					amulet/amulet	amulet/amulet	amulet/amulet
-2462	the_mahim_oak_curio					amulet/amulet	amulet/amulet	amulet/amulet
-2463	nagelring					ring/ring	ring/ring	ring/ring
-2464	manald_heal					ring/ring	ring/ring	ring/ring
-2465	the_stone_of_jordan					ring/ring	ring/ring	ring/ring
-2466	amulet_of_the_viper					amulet/viper_amulet	amulet/viper_amulet	amulet/viper_amulet
-2467	staff_of_kings					staff/staff_of_the_kings	staff/staff_of_the_kings	staff/staff_of_the_kings
-2468	horadric_staff					staff/horadric_staff	staff/horadric_staff	staff/horadric_staff
-2469	hell_forge_hammer					hammer/hellforge_hammer	hammer/hellforge_hammer	hammer/hellforge_hammer
-2470	khalim_flail					mace/khalim_flail	mace/khalim_flail	mace/khalim_flail
-2471	super_khalim_flail					mace/super_khalim_flail	mace/super_khalim_flail	mace/super_khalim_flail
-2472	coldkill					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2473	butchers_pupil					axe/deathspade	axe/deathspade	axe/deathspade
-2474	islestrike					axe/double_axe	axe/double_axe	axe/double_axe
-2475	pompes_wrath					axe/mindrend	axe/mindrend	axe/mindrend
-2476	guardian_naga					axe/war_axe	axe/war_axe	axe/war_axe
-2477	warlords_trust					axe/large_axe	axe/large_axe	axe/large_axe
-2478	spellsteel					axe/broad_axe	axe/broad_axe	axe/broad_axe
-2479	stormrider					axe/stormrider	axe/stormrider	axe/stormrider
-2480	boneslayer_blade					axe/brainhew	axe/brainhew	axe/brainhew
-2481	the_minataur					axe/the_minataur	axe/the_minataur	axe/the_minataur
-2482	suicide_branch					wand/wand	wand/wand	wand/wand
-2483	carin_shard					wand/yew_wand	wand/yew_wand	wand/yew_wand
-2484	arm_of_king_leoric					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2485	blackhand_key					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
-2486	dark_clan_crusher					club/felloak	club/felloak	club/felloak
-2487	zakarums_hand					scepter/scepter	scepter/scepter	scepter/scepter
-2488	the_fetid_sprinkler					scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter
-2489	hand_of_blessed_light					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
-2490	fleshrender					club/stoutnail	club/stoutnail	club/stoutnail
-2491	sureshrill_frost					mace/mace	mace/mace	mace/mace
-2492	moonfall					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2493	baezils_vortex					mace/flail	mace/flail	mace/flail
-2494	earthshaker					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
-2495	bloodtree_stump					hammer/maul	hammer/maul	hammer/maul
-2496	the_gavel_of_pain					hammer/the_gavel_of_pain	hammer/the_gavel_of_pain	hammer/the_gavel_of_pain
-2497	bloodletter					sword/short_sword	sword/short_sword	sword/short_sword
-2498	coldsteel_eye					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2499	hexfire					sword/hexfire	sword/hexfire	sword/hexfire
-2500	blade_of_ali_baba					sword/falchion	sword/falchion	sword/falchion
-2501	ginthers_rift					sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift
-2502	headstriker					sword/broad_sword	sword/broad_sword	sword/broad_sword
-2503	plague_bearer					sword/plague_bearer	sword/plague_bearer	sword/plague_bearer
-2504	the_atlantian					sword/war_sword	sword/war_sword	sword/war_sword
-2505	crainte_vomir					sword/shadowfang	sword/shadowfang	sword/shadowfang
-2506	bing_sz_wang					sword/claymore	sword/claymore	sword/claymore
-2507	the_vile_husk					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
-2508	cloudcrack					sword/blacktongue	sword/blacktongue	sword/blacktongue
-2509	todesfaelle_flamme					sword/todesfaelle_flamme	sword/todesfaelle_flamme	sword/todesfaelle_flamme
-2510	swordguard					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
-2511	spineripper					knife/dagger	knife/dagger	knife/dagger
-2512	heart_carver					knife/dirk	knife/dirk	knife/dirk
-2513	blackbogs_sharp					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
-2514	stormspike					knife/stormspike	knife/stormspike	knife/stormspike
-2515	the_impaler					spear/spear	spear/spear	spear/spear
-2516	kelpie_snare					spear/razortine	spear/razortine	spear/razortine
-2517	soulfeast_tine					spear/soulfeast_tine	spear/soulfeast_tine	spear/soulfeast_tine
-2518	hone_sundan					spear/spetum	spear/spetum	spear/spetum
-2519	spire_of_honor					spear/pike	spear/pike	spear/pike
-2520	the_meat_scraper					polearm/bardiche	polearm/bardiche	polearm/bardiche
-2521	blackleach_blade					polearm/voulge	polearm/voulge	polearm/voulge
-2522	athenas_wrath					polearm/athenas_wrath	polearm/athenas_wrath	polearm/athenas_wrath
-2523	pierre_tombale_couant					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
-2524	husoldal_evo					polearm/halberd	polearm/halberd	polearm/halberd
-2525	grims_burning_dead					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
-2526	razorswitch					staff/short_staff	staff/short_staff	staff/short_staff
-2527	ribcracker					staff/long_staff	staff/long_staff	staff/long_staff
-2528	chromatic_ire					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
-2529	warpspear					staff/battle_staff	staff/battle_staff	staff/battle_staff
-2530	skullcollector					staff/skullcollector	staff/skullcollector	staff/skullcollector
-2531	skystrike					bow/short_bow	bow/short_bow	bow/short_bow
-2532	riphook					bow/hunters_bow	bow/hunters_bow	bow/hunters_bow
-2533	kuko_shakaku					bow/kuko_shakaku	bow/kuko_shakaku	bow/kuko_shakaku
-2534	endlesshail					bow/piercerib	bow/piercerib	bow/piercerib
-2535	whichwild_string					bow/whichwild_string	bow/whichwild_string	bow/whichwild_string
-2536	cliffkiller					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
-2537	magewrath					bow/hellclap	bow/hellclap	bow/hellclap
-2538	godstrike_arch					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
-2539	langer_briser					bow/langer_briser	bow/langer_briser	bow/langer_briser
-2540	pus_spiter					bow/pus_spiter	bow/pus_spiter	bow/pus_spiter
-2541	buriza_do_kyanon					bow/hellcast	bow/hellcast	bow/hellcast
-2542	demon_machine					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2543	peasent_crown					helmet/cap_hat	helmet/cap_hat	helmet/cap_hat
-2544	rockstopper					helmet/rockstopper	helmet/rockstopper	helmet/rockstopper
-2545	stealskull					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
-2546	darksight_helm					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
-2547	valkiry_wing					helmet/great_helm	helmet/great_helm	helmet/great_helm
-2548	crown_of_thieves					helmet/crown_of_thieves	helmet/crown_of_thieves	helmet/crown_of_thieves
-2549	blackhorns_face					helmet/mask	helmet/mask	helmet/mask
-2550	vampiregaze					helmet/wormskull	helmet/wormskull	helmet/wormskull
-2551	the_spirit_shroud					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
-2552	skin_of_the_vipermagi					armor/leather_armor	armor/leather_armor	armor/leather_armor
-2553	skin_of_the_flayerd_one					armor/hard_leather_armor	armor/hard_leather_armor	armor/hard_leather_armor
-2554	ironpelt					armor/ironpelt	armor/ironpelt	armor/ironpelt
-2555	spiritforge					armor/ring_mail	armor/ring_mail	armor/ring_mail
-2556	crow_caw					armor/scale_mail	armor/scale_mail	armor/scale_mail
-2557	shaftstop					armor/chain_mail	armor/chain_mail	armor/chain_mail
-2558	duriels_shell					armor/breast_plate	armor/breast_plate	armor/breast_plate
-2559	skullders_ire					armor/splint_mail	armor/splint_mail	armor/splint_mail
-2560	guardian_angel_lod					armor/plate_mail	armor/plate_mail	armor/plate_mail
-2561	toothrow					armor/field_plate	armor/field_plate	armor/field_plate
-2562	atmas_wail					armor/gothic_plate	armor/gothic_plate	armor/gothic_plate
-2563	black_hades					armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail
-2564	corpsemourn					armor/corpsemourn	armor/corpsemourn	armor/corpsemourn
-2565	que_hegans_wisdon					armor/light_plate	armor/light_plate	armor/light_plate
-2566	visceratuant					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
-2567	mosers_blessed_circle					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
-2568	stormchaser					shield/stormchaser	shield/stormchaser	shield/stormchaser
-2569	tiamats_rebuke					shield/steelclash	shield/steelclash	shield/steelclash
-2570	kerkes_sanctuary					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
-2571	radimants_sphere					shield/the_ward	shield/the_ward	shield/the_ward
-2572	lidless_wall					shield/lidless_wall	shield/lidless_wall	shield/lidless_wall
-2573	lance_guard					shield/lance_guard	shield/lance_guard	shield/lance_guard
-2574	venom_grip					glove/gloves_l	glove/gloves_l	glove/gloves_l
-2575	gravepalm					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
-2576	ghoulhide					glove/bracers_m	glove/bracers_m	glove/bracers_m
-2577	lavagout					glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets
-2578	hellmouth					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
-2579	infernostride					boot/leather_boots	boot/leather_boots	boot/leather_boots
-2580	waterwalk					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
-2581	silkweave					boot/chain_boots	boot/chain_boots	boot/chain_boots
-2582	wartraveler					boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots
-2583	gorerider					boot/plate_boots	boot/plate_boots	boot/plate_boots
-2584	string_of_ears					belt/sash_l	belt/sash_l	belt/sash_l
-2585	razortail					belt/light_belt	belt/light_belt	belt/light_belt
-2586	gloomstrap					belt/belt_m	belt/belt_m	belt/belt_m
-2587	snowclash					belt/heavy_belt	belt/heavy_belt	belt/heavy_belt
-2588	thudergods_vigor					belt/girdle_h	belt/girdle_h	belt/girdle_h
-2589	harlequin_crest					helmet/cap_hat	helmet/cap_hat	helmet/cap_hat
-2590	veil_of_steel					helmet/great_helm	helmet/great_helm	helmet/great_helm
-2591	the_gladiators_bane					armor/studded_leather	armor/ironpelt	armor/studded_leather
-2592	arkaines_valor					armor/splint_mail	armor/splint_mail	armor/splint_mail
-2593	blackoak_shield					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
-2594	stormshield					shield/steelclash	shield/steelclash	shield/steelclash
-2595	hellslayer					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
-2596	messerschmidts_reaver					axe/brainhew	axe/brainhew	axe/brainhew
-2597	baranars_star					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2598	schaefers_hammer					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
-2599	the_cranium_basher					hammer/great_maul	hammer/the_gavel_of_pain	hammer/great_maul
-2600	lightsabre					sword/lightsabre	sword/lightsabre	sword/lightsabre
-2601	doombringer					sword/blacktongue	sword/blacktongue	sword/blacktongue
-2602	the_grandfather					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
-2603	wizardspike					knife/wizardspike	knife/wizardspike	knife/wizardspike
-2604	stormspire					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
-2605	eaglehorn					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
-2606	windforce					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
-2607	bul_kathos_wedding_band					ring/ring	ring/ring	ring/ring
-2608	the_cats_eye					amulet/amulet	amulet/amulet	amulet/amulet
-2609	the_rising_sun					amulet/amulet	amulet/amulet	amulet/amulet
-2610	crescent_moon					amulet/amulet	amulet/amulet	amulet/amulet
-2611	maras_kaleidoscope					amulet/amulet	amulet/amulet	amulet/amulet
-2612	atmas_scarab					amulet/amulet	amulet/amulet	amulet/amulet
-2613	dwarf_star					ring/ring	ring/ring	ring/ring
-2614	raven_frost					ring/ring	ring/ring	ring/ring
-2615	highlords_wrath					amulet/amulet	amulet/amulet	amulet/amulet
-2616	saracens_chance					amulet/amulet	amulet/amulet	amulet/amulet
-2617	arreats_face					helmet/avenger_guard	helmet/avenger_guard	helmet/avenger_guard
-2618	homunculus					voodoo_head/demon_head	voodoo_head/demon_head	voodoo_head/demon_head
-2619	titans_revenge					javelin/maiden_javelin	javelin/maiden_javelin	javelin/maiden_javelin
-2620	lycanders_aim					bow/reflex_bow	bow/reflex_bow	bow/reflex_bow
-2621	lycanders_flank					spear/maiden_pike	spear/maiden_pike	spear/maiden_pike
-2622	the_oculus					orb/dragon_stone	orb/dragon_stone	orb/dragon_stone
-2623	herald_of_zakarum					shield/aerin_shield	shield/aerin_shield	shield/aerin_shield
-2624	cutthroat_1					h2h/claws	h2h/claws	h2h/claws
-2625	jalals_mane					pelt/spirit_mask	pelt/spirit_mask	pelt/spirit_mask
-2626	the_scalper					axe/throwing_axe	axe/throwing_axe	axe/throwing_axe
-2627	bloodmoon					sword/hexfire	sword/hexfire	sword/hexfire
-2628	djinnslayer					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2629	deathbit					knife/throwing_knife	knife/throwing_knife	knife/throwing_knife
-2630	warshrike					knife/warshrike	knife/warshrike	knife/warshrike
-2631	gutsiphon					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2632	razoredge					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2633	demonlimb					club/stoutnail	club/stoutnail	club/stoutnail
-2634	steelshade					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
-2635	tomb_reaver					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
-2636	deathss_web					wand/grim_wand	wand/blackhand_key	wand/grim_wand
-2637	natures_peace					ring/ring	ring/ring	ring/ring
-2638	azurewrath					sword/crystal_sword	sword/crystal_sword	sword/crystal_sword
-2639	seraphs_hymn					amulet/amulet2	amulet/amulet2	amulet/amulet2
-2640	fleshripper					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
-2641	horizons_tornado					mace/flail	mace/flail	mace/flail
-2642	stone_crusher					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
-2643	jadetalon					h2h/katar	h2h/katar	h2h/katar
-2644	shadowdancer					boot/plate_boots	boot/plate_boots	boot/plate_boots
-2645	cerebus					pelt/wolf_head	pelt/wolf_head	pelt/wolf_head
-2646	tyraels_might					armor/victors_silk	armor/victors_silk	armor/victors_silk
-2647	souldrain					glove/bracers_m	glove/bracers_m	glove/bracers_m
-2648	runemaster					axe/double_axe	axe/double_axe	axe/double_axe
-2649	deathcleaver					axe/war_axe	axe/war_axe	axe/war_axe
-2650	executioners_justice					axe/giant_axe	axe/the_minataur	axe/giant_axe
-2651	stoneraven					spear/maiden_spear	spear/maiden_spear	spear/maiden_spear
-2652	leviathan					armor/field_plate	armor/field_plate	armor/field_plate
-2653	wisp					ring/ring	ring/ring	ring/ring
-2654	gargoyles_bite					javelin/throwing_spear	javelin/throwing_spear	javelin/throwing_spear
-2655	lacerator					axe/balanced_axe	axe/balanced_axe	axe/balanced_axe
-2656	mang_songs_lesson					staff/skullcollector	staff/skullcollector	staff/skullcollector
-2657	viperfork					spear/brandistock	spear/soulfeast_tine	spear/brandistock
-2658	ethereal_edge					axe/broad_axe	axe/broad_axe	axe/broad_axe
-2659	demonhorns_edge					helmet/horned_helm	helmet/horned_helm	helmet/horned_helm
-2660	the_reapers_toll					polearm/scythe	polearm/scythe	polearm/scythe
-2661	spiritkeeper					pelt/antlers	pelt/antlers	pelt/antlers
-2662	hellrack					bow/hellcast	bow/hellcast	bow/hellcast
-2663	alma_negra					shield/rondache	shield/rondache	shield/rondache
-2664	darkforge_spawn					voodoo_head/demon_head	voodoo_head/demon_head	voodoo_head/demon_head
-2665	widowmaker					bow/hellclap	bow/hellclap	bow/hellclap
-2666	bloodravens_charge					bow/hellclap	bow/hellclap	bow/hellclap
-2667	ghostflame					knife/blade	knife/stormspike	knife/blade
-2668	shadowkiller					h2h/shadowkiller	h2h/shadowkiller	h2h/shadowkiller
-2669	gimmershred					axe/throwing_axe	axe/throwing_axe	axe/throwing_axe
-2670	griffons_eye					circlet/diadem	circlet/tiara	circlet/diadem
-2671	windhammer					hammer/maul	hammer/maul	hammer/maul
-2672	thunderstroke					javelin/maiden_javelin	javelin/maiden_javelin	javelin/maiden_javelin
-2673	demons_arch					javelin/short_spear	javelin/short_spear	javelin/short_spear
-2674	boneflame					voodoo_head/gargoyle_head	voodoo_head/gargoyle_head	voodoo_head/gargoyle_head
-2675	steelpillar					spear/pike	spear/pike	spear/pike
-2676	nightwings_veil					helmet/great_helm	helmet/great_helm	helmet/great_helm
-2677	crown_of_ages					helmet/crown	helmet/crown_of_thieves	helmet/crown
-2678	andariels_visage					helmet/mask	helmet/mask	helmet/mask
-2679	dragonscale					shield/aerin_shield	shield/aerin_shield	shield/aerin_shield
-2680	steel_carapice					armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail
-2681	medusas_gaze					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
-2682	ravenlore					pelt/falcon_mask	pelt/falcon_mask	pelt/falcon_mask
-2683	boneshade					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2684	flamebellow					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
-2685	fathom					orb/fathom	orb/fathom	orb/fathom
-2686	wolfhowl					helmet/fanged_helm	helmet/fanged_helm	helmet/fanged_helm
-2687	spirit_ward					shield/the_ward	shield/the_ward	shield/the_ward
-2688	kiras_guardian					circlet/tiara	circlet/tiara	circlet/diadem
-2689	ormus_robes					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
-2690	gheeds_fortune					charm/charm_large	charm/charm_large	charm/charm_large
-2691	stormlash					mace/flail	mace/flail	mace/flail
-2692	halaberds_reign					helmet/assault_helmet	helmet/assault_helmet	helmet/assault_helmet
-2693	spike_thorn					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
-2694	draculs_grasp					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
-2695	frostwind					sword/hellplague	sword/hellplague	sword/hellplague
-2696	templars_might					armor/victors_silk	armor/victors_silk	armor/victors_silk
-2697	eschutas_temper					orb/sacred_globe	orb/sacred_globe	orb/sacred_globe
-2698	firelizards_talons					h2h/claws	h2h/claws	h2h/claws
-2699	sandstorm_trek					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
-2700	marrowwalk					boot/chain_boots	boot/chain_boots	boot/chain_boots
-2701	heavens_light					scepter/scepter	scepter/scepter	scepter/scepter
-2702	arachnid_mesh					belt/sash_l	belt/sash_l	belt/sash_l
-2703	nosferatus_coil					belt/light_belt	belt/light_belt	belt/light_belt
-2704	metalgrid					amulet/amulet	amulet/amulet	amulet/amulet
-2705	verdugos_hearty_cord					belt/belt_m	belt/belt_m	belt/belt_m
-2706	carrion_wind					ring/ring	ring/ring	ring/ring
-2707	giantskull					helmet/bone_helm	helmet/bone_helm	helmet/bone_helm
-2708	ironward					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
-2709	annihilus					charm/annihilus	charm/annihilus	charm/annihilus
-2710	ariocs_needle					spear/spear	spear/spear	spear/spear
-2711	cranebeak					axe/mindrend	axe/mindrend	axe/mindrend
-2712	nords_tenderizer					club/felloak	club/felloak	club/felloak
-2713	earthshifter					hammer/great_maul	hammer/the_gavel_of_pain	hammer/great_maul
-2714	wraithflight					javelin/glaive	javelin/glaive	javelin/glaive
-2715	bonehew					polearm/bardiche	polearm/bardiche	polearm/bardiche
-2716	ondals_wisdom					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
-2717	the_reedeemer					scepter/scepter	scepter/scepter	scepter/scepter
-2718	headhunters_glory					shield/wall_of_the_eyeless	shield/wall_of_the_eyeless	shield/wall_of_the_eyeless
-2719	steelrend					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
-2720	rainbow_facet					gem/perfect_diamond	gem/perfect_diamond	gem/perfect_diamond
-2721	hellfire_torch					torch/torch	torch/torch	torch/torch
-2722	deflective_spikes					armor/deflective_spikes	armor/deflective_spikes	armor/deflective_spikes
-2723	something_wicked					charm/charm_medium3	charm/charm_medium3	charm/charm_medium3
-2724	yello_jello					charm/charm_medium3	charm/charm_medium3	charm/charm_medium3
-2725	the_perfect_cell					charm/charm_small3	charm/charm_small3	charm/charm_small3
-2726	iron_thimble					ring/iron_thimble	ring/iron_thimble	ring/iron_thimble
-2727	elemental_jewel					ring/elemental_jewel	ring/elemental_jewel	ring/elemental_jewel
-2728	dragon_eye					ring/dragon_eye	ring/dragon_eye	ring/dragon_eye
-2729	the_one_ring					ring/the_one_ring	ring/the_one_ring	ring/the_one_ring
-2730	ring_of_vengeance					ring/ring_of_vengeance	ring/ring_of_vengeance	ring/ring_of_vengeance
-2731	zodiac_band					ring/zodiac_band	ring/zodiac_band	ring/zodiac_band
-2732	BlackKnights_Holy_Signet					amulet/BlackKnights_Holy_Signet	amulet/BlackKnights_Holy_Signet	amulet/BlackKnights_Holy_Signet
-2733	damage_augmenter					charm/damage_augmenter	charm/damage_augmenter	charm/damage_augmenter
-2734	lothars_will					charm/charm_large3	charm/charm_large3	charm/charm_large3
-2735	thors_hammer					hammer/mjolnir	hammer/mjolnir	hammer/mjolnir
-2736	gotterdamerung					helmet/veil_of_steel	helmet/veil_of_steel	helmet/veil_of_steel
-2737	veil_of_steel					helmet/veil_of_steel	helmet/veil_of_steel	helmet/veil_of_steel
-2738	lunar_charm					helmet/lunar_charm	helmet/lunar_charm	helmet/lunar_charm
-2739	cyclops_protector					shield/cyclop_protector	shield/cyclop_protector	shield/cyclop_protector
-2740	tortured_souls					shield/tortured_souls	shield/tortured_souls	shield/tortured_souls
-2741	the_shield_of_pain					shield/shield_of_pain	shield/shield_of_pain	shield/shield_of_pain
-2742	the_borgovs_skull					helmet/wormskull	helmet/wormskull	helmet/wormskull
-2743	deaths_cowl					helmet/deaths_cowl	helmet/deaths_cowl	helmet/deaths_cowl
-2744	black_hole					shield/black_hole	shield/black_hole	shield/black_hole
-2745	stormwynds_mania					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
-2746	wall_of_the_ancient_oak					shield/ancient_oak	shield/ancient_oak	shield/ancient_oak
-2747	the_barricade					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
-2748	elzixs_treasure					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
-2749	lady_ravens_power					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
-2750	rainbows_power					sword/rainbow_power	sword/rainbow_power	sword/rainbow_power
-2751	spellcasters_aide					amulet/spellcasters_aide	amulet/spellcasters_aide	amulet/spellcasters_aide
-2752	diablos_horns					helmet/diablos_horns	helmet/diablos_horns	helmet/diablos_horns
-2753	romanary_pelt					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
-2754	the_eagle_helm					helmet/eagle_helm	helmet/eagle_helm	helmet/eagle_helm
-2755	golem_shell					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
-2756	visor_of_the_tropics					helmet/visor_of_the_tropics	helmet/visor_of_the_tropics	helmet/visor_of_the_tropics
-2757	mithril_shield					shield/the_ward	shield/the_ward	shield/the_ward
-2758	roaring_thunder					amulet/roaring_thunder	amulet/roaring_thunder	amulet/roaring_thunder
-2759	stargate					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
-2760	mercenarys_brace					shield/stormguild	shield/stormguild	shield/stormguild
-2761	dragons_breach					shield/steelclash	shield/steelclash	shield/steelclash
-2762	lovers_pendant					amulet/amulet1	amulet/amulet1	amulet/amulet1
-2763	eye_of_the_witch					amulet/amulet2	amulet/amulet2	amulet/amulet2
-2764	collar_of_the_minotaur					amulet/amulet3	amulet/amulet3	amulet/amulet3
-2765	beads_of_the_guardian					amulet/amulet4	amulet/amulet4	amulet/amulet4
-2766	izeals_vise					armor/goldskin	armor/goldskin	armor/goldskin
-2767	atlastrust					armor/haemosus_adament	armor/haemosus_adament	armor/haemosus_adament
-2768	numenorean_iron					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
-2769	zakarum_blade					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
-2770	glacial_form					sword/glacial_form	sword/glacial_form	sword/glacial_form
-2771	cap_of_the_raven					helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet
-2772	arcs_skewer					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2773	starshine					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2774	butchers_tenderizer					mace/bloodrise	mace/bloodrise	mace/bloodrise
-2775	treefeller					axe/deathspade	axe/deathspade	axe/deathspade
-2776	the_butchers_cleaver					axe/deathspade	axe/deathspade	axe/deathspade
-2777	alea_jacta_est					axe/deathspade	axe/deathspade	axe/deathspade
-2778	kroks_basher					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2779	axe_of_the_elements					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2780	rohmshun					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
-2781	lord_of_carnage					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
-2782	fleshchew					axe/stormrider	axe/stormrider	axe/stormrider
-2783	meat_cleaver					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
-2784	the_rising_sunn					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2785	taverns_blade					sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer
-2786	the_desert_wind					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
-2787	rakas_folly					axe/brainhew	axe/brainhew	axe/brainhew
-2788	griswolds_revenge					axe/brainhew	axe/brainhew	axe/brainhew
-2789	wings_of_the_fallen_phoenix					axe/wings_fallen_phoenix	axe/wings_fallen_phoenix	axe/wings_fallen_phoenix
-2790	lifecleaver					axe/the_minataur	axe/the_minataur	axe/the_minataur
-2791	barbaric_devastator					axe/the_minataur	axe/the_minataur	axe/the_minataur
-2792	high_generals_pick					axe/mindrend	axe/mindrend	axe/mindrend
-2793	sadistic_warlord					axe/mindrend	axe/mindrend	axe/mindrend
-2794	gold_digger					axe/mindrend	axe/mindrend	axe/mindrend
-2795	bul_Kathos_rage					hammer/bonesob	hammer/bonesob	hammer/bonesob
-2796	justicar_militiari					hammer/the_gavel_of_pain	hammer/the_gavel_of_pain	hammer/the_gavel_of_pain
-2797	inifuss_branch					club/felloak	club/felloak	club/felloak
-2798	koths_cudgel					club/felloak	club/felloak	club/felloak
-2799	cavemans_fury					club/caveman_fury	club/caveman_fury	club/caveman_fury
-2800	the_horror					club/stoutnail	club/stoutnail	club/stoutnail
-2801	blood_splinter					club/stoutnail	club/stoutnail	club/stoutnail
-2802	darth_maul					club/darth_maul	club/darth_maul	club/darth_maul
-2803	the_green_lantern					wand/iros_torch	wand/iros_torch	wand/iros_torch
-2804	cinderspark					wand/cinderspark	wand/cinderspark	wand/cinderspark
-2805	arm_of_the_skeleton					wand/arm_skeleton	wand/arm_skeleton	wand/arm_skeleton
-2806	lucrecius_power					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2807	wand_of_rathma					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2808	essence_of_trang_oul					wand/gravenspine	wand/gravenspine	wand/gravenspine
-2809	wand_of_spirits					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
-2810	skull_of_horazon					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
-2811	song_of_the_damned					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
-2812	ironslice					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
-2813	the_executioners_blade					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
-2814	frost_shard					sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift
-2815	soulforge					sword/hexfire	sword/hexfire	sword/hexfire
-2816	icing_death					sword/hexfire	sword/hexfire	sword/hexfire
-2817	scourge of_the_twin_seas					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2818	diamondedge					sword/lightsabre	sword/lightsabre	sword/lightsabre
-2819	scourge_of_the_twin_seas					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2820	twinkle					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
-2821	storms_charge					sword/hellplague	sword/hellplague	sword/hellplague
-2822	soul_singer					sword/hellplague	sword/hellplague	sword/hellplague
-2823	celestial_avenger					sword/plague_bearer	sword/plague_bearer	sword/plague_bearer
-2824	the_mistress_leather_collar					amulet/leather_collar	amulet/leather_collar	amulet/leather_collar
-2825	polar_boltcaster					bow/hellcast	bow/hellcast	bow/hellcast
-2826	magnium					bow/hellcast	bow/hellcast	bow/hellcast
-2827	chaos_launcher					bow/hellcast	bow/hellcast	bow/hellcast
-2828	unholy_dartgun					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2829	qotos_bow_of_fortuitous_battle					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2830	deadly_precision					bow/doomspittle	bow/doomspittle	bow/doomspittle
-2831	tal_rashas_walking_stick					staff/skullcollector	staff/skullcollector	staff/skullcollector
-2832	vizjeris_knowledge					staff/skullcollector	staff/skullcollector	staff/skullcollector
-2833	albrieghts_bonemask					helmet/wormskull	helmet/wormskull	helmet/wormskull
-2834	skullbears_soul					shield/skullbear_soul	shield/skullbear_soul	shield/skullbear_soul
-2835	ravens_shield					shield/steelclash	shield/steelclash	shield/steelclash
-2836	spikes_of_rajamir					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
-2837	defender_of_justice					shield/the_ward	shield/the_ward	shield/the_ward
-2838	the_deflector					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
-2839	karcheus_ward					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
-2840	the_face_of_the_sun					shield/stormchaser	shield/stormchaser	shield/stormchaser
-2841	spikewall					shield/lance_guard	shield/lance_guard	shield/lance_guard
-2842	stonewall					shield/the_ward	shield/the_ward	shield/the_ward
-2843	the_seduction_of_pain					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
-2844	icon_of_sin					shield/icon_of_sin	shield/icon_of_sin	shield/icon_of_sin
-2845	knowledge					helmet/rockstopper	helmet/rockstopper	helmet/rockstopper
-2846	obsidian_helm					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
-2847	the_wanderers_guard					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
-2848	radaments_rotting_skull					shield/radaments_skull	shield/radaments_skull	shield/radaments_skull
-2849	phrozen_heart					shield/phrozen_heart	shield/phrozen_heart	shield/phrozen_heart
-2850	beowulfs_mask					helmet/beowulf_mask	helmet/beowulf_mask	helmet/beowulf_mask
-2851	bruenors_cranium					circlet/bruenors_cranium	circlet/bruenors_cranium	circlet/bruenors_cranium
-2852	the_cursed_donut					amulet/cursed_donut	amulet/cursed_donut	amulet/cursed_donut
-2853	blanchwood_vest					armor/blanchwood_vest	armor/blanchwood_vest	armor/blanchwood_vest
-2854	robe_of_the_white_mage					armor/robe_white_mage	armor/robe_white_mage	armor/robe_white_mage
-2855	zuez_padding					armor/zuez_padding	armor/zuez_padding	armor/zuez_padding
-2856	palashias_defense					armor/palashia_defense	armor/palashia_defense	armor/palashia_defense
-2857	the_rainbow_cloak					armor/rainbow_cloak	armor/rainbow_cloak	armor/rainbow_cloak
-2858	necromancers_essense					helmet/necromancers_essence	helmet/necromancers_essence	helmet/necromancers_essence
-2859	robe_of_the_phoenix					armor/robe_of_the_phoenix	armor/robe_of_the_phoenix	armor/robe_of_the_phoenix
-2860	aaktas_defense					armor/aaktas_defense	armor/aaktas_defense	armor/aaktas_defense
-2861	frozen_soulbearer					armor/frozen_soulbearer	armor/frozen_soulbearer	armor/frozen_soulbearer
-2862	talisman_of_fukurokuju					amulet/talisman_fukurokuju	amulet/talisman_fukurokuju	amulet/talisman_fukurokuju
-2863	kheleks_crystal_band					ring/khelek_ring	ring/khelek_ring	ring/khelek_ring
-2864	the_fires_of_sunlight					sword/fires_of_sunlight	sword/fires_of_sunlight	sword/fires_of_sunlight
-2865	beast_of_the_night					helmet/beast_of_the_night	helmet/beast_of_the_night	helmet/beast_of_the_night
-2866	millers_hammer					hammer/millers_hammer	hammer/millers_hammer	hammer/millers_hammer
-2867	corpsefires_head					shield/corpsefire_head	shield/corpsefire_head	shield/corpsefire_head
-2868	ravenlord					helmet/ravenlord	helmet/ravenlord	helmet/ravenlord
-2869	heart_of_jewels					helmet/heart_of_jewels	helmet/heart_of_jewels	helmet/heart_of_jewels
-2870	mojabis_face					helmet/mojabi_face	helmet/mojabi_face	helmet/mojabi_face
-2871	the_diamond_hairband					helmet/diamond_hairband	helmet/diamond_hairband	helmet/diamond_hairband
-2872	gorgon_slayer					shield/gorgon_slayer	shield/gorgon_slayer	shield/gorgon_slayer
-2873	spirit_of_the_forest					club/spirit_of_the_forest	club/spirit_of_the_forest	club/spirit_of_the_forest
-2874	vulcans_piledriver					hammer/vulcan_piledriver	hammer/vulcan_piledriver	hammer/vulcan_piledriver
-2875	raidens_staff					spear/raiden_staff	spear/raiden_staff	spear/raiden_staff
-2876	spirit_of_life					circlet/spirit_of_life	circlet/spirit_of_life	circlet/spirit_of_life
-2877	silver_rule					hammer/silver_rule	hammer/silver_rule	hammer/silver_rule
-2878	bonemash					mace/bonemash	mace/bonemash	mace/bonemash
-2879	caesars_revenge					mace/caesar_revenge	mace/caesar_revenge	mace/caesar_revenge
-2880	thundergods_anger					h2h/thundergods_anger	h2h/thundergods_anger	h2h/thundergods_anger
-2881	blackened_blade_of_arkanon					sword/blacktongue	sword/blacktongue	sword/blacktongue
-2882	ironlords_plate					armor/ironlord_plate	armor/ironlord_plate	armor/ironlord_plate
-2883	schaefers_hammer					hammer/schaefer_hammer	hammer/schaefer_hammer	hammer/schaefer_hammer
-2884	armor_of_the_wind					armor/armor_of_the_wind	armor/armor_of_the_wind	armor/armor_of_the_wind
-2885	iceshard					axe/ice_shard	axe/ice_shard	axe/ice_shard
-2886	infernal_gemstone					gem/infernal_gemstone	gem/infernal_gemstone	gem/infernal_gemstone
-2887	frozen_apocalypse					gem/frozen_apocalypse	gem/frozen_apocalypse	gem/frozen_apocalypse
-2888	electrifying_vortex					gem/electrifying_vortex	gem/electrifying_vortex	gem/electrifying_vortex
-2889	intoxicating_crystal					gem/intoxicating_crystal	gem/intoxicating_crystal	gem/intoxicating_crystal
-2890	demonic_voidstone					gem/demonic_voidstone	gem/demonic_voidstone	gem/demonic_voidstone
-2891	celestial_shard					gem/celestial_shard	gem/celestial_shard	gem/celestial_shard
-2892	celestial_shard					gem/celestial_shard	gem/celestial_shard	gem/celestial_shard
-2893	doomfletchs_prism					bow/doomfletchs_prism	bow/doomfletchs_prism	bow/doomfletchs_prism
-2894	mythical_buriza_do_kyanon					bow/mythical_buriza_do_kyanon	bow/mythical_buriza_do_kyanon	bow/mythical_buriza_do_kyanon
-2895	mjolnir					hammer/mythical_mjolnir	hammer/mythical_mjolnir	hammer/mythical_mjolnir
-2896	mephistos_will					wand/mephistos_will	wand/mephistos_will	wand/mephistos_will
-2897	the_grim_reapers_harvester					polearm/the_grim_reapers_harvester	polearm/the_grim_reapers_harvester	polearm/the_grim_reapers_harvester
-2898	aegis_of_corruption					armor/aegis_of_corruption	armor/aegis_of_corruption	armor/aegis_of_corruption
-2899	imperius_undying_wrath					orb/imperius_undying_wrath	orb/imperius_undying_wrath	orb/imperius_undying_wrath
-2900	tal_rashas_final_whisper					knife/tal_rashas_final_whisper	knife/tal_rashas_final_whisper	knife/tal_rashas_final_whisper
-2901	baals_vile_whisper					sword/baals_vile_whisper	sword/baals_vile_whisper	sword/baals_vile_whisper
-2902	headhunter					belt/headhunter	belt/headhunter	belt/headhunter
-2903	monkey_kings_bar					staff/monkey_kings_bar	staff/monkey_kings_bar	staff/monkey_kings_bar
-2904	inarius_rod					scepter/inarius_rod	scepter/inarius_rod	scepter/inarius_rod
-2905	duriels_claws					h2h/duriels_claws	h2h/duriels_claws	h2h/duriels_claws
-2906	rathmas_eternal_reign					knife/rathmas_eternal_reign	knife/rathmas_eternal_reign	knife/rathmas_eternal_reign
-2907	avatar_of_nature_horns					pelt/avatar_of_nature_horns	pelt/avatar_of_nature_horns	pelt/avatar_of_nature_horns
-2908	natalyas_bloodied_executioner					sword/natalyas_bloodied_executioner	sword/natalyas_bloodied_executioner	sword/natalyas_bloodied_executioner
-2909	lux_aeterna					scepter/lux_aeterna	scepter/lux_aeterna	scepter/lux_aeterna
-2910	frostmourne					sword/frostmourne	sword/frostmourne	sword/frostmourne
-2911	lich_king_essence_fire					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2912	lich_king_essence_cold					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2913	lich_king_essence_lightning					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2914	lich_king_essence_poison					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2915	lich_king_essence_magic					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2916	lich_king_essence_physical					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
-2917	eternal_hourglass					charm/eternal_hourglass	charm/eternal_hourglass	charm/eternal_hourglass
-2918	tathamets_awakening					circlet/tathamets_awakening	circlet/tathamets_awakening	circlet/tathamets_awakening
-2919	mythical_highlords_wrath					amulet/mythical_highlords_wrath	amulet/mythical_highlords_wrath	amulet/mythical_highlords_wrath
-2920	vessel_of_souls					amulet/vessel_of_souls	amulet/vessel_of_souls	amulet/vessel_of_souls
-2921	battlemage_ascendancy_stone					charm/battlemage_stone	charm/battlemage_stone	charm/battlemage_stone
-2922	awakened_ascendancy_stone					charm/awakened_stone	charm/awakened_stone	charm/awakened_stone
-2923	lifebreaker_ascendancy_stone					charm/lifebreaker_stone	charm/lifebreaker_stone	charm/lifebreaker_stone
-2924	blademaster_ascendancy_stone					charm/blademaster_stone	charm/blademaster_stone	charm/blademaster_stone
-2925	nomad_ascendancy_stone					charm/nomad_stone	charm/nomad_stone	charm/nomad_stone
-2926	ironbolt_ascendancy_stone					charm/ironbolt_stone	charm/ironbolt_stone	charm/ironbolt_stone
-2927	arcanist_ascendancy_stone					charm/arcanist_stone	charm/arcanist_stone	charm/arcanist_stone
-2928	soul_warden_ascendancy_stone					charm/soul_warden_stone	charm/soul_warden_stone	charm/soul_warden_stone
-2929	starborn_ascendancy_stone					charm/starborn_stone	charm/starborn_stone	charm/starborn_stone
-2930	bloodmage_ascendancy_stone					charm/bloodmage_stone	charm/bloodmage_stone	charm/bloodmage_stone
-2931	worldshaper_ascendancy_stone					charm/worldshaper_stone	charm/worldshaper_stone	charm/worldshaper_stone
-2932	stance_dancer_ascendancy_stone					charm/stance_dancer_stone	charm/stance_dancer_stone	charm/stance_dancer_stone
-2933	mana_warden_ascendancy_stone					charm/mana_warden_stone	charm/mana_warden_stone	charm/mana_warden_stone
-2934	berserker_ascendancy_stone					charm/berserker_stone	charm/berserker_stone	charm/berserker_stone
-2935	sharpshooter_ascendancy_stone					charm/sharpshooter_stone	charm/sharpshooter_stone	charm/sharpshooter_stone
-2936	iris_of_end_times					quiver/iris_of_end_times	quiver/iris_of_end_times	quiver/iris_of_end_times
-2937	rain_of_pain					quiver/rain_of_pain	quiver/rain_of_pain	quiver/rain_of_pain
-2938	tanaris_judgement					quiver/tanaris_judgement	quiver/tanaris_judgement	quiver/tanaris_judgement
-2939	daedalus_bolts					quiver/daedalus_bolts	quiver/daedalus_bolts	quiver/daedalus_bolts
-2940	kill_ledger					charm/kill_ledger	charm/kill_ledger	charm/kill_ledger
-2941	the_triune_harbinger					staff/the_triune_harbinger	staff/the_triune_harbinger	staff/the_triune_harbinger
-2942	orion					bow/orion	bow/orion	bow/orion
-2943	athulua_final_hunt					javelin/athulua_final_hunt	javelin/athulua_final_hunt	javelin/athulua_final_hunt
-2944	rathma_endlessly_bleeding_spine					javelin/rathma_endlessly_bleeding_spine	javelin/rathma_endlessly_bleeding_spine	javelin/rathma_endlessly_bleeding_spine
-2945	yaerius_celestial_beacon					javelin/yaerius_celestial_beacon	javelin/yaerius_celestial_beacon	javelin/yaerius_celestial_beacon
-2946	ancient_totem_of_scosglen					club/ancient_totem_of_scosglen	club/ancient_totem_of_scosglen	club/ancient_totem_of_scosglen
-2947	eldruin_excalibur_of_the_light					sword/eldruin_excalibur_of_the_light	sword/eldruin_excalibur_of_the_light	sword/eldruin_excalibur_of_the_light
-2948	rathma_eternal_skull					charm/rathma_eternal_skull	charm/rathma_eternal_skull	charm/rathma_eternal_skull
-2949	orpheus_pillar_of_hope					staff/orpheus_pillar_of_hope	staff/orpheus_pillar_of_hope	staff/orpheus_pillar_of_hope
-2950	tsukuyomi_dying_light					sword/tsukuyomi_dying_light	sword/tsukuyomi_dying_light	sword/tsukuyomi_dying_light
-2951	the_ties_that_bind_fire					ring/the_ties_that_bind_fire	ring/the_ties_that_bind_fire	ring/the_ties_that_bind_fire
-2952	the_ties_that_bind_cold					ring/the_ties_that_bind_cold	ring/the_ties_that_bind_cold	ring/the_ties_that_bind_cold
-2953	the_ties_that_bind_lightning					ring/the_ties_that_bind_lightning	ring/the_ties_that_bind_lightning	ring/the_ties_that_bind_lightning
-2954	the_ties_that_bind_poison					ring/the_ties_that_bind_poison	ring/the_ties_that_bind_poison	ring/the_ties_that_bind_poison
-2955	the_ties_that_bind_magic					ring/the_ties_that_bind_magic	ring/the_ties_that_bind_magic	ring/the_ties_that_bind_magic
-2956	the_ties_that_bind_wind					ring/the_ties_that_bind_wind	ring/the_ties_that_bind_wind	ring/the_ties_that_bind_wind
-2957	the_ties_that_bind_summon					ring/the_ties_that_bind_summon	ring/the_ties_that_bind_summon	ring/the_ties_that_bind_summon
-2958	void_crescent					axe/void_crescent	axe/void_crescent	axe/void_crescent
-2959	hellfire_torch_new					charm/hellfire_torch_new	charm/hellfire_torch_new	charm/hellfire_torch_new
-2960	baals_vile_whisper_shuriken					knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken
+1809	eht	circlet/spirit_crown						
+1810	xht	circlet/spirit_crown						
+1811	yht	circlet/spirit_crown						
+1812	as2	quest/book_of_skill						
+1813	cx0	charm/small_charm2						
+1814	dfc	body_part/devils_food						
+1815	hly	quest/holy_symbol						
+1816	ggg	quest/crushed_gem						
+1817	elk	potion/elixir						
+1818	fkn	quest/ancient_scroll						
+1819	el2	potion/elixir						
+1820	q3a	sword/two_handed_sword						
+1821	0rm	h2h/arm						
+1822	9rm	h2h/arm						
+1823	arm	h2h/arm						
+1824	an0	quest/invustone1						
+1825	an1	quest/invustone2						
+1826	an2	quest/invustone3						
+1827	96j	quest/coupon_nor						
+1828	97j	quest/coupon_exc						
+1829	98j	quest/coupon_eli						
+1830	aj1	quest/coupon_eli						
+1831	aj2	quest/coupon_eli						
+1832	ap	helmet/cap_hat						
+1833	hlm	helmet/helm						
+1834	fhl	helmet/full_helm						
+1835	ghm	helmet/great_helm						
+1836	crn	helmet/crown						
+1837	2ui	armor/quilted_armor						
+1838	2ea	armor/leather_armor						
+1839	2la	armor/hard_leather_armor						
+1840	2tu	armor/studded_leather						
+1841	2ng	armor/ring_mail						
+1842	2cl	armor/scale_mail						
+1843	2hn	armor/chain_mail						
+1844	2rs	armor/breast_plate						
+1845	spl	armor/splint_mail						
+1846	2lt	armor/plate_mail						
+1847	2ld	armor/field_plate						
+1848	2th	armor/gothic_plate						
+1849	2ul	armor/full_plate_mail						
+1850	2ar	armor/ancient_armor						
+1851	2tp	armor/light_plate						
+1852	2uc	shield/buckler						
+1853	2ml	shield/small_shield						
+1854	2rg	shield/large_shield						
+1855	2it	shield/kite_shield						
+1856	2ow	shield/tower_shield						
+1857	2ts	shield/gothic_shield						
+1858	2lg	glove/gloves_l						
+1859	2vg	glove/heavy_gloves						
+1860	2mg	glove/bracers_m						
+1861	2tg	glove/light_gauntlets						
+1862	2hg	glove/gaunlets_h						
+1863	2lb	boot/leather_boots						
+1864	2vb	boot/heavy_boots						
+1865	2mb	boot/chain_boots						
+1866	2tb	boot/light_plate_boots						
+1867	2hb	boot/plate_boots						
+1868	3lb	belt/sash_l						
+1869	3vb	belt/light_belt						
+1870	3mb	belt/belt_m						
+1871	3tb	belt/heavy_belt						
+1872	3hb	belt/girdle_h						
+1873	2h9	helmet/bone_helm						
+1874	2sh	shield/bone_shield						
+1875	2pk	shield/spiked_shield						
+1876	4ap	helmet/cap_hat						
+1877	4kp	helmet/skull_cap						
+1878	4lm	helmet/helm						
+1879	4hl	helmet/full_helm						
+1880	4hm	helmet/great_helm						
+1881	4rn	helmet/crown						
+1882	4sk	helmet/mask						
+1883	4ui	armor/quilted_armor						
+1884	4ea	armor/leather_armor						
+1885	4la	armor/hard_leather_armor						
+1886	4tu	armor/studded_leather						
+1887	4ng	armor/ring_mail						
+1888	4cl	armor/scale_mail						
+1889	4hn	armor/chain_mail						
+1890	4rs	armor/breast_plate						
+1891	4pl	armor/splint_mail						
+1892	4lt	armor/plate_mail						
+1893	4ld	armor/field_plate						
+1894	4th	armor/gothic_plate						
+1895	4ul	armor/full_plate_mail						
+1896	4ar	armor/ancient_armor						
+1897	4tp	armor/light_plate						
+1898	4uc	shield/buckler						
+1899	4ml	shield/small_shield						
+1900	4rg	shield/large_shield						
+1901	4it	shield/kite_shield						
+1902	4ow	shield/tower_shield						
+1903	4ts	shield/gothic_shield						
+1904	4lg	glove/gloves_l						
+1905	4vg	glove/heavy_gloves						
+1906	4mg	glove/bracers_m						
+1907	4tg	glove/light_gauntlets						
+1908	4hg	glove/gaunlets_h						
+1909	4lb	boot/leather_boots						
+1910	4vb	boot/heavy_boots						
+1911	4mb	boot/chain_boots						
+1912	4tb	boot/light_plate_boots						
+1913	4hb	boot/plate_boots						
+1914	5lb	belt/sash_l						
+1915	5vb	belt/light_belt						
+1916	5mb	belt/belt_m						
+1917	5tb	belt/heavy_belt						
+1918	5hb	belt/girdle_h						
+1919	4h9	helmet/bone_helm						
+1920	4sh	shield/bone_shield						
+1921	4pk	shield/spiked_shield						
+1922	qi2	circlet/tiara						
+1923	qi3	circlet/diadem						
+1924	po1	potion/full_healing_potion						
+1925	po2	potion/full_healing_potion						
+1926	po3	potion/flask_of_renewal						
+1927	q79	javelin/maiden_javelin						
+1928	q77	bow/reflex_bow						
+1929	q78	spear/maiden_spear						
+1930	am4	spear/maiden_pike						
+1931	q83	orb/dragon_stone						
+1932	qp9	shield/heraldic_shield						
+1933	q73	h2h/claws						
+1934	qda	pelt/spirit_mask						
+1935	q72	axe/throwing_axe						
+1936	qba	helmet/assault_helmet						
+1937	qbe	helmet/avenger_guard						
+1938	qna	voodoo_head/gargoyle_head						
+1939	qpc	shield/rondache						
+1940	qne	voodoo_head/demon_head						
+1941	qbc	helmet/fanged_helm						
+1942	qde	pelt/falcon_mask						
+1943	qdd	pelt/antlers						
+1944	qdf	pelt/antlers						
+1945	q86	h2h/scissors_katar						
+1946	po4	herb/herb						
+1947	wss	quest/worldstone_shard						
+1948	2hm	helmet/great_helm						
+1949	q76	h2h/claws						
+1950	q84	orb/sacred_globe						
+1951	q85	orb/dragon_stone						
+1952	qpe	shield/aerin_shield						
+1953	q82	javelin/maiden_javelin						
+1954	q75	h2h/hatchet_hands						
+1955	q80	bow/stag_bow						
+1956	qnf	voodoo_head/demon_head						
+1957	qbd	helmet/horned_helm						
+1958	q81	spear/maiden_spear						
+1959	qdb	pelt/wolf_head						
+1960	q74	h2h/katar						
+1961	q71	knife/throwing_knife						
+1962	2pl	armor/splint_mail						
+1963	2sk	helmet/mask						
+1964	2rn	helmet/crown						
+1965	2hl	helmet/full_helm						
+1966	2lm	helmet/helm						
+1967	2kp	helmet/skull_cap						
+1968	2ap	helmet/cap_hat						
+1969	ht1	body_part/fang						
+1970	ht2	body_part/eye						
+1971	ht3	body_part/brain						
+1972	std	body_part/flag						
+1973	z01	quest/map_cellarofpain						
+1974	z02	quest/map_chasmofhorrors						
+1975	z03	quest/map_cryptofdamnation						
+1976	z04	quest/map_necropolis						
+1977	z05	quest/map_ancienttomb						
+1978	z06	quest/map_chaosrift						
+1979	z07	quest/map_infestedlair						
+1980	z08	quest/map_labyrinthofsuffering						
+1981	z09	quest/map_decayingdepths						
+1982	z10	quest/map_endlessabyss						
+1983	z11	quest/map_frozenwastes						
+1984	z12	quest/map_twistedmaze						
+1985	z13	quest/map_cursedossuary						
+1986	z14	quest/map_infernalnexus						
+1987	z15	quest/map_reliquaryofsouls						
+1988	z16	quest/map_shrineofdestruction						
+1989	z17	quest/map_eyeofthestorm						
+1990	z18	quest/map_icecrowncitadel						
+1991	z19	quest/map_thesanctumofthedead						
+1992	z20	quest/map_thereliquaryoffalselight						
+1993	m01	bow/long_battle_bow						
+1994	m02	bow/heavy_crossbow						
+1995	m03	hammer/great_maul						
+1996	m04	wand/grim_wand						
+1997	m05	polearm/necroscythe2						
+1998	m06	armor/studded_leather						
+1999	m07	orb/dragon_stone						
+2000	m08	knife/balanced_knife						
+2001	m09	sword/mana_blade						
+2002	m10	belt/sash_l						
+2003	m11	staff/war_staff						
+2004	m12	scepter/great_scepter						
+2005	m13	h2h/scissors_katar						
+2006	m14	knife/ceremonial_dagger						
+2007	m15	pelt/spirit_mask						
+2008	m16	sword/saber						
+2009	m17	scepter/scepter						
+2010	m18	sword/great_sword						
+2011	m20	circlet/diadem						
+2012	m21	axe/military_pick						
+2013	m22	sword/flamberge						
+2014	m23	wand/yew_wand						
+2015	m24	bow/long_bow						
+2016	m25	bow/crossbow						
+2017	m26	axe/balanced_axe						
+2018	m27	knife/balanced_knife						
+2019	m28	javelin/throwing_spear						
+2020	m29	staff/gnarled_staff						
+2021	um1	body_part/fang						
+2022	um2	body_part/eye						
+2023	um3	body_part/brain						
+2024	um4	body_part/broken_hourglass_shard_1						
+2025	um5	body_part/broken_hourglass_shard_2						
+2026	um6	body_part/broken_hourglass						
+2027	um7	body_part/orb_of_anointment						
+2028	um8	quest/liliths_crystallized_tear						
+2029	um9	quest/tyraels_eternal_feather						
+2030	u10	quest/pandemonium_key_set						
+2031	u11	quest/orb_of_storm						
+2032	u12	quest/orb_of_earth						
+2033	u13	quest/orb_of_water						
+2034	u14	quest/orb_of_fire						
+2035	u15	quest/orb_of_wind						
+2036	u16	quest/orb_of_creation						
+2037	u17	quest/lucion_essence						
+2038	u18	quest/lucion_fiery_relic						
+2039	u19	quest/primordial_soulstone						
+2040	u20	quest/astrogha_petrified_heart						
+2041	u21	quest/ore_shards						
+2042	u22	quest/weapons_crate						
+2043	dd1	sword/great_sword						
+2044	br2	armor/breast_plate						
+2045	sp2	shield/spiked_shield						
+2046	cr2	sword/crystal_sword						
+2047	mam	amulet/amulet						
+2048	ast	charm/ascendancy_stone						
+2049	led	charm/kill_ledger						
+2050	m30	bow/long_war_bow						
+2051	m31	javelin/maiden_javelin						
+2052	m32	javelin/throwing_spear						
+2053	m33	javelin/javelin						
+2054	m34	club/druid_club						
+2055	m35	sword/paladin_sword						
+2056	m36	staff/battle_staff						
+2057	m37	sword/katana						
+2058	m38	axe/barbarian_taxe						
+2059	mrn	ring/ring						
+2060	srk	knife/shuriken						
+2061	fsk	knife/shuriken						
+2062	kgk	knife/shuriken						
+2063	m39	knife/shuriken						
+2064	c11	charm/odd_charm						
+2065	c12	charm/odd_charm						
+2066	ib1	quest/introductory_book_1						
+2067	ib2	quest/introductory_book_2						
+2068	ib3	quest/introductory_book_2						
+2069	ib4	quest/introductory_book_2						
+2070	ib5	quest/introductory_book_2						
+2071	ib6	quest/introductory_book_2						
+2072	ib7	quest/introductory_book_2						
+2073	ib8	quest/introductory_book_2						
+2074	ib9	quest/introductory_book_3						
+2075	civerbs_ward		shield/stormguild	shield/stormguild	shield/stormguild			
+2076	civerbs_icon		amulet/amulet	amulet/amulet	amulet/amulet			
+2077	civerbs_cudgel		scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter			
+2078	hsarus_iron_heel		boot/chain_boots	boot/chain_boots	boot/chain_boots			
+2079	hsarus_iron_fist		shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata			
+2080	hsarus_iron_stay		belt/belt_m	belt/belt_m	belt/belt_m			
+2081	cleglaws_tooth		sword/hellplague	sword/hellplague	sword/hellplague			
+2082	cleglaws_claw		shield/umbral_disk	shield/umbral_disk	shield/umbral_disk			
+2083	cleglaws_pincers		glove/bracers_m	glove/bracers_m	glove/bracers_m			
+2084	irathas_collar		amulet/amulet	amulet/amulet	amulet/amulet			
+2085	irathas_cuff		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
+2086	irathas_coil		helmet/crown	helmet/crown	helmet/crown			
+2087	irathas_cord		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
+2088	isenharts_lightbrand		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
+2089	isenharts_parry		shield/the_ward	shield/the_ward	shield/the_ward			
+2090	isenharts_case		armor/breast_plate	armor/breast_plate	armor/breast_plate			
+2091	isenharts_horns		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
+2092	vidalas_barb		bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow			
+2093	vidalas_fetlock		boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots			
+2094	vidalas_ambush		armor/leather_armor	armor/leather_armor	armor/leather_armor			
+2095	vidalas_snare		amulet/amulet	amulet/amulet	amulet/amulet			
+2096	milabregas_orb		shield/umbral_disk	shield/umbral_disk	shield/umbral_disk			
+2097	milabregas_rod		scepter/war_scepter	scepter/war_scepter	scepter/war_scepter			
+2098	milabregas_diadem		helmet/crown	helmet/crown	helmet/crown			
+2099	milabregas_cape		armor/victors_silk	armor/victors_silk	armor/victors_silk			
+2100	cathans_rule		staff/battle_staff	staff/battle_staff	staff/battle_staff			
+2101	cathans_mesh		armor/chain_mail	armor/chain_mail	armor/chain_mail			
+2102	cathans_visage		helmet/mask	helmet/mask	helmet/mask			
+2103	cathans_sigil		amulet/amulet	amulet/amulet	amulet/amulet			
+2104	cathans_seal		ring/ring	ring/ring	ring/ring			
+2105	tancreds_crowbill		axe/mindrend	axe/mindrend	axe/mindrend			
+2106	tancreds_spine		armor/goldskin	armor/goldskin	armor/goldskin			
+2107	tancreds_hobnails		boot/leather_boots	boot/leather_boots	boot/leather_boots			
+2108	tancreds_weird		amulet/amulet	amulet/amulet	amulet/amulet			
+2109	tancreds_skull		helmet/wormskull	helmet/wormskull	helmet/wormskull			
+2110	sigons_gage		glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h			
+2111	sigons_visor		helmet/great_helm	helmet/great_helm	helmet/great_helm			
+2112	sigons_shelter		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
+2113	sigons_sabot		boot/plate_boots	boot/plate_boots	boot/plate_boots			
+2114	sigons_wrap		belt/girdle_h	belt/girdle_h	belt/girdle_h			
+2115	sigons_guard		shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep			
+2116	infernal_cranium		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
+2117	infernal_torch		wand/grim_wand	wand/grim_wand	wand/grim_wand			
+2118	infernal_sign		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
+2119	berserkers_headgear		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
+2120	berserkers_hauberk		armor/leather_armor	armor/leather_armor	armor/leather_armor			
+2121	berserkers_hatchet		axe/hand_axe	axe/hand_axe	axe/hand_axe			
+2122	deaths_hand		glove/gloves_l	glove/gloves_l	glove/gloves_l			
+2123	deaths_guard		belt/sash_l	belt/sash_l	belt/sash_l			
+2124	deaths_touch		sword/war_sword	sword/war_sword	sword/war_sword			
+2125	angelic_sickle		sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer			
+2126	angelic_mantle		armor/ring_mail	armor/ring_mail	armor/ring_mail			
+2127	angelic_halo		ring/ring	ring/ring	ring/ring			
+2128	angelic_wings		amulet/amulet	amulet/amulet	amulet/amulet			
+2129	arctic_horn		bow/hellclap	bow/hellclap	bow/hellclap			
+2130	arctic_furs		armor/quilted_armor	armor/quilted_armor	armor/quilted_armor			
+2131	arctic_binding		belt/light_belt	belt/light_belt	belt/light_belt			
+2132	arctic_mitts		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
+2133	arcannas_sign		amulet/amulet	amulet/amulet	amulet/amulet			
+2134	arcannas_deathwand		staff/war_staff	staff/war_staff	staff/war_staff			
+2135	arcannas_head		helmet/skull_cap	helmet/skull_cap	helmet/skull_cap			
+2136	arcannas_flesh		armor/light_plate	armor/light_plate	armor/light_plate			
+2137	natalyas_totem		helmet/wormskull	helmet/wormskull	helmet/wormskull			
+2138	natalyas_mark		h2h/natalyas_mark	h2h/natalyas_mark	h2h/natalyas_mark			
+2139	natalyas_shadow		armor/scale_mail	armor/scale_mail	armor/scale_mail			
+2140	natalyas_soul		boot/chain_boots	boot/chain_boots	boot/chain_boots			
+2141	aldurs_stony_gaze		pelt/antlers	pelt/antlers	pelt/antlers			
+2142	aldurs_deception		armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail			
+2143	aldurs_gauntlet		mace/bloodrise	mace/bloodrise	mace/bloodrise			
+2144	aldurs_advance		boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots			
+2145	immortal_kings_will		helmet/avenger_guard	helmet/avenger_guard	helmet/avenger_guard			
+2146	immortal_kings_soul_cage		armor/victors_silk	armor/victors_silk	armor/victors_silk			
+2147	immortal_kings_detail		belt/girdle_h	belt/girdle_h	belt/girdle_h			
+2148	immortal_kings_forge		glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h			
+2149	immortal_kings_pillar		boot/plate_boots	boot/plate_boots	boot/plate_boots			
+2150	immortal_kings_stone_crusher		hammer/maul	hammer/maul	hammer/maul			
+2151	tal_rashas_fire_spun_cloth		belt/belt_m	belt/belt_m	belt/belt_m			
+2152	tal_rashas_adjudication		amulet/amulet	amulet/amulet	amulet/amulet			
+2153	tal_rashas_lidless_eye		orb/dragon_stone	orb/dragon_stone	orb/dragon_stone			
+2154	tal_rashas_howling_wind		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
+2155	tal_rashas_horadric_crest		helmet/mask	helmet/mask	helmet/mask			
+2156	griswolds_valor		helmet/crown	helmet/crown	helmet/crown			
+2157	griswolds_heart		armor/corpsemourn	armor/corpsemourn	armor/corpsemourn			
+2158	griswoldss_redemption		scepter/war_scepter	scepter/war_scepter	scepter/war_scepter			
+2159	griswolds_honor		shield/crown_shield	shield/crown_shield	shield/crown_shield			
+2160	trang_ouls_guise		helmet/wormskull	helmet/wormskull	helmet/wormskull			
+2161	trang_ouls_scales		armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail			
+2162	trang_ouls_wing		voodoo_head/gargoyle_head	voodoo_head/gargoyle_head	voodoo_head/gargoyle_head			
+2163	trang_ouls_claws		glove/bracers_m	glove/bracers_m	glove/bracers_m			
+2164	trang_ouls_girth		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
+2165	mavinas_true_sight		circlet/diadem	circlet/diadem	circlet/diadem			
+2166	mavinas_embrace		armor/field_plate	armor/field_plate	armor/field_plate			
+2167	mavinas_icy_clutch		glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets			
+2168	mavinas_tenet		belt/light_belt	belt/light_belt	belt/light_belt			
+2169	mavinas_caster		bow/reflex_bow	bow/reflex_bow	bow/reflex_bow			
+2170	telling_of_beads		amulet/amulet	amulet/amulet	amulet/amulet			
+2171	laying_of_hands		glove/gloves_l	glove/gloves_l	glove/gloves_l			
+2172	rite_of_passage		boot/leather_boots	boot/leather_boots	boot/leather_boots			
+2173	spiritual_custodian		armor/quilted_armor	armor/quilted_armor	armor/quilted_armor			
+2174	credendum		belt/belt_m	belt/belt_m	belt/belt_m			
+2175	dangoons_teaching		mace/dangoons_teaching	mace/dangoons_teaching	mace/dangoons_teaching			
+2176	heavens_taebaek		shield/heavens_taebaek	shield/heavens_taebaek	shield/heavens_taebaek			
+2177	haemosus_adament		armor/haemosus_adament	armor/haemosus_adament	armor/haemosus_adament			
+2178	ondals_almighty		helmet/ondals_almighty	helmet/ondals_almighty	helmet/ondals_almighty			
+2179	guillaumes_face		helmet/great_helm	helmet/great_helm	helmet/great_helm			
+2180	wilhelms_pride		belt/heavy_belt	belt/heavy_belt	belt/heavy_belt			
+2181	magnus_skin		glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves			
+2182	wihtstans_guard		shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle			
+2183	hwanins_splendor		helmet/crown_of_thieves	helmet/crown_of_thieves	helmet/crown_of_thieves			
+2184	hwanins_refuge		armor/scale_mail	armor/scale_mail	armor/scale_mail			
+2185	hwanins_seal		belt/belt_m	belt/belt_m	belt/belt_m			
+2186	hwanins_justice		polearm/voulge	polearm/voulge	polearm/voulge			
+2187	sazabis_cobalt_redeemer		sword/hellplague	sword/hellplague	sword/hellplague			
+2188	sazabis_ghost_liberator		armor/splint_mail	armor/splint_mail	armor/splint_mail			
+2189	sazabis_mental_sheath		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
+2190	bul_kathos_sacred_charge		sword/the_patriarch	sword/the_patriarch	sword/the_patriarch			
+2191	bul_kathos_tribal_guardian		sword/war_sword	sword/war_sword	sword/war_sword			
+2192	cow_kings_horns		helmet/cap_hat	helmet/cap_hat	helmet/cap_hat			
+2193	cow_kings_hide		armor/studded_leather	armor/studded_leather	armor/studded_leather			
+2194	cow_kings_hoofs		boot/heavy_boots	boot/heavy_boots	boot/heavy_boots			
+2195	najs_puzzler		staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire			
+2196	najs_light_plate		armor/plate_mail	armor/plate_mail	armor/plate_mail			
+2197	najs_circlet		circlet/circlet	circlet/circlet	circlet/circlet			
+2198	mc_auleys_paragon		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
+2199	mc_auleys_riprap		boot/heavy_boots	boot/heavy_boots	boot/heavy_boots			
+2200	mc_auleys_taboo		glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves			
+2201	band_of_war		amulet/amulet4	amulet/amulet4	amulet/amulet4			
+2202	mc_auleys_superstition		wand/gravenspine	wand/gravenspine	wand/gravenspine			
+2203	tasselhoffs_jerkin		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2204	iron_wolfs_guard_normal		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
+2205	iron_wolfs_guard_nightmare		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
+2206	iron_wolfs_guard_hell		shield/iron_wolf_shield	shield/iron_wolf_shield	shield/iron_wolf_shield			
+2207	infernal_cranium-nec		helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet			
+2208	griffiths_stare		helmet/griffith_helmet	helmet/griffith_helmet	helmet/griffith_helmet			
+2209	griffiths_protection		armor/light_plate	armor/light_plate	armor/light_plate			
+2210	griffiths_charm		amulet/behelit	amulet/behelit	amulet/behelit			
+2211	the_acolytes_spirit		ring/ring5	ring/ring5	ring/ring5			
+2212	lixos_jewel		ring/ring4	ring/ring4	ring/ring4			
+2213	motokos_charm		amulet/amulet4	amulet/amulet4	amulet/amulet4			
+2214	the_lichs_cage		armor/crypt_armor	armor/crypt_armor	armor/crypt_armor			
+2215	lim-duls_hex		wand/blackhand_key	wand/blackhand_key	wand/blackhand_key			
+2216	mask_of_the_angel_of_death		helmet/ordinance_helm	helmet/ordinance_helm	helmet/ordinance_helm			
+2217	messerschmidts_reaver		axe/the_chieftan	axe/the_chieftan	axe/the_chieftan			
+2218	blood_baron		sword/the_patriarch	sword/the_patriarch	sword/the_patriarch			
+2219	kains_sentinel		shield/the_ward	shield/the_ward	shield/the_ward			
+2220	kains_fear		armor/victors_silk	armor/victors_silk	armor/victors_silk			
+2221	griffiths_parry		sword/hexfire	sword/hexfire	sword/hexfire			
+2222	wrathamons_skull		helmet/wrathamons_skull	helmet/wrathamons_skull	helmet/wrathamons_skull			
+2223	barbarians_shelter_normal		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
+2224	barbarians_shelter_nightmare		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
+2225	barbarians_shelter_hell		armor/gothic_plate	armor/gothic_plate	armor/gothic_plate			
+2226	barbarians_point_normal		sword/blacktongue	sword/blacktongue	sword/blacktongue			
+2227	barbarians_point_nightmare		sword/blacktongue	sword/blacktongue	sword/blacktongue			
+2228	barbarians_point_hell		sword/blacktongue	sword/blacktongue	sword/blacktongue			
+2229	barbarians_visage_normal		helmet/great_helm	helmet/great_helm	helmet/great_helm			
+2230	barbarians_visage_nightmare		helmet/great_helm	helmet/great_helm	helmet/great_helm			
+2231	barbarians_visage_hell		helmet/great_helm	helmet/great_helm	helmet/great_helm			
+2232	rogues_cap_normal		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
+2233	rogues_cap_nightmare		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
+2234	rogues_cap_hell		helmet/rockstopper	helmet/rockstopper	helmet/rockstopper			
+2235	iron_wolfs_coif_normal		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
+2236	iron_wolfs_coif_nightmare		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
+2237	iron_wolfs_coif_hell		helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory			
+2238	iron_wolfs_broad_sword_normal		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
+2239	iron_wolfs_sword_nightmare		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
+2240	iron_wolfs_broad_sword_hell		sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge			
+2241	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2242	mercenarys_wraps_nightmare		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2243	mercenarys_wraps_hell		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2244	nupraptors_skull		helmet/deaths_cowl	helmet/deaths_cowl	helmet/deaths_cowl			
+2245	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2246	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2247	mercenarys_wraps_normal		armor/ironpelt	armor/ironpelt	armor/ironpelt			
+2248	tyraels_faith		shield/steelclash	shield/steelclash	shield/steelclash			
+2249	keeper_of_the_fire		sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift			
+2250	iron_wolfs_robes_normal		armor/robe	armor/robe	armor/robe			
+2251	iron_wolfs_robes_nightmare		armor/robe	armor/robe	armor/robe			
+2252	iron_wolfs_robes_hell		armor/robe	armor/robe	armor/robe			
+2253	tharns_ward		helmet/duskdeep	helmet/duskdeep	helmet/duskdeep			
+2254	divadas_screen		shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata			
+2255	raistlins_mark		amulet/amulet4	amulet/amulet4	amulet/amulet4			
+2256	lim_duls_hex		wand/blackhand_key	wand/blackhand_key	wand/blackhand_key			
+2257	darkshades_skewer		mace/bloodrise	mace/bloodrise	mace/bloodrise			
+2258	helm_of_spirits		circlet/spirit_crown	circlet/spirit_crown	circlet/spirit_crown			
+2259	vegas_beauty		circlet/vegas_beauty	circlet/vegas_beauty	circlet/vegas_beauty			
+2260	motokos_kimono		armor/motokos_kimono	armor/motokos_kimono	armor/motokos_kimono			
+2261	ihsans_gaze		helmet/ihsan_helm	helmet/ihsan_helm	helmet/ihsan_helm			
+2262	optic_amulet		amulet/optic_amulet	amulet/optic_amulet	amulet/optic_amulet			
+2263	rogues_suit_normal		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
+2264	rogues_suit_nightmare		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
+2265	rogues_suit_hell		armor/rogue_armor	armor/rogue_armor	armor/rogue_armor			
+2266	wrathamons_cloak_of_night		armor/wrathamon_cloak	armor/wrathamon_cloak	armor/wrathamon_cloak			
+2267	alaziels_buckler		shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle			
+2268	taras_mirror		shield/taras_mirror	shield/taras_mirror	shield/taras_mirror			
+2269	lancelots_heraldic_lion		shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion			
+2270	alaziels_protector		armor/alaziel_armor	armor/alaziel_armor	armor/alaziel_armor			
+2271	flesh_of_the_angel_of_chaos		armor/ordinance_armor	armor/ordinance_armor	armor/ordinance_armor			
+2272	gaias_carapace		armor/gaia_carapace	armor/gaia_carapace	armor/gaia_carapace			
+2273	gaias_carapace		armor/gaia_carapace	armor/gaia_carapace	armor/gaia_carapace			
+2274	raistlins_glance		circlet/raistlin_mask	circlet/raistlin_mask	circlet/raistlin_mask			
+2275	taras_vision		circlet/taras_circlet	circlet/taras_circlet	circlet/taras_circlet			
+2276	the_gnasher					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2277	deathspade					axe/deathspade	axe/deathspade	axe/deathspade
+2278	bladebone					axe/double_axe	axe/double_axe	axe/double_axe
+2279	mindrend					axe/mindrend	axe/mindrend	axe/mindrend
+2280	rakescar					axe/war_axe	axe/war_axe	axe/war_axe
+2281	fechmars_axe					axe/large_axe	axe/large_axe	axe/large_axe
+2282	goreshovel					axe/broad_axe	axe/broad_axe	axe/broad_axe
+2283	the_chieftan					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
+2284	brainhew					axe/brainhew	axe/brainhew	axe/brainhew
+2285	the_humongous					axe/giant_axe	axe/the_minataur	axe/giant_axe
+2286	iros_torch					wand/iros_torch	wand/iros_torch	wand/iros_torch
+2287	maelstromwrath					wand/yew_wand	wand/yew_wand	wand/yew_wand
+2288	gravenspine					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2289	umes_lament					wand/grim_wand	wand/blackhand_key	wand/grim_wand
+2290	felloak					club/felloak	club/felloak	club/felloak
+2291	knell_striker					scepter/scepter	scepter/scepter	scepter/scepter
+2292	rusthandle					scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter
+2293	stormeye					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
+2294	stoutnail					club/stoutnail	club/stoutnail	club/stoutnail
+2295	crushflange					mace/mace	mace/mace	mace/mace
+2296	bloodrise					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2297	the_generals_tan_do_li_ga					mace/flail	mace/flail	mace/flail
+2298	ironstone					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
+2299	bonesob					hammer/bonesob	hammer/bonesob	hammer/bonesob
+2300	steeldriver					hammer/great_maul	hammer/great_maul	hammer/great_maul
+2301	rixots_keen					sword/short_sword	sword/short_sword	sword/short_sword
+2302	blood_crescent					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2303	krintizs_skewer					sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer
+2304	gleamscythe					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
+2305	griswolds_edge					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
+2306	hellplague					sword/hellplague	sword/hellplague	sword/hellplague
+2307	culwens_point					sword/war_sword	sword/war_sword	sword/war_sword
+2308	shadowfang					sword/shadowfang	sword/shadowfang	sword/shadowfang
+2309	soulflay					sword/claymore	sword/claymore	sword/claymore
+2310	kinemils_awl					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
+2311	blacktongue					sword/blacktongue	sword/blacktongue	sword/blacktongue
+2312	ripsaw					sword/flamberge	sword/todesfaelle_flamme	sword/flamberge
+2313	the_patriarch					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
+2314	gull					knife/dagger	knife/dagger	knife/dagger
+2315	the_diggler					knife/dirk	knife/dirk	knife/dirk
+2316	the_jade_tan_do					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
+2317	irices_shard					knife/blade	knife/stormspike	knife/blade
+2318	the_dragon_chang					spear/spear	spear/spear	spear/spear
+2319	razortine					spear/razortine	spear/razortine	spear/razortine
+2320	bloodthief					spear/brandistock	spear/soulfeast_tine	spear/brandistock
+2321	lance_of_yaggai					spear/spetum	spear/spetum	spear/spetum
+2322	the_tannr_gorerod					spear/pike	spear/pike	spear/pike
+2323	dimoaks_hew					polearm/bardiche	polearm/bardiche	polearm/bardiche
+2324	steelgoad					polearm/voulge	polearm/voulge	polearm/voulge
+2325	soul_harvest					polearm/soul_harvest	polearm/soul_harvest	polearm/soul_harvest
+2326	the_battlebranch					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
+2327	woestave					polearm/halberd	polearm/halberd	polearm/halberd
+2328	the_grim_reaper					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
+2329	bane_ash					staff/short_staff	staff/short_staff	staff/short_staff
+2330	serpent_lord					staff/long_staff	staff/long_staff	staff/long_staff
+2331	lazarus_spire					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
+2332	the_salamander					staff/battle_staff	staff/battle_staff	staff/battle_staff
+2333	the_iron_jang_bong					staff/war_staff	staff/skullcollector	staff/war_staff
+2334	pluckeye					bow/short_bow	bow/short_bow	bow/short_bow
+2335	witherstring					bow/hunters_bow	bow/hunters_bow	bow/hunters_bow
+2336	rimeraven					bow/long_bow	bow/kuko_shakaku	bow/long_bow
+2337	piercerib					bow/piercerib	bow/piercerib	bow/piercerib
+2338	pullspite					bow/pullspite	bow/pullspite	bow/pullspite
+2339	wizendraw					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
+2340	hellclap					bow/hellclap	bow/hellclap	bow/hellclap
+2341	blastbark					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
+2342	leadcrow					bow/leadcrow	bow/leadcrow	bow/leadcrow
+2343	ichorsting					bow/ichorsting	bow/ichorsting	bow/ichorsting
+2344	hellcast					bow/hellcast	bow/hellcast	bow/hellcast
+2345	doomspittle					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2346	war_bonnet					helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet
+2347	tarnhelm					helmet/skull_cap	helmet/rockstopper	helmet/skull_cap
+2348	coif_of_glory					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
+2349	duskdeep					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
+2350	wormskull					helmet/wormskull	helmet/wormskull	helmet/wormskull
+2351	howltusk					helmet/great_helm	helmet/great_helm	helmet/great_helm
+2352	undead_crown					helmet/crown	helmet/crown_of_thieves	helmet/crown
+2353	the_face_of_horror					helmet/mask	helmet/mask	helmet/mask
+2354	greyform					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
+2355	blinkbats_form					armor/leather_armor	armor/leather_armor	armor/leather_armor
+2356	the_centurion					armor/hard_leather_armor	armor/hard_leather_armor	armor/hard_leather_armor
+2357	twitchthroe					armor/studded_leather	armor/ironpelt	armor/studded_leather
+2358	darkglow					armor/ring_mail	armor/ring_mail	armor/ring_mail
+2359	hawkmail					armor/scale_mail	armor/scale_mail	armor/scale_mail
+2360	sparking_mail					armor/chain_mail	armor/chain_mail	armor/chain_mail
+2361	venomsward					armor/breast_plate	armor/breast_plate	armor/breast_plate
+2362	iceblink					armor/splint_mail	armor/splint_mail	armor/splint_mail
+2363	boneflesh					armor/plate_mail	armor/plate_mail	armor/plate_mail
+2364	rockfleece					armor/field_plate	armor/field_plate	armor/field_plate
+2365	rattlecage					armor/gothic_plate	armor/gothic_plate	armor/gothic_plate
+2366	goldskin					armor/goldskin	armor/goldskin	armor/goldskin
+2367	victors_silk					armor/victors_silk	armor/victors_silk	armor/victors_silk
+2368	heavenly_garb					armor/light_plate	armor/light_plate	armor/light_plate
+2369	pelta_lunata					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
+2370	umbral_disk					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
+2371	stormguild					shield/stormguild	shield/stormguild	shield/stormguild
+2372	wall_of_the_eyeless					shield/wall_of_the_eyeless	shield/wall_of_the_eyeless	shield/wall_of_the_eyeless
+2373	swordback_hold					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
+2374	steelclash					shield/steelclash	shield/steelclash	shield/steelclash
+2375	bverrit_keep					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
+2376	the_ward					shield/the_ward	shield/the_ward	shield/the_ward
+2377	the_hand_of_broc					glove/gloves_l	glove/gloves_l	glove/gloves_l
+2378	bloodfist					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
+2379	chance_guards					glove/bracers_m	glove/bracers_m	glove/bracers_m
+2380	magefist					glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets
+2381	frostburn					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
+2382	hotspur					boot/leather_boots	boot/leather_boots	boot/leather_boots
+2383	gorefoot					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
+2384	treads_of_cthon					boot/chain_boots	boot/chain_boots	boot/chain_boots
+2385	goblin_toe					boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots
+2386	tearhaunch					boot/plate_boots	boot/plate_boots	boot/plate_boots
+2387	lenyms_cord					belt/sash_l	belt/sash_l	belt/sash_l
+2388	snakecord					belt/light_belt	belt/light_belt	belt/light_belt
+2389	nightsmoke					belt/belt_m	belt/belt_m	belt/belt_m
+2390	goldwrap					belt/heavy_belt	belt/heavy_belt	belt/heavy_belt
+2391	bladebuckle					belt/girdle_h	belt/girdle_h	belt/girdle_h
+2392	nokozan_relic					amulet/amulet	amulet/amulet	amulet/amulet
+2393	the_eye_of_etlich					amulet/amulet	amulet/amulet	amulet/amulet
+2394	the_mahim_oak_curio					amulet/amulet	amulet/amulet	amulet/amulet
+2395	nagelring					ring/ring	ring/ring	ring/ring
+2396	manald_heal					ring/ring	ring/ring	ring/ring
+2397	the_stone_of_jordan					ring/ring	ring/ring	ring/ring
+2398	amulet_of_the_viper					amulet/viper_amulet	amulet/viper_amulet	amulet/viper_amulet
+2399	staff_of_kings					staff/staff_of_the_kings	staff/staff_of_the_kings	staff/staff_of_the_kings
+2400	horadric_staff					staff/horadric_staff	staff/horadric_staff	staff/horadric_staff
+2401	hell_forge_hammer					hammer/hellforge_hammer	hammer/hellforge_hammer	hammer/hellforge_hammer
+2402	khalim_flail					mace/khalim_flail	mace/khalim_flail	mace/khalim_flail
+2403	super_khalim_flail					mace/super_khalim_flail	mace/super_khalim_flail	mace/super_khalim_flail
+2404	coldkill					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2405	butchers_pupil					axe/deathspade	axe/deathspade	axe/deathspade
+2406	islestrike					axe/double_axe	axe/double_axe	axe/double_axe
+2407	pompes_wrath					axe/mindrend	axe/mindrend	axe/mindrend
+2408	guardian_naga					axe/war_axe	axe/war_axe	axe/war_axe
+2409	warlords_trust					axe/large_axe	axe/large_axe	axe/large_axe
+2410	spellsteel					axe/broad_axe	axe/broad_axe	axe/broad_axe
+2411	stormrider					axe/stormrider	axe/stormrider	axe/stormrider
+2412	boneslayer_blade					axe/brainhew	axe/brainhew	axe/brainhew
+2413	the_minataur					axe/the_minataur	axe/the_minataur	axe/the_minataur
+2414	suicide_branch					wand/wand	wand/wand	wand/wand
+2415	carin_shard					wand/yew_wand	wand/yew_wand	wand/yew_wand
+2416	arm_of_king_leoric					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2417	blackhand_key					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
+2418	dark_clan_crusher					club/felloak	club/felloak	club/felloak
+2419	zakarums_hand					scepter/scepter	scepter/scepter	scepter/scepter
+2420	the_fetid_sprinkler					scepter/grand_scepter	scepter/grand_scepter	scepter/grand_scepter
+2421	hand_of_blessed_light					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
+2422	fleshrender					club/stoutnail	club/stoutnail	club/stoutnail
+2423	sureshrill_frost					mace/mace	mace/mace	mace/mace
+2424	moonfall					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2425	baezils_vortex					mace/flail	mace/flail	mace/flail
+2426	earthshaker					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
+2427	bloodtree_stump					hammer/maul	hammer/maul	hammer/maul
+2428	the_gavel_of_pain					hammer/the_gavel_of_pain	hammer/the_gavel_of_pain	hammer/the_gavel_of_pain
+2429	bloodletter					sword/short_sword	sword/short_sword	sword/short_sword
+2430	coldsteel_eye					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2431	hexfire					sword/hexfire	sword/hexfire	sword/hexfire
+2432	blade_of_ali_baba					sword/falchion	sword/falchion	sword/falchion
+2433	ginthers_rift					sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift
+2434	headstriker					sword/broad_sword	sword/broad_sword	sword/broad_sword
+2435	plague_bearer					sword/plague_bearer	sword/plague_bearer	sword/plague_bearer
+2436	the_atlantian					sword/war_sword	sword/war_sword	sword/war_sword
+2437	crainte_vomir					sword/shadowfang	sword/shadowfang	sword/shadowfang
+2438	bing_sz_wang					sword/claymore	sword/claymore	sword/claymore
+2439	the_vile_husk					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
+2440	cloudcrack					sword/blacktongue	sword/blacktongue	sword/blacktongue
+2441	todesfaelle_flamme					sword/todesfaelle_flamme	sword/todesfaelle_flamme	sword/todesfaelle_flamme
+2442	swordguard					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
+2443	spineripper					knife/dagger	knife/dagger	knife/dagger
+2444	heart_carver					knife/dirk	knife/dirk	knife/dirk
+2445	blackbogs_sharp					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
+2446	stormspike					knife/stormspike	knife/stormspike	knife/stormspike
+2447	the_impaler					spear/spear	spear/spear	spear/spear
+2448	kelpie_snare					spear/razortine	spear/razortine	spear/razortine
+2449	soulfeast_tine					spear/soulfeast_tine	spear/soulfeast_tine	spear/soulfeast_tine
+2450	hone_sundan					spear/spetum	spear/spetum	spear/spetum
+2451	spire_of_honor					spear/pike	spear/pike	spear/pike
+2452	the_meat_scraper					polearm/bardiche	polearm/bardiche	polearm/bardiche
+2453	blackleach_blade					polearm/voulge	polearm/voulge	polearm/voulge
+2454	athenas_wrath					polearm/athenas_wrath	polearm/athenas_wrath	polearm/athenas_wrath
+2455	pierre_tombale_couant					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
+2456	husoldal_evo					polearm/halberd	polearm/halberd	polearm/halberd
+2457	grims_burning_dead					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
+2458	razorswitch					staff/short_staff	staff/short_staff	staff/short_staff
+2459	ribcracker					staff/long_staff	staff/long_staff	staff/long_staff
+2460	chromatic_ire					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
+2461	warpspear					staff/battle_staff	staff/battle_staff	staff/battle_staff
+2462	skullcollector					staff/skullcollector	staff/skullcollector	staff/skullcollector
+2463	skystrike					bow/short_bow	bow/short_bow	bow/short_bow
+2464	riphook					bow/hunters_bow	bow/hunters_bow	bow/hunters_bow
+2465	kuko_shakaku					bow/kuko_shakaku	bow/kuko_shakaku	bow/kuko_shakaku
+2466	endlesshail					bow/piercerib	bow/piercerib	bow/piercerib
+2467	whichwild_string					bow/whichwild_string	bow/whichwild_string	bow/whichwild_string
+2468	cliffkiller					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
+2469	magewrath					bow/hellclap	bow/hellclap	bow/hellclap
+2470	godstrike_arch					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
+2471	langer_briser					bow/langer_briser	bow/langer_briser	bow/langer_briser
+2472	pus_spiter					bow/pus_spiter	bow/pus_spiter	bow/pus_spiter
+2473	buriza_do_kyanon					bow/hellcast	bow/hellcast	bow/hellcast
+2474	demon_machine					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2475	peasent_crown					helmet/cap_hat	helmet/cap_hat	helmet/cap_hat
+2476	rockstopper					helmet/rockstopper	helmet/rockstopper	helmet/rockstopper
+2477	stealskull					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
+2478	darksight_helm					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
+2479	valkiry_wing					helmet/great_helm	helmet/great_helm	helmet/great_helm
+2480	crown_of_thieves					helmet/crown_of_thieves	helmet/crown_of_thieves	helmet/crown_of_thieves
+2481	blackhorns_face					helmet/mask	helmet/mask	helmet/mask
+2482	vampiregaze					helmet/wormskull	helmet/wormskull	helmet/wormskull
+2483	the_spirit_shroud					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
+2484	skin_of_the_vipermagi					armor/leather_armor	armor/leather_armor	armor/leather_armor
+2485	skin_of_the_flayerd_one					armor/hard_leather_armor	armor/hard_leather_armor	armor/hard_leather_armor
+2486	ironpelt					armor/ironpelt	armor/ironpelt	armor/ironpelt
+2487	spiritforge					armor/ring_mail	armor/ring_mail	armor/ring_mail
+2488	crow_caw					armor/scale_mail	armor/scale_mail	armor/scale_mail
+2489	shaftstop					armor/chain_mail	armor/chain_mail	armor/chain_mail
+2490	duriels_shell					armor/breast_plate	armor/breast_plate	armor/breast_plate
+2491	skullders_ire					armor/splint_mail	armor/splint_mail	armor/splint_mail
+2492	guardian_angel_lod					armor/plate_mail	armor/plate_mail	armor/plate_mail
+2493	toothrow					armor/field_plate	armor/field_plate	armor/field_plate
+2494	atmas_wail					armor/gothic_plate	armor/gothic_plate	armor/gothic_plate
+2495	black_hades					armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail
+2496	corpsemourn					armor/corpsemourn	armor/corpsemourn	armor/corpsemourn
+2497	que_hegans_wisdon					armor/light_plate	armor/light_plate	armor/light_plate
+2498	visceratuant					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
+2499	mosers_blessed_circle					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
+2500	stormchaser					shield/stormchaser	shield/stormchaser	shield/stormchaser
+2501	tiamats_rebuke					shield/steelclash	shield/steelclash	shield/steelclash
+2502	kerkes_sanctuary					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
+2503	radimants_sphere					shield/the_ward	shield/the_ward	shield/the_ward
+2504	lidless_wall					shield/lidless_wall	shield/lidless_wall	shield/lidless_wall
+2505	lance_guard					shield/lance_guard	shield/lance_guard	shield/lance_guard
+2506	venom_grip					glove/gloves_l	glove/gloves_l	glove/gloves_l
+2507	gravepalm					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
+2508	ghoulhide					glove/bracers_m	glove/bracers_m	glove/bracers_m
+2509	lavagout					glove/light_gauntlets	glove/light_gauntlets	glove/light_gauntlets
+2510	hellmouth					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
+2511	infernostride					boot/leather_boots	boot/leather_boots	boot/leather_boots
+2512	waterwalk					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
+2513	silkweave					boot/chain_boots	boot/chain_boots	boot/chain_boots
+2514	wartraveler					boot/light_plate_boots	boot/light_plate_boots	boot/light_plate_boots
+2515	gorerider					boot/plate_boots	boot/plate_boots	boot/plate_boots
+2516	string_of_ears					belt/sash_l	belt/sash_l	belt/sash_l
+2517	razortail					belt/light_belt	belt/light_belt	belt/light_belt
+2518	gloomstrap					belt/belt_m	belt/belt_m	belt/belt_m
+2519	snowclash					belt/heavy_belt	belt/heavy_belt	belt/heavy_belt
+2520	thudergods_vigor					belt/girdle_h	belt/girdle_h	belt/girdle_h
+2521	harlequin_crest					helmet/cap_hat	helmet/cap_hat	helmet/cap_hat
+2522	veil_of_steel					helmet/great_helm	helmet/great_helm	helmet/great_helm
+2523	the_gladiators_bane					armor/studded_leather	armor/ironpelt	armor/studded_leather
+2524	arkaines_valor					armor/splint_mail	armor/splint_mail	armor/splint_mail
+2525	blackoak_shield					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
+2526	stormshield					shield/steelclash	shield/steelclash	shield/steelclash
+2527	hellslayer					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
+2528	messerschmidts_reaver					axe/brainhew	axe/brainhew	axe/brainhew
+2529	baranars_star					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2530	schaefers_hammer					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
+2531	the_cranium_basher					hammer/great_maul	hammer/the_gavel_of_pain	hammer/great_maul
+2532	lightsabre					sword/lightsabre	sword/lightsabre	sword/lightsabre
+2533	doombringer					sword/blacktongue	sword/blacktongue	sword/blacktongue
+2534	the_grandfather					sword/the_patriarch	sword/the_patriarch	sword/the_patriarch
+2535	wizardspike					knife/wizardspike	knife/wizardspike	knife/wizardspike
+2536	stormspire					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
+2537	eaglehorn					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
+2538	windforce					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
+2539	bul_kathos_wedding_band					ring/ring	ring/ring	ring/ring
+2540	the_cats_eye					amulet/amulet	amulet/amulet	amulet/amulet
+2541	the_rising_sun					amulet/amulet	amulet/amulet	amulet/amulet
+2542	crescent_moon					amulet/amulet	amulet/amulet	amulet/amulet
+2543	maras_kaleidoscope					amulet/amulet	amulet/amulet	amulet/amulet
+2544	atmas_scarab					amulet/amulet	amulet/amulet	amulet/amulet
+2545	dwarf_star					ring/ring	ring/ring	ring/ring
+2546	raven_frost					ring/ring	ring/ring	ring/ring
+2547	highlords_wrath					amulet/amulet	amulet/amulet	amulet/amulet
+2548	saracens_chance					amulet/amulet	amulet/amulet	amulet/amulet
+2549	arreats_face					helmet/avenger_guard	helmet/avenger_guard	helmet/avenger_guard
+2550	homunculus					voodoo_head/demon_head	voodoo_head/demon_head	voodoo_head/demon_head
+2551	titans_revenge					javelin/maiden_javelin	javelin/maiden_javelin	javelin/maiden_javelin
+2552	lycanders_aim					bow/reflex_bow	bow/reflex_bow	bow/reflex_bow
+2553	lycanders_flank					spear/maiden_pike	spear/maiden_pike	spear/maiden_pike
+2554	the_oculus					orb/dragon_stone	orb/dragon_stone	orb/dragon_stone
+2555	herald_of_zakarum					shield/aerin_shield	shield/aerin_shield	shield/aerin_shield
+2556	cutthroat_1					h2h/claws	h2h/claws	h2h/claws
+2557	jalals_mane					pelt/spirit_mask	pelt/spirit_mask	pelt/spirit_mask
+2558	the_scalper					axe/throwing_axe	axe/throwing_axe	axe/throwing_axe
+2559	bloodmoon					sword/hexfire	sword/hexfire	sword/hexfire
+2560	djinnslayer					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2561	deathbit					knife/throwing_knife	knife/throwing_knife	knife/throwing_knife
+2562	warshrike					knife/warshrike	knife/warshrike	knife/warshrike
+2563	gutsiphon					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2564	razoredge					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2565	demonlimb					club/stoutnail	club/stoutnail	club/stoutnail
+2566	steelshade					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
+2567	tomb_reaver					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
+2568	deathss_web					wand/grim_wand	wand/blackhand_key	wand/grim_wand
+2569	natures_peace					ring/ring	ring/ring	ring/ring
+2570	azurewrath					sword/crystal_sword	sword/crystal_sword	sword/crystal_sword
+2571	seraphs_hymn					amulet/amulet2	amulet/amulet2	amulet/amulet2
+2572	fleshripper					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
+2573	horizons_tornado					mace/flail	mace/flail	mace/flail
+2574	stone_crusher					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
+2575	jadetalon					h2h/katar	h2h/katar	h2h/katar
+2576	shadowdancer					boot/plate_boots	boot/plate_boots	boot/plate_boots
+2577	cerebus					pelt/wolf_head	pelt/wolf_head	pelt/wolf_head
+2578	tyraels_might					armor/victors_silk	armor/victors_silk	armor/victors_silk
+2579	souldrain					glove/bracers_m	glove/bracers_m	glove/bracers_m
+2580	runemaster					axe/double_axe	axe/double_axe	axe/double_axe
+2581	deathcleaver					axe/war_axe	axe/war_axe	axe/war_axe
+2582	executioners_justice					axe/giant_axe	axe/the_minataur	axe/giant_axe
+2583	stoneraven					spear/maiden_spear	spear/maiden_spear	spear/maiden_spear
+2584	leviathan					armor/field_plate	armor/field_plate	armor/field_plate
+2585	wisp					ring/ring	ring/ring	ring/ring
+2586	gargoyles_bite					javelin/throwing_spear	javelin/throwing_spear	javelin/throwing_spear
+2587	lacerator					axe/balanced_axe	axe/balanced_axe	axe/balanced_axe
+2588	mang_songs_lesson					staff/skullcollector	staff/skullcollector	staff/skullcollector
+2589	viperfork					spear/brandistock	spear/soulfeast_tine	spear/brandistock
+2590	ethereal_edge					axe/broad_axe	axe/broad_axe	axe/broad_axe
+2591	demonhorns_edge					helmet/horned_helm	helmet/horned_helm	helmet/horned_helm
+2592	the_reapers_toll					polearm/scythe	polearm/scythe	polearm/scythe
+2593	spiritkeeper					pelt/antlers	pelt/antlers	pelt/antlers
+2594	hellrack					bow/hellcast	bow/hellcast	bow/hellcast
+2595	alma_negra					shield/rondache	shield/rondache	shield/rondache
+2596	darkforge_spawn					voodoo_head/demon_head	voodoo_head/demon_head	voodoo_head/demon_head
+2597	widowmaker					bow/hellclap	bow/hellclap	bow/hellclap
+2598	bloodravens_charge					bow/hellclap	bow/hellclap	bow/hellclap
+2599	ghostflame					knife/blade	knife/stormspike	knife/blade
+2600	shadowkiller					h2h/shadowkiller	h2h/shadowkiller	h2h/shadowkiller
+2601	gimmershred					axe/throwing_axe	axe/throwing_axe	axe/throwing_axe
+2602	griffons_eye					circlet/diadem	circlet/tiara	circlet/diadem
+2603	windhammer					hammer/maul	hammer/maul	hammer/maul
+2604	thunderstroke					javelin/maiden_javelin	javelin/maiden_javelin	javelin/maiden_javelin
+2605	demons_arch					javelin/short_spear	javelin/short_spear	javelin/short_spear
+2606	boneflame					voodoo_head/gargoyle_head	voodoo_head/gargoyle_head	voodoo_head/gargoyle_head
+2607	steelpillar					spear/pike	spear/pike	spear/pike
+2608	nightwings_veil					helmet/great_helm	helmet/great_helm	helmet/great_helm
+2609	crown_of_ages					helmet/crown	helmet/crown_of_thieves	helmet/crown
+2610	andariels_visage					helmet/mask	helmet/mask	helmet/mask
+2611	dragonscale					shield/aerin_shield	shield/aerin_shield	shield/aerin_shield
+2612	steel_carapice					armor/full_plate_mail	armor/full_plate_mail	armor/full_plate_mail
+2613	medusas_gaze					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
+2614	ravenlore					pelt/falcon_mask	pelt/falcon_mask	pelt/falcon_mask
+2615	boneshade					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2616	flamebellow					sword/kinemils_awl	sword/kinemils_awl	sword/kinemils_awl
+2617	fathom					orb/fathom	orb/fathom	orb/fathom
+2618	wolfhowl					helmet/fanged_helm	helmet/fanged_helm	helmet/fanged_helm
+2619	spirit_ward					shield/the_ward	shield/the_ward	shield/the_ward
+2620	kiras_guardian					circlet/tiara	circlet/tiara	circlet/diadem
+2621	ormus_robes					armor/quilted_armor	armor/quilted_armor	armor/quilted_armor
+2622	gheeds_fortune					charm/charm_large	charm/charm_large	charm/charm_large
+2623	stormlash					mace/flail	mace/flail	mace/flail
+2624	halaberds_reign					helmet/assault_helmet	helmet/assault_helmet	helmet/assault_helmet
+2625	spike_thorn					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
+2626	draculs_grasp					glove/heavy_gloves	glove/heavy_gloves	glove/heavy_gloves
+2627	frostwind					sword/hellplague	sword/hellplague	sword/hellplague
+2628	templars_might					armor/victors_silk	armor/victors_silk	armor/victors_silk
+2629	eschutas_temper					orb/sacred_globe	orb/sacred_globe	orb/sacred_globe
+2630	firelizards_talons					h2h/claws	h2h/claws	h2h/claws
+2631	sandstorm_trek					boot/heavy_boots	boot/heavy_boots	boot/heavy_boots
+2632	marrowwalk					boot/chain_boots	boot/chain_boots	boot/chain_boots
+2633	heavens_light					scepter/scepter	scepter/scepter	scepter/scepter
+2634	arachnid_mesh					belt/sash_l	belt/sash_l	belt/sash_l
+2635	nosferatus_coil					belt/light_belt	belt/light_belt	belt/light_belt
+2636	metalgrid					amulet/amulet	amulet/amulet	amulet/amulet
+2637	verdugos_hearty_cord					belt/belt_m	belt/belt_m	belt/belt_m
+2638	carrion_wind					ring/ring	ring/ring	ring/ring
+2639	giantskull					helmet/bone_helm	helmet/bone_helm	helmet/bone_helm
+2640	ironward					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
+2641	annihilus					charm/annihilus	charm/annihilus	charm/annihilus
+2642	ariocs_needle					spear/spear	spear/spear	spear/spear
+2643	cranebeak					axe/mindrend	axe/mindrend	axe/mindrend
+2644	nords_tenderizer					club/felloak	club/felloak	club/felloak
+2645	earthshifter					hammer/great_maul	hammer/the_gavel_of_pain	hammer/great_maul
+2646	wraithflight					javelin/glaive	javelin/glaive	javelin/glaive
+2647	bonehew					polearm/bardiche	polearm/bardiche	polearm/bardiche
+2648	ondals_wisdom					staff/lazarus_spire	staff/lazarus_spire	staff/lazarus_spire
+2649	the_reedeemer					scepter/scepter	scepter/scepter	scepter/scepter
+2650	headhunters_glory					shield/wall_of_the_eyeless	shield/wall_of_the_eyeless	shield/wall_of_the_eyeless
+2651	steelrend					glove/gaunlets_h	glove/gaunlets_h	glove/gaunlets_h
+2652	rainbow_facet					gem/perfect_diamond	gem/perfect_diamond	gem/perfect_diamond
+2653	hellfire_torch					torch/torch	torch/torch	torch/torch
+2654	deflective_spikes					armor/deflective_spikes	armor/deflective_spikes	armor/deflective_spikes
+2655	something_wicked					charm/charm_medium3	charm/charm_medium3	charm/charm_medium3
+2656	yello_jello					charm/charm_medium3	charm/charm_medium3	charm/charm_medium3
+2657	the_perfect_cell					charm/charm_small3	charm/charm_small3	charm/charm_small3
+2658	iron_thimble					ring/iron_thimble	ring/iron_thimble	ring/iron_thimble
+2659	elemental_jewel					ring/elemental_jewel	ring/elemental_jewel	ring/elemental_jewel
+2660	dragon_eye					ring/dragon_eye	ring/dragon_eye	ring/dragon_eye
+2661	the_one_ring					ring/the_one_ring	ring/the_one_ring	ring/the_one_ring
+2662	ring_of_vengeance					ring/ring_of_vengeance	ring/ring_of_vengeance	ring/ring_of_vengeance
+2663	zodiac_band					ring/zodiac_band	ring/zodiac_band	ring/zodiac_band
+2664	BlackKnights_Holy_Signet					amulet/BlackKnights_Holy_Signet	amulet/BlackKnights_Holy_Signet	amulet/BlackKnights_Holy_Signet
+2665	damage_augmenter					charm/damage_augmenter	charm/damage_augmenter	charm/damage_augmenter
+2666	lothars_will					charm/charm_large3	charm/charm_large3	charm/charm_large3
+2667	thors_hammer					hammer/mjolnir	hammer/mjolnir	hammer/mjolnir
+2668	gotterdamerung					helmet/veil_of_steel	helmet/veil_of_steel	helmet/veil_of_steel
+2669	veil_of_steel					helmet/veil_of_steel	helmet/veil_of_steel	helmet/veil_of_steel
+2670	lunar_charm					helmet/lunar_charm	helmet/lunar_charm	helmet/lunar_charm
+2671	cyclops_protector					shield/cyclop_protector	shield/cyclop_protector	shield/cyclop_protector
+2672	tortured_souls					shield/tortured_souls	shield/tortured_souls	shield/tortured_souls
+2673	the_shield_of_pain					shield/shield_of_pain	shield/shield_of_pain	shield/shield_of_pain
+2674	the_borgovs_skull					helmet/wormskull	helmet/wormskull	helmet/wormskull
+2675	deaths_cowl					helmet/deaths_cowl	helmet/deaths_cowl	helmet/deaths_cowl
+2676	black_hole					shield/black_hole	shield/black_hole	shield/black_hole
+2677	stormwynds_mania					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
+2678	wall_of_the_ancient_oak					shield/ancient_oak	shield/ancient_oak	shield/ancient_oak
+2679	the_barricade					shield/bverrit_keep	shield/bverrit_keep	shield/bverrit_keep
+2680	elzixs_treasure					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
+2681	lady_ravens_power					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
+2682	rainbows_power					sword/rainbow_power	sword/rainbow_power	sword/rainbow_power
+2683	spellcasters_aide					amulet/spellcasters_aide	amulet/spellcasters_aide	amulet/spellcasters_aide
+2684	diablos_horns					helmet/diablos_horns	helmet/diablos_horns	helmet/diablos_horns
+2685	romanary_pelt					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
+2686	the_eagle_helm					helmet/eagle_helm	helmet/eagle_helm	helmet/eagle_helm
+2687	golem_shell					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
+2688	visor_of_the_tropics					helmet/visor_of_the_tropics	helmet/visor_of_the_tropics	helmet/visor_of_the_tropics
+2689	mithril_shield					shield/the_ward	shield/the_ward	shield/the_ward
+2690	roaring_thunder					amulet/roaring_thunder	amulet/roaring_thunder	amulet/roaring_thunder
+2691	stargate					shield/umbral_disk	shield/umbral_disk	shield/umbral_disk
+2692	mercenarys_brace					shield/stormguild	shield/stormguild	shield/stormguild
+2693	dragons_breach					shield/steelclash	shield/steelclash	shield/steelclash
+2694	lovers_pendant					amulet/amulet1	amulet/amulet1	amulet/amulet1
+2695	eye_of_the_witch					amulet/amulet2	amulet/amulet2	amulet/amulet2
+2696	collar_of_the_minotaur					amulet/amulet3	amulet/amulet3	amulet/amulet3
+2697	beads_of_the_guardian					amulet/amulet4	amulet/amulet4	amulet/amulet4
+2698	izeals_vise					armor/goldskin	armor/goldskin	armor/goldskin
+2699	atlastrust					armor/haemosus_adament	armor/haemosus_adament	armor/haemosus_adament
+2700	numenorean_iron					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
+2701	zakarum_blade					sword/griswolds_edge	sword/griswolds_edge	sword/griswolds_edge
+2702	glacial_form					sword/glacial_form	sword/glacial_form	sword/glacial_form
+2703	cap_of_the_raven					helmet/war_bonnet	helmet/war_bonnet	helmet/war_bonnet
+2704	arcs_skewer					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2705	starshine					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2706	butchers_tenderizer					mace/bloodrise	mace/bloodrise	mace/bloodrise
+2707	treefeller					axe/deathspade	axe/deathspade	axe/deathspade
+2708	the_butchers_cleaver					axe/deathspade	axe/deathspade	axe/deathspade
+2709	alea_jacta_est					axe/deathspade	axe/deathspade	axe/deathspade
+2710	kroks_basher					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2711	axe_of_the_elements					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2712	rohmshun					axe/the_gnasher	axe/the_gnasher	axe/the_gnasher
+2713	lord_of_carnage					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
+2714	fleshchew					axe/stormrider	axe/stormrider	axe/stormrider
+2715	meat_cleaver					axe/the_chieftan	axe/the_chieftan	axe/the_chieftan
+2716	the_rising_sunn					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2717	taverns_blade					sword/krintizs_skewer	sword/krintizs_skewer	sword/krintizs_skewer
+2718	the_desert_wind					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
+2719	rakas_folly					axe/brainhew	axe/brainhew	axe/brainhew
+2720	griswolds_revenge					axe/brainhew	axe/brainhew	axe/brainhew
+2721	wings_of_the_fallen_phoenix					axe/wings_fallen_phoenix	axe/wings_fallen_phoenix	axe/wings_fallen_phoenix
+2722	lifecleaver					axe/the_minataur	axe/the_minataur	axe/the_minataur
+2723	barbaric_devastator					axe/the_minataur	axe/the_minataur	axe/the_minataur
+2724	high_generals_pick					axe/mindrend	axe/mindrend	axe/mindrend
+2725	sadistic_warlord					axe/mindrend	axe/mindrend	axe/mindrend
+2726	gold_digger					axe/mindrend	axe/mindrend	axe/mindrend
+2727	bul_Kathos_rage					hammer/bonesob	hammer/bonesob	hammer/bonesob
+2728	justicar_militiari					hammer/the_gavel_of_pain	hammer/the_gavel_of_pain	hammer/the_gavel_of_pain
+2729	inifuss_branch					club/felloak	club/felloak	club/felloak
+2730	koths_cudgel					club/felloak	club/felloak	club/felloak
+2731	cavemans_fury					club/caveman_fury	club/caveman_fury	club/caveman_fury
+2732	the_horror					club/stoutnail	club/stoutnail	club/stoutnail
+2733	blood_splinter					club/stoutnail	club/stoutnail	club/stoutnail
+2734	darth_maul					club/darth_maul	club/darth_maul	club/darth_maul
+2735	the_green_lantern					wand/iros_torch	wand/iros_torch	wand/iros_torch
+2736	cinderspark					wand/cinderspark	wand/cinderspark	wand/cinderspark
+2737	arm_of_the_skeleton					wand/arm_skeleton	wand/arm_skeleton	wand/arm_skeleton
+2738	lucrecius_power					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2739	wand_of_rathma					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2740	essence_of_trang_oul					wand/gravenspine	wand/gravenspine	wand/gravenspine
+2741	wand_of_spirits					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
+2742	skull_of_horazon					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
+2743	song_of_the_damned					wand/blackhand_key	wand/blackhand_key	wand/blackhand_key
+2744	ironslice					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
+2745	the_executioners_blade					sword/gleamscythe	sword/gleamscythe	sword/gleamscythe
+2746	frost_shard					sword/ginthers_rift	sword/ginthers_rift	sword/ginthers_rift
+2747	soulforge					sword/hexfire	sword/hexfire	sword/hexfire
+2748	icing_death					sword/hexfire	sword/hexfire	sword/hexfire
+2749	scourge of_the_twin_seas					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2750	diamondedge					sword/lightsabre	sword/lightsabre	sword/lightsabre
+2751	scourge_of_the_twin_seas					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2752	twinkle					sword/blood_crescent	sword/blood_crescent	sword/blood_crescent
+2753	storms_charge					sword/hellplague	sword/hellplague	sword/hellplague
+2754	soul_singer					sword/hellplague	sword/hellplague	sword/hellplague
+2755	celestial_avenger					sword/plague_bearer	sword/plague_bearer	sword/plague_bearer
+2756	the_mistress_leather_collar					amulet/leather_collar	amulet/leather_collar	amulet/leather_collar
+2757	polar_boltcaster					bow/hellcast	bow/hellcast	bow/hellcast
+2758	magnium					bow/hellcast	bow/hellcast	bow/hellcast
+2759	chaos_launcher					bow/hellcast	bow/hellcast	bow/hellcast
+2760	unholy_dartgun					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2761	qotos_bow_of_fortuitous_battle					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2762	deadly_precision					bow/doomspittle	bow/doomspittle	bow/doomspittle
+2763	tal_rashas_walking_stick					staff/skullcollector	staff/skullcollector	staff/skullcollector
+2764	vizjeris_knowledge					staff/skullcollector	staff/skullcollector	staff/skullcollector
+2765	albrieghts_bonemask					helmet/wormskull	helmet/wormskull	helmet/wormskull
+2766	skullbears_soul					shield/skullbear_soul	shield/skullbear_soul	shield/skullbear_soul
+2767	ravens_shield					shield/steelclash	shield/steelclash	shield/steelclash
+2768	spikes_of_rajamir					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
+2769	defender_of_justice					shield/the_ward	shield/the_ward	shield/the_ward
+2770	the_deflector					shield/pelta_lunata	shield/pelta_lunata	shield/pelta_lunata
+2771	karcheus_ward					shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle
+2772	the_face_of_the_sun					shield/stormchaser	shield/stormchaser	shield/stormchaser
+2773	spikewall					shield/lance_guard	shield/lance_guard	shield/lance_guard
+2774	stonewall					shield/the_ward	shield/the_ward	shield/the_ward
+2775	the_seduction_of_pain					shield/swordback_hold	shield/swordback_hold	shield/swordback_hold
+2776	icon_of_sin					shield/icon_of_sin	shield/icon_of_sin	shield/icon_of_sin
+2777	knowledge					helmet/rockstopper	helmet/rockstopper	helmet/rockstopper
+2778	obsidian_helm					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
+2779	the_wanderers_guard					helmet/duskdeep	helmet/duskdeep	helmet/duskdeep
+2780	radaments_rotting_skull					shield/radaments_skull	shield/radaments_skull	shield/radaments_skull
+2781	phrozen_heart					shield/phrozen_heart	shield/phrozen_heart	shield/phrozen_heart
+2782	beowulfs_mask					helmet/beowulf_mask	helmet/beowulf_mask	helmet/beowulf_mask
+2783	bruenors_cranium					circlet/bruenors_cranium	circlet/bruenors_cranium	circlet/bruenors_cranium
+2784	the_cursed_donut					amulet/cursed_donut	amulet/cursed_donut	amulet/cursed_donut
+2785	blanchwood_vest					armor/blanchwood_vest	armor/blanchwood_vest	armor/blanchwood_vest
+2786	robe_of_the_white_mage					armor/robe_white_mage	armor/robe_white_mage	armor/robe_white_mage
+2787	zuez_padding					armor/zuez_padding	armor/zuez_padding	armor/zuez_padding
+2788	palashias_defense					armor/palashia_defense	armor/palashia_defense	armor/palashia_defense
+2789	the_rainbow_cloak					armor/rainbow_cloak	armor/rainbow_cloak	armor/rainbow_cloak
+2790	necromancers_essense					helmet/necromancers_essence	helmet/necromancers_essence	helmet/necromancers_essence
+2791	robe_of_the_phoenix					armor/robe_of_the_phoenix	armor/robe_of_the_phoenix	armor/robe_of_the_phoenix
+2792	aaktas_defense					armor/aaktas_defense	armor/aaktas_defense	armor/aaktas_defense
+2793	frozen_soulbearer					armor/frozen_soulbearer	armor/frozen_soulbearer	armor/frozen_soulbearer
+2794	talisman_of_fukurokuju					amulet/talisman_fukurokuju	amulet/talisman_fukurokuju	amulet/talisman_fukurokuju
+2795	kheleks_crystal_band					ring/khelek_ring	ring/khelek_ring	ring/khelek_ring
+2796	the_fires_of_sunlight					sword/fires_of_sunlight	sword/fires_of_sunlight	sword/fires_of_sunlight
+2797	beast_of_the_night					helmet/beast_of_the_night	helmet/beast_of_the_night	helmet/beast_of_the_night
+2798	millers_hammer					hammer/millers_hammer	hammer/millers_hammer	hammer/millers_hammer
+2799	corpsefires_head					shield/corpsefire_head	shield/corpsefire_head	shield/corpsefire_head
+2800	ravenlord					helmet/ravenlord	helmet/ravenlord	helmet/ravenlord
+2801	heart_of_jewels					helmet/heart_of_jewels	helmet/heart_of_jewels	helmet/heart_of_jewels
+2802	mojabis_face					helmet/mojabi_face	helmet/mojabi_face	helmet/mojabi_face
+2803	the_diamond_hairband					helmet/diamond_hairband	helmet/diamond_hairband	helmet/diamond_hairband
+2804	gorgon_slayer					shield/gorgon_slayer	shield/gorgon_slayer	shield/gorgon_slayer
+2805	spirit_of_the_forest					club/spirit_of_the_forest	club/spirit_of_the_forest	club/spirit_of_the_forest
+2806	vulcans_piledriver					hammer/vulcan_piledriver	hammer/vulcan_piledriver	hammer/vulcan_piledriver
+2807	raidens_staff					spear/raiden_staff	spear/raiden_staff	spear/raiden_staff
+2808	spirit_of_life					circlet/spirit_of_life	circlet/spirit_of_life	circlet/spirit_of_life
+2809	silver_rule					hammer/silver_rule	hammer/silver_rule	hammer/silver_rule
+2810	bonemash					mace/bonemash	mace/bonemash	mace/bonemash
+2811	caesars_revenge					mace/caesar_revenge	mace/caesar_revenge	mace/caesar_revenge
+2812	thundergods_anger					h2h/thundergods_anger	h2h/thundergods_anger	h2h/thundergods_anger
+2813	blackened_blade_of_arkanon					sword/blacktongue	sword/blacktongue	sword/blacktongue
+2814	ironlords_plate					armor/ironlord_plate	armor/ironlord_plate	armor/ironlord_plate
+2815	schaefers_hammer					hammer/schaefer_hammer	hammer/schaefer_hammer	hammer/schaefer_hammer
+2816	armor_of_the_wind					armor/armor_of_the_wind	armor/armor_of_the_wind	armor/armor_of_the_wind
+2817	iceshard					axe/ice_shard	axe/ice_shard	axe/ice_shard
+2818	infernal_gemstone					gem/infernal_gemstone	gem/infernal_gemstone	gem/infernal_gemstone
+2819	frozen_apocalypse					gem/frozen_apocalypse	gem/frozen_apocalypse	gem/frozen_apocalypse
+2820	electrifying_vortex					gem/electrifying_vortex	gem/electrifying_vortex	gem/electrifying_vortex
+2821	intoxicating_crystal					gem/intoxicating_crystal	gem/intoxicating_crystal	gem/intoxicating_crystal
+2822	demonic_voidstone					gem/demonic_voidstone	gem/demonic_voidstone	gem/demonic_voidstone
+2823	celestial_shard					gem/celestial_shard	gem/celestial_shard	gem/celestial_shard
+2824	celestial_shard					gem/celestial_shard	gem/celestial_shard	gem/celestial_shard
+2825	doomfletchs_prism					bow/doomfletchs_prism	bow/doomfletchs_prism	bow/doomfletchs_prism
+2826	mythical_buriza_do_kyanon					bow/mythical_buriza_do_kyanon	bow/mythical_buriza_do_kyanon	bow/mythical_buriza_do_kyanon
+2827	mjolnir					hammer/mythical_mjolnir	hammer/mythical_mjolnir	hammer/mythical_mjolnir
+2828	mephistos_will					wand/mephistos_will	wand/mephistos_will	wand/mephistos_will
+2829	the_grim_reapers_harvester					polearm/the_grim_reapers_harvester	polearm/the_grim_reapers_harvester	polearm/the_grim_reapers_harvester
+2830	aegis_of_corruption					armor/aegis_of_corruption	armor/aegis_of_corruption	armor/aegis_of_corruption
+2831	imperius_undying_wrath					orb/imperius_undying_wrath	orb/imperius_undying_wrath	orb/imperius_undying_wrath
+2832	tal_rashas_final_whisper					knife/tal_rashas_final_whisper	knife/tal_rashas_final_whisper	knife/tal_rashas_final_whisper
+2833	baals_vile_whisper					sword/baals_vile_whisper	sword/baals_vile_whisper	sword/baals_vile_whisper
+2834	headhunter					belt/headhunter	belt/headhunter	belt/headhunter
+2835	monkey_kings_bar					staff/monkey_kings_bar	staff/monkey_kings_bar	staff/monkey_kings_bar
+2836	inarius_rod					scepter/inarius_rod	scepter/inarius_rod	scepter/inarius_rod
+2837	duriels_claws					h2h/duriels_claws	h2h/duriels_claws	h2h/duriels_claws
+2838	rathmas_eternal_reign					knife/rathmas_eternal_reign	knife/rathmas_eternal_reign	knife/rathmas_eternal_reign
+2839	avatar_of_nature_horns					pelt/avatar_of_nature_horns	pelt/avatar_of_nature_horns	pelt/avatar_of_nature_horns
+2840	natalyas_bloodied_executioner					sword/natalyas_bloodied_executioner	sword/natalyas_bloodied_executioner	sword/natalyas_bloodied_executioner
+2841	lux_aeterna					scepter/lux_aeterna	scepter/lux_aeterna	scepter/lux_aeterna
+2842	frostmourne					sword/frostmourne	sword/frostmourne	sword/frostmourne
+2843	lich_king_essence_fire					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2844	lich_king_essence_cold					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2845	lich_king_essence_lightning					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2846	lich_king_essence_poison					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2847	lich_king_essence_magic					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2848	lich_king_essence_physical					amulet/lich_king_essence	amulet/lich_king_essence	amulet/lich_king_essence
+2849	eternal_hourglass					charm/eternal_hourglass	charm/eternal_hourglass	charm/eternal_hourglass
+2850	tathamets_awakening					circlet/tathamets_awakening	circlet/tathamets_awakening	circlet/tathamets_awakening
+2851	mythical_highlords_wrath					amulet/mythical_highlords_wrath	amulet/mythical_highlords_wrath	amulet/mythical_highlords_wrath
+2852	vessel_of_souls					amulet/vessel_of_souls	amulet/vessel_of_souls	amulet/vessel_of_souls
+2853	battlemage_ascendancy_stone					charm/battlemage_stone	charm/battlemage_stone	charm/battlemage_stone
+2854	awakened_ascendancy_stone					charm/awakened_stone	charm/awakened_stone	charm/awakened_stone
+2855	lifebreaker_ascendancy_stone					charm/lifebreaker_stone	charm/lifebreaker_stone	charm/lifebreaker_stone
+2856	blademaster_ascendancy_stone					charm/blademaster_stone	charm/blademaster_stone	charm/blademaster_stone
+2857	nomad_ascendancy_stone					charm/nomad_stone	charm/nomad_stone	charm/nomad_stone
+2858	ironbolt_ascendancy_stone					charm/ironbolt_stone	charm/ironbolt_stone	charm/ironbolt_stone
+2859	arcanist_ascendancy_stone					charm/arcanist_stone	charm/arcanist_stone	charm/arcanist_stone
+2860	soul_warden_ascendancy_stone					charm/soul_warden_stone	charm/soul_warden_stone	charm/soul_warden_stone
+2861	starborn_ascendancy_stone					charm/starborn_stone	charm/starborn_stone	charm/starborn_stone
+2862	bloodmage_ascendancy_stone					charm/bloodmage_stone	charm/bloodmage_stone	charm/bloodmage_stone
+2863	worldshaper_ascendancy_stone					charm/worldshaper_stone	charm/worldshaper_stone	charm/worldshaper_stone
+2864	stance_dancer_ascendancy_stone					charm/stance_dancer_stone	charm/stance_dancer_stone	charm/stance_dancer_stone
+2865	mana_warden_ascendancy_stone					charm/mana_warden_stone	charm/mana_warden_stone	charm/mana_warden_stone
+2866	berserker_ascendancy_stone					charm/berserker_stone	charm/berserker_stone	charm/berserker_stone
+2867	sharpshooter_ascendancy_stone					charm/sharpshooter_stone	charm/sharpshooter_stone	charm/sharpshooter_stone
+2868	iris_of_end_times					quiver/iris_of_end_times	quiver/iris_of_end_times	quiver/iris_of_end_times
+2869	rain_of_pain					quiver/rain_of_pain	quiver/rain_of_pain	quiver/rain_of_pain
+2870	tanaris_judgement					quiver/tanaris_judgement	quiver/tanaris_judgement	quiver/tanaris_judgement
+2871	daedalus_bolts					quiver/daedalus_bolts	quiver/daedalus_bolts	quiver/daedalus_bolts
+2872	kill_ledger					charm/kill_ledger	charm/kill_ledger	charm/kill_ledger
+2873	the_triune_harbinger					staff/the_triune_harbinger	staff/the_triune_harbinger	staff/the_triune_harbinger
+2874	orion					bow/orion	bow/orion	bow/orion
+2875	athulua_final_hunt					javelin/athulua_final_hunt	javelin/athulua_final_hunt	javelin/athulua_final_hunt
+2876	rathma_endlessly_bleeding_spine					javelin/rathma_endlessly_bleeding_spine	javelin/rathma_endlessly_bleeding_spine	javelin/rathma_endlessly_bleeding_spine
+2877	yaerius_celestial_beacon					javelin/yaerius_celestial_beacon	javelin/yaerius_celestial_beacon	javelin/yaerius_celestial_beacon
+2878	ancient_totem_of_scosglen					club/ancient_totem_of_scosglen	club/ancient_totem_of_scosglen	club/ancient_totem_of_scosglen
+2879	eldruin_excalibur_of_the_light					sword/eldruin_excalibur_of_the_light	sword/eldruin_excalibur_of_the_light	sword/eldruin_excalibur_of_the_light
+2880	rathma_eternal_skull					charm/rathma_eternal_skull	charm/rathma_eternal_skull	charm/rathma_eternal_skull
+2881	orpheus_pillar_of_hope					staff/orpheus_pillar_of_hope	staff/orpheus_pillar_of_hope	staff/orpheus_pillar_of_hope
+2882	tsukuyomi_dying_light					sword/tsukuyomi_dying_light	sword/tsukuyomi_dying_light	sword/tsukuyomi_dying_light
+2883	the_ties_that_bind_fire					ring/the_ties_that_bind_fire	ring/the_ties_that_bind_fire	ring/the_ties_that_bind_fire
+2884	the_ties_that_bind_cold					ring/the_ties_that_bind_cold	ring/the_ties_that_bind_cold	ring/the_ties_that_bind_cold
+2885	the_ties_that_bind_lightning					ring/the_ties_that_bind_lightning	ring/the_ties_that_bind_lightning	ring/the_ties_that_bind_lightning
+2886	the_ties_that_bind_poison					ring/the_ties_that_bind_poison	ring/the_ties_that_bind_poison	ring/the_ties_that_bind_poison
+2887	the_ties_that_bind_magic					ring/the_ties_that_bind_magic	ring/the_ties_that_bind_magic	ring/the_ties_that_bind_magic
+2888	the_ties_that_bind_wind					ring/the_ties_that_bind_wind	ring/the_ties_that_bind_wind	ring/the_ties_that_bind_wind
+2889	the_ties_that_bind_summon					ring/the_ties_that_bind_summon	ring/the_ties_that_bind_summon	ring/the_ties_that_bind_summon
+2890	void_crescent					axe/void_crescent	axe/void_crescent	axe/void_crescent
+2891	hellfire_torch_new					charm/hellfire_torch_new	charm/hellfire_torch_new	charm/hellfire_torch_new
+2892	baals_vile_whisper_shuriken					knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken
