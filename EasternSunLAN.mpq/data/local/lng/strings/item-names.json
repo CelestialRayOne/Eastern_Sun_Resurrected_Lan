@@ -52123,23 +52123,6 @@
     "ruRU": "ÿc4(Оболочка Кракена)  \nДревний купон"
   },
   {
-    "id": 46870,
-    "Key": "immolationsplash",
-    "enUS": "Projectiles deal area of effect damage and pierce",
-    "zhTW": "投射物造成範圍傷害並穿透",
-    "deDE": "Projektile verursachen Flächenschaden und durchdringen.",
-    "esES": "Los proyectiles causan daño de área de efecto y atraviesan.",
-    "frFR": "Les projectiles infligent des dégâts de zone et percent.",
-    "itIT": "I proiettili infliggono danno ad area e attraversano.",
-    "koKR": "투사체는 범위 피해를 주고 관통합니다.",
-    "plPL": "Pociski zadają obrażenia obszarowe i przebijają.",
-    "esMX": "Los proyectiles causan daño de área de efecto y atraviesan.",
-    "jaJP": "弾丸は範囲ダメージを与え、貫通します。",
-    "ptBR": "Projéteis causam dano em área e perfuram.",
-    "zhCN": "投射物造成范围伤害并穿透",
-    "ruRU": "Снаряды наносят урон по области и пробивают."
-  },
-  {
     "id": 46879,
     "Key": "axeswarm1",
     "enUS": "Axe Swarm",
@@ -57663,5 +57646,39 @@
     "ptBR": "ÿc4Livro Introdutório",
     "ruRU": "ÿc4Вводная книга",
     "zhCN": "ÿc4入门书籍"
+  },
+  {
+    "id": 28124,
+    "Key": "nin",
+    "enUS": "Ninja To",
+    "deDE": "Ninja-To",
+    "frFR": "Ninja-To",
+    "esES": "Ninja-To",
+    "esMX": "Ninja-To",
+    "itIT": "Ninja-To",
+    "plPL": "Ninja-To",
+    "ptBR": "Ninja-To",
+    "ruRU": "Ниндзя-то",
+    "jaJP": "忍者刀",
+    "koKR": "닌자토",
+    "zhCN": "忍者刀",
+    "zhTW": "忍者刀"
+  },
+  {
+    "id": 28125,
+    "Key": "9nn",
+    "enUS": "Wakizashi",
+    "deDE": "Wakizashi",
+    "frFR": "Wakizashi",
+    "esES": "Wakizashi",
+    "esMX": "Wakizashi",
+    "itIT": "Wakizashi",
+    "plPL": "Wakizashi",
+    "ptBR": "Wakizashi",
+    "ruRU": "Вакидзаси",
+    "jaJP": "脇差",
+    "koKR": "와키자시",
+    "zhCN": "胁差",
+    "zhTW": "脇差"
   }
 ]

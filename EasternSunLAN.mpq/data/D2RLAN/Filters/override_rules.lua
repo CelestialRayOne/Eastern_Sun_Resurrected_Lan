@@ -13165,7 +13165,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "rxb",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13185,7 +13185,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "8rx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13205,7 +13205,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "6rx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13225,7 +13225,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "1rx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13245,7 +13245,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "p71",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13265,7 +13265,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimefourty",
             code = "q70",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,6 Sekunden\n",
                 enUS = "Base Reload Time: 1.6 seconds\n",
@@ -13285,7 +13285,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "mxb",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13305,7 +13305,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "8mx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13325,7 +13325,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "6mx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13345,7 +13345,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "1mx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13365,7 +13365,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "p69",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13385,7 +13385,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "q68",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13405,7 +13405,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimeten",
             code = "m25",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,9 Sekunden\n",
                 enUS = "Base Reload Time: 1.9 seconds\n",
@@ -13425,7 +13425,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "lxb",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13445,7 +13445,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "8lx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13465,7 +13465,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "6lx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13485,7 +13485,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "1lx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13505,7 +13505,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "p68",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13525,7 +13525,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimetwenty",
             code = "q67",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 1,8 Sekunden\n",
                 enUS = "Base Reload Time: 1.8 seconds\n",
@@ -13545,7 +13545,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "hxb",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13565,7 +13565,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "8hx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13585,7 +13585,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "6hx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13605,7 +13605,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "1hx",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13625,7 +13625,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "p70",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13645,7 +13645,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "q69",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",
@@ -13665,7 +13665,7 @@ return {
         {
             -- spelldescstr = "crossbowbasereloadtimezero",
             code = "m02",
-            location = { "onplayer", "equipped", "atvendor", "onground" },
+            location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Basis Nachladezeit: 2 Sekunden\n",
                 enUS = "Base Reload Time: 2 seconds\n",

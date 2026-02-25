@@ -155,6 +155,28 @@
             "Values": "F7FEC1F8018BF0E9D09D1AFF",
             "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCC",
             "ModdedValues": "F7FEC1F8018BF0E9D09D1AFF"
+        },
+        {
+            "Name": "Allow CTC while Uninterruptible (On Target)",
+            "Description": "This will remove the check for the Uninterruptible state on the SkillOnTarget function",
+            "Category": "Alteration",
+            "Address": "3654E0",
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "0F8542010000",
+            "OriginalValues": "0F8542010000",
+            "ModdedValues": "909090909090"
+        },
+        {
+            "Name": "Allow CTC while Uninterruptible (On Position)",
+            "Description": "This will remove the check for the Uninterruptible state on the SkillOnPosition function",
+            "Category": "Alteration",
+            "Address": "3656AB",
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "0F852B010000",
+            "OriginalValues": "0F852B010000",
+            "ModdedValues": "909090909090"
         }
     ]
 }
