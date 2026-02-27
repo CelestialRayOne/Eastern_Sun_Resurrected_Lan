@@ -1,8 +1,8 @@
 import json
 
 # Config: Input file and starting ID
-INPUT_JSON_FILE = './strings/vo.json'
-STARTING_ID = 30951  # Hardcoded starting value
+INPUT_JSON_FILE = './strings/input.json'
+STARTING_ID = 28126  # Hardcoded starting value
 
 def reassign_ids_in_place():
     # Load JSON array from file
