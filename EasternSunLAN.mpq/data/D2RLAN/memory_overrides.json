@@ -177,6 +177,61 @@
             "Values": "0F852B010000",
             "OriginalValues": "0F852B010000",
             "ModdedValues": "909090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse (Enable/Disable All to make this work properly) 1/5",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "310511",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "E86A660000",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse 2/5",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "3109F2",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "E889610000",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse 3/5",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "310B21",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "E85A600000",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse 4/5",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "310D72",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "E82963FEFF",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse 5/5",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "310D68",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "E82393FEFF",
+            "ModdedValues": "9090909090"
         }
     ]
 }
