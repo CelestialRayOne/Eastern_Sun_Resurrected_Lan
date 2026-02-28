@@ -49538,23 +49538,6 @@
     "ruRU": "Король Триантов"
   },
   {
-    "id": 63572,
-    "Key": "aj1",
-    "enUS": "ÿc4(Crusader Gauntlets)\nAncient Coupon",
-    "zhTW": "ÿc4(聖騎士護手)\n古老的優惠券",
-    "deDE": "ÿc4(Kreuzritter-Handschuhe)  \nAlter Gutschein",
-    "esES": "ÿc4(Guanteletes de Cruzado)  \nCupón Antiguo",
-    "frFR": "ÿc4(Gantelets de croisé)  \nCoupon ancien",
-    "itIT": "ÿc4(Guanti del Crociato)  \nCoupon Antico",
-    "koKR": "ÿc4(성전사 장갑)\n고대 쿠폰",
-    "plPL": "ÿc4(Rękawice Krzyżowca)  \nStarożytny Kupon",
-    "esMX": "ÿc4(Guanteletes de Cruzado)  \nCupón Antiguo",
-    "jaJP": "ÿc4(クルセイダーのガントレット)  \n古代のクーポン",
-    "ptBR": "ÿc4(Manoplas do Cruzado)  \nCupom Antigo",
-    "zhCN": "ÿc4(十字军护手)\n古代优惠券",
-    "ruRU": "ÿc4(Перчатки крестоносца)  \nДревний купон"
-  },
-  {
     "id": 63574,
     "Key": "ModStrcoldskill",
     "enUS": "to Cold Skills",
@@ -49723,23 +49706,6 @@
     "ptBR": "Fantasmagórico",
     "zhCN": "幽灵的",
     "ruRU": "Призрачный"
-  },
-  {
-    "id": 63673,
-    "Key": "aj2",
-    "enUS": "ÿc4(Mirrored Boots)\nAncient Coupon",
-    "zhTW": "ÿc4(鏡像靴)\n古代優惠券",
-    "deDE": "ÿc4(Spiegelstiefel)  \nAlter Gutschein",
-    "esES": "ÿc4(Botas Espejadas)  \nCupón Antiguo",
-    "frFR": "ÿc4(Bottes Miroitées)  \nCoupon Ancien",
-    "itIT": "ÿc4(Stivali Specchiati)  \nCoupon Antico",
-    "koKR": "ÿc4(거울 부츠)  \n고대 쿠폰",
-    "plPL": "ÿc4(Lustrzane Buty)  \nStarożytny Kupon",
-    "esMX": "ÿc4(Botas Espejadas)  \nCupón Antiguo",
-    "jaJP": "ÿc4(ミラーリングブーツ)  \n古代のクーポン",
-    "ptBR": "ÿc4(Botas Espelhadas)  \nCupom Antigo",
-    "zhCN": "ÿc4(镜像靴)\n古代券",
-    "ruRU": "ÿc4(Зеркальные ботинки)  \nДревний купон"
   },
   {
     "id": 63674,

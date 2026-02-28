@@ -10655,7 +10655,8 @@
     "plPL": "Grzebacz Grobów",
     "jaJP": "墓の追跡者",
     "ptBR": "Caçador de Túmulos",
-    "ruRU": "Могильный Сталкер"
+    "ruRU": "Могильный Сталкер",
+    "zhCN": "墓地追踪者"
   },
   {
     "id": 55013,
@@ -10671,7 +10672,8 @@
     "plPL": "Piekielny Oszust",
     "jaJP": "地獄に縛られたトリックスター",
     "ptBR": "Trickster Amaldiçoado",
-    "ruRU": "Адский обманщик"
+    "ruRU": "Адский обманщик",
+    "zhCN": "地狱束缚的恶作剧者"
   },
   {
     "id": 55014,
@@ -10687,7 +10689,8 @@
     "plPL": "Fantomowy Zabójca",
     "jaJP": "ファントムアサシン",
     "ptBR": "Assassina Fantasma",
-    "ruRU": "Фантомный Убийца"
+    "ruRU": "Фантомный Убийца",
+    "zhCN": "幻影刺客"
   },
   {
     "id": 55015,
@@ -10720,7 +10723,8 @@
     "plPL": "Szaman Śmierci",
     "jaJP": "死のシャーマン",
     "ptBR": "Xamã da Morte",
-    "ruRU": "Смертельный Шаман"
+    "ruRU": "Смертельный Шаман",
+    "zhCN": "死亡萨满"
   },
   {
     "id": 55017,
@@ -10736,7 +10740,8 @@
     "plPL": "Grzebanie",
     "jaJP": "グラベリング",
     "ptBR": "Gravelamento",
-    "ruRU": "Гравелинг"
+    "ruRU": "Гравелинг",
+    "zhCN": "碎石怪"
   },
   {
     "id": 55018,
@@ -10820,7 +10825,8 @@
     "plPL": "Krwiożerczy Marauder",
     "jaJP": "ブラッドバウンド・マローダー",
     "ptBR": "Marauder Vinculado pelo Sangue",
-    "ruRU": "Кровавый Мародер"
+    "ruRU": "Кровавый Мародер",
+    "zhCN": "血盟掠夺者"
   },
   {
     "id": 55023,
@@ -10836,7 +10842,8 @@
     "plPL": "Obszar Ataku Efektu | Wzburzenie przy Niskim Życiu | Wzburza Sojuszników przy Śmierci",
     "jaJP": "効果範囲攻撃 | 低ライフ時に怒り | 死亡時に味方を怒らせる",
     "ptBR": "Área de Efeito de Ataque | Enfurecer em Baixa Vida | Enfurece Aliados na Morte",
-    "ruRU": "Область действия атаки | Ярость при низком здоровье | Ярость союзников при смерти"
+    "ruRU": "Область действия атаки | Ярость при низком здоровье | Ярость союзников при смерти",
+    "zhCN": "范围攻击 | 低生命值时愤怒 | 死亡时激怒盟友"
   },
   {
     "id": 55024,
@@ -10852,7 +10859,8 @@
     "plPL": "Władca Padlin",
     "jaJP": "死体の大君主",
     "ptBR": "Senhor da Carniça",
-    "ruRU": "Падальщик-Владыка"
+    "ruRU": "Падальщик-Владыка",
+    "zhCN": "尸体霸主"
   },
   {
     "id": 55025,
@@ -10885,7 +10893,8 @@
     "plPL": "Padlina szczur",
     "jaJP": "死体ネズミ",
     "ptBR": "Rato Carcinha",
-    "ruRU": "Падальщик-крыса"
+    "ruRU": "Падальщик-крыса",
+    "zhCN": "腐肉鼠"
   },
   {
     "id": 55027,
@@ -10918,7 +10927,8 @@
     "plPL": "Skrzydlaty Horror",
     "jaJP": "翼のある恐怖",
     "ptBR": "Horror Alado",
-    "ruRU": "Крылатый Ужас"
+    "ruRU": "Крылатый Ужас",
+    "zhCN": "翼状恐怖"
   },
   {
     "id": 55029,
@@ -10951,7 +10961,8 @@
     "plPL": "Spalona Łowczyni",
     "jaJP": "焼けたハンター",
     "ptBR": "Caçadora Queimada",
-    "ruRU": "Обожжённая Охотница"
+    "ruRU": "Обожжённая Охотница",
+    "zhCN": "灼热猎手"
   },
   {
     "id": 55031,
@@ -10984,7 +10995,8 @@
     "plPL": "Zszyta Abominacja Szpiku",
     "jaJP": "骨髄縫い合わされた忌まわしい者",
     "ptBR": "Abominação Costurada com Medula",
-    "ruRU": "Сшитое из костного мозга чудовище"
+    "ruRU": "Сшитое из костного мозга чудовище",
+    "zhCN": "骨髓缝合的怪物"
   },
   {
     "id": 55033,
@@ -11017,7 +11029,8 @@
     "plPL": "Krewna Umowa Satyr",
     "jaJP": "ブラッドパクト サテュロス",
     "ptBR": "Satyr do Pacto de Sangue",
-    "ruRU": "Кровавый пакт Сатир"
+    "ruRU": "Кровавый пакт Сатир",
+    "zhCN": "血誓萨梯尔"
   },
   {
     "id": 55035,
@@ -11050,7 +11063,8 @@
     "plPL": "Porzucony Potomek Andariel",
     "jaJP": "アンディエルの見捨てられた子孫",
     "ptBR": "O Herdeiro Abandonado de Andariel",
-    "ruRU": "Отверженный потомок Андариэль"
+    "ruRU": "Отверженный потомок Андариэль",
+    "zhCN": "安达利尔的被遗弃之子"
   },
   {
     "id": 55037,
@@ -11083,7 +11097,8 @@
     "plPL": "Skoczek Plagi",
     "jaJP": "疫病の跳躍者",
     "ptBR": "Saltador da Praga",
-    "ruRU": "Чумной Прыгун"
+    "ruRU": "Чумной Прыгун",
+    "zhCN": "瘟疫跳跃者"
   },
   {
     "id": 55039,
@@ -11116,7 +11131,8 @@
     "plPL": "Złomowacz Kości",
     "jaJP": "ボーンクラッシャー",
     "ptBR": "Quebra-ossos",
-    "ruRU": "Костекрушитель"
+    "ruRU": "Костекрушитель",
+    "zhCN": "骨碎者"
   },
   {
     "id": 55041,
@@ -11149,7 +11165,8 @@
     "plPL": "Piekielny Kieł",
     "jaJP": "ヘルファング",
     "ptBR": "Dente do Inferno",
-    "ruRU": "Адская клыка"
+    "ruRU": "Адская клыка",
+    "zhCN": "地狱之牙"
   },
   {
     "id": 55043,
@@ -11182,7 +11199,8 @@
     "plPL": "Demoniczny Powracający",
     "jaJP": "悪魔の復讐者",
     "ptBR": "Revenante Demoníaca",
-    "ruRU": "Демонический Ревенант"
+    "ruRU": "Демонический Ревенант",
+    "zhCN": "恶魔复仇者"
   },
   {
     "id": 55045,
@@ -11215,7 +11233,8 @@
     "plPL": "Panna Cierpienia",
     "jaJP": "苦悩の乙女",
     "ptBR": "Donzela do Sofrimento",
-    "ruRU": "Дева Страданий"
+    "ruRU": "Дева Страданий",
+    "zhCN": "痛苦的少女"
   },
   {
     "id": 55047,
@@ -11248,7 +11267,8 @@
     "plPL": "Shogun Zniszczenia",
     "jaJP": "カーネイジの将軍",
     "ptBR": "Shogun Da Carnificina",
-    "ruRU": "Шогун Ужаса"
+    "ruRU": "Шогун Ужаса",
+    "zhCN": "屠戮将军"
   },
   {
     "id": 55049,
@@ -11281,7 +11301,8 @@
     "plPL": "Pożeracz Snów",
     "jaJP": "夢食い",
     "ptBR": "Devorador de Sonhos",
-    "ruRU": "Пожиратель Снов"
+    "ruRU": "Пожиратель Снов",
+    "zhCN": "梦吞者"
   },
   {
     "id": 55051,
@@ -11314,7 +11335,8 @@
     "plPL": "Skórka Robactwa",
     "jaJP": "バーミンハスク",
     "ptBR": "Casca de Vermes",
-    "ruRU": "Чешуя Гадюки"
+    "ruRU": "Чешуя Гадюки",
+    "zhCN": "害虫外壳"
   },
   {
     "id": 55053,
@@ -11347,7 +11369,8 @@
     "plPL": "Porzucone Potomstwo Nosferatu",
     "jaJP": "ノスフェラトゥの見捨てられた子孫",
     "ptBR": "Filho Abandonado de Nosferatu",
-    "ruRU": "Покинутый потомок Носферату"
+    "ruRU": "Покинутый потомок Носферату",
+    "zhCN": "诺斯费拉图的被遗弃后代"
   },
   {
     "id": 55055,
@@ -11380,7 +11403,8 @@
     "plPL": "Zasłonięty Horror",
     "jaJP": "覆い隠された恐怖",
     "ptBR": "Horror Envolto",
-    "ruRU": "Завуалированный Ужас"
+    "ruRU": "Завуалированный Ужас",
+    "zhCN": "笼罩的恐怖"
   },
   {
     "id": 55057,
@@ -11413,7 +11437,8 @@
     "plPL": "Piekielna Inkarnacja",
     "jaJP": "地獄の化身",
     "ptBR": "Incarnação Infernal",
-    "ruRU": "Адское Воплощение"
+    "ruRU": "Адское Воплощение",
+    "zhCN": "地狱化身"
   },
   {
     "id": 55059,
@@ -11446,7 +11471,8 @@
     "plPL": "Kremator",
     "jaJP": "火葬者",
     "ptBR": "Cremador",
-    "ruRU": "Крематор"
+    "ruRU": "Крематор",
+    "zhCN": "火葬者"
   },
   {
     "id": 55061,
@@ -11479,7 +11505,8 @@
     "plPL": "Bohater Przebijacz",
     "jaJP": "ヒーローインペイラー",
     "ptBR": "Herói Empalador",
-    "ruRU": "Герой Пронзатель"
+    "ruRU": "Герой Пронзатель",
+    "zhCN": "英雄刺客"
   },
   {
     "id": 55063,
@@ -11512,7 +11539,8 @@
     "plPL": "Wielki Behemot",
     "jaJP": "そびえ立つビヒモス",
     "ptBR": "Behemoth Colossal",
-    "ruRU": "Громадный Бегемот"
+    "ruRU": "Громадный Бегемот",
+    "zhCN": "高耸的庞然大物"
   },
   {
     "id": 55065,
@@ -11545,7 +11573,8 @@
     "plPL": "Biedronka Grzmotu",
     "jaJP": "サンダービートル",
     "ptBR": "Besouro do Trovão",
-    "ruRU": "Громовой жук"
+    "ruRU": "Громовой жук",
+    "zhCN": "雷霆甲虫"
   },
   {
     "id": 55067,
@@ -11578,7 +11607,8 @@
     "plPL": "Triune Zwiastun",
     "jaJP": "三位一体の先触れ",
     "ptBR": "Arauto Triuno",
-    "ruRU": "Триумфальный Предвестник"
+    "ruRU": "Триумфальный Предвестник",
+    "zhCN": "三位一体的先驱"
   },
   {
     "id": 55069,
@@ -11611,7 +11641,8 @@
     "plPL": "Rewenant Korupcji",
     "jaJP": "腐敗の復讐者",
     "ptBR": "Revenante Da Corrupção",
-    "ruRU": "Ревенант Коррупции"
+    "ruRU": "Ревенант Коррупции",
+    "zhCN": "腐化的复仇者"
   },
   {
     "id": 55071,
@@ -11644,7 +11675,8 @@
     "plPL": "Pożeracz Dusz",
     "jaJP": "魂の貪食者",
     "ptBR": "Devorador de Almas",
-    "ruRU": "Пожиратель Душ"
+    "ruRU": "Пожиратель Душ",
+    "zhCN": "灵魂吞噬者"
   },
   {
     "id": 55073,
@@ -11677,7 +11709,8 @@
     "plPL": "Gnilna Abominacja",
     "jaJP": "腐敗したアボミネーション",
     "ptBR": "Abominação Podre",
-    "ruRU": "Гниющий Абоминация"
+    "ruRU": "Гниющий Абоминация",
+    "zhCN": "腐烂的畸形怪"
   },
   {
     "id": 55075,
@@ -11710,7 +11743,8 @@
     "plPL": "Pradawny Konstruktor",
     "jaJP": "原初の構造体",
     "ptBR": "Construto Primordial",
-    "ruRU": "Праматериальный Конструкт"
+    "ruRU": "Праматериальный Конструкт",
+    "zhCN": "原始构造体"
   },
   {
     "id": 55077,
@@ -11743,7 +11777,8 @@
     "plPL": "Karmazynowy Czarownik",
     "jaJP": "クリムゾン・ラーカー",
     "ptBR": "Lurker Carmesim",
-    "ruRU": "Багровый Луркер"
+    "ruRU": "Багровый Луркер",
+    "zhCN": "猩红潜伏者"
   },
   {
     "id": 55079,
@@ -11776,7 +11811,8 @@
     "plPL": "Igła Niszczyciel",
     "jaJP": "ニードル・ラヴェジャー",
     "ptBR": "Devorador de Agulhas",
-    "ruRU": "Игла-разрушитель"
+    "ruRU": "Игла-разрушитель",
+    "zhCN": "针刺掠夺者"
   },
   {
     "id": 55081,
@@ -11809,7 +11845,8 @@
     "plPL": "Zdradziec Arreat",
     "jaJP": "アレアットの裏切り者",
     "ptBR": "Traidor De Arreat",
-    "ruRU": "Предатель Арреата"
+    "ruRU": "Предатель Арреата",
+    "zhCN": "阿瑞特的背叛者"
   },
   {
     "id": 55083,
@@ -11842,7 +11879,8 @@
     "plPL": "Władca Rzezi",
     "jaJP": "虐殺の大将",
     "ptBR": "Senhor da Matança",
-    "ruRU": "Вождь Убийств"
+    "ruRU": "Вождь Убийств",
+    "zhCN": "屠杀之领主"
   },
   {
     "id": 55085,
@@ -11875,7 +11913,8 @@
     "plPL": "Zwiastun Śmierci",
     "jaJP": "死の使者",
     "ptBR": "Portador da Morte",
-    "ruRU": "Смертельный Вестник"
+    "ruRU": "Смертельный Вестник",
+    "zhCN": "死亡使者"
   },
   {
     "id": 55087,

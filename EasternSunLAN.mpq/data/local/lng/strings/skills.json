@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 3122,
     "Key": "FireGolem",
@@ -8411,7 +8411,8 @@
     "plPL": "Rzuć lawinę homingowych toporków, które odbijają się od dwóch pobliskich wrogów lub raz od głównego celu.  \nWymaga broni do rzucania.",
     "ptBR": "Lance uma enxurrada de machados guiados que ricocheteiam em dois inimigos próximos ou uma vez no alvo principal  \nRequer uma arma de arremesso",
     "ruRU": "Бросьте шквал метательных топоров, которые отскакивают к двум ближайшим врагам или один раз к основной цели.  \nТребуется метательное оружие.",
-    "zhCN": "投掷一阵追踪斧头，能够弹跳到两个附近的敌人或一次攻击主要目标  \n需要投掷武器"
+    "zhCN": "投掷一阵追踪斧头，能够弹跳到两个附近的敌人或一次攻击主要目标  \n需要投掷武器",
+    "jaJP": "近くの敵2体に跳ね返るか、メインターゲットに1回当たるホーミング斧の群れを投げる  \n投擲武器が必要です"
   },
   {
     "id": 63761,
@@ -17523,7 +17524,8 @@
     "ptBR": "O debuff de resistência física dura 10 segundos  \nSe tanto Fend quanto Critical Strike tiverem 20 níveis:",
     "ruRU": "Физический резист дебафф длится 10 секунд  \nЕсли и Fend, и Critical Strike имеют 20 уровней:",
     "zhCN": "物理抗性减益持续10秒  \n如果Fend和致命打击都有20级：",
-    "jaJP": "物理抵抗デバフは10秒間持続します  \nフェンドとクリティカルストライクの両方が20レベルの場合："
+    "jaJP": "物理抵抗デバフは10秒間持続します  \nフェンドとクリティカルストライクの両方が20レベルの場合：",
+    "esMX": "El debuff de resistencia física dura 10 segundos  \nSi tanto Fend como Critical Strike tienen 20 niveles:"
   },
   {
     "id": 50097,
@@ -17573,7 +17575,8 @@
     "ptBR": "O dano físico global dura 10 segundos  \nSe tanto Tempestade de Lança quanto Foco Afiado tiverem 20 níveis:",
     "ruRU": "Глобальный физический урон длится 10 секунд  \nЕсли у Spearstorm и Sharpened Focus по 20 уровней:",
     "zhCN": "全球物理伤害持续10秒  \n如果Spearstorm和Sharpened Focus都有20级：",
-    "jaJP": "グローバル物理ダメージは10秒間持続します  \nスピアストームとシャープンフォーカスの両方が20レベルの場合："
+    "jaJP": "グローバル物理ダメージは10秒間持続します  \nスピアストームとシャープンフォーカスの両方が20レベルの場合：",
+    "esMX": "El daño físico global dura 10 segundos  \nSi tanto Tormenta de Lanza como Enfoque Afilado tienen 20 niveles:"
   },
   {
     "id": 50100,
@@ -17589,7 +17592,8 @@
     "ptBR": "A Dança da Morte tem 15% de chance de causar 4 vezes mais dano em vez disso.  \nSe tanto a Dança da Morte quanto a Tempestade de Lança tiverem 20 níveis:",
     "ruRU": "Танец Смерти имеет 15% шанс нанести в 4 раза больше урона вместо этого.  \nЕсли у Танца Смерти и Штормового Копья по 20 уровней:",
     "zhCN": "死亡之舞有15%的几率造成4倍伤害  \n如果死亡之舞和矛风都有20级：",
-    "jaJP": "死の舞踏は、代わりに4倍のダメージを与える15%の確率があります  \n死の舞踏と槍嵐の両方が20レベルの場合："
+    "jaJP": "死の舞踏は、代わりに4倍のダメージを与える15%の確率があります  \n死の舞踏と槍嵐の両方が20レベルの場合：",
+    "esMX": "La Danza de la Muerte tiene un 15% de probabilidad de causar 4 veces más daño en su lugar.  \nSi tanto la Danza de la Muerte como Tormenta de Lanza tienen 20 niveles:"
   },
   {
     "id": 50101,
@@ -17656,7 +17660,8 @@
     "ptBR": "O projétil principal gera até 50% mais raios de fogo  \nSe tanto a Fúria do Inferno quanto o Poder de Athulua tiverem 20 níveis:",
     "ruRU": "Основной снаряд генерирует до 50% больше огненных стрел.  \nЕсли оба, Ярость Инферно и Сила Атулуа, имеют 20 уровней:",
     "zhCN": "主弹药生成最多50%的火焰箭矢  \n如果地狱之怒和阿图鲁亚的力量都有20级：",
-    "jaJP": "メインの弾丸は最大50%の火の矢を生成します  \nもしインフェルノ・フューリーとアスルアの力の両方が20レベルであれば："
+    "jaJP": "メインの弾丸は最大50%の火の矢を生成します  \nもしインフェルノ・フューリーとアスルアの力の両方が20レベルであれば：",
+    "esMX": "El proyectil principal genera hasta un 50% más de rayos de fuego.  \nSi tanto la Furia Infernal como el Poder de Athulua tienen 20 niveles:"
   },
   {
     "id": 50105,
@@ -17672,7 +17677,8 @@
     "ptBR": "Você tem 50% de chance de dobrar projéteis e aumentar a área de efeito em 50%  \nSe tanto Tempestade de Granizo quanto Sabedoria de Athulua tiverem 20 pontos base:",
     "ruRU": "У вас есть 50% шанс удвоить снаряды и увеличить радиус действия на 50%  \nЕсли у Холодного шторма и Мудрости Атулуа по 20 базовых очков:",
     "zhCN": "你有50%的机会双倍投射物并将效果范围增加50%  \n如果冰雹风暴和阿图鲁亚的智慧都有20基础点：",
-    "jaJP": "弾丸が倍増し、効果範囲が50%増加する確率は50%です。  \nヘイルストームとアスルアの知恵の両方が20の基本ポイントを持っている場合："
+    "jaJP": "弾丸が倍増し、効果範囲が50%増加する確率は50%です。  \nヘイルストームとアスルアの知恵の両方が20の基本ポイントを持っている場合：",
+    "esMX": "Tienes un 50% de probabilidad de duplicar proyectiles y aumentar el área de efecto en un 50%  \nSi tanto Tormenta de Granizo como la Sabiduría de Athulua tienen 20 puntos base:"
   },
   {
     "id": 50106,
@@ -17688,7 +17694,8 @@
     "jaJP": "あなたは2倍のチャージボルトを放出する10%の確率があります  \nメイルストロムカスケードとシャープンフォーカスの両方が20レベルの場合：",
     "ptBR": "Você tem 10% de chance de liberar o dobro de raios carregados  \nSe tanto Maelstrom Cascade quanto Sharpened Focus tiverem 20 níveis:",
     "ruRU": "У вас есть 10% шанс выпустить в два раза больше заряженных болтов.  \nЕсли у обоих, Maelstrom Cascade и Sharpened Focus, по 20 уровней:",
-    "zhCN": "你有10%的机会释放两倍的电荷箭。如果漩涡瀑布和锐化焦点都有20级："
+    "zhCN": "你有10%的机会释放两倍的电荷箭。如果漩涡瀑布和锐化焦点都有20级：",
+    "esMX": "Tienes un 10% de probabilidad de liberar el doble de rayos cargados  \nSi tanto Maelstrom Cascade como Sharpened Focus tienen 20 niveles:"
   },
   {
     "id": 50107,
@@ -17721,7 +17728,8 @@
     "ptBR": "Você tem 50% de chance de dobrar a área de efeito  \nSe tanto Cauda de Dragão quanto Maestria em Armas tiverem 20 níveis:",
     "ruRU": "У вас есть 50% шанс удвоить радиус действия  \nЕсли у обоих, Драконьего Хвоста и Мастерства Оружия, по 20 уровней:",
     "zhCN": "你有50%的机会使效果范围翻倍  \n如果龙尾和武器精通都有20级：",
-    "jaJP": "効果範囲を倍にする確率は50%です  \nドラゴンテイルと武器マスタリーの両方が20レベルの場合："
+    "jaJP": "効果範囲を倍にする確率は50%です  \nドラゴンテイルと武器マスタリーの両方が20レベルの場合：",
+    "esMX": "Tienes un 50% de probabilidad de duplicar el área de efecto  \nSi tanto Cola de Dragón como Maestría en Armas tienen 20 niveles:"
   },
   {
     "id": 50109,
@@ -17856,7 +17864,8 @@
     "ptBR": "A duração da Blade Nova é reduzida para 1 segundo, mas os bônus são dobrados.  \nSe tanto a Blade Nova quanto qualquer Movimento Final tiverem 20 níveis:",
     "ruRU": "Длительность Blade Nova сокращена до 1 секунды, но бонусы удваиваются  \nЕсли у Blade Nova и любого завершающего удара по 20 уровней:",
     "zhCN": "刀刃新星的持续时间减少到1秒，但加成翻倍  \n如果刀刃新星和任何终结技能都有20级：",
-    "jaJP": "ブレードノヴァの持続時間は1秒に短縮されますが、ボーナスは2倍になります  \nブレードノヴァと任意のフィニッシングムーブの両方が20レベルの場合："
+    "jaJP": "ブレードノヴァの持続時間は1秒に短縮されますが、ボーナスは2倍になります  \nブレードノヴァと任意のフィニッシングムーブの両方が20レベルの場合：",
+    "esMX": "La duración de Blade Nova se reduce a 1 segundo, pero los bonos se duplican.  \nSi tanto Blade Nova como Any Finishing Move tienen 20 niveles:"
   },
   {
     "id": 50117,
@@ -17889,7 +17898,8 @@
     "ptBR": "O alcance de busca do alvo é dobrado  \nSe tanto a Lâmina do Dragão quanto a Maestria em Armas tiverem 20 níveis:",
     "ruRU": "Дальность поиска цели удвоена  \nЕсли и Драконий Клинок, и Мастерство Оружия имеют 20 уровней:",
     "zhCN": "目标寻敌范围翻倍  \n如果龙刃和武器精通都有20级：",
-    "jaJP": "ターゲットの探索範囲が2倍になります  \nドラゴンブレードと武器マスタリーの両方が20レベルの場合："
+    "jaJP": "ターゲットの探索範囲が2倍になります  \nドラゴンブレードと武器マスタリーの両方が20レベルの場合：",
+    "esMX": "El rango de búsqueda del objetivo se duplica  \nSi tanto la Espada Dragón como el Dominio de Armas tienen 20 niveles:"
   },
   {
     "id": 50119,
@@ -17905,7 +17915,8 @@
     "ptBR": "A duração do atordoamento da nova impressionante é dobrada  \nSe tanto a Fúria do Dragão quanto o Iaigiri tiverem 20 níveis:",
     "ruRU": "Длительность оглушения Stunning nova удваивается  \nЕсли оба Dragon Fury и Iaigiri имеют 20 уровней:",
     "zhCN": "震撼新星的眩晕持续时间加倍  \n如果龙之愤怒和Iaigiri都有20级：",
-    "jaJP": "スタニングノヴァのスタン時間が倍増します  \nドラゴンフューリーとイアイギリの両方が20レベルの場合："
+    "jaJP": "スタニングノヴァのスタン時間が倍増します  \nドラゴンフューリーとイアイギリの両方が20レベルの場合：",
+    "esMX": "La duración del aturdimiento de la nova deslumbrante se duplica  \nSi tanto Furia de Dragón como Iaigiri tienen 20 niveles:"
   },
   {
     "id": 50120,
@@ -17921,7 +17932,8 @@
     "ptBR": "Você tem 15% de chance de liberar duas rajadas de shurikens  \nSe tanto Fúria do Dragão quanto Talon do Dragão tiverem 20 níveis:",
     "ruRU": "У вас есть 15% шанс выпустить два потока сюрикенов  \nЕсли оба Драконьего Гнева и Драконьего Когтя имеют 20 уровней:",
     "zhCN": "你有15%的机会释放两波手里剑。如果龙之愤怒和龙之爪都有20级：",
-    "jaJP": "あなたは2回の手裏剣の乱れを放つ15％の確率があります  \nドラゴンフューリーとドラゴンタロンの両方が20レベルの場合："
+    "jaJP": "あなたは2回の手裏剣の乱れを放つ15％の確率があります  \nドラゴンフューリーとドラゴンタロンの両方が20レベルの場合：",
+    "esMX": "Tienes un 15% de probabilidad de liberar dos ráfagas de shurikens  \nSi tanto Furia de Dragón como Garra de Dragón tienen 20 niveles:"
   },
   {
     "id": 50121,
@@ -17937,7 +17949,8 @@
     "ptBR": "Cura própria do primeiro carregamento é dobrada  \nSe tanto Execute quanto Iaigiri tiverem 20 níveis:",
     "ruRU": "Самовосстановление от первого заряда удваивается  \nЕсли и Исполнение, и Иайгири имеют 20 уровней:",
     "zhCN": "第一次充能的自我治疗效果翻倍  \n如果执行和Iaigiri都有20级：",
-    "jaJP": "最初のチャージからの自己回復が2倍になる  \nExecuteとIaigiriの両方が20レベルの場合："
+    "jaJP": "最初のチャージからの自己回復が2倍になる  \nExecuteとIaigiriの両方が20レベルの場合：",
+    "esMX": "La auto-sanación del primer cargo se duplica  \nSi tanto Execute como Iaigiri tienen 20 niveles:"
   },
   {
     "id": 50122,
@@ -17953,7 +17966,8 @@
     "ptBR": "Você tem 10% de chance de liberar outra nova de shuriken convergente  \nSe tanto Execute quanto Dragon Talon tiverem 20 níveis:",
     "ruRU": "У вас есть 10% шанс выпустить еще одну сливающуюся нову сюрикена.  \nЕсли и Исполнение, и Драконий Коготь имеют 20 уровней:",
     "zhCN": "你有10%的机会释放另一个汇聚的手里剑新星  \n如果执行和龙爪都有20级：",
-    "jaJP": "別の収束する手裏剣ノヴァを放出する確率は10%です  \nExecuteとDragon Talonの両方が20レベルの場合："
+    "jaJP": "別の収束する手裏剣ノヴァを放出する確率は10%です  \nExecuteとDragon Talonの両方が20レベルの場合：",
+    "esMX": "Tienes un 10% de probabilidad de liberar otra nova de shuriken convergente  \nSi tanto Ejecutar como Garra de Dragón tienen 20 niveles:"
   },
   {
     "id": 50123,
@@ -17969,7 +17983,8 @@
     "ptBR": "Você tem 10% de chance de triplicar o número de acertos  \nSe tanto o Martelo Psíquico quanto a Explosão Mental tiverem 20 níveis:",
     "ruRU": "У вас есть 10% шанс утроить количество ударов  \nЕсли у Психического Молота и Удара Ума по 20 уровней:",
     "zhCN": "你有10%的机会使攻击次数三倍  \n如果精神锤和心灵冲击都有20级：",
-    "jaJP": "ヒット数を3倍にする確率は10%です  \nサイキックハンマーとマインドブラストの両方が20レベルの場合："
+    "jaJP": "ヒット数を3倍にする確率は10%です  \nサイキックハンマーとマインドブラストの両方が20レベルの場合：",
+    "esMX": "Tienes un 10% de probabilidad de triplicar el número de golpes  \nSi tanto Martillo Psíquico como Explosión Mental tienen 20 niveles:"
   },
   {
     "id": 50124,
@@ -17985,7 +18000,8 @@
     "ptBR": "Você tem 10% de chance de recarregar o tempo de recarga instantaneamente  \nSe tanto Explosão Mental quanto Martelo Psíquico tiverem 20 níveis:",
     "ruRU": "У вас есть 10% шанс мгновенно восстановить время перезарядки.  \nЕсли оба заклинания \"Умный взрыв\" и \"Психический молот\" имеют 20 уровней:",
     "zhCN": "你有10%的机会立即刷新冷却时间  \n如果心灵爆炸和心灵锤都有20级：",
-    "jaJP": "クールダウンを即座にリフレッシュする確率は10%です  \nマインドブラストとサイキックハンマーの両方が20レベルの場合："
+    "jaJP": "クールダウンを即座にリフレッシュする確率は10%です  \nマインドブラストとサイキックハンマーの両方が20レベルの場合：",
+    "esMX": "Tienes un 10% de probabilidad de refrescar el tiempo de reutilización instantáneamente  \nSi tanto Explosión Mental como Martillo Psíquico tienen 20 niveles:"
   },
   {
     "id": 50125,
@@ -18001,7 +18017,8 @@
     "ptBR": "A armadilha tem 20% de chance de gerar 2 vezes mais shurikens  \nSe tanto a Armadilha de Shuriken quanto o Ricochete tiverem 20 níveis:",
     "ruRU": "Ловушка имеет 20% шанс вызвать 2 раза больше сюрикенов.  \nЕсли обе Ловушка Сюрикенов и Рикошет имеют 20 уровней:",
     "zhCN": "陷阱有20%的几率生成2倍的手里剑  \n如果手里剑陷阱和弹射都有20级：",
-    "jaJP": "罠は20%の確率で2倍の手裏剣を出現させます  \n手裏剣トラップとリコシェの両方が20レベルの場合："
+    "jaJP": "罠は20%の確率で2倍の手裏剣を出現させます  \n手裏剣トラップとリコシェの両方が20レベルの場合：",
+    "esMX": "La trampa tiene un 20% de probabilidad de generar 2 veces más shurikens  \nSi tanto la Trampa de Shuriken como el Rebote tienen 20 niveles:"
   },
   {
     "id": 50128,
@@ -18068,7 +18085,8 @@
     "ptBR": "Você tem 10% de chance de dobrar o número de acertos  \nSe tanto Garras Congelantes quanto Garras de Fogo tiverem 20 níveis:",
     "ruRU": "У вас есть 10% шанс удвоить количество ударов  \nЕсли оба Ледяные Когти и Огненные Когти имеют 20 уровней:",
     "zhCN": "你有10%的机会使击打次数翻倍  \n如果冰冻爪和火焰爪都有20级：",
-    "jaJP": "ヒット数が2倍になる確率は10%です  \nフリージングクローとファイアクローの両方が20レベルの場合："
+    "jaJP": "ヒット数が2倍になる確率は10%です  \nフリージングクローとファイアクローの両方が20レベルの場合：",
+    "esMX": "Tienes un 10% de probabilidad de duplicar el número de golpes  \nSi tanto Garras Congelantes como Garras de Fuego tienen 20 niveles:"
   },
   {
     "id": 50133,
@@ -18084,7 +18102,8 @@
     "ptBR": "Garras de Fogo debilita os inimigos por 3 segundos, reduzindo suas resistências elementares  \nSe tanto Garras de Fogo quanto Garras Carregadas tiverem 20 níveis:",
     "ruRU": "Огненные Когти ослабляют врагов на 3 секунды, снижая их элементальные сопротивления  \nЕсли и Огненные Когти, и Заряженные Когти имеют 20 уровней:",
     "zhCN": "火爪使敌人减益3秒，降低他们的元素抗性  \n如果火爪和充能爪都有20级：",
-    "jaJP": "ファイアークローは敵の元素耐性を下げ、3秒間デバフをかけます  \nファイアークローとチャージドクローの両方が20レベルの場合："
+    "jaJP": "ファイアークローは敵の元素耐性を下げ、3秒間デバフをかけます  \nファイアークローとチャージドクローの両方が20レベルの場合：",
+    "esMX": "Fire Claws debilita a los enemigos durante 3 segundos, reduciendo sus resistencias elementales  \nSi tanto Fire Claws como Charged Claws tienen 20 niveles:"
   },
   {
     "id": 50134,
@@ -18202,7 +18221,8 @@
     "ptBR": "Você tem 20% de chance de causar 4 vezes mais dano contra o alvo principal  \nSe tanto Onda de Choque quanto Urso Pardo tiverem 20 níveis:",
     "ruRU": "У вас есть 20% шанс нанести в 4 раза больше урона по основной цели.  \nЕсли оба, Ударная волна и Медведь-оборотень, имеют 20 уровней:",
     "zhCN": "你有20%的机会对主要目标造成4倍的伤害  \n如果震荡波和熊形态都有20级：",
-    "jaJP": "メインターゲットに対して4倍のダメージを与える20%の確率があります  \nショックウェーブとウェアベアの両方が20レベルの場合："
+    "jaJP": "メインターゲットに対して4倍のダメージを与える20%の確率があります  \nショックウェーブとウェアベアの両方が20レベルの場合：",
+    "esMX": "Tienes un 20% de probabilidad de hacer 4 veces más daño contra el objetivo principal.  \nSi tanto Onda de Choque como Oso Hombre tienen 20 niveles:"
   },
   {
     "id": 50142,
@@ -18235,7 +18255,8 @@
     "ptBR": "Melhora suas capacidades com Arma Envenenada, Ceifar Almas e Armadura de Osso  \nCeifar Almas tem uma chance de liberar uma devastadora nova de osso",
     "ruRU": "Улучшает ваши способности с Оружием Яда, Жатвой Душ и Костяной Броней  \nЖатва Душ имеет шанс вызвать разрушительную костяную нову",
     "zhCN": "提高你在毒武器、收割灵魂和骨甲方面的能力  \n收割灵魂有机会释放出毁灭性的骨骼新星",
-    "jaJP": "毒の武器、魂の収穫、骨の鎧の能力を向上させます  \n魂の収穫は、壊滅的な骨のノヴァを放つチャンスがあります"
+    "jaJP": "毒の武器、魂の収穫、骨の鎧の能力を向上させます  \n魂の収穫は、壊滅的な骨のノヴァを放つチャンスがあります",
+    "esMX": "Mejora tus capacidades con Arma Venenosa, Segar Almas y Armadura de Huesos  \nSegar Almas tiene una oportunidad de liberar una devastadora nova de huesos"
   },
   {
     "id": 50144,
@@ -18387,7 +18408,8 @@
     "ptBR": "Você também ganha penetração de veneno durante a duração  \nSe tanto Reap Souls quanto Bone Armor tiverem 20 níveis:",
     "ruRU": "Вы также получаете проникающий яд на время действия  \nЕсли и Пожиратель Душ, и Костяная Броня имеют 20 уровней:",
     "zhCN": "你在持续时间内也获得毒素穿透  \n如果收割灵魂和骨甲都有20级：",
-    "jaJP": "効果の間、毒貫通も得られます  \nもし「魂の収穫」と「骨の鎧」が20レベルの場合："
+    "jaJP": "効果の間、毒貫通も得られます  \nもし「魂の収穫」と「骨の鎧」が20レベルの場合：",
+    "esMX": "También obtienes perforación de veneno durante la duración  \nSi tanto Reap Souls como Bone Armor tienen 20 niveles:"
   },
   {
     "id": 50153,
@@ -18403,7 +18425,8 @@
     "ptBR": "Inimigos afetados também têm sua resistência física e mágica reduzida  \nSe tanto a Arma Envenenada quanto a Armadura de Osso tiverem 20 níveis:",
     "ruRU": "Затронутые враги также имеют сниженные физическую и магическую защиту.  \nЕсли и Ядовитое Оружие, и Костяная Броня имеют 20 уровней:",
     "zhCN": "受影响的敌人也会降低他们的物理和魔法抗性  \n如果毒药武器和骨甲都有20级：",
-    "jaJP": "影響を受けた敵は、物理抵抗と魔法抵抗も減少します  \n毒の武器と骨の鎧が両方とも20レベルの場合："
+    "jaJP": "影響を受けた敵は、物理抵抗と魔法抵抗も減少します  \n毒の武器と骨の鎧が両方とも20レベルの場合：",
+    "esMX": "Los enemigos afectados también tienen reducidas su resistencia física y mágica.  \nSi tanto Arma Envenenada como Armadura Ósea tienen 20 niveles:"
   },
   {
     "id": 50154,
@@ -18521,7 +18544,8 @@
     "ptBR": "Zelo tem 10% de Chance de Dobrar o Número de Acertos  \nSe tanto Zelo quanto Poder tiverem 20 níveis:",
     "ruRU": "У рвения есть 10% шанс удвоить количество ударов  \nЕсли и рвение, и мощь имеют 20 уровней:",
     "zhCN": "热情有10%的几率使攻击次数翻倍  \n如果热情和力量都有20级：",
-    "jaJP": "ゼアルはヒット数を2倍にする10%の確率を持っています  \nゼアルとマイトの両方が20レベルの場合："
+    "jaJP": "ゼアルはヒット数を2倍にする10%の確率を持っています  \nゼアルとマイトの両方が20レベルの場合：",
+    "esMX": "El Zelo tiene un 10% de probabilidad de duplicar el número de golpes.  \nSi tanto el Zelo como el Poder tienen 20 niveles:"
   },
   {
     "id": 50161,
@@ -18537,7 +18561,8 @@
     "ptBR": "Você Regenera 5% da Vida Total em 1 segundo ao usar  \nSe tanto Crucificar quanto Divindade tiverem 20 níveis:",
     "ruRU": "Вы восстанавливаете 5% от общего здоровья за 1 секунду при использовании  \nЕсли и Крестить, и Божественность имеют 20 уровней:",
     "zhCN": "使用时每秒恢复 5% 的总生命  \n如果 Crucify 和 Divinity 都达到 20 级：",
-    "jaJP": "使用時に1秒間で総ライフの5%を再生します  \nもし、両方の十字架と神性が20レベルの場合："
+    "jaJP": "使用時に1秒間で総ライフの5%を再生します  \nもし、両方の十字架と神性が20レベルの場合：",
+    "esMX": "Regeneras 5% de la Vida Total en 1 segundo al usarlo  \nSi tanto Crucificar como Divinidad tienen 20 niveles:"
   },
   {
     "id": 50162,
@@ -18553,7 +18578,8 @@
     "ptBR": "Você ganha 10% de Absorção Elemental por 1 segundo ao usar  \nSe tanto Vingança quanto Salvação tiverem 20 níveis:",
     "ruRU": "Вы получаете 10% Элементального Поглощения на 1 секунду при использовании  \nЕсли оба, Месть и Спасение, имеют 20 уровней:",
     "zhCN": "使用时获得10%元素吸收，持续1秒  \n如果复仇和救赎都达到20级：",
-    "jaJP": "使用時に10%のエレメンタルアブソーブを1秒間得る  \n復讐と救済の両方が20レベルの場合："
+    "jaJP": "使用時に10%のエレメンタルアブソーブを1秒間得る  \n復讐と救済の両方が20レベルの場合：",
+    "esMX": "Ganas un 10% de Absorción Elemental por 1 segundo al usarlo  \nSi tanto Venganza como Salvación tienen 20 niveles:"
   },
   {
     "id": 50163,
@@ -18569,7 +18595,8 @@
     "ptBR": "O Julgamento reduz as resistências elementares dos inimigos afetados por 6 segundos  \nSe tanto o Julgamento quanto a Convicção tiverem 20 níveis:",
     "ruRU": "Суд вынуждает элементальные сопротивления затронутых врагов снизиться на 6 секунд.  \nЕсли Суд и Убеждение имеют по 20 уровней:",
     "zhCN": "审判降低受影响敌人的元素抗性持续6秒  \n如果审判和定罪都有20级：",
-    "jaJP": "ジャッジメントは、影響を受けた敵の元素耐性を6秒間低下させます  \nジャッジメントとコンヴィクションの両方が20レベルの場合："
+    "jaJP": "ジャッジメントは、影響を受けた敵の元素耐性を6秒間低下させます  \nジャッジメントとコンヴィクションの両方が20レベルの場合：",
+    "esMX": "El Juicio reduce las resistencias elementales de los enemigos afectados durante 6 segundos.  \nSi tanto Juicio como Convicción tienen 20 niveles:"
   },
   {
     "id": 50164,
@@ -18602,7 +18629,8 @@
     "ptBR": "A Chuva Sagrada tem 15% de chance de dobrar o número de orbes e alvos  \nSe tanto a Chuva Sagrada quanto a Armadura Sagrada tiverem 20 níveis:",
     "ruRU": "Священный Дождь имеет 15% шанс удвоить количество сфер и целей.  \nЕсли и Священный Дождь, и Священная Броня имеют 20 уровней:",
     "zhCN": "神圣雨有15%的几率使球体和目标的数量翻倍  \n如果神圣雨和神圣盔甲都有20级：",
-    "jaJP": "ホーリーレインは、オーブとターゲットの数を倍にする15%の確率があります。  \nホーリーレインとホーリーアーマーの両方が20レベルの場合："
+    "jaJP": "ホーリーレインは、オーブとターゲットの数を倍にする15%の確率があります。  \nホーリーレインとホーリーアーマーの両方が20レベルの場合：",
+    "esMX": "La Lluvia Sagrada tiene un 15% de probabilidad de duplicar el número de orbes y objetivos.  \nSi tanto la Lluvia Sagrada como la Armadura Sagrada tienen 20 niveles:"
   },
   {
     "id": 50166,
@@ -18686,7 +18714,8 @@
     "ptBR": "A Trinity tem 10% de chance de liberar o dobro de quantidade de raios sagrados.  \nSe tanto a Trinity quanto a Armadura Sagrada tiverem 20 níveis:",
     "ruRU": "Тринити имеет 10% шанс выпустить удвоенное количество святых болтов  \nЕсли у Тринити и Святой Брони по 20 уровней:",
     "zhCN": "Trinity 有 10% 的机会释放双倍的神圣箭矢  \n如果 Trinity 和神圣盔甲都有 20 级：",
-    "jaJP": "トリニティは、聖なるボルトの量を2倍に放出する10%の確率があります  \nトリニティと聖なる鎧の両方が20レベルの場合："
+    "jaJP": "トリニティは、聖なるボルトの量を2倍に放出する10%の確率があります  \nトリニティと聖なる鎧の両方が20レベルの場合：",
+    "esMX": "Trinidad tiene un 10% de probabilidad de liberar el doble de la cantidad de bolts sagrados.  \nSi tanto Trinidad como Armadura Sagrada tienen 20 niveles:"
   },
   {
     "id": 50172,
@@ -18957,7 +18986,8 @@
     "ptBR": "Os Rastros de Raio têm 50% de chance de encadear mais 2 vezes  \nSe tanto o Golpe do Trovão quanto a Tempestade dos Antigos Deuses tiverem 20 níveis:",
     "ruRU": "Молниеносные следы имеют 50% шанс зацепиться еще 2 раза  \nЕсли и Удар Грома, и Шторм Старых Богов имеют 20 уровней:",
     "zhCN": "闪电轨迹有50%的几率再连锁2次  \n如果雷霆打击和古神之风暴都达到20级：",
-    "jaJP": "雷の軌跡は50%の確率でさらに2回連鎖します  \nサンダーストライクと古の神々の嵐の両方が20レベルの場合："
+    "jaJP": "雷の軌跡は50%の確率でさらに2回連鎖します  \nサンダーストライクと古の神々の嵐の両方が20レベルの場合：",
+    "esMX": "Los Senderos de Rayos tienen un 50% de probabilidad de encadenarse 2 veces más.  \nSi tanto Golpe de Trueno como Tormenta de los Antiguos Dioses tienen 20 niveles:"
   },
   {
     "id": 50188,
