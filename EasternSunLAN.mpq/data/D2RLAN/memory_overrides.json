@@ -185,7 +185,7 @@
             "Address": "310511",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "E86A660000",
             "OriginalValues": "E86A660000",
             "ModdedValues": "9090909090"
         },
@@ -196,7 +196,7 @@
             "Address": "3109F2",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "E889610000",
             "OriginalValues": "E889610000",
             "ModdedValues": "9090909090"
         },
@@ -207,7 +207,7 @@
             "Address": "310B21",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "E85A600000",
             "OriginalValues": "E85A600000",
             "ModdedValues": "9090909090"
         },
@@ -218,7 +218,7 @@
             "Address": "310D72",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "E82963FEFF",
             "OriginalValues": "E82963FEFF",
             "ModdedValues": "9090909090"
         },
@@ -229,7 +229,7 @@
             "Address": "310D68",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "E82393FEFF",
             "OriginalValues": "E82393FEFF",
             "ModdedValues": "9090909090"
         }
