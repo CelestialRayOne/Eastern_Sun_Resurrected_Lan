@@ -232,6 +232,28 @@
             "Values": "E82393FEFF",
             "OriginalValues": "E82393FEFF",
             "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse test",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "3136B6",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "e825c3ffff",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Disable item transfer on corpse test 2",
+            "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
+            "Category": "Alteration",
+            "Address": "311ec6",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "e815dbffff",
+            "ModdedValues": "9090909090"
         }
     ]
 }

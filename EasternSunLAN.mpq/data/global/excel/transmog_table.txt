@@ -1236,8 +1236,8 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1235	36d	quest/coupon_exc_shield						
 1236	37d	quest/coupon_exc_helm						
 1237	38d	quest/coupon_exc_helm						
-1238	39d	quest/coupon_exc_body_armor						
-1239	40d	quest/coupon_exc_gloves						
+1238	39d	quest/coupon_exc_shield						
+1239	40d	quest/coupon_exc_body_armor						
 1240	41d	quest/coupon_exc_gloves						
 1241	42d	quest/coupon_exc_boots						
 1242	43d	quest/coupon_exc_belt						
@@ -1306,7 +1306,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1305	15f	quest/coupon_nor_crossbow						
 1306	16f	quest/coupon_nor_mace						
 1307	17f	quest/coupon_nor_staff						
-1308	18f	quest/coupon_nor_sword						
+1308	18f	quest/coupon_nor_1h_sword						
 1309	19f	quest/coupon_nor_dagger						
 1310	20f	quest/coupon_nor_2h_sword						
 1311	21f	quest/coupon_nor_2h_sword						
@@ -1341,7 +1341,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1340	50f	quest/coupon_nor_bow						
 1341	51f	quest/coupon_nor_dagger						
 1342	52f	quest/coupon_nor_polearm						
-1343	53f	quest/coupon_nor_polearm						
+1343	53f	quest/coupon_nor_2h_axe						
 1344	54f	quest/coupon_nor_2h_sword						
 1345	55f	quest/coupon_nor_2h_sword						
 1346	56f	quest/coupon_nor_bow						
@@ -1356,7 +1356,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1355	65f	quest/coupon_nor_wand						
 1356	66f	quest/coupon_nor_staff						
 1357	67f	quest/coupon_nor_2h_axe						
-1358	68f	quest/coupon_nor_sword						
+1358	68f	quest/coupon_nor_1h_sword						
 1359	69f	quest/coupon_nor_polearm						
 1360	70f	quest/coupon_nor_2h_maul						
 1361	71f	quest/coupon_nor_2h_sword						
