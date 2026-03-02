@@ -254,6 +254,28 @@
             "Values": "9090909090",
             "OriginalValues": "e815dbffff",
             "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Holy aura disable soft hit",
+            "Description": "This will make holy shock and holy fire no longer apply a soft hit, making the skill proc on kill effects, including kill counter",
+            "Category": "Alteration",
+            "Address": "385075",
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "90909090",
+            "OriginalValues": "6683C820",
+            "ModdedValues": "90909090"
+        },
+        {
+            "Name": "Holy aura disable soft hit",
+            "Description": "This will make holy freeze no longer apply a soft hit, making the skill proc on kill effects, including kill counter",
+            "Category": "Alteration",
+            "Address": "388E2C",
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "90909090",
+            "OriginalValues": "6683C820",
+            "ModdedValues": "90909090"
         }
     ]
 }
