@@ -1193,11 +1193,11 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1192	03j	quest/coupon_nor_ring						
 1193	04j	quest/coupon_exc_ring						
 1194	05j	quest/coupon_exc_ring						
-1195	06j	quest/coupon_exc_ring						
+1195	06j	quest/coupon_eli_ring						
 1196	07j	quest/coupon_exc_ring						
-1197	08j	quest/coupon_exc_ring						
-1198	09j	quest/coupon_exc_ring						
-1199	10j	quest/coupon_exc_ring						
+1197	08j	quest/coupon_eli_ring						
+1198	09j	quest/coupon_eli_ring						
+1199	10j	quest/coupon_eli_ring						
 1200	01d	quest/coupon_exc_helm						
 1201	02d	quest/coupon_exc_body_armor						
 1202	03d	quest/coupon_exc_shield						
@@ -2268,7 +2268,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2267	wrathamons_cloak_of_night		armor/wrathamon_cloak	armor/wrathamon_cloak	armor/wrathamon_cloak			
 2268	alaziels_buckler		shield/mosers_blessed_circle	shield/mosers_blessed_circle	shield/mosers_blessed_circle			
 2269	taras_mirror		shield/taras_mirror	shield/taras_mirror	shield/taras_mirror			
-2270	lancelots_heraldic_lion		shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion	shield/lancelots_heraldic_lion			
+2270	lancelots_heraldic_lion		helmet/crown	helmet/crown	helmet/crown			
 2271	alaziels_protector		armor/alaziel_armor	armor/alaziel_armor	armor/alaziel_armor			
 2272	flesh_of_the_angel_of_chaos		armor/ordinance_armor	armor/ordinance_armor	armor/ordinance_armor			
 2273	gaias_carapace		armor/gaia_carapace	armor/gaia_carapace	armor/gaia_carapace			
@@ -2892,3 +2892,13 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2891	void_crescent					axe/void_crescent	axe/void_crescent	axe/void_crescent
 2892	hellfire_torch_new					charm/hellfire_torch_new	charm/hellfire_torch_new	charm/hellfire_torch_new
 2893	baals_vile_whisper_shuriken					knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken	knife/baals_vile_whisper_shuriken
+2894	bohemian_stone					gem/bohemian_stone	gem/bohemian_stone	gem/bohemian_stone
+2895	icestorm_shard					gem/icestorm_shard	gem/icestorm_shard	gem/icestorm_shard
+2896	ideal_craft					gem/ideal_craft	gem/ideal_craft	gem/ideal_craft
+2897	lady_eboshis_greed					gem/lady_eboshis_greed	gem/lady_eboshis_greed	gem/lady_eboshis_greed
+2898	salamander_stone					gem/salamander_stone	gem/salamander_stone	gem/salamander_stone
+2899	jindujun					gem/jindujun	gem/jindujun	gem/jindujun
+2900	sescheronyas_spark					gem/sescheronyas_spark	gem/sescheronyas_spark	gem/sescheronyas_spark
+2901	smiiiff_stone					gem/smiiiff_stone	gem/smiiiff_stone	gem/smiiiff_stone
+2902	crescent_moon					amulet/crescent_moon	amulet/crescent_moon	amulet/crescent_moon
+2903	larias_licentious_lament					gem/larias_licentious_lament	gem/larias_licentious_lament	gem/larias_licentious_lament

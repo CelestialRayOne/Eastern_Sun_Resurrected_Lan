@@ -199,7 +199,7 @@ finditem	196																																																	item_magicbonus				
 strengthancients	197																																																																						0
 ascendancy	198					1																																					valkyrie																												0
 shadearmor	199	2												1																																					item_armor_percent																				0
-holywindcold	200					1																																					null					ice_explode		velocitypercent							100	108	150	215	255	impact_bluemotize_1									0
+placeholder200	200					1																																					null					ice_explode		velocitypercent							100	108	150	215	255	impact_bluemotize_1									0
 commandmastery	201																																																																						0
 superteleport	202																																										aura_elemcry							coldresist												barbarian_battlecry_state									0
 howl	203																																										taunt																			barbarian_battlecry_state									0

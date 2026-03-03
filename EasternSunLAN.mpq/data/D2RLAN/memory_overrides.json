@@ -179,7 +179,7 @@
             "ModdedValues": "909090909090"
         },
         {
-            "Name": "Disable item transfer on corpse (Enable/Disable All to make this work properly) 1/5",
+            "Name": "Disable item transfer on corpse 1/5 (old)",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "310511",
@@ -190,7 +190,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse 2/5",
+            "Name": "Disable item transfer on corpse 2/5 (old)",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "3109F2",
@@ -201,7 +201,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse 3/5",
+            "Name": "Disable item transfer on corpse 3/5 (old)",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "310B21",
@@ -212,7 +212,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse 4/5",
+            "Name": "Disable item transfer on corpse 4/5 (old)",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "310D72",
@@ -223,7 +223,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse 5/5",
+            "Name": "Disable item transfer on corpse 5/5 (old)",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "310D68",
@@ -234,7 +234,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse test",
+            "Name": "Disable item transfer on corpse",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "3136B6",
@@ -245,7 +245,7 @@
             "ModdedValues": "9090909090"
         },
         {
-            "Name": "Disable item transfer on corpse test 2",
+            "Name": "Disable item transfer on corpse part2",
             "Description": "This will make the player spawn with all of their items on their character after they die, but corpse will still be created",
             "Category": "Alteration",
             "Address": "311ec6",
@@ -276,6 +276,17 @@
             "Values": "90909090",
             "OriginalValues": "6683C820",
             "ModdedValues": "90909090"
+        },
+        {
+            "Name": "Make Energy Shield not disable on 0 mana",
+            "Description": "This will make energy shield not disable itself anymore when the player reaches 0 mana.",
+            "Category": "Alteration",
+            "Addresses": ["38232f","382240","382252"],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "e81cc4eaff",
+            "ModdedValues": "9090909090"
         }
     ]
 }
