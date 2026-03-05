@@ -55,7 +55,35 @@ Normal Gem			1						gsv	1	gsy	1	gsb	1	gsg	1	gsr	1	gsw	1	sku	1	gsk	1										0
 Flawless Gem			1						gzv	1	gly	1	glb	1	glg	1	glr	1	glw	1	skl	1	gzk	1										0
 Blemished Gem			1						gpv	1	gpy	1	gpb	1	gpg	1	gpr	1	gpw	1	skz	1	gpk	1										0
 Perfect Gem			1						gvb	1	gyb	1	gbb	1	ggb	1	grb	1	gwb	1	skb	1	gpk	1										0
-Ore			1						Uni Ore 12	1	Uni Ore 13	1	Uni Ore 14	1	Uni Ore 15	1	Nothing	2																0
+Unique Ore Crystals 0			2						xl0	6	xr1	5	xr2	5	xr3	5																		0
+Unique Ore Crystals 1			2						xl1	6	xr2	5	xr3	5	xr4	5																		0
+Unique Ore Crystals 2			2						xl2	6	xr3	5	xr4	5	xr5	5																		0
+Unique Ore Crystals 3			2						xl3	6	xr4	5	xr5	5	xr6	5																		0
+Unique Ore Crystals 4			2						xl4	6	xr5	5	xr6	5	xr7	5																		0
+Unique Ore Crystals 5			2						xl5	6	xr6	5	xr7	5	xr8	5																		0
+Unique Ore Crystals 6			2						xl6	6	xr7	5	xr8	5	xr9	5																		0
+Unique Ore Crystals 7			2						xl7	6	xr8	5	xr9	5	xr10	5																		0
+Unique Ore Crystals 8			2						xl8	6	xr9	5	xr10	5	xr11	5																		0
+Unique Ore Crystals 9			2						xl9	6	xr10	5	xr11	5	xr0	5																		0
+Unique Ore Crystals 10			2						xl10	6	xr11	5	xr0	5	xr1	5																		0
+Unique Ore Crystals 11			2						xl11	6	xr0	5	xr1	5	xr2	5																		0
+Unique Ore 0			-2						Unique Ore Crystals 0	1	Uni Ore 0	1																						0
+Unique Ore 1			-2						Unique Ore Crystals 1	1	Uni Ore 1	1																						0
+Unique Ore 2			-2						Unique Ore Crystals 2	1	Uni Ore 2	1																						0
+Unique Ore 3			-2						Unique Ore Crystals 3	1	Uni Ore 3	1																						0
+Unique Ore 4			-2						Unique Ore Crystals 4	1	Uni Ore 4	1																						0
+Unique Ore 5			-2						Unique Ore Crystals 5	1	Uni Ore 5	1																						0
+Unique Ore 6			-2						Unique Ore Crystals 6	1	Uni Ore 6	1																						0
+Unique Ore 7			-2						Unique Ore Crystals 7	1	Uni Ore 7	1																						0
+Unique Ore 8			-2						Unique Ore Crystals 8	1	Uni Ore 8	1																						0
+Unique Ore 9			-2						Unique Ore Crystals 9	1	Uni Ore 9	1																						0
+Unique Ore 10			-2						Unique Ore Crystals 10	1	Uni Ore 10	1																						0
+Unique Ore 11			-2						Unique Ore Crystals 11	1	Uni Ore 11	1																						0
+Unique Ore 12			3						xr0	1	xr1	1	xr2	1	xr3	1	xr4	1	xr5	1														0
+Unique Ore 13			3						xr6	1	xr7	1	xr8	1	xr9	1	xr10	1	xr11	1														0
+Unique Ore 14			3						xr0	1	xr2	1	xr4	1	xr6	1	xr8	1	xr10	1														0
+Unique Ore 15			3						xr1	1	xr3	1	xr5	1	xr7	1	xr9	1	xr11	1														0
+Ore			1						Unique Ore 12	1	Unique Ore 13	1	Unique Ore 14	1	Unique Ore 15	1	Nothing	2																0
 Special Craft Stuff			2						ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1																0
 Special Craft StuffN			2						ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1																0
 Special Craft StuffH			2						qqq	1	ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1														0
@@ -456,9 +484,9 @@ Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Cpot 7	1																			
 Council Base			3	384	512	682	768	50	Gold	30	Act 4 Equip A	50	Act 4 Junk	14	Act 4 UGood	6																		0
 Council Base (N)			3	384	512	682	768	50	Gold	30	Act 4 (N) Equip A	50	Act 4 (N) Junk	14	Act 4 (N) UGood	6																		0
 Council Base (H)			3	384	512	682	768	50	Gold	30	Act 4 (H) Equip A	50	Act 4 (H) Junk	14	Act 4 (H) UGood	6																		0
-Council			1					0	Council Base	220	Uni Ore 3	1																						0
-Council (N)			1					0	Council Base (N)	110	Uni Ore 3	1																						0
-Council (H)			1					0	Council Base (H)	55	Uni Ore 3	1																						0
+Council			1					0	Council Base	220	Unique Ore 3	1																						0
+Council (N)			1					0	Council Base (N)	110	Unique Ore 3	1																						0
+Council (H)			1					0	Council Base (H)	55	Unique Ore 3	1																						0
 Act 1 Uitem A	14	0	1	512	614	820	1024	0	Act 1 Equip A	93	Act 1 UGood	7																						0
 Act 1 Uitem B	14	5	1	512	614	820	1024	0	Act 1 Equip B	93	Act 1 UGood	7																						0
 Act 1 Uitem C	14	9	1	512	614	820	1024	0	Act 1 Equip C	93	Act 1 UGood	7																						0
@@ -665,113 +693,113 @@ Countess Rune (H)			1						Runes 16	1	Runes 10	1																						0
 Countess			-6						Act 1 Ultra	3	Countess Rune	3																						0
 Countess (N)			-6						Act 1 (N) Ultra	3	Countess Rune (N)	3																						0
 Countess (H)			-6						Act 1 (H) Ultra	3	Countess Rune (H)	3																						0
-Blood Raven			6						Act 1 Ultra	160	Uni Ore 11	1																						0
-Blood Raven (N)			6						Act 1 (N) Ultra	80	Uni Ore 11	1																						0
-Blood Raven (H)			6						Act 1 (H) Ultra	40	Uni Ore 11	1																						0
-Griswold			6						Act 1 Ultra	160	Uni Ore 9	1																						0
-Griswold (N)			6						Act 1 (N) Ultra	80	Uni Ore 9	1																						0
-Griswold (H)			6						Act 1 (H) Ultra	40	Uni Ore 9	1																						0
-Radament			6						Act 2 Ultra	160	Uni Ore 8	1																						0
-Radament (N)			6						Act 2 (N) Ultra	80	Uni Ore 8	1																						0
-Radament (H)			6						Act 2 (H) Ultra	40	Uni Ore 8	1																						0
-Summoner			6						Act 2 Ultra	160	Uni Ore 7	1																						0
-Summoner (N)			6						Act 2 (N) Ultra	80	Uni Ore 7	1																						0
-Summoner (H)			6						Act 2 (H) Ultra	40	Uni Ore 7	1																						0
-Sarina			6						Act 5 Ultra	160	Uni Ore 11	1																						0
-Sarina (N)			6						Act 5 (H) Ultra	80	Uni Ore 11	1																						0
-Sarina (H)			6						Act 5 (H) Ultra	40	Uni Ore 11	1																						0
+Blood Raven			6						Act 1 Ultra	160	Unique Ore 11	1																						0
+Blood Raven (N)			6						Act 1 (N) Ultra	80	Unique Ore 11	1																						0
+Blood Raven (H)			6						Act 1 (H) Ultra	40	Unique Ore 11	1																						0
+Griswold			6						Act 1 Ultra	160	Unique Ore 9	1																						0
+Griswold (N)			6						Act 1 (N) Ultra	80	Unique Ore 9	1																						0
+Griswold (H)			6						Act 1 (H) Ultra	40	Unique Ore 9	1																						0
+Radament			6						Act 2 Ultra	160	Unique Ore 8	1																						0
+Radament (N)			6						Act 2 (N) Ultra	80	Unique Ore 8	1																						0
+Radament (H)			6						Act 2 (H) Ultra	40	Unique Ore 8	1																						0
+Summoner			6						Act 2 Ultra	160	Unique Ore 7	1																						0
+Summoner (N)			6						Act 2 (N) Ultra	80	Unique Ore 7	1																						0
+Summoner (H)			6						Act 2 (H) Ultra	40	Unique Ore 7	1																						0
+Sarina			6						Act 5 Ultra	160	Unique Ore 11	1																						0
+Sarina (N)			6						Act 5 (H) Ultra	80	Unique Ore 11	1																						0
+Sarina (H)			6						Act 5 (H) Ultra	40	Unique Ore 11	1																						0
 Izual			5						Act 4 Ultra	1																								0
 Izual (N)			5						Act 4 (N) Ultra	1																								0
 Izual (H)			5						Act 4 (H) Ultra	1																								0
-Haphesto			4						Act 4 Ultra	160	Uni Ore 6	1																						0
-Haphesto (N)			4						Act 4 (N) Ultra	80	Uni Ore 6	1																						0
-Haphesto (H)			4						Act 4 (H) Ultra	40	Uni Ore 6	1																						0
-Seal			4						Act 4 Ultra	100	Uni Ore 2	1																						0
-Seal (N)			4						Act 4 (N) Ultra	50	Uni Ore 2	1																						0
-Seal (H)			4						Act 4 (H) Ultra	25	Uni Ore 2	1																						0
+Haphesto			4						Act 4 Ultra	160	Unique Ore 6	1																						0
+Haphesto (N)			4						Act 4 (N) Ultra	80	Unique Ore 6	1																						0
+Haphesto (H)			4						Act 4 (H) Ultra	40	Unique Ore 6	1																						0
+Seal			4						Act 4 Ultra	100	Unique Ore 2	1																						0
+Seal (N)			4						Act 4 (N) Ultra	50	Unique Ore 2	1																						0
+Seal (H)			4						Act 4 (H) Ultra	25	Unique Ore 2	1																						0
 Cow King			6						Act 5 Ultra	1																								0
 Cow King (N)			6						Act 5 (H) Ultra	1																								0
 Cow King (H)			6						Act 5 (H) Ultra	1																								0
-Treant King			6						Act 5 Uber	100	Uni Ore 10	1																						0
-Treant King (N)			6						Act 5 (N) Uber	50	Uni Ore 10	1																						0
-Treant King (H)			6						Act 5 (H) Uber	25	Uni Ore 10	1																						0
-Reporb			6						Act 5 Uber	100	Uni Ore 6	1																						0
-Reporb (N)			6						Act 5 (N) Uber	50	Uni Ore 6	1																						0
-Reporb (H)			6						Act 5 (H) Uber	25	Uni Ore 6	1																						0
-Reziarfg			6						Act 5 Uber	100	Uni Ore 8	1																						0
-Reziarfg (N)			6						Act 5 (N) Uber	50	Uni Ore 8	1																						0
-Reziarfg (H)			6						Act 5 (H) Uber	25	Uni Ore 8	1																						0
-Guardian0			6						Act 5 Uber	100	Uni Ore 1	1																						0
-Guardian0 (N)			6						Act 5 (N) Uber	50	Uni Ore 1	1																						0
-Guardian0 (H) Base			6						Act 5 (H) Uber	25	Uni Ore 1	1																						0
+Treant King			6						Act 5 Uber	100	Unique Ore 10	1																						0
+Treant King (N)			6						Act 5 (N) Uber	50	Unique Ore 10	1																						0
+Treant King (H)			6						Act 5 (H) Uber	25	Unique Ore 10	1																						0
+Reporb			6						Act 5 Uber	100	Unique Ore 6	1																						0
+Reporb (N)			6						Act 5 (N) Uber	50	Unique Ore 6	1																						0
+Reporb (H)			6						Act 5 (H) Uber	25	Unique Ore 6	1																						0
+Reziarfg			6						Act 5 Uber	100	Unique Ore 8	1																						0
+Reziarfg (N)			6						Act 5 (N) Uber	50	Unique Ore 8	1																						0
+Reziarfg (H)			6						Act 5 (H) Uber	25	Unique Ore 8	1																						0
+Guardian0			6						Act 5 Uber	100	Unique Ore 1	1																						0
+Guardian0 (N)			6						Act 5 (N) Uber	50	Unique Ore 1	1																						0
+Guardian0 (H) Base			6						Act 5 (H) Uber	25	Unique Ore 1	1																						0
 Guardian0 (H)			-2					0	Guardian Map Drop	1	Guardian0 (H) Base	1																						0
-Guardian1			6						Act 5 Uber	100	Uni Ore 11	1																						0
-Guardian1 (N)			6						Act 5 (N) Uber	50	Uni Ore 11	1																						0
-Guardian1 (H) Base			6						Act 5 (H) Uber	25	Uni Ore 11	1																						0
+Guardian1			6						Act 5 Uber	100	Unique Ore 11	1																						0
+Guardian1 (N)			6						Act 5 (N) Uber	50	Unique Ore 11	1																						0
+Guardian1 (H) Base			6						Act 5 (H) Uber	25	Unique Ore 11	1																						0
 Guardian1 (H)			-3					0	Guardian Map Drop	1	Pandemonium Key A	1	Guardian1 (H) Base	1																				0
-Guardian2			6						Act 5 Uber	100	Uni Ore 0	1																						0
-Guardian2 (N)			6						Act 5 (N) Uber	50	Uni Ore 0	1																						0
-Guardian2 (H) Base			6						Act 5 (H) Uber	25	Uni Ore 0	1																						0
+Guardian2			6						Act 5 Uber	100	Unique Ore 0	1																						0
+Guardian2 (N)			6						Act 5 (N) Uber	50	Unique Ore 0	1																						0
+Guardian2 (H) Base			6						Act 5 (H) Uber	25	Unique Ore 0	1																						0
 Guardian2 (H)			-3					0	Guardian Map Drop	1	Pandemonium Key B	1	Guardian2 (H) Base	1																				0
-Guardian3			6						Act 5 Uber	100	Uni Ore 9	1																						0
-Guardian3 (N)			6						Act 5 (N) Uber	50	Uni Ore 9	1																						0
-Guardian3 (H) Base			6						Act 5 (H) Uber	25	Uni Ore 9	1																						0
+Guardian3			6						Act 5 Uber	100	Unique Ore 9	1																						0
+Guardian3 (N)			6						Act 5 (N) Uber	50	Unique Ore 9	1																						0
+Guardian3 (H) Base			6						Act 5 (H) Uber	25	Unique Ore 9	1																						0
 Guardian3 (H)			-3					0	Guardian Map Drop	1	Pandemonium Key C	1	Guardian3 (H) Base	1																				0
-Guardian4			6						Act 5 Uber	100	Uni Ore 7	1																						0
-Guardian4 (N)			6						Act 5 (N) Uber	50	Uni Ore 7	1																						0
-Guardian4 (H) Base			6						Act 5 (H) Uber	25	Uni Ore 7	1																						0
+Guardian4			6						Act 5 Uber	100	Unique Ore 7	1																						0
+Guardian4 (N)			6						Act 5 (N) Uber	50	Unique Ore 7	1																						0
+Guardian4 (H) Base			6						Act 5 (H) Uber	25	Unique Ore 7	1																						0
 Guardian4 (H)			-3					0	Guardian Map Drop	1	Guardian4 (H) Base	1																						0
-Nihlathak			6	820	820	922	1024		"gld,mul=768"	15	Act 5 Equip C	180	Act 5 Junk	12	Act 5 UGood	30	Uni Ore 0	3																0
-Nihlathak (N)			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (N) Equip C	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30	Uni Ore 0	6																0
-Nihlathak (H) Base			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (H) Equip C	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30	Uni Ore 0	12																0
+Nihlathak			6	820	820	922	1024		"gld,mul=768"	15	Act 5 Equip C	180	Act 5 Junk	12	Act 5 UGood	30	Unique Ore 0	3																0
+Nihlathak (N)			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (N) Equip C	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30	Unique Ore 0	6																0
+Nihlathak (H) Base			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (H) Equip C	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30	Unique Ore 0	12																0
 Nihlathak (H)			-2					0	Guardian Map Drop	1	Nihlathak (H) Base	1																						0
-Andariel Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 2 Equip A	180	Act 2 Junk	12	Act 2 UGood	30	Uni Ore 5	2																0
-Andariel (N) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 2 (N) Equip A	180	Act 2 (N) Junk	12	Act 2 (N) UGood	30	Uni Ore 5	4																0
-Andariel (H) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 2 (H) Equip A	180	Act 2 (H) Junk	12	Act 2 (H) UGood	30	Uni Ore 5	6																0
+Andariel Base			10	820	820	922	1024	150	"gld,mul=768"	15	Act 2 Equip A	180	Act 2 Junk	12	Act 2 UGood	30	Unique Ore 5	2																0
+Andariel (N) Base			10	820	820	922	1024	150	"gld,mul=768"	15	Act 2 (N) Equip A	180	Act 2 (N) Junk	12	Act 2 (N) UGood	30	Unique Ore 5	4																0
+Andariel (H) Base			10	820	820	922	1024	150	"gld,mul=768"	15	Act 2 (H) Equip A	180	Act 2 (H) Junk	12	Act 2 (H) UGood	30	Unique Ore 5	6																0
 Andariel			1						Sets02	2	Andariel Base	245																						0
 Andariel (N)			1						Sets04	2	Andariel (N) Base	245																						0
 Andariel (H)			1						Sets06	2	Andariel (H) Base	245																						0
 Andarielq			1						Sets02	5	Andariel Base	245																						0
 Andarielq (N)			1						Sets04	5	Andariel (N) Base	245																						0
 Andarielq (H)			1						Sets06	5	Andariel (H) Base	245																						0
-Duriel Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 3 Equip A	180	Act 3 Junk	12	Act 3 UGood	30	Uni Ore 4	2																0
-Duriel (N) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 3 (N) Equip A	180	Act 3 (N) Junk	12	Act 3 (N) UGood	30	Uni Ore 4	4																0
-Duriel (H) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 3 (H) Equip A	180	Act 3 (H) Junk	12	Act 3 (H) UGood	30	Uni Ore 4	6																0
+Duriel Base			12	820	820	922	1024	150	"gld,mul=768"	15	Act 3 Equip A	180	Act 3 Junk	12	Act 3 UGood	30	Unique Ore 4	2																0
+Duriel (N) Base			12	820	820	922	1024	150	"gld,mul=768"	15	Act 3 (N) Equip A	180	Act 3 (N) Junk	12	Act 3 (N) UGood	30	Unique Ore 4	4																0
+Duriel (H) Base			12	820	820	922	1024	150	"gld,mul=768"	15	Act 3 (H) Equip A	180	Act 3 (H) Junk	12	Act 3 (H) UGood	30	Unique Ore 4	6																0
 Duriel			1						Sets02	2	Duriel Base	245																						0
 Duriel (N)			1						Sets04	2	Duriel (N) Base	245																						0
 Duriel (H)			1						Sets06	2	Duriel (H) Base	245																						0
 Durielq			1						Sets02	5	Duriel Base	245																						0
 Durielq (N)			1						Sets04	5	Duriel (N) Base	245																						0
 Durielq (H)			1						Sets06	5	Duriel (H) Base	245																						0
-Mephisto Base			6	820	820	922	1024		"gld,mul=768"	15	Act 4 Equip B	180	Act 4 Junk	12	Act 4 UGood	30	Uni Ore 3	2																0
-Mephisto (N) Base			6	820	820	922	1024		"gld,mul=768"	15	Act 4 (N) Equip B	180	Act 4 (N) Junk	12	Act 4 (N) UGood	30	Uni Ore 3	4																0
-Mephisto (H) Base			6	820	820	922	1024		"gld,mul=768"	15	Act 4 (H) Equip B	180	Act 4 (H) Junk	12	Act 4 (H) UGood	30	Uni Ore 3	6																0
+Mephisto Base			14	820	820	922	1024	150	"gld,mul=768"	15	Act 4 Equip B	180	Act 4 Junk	12	Act 4 UGood	30	Unique Ore 3	2																0
+Mephisto (N) Base			14	820	820	922	1024	150	"gld,mul=768"	15	Act 4 (N) Equip B	180	Act 4 (N) Junk	12	Act 4 (N) UGood	30	Unique Ore 3	4																0
+Mephisto (H) Base			14	820	820	922	1024	150	"gld,mul=768"	15	Act 4 (H) Equip B	180	Act 4 (H) Junk	12	Act 4 (H) UGood	30	Unique Ore 3	6																0
 Mephisto			1						Sets03	2	Mephisto Base	245																						0
 Mephisto (N)			1						Sets05	2	Mephisto (N) Base	245																						0
 Mephisto (H)			1						Sets07	2	Mephisto (H) Base	245																						0
 Mephistoq			1						Sets03	5	Mephisto Base	245																						0
 Mephistoq (N)			1						Sets05	5	Mephisto (N) Base	245																						0
 Mephistoq (H)			1						Sets07	5	Mephisto (H) Base	245																						0
-Diablo Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 5 Equip A	180	Act 5 Junk	12	Act 5 UGood	30																		0
-Diablo (N) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 5 (N) Equip A	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30																		0
-Diablo (H) Base			6	820	820	922	1024	15	"gld,mul=768"	15	Act 5 (H) Equip A	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30																		0
+Diablo Base			16	820	820	922	1024	150	"gld,mul=768"	15	Act 5 Equip A	180	Act 5 Junk	12	Act 5 UGood	30																		0
+Diablo (N) Base			16	820	820	922	1024	150	"gld,mul=768"	15	Act 5 (N) Equip A	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30																		0
+Diablo (H) Base			16	820	820	922	1024	150	"gld,mul=768"	15	Act 5 (H) Equip A	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30																		0
 Diablo			1						Sets01	2	Diablo Base	250																						0
 Diablo (N)			1						Sets04	2	Diablo (N) Base	250																						0
 Diablo (H)			1						Sets08	2	Diablo (H) Base	250																						0
 Diabloq			1						Sets01	5	Diablo Base	250																						0
 Diabloq (N)			1						Sets04	5	Diablo (N) Base	250																						0
 Diabloq (H)			1						Sets08	5	Diablo (H) Base	250																						0
-Baal			6	820	820	922	1024		"gld,mul=768"	15	Act 5 Equip C	180	Act 5 Junk	12	Act 5 UGood	30	Uni Ore 1	5																0
-Baal (N)			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (N) Equip C	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30	Uni Ore 1	10																0
-Baal (H)			6	820	820	922	1024		"gld,mul=768"	15	Act 5 (H) Equip C	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30	Uni Ore 1	15																0
+Baal			18	820	820	922	1024	150	"gld,mul=768"	15	Act 5 Equip C	180	Act 5 Junk	12	Act 5 UGood	30	Unique Ore 1	5																0
+Baal (N)			18	820	820	922	1024	150	"gld,mul=768"	15	Act 5 (N) Equip C	180	Act 5 (N) Junk	12	Act 5 (N) UGood	30	Unique Ore 1	10																0
+Baal (H)			18	820	820	922	1024	150	"gld,mul=768"	15	Act 5 (H) Equip C	180	Act 5 (H) Junk	12	Act 5 (H) UGood	30	Unique Ore 1	15																0
 Baalq			-2					0	ag0	1	Baal	1																						0
 Baalq (N)			-2					0	ag1	1	Baal (N)	1																						0
 Baalq (H)			-2					0	ag2	1	Baal (H)	1																						0
 ROP Rare Charm			1			1024			cx1	1	cx2	1	cx3	1																				0
 ROP Charm			1						Unique Charm Small	10	cx1	20	cx2	20	cx3	20	ROP Rare Charm	30																0
-ROP - Base			-6						Act 5 Ultra	5	Uni Ore 2	1																						0
-ROP (N) - Base			-6						Act 5 (N) Ultra	5	Uni Ore 2	1																						0
-ROP (H) - Base			-6						Act 5 (H) Ultra	5	Uni Ore 2	1																						0
+ROP - Base			-6						Act 5 Ultra	5	Unique Ore 2	1																						0
+ROP (N) - Base			-6						Act 5 (N) Ultra	5	Unique Ore 2	1																						0
+ROP (H) - Base			-6						Act 5 (H) Ultra	5	Unique Ore 2	1																						0
 ROP			1						ROP Charm	1	ROP - Base	1																						0
 ROP (N)			1						ROP Charm	1	ROP (N) - Base	1																						0
 ROP (H)			1	1024				6	Annihilus	3	ROP Charm	3																						0
@@ -1414,9 +1442,9 @@ A5W Sol (H)			-2						A5C (H)	1	A5C Sol (H)	1																						0
 A5W Scz (H)			-2						A5C (H)	1	A5C Scz (H)	1																						0
 A5W Spe (H)			-2						A5C (H)	1	A5C Spe (H)	1																						0
 A5W Rune (H)			-2						A5C (H)	1	A5C Rune (H)	1																						0
-Cow			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Uni Ore 10	2	zzz	5																0
-Cow (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Uni Ore 10	5	zzz	10																0
-Cow (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Uni Ore 10	10	zzz	20																0
+Cow			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Unique Ore 10	2	zzz	5																0
+Cow (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Unique Ore 10	5	zzz	10																0
+Cow (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Unique Ore 10	10	zzz	20																0
 Hairdressser			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	tal	40	sdo	6														0
 Hairdressser (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	tal	40	sdo	6														0
 Hairdressser (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	tal	40	sdo	6														0
@@ -1441,33 +1469,33 @@ Clone Champ (H)			5	614	768	820	1024	100	"gld,mul=384"	32	Act 5 (H) Equip B	48	A
 Clone Unique			5	768	820	922	1024	100	"gld,mul=512"	32	Act 5 Equip B	48	Act 5 Junk	12	Act 5 UGood	8																		0
 Clone Unique (N)			5	768	820	922	1024	100	"gld,mul=512"	32	Act 5 (N) Equip B	48	Act 5 (N) Junk	12	Act 5 (N) UGood	8																		0
 Clone Unique (H)			5	768	820	922	1024	100	"gld,mul=512"	32	Act 5 (H) Equip B	48	Act 5 (H) Junk	12	Act 5 (H) UGood	8																		0
-Raven_Clone			5						Clone	999	Uni Ore 11	1																						0
-Raven_Clone (N)			5						Clone (N)	499	Uni Ore 11	1																						0
-Raven_Clone (H)			5						Clone (H)	249	Uni Ore 11	1																						0
-Smnr_Clone			5						Clone	999	Uni Ore 7	1																						0
-Smnr_Clone (N)			5						Clone (N)	499	Uni Ore 7	1																						0
-Smnr_Clone (H)			5						Clone (H)	249	Uni Ore 7	1																						0
-Haphe_Clone			5						Clone	999	Uni Ore 6	1																						0
-Haphe_Clone (N)			5						Clone (N)	499	Uni Ore 6	1																						0
-Haphe_Clone (H)			5						Clone (H)	249	Uni Ore 6	1																						0
-Andy_Clone			5						Clone	999	Uni Ore 5	1																						0
-Andy_Clone (N)			5						Clone (N)	499	Uni Ore 5	1																						0
-Andy_Clone (H)			5						Clone (H)	249	Uni Ore 5	1																						0
-Duri_Clone			5						Clone	999	Uni Ore 4	1																						0
-Duri_Clone (N)			5						Clone (N)	499	Uni Ore 4	1																						0
-Duri_Clone (H)			5						Clone (H)	249	Uni Ore 4	1																						0
-Nihla_Clone1			5						Clone	1600	Uni Ore 0	1	po3	45																				0
-Nihla_Clone1 (N)			5						Clone (N)	1600	Uni Ore 0	4	po3	45																				0
-Nihla_Clone1 (H)			5						Clone (H)	1600	Uni Ore 0	7	po3	45																				0
-Nihla_Clone2			5						Clone	1600	Uni Ore 0	1	fkn	75																				0
-Nihla_Clone2 (N)			5						Clone (N)	1600	Uni Ore 0	4	fkn	75																				0
-Nihla_Clone2 (H)			5						Clone (H)	1600	Uni Ore 0	7	fkn	75																				0
-Nihla_Clone3			5						Clone	1600	Uni Ore 0	1	po4	45																				0
-Nihla_Clone3 (N)			5						Clone (N)	1600	Uni Ore 0	4	po4	45																				0
-Nihla_Clone3 (H)			5						Clone (H)	1600	Uni Ore 0	7	po4	45																				0
-Nihla_Clone4			5						Clone	1600	Uni Ore 0	1																						0
-Nihla_Clone4 (N)			5						Clone (N)	1600	Uni Ore 0	4																						0
-Nihla_Clone4 (H)			5						Clone (H)	1600	Uni Ore 0	7																						0
+Raven_Clone			5						Clone	999	Unique Ore 11	1																						0
+Raven_Clone (N)			5						Clone (N)	499	Unique Ore 11	1																						0
+Raven_Clone (H)			5						Clone (H)	249	Unique Ore 11	1																						0
+Smnr_Clone			5						Clone	999	Unique Ore 7	1																						0
+Smnr_Clone (N)			5						Clone (N)	499	Unique Ore 7	1																						0
+Smnr_Clone (H)			5						Clone (H)	249	Unique Ore 7	1																						0
+Haphe_Clone			5						Clone	999	Unique Ore 6	1																						0
+Haphe_Clone (N)			5						Clone (N)	499	Unique Ore 6	1																						0
+Haphe_Clone (H)			5						Clone (H)	249	Unique Ore 6	1																						0
+Andy_Clone			5						Clone	999	Unique Ore 5	1																						0
+Andy_Clone (N)			5						Clone (N)	499	Unique Ore 5	1																						0
+Andy_Clone (H)			5						Clone (H)	249	Unique Ore 5	1																						0
+Duri_Clone			5						Clone	999	Unique Ore 4	1																						0
+Duri_Clone (N)			5						Clone (N)	499	Unique Ore 4	1																						0
+Duri_Clone (H)			5						Clone (H)	249	Unique Ore 4	1																						0
+Nihla_Clone1			5						Clone	1600	Unique Ore 0	1	po3	45																				0
+Nihla_Clone1 (N)			5						Clone (N)	1600	Unique Ore 0	4	po3	45																				0
+Nihla_Clone1 (H)			5						Clone (H)	1600	Unique Ore 0	7	po3	45																				0
+Nihla_Clone2			5						Clone	1600	Unique Ore 0	1	fkn	75																				0
+Nihla_Clone2 (N)			5						Clone (N)	1600	Unique Ore 0	4	fkn	75																				0
+Nihla_Clone2 (H)			5						Clone (H)	1600	Unique Ore 0	7	fkn	75																				0
+Nihla_Clone3			5						Clone	1600	Unique Ore 0	1	po4	45																				0
+Nihla_Clone3 (N)			5						Clone (N)	1600	Unique Ore 0	4	po4	45																				0
+Nihla_Clone3 (H)			5						Clone (H)	1600	Unique Ore 0	7	po4	45																				0
+Nihla_Clone4			5						Clone	1600	Unique Ore 0	1																						0
+Nihla_Clone4 (N)			5						Clone (N)	1600	Unique Ore 0	4																						0
+Nihla_Clone4 (H)			5						Clone (H)	1600	Unique Ore 0	7																						0
 Izual_Clone			5						Clone	250																								0
 Izual_Clone (N)			5						Clone (N)	250																								0
 Izual_Clone (H)			5						Clone (H)	250																								0
@@ -1480,12 +1508,6 @@ Hpotion 3			1						hp2	1	hp3	4	hp4	3	mp3	2	mp4	2	rvs	1														0
 Hpotion 4			1						hp3	1	hp4	4	hp5	3	mp4	2	mp5	2	rvs	1														0
 Hpotion 5			1						hp3	1	hp4	4	hp5	4	mp5	4	rvs	1																0
 Hpotion 6			1						hp4	4	hp5	6	mp4	2	mp5	4	rvs	1																0
-Uber Andariel			1	1024				0	dhn	1																								0
-Uber Duriel			1	1024				0	bey	1																								0
-Uber Izual			1	1024				0	mbr	1																								0
-Uber Diablo			1	1024				0	ht1	1																								0
-Uber Baal			1	1024				0	ht2	1																								0
-Uber Mephisto			1	1024				0	ht3	1																								0
 Act 1 Cpot A	12	0	2					0	Hpotion 1	1																								0
 Act 1 Cpot B	12	5	2					0	Hpotion 1	1																								0
 Act 1 Cpot C	12	9	2					0	Hpotion 1	1																								0
@@ -1676,9 +1698,9 @@ Act 5 Set Workshop (H)			1		683			900	Act 5 (H) Equip C	93	Act 5 (H) UGood	7	Ore
 Act 5 Cow Bases			1					800	weap30	20	armo30	10	weap33	60	armo33	30	weap36	140	armo36	70	weap39	60	armo39	30	Act 5 Equip B	3276	Ore	5						0
 Act 5 Cow Bases (N)			1					800	weap54	20	armo54	10	weap57	60	armo57	30	weap60	140	armo60	70	weap63	20	armo63	10	Act 5 (N) Equip B	8852	Ore	5						0
 Act 5 Cow Bases (H)			1					800	weap81	20	armo81	10	weap84	60	armo84	30	weap87	140	armo87	70	Act 5 (H) Equip B	14368	Ore	5										0
-Ore Special			1						Uni Ore 12	1	Uni Ore 13	1	Uni Ore 15	1	Uni Ore 14	1	Nothing	1																0
-Ore Special2			1						Uni Ore 13	1	Uni Ore 14	1	Uni Ore 12	1	Uni Ore 15	1	Nothing	1																0
-Ore Special3			1						Uni Ore 14	1	Uni Ore 15	1	Uni Ore 13	1	Uni Ore 12	1	Nothing	1																0
+Ore Special			1						Unique Ore 12	1	Unique Ore 13	1	Unique Ore 15	1	Unique Ore 14	1	Nothing	1																0
+Ore Special2			1						Unique Ore 13	1	Unique Ore 14	1	Unique Ore 12	1	Unique Ore 15	1	Nothing	1																0
+Ore Special3			1						Unique Ore 14	1	Unique Ore 15	1	Unique Ore 13	1	Unique Ore 12	1	Nothing	1																0
 Ore Special Pick			1						Ore Special	1	Ore Special2	1	Ore Special3	1																				0
 A5C Ore Bias			1					1200	A5C	3840	Act 5 Junk	768	Ore Special	3	hrt	10	Nothing	600												0.12% chance to get Ore per Mob kill				0
 A5C Ore Bias (N)			1					1200	A5C (N)	3840	Act 5 (N) Junk	768	Ore Special	2	hrt	10	Ore Special2	2	Nothing	600										kinda same				0
@@ -2610,22 +2632,22 @@ EGM Equip Axe And Knife Cps 14	43	85	1						weap81	20	armo81	10	weap84	60	armo84
 EGM Equip Axe And Knife Cps 15	43	88	1						weap84	20	armo84	10	weap87	60	armo87	30	weap90	140	armo90	70	weap93	60	armo93	30	Axe And Knife Items Tier 42	30	EGM Equip Axe And Knife Cps 14	15640	334					0
 EGM Equip Axe And Knife Cps 16	43	91	1						weap87	20	armo87	10	weap90	60	armo90	30	weap93	140	armo93	70	weap96	60	armo96	30	Axe And Knife Items Tier 42	30	EGM Equip Axe And Knife Cps 15	16064	334					0
 EGM Equip Axe And Knife Cps 17	43	94	1						weap90	20	armo90	10	weap93	60	armo93	30	weap96	140	armo96	70	Axe And Knife Items Tier 42	30	EGM Equip Axe And Knife Cps 16	16488					354					0
-EGM Myth			4						weap96	24	armo96	4	mam	2	Act 5 (H) Coupon C	165																		0
-EGM Myth Helm Cps			4						weap96	24	armo96	4	mam	2	Helm Items Tier 42	165																		0
-EGM Myth Body Armor Cps			4						weap96	24	armo96	4	mam	2	Body Armor Items Tier 42	165																		0
-EGM Myth Gloves Cps			4						weap96	24	armo96	4	mam	2	Gloves Items Tier 42	165																		0
-EGM Myth Boots Cps			4						weap96	24	armo96	4	mam	2	Boots Items Tier 42	165																		0
-EGM Myth Belt Cps			4						weap96	24	armo96	4	mam	2	Belt Items Tier 42	165																		0
-EGM Myth Missile Cps			4						weap96	24	armo96	4	mam	2	Missile Items Tier 42	165																		0
-EGM Myth Jewelry Cps			4						weap96	24	armo96	4	mam	2	Jewelry Items Tier 42	165																		0
-EGM Myth Class Cps			4						weap96	24	armo96	4	mam	2	Class Items Tier 42	165																		0
-EGM Myth Caster Cps			4						weap96	24	armo96	4	mam	2	Caster Weapon Items Tier 42	165																		0
-EGM Myth Axe And Knife Cps			4						weap96	24	armo96	4	mam	2	Axe And Knife Items Tier 42	165																		0
-EGM Myth Shield And Sword Cps			4						weap96	24	armo96	4	mam	2	Shield And Sword Items Tier 42	165																		0
-EGM Myth Scepter And Mace Cps			4						weap96	24	armo96	4	mam	2	Scepter And Mace Items Tier 42	165																		0
-EGM Myth Polearm And Spear Cps			4						weap96	24	armo96	4	mam	2	Polearm And Spear Items Tier 42	165																		0
-EGM Myth Club And Hammer Cps			4						weap96	24	armo96	4	mam	2	Club And Hammer Items Tier 42	165																		0
-EGM Myth Throwing Weapon Cps			4						weap96	24	armo96	4	mam	2	Throwing Weapon Items Tier 42	165																		0
+EGM Myth			1						weap96	24	armo96	4	mam	2	Act 5 (H) Coupon C	165																		0
+EGM Myth Helm Cps			1						weap96	24	armo96	4	mam	2	Helm Items Tier 42	165																		0
+EGM Myth Body Armor Cps			1						weap96	24	armo96	4	mam	2	Body Armor Items Tier 42	165																		0
+EGM Myth Gloves Cps			1						weap96	24	armo96	4	mam	2	Gloves Items Tier 42	165																		0
+EGM Myth Boots Cps			1						weap96	24	armo96	4	mam	2	Boots Items Tier 42	165																		0
+EGM Myth Belt Cps			1						weap96	24	armo96	4	mam	2	Belt Items Tier 42	165																		0
+EGM Myth Missile Cps			1						weap96	24	armo96	4	mam	2	Missile Items Tier 42	165																		0
+EGM Myth Jewelry Cps			1						weap96	24	armo96	4	mam	2	Jewelry Items Tier 42	165																		0
+EGM Myth Class Cps			1						weap96	24	armo96	4	mam	2	Class Items Tier 42	165																		0
+EGM Myth Caster Cps			1						weap96	24	armo96	4	mam	2	Caster Weapon Items Tier 42	165																		0
+EGM Myth Axe And Knife Cps			1						weap96	24	armo96	4	mam	2	Axe And Knife Items Tier 42	165																		0
+EGM Myth Shield And Sword Cps			1						weap96	24	armo96	4	mam	2	Shield And Sword Items Tier 42	165																		0
+EGM Myth Scepter And Mace Cps			1						weap96	24	armo96	4	mam	2	Scepter And Mace Items Tier 42	165																		0
+EGM Myth Polearm And Spear Cps			1						weap96	24	armo96	4	mam	2	Polearm And Spear Items Tier 42	165																		0
+EGM Myth Club And Hammer Cps			1						weap96	24	armo96	4	mam	2	Club And Hammer Items Tier 42	165																		0
+EGM Myth Throwing Weapon Cps			1						weap96	24	armo96	4	mam	2	Throwing Weapon Items Tier 42	165																		0
 Endgame Map Tier 2 No Downgrade			1						z05	1	z06	1	z07	1	z08	1																		0
 Endgame Map Tier 3 No Downgrade			1						z09	1	z10	1	z11	1	z12	1																		0
 Endgame Map Tier 4 No Downgrade			1						z13	1	z14	1	z15	1	z16	1																		0
@@ -2664,18 +2686,18 @@ Endgame Map Base Polearm And Spear Cps			1					90	Gold	10	EGM Equip Polearm And 
 Endgame Map Base Club And Hammer Cps			1					90	Gold	10	EGM Equip Club And Hammer Cps 17	42	Endgame Map Valuable	8																				0
 Endgame Map Base Throwing Weapon Cps			1					90	Gold	10	EGM Equip Throwing Weapon Cps 17	42	Endgame Map Valuable	8																				0
 Endgame Map Base No Cps Bias			1					90	"gld,mul=512"	10	EGM Equip 17	42	Endgame Map Valuable	8																				0
-Cellar Of Pain Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 1	3																		0
-Chasm Of Horror Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 4	3																		0
-Crypt Of Damnation Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 11	3																		0
-Necropolis Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 7	3																		0
-Ancient Tomb Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 8	3																		0
-Chaos Rift Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 6	3																		0
-Infested Lair Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 5	3																		0
-Labyrinth Of Suffering Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 3	3																		0
-Decaying Depths Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 2	3																		0
-Frozen Wastes Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 0	3																		0
-Twisted Maze Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 9	3																		0
-Cursed Ossuary Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Uni Ore 10	3																		0
+Cellar Of Pain Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 1	3																		0
+Chasm Of Horror Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 4	3																		0
+Crypt Of Damnation Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 11	3																		0
+Necropolis Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 7	3																		0
+Ancient Tomb Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 8	3																		0
+Chaos Rift Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 6	3																		0
+Infested Lair Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 5	3																		0
+Labyrinth Of Suffering Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 3	3																		0
+Decaying Depths Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 2	3																		0
+Frozen Wastes Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 0	3																		0
+Twisted Maze Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 9	3																		0
+Cursed Ossuary Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1	Unique Ore 10	3																		0
 No Ore Bias			1						Ore Special	1	Ore Special2	1	Ore Special3	1																				0
 Cellar Of Pain Bias 1	44	100	1					1200	Endgame Map Base Club And Hammer Cps	3840	Endgame Map Junk	768	Cellar Of Pain Ore Bias	30	Runes 16	8	"gld,mul=256"	25	Endgame Map Organ Drops	20	Endgame Map Tier 1	15												0
 Cellar Of Pain Bias 2	44	102	1					1200	Endgame Map Base Club And Hammer Cps	3840	Endgame Map Junk	768	Cellar Of Pain Ore Bias	30	Runes 16	8	"gld,mul=256"	25	Endgame Map Organ Drops	20	Endgame Map Tier 2	14												0
@@ -3237,8 +3259,6 @@ Shrine of Destruction Bias (Unique) Desecrated 2	118	102	-2					0	Worldstone Sha
 Shrine of Destruction Bias (Unique) Desecrated 3	118	104	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 3	1																						0
 Shrine of Destruction Bias (Unique) Desecrated 4	118	106	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 4	1																						0
 Shrine of Destruction Bias (Unique) Desecrated 5	118	108	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 5	1																						0
-Primordial Soulstone			1						u19	1																								0
-Uber Loot Map Boss			6	820	820	973	1024		"gld,mul=768"	15	EGM Equip 17	180	Endgame Map Valuable	30	Special Craft StuffH	15	EGM Myth	15																0
 Endgame Map Tier 1 Boss Bias			1					8	Endgame Map Tier 2 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 2 Boss Bias			1					8	Endgame Map Tier 3 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 3 Boss Bias			1					8	Endgame Map Tier 4 No Downgrade	4	Nothing	4																						0
@@ -3254,49 +3274,68 @@ Endgame Map Tier 4 Boss Key			2	1024				21	Endgame Map Random Key	21												
 Endgame Map Tier 5 Boss Key			2	1024				21	Endgame Map Random Key	21																								0
 Endgame Map Tier 5 Boss Key Set			1	1024				21	u10	21																								0
 Endgame Map Tier 5 Lich King Key			1	1024					u10	1																								0
-Chasm Of Horror Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Polearm And Spear Cps	1	"gld,mul=1024"	1														0
-Necropolis Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Scepter And Mace Cps	1	"gld,mul=1024"	1														0
-Cellar Of Pain Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Club And Hammer Cps	1	"gld,mul=1024"	1														0
-Infested Lair Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Shield And Sword Cps	1	"gld,mul=1024"	1														0
-Labyrinth Of Suffering Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Boots Cps	1	"gld,mul=1024"	1														0
-Endless Abyss Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Shield And Sword Cps	1	"gld,mul=1024"	1														0
-Frozen Wastes Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Gloves Cps	1	"gld,mul=1024"	1														0
-Shrine Of Destruction Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Class Cps	1	"gld,mul=1024"	1														0
-Reliquary Of Souls Boss			-6	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	Endgame Map Valuable	1	EGM Myth Jewelry Cps	1	"gld,mul=1024"	1														0
+Goblin Boss Craft			1						qqq	1	Ore	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Chasm Of Horror Boss Craft			1						qqq	1	Unique Ore 4	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Necropolis Boss Craft			1						qqq	1	Unique Ore 7	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Cellar Of Pain Boss Craft			1						qqq	1	Unique Ore 1	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Infested Lair Boss Craft			1						qqq	1	Unique Ore 5	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Labyrinth Of Suffering Boss Craft			1						qqq	1	Unique Ore 3	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Endless Abyss Boss Craft			1						qqq	1	Ore	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	4														0
+Frozen Wastes Boss Craft			1						qqq	1	Unique Ore 0	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Shrine Of Destruction Boss Craft			1						qqq	1	Ore	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Reliquary Of Souls Boss Craft			1						qqq	1	Ore	4	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1														0
+Icecrown Citadel Boss Craft			1						qqq	1	Unique Ore 4	2	Unique Ore 6	2	yyy	1	ppp	8	Perfect Gem	4	Endgame Map Organ Drops	2												0
+Eye of the Storm Boss Craft			1						qqq	3	Unique Ore 3	4	Unique Ore 7	4	Unique Ore 9	4	yyy	3	ppp	24	Perfect Gem	6	Endgame Map Organ Drops	3										0
+Sanctum of the Dead Boss Craft			1						qqq	3	Unique Ore 0	4	Unique Ore 5	4	Unique Ore 11	4	yyy	3	ppp	24	Perfect Gem	6	Endgame Map Organ Drops	3										0
+Reliquary of False Light Boss Craft			1						qqq	1	Unique Ore 1	1	Unique Ore 2	1	Unique Ore 8	1	Unique Ore 10	1	yyy	1	ppp	8	Perfect Gem	2	Endgame Map Organ Drops	1								0
+Chasm Of Horror Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	150	Endgame Map Valuable	30	Chasm Of Horror Boss Craft	15	EGM Myth Polearm And Spear Cps	15																0
+Necropolis Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	150	Endgame Map Valuable	30	Necropolis Boss Craft	15	EGM Myth Scepter And Mace Cps	15																0
+Cellar Of Pain Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	150	Endgame Map Valuable	30	Cellar Of Pain Boss Craft	15	EGM Myth Club And Hammer Cps	15																0
+Infested Lair Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	140	Endgame Map Valuable	30	Infested Lair Boss Craft	15	EGM Myth Shield And Sword Cps	15																0
+Labyrinth Of Suffering Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	140	Endgame Map Valuable	30	Labyrinth Of Suffering Boss Craft	15	EGM Myth Boots Cps	15																0
+Endless Abyss Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	130	Endgame Map Valuable	30	Endless Abyss Boss Craft	15	EGM Myth Shield And Sword Cps	15																0
+Frozen Wastes Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	130	Endgame Map Valuable	30	Frozen Wastes Boss Craft	15	EGM Myth Gloves Cps	15																0
+Shrine Of Destruction Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	120	Endgame Map Valuable Dragon Stone Bias	30	Shrine Of Destruction Boss Craft	15	EGM Myth Class Cps	15																0
+Reliquary Of Souls Boss Base			1	820	820	973	1024	150	"gld,mul=2048"	15	EGM Equip 17	120	Endgame Map Valuable Rune Bias	30	Reliquary Of Souls Boss Craft	15	EGM Myth Jewelry Cps	15																0
+Icecrown Citadel Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	45	EGM Equip 17	90	Endgame Map Valuable Gem Bias	30	Icecrown Citadel Boss Craft	15	EGM Myth Missile Cps	5	EGM Myth Polearm And Spear Cps	5	Endgame Map Base Throwing Weapon Cps	5												0
+Eye of the Storm Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	EGM Equip 17	90	Endgame Map Valuable	30	Eye of the Storm Boss Craft	15	EGM Myth Class Cps	4	EGM Myth Helm Cps	4	EGM Myth Boots Cps	4	EGM Myth Scepter And Mace Cps	4										0
+Sanctum of the Dead Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	EGM Equip 17	90	Endgame Map Valuable Rune Bias	30	Sanctum of the Dead Boss Craft	15	EGM Myth Jewelry Cps	4	EGM Myth Gloves Cps	4	EGM Myth Shield And Sword Cps	4	EGM Myth Axe And Knife Cps	4										0
+Reliquary of False Light Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	EGM Equip 17	90	Endgame Map Valuable	30	Reliquary of False Light Boss Craft	15	EGM Myth Body Armor Cps	4	EGM Myth Belt Cps	4	EGM Myth Caster Cps	4	EGM Myth Club And Hammer Cps	4										0
+Chasm Of Horror Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Chasm Of Horror Boss Base	6																0
+Necropolis Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Necropolis Boss Base	6																0
+Cellar Of Pain Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Cellar Of Pain Boss Base	6																0
+Infested Lair Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Infested Lair Boss Base	11																0
+Labyrinth Of Suffering Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Labyrinth Of Suffering Boss Base	11																0
+Endless Abyss Boss			-20	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Endless Abyss Boss Base	16																0
+Frozen Wastes Boss			-20	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Frozen Wastes Boss Base	16																0
+Shrine Of Destruction Boss			-25	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Shrine Of Destruction Boss Base	21																0
+Reliquary Of Souls Boss			-25	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Reliquary Of Souls Boss Base	21																0
+Eternal Ancient Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 5 Ancients	1	Endgame Map Tier 5 Ancient Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Icecrown Citadel Boss Base	11																0
+The Lich King Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Icecrown Citadel Boss Base	41																0
+Eye of the Storm Boss			-30	820	820	973	1024	0	Orb of Anointment Tier 5	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Eye of the Storm Boss Base	26																0
+Sanctum of the Dead Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Sanctum of the Dead Boss Base	41																0
+Reliquary of False Light Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Reliquary of False Light Boss Base	41																0
 Chasm Of Horror Boss Desecrated			-2					0	wss	1	Chasm Of Horror Boss	1																						0
 Necropolis Boss Desecrated			-2					0	wss	1	Necropolis Boss	1																						0
 Cellar Of Pain Boss Desecrated			-2					0	wss	1	Cellar Of Pain Boss	1																						0
-Infested Lair Boss Desecrated			-2					0	wss	1	Infested Lair Boss	1																						0
-Labyrinth Of Suffering Boss Desecrated			-2					0	wss	1	Labyrinth Of Suffering Boss	1																						0
-Endless Abyss Boss Desecrated			-2					0	wss	1	Endless Abyss Boss	1																						0
-Frozen Wastes Boss Desecrated			-2					0	wss	1	Frozen Wastes Boss	1																						0
-Shrine Of Destruction Boss Desecrated			-2					0	wss	1	Shrine Of Destruction Boss	1																						0
-Reliquary Of Souls Boss Desecrated			-2					0	wss	1	Reliquary Of Souls Boss	1																						0
-Endgame Map Boss Tier 5 Base			-6	820	820	973	1024	0	Orb of Anointment Tier 5	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Boss Key Set	1	Endgame Map Valuable	1	EGM Myth	1	"gld,mul=768"	1														0
-Endgame Map Boss Tier 5 Mephisto			-2					0	um3	1	Endgame Map Boss Tier 5 Base	1																						0
-Endgame Map Boss Tier 5 Diablo			-2					0	um1	1	Endgame Map Boss Tier 5 Base	1																						0
-Endgame Map Boss Tier 5 Baal			-2					0	um2	1	Endgame Map Boss Tier 5 Base	1																						0
-Endgame Map Boss Tier 5 Ancients Base			-6	820	820	973	1024	0	Orb of Anointment Tier 5 Ancients	1	Endgame Map Tier 5 Ancient Bias	1	Endgame Map Tier 5 Boss Key	1	Endgame Map Valuable	1	EGM Myth	1	"gld,mul=768"	1														0
-Endgame Map Boss Tier 5 Korlic			-2	820	820	973	1024	0	um4	1	Endgame Map Boss Tier 5 Ancients Base	1																						0
-Endgame Map Boss Tier 5 Talic			-2	820	820	973	1024	0	um5	1	Endgame Map Boss Tier 5 Ancients Base	1																						0
-Endgame Map Boss Tier 5 Madawc			-2	820	820	973	1024	0	um6	1	Endgame Map Boss Tier 5 Ancients Base	1																						0
-Endgame Map Boss Tier 5 Lich King			-6	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Lich King Unique	1	Endgame Map Tier 5 Lich King Key	1	Endgame Map Valuable	1	EGM Myth	1														0
-Endgame Map Boss Tier 5 Rathma			-6	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Rathma Unique	1	Endgame Map Tier 5 Lich King Key	1	Endgame Map Valuable	1	EGM Myth	1														0
-Endgame Map Boss Tier 5 Lucion			-6	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Lucion Unique	1	Endgame Map Tier 5 Lich King Key	1	Endgame Map Valuable	1	EGM Myth	1														0
-Endgame Map Boss Tier 5 Mephisto D			-2					0	wss	1	Endgame Map Boss Tier 5 Mephisto	1																						0
-Endgame Map Boss Tier 5 Diablo D			-2					0	wss	1	Endgame Map Boss Tier 5 Diablo	1																						0
-Endgame Map Boss Tier 5 Baal D			-2					0	wss	1	Endgame Map Boss Tier 5 Baal	1																						0
-Endgame Map Boss Tier 5 Korlic D			-2					0	wss	1	Endgame Map Boss Tier 5 Korlic	1																						0
-Endgame Map Boss Tier 5 Talic D			-2					0	wss	1	Endgame Map Boss Tier 5 Talic	1																						0
-Endgame Map Boss Tier 5 Madawc D			-2					0	wss	1	Endgame Map Boss Tier 5 Madawc	1																						0
-Endgame Map Boss Tier 5 Lich King D			-2					0	wss	1	Endgame Map Boss Tier 5 Lich King	1																						0
-Endgame Map Boss Tier 5 Rathma D			-2					0	wss	1	Endgame Map Boss Tier 5 Rathma	1																						0
-Endgame Map Boss Tier 5 Lucion D			-2					0	wss	1	Endgame Map Boss Tier 5 Lucion	1																						0
-Treasure Goblin			6	768	768	900	1024	0	EGM Equip 17	180	Endgame Map Valuable	20	Special Craft StuffH	10	Endgame Map Tier 3	1	Unique Charm 2	4	"gld,mul=768"	15														0
-Treasure Goblin (Champ)			6	768	768	950	1024	0	EGM Equip 17	180	Endgame Map Valuable	20	Special Craft StuffH	10	Endgame Map Tier 4	2	Unique Charm 2	8	"gld,mul=768"	15														0
-Treasure Goblin (Unique)			6	820	820	1024	1024	0	EGM Equip 17	180	Endgame Map Valuable	20	Special Craft StuffH	10	Endgame Map Tier 5	6	Unique Charm 2	12	"gld,mul=768"	15														0
-Treasure Goblin Desecrated (Champ)			-2					0	Worldstone Shards	1	Treasure Goblin (Champ)	1																						0
-Treasure Goblin Desecrated (Unique)			-2					0	Worldstone Shards	1	Treasure Goblin (Unique)	1																						0
+Infested Lair Boss Desecrated			-3					0	wss	2	Infested Lair Boss	1																						0
+Labyrinth Of Suffering Boss Desecrated			-3					0	wss	2	Labyrinth Of Suffering Boss	1																						0
+Endless Abyss Boss Desecrated			-4					0	wss	3	Endless Abyss Boss	1																						0
+Frozen Wastes Boss Desecrated			-4					0	wss	3	Frozen Wastes Boss	1																						0
+Shrine Of Destruction Boss Desecrated			-5					0	wss	4	Shrine Of Destruction Boss	1																						0
+Reliquary Of Souls Boss Desecrated			-5					0	wss	4	Reliquary Of Souls Boss	1																						0
+Eternal Korlic Boss Desecrated			-4					0	wss	2	um4	1	Eternal Ancient Boss	1																				0
+Eternal Talic Boss Desecrated			-4					0	wss	2	um5	1	Eternal Ancient Boss	1																				0
+Eternal Madawc Boss Desecrated			-4					0	wss	2	um6	1	Eternal Ancient Boss	1																				0
+The Lich King Boss Desecrated			-7					0	wss	5	Endgame Map Lich King Unique	1	The Lich King Boss	1																				0
+Baal the Invincible Boss Desecrated			-5					0	wss	3	um2	1	Eye of the Storm Boss	1																				0
+Diablo the Invincible Boss Desecrated			-5					0	wss	3	um1	1	Eye of the Storm Boss	1																				0
+Mephisto the Invincible Boss Desecrated			-5					0	wss	3	um3	1	Eye of the Storm Boss	1																				0
+Sanctum of the Dead Boss Desecrated			-7					0	wss	5	Endgame Map Rathma Unique	1	Sanctum of the Dead Boss	1																				0
+Reliquary of False Light Boss Desecrated			-7					0	wss	5	Endgame Map Lucion Unique	1	Reliquary of False Light Boss	1																				0
+Treasure Goblin			15	820	820	973	1024	250	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Treasure Goblin (Champ)			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Treasure Goblin (Unique)			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
 Ascendancy Class			6						Act 5 Uber	1																								0
 Ascendancy Class (N)			6						Act 5 (N) Uber	1																								0
 Ascendancy Class (H)			6						Act 5 (H) Uber	1																								0
@@ -3311,3 +3350,11 @@ Uldyssian Hound Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Uldyssia
 Inarius Stalker Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Inarius Stalker Ascendancy (H)	1																						0
 Malthael Imp Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Malthael Imp Ascendancy (H)	1																						0
 Gold Only Rat			1					3	"gld,mul=96"	1	Nothing	2																						0
+Uber Organ Boss Base			15					100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Uber Tristram Base			20					100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Uber Andariel			-2					0	dhn	1	Uber Organ Boss Base	1																						0
+Uber Duriel			-2					0	bey	1	Uber Organ Boss Base	1																						0
+Uber Izual			-2					0	mbr	1	Uber Organ Boss Base	1																						0
+Uber Diablo			-2					0	ht1	1	Uber Tristram Base	1																						0
+Uber Baal			-2					0	ht2	1	Uber Tristram Base	1																						0
+Uber Mephisto			-2					0	ht3	1	Uber Tristram Base	1																						0

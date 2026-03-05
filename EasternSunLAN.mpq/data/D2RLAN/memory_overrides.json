@@ -281,12 +281,113 @@
             "Name": "Make Energy Shield not disable on 0 mana",
             "Description": "This will make energy shield not disable itself anymore when the player reaches 0 mana.",
             "Category": "Alteration",
-            "Addresses": ["38232f","382240","382252"],
+            "Addresses": [
+                "38232f",
+                "382240",
+                "382252"
+            ],
             "Length": 5,
             "Type": "Hex",
             "Values": "9090909090",
             "OriginalValues": "e81cc4eaff",
             "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference 1/5",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Address": "329cc8",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "9090909090",
+            "OriginalValues": "0faf542448",
+            "ModdedValues": "9090909090"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference 2/5",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Addresses": [
+                "329cd2",
+                "329cd6"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "90909090",
+            "OriginalValues": "8b4c244c,034c2448",
+            "ModdedValues": "90909090"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference 3/5",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Address": "329cda",
+            "Length": 3,
+            "Type": "Hex",
+            "Values": "909090",
+            "OriginalValues": "8d0412",
+            "ModdedValues": "909090"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference 4/5",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Address": "329cdd",
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "90",
+            "OriginalValues": "99",
+            "ModdedValues": "90"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference 5/5",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Address": "329cde",
+            "Length": 2,
+            "Type": "Hex",
+            "Values": "9090",
+            "OriginalValues": "f7f9",
+            "ModdedValues": "9090"
+        },
+        {
+            "Name": "Make Attack Rating not depend on level difference (display)",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Addresses": [
+                "bfe852"
+            ],
+            "Length": 11,
+            "Type": "Hex",
+            "Values": "89e8909090909090909090",
+            "OriginalValues": "440FAFC5438D040099F7F9",
+            "ModdedValues": "89e8909090909090909090"
+        },
+        {
+            "Name": "Increase item drop cap of monsters to 50 (jump to cave)",
+            "Description": "This edit allows monsters to drop up to 50 items",
+            "Category": "Alteration",
+            "Addresses": [
+                "32CEB4"
+            ],
+            "Length": 10,
+            "Type": "Hex",
+            "Values": "E90FA7E7009090909090",
+            "OriginalValues": "33C089442448440FB7CD",
+            "ModdedValues": "E90FA7E7009090909090"
+        },
+        {
+            "Name": "Increase item drop cap of monsters to 50 (code cave cont)",
+            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Category": "Alteration",
+            "Addresses": [
+                "11A75C8"
+            ],
+            "Length": 19,
+            "Type": "Hex",
+            "Values": "33C0C744244832000000440FB7CDE9E35818FF",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "33C0C744244832000000440FB7CDE9E35818FF"
         }
     ]
 }

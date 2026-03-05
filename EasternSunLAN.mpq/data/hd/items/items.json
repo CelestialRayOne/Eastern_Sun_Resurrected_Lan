@@ -1486,7 +1486,7 @@
   { "46h": { "asset": "quest/coupon_eli_orb" } },
   { "47h": { "asset": "quest/coupon_eli_2h_axe" } },
   { "48h": { "asset": "quest/coupon_eli_hammer" } },
-  { "49h": { "asset": "quest/coupon_eli_throwing_dagger" } },
+  { "49h": { "asset": "quest/coupon_eli_throwing_knife" } },
   { "50h": { "asset": "quest/coupon_eli_2h_axe" } },
   { "51h": { "asset": "quest/coupon_eli_polearm" } },
   { "52k": { "asset": "quest/coupon_eli_wand" } },

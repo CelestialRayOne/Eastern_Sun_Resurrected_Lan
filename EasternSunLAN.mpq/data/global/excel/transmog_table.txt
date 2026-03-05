@@ -1486,7 +1486,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1485	46h	quest/coupon_eli_orb						
 1486	47h	quest/coupon_eli_2h_axe						
 1487	48h	quest/coupon_eli_hammer						
-1488	49h	quest/coupon_eli_throwing_dagger						
+1488	49h	quest/coupon_eli_throwing_knife						
 1489	50h	quest/coupon_eli_2h_axe						
 1490	51h	quest/coupon_eli_polearm						
 1491	52k	quest/coupon_eli_wand						
