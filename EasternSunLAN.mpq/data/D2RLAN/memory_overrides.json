@@ -378,7 +378,7 @@
         },
         {
             "Name": "Increase item drop cap of monsters to 50 (code cave cont)",
-            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Description": "This edit allows monsters to drop up to 50 items (code cave because there was not enough space at the location)",
             "Category": "Alteration",
             "Addresses": [
                 "11A75C8"
@@ -388,6 +388,32 @@
             "Values": "33C0C744244832000000440FB7CDE9E35818FF",
             "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
             "ModdedValues": "33C0C744244832000000440FB7CDE9E35818FF"
+        },
+        {
+            "Name": "Remove Thorns' soft hit (aura + item stat)",
+            "Description": "Make thorns apply a normal hit rather than soft hit, enabling it to proc on kill effects and count kills",
+            "Category": "Alteration",
+            "Addresses": [
+                "3502EE"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "B801000000",
+            "OriginalValues": "B821400000",
+            "ModdedValues": "B801000000"
+        },
+        {
+            "Name": "Remove Thorns' soft hit (iron maiden)",
+            "Description": "Make thorns apply a normal hit rather than soft hit, enabling it to proc on kill effects and count kills",
+            "Category": "Alteration",
+            "Addresses": [
+                "36C647"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "90909090",
+            "OriginalValues": "6683C820",
+            "ModdedValues": "90909090"
         }
     ]
 }
