@@ -414,6 +414,32 @@
             "Values": "90909090",
             "OriginalValues": "6683C820",
             "ModdedValues": "90909090"
+        },
+        {
+            "Name": "Make monsters scale off area level on normal",
+            "Description": "Make monsters scale off area level in levels.txt on normal (rather than choosing monlvl from monstats.txt)",
+            "Category": "Alteration",
+            "Addresses": [
+                "33F5B4"
+            ],
+            "Length": 2,
+            "Type": "Hex",
+            "Values": "9090",
+            "OriginalValues": "7469",
+            "ModdedValues": "9090"
+        },
+        {
+            "Name": "Make umon field in levels.txt work on all difficulties",
+            "Description": "Makes the umon field in levels.txt work on nightmare and hell as well, not only normal.",
+            "Category": "Alteration",
+            "Addresses": [
+                "28b953"
+            ],
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "909090909090",
+            "OriginalValues": "0F859D000000",
+            "ModdedValues": "909090909090"
         }
     ]
 }

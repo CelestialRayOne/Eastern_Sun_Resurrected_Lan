@@ -31,7 +31,7 @@ Class Rings			1						srn	1	brg	1	nrn	1	prn	1	drn	1	zrn	1	arn	1												0
 Rings			1						rin	2	Class Rings	1	Nothing	3																				0
 Class Amulets			1						sam	1	bam	1	nam	1	pam	1	dam	1	zam	1	aam	1												0
 Amulets			1						amu	2	Class Amulets	1	Nothing	3																				0
-Jewels			1						jew	1	Nothing	1																						0
+Jewels			1						jew	2	Nothing	1																						0
 Pandemonium Key A			1	1024				20	pk1	20																								0
 Pandemonium Key B			1	1024				20	pk2	20																								0
 Pandemonium Key C			1	1024				20	pk3	20																								0
@@ -62,11 +62,11 @@ Unique Ore Crystals 3			2						xl3	6	xr4	5	xr5	5	xr6	5																		0
 Unique Ore Crystals 4			2						xl4	6	xr5	5	xr6	5	xr7	5																		0
 Unique Ore Crystals 5			2						xl5	6	xr6	5	xr7	5	xr8	5																		0
 Unique Ore Crystals 6			2						xl6	6	xr7	5	xr8	5	xr9	5																		0
-Unique Ore Crystals 7			2						xl7	6	xr8	5	xr9	5	xr10	5																		0
-Unique Ore Crystals 8			2						xl8	6	xr9	5	xr10	5	xr11	5																		0
-Unique Ore Crystals 9			2						xl9	6	xr10	5	xr11	5	xr0	5																		0
-Unique Ore Crystals 10			2						xl10	6	xr11	5	xr0	5	xr1	5																		0
-Unique Ore Crystals 11			2						xl11	6	xr0	5	xr1	5	xr2	5																		0
+Unique Ore Crystals 7			2						xl7	6	xr8	5	xr9	5	xrx	5																		0
+Unique Ore Crystals 8			2						xl8	6	xr9	5	xrx	5	xry	5																		0
+Unique Ore Crystals 9			2						xl9	6	xrx	5	xry	5	xr0	5																		0
+Unique Ore Crystals 10			2						xlx	6	xry	5	xr0	5	xr1	5																		0
+Unique Ore Crystals 11			2						xly	6	xr0	5	xr1	5	xr2	5																		0
 Unique Ore 0			-2						Unique Ore Crystals 0	1	Uni Ore 0	1																						0
 Unique Ore 1			-2						Unique Ore Crystals 1	1	Uni Ore 1	1																						0
 Unique Ore 2			-2						Unique Ore Crystals 2	1	Uni Ore 2	1																						0
@@ -1689,9 +1689,6 @@ Guardian2 (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Camp
 Guardian3 (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Guardian3 (H)	1																				0
 Guardian4 (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Guardian4 (H)	1																				0
 Clone Champ (N) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Clone Champ (N)	1																				0
-Uber Izual Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Uber Izual	1																				0
-Uber Andariel Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Uber Andariel	1																				0
-Uber Duriel Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Uber Duriel	1																				0
 Act 5 Set Workshop			1		683			900	Act 5 Equip C	93	Act 5 UGood	7	Ore	2	hrt	10																		0
 Act 5 Set Workshop (N)			1		683			900	Act 5 (N) Equip C	93	Act 5 (N) UGood	7	Ore	2	hrt	10																		0
 Act 5 Set Workshop (H)			1		683			900	Act 5 (H) Equip C	93	Act 5 (H) UGood	7	Ore	2	hrt	10																		0
@@ -3362,3 +3359,50 @@ Uber Izual			-2					0	mbr	1	Uber Organ Boss Base	1																						0
 Uber Diablo			-2					0	ht1	1	Uber Tristram Base	1																						0
 Uber Baal			-2					0	ht2	1	Uber Tristram Base	1																						0
 Uber Mephisto			-2					0	ht3	1	Uber Tristram Base	1																						0
+Treasure Goblin Flawed Crystals 1			1						xl0		xl1		xl2		xl3		xl4		xl5		xl6		xl7		xl8		xl9							0
+Treasure Goblin Flawed Crystals 2			1						xlx	1	xly	1	Treasure Goblin Flawed Crystals 1	1																				0
+Treasure Goblin Campaign 1	119	0	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	1	"gld,mul=16384"	100	Act 1 Equip A	125	Act 1 Coupon A	50												0
+Treasure Goblin Campaign 2	119	5	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	2	"gld,mul=16384"	100	Act 1 Equip B	125	Act 1 Coupon B	50												0
+Treasure Goblin Campaign 3	119	9	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	3	"gld,mul=16384"	100	Act 1 Equip C	125	Act 1 Coupon C	50												0
+Treasure Goblin Campaign 4	119	12	15	820	820	973	1024	100	Act 2 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	4	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip A	125	Act 2 Coupon A	50								0
+Treasure Goblin Campaign 5	119	15	15	820	820	973	1024	100	Act 2 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	5	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip B	125	Act 2 Coupon B	50								0
+Treasure Goblin Campaign 6	119	18	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	6	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip C	125	Act 2 Coupon C	50								0
+Treasure Goblin Campaign 7	119	20	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	7	yyy	1	qqq	1	"gld,mul=16384"	100	Act 3 Equip A	125	Act 3 Coupon A	50								0
+Treasure Goblin Campaign 8	119	22	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	8	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip B	125	Act 3 Coupon B	50								0
+Treasure Goblin Campaign 9	119	24	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	9	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip C	125	Act 3 Coupon C	50								0
+Treasure Goblin Campaign 10	119	26	15	820	820	973	1024	100	Act 4 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	10	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip A	125	Act 4 Coupon A	50								0
+Treasure Goblin Campaign 11	119	29	15	820	820	973	1024	100	Act 4 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	11	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip B	125	Act 4 Coupon B	50								0
+Treasure Goblin Campaign 12	119	32	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	12	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip A	125	Act 5 Coupon A	50								0
+Treasure Goblin Campaign 13	119	34	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	13	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip B	125	Act 5 Coupon B	50								0
+Treasure Goblin Campaign 14	119	36	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	14	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip C	125	Act 5 Coupon C	50								0
+Treasure Goblin Campaign 15	119	38	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	15	yyy	3	qqq	3	"gld,mul=16384"	100	Act 1 (N) Equip A	125	Act 1 (N) Coupon A	50								0
+Treasure Goblin Campaign 16	119	40	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	16	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon B	50								0
+Treasure Goblin Campaign 17	119	42	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	17	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon C	50								0
+Treasure Goblin Campaign 18	119	44	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	18	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip A	125	Act 2 (N) Coupon A	50								0
+Treasure Goblin Campaign 19	119	46	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	19	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon B	50								0
+Treasure Goblin Campaign 20	119	48	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	20	yyy	5	qqq	5	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon C	50								0
+Treasure Goblin Campaign 21	119	50	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	21	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip A	125	Act 3 (N) Coupon A	50								0
+Treasure Goblin Campaign 22	119	52	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	22	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon B	50								0
+Treasure Goblin Campaign 23	119	54	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	23	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon C	50								0
+Treasure Goblin Campaign 24	119	56	15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	24	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip A	125	Act 4 (N) Coupon A	50								0
+Treasure Goblin Campaign 25	119	58	15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	25	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip B	125	Act 4 (N) Coupon B	50								0
+Treasure Goblin Campaign 26	119	62	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	26	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip A	125	Act 5 (N) Coupon A	50								0
+Treasure Goblin Campaign 27	119	64	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	27	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip B	125	Act 5 (N) Coupon B	50								0
+Treasure Goblin Campaign 28	119	66	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	28	yyy	7	qqq	7	"gld,mul=16384"	100	Act 5 (N) Equip C	125	Act 5 (N) Coupon C	50								0
+Treasure Goblin Campaign 29	119	68	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	29	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip A	125	Act 1 (H) Coupon A	50								0
+Treasure Goblin Campaign 30	119	70	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	30	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon B	50								0
+Treasure Goblin Campaign 31	119	71	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	31	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon C	50								0
+Treasure Goblin Campaign 32	119	73	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	32	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip A	125	Act 2 (H) Coupon A	50								0
+Treasure Goblin Campaign 33	119	75	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	33	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon B	50								0
+Treasure Goblin Campaign 34	119	76	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	34	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon C	50								0
+Treasure Goblin Campaign 35	119	77	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	35	yyy	8	qqq	8	"gld,mul=16384"	100	Act 3 (H) Equip A	125	Act 3 (H) Coupon A	50								0
+Treasure Goblin Campaign 36	119	78	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	36	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon B	50								0
+Treasure Goblin Campaign 37	119	79	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	37	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon C	50								0
+Treasure Goblin Campaign 38	119	80	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	38	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip A	125	Act 4 (H) Coupon A	50								0
+Treasure Goblin Campaign 39	119	81	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	39	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip B	125	Act 4 (H) Coupon B	50								0
+Treasure Goblin Campaign 40	119	83	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	40	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip A	125	Act 5 (H) Coupon A	50								0
+Treasure Goblin Campaign 41	119	84	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	41	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip B	125	Act 5 (H) Coupon B	50								0
+Treasure Goblin Campaign 42	119	85	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	42	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 43	119	88	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	43	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 44	119	92	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	44	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 45	119	96	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	45	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
