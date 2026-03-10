@@ -1443,8 +1443,8 @@ A5W Scz (H)			-2						A5C (H)	1	A5C Scz (H)	1																						0
 A5W Spe (H)			-2						A5C (H)	1	A5C Spe (H)	1																						0
 A5W Rune (H)			-2						A5C (H)	1	A5C Rune (H)	1																						0
 Cow			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Unique Ore 10	2	zzz	5																0
-Cow (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Unique Ore 10	5	zzz	10																0
-Cow (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Unique Ore 10	10	zzz	20																0
+Cow (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Unique Ore 10	3	zzz	10																0
+Cow (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Unique Ore 10	4	zzz	20																0
 Hairdressser			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	tal	40	sdo	6														0
 Hairdressser (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	tal	40	sdo	6														0
 Hairdressser (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	tal	40	sdo	6														0
@@ -3334,7 +3334,7 @@ Diablo the Invincible Boss Desecrated			-5					0	wss	3	um1	1	Eye of the Storm Bo
 Mephisto the Invincible Boss Desecrated			-5					0	wss	3	um3	1	Eye of the Storm Boss	1																				0
 Sanctum of the Dead Boss Desecrated			-7					0	wss	5	Endgame Map Rathma Unique	1	Sanctum of the Dead Boss	1																				0
 Reliquary of False Light Boss Desecrated			-7					0	wss	5	Endgame Map Lucion Unique	1	Reliquary of False Light Boss	1																				0
-Treasure Goblin			15	820	820	973	1024	250	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Treasure Goblin (Champ)			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Treasure Goblin (Unique)			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Ascendancy Class			6						Act 5 Uber	1																								0
