@@ -196,7 +196,7 @@
             "Address": "311ec6",
             "Length": 5,
             "Type": "Hex",
-            "Values": "9090909090",
+            "Values": "e815dbffff",
             "OriginalValues": "e815dbffff",
             "ModdedValues": "9090909090"
         },
@@ -377,14 +377,100 @@
             "Name": "Make umon field in levels.txt work on all difficulties",
             "Description": "Makes the umon field in levels.txt work on nightmare and hell as well, not only normal.",
             "Category": "Alteration",
-            "Addresses": [
-                "28b953"
-            ],
+            "Address": "28b953",
             "Length": 6,
             "Type": "Hex",
             "Values": "909090909090",
             "OriginalValues": "0F859D000000",
             "ModdedValues": "909090909090"
+        },
+        {
+            "Name": "Autogold: skip first distance check",
+            "Description": "Disables the first distance check in the gold pickup function",
+            "Category": "Alteration",
+            "Address": "CCC37",
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "909090909090",
+            "OriginalValues": "0F8746010000",
+            "ModdedValues": "909090909090"
+        },
+        {
+            "Name": "Autogold: skip second distance check",
+            "Description": "Disables the second distance check in the same function",
+            "Category": "Alteration",
+            "Address": "CCC48",
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "909090909090",
+            "OriginalValues": "0F8735010000",
+            "ModdedValues": "909090909090"
+        },
+        {
+            "Name": "Autogold: flat targeting score",
+            "Description": "All gold piles are treated equally by the targeting system",
+            "Category": "Alteration",
+            "Address": "CCD8A",
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "C3",
+            "OriginalValues": "C1",
+            "ModdedValues": "C3"
+        },
+        {
+            "Name": "Autogold: always pass cost (code)",
+            "Description": "Forces the internal 'cost' value used for range checks to a huge number",
+            "Category": "Alteration",
+            "Address": "CDDB8",
+            "Length": 6,
+            "Type": "Hex",
+            "Values": "BFFFFFFF7F90",
+            "OriginalValues": "8BBBD00B0000",
+            "ModdedValues": "BFFFFFFF7F90"
+        },
+        {
+            "Name": "Autogold: always pass cost (data)",
+            "Description": "Sets the stored max-range 'cost' value to a huge number",
+            "Category": "Alteration",
+            "Address": "1E00890",
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "FFFFFF7F",
+            "OriginalValues": "00000000",
+            "ModdedValues": "FFFFFF7F"
+        },
+        {
+            "Name": "Autogold: huge pickup radius (float table)",
+            "Description": "Sets the gold pickup radius values to a very large float value",
+            "Category": "Alteration",
+            "Address": "1DFE1A0",
+            "Length": 48,
+            "Type": "Hex",
+            "Values": "F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449",
+            "OriginalValues": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449F0237449"
+        },
+        {
+            "Name": "Autogold: allow higher cost in server check",
+            "Description": "Extends server-side 'cost' value to roughly ~20 tiles away",
+            "Category": "Alteration",
+            "Address": "2AEE7B",
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "14",
+            "OriginalValues": "04",
+            "ModdedValues": "14"
+        },
+        {
+            "Name": "Autogold: send higher cost to pickup function",
+            "Description": "Passes server-side 'cost' value to pickup function for roughly ~20 tiles away",
+            "Category": "Alteration",
+            "Address": "2AEE9A",
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "14",
+            "OriginalValues": "04",
+            "ModdedValues": "14"
         }
     ]
 }

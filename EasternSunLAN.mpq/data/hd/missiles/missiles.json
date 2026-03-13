@@ -577,11 +577,9 @@
     "bladesoficeexplode": "ice_arrow_explode",
     "bladesoficecubes": "ice_break_small",
     "bladesoficecubesmelt": "ice_break_small_melt",
-    "royalstrikemeteor": "meteor",
-    "royalstrikemeteorcenter": "meteor_target_indicator",
+    "royalstrikemeteorspawner": "meteor",
     "royalstrikemeteortail": "meteor_tail",
     "royalstrikemeteorexplode": "exp_arrow_explode",
-    "royalstrikemeteorfire": "ground_fire_small",
     "royalstrikechainlightning": "royalstrikechainlightning",
     "royalstrikechaosice": "ice_bolt",
     "world_stone_chip_1": "expansion_wstonechips_1",
@@ -1633,5 +1631,14 @@
     "elementalnovafirebolttp": "firebolt",
     "elementalnovacoldbolttp": "ice_bolt",
     "elementalnovalightningbolttp": "electric_nova",
-    "elementalnovalightningboltsectp": "electric_nova"
+    "elementalnovalightningboltsectp": "electric_nova",
+    "royalstrikefiresmall": "ground_fire_small",
+    "royalstrikefiremedium": "ground_fire_medium",
+    "royalstrikelightningfury": "chainlightningBolt",
+    "royalstrikelightningfurytwo": "chainlightningBolt",
+    "royalstrikelightningfurythree": "chainlightningBolt",
+    "royalstrikelightningfurytfour": "chainlightningBolt",
+    "royalstrikecoldspawner": "glacial_spike",
+    "royalstrikecoldexp": "mephisto_missile",
+    "royalstrikemeteorfireone": "firebolt"
 }
