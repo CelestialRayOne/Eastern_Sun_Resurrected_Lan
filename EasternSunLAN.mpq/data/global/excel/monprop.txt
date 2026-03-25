@@ -212,7 +212,7 @@ druidhawk	kill-skill		850	100	1	aura		153	1	1																					kill-skill		85
 spiritwolf	kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					0
 fenris	kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					0
 heartofwolverine	kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					0
-druidbear	kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					0
+druidbear	kill-skill		850	100	1	aura		153	1	1	pierce			100	100																kill-skill		850	100	1	aura		153	1	1	pierce			100	100																kill-skill		850	100	1	aura		153	1	1	pierce			100	100																0
 valkyrie	kill-skill		850	100	1																										kill-skill		850	100	1																										kill-skill		850	100	1																										0
 defender	kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					kill-skill		850	100	1	aura		153	1	1																					0
 shadowwarrior	kill-skill		850	100	1	oskill		121	1	1	oskill		120	1	1																kill-skill		850	100	1	oskill		121	1	1	oskill		120	1	1																kill-skill		850	100	1	oskill		121	1	1	oskill		120	1	1																0

@@ -684,9 +684,9 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 683	pk1	key/key_of_terror						
 684	pk2	key/key_of_hate						
 685	pk3	key/key_of_destruction						
-686	dhn	body_part/fang						
-687	bey	body_part/eye						
-688	mbr	body_part/brain						
+686	dhn	body_part/diablos_horn						
+687	bey	body_part/baals_eye						
+688	mbr	body_part/mephistos_brain						
 689	toa	quest/token_of_absolution						
 690	tes	quest/twisted_essence_of_suffering						
 691	ceh	quest/charged_essense_of_hatred						
@@ -1955,9 +1955,9 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1954	2lm	helmet/helm						
 1955	2kp	helmet/skull_cap						
 1956	2ap	helmet/cap_hat						
-1957	ht1	body_part/fang						
-1958	ht2	body_part/eye						
-1959	ht3	body_part/brain						
+1957	ht1	body_part/diablos_enhanced_horn						
+1958	ht2	body_part/baals_enhanced_eye						
+1959	ht3	body_part/mephistos_enhanced_brain						
 1960	std	body_part/flag						
 1961	z01	quest/map_cellarofpain						
 1962	z02	quest/map_chasmofhorrors						
@@ -2007,9 +2007,9 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2006	m27	knife/balanced_knife						
 2007	m28	javelin/throwing_spear						
 2008	m29	staff/gnarled_staff						
-2009	um1	body_part/fang						
-2010	um2	body_part/eye						
-2011	um3	body_part/brain						
+2009	um1	body_part/diablos_demonic_horn						
+2010	um2	body_part/baals_demonic_eye						
+2011	um3	body_part/mephistos_demonic_brain						
 2012	um4	body_part/broken_hourglass_shard_1						
 2013	um5	body_part/broken_hourglass_shard_2						
 2014	um6	body_part/broken_hourglass						
@@ -2391,8 +2391,8 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2390	nightsmoke					belt/belt_m	belt/belt_m	belt/belt_m
 2391	goldwrap					belt/heavy_belt	belt/heavy_belt	belt/heavy_belt
 2392	bladebuckle					belt/girdle_h	belt/girdle_h	belt/girdle_h
-2393	nokozan_relic					amulet/amulet	amulet/amulet	amulet/amulet
-2394	the_eye_of_etlich					amulet/amulet	amulet/amulet	amulet/amulet
+2393	nokozan_relic					amulet/nokozan_relic	amulet/nokozan_relic	amulet/nokozan_relic
+2394	the_eye_of_etlich					amulet/the_eye_of_etlich	amulet/the_eye_of_etlich	amulet/the_eye_of_etlich
 2395	the_mahim_oak_curio					amulet/amulet	amulet/amulet	amulet/amulet
 2396	nagelring					ring/ring	ring/ring	ring/ring
 2397	manald_heal					ring/ring	ring/ring	ring/ring
@@ -2538,16 +2538,16 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2537	stormspire					polearm/war_scythe	polearm/war_scythe	polearm/war_scythe
 2538	eaglehorn					bow/long_battle_bow	bow/long_battle_bow	bow/long_battle_bow
 2539	windforce					bow/long_war_bow	bow/long_war_bow	bow/long_war_bow
-2540	bul_kathos_wedding_band					ring/ring	ring/ring	ring/ring
+2540	bul_kathos_wedding_band					ring/bul_kathos_wedding_band	ring/bul_kathos_wedding_band	ring/bul_kathos_wedding_band
 2541	the_cats_eye					amulet/amulet	amulet/amulet	amulet/amulet
 2542	the_rising_sun					amulet/amulet	amulet/amulet	amulet/amulet
 2543	crescent_moon					amulet/amulet	amulet/amulet	amulet/amulet
-2544	maras_kaleidoscope					amulet/amulet	amulet/amulet	amulet/amulet
+2544	maras_kaleidoscope					amulet/maras_kaleidoscope	amulet/maras_kaleidoscope	amulet/maras_kaleidoscope
 2545	atmas_scarab					amulet/amulet	amulet/amulet	amulet/amulet
 2546	dwarf_star					ring/ring	ring/ring	ring/ring
 2547	raven_frost					ring/ring	ring/ring	ring/ring
-2548	highlords_wrath					amulet/amulet	amulet/amulet	amulet/amulet
-2549	saracens_chance					amulet/amulet	amulet/amulet	amulet/amulet
+2548	highlords_wrath					amulet/highlords_wrath	amulet/highlords_wrath	amulet/highlords_wrath
+2549	saracens_chance					amulet/saracens_chance	amulet/saracens_chance	amulet/saracens_chance
 2550	arreats_face					helmet/avenger_guard	helmet/avenger_guard	helmet/avenger_guard
 2551	homunculus					voodoo_head/demon_head	voodoo_head/demon_head	voodoo_head/demon_head
 2552	titans_revenge					javelin/maiden_javelin	javelin/maiden_javelin	javelin/maiden_javelin
@@ -2568,9 +2568,9 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2567	steelshade					helmet/coif_of_glory	helmet/coif_of_glory	helmet/coif_of_glory
 2568	tomb_reaver					polearm/poleaxe	polearm/poleaxe	polearm/poleaxe
 2569	deathss_web					wand/grim_wand	wand/blackhand_key	wand/grim_wand
-2570	natures_peace					ring/ring	ring/ring	ring/ring
+2570	natures_peace					ring/natures_peace	ring/natures_peace	ring/natures_peace
 2571	azurewrath					sword/crystal_sword	sword/crystal_sword	sword/crystal_sword
-2572	seraphs_hymn					amulet/amulet2	amulet/amulet2	amulet/amulet2
+2572	seraphs_hymn					amulet/seraphs_hymn	amulet/seraphs_hymn	amulet/seraphs_hymn
 2573	fleshripper					knife/the_jade_tan_do	knife/the_jade_tan_do	knife/the_jade_tan_do
 2574	horizons_tornado					mace/flail	mace/flail	mace/flail
 2575	stone_crusher					hammer/war_hammer	hammer/war_hammer	hammer/war_hammer
@@ -2584,7 +2584,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2583	executioners_justice					axe/giant_axe	axe/the_minataur	axe/giant_axe
 2584	stoneraven					spear/maiden_spear	spear/maiden_spear	spear/maiden_spear
 2585	leviathan					armor/field_plate	armor/field_plate	armor/field_plate
-2586	wisp					ring/ring	ring/ring	ring/ring
+2586	wisp					ring/wisp	ring/wisp	ring/wisp
 2587	gargoyles_bite					javelin/throwing_spear	javelin/throwing_spear	javelin/throwing_spear
 2588	lacerator					axe/balanced_axe	axe/balanced_axe	axe/balanced_axe
 2589	mang_songs_lesson					staff/skullcollector	staff/skullcollector	staff/skullcollector
@@ -2637,7 +2637,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 2636	nosferatus_coil					belt/light_belt	belt/light_belt	belt/light_belt
 2637	metalgrid					amulet/amulet	amulet/amulet	amulet/amulet
 2638	verdugos_hearty_cord					belt/belt_m	belt/belt_m	belt/belt_m
-2639	carrion_wind					ring/ring	ring/ring	ring/ring
+2639	carrion_wind					ring/carrion_wind	ring/carrion_wind	ring/carrion_wind
 2640	giantskull					helmet/bone_helm	helmet/bone_helm	helmet/bone_helm
 2641	ironward					scepter/war_scepter	scepter/war_scepter	scepter/war_scepter
 2642	annihilus					charm/annihilus	charm/annihilus	charm/annihilus
