@@ -3302,20 +3302,21 @@ Icecrown Citadel Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	45	Icecrown C
 Eye of the Storm Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	Eye of the Storm Equip Bias	90	Endgame Map Valuable	30	Eye of the Storm Boss Craft	15	EGM Myth Class Cps	4	EGM Myth Helm Cps	4	EGM Myth Boots Cps	4	EGM Myth Scepter And Mace Cps	4										0
 Sanctum of the Dead Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	Sanctum of the Dead Equip Bias	90	Endgame Map Valuable Rune Bias	30	Sanctum of the Dead Boss Craft	15	EGM Myth Jewelry Cps	4	EGM Myth Gloves Cps	4	EGM Myth Shield And Sword Cps	4	EGM Myth Axe And Knife Cps	4										0
 Reliquary of False Light Boss Base			1	820	820	973	1024	150	"gld,mul=4096"	15	Reliquary of False Light Equip Bias	90	Endgame Map Valuable	30	Reliquary of False Light Boss Craft	15	EGM Myth Body Armor Cps	4	EGM Myth Belt Cps	4	EGM Myth Caster Cps	4	EGM Myth Club And Hammer Cps	4										0
-Chasm Of Horror Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Chasm Of Horror Boss Base	6																0
-Necropolis Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Necropolis Boss Base	6																0
-Cellar Of Pain Boss			-10	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Cellar Of Pain Boss Base	6																0
-Infested Lair Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Infested Lair Boss Base	11																0
-Labyrinth Of Suffering Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Labyrinth Of Suffering Boss Base	11																0
-Endless Abyss Boss			-20	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Endless Abyss Boss Base	16																0
-Frozen Wastes Boss			-20	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Frozen Wastes Boss Base	16																0
-Shrine Of Destruction Boss			-25	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Shrine Of Destruction Boss Base	21																0
-Reliquary Of Souls Boss			-25	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Reliquary Of Souls Boss Base	21																0
-Eternal Ancient Boss			-15	820	820	973	1024	0	Orb of Anointment Tier 5 Ancients	1	Endgame Map Tier 5 Ancient Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Icecrown Citadel Boss Base	11																0
-The Lich King Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Icecrown Citadel Boss Base	41																0
-Eye of the Storm Boss			-30	820	820	973	1024	0	Orb of Anointment Tier 5	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Eye of the Storm Boss Base	26																0
-Sanctum of the Dead Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Sanctum of the Dead Boss Base	41																0
-Reliquary of False Light Boss			-45	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Reliquary of False Light Boss Base	41																0
+Weapon Mastery Token Boss			1						u23	1	Nothing	3																						0
+Chasm Of Horror Boss			-11	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Chasm Of Horror Boss Base	6														0
+Necropolis Boss			-11	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Necropolis Boss Base	6														0
+Cellar Of Pain Boss			-11	820	820	973	1024	0	Orb of Anointment Tier 1	1	Endgame Map Tier 1 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Cellar Of Pain Boss Base	6														0
+Infested Lair Boss			-16	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Infested Lair Boss Base	11														0
+Labyrinth Of Suffering Boss			-16	820	820	973	1024	0	Orb of Anointment Tier 2	1	Endgame Map Tier 2 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Labyrinth Of Suffering Boss Base	11														0
+Endless Abyss Boss			-21	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Endless Abyss Boss Base	16														0
+Frozen Wastes Boss			-21	820	820	973	1024	0	Orb of Anointment Tier 3	1	Endgame Map Tier 3 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Frozen Wastes Boss Base	16														0
+Shrine Of Destruction Boss			-26	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Shrine Of Destruction Boss Base	21														0
+Reliquary Of Souls Boss			-26	820	820	973	1024	0	Orb of Anointment Tier 4	1	Endgame Map Tier 4 Boss Bias	1	Endgame Map Tier 1 Boss Key	1	u19	1	Weapon Mastery Token Boss	1	Reliquary Of Souls Boss Base	21														0
+Eternal Ancient Boss			-16	820	820	973	1024	0	Orb of Anointment Tier 5 Ancients	1	Endgame Map Tier 5 Ancient Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Weapon Mastery Token Boss	1	Icecrown Citadel Boss Base	11														0
+The Lich King Boss			-46	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Lich King Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Weapon Mastery Token Boss	1	Icecrown Citadel Boss Base	41														0
+Eye of the Storm Boss			-31	820	820	973	1024	0	Orb of Anointment Tier 5	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Boss Key Set	1	u19	1	Weapon Mastery Token Boss	1	Eye of the Storm Boss Base	26														0
+Sanctum of the Dead Boss			-46	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Weapon Mastery Token Boss	1	Sanctum of the Dead Boss Base	41														0
+Reliquary of False Light Boss			-46	820	820	973	1024	0	Orb of Anointment Tier 5 Lich King	1	Endgame Map Tier 5 Boss Bias	1	Endgame Map Tier 5 Lich King Key	1	u19	1	Weapon Mastery Token Boss	1	Reliquary of False Light Boss Base	41														0
 Chasm Of Horror Boss Desecrated			-2					0	wss	1	Chasm Of Horror Boss	1																						0
 Necropolis Boss Desecrated			-2					0	wss	1	Necropolis Boss	1																						0
 Cellar Of Pain Boss Desecrated			-2					0	wss	1	Cellar Of Pain Boss	1																						0
