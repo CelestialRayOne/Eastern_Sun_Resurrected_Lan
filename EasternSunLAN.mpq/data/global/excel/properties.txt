@@ -464,3 +464,4 @@ extra-aether	1	1	passive_pois_mastery			3	passive_mag2_mastery			3	passive_wind_
 attackrate	1	1	attackrate																															
 weapon-mastery	1	1	weaponmastery																															none
 total-magic-resist	1	1	total_magic_resist																															none
+generic-total-multiplier	1	1	generictotalmultiplier																															none

@@ -514,6 +514,630 @@
             "Values": "48895C240848896C24104889742418574883EC30498BF8488BDA488BE94885D2746FF78228010000000400007463448B82EC0000008B92E8000000E8A011EFFF488BF04885C074494885FF74404C8BC7488BD0E8383BEFFF85C07531833B037514488B43104885C0740B0FBF480E440FBF480CEB064533C9418BC9894C24204C8BC6488BCD488BD7E893EBF9FF33C0EB05B801000000488B5C2440488B6C2448488B7424504883C4305FC390909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
             "OriginalValues": "48896C2420574881ECA0000000488BFA488BE94885D20F84C40100004863420485C00F88B8010000483B0539C28C01488BD00F83A80100004889B424B80000004869F2C001000048033512C28C010F848501000066837E44000F8C7A010000F78728010000000400000F846A010000448B87EC0000008B97E8000000E85F11EFFF4885C00F844F0100000F57C048899C24B00000000F1144242033DB4C89B424C0000000833F030F11442430C7442420020000000F1144244048894424280F1144245048897C24300F114424600F114424700F118424800000000F118424900000007526488B47104885C07506895C245CEB080FBF400C8944245C488B47104885C0740A0FBF400EEB06895C245C8BC3894424604C8D3505C7C2FF8B466CBF010000003BC70F4CC78BF048C1E6026690428B8433E87D5701488D5424208944244C488BCD428B8433A07E570189442450E86B18F4FF4885C0744B8B10468B8433E87D570183FA03753C488B48104885C9750A428B8C33A07E5701EB184883C13074054489018B10428B8C33A07E570183FA037511488B40104885C074084883C034740289084803DE4883FB207C824C8BB424C00000008BC7488B9C24B0000000488BB424B8000000488BAC24C80000004881C4A00000005FC3B801000000EBE0488BAC24C8000000B8010000004881C4A00000005FC3",
             "ModdedValues": "48895C240848896C24104889742418574883EC30498BF8488BDA488BE94885D2746FF78228010000000400007463448B82EC0000008B92E8000000E8A011EFFF488BF04885C074494885FF74404C8BC7488BD0E8383BEFFF85C07531833B037514488B43104885C0740B0FBF480E440FBF480CEB064533C9418BC9894C24204C8BC6488BCD488BD7E893EBF9FF33C0EB05B801000000488B5C2440488B6C2448488B7424504883C4305FC390909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+        },
+        {
+            "Name": "Increase localization main string buffer size",
+            "Description": "Increases main string table buffer from 1.3MB to 64MB",
+            "Category": "Alteration",
+            "Addresses": [
+                "413431"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "ba00000004",
+            "OriginalValues": "ba20d61300",
+            "ModdedValues": "ba00000004"
+        },
+        {
+            "Name": "Increase localization secondary string buffer size",
+            "Description": "Increases secondary string table buffer from 460KB to 32MB",
+            "Category": "Alteration",
+            "Addresses": [
+                "41344B"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "ba00000002",
+            "OriginalValues": "bae0040700",
+            "ModdedValues": "ba00000002"
+        },
+        {
+            "Name": "Fix HP Overflow - Walk Packet Life Bits",
+            "Description": "Widens life bitfield in walk packet decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D8B14"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Walk Packet Mana Bits",
+            "Description": "Widens mana bitfield in walk packet decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D8B25"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Walk Packet Stamina Bits",
+            "Description": "Widens stamina bitfield in walk packet decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D8B38"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Life Bits",
+            "Description": "Widens life bitfield in packet 0x95 decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D9084"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Mana Bits",
+            "Description": "Widens mana bitfield in packet 0x95 decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D9095"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Stamina Bits",
+            "Description": "Widens stamina bitfield in packet 0x95 decoder from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "D90A8"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "BA18000000",
+            "OriginalValues": "BA0F000000",
+            "ModdedValues": "BA18000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Read Full Life Value (Send)",
+            "Description": "Dead code path, harmless",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAB6A"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "8B45FB90",
+            "OriginalValues": "0FB74704",
+            "ModdedValues": "8B45FB90"
+        },
+        {
+            "Name": "Fix HP Overflow - Remove Life Left Shift (Send)",
+            "Description": "Dead code path, harmless",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAB71"
+            ],
+            "Length": 3,
+            "Type": "Hex",
+            "Values": "909090",
+            "OriginalValues": "C1E008",
+            "ModdedValues": "909090"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Life LEA (Send)",
+            "Description": "Widens life bitstream write LEA in packet 0x95 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC540"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Life MOV ESI (Send)",
+            "Description": "Widens life bitstream write MOV ESI in packet 0x95 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC545"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Life Boundary Check",
+            "Description": "Updates life boundary check in packet 0x95 sender to 0xC8 for 24-bit field",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC54F"
+            ],
+            "Length": 7,
+            "Type": "Hex",
+            "Values": "4881F9C8000000",
+            "OriginalValues": "4881F988000000",
+            "ModdedValues": "4881F9C8000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Mana LEA (Send)",
+            "Description": "Widens mana bitstream write LEA in packet 0x95 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC5E5"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Mana Boundary Check",
+            "Description": "Updates mana boundary check in packet 0x95 sender to 0xC8 for 24-bit field",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC5F2"
+            ],
+            "Length": 7,
+            "Type": "Hex",
+            "Values": "4881F9C8000000",
+            "OriginalValues": "4881F988000000",
+            "ModdedValues": "4881F9C8000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Stamina LEA (Send)",
+            "Description": "Widens stamina bitstream write LEA in packet 0x95 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC67F"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x95 Stamina Boundary Check",
+            "Description": "Updates stamina boundary check in packet 0x95 sender to 0xC8 for 24-bit field",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC689"
+            ],
+            "Length": 7,
+            "Type": "Hex",
+            "Values": "4881F9C8000000",
+            "OriginalValues": "4881F988000000",
+            "ModdedValues": "4881F9C8000000"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x96 Life LEA (Send)",
+            "Description": "Widens life bitstream write LEA in packet 0x96 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CCB0C"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x96 Life MOV R10D (Send)",
+            "Description": "Widens life bitstream write MOV R10D in packet 0x96 sender from 15 to 24 bits",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CCB12"
+            ],
+            "Length": 1,
+            "Type": "Hex",
+            "Values": "18",
+            "OriginalValues": "0F",
+            "ModdedValues": "18"
+        },
+        {
+            "Name": "Fix HP Overflow - Packet 0x96 Life Boundary Check",
+            "Description": "Updates life boundary check in packet 0x96 sender for 24-bit field",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CCB1C"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "4883F957",
+            "OriginalValues": "4883F948",
+            "ModdedValues": "4883F957"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Cache Comparison Widen",
+            "Description": "Widens life cache comparison from 16-bit to 32-bit to handle HP > 65535",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAD3A"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "394F0490",
+            "OriginalValues": "66394F04",
+            "ModdedValues": "394F0490"
+        },
+        {
+            "Name": "Fix HP Overflow - Jump to Life Store Cave",
+            "Description": "Redirects decoder flow after life word store to store cave at CC290 for high byte save",
+            "Category": "Alteration",
+            "Addresses": [
+                "D909E"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "E9ED31FFFF",
+            "OriginalValues": "488D4C2420",
+            "ModdedValues": "E9ED31FFFF"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Store Cave",
+            "Description": "Code cave at CC290: saves life high byte to [rbx+3], restores lea rcx, jumps back to D90A3",
+            "Category": "Alteration",
+            "Addresses": [
+                "CC290"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "C1E810884303488D4C2420E903CE0000",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "C1E810884303488D4C2420E903CE0000"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Recv Cave 1",
+            "Description": "Code cave at FAC80: dword-reads life from [rsp+41h] into r14d, jumps to Recv Cave 2",
+            "Category": "Alteration",
+            "Addresses": [
+                "FAC80"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "448B742441E91689FDFF909090909090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "448B742441E91689FDFF909090909090"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Recv Cave 2",
+            "Description": "Code cave at D35A0: masks life to 24 bits, shifts left 8, jumps back to processor",
+            "Category": "Alteration",
+            "Addresses": [
+                "D35A0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "4181E6FFFFFF0041C1E608E9D45B0000",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "4181E6FFFFFF0041C1E608E9D45B0000"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Receiver Read Jump",
+            "Description": "Redirects processor life read to Recv Cave 1 at FAC80 for 24-bit dword reconstruction",
+            "Category": "Alteration",
+            "Addresses": [
+                "D917A"
+            ],
+            "Length": 10,
+            "Type": "Hex",
+            "Values": "E9011B02009090909090",
+            "OriginalValues": "440FB774244141C1E608",
+            "ModdedValues": "E9011B02009090909090"
+        },
+        {
+            "Name": "Fix HP Overflow - Sender 0x95 Life R14 Full Width",
+            "Description": "Removes 16-bit truncation of life in packet 0x95 sender",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC4BE"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "448BF290",
+            "OriginalValues": "440FB7F2",
+            "ModdedValues": "448BF290"
+        },
+        {
+            "Name": "Fix HP Overflow - Sender Life EDX Full Width",
+            "Description": "Removes 16-bit truncation of life display value passed to packet 0x95 sender",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAE71"
+            ],
+            "Length": 3,
+            "Type": "Hex",
+            "Values": "8B55FB",
+            "OriginalValues": "0FB7D1",
+            "ModdedValues": "8B55FB"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Cache Store Widen",
+            "Description": "Widens life display cache write from 16-bit to 32-bit at [rdi+4]",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AB00E"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "89470490",
+            "OriginalValues": "66894704",
+            "ModdedValues": "89470490"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Clamp Jump",
+            "Description": "Jumps to clamp cave after maxhp is stored, consuming original mov+test instructions",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAAE1"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "E9DAB2FFFF",
+            "OriginalValues": "894D6F85C9",
+            "ModdedValues": "E9DAB2FFFF"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Clamp Cave 1",
+            "Description": "Saves maxhp to arg_8, loads current>>8 into eax, cmovg if current>max, jumps to cave 2",
+            "Category": "Alteration",
+            "Addresses": [
+                "2A5DC0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "894D6F8B45FB3BC10F4FC1E9F0BF0000",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "894D6F8B45FB3BC10F4FC1E9F0BF0000"
+        },
+        {
+            "Name": "Fix HP Overflow - Life Clamp Cave 2",
+            "Description": "Stores clamped life value, restores test ecx ecx, jumps back to 2AAAE6",
+            "Category": "Alteration",
+            "Addresses": [
+                "2B1DC0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "8945FB85C9E91C8DFFFF909090909090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "8945FB85C9E91C8DFFFF909090909090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Send r8d Full Width",
+            "Description": "Removes 16-bit truncation of mana passed to packet 0x95 sender",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAE7F"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "458BC790",
+            "OriginalValues": "450FB7C7",
+            "ModdedValues": "458BC790"
+        },
+        {
+            "Name": "Fix Mana Overflow - Sender r15d Full Width",
+            "Description": "Removes 16-bit truncation of mana in packet 0x95 sender",
+            "Category": "Alteration",
+            "Addresses": [
+                "2CC4BA"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "458BF890",
+            "OriginalValues": "450FB7F8",
+            "ModdedValues": "458BF890"
+        },
+        {
+            "Name": "Fix Mana Overflow - Jump to Mana Store Cave",
+            "Description": "Redirects decoder after mana word store to save mana high byte at [rbx+0Dh]",
+            "Category": "Alteration",
+            "Addresses": [
+                "D90B1"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "E91A8FFFFF",
+            "OriginalValues": "488D4C2420",
+            "ModdedValues": "E91A8FFFFF"
+        },
+        {
+            "Name": "Fix HP Overflow - Mana Store Offset Shift",
+            "Description": "Shifts mana word store in decoder from [rbx+3] to [rbx+4] to make room for life high byte",
+            "Category": "Alteration",
+            "Addresses": [
+                "D90AD"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "66894304",
+            "OriginalValues": "66894303",
+            "ModdedValues": "66894304"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Store Cave",
+            "Description": "Stores mana display value to global scratch at 17F6151, restores lea rcx, jumps back to D90B6",
+            "Category": "Alteration",
+            "Addresses": [
+                "D1FD0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "89057B417301488D4C2420E9D6700000",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "89057B417301488D4C2420E9D6700000"
+        },
+        {
+            "Name": "Fix Mana Overflow - Recv Cave 1",
+            "Description": "Reads mana display value from global scratch, jumps to cave 2",
+            "Category": "Alteration",
+            "Addresses": [
+                "F8700"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "8B354BDA7001E97518FFFF9090909090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "8B354BDA7001E97518FFFF9090909090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Recv Cave 2",
+            "Description": "Masks mana to 24 bits, shifts left 8, jumps back to D923C",
+            "Category": "Alteration",
+            "Addresses": [
+                "E9F80"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "81E6FFFFFF00C1E608E9AFF2FEFF9090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "81E6FFFFFF00C1E608E9AFF2FEFF9090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Receiver Mana Read Jump",
+            "Description": "Redirects processor mana read to recv cave 1 at F8700 for 24-bit reconstruction",
+            "Category": "Alteration",
+            "Addresses": [
+                "D9234"
+            ],
+            "Length": 8,
+            "Type": "Hex",
+            "Values": "E9C7F40100909090",
+            "OriginalValues": "0FB7742443C1E608",
+            "ModdedValues": "E9C7F40100909090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Cache Store Widen",
+            "Description": "Reverted to 16-bit - mana clamp cave handles current>max independently",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AB025"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "6644897F06",
+            "OriginalValues": "6644897F06",
+            "ModdedValues": "6644897F06"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Clamp Jump",
+            "Description": "Replaces sar+cmp at 2AAB17 with jmp to clamp cave, NOPs fill remaining bytes",
+            "Category": "Alteration",
+            "Addresses": [
+                "2AAB17"
+            ],
+            "Length": 8,
+            "Type": "Hex",
+            "Values": "E9A4750000909090",
+            "OriginalValues": "41C1FF0844397577",
+            "ModdedValues": "E9A4750000909090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Clamp Cave 1",
+            "Description": "Restores sar r15d,8, loads maxmana cache into eax, compares, jumps to cave 2",
+            "Category": "Alteration",
+            "Addresses": [
+                "2B20C0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "41C1FF088B470685C0E9B20200009090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "41C1FF088B470685C0E9B20200009090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Clamp Cave 2",
+            "Description": "Clamps r15d to maxmana cache, restores original cmp, returns to 2AAB1F",
+            "Category": "Alteration",
+            "Addresses": [
+                "2B2380"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "7E07443BF8440F4FF8E952FBFEFF9090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "7E07443BF8440F4FF8E952FBFEFF9090"
+        },
+        {
+            "Name": "Fix Mana Overflow - Mana Clamp Cave 3",
+            "Description": "Restores original cmp [rbp+77h],r14d, jumps back to 2AAB1F",
+            "Category": "Alteration",
+            "Addresses": [
+                "2A1EE0"
+            ],
+            "Length": 16,
+            "Type": "Hex",
+            "Values": "44397577E9368C000090909090909090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "44397577E9368C000090909090909090"
+        },
+        {
+            "Name": "Fix Orb Display - Use Correct HP Fill Percentage",
+            "Description": "Replaces broken 16-bit HP/current division with correct fill % already computed by sub_14020BBF0",
+            "Category": "Alteration",
+            "Addresses": [
+                "3DF121"
+            ],
+            "Length": 21,
+            "Type": "Hex",
+            "Values": "448BC0909090909090909090909090909090909090",
+            "OriginalValues": "418BC26685D27E0D410FBF4D646BC1648BCA99F7F9",
+            "ModdedValues": "448BC0909090909090909090909090909090909090"
+        },
+        {
+            "Name": "Fix Orb Display - HP Fill Overflow Jump",
+            "Description": "Jumps to cave to fix overflow in orb HP fill calculation",
+            "Category": "Alteration",
+            "Addresses": [
+                "BE058C"
+            ],
+            "Length": 10,
+            "Type": "Hex",
+            "Values": "E9387DE6FF9090909090",
+            "OriginalValues": "418BC7410FAFC499F7FE",
+            "ModdedValues": "E9387DE6FF9090909090"
+        },
+        {
+            "Name": "Fix Orb Display - HP Fill Overflow Cave",
+            "Description": "Shifts HP values right 8 before multiply to prevent overflow, returns to BE0596",
+            "Category": "Alteration",
+            "Addresses": [
+                "A482C9"
+            ],
+            "Length": 23,
+            "Type": "Hex",
+            "Values": "418BC741C1EC08C1FE08410FAFC499F7FEE9B782190090",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "418BC741C1EC08C1FE08410FAFC499F7FEE9B782190090"
         }
     ]
 }

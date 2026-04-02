@@ -397,9 +397,9 @@ total_poison_resist	258		1	8											250	300				8	100			11			poisonresist	item
 elemental_resists_mask	395		1	32																																															0
 aether_resists_mask	396		1	32																																															0
 lifepactactive	397		1	14																																															0
-generictotalmultiplier	398		1	10																																															0
+generictotalmultiplier	398		1	10																8	100																														0
 weaponmastery	399		1	14																8	0																301	3		weaponmastery	weaponmastery										0
-total_magic_resist	400		1	8											250	300				8	100			11			magicresist																							2	0
+total_magic_resist	400		1	8											250	300				8	100			11			magicresist																								0
 placeholder401	401		1	14																12	0																8	3	2	r43	r43										0
 placeholder402	402		1	14																12	0																7	3	2	r44	r44										0
 placeholder403	403		1	14																12	0																6	3	2	r45	r45										0
