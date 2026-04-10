@@ -3335,9 +3335,10 @@ Diablo the Invincible Boss Desecrated			-5					0	wss	3	um1	1	Eye of the Storm Bo
 Mephisto the Invincible Boss Desecrated			-5					0	wss	3	um3	1	Eye of the Storm Boss	1																				0
 Sanctum of the Dead Boss Desecrated			-7					0	wss	5	Endgame Map Rathma Unique	1	Sanctum of the Dead Boss	1																				0
 Reliquary of False Light Boss Desecrated			-7					0	wss	5	Endgame Map Lucion Unique	1	Reliquary of False Light Boss	1																				0
-Treasure Goblin			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3	z99	1										0
+Treasure Goblin			15	820	820	973	1024	500	"gld,mul=4096"	30	Unique Charm 2	6	EGM Equip 17	240	Endgame Map Valuable	60	Goblin Boss Craft	30	EGM Myth	80	Endgame Map Tier 2	6	z99	1										0
 Treasure Goblin (Champ)			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Treasure Goblin (Unique)			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin Vault			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Ascendancy Class			6						Act 5 Uber	1																								0
 Ascendancy Class (N)			6						Act 5 (N) Uber	1																								0
 Ascendancy Class (H)			6						Act 5 (H) Uber	1																								0
