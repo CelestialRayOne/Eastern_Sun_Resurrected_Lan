@@ -115,7 +115,7 @@ rabies	112																																										rabiesplague																
 defense_curse	113						1	1														1																					defense_curse							skill_armor_percent																					0
 blood_mana	114																																										blood_mana																												0
 burning	115																																										burning																												0
-athuluapower	116																																																																						0
+athuluapowerold	116																																																																						0
 maul	117	3											1																									1					maul1	maul5	maul1back	maul5back				damagepercent	16	11																			0
 corpse_noselect	118																											1	1	1				1																																					0
 shadowwarrior	119				1						1																				1			1																														2	6						0
@@ -226,7 +226,7 @@ unused223	223																																																								99	114	255	
 annihilationdebuff	224																																										aura_elemcry																												0
 ravagedebuff	225																																																								100	106	255	255	255										0
 furyofcreationdebuff	226																																										aura_elemcry																												0
-bladenova	227																																										bladeshield																												0
+bladenovaold	227																																										bladeshield																												0
 lifepact	228	7																																									lifepact																												0
 justkilledboss	229																																										baal_on_throne														102	112	255	255	255	paladin_redeemed_soul									0
 valkyriemastery	230																																																																						0

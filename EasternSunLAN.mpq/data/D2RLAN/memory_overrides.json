@@ -213,18 +213,16 @@
         },
         {
             "Name": "Make Energy Shield not disable on 0 mana",
-            "Description": "This will make energy shield not disable itself anymore when the player reaches 0 mana.",
+            "Description": "Patches 'test edi,edi / jg 382334' at 38221E to 'nop nop / jmp 382334 / nop', unconditionally skipping the state removal block so Energy Shield stays active at 0 mana.",
             "Category": "Alteration",
             "Addresses": [
-                "38232f",
-                "382240",
-                "382252"
+                "38221e"
             ],
-            "Length": 5,
+            "Length": 8,
             "Type": "Hex",
-            "Values": "9090909090",
-            "OriginalValues": "e81cc4eaff",
-            "ModdedValues": "9090909090"
+            "Values": "9090E90F01000090",
+            "OriginalValues": "85FF0F8F0E010000",
+            "ModdedValues": "9090E90F01000090"
         },
         {
             "Name": "Make Attack Rating not depend on level difference 1/5",
