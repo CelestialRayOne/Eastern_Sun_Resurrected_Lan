@@ -216,7 +216,7 @@
             "Description": "Patches 'test edi,edi / jg 382334' at 38221E to 'nop nop / jmp 382334 / nop', unconditionally skipping the state removal block so Energy Shield stays active at 0 mana.",
             "Category": "Alteration",
             "Addresses": [
-                "38221e"
+                "38221E"
             ],
             "Length": 8,
             "Type": "Hex",
