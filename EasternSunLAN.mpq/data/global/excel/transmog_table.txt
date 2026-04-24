@@ -1326,7 +1326,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1325	35f	quest/coupon_nor_crossbow						
 1326	36f	quest/coupon_nor_2h_sword						
 1327	37f	quest/coupon_nor_polearm						
-1328	38f	quest/coupon_nor_staff						
+1328	38f	quest/coupon_nor_dagger						
 1329	39f	quest/coupon_nor_2h_axe						
 1330	40f	quest/coupon_nor_bow						
 1331	41f	quest/coupon_nor_wand						
