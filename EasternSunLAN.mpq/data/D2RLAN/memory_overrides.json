@@ -1114,9 +1114,99 @@
             "Address": "149B2B1",
             "Length": 253,
             "Type": "Hex",
+            "OriginalValues": "00...",
+            "ModdedValues": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000004885C0740848C700000000004A8B54FC204C89E141B801000000E812ABD4FE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE",
+            "Values": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000004885C0740848C700000000004A8B54FC204C89E141B801000000E812ABD4FE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE"
+        },
+        {
+            "Name": "Cube Transmute Crash Fix - Hook",
+            "Description": "Hooks sub_140BE94B0 (the client-side transmute packet builder). Redirects to cave at 149B3B0 which counts cube items via sub_140208330 inventory walk and aborts the transmute if count > 100. Prevents crash from 5*N+8 byte packet exceeding the 512-byte cap in sub_14010E710's dedup buffer (asserts and exits at >=512 bytes, which manifests as a deferred crash in NVIDIA NGX during process teardown). No legitimate recipe takes >100 inputs; this is purely a misclick guard for cubes used as bulk storage. Stolen byte: mov [rsp+8], rbx.",
+            "Address": "BE94B0",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "48895C2408",
+            "ModdedValues": "E9FB1E8B00",
+            "Values": "E9FB1E8B00"
+        },
+        {
+            "Name": "Cube Transmute Crash Fix - Cave",
+            "Description": "Cave at 149B3B0 (167 bytes). On entry to sub_140BE94B0: gets pPlayer via sub_14006B050(dword_141D442D8), gets pInventory via sub_140208330. Walks pInventory linked list (chain through pItemData+0xB0). For each item with unitType==4 and pItemData->pageByte==3 (cube page), increments counter. If count > 100, returns immediately (transmute aborted). Otherwise re-executes stolen byte (mov [rsp+8], rbx) and jumps back to BE94B5 to let original transmute proceed. Stack: sub rsp, 0x28 for shadow space + alignment around the two calls; restored before ret or jmp back.",
+            "Address": "149B3B0",
+            "Length": 146,
+            "Type": "Hex",
+            "OriginalValues": "0000...",
+            "ModdedValues": "4883EC288B0D1E8F8A00E891FCBCFE4885C00F846C0000004889C1E860CFD6FE4885C00F845B0000008138040302010F854F00000031D2488B48104885C90F84320000008139040000000F85260000004C8B41104D85C00F841900000041807855030F8502000000FFC2498B88B0000000E9C5FFFFFF83FA640F8E050000004883C428C34883C42848895C2408E973E074FF",
+            "Values": "4883EC288B0D1E8F8A00E891FCBCFE4885C00F846C0000004889C1E860CFD6FE4885C00F845B0000008138040302010F854F00000031D2488B48104885C90F84320000008139040000000F85260000004C8B41104D85C00F841900000041807855030F8502000000FFC2498B88B0000000E9C5FFFFFF83FA640F8E050000004883C428C34883C42848895C2408E973E074FF"
+        },
+        {
+            "Name": "Cube Throw Crash Fix - Hook",
+            "Description": "Hooks sub_14010E930 (cube-drop packet builder, packet ID 0x22). Only ever called from sub_1400D35B0's actual drop send-site, so does NOT fire on movement/polling paths. Redirects to cave at 149B444 which checks (r9-r8)/16 = item count and aborts the packet send if count > 70. Prevents crash from 7*N+17 byte packet exceeding the 512-byte cap in sub_14010E710's dedup buffer (asserts and exits at >=512 bytes). Stolen bytes (9): push rbx (with REX 40 prefix), sub rsp, 0x750. Replaces previous failed cube-throw guard at sub_1400D35B0 entry which incorrectly fired on every-frame polling calls.",
+            "Address": "10E930",
+            "Length": 9,
+            "Type": "Hex",
+            "OriginalValues": "40534881EC50070000",
+            "ModdedValues": "E90FCB380190909090",
+            "Values": "E90FCB380190909090"
+        },
+        {
+            "Name": "Cube Throw Crash Fix - Cave",
+            "Description": "Cave at 149B444 (33 bytes). Computes item count from r9-r8 (param registers a4-a3, the array end and start pointers, each item is 16 bytes / __m128i). If count > 70, returns 0 immediately (sub_14010E930 returns int; 0 = no error from packet send wrapper's perspective). Otherwise re-executes stolen prolog (push rbx; sub rsp, 0x750) and jumps back to 10E939. Massively simpler than previous attempt because we hook at the packet-send level rather than the cube-throw handler entry, eliminating the every-frame polling problem entirely.",
+            "Address": "149B444",
+            "Length": 33,
+            "Type": "Hex",
+            "OriginalValues": "00...",
+            "ModdedValues": "",
+            "Values": "4C89C84C29C048C1F8044883F846760331C0C340534881EC50070000E9D434C7FE"
+        },
+        {
+            "Name": "Charm Dedup - Hook IsCharmUsable",
+            "Description": "Replaces 'mov eax, 1' at 0x2005C2 (success exit of ITEMS_IsCharmUsable, RVA 0x200540) with E9 jmp to dedup cave at 0x149B467. Returns to 0x2005C7.",
+            "Address": "2005C2",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "B801000000",
+            "ModdedValues": "E9A0AE2901",
+            "Values": "E9A0AE2901"
+        },
+        {
+            "Name": "Charm Dedup - Cave (IsCharmUsable)",
+            "Description": "Cave at 0x149B467 (244 bytes). Saves r12/r14/r15. Returns 1 if pItem->pItemData->dwQuality (+0x00) != 7 (UNIQUE). Else reads my unique row from pItemData+0x34 into r14d, gets pInventory via sub_208330, walks linked list via [pItemData+0xB0]. For each other item: must be UNIT_ITEM, valid pItemData, dwQuality==7, nInvPage(+0x55)==0, no IFLAG_BROKEN(0x100)/IFLAG_NOEQUIP(0x4000), same dwUniqueRow. Tie-break: cmp r12,rbx; jb .fail (lower pItem address loses). On .ok (winner): clears bit 0x80000000 in [pItemData+0x18] and returns 1. On .fail (loser): sets bit 0x80000000 in [pItemData+0x18] (loser marker, read by sub_9FFF0 cave for red render), then loads pStatListEx from [pItem+0x88] and calls sub_1E4300 to expire/unmerge stats from owner before returning 0. Returns to 0x2005C7.",
+            "Address": "149B467",
+            "Length": 244,
+            "Type": "Hex",
             "OriginalValues": "",
             "ModdedValues": "",
-            "Values": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000004885C0740848C700000000004A8B54FC204C89E141B801000000E812ABD4FE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE"
+            "Values": "415441564157488B43108338070F8592000000448B70344883EC204889F9E8A6CED6FE4883C4204885C00F84750000004C8B60104D85E40F84680000004939DC0F844E00000041833C24040F8543000000498B4424104885C00F84350000008338070F852C000000807855000F85220000008B4818F7C1004100000F8513000000443970340F85090000004939DC0F822C000000498B4424104C8BA0B0000000E98FFFFFFF488B4310816018FFFFFF7F415F415E415CB801000000E9A050D6FE488B431081481800000080488B83880000004885C074104883EC204889C1E8B68DD4FE4883C420415F415E415C33C0E96C50D6FE"
+        },
+        {
+            "Name": "Charm Dedup - Hook Renderer (red tint for losers)",
+            "Description": "Hooks renderer sub_1401BD8C0 at 0x1BDB31 (right after call to CheckRequirements). Replaces 5 bytes (test eax,eax + first 3 bytes of jz to red_path 0x1BDBFA) with E9 jmp to cave at 0x149B55B. Cave replicates original test/jz, then additionally checks bit 0x80000000 in pItem->pItemData->dwItemFlags ([rdi+10h]+18h - rdi=pItem at this point, callee-saved across CheckRequirements call). If marker bit set (charm dedup loser), jumps to red render path 0x1BDBFA. Otherwise jumps to 0x1BDB39 to continue normal predicate chain. Scoped to this single renderer function — no global side effects on pickup/tooltip/etc.",
+            "Address": "1BDB31",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "85C00F84C1",
+            "ModdedValues": "E925DA2D01",
+            "Values": "E925DA2D01"
+        },
+        {
+            "Name": "Charm Dedup - Cave (Renderer red tint)",
+            "Description": "Cave at 0x149B55B (44 bytes). Entry: eax = CheckRequirements result, rdi = pItem. Replicates original 'test eax,eax / jz red' (jumps to 0x1BDBFA if requirements failed). If passed, dereferences pItemData via [rdi+10h] and checks bit 0x80000000 in dwItemFlags. Set => jumps to red path 0x1BDBFA (loser visual). Clear => jumps to 0x1BDB39 to continue normal predicate chain. Cave uses no stack, no register saves needed.",
+            "Address": "149B55B",
+            "Length": 44,
+            "Type": "Hex",
+            "OriginalValues": "",
+            "ModdedValues": "",
+            "Values": "85C00F841F000000488B47104885C00F840D000000F74018000000800F8505000000E9B725D2FEE97326D2FE"
+        },
+        {
+            "Name": "Disable Legacy Toggle",
+            "Description": "Noop the legacy toggling",
+            "Address": "C178CA",
+            "Length": 7,
+            "Type": "Hex",
+            "OriginalValues": "90909090909090",
+            "ModdedValues": "0F9405DEDE0501",
+            "Values": "90909090909090"
         }
     ]
 }

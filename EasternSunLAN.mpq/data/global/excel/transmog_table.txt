@@ -1309,7 +1309,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1308	18f	quest/coupon_nor_1h_sword						
 1309	19f	quest/coupon_nor_dagger						
 1310	20f	quest/coupon_nor_2h_sword						
-1311	21f	quest/coupon_nor_2h_sword						
+1311	21f	quest/coupon_nor_spear						
 1312	22f	quest/coupon_nor_1h_sword						
 1313	23f	quest/coupon_nor_bow						
 1314	24f	quest/coupon_nor_1h_sword						
@@ -1388,7 +1388,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1387	26g	quest/coupon_exc_1h_sword						
 1388	27g	quest/coupon_exc_scepter						
 1389	28g	quest/coupon_exc_dagger						
-1390	29g	quest/coupon_exc_dagger						
+1390	29g	quest/coupon_exc_club						
 1391	30g	quest/coupon_exc_scepter						
 1392	31g	quest/coupon_exc_spear						
 1393	32g	quest/coupon_exc_bow						
@@ -1397,7 +1397,7 @@ index	code_name	code_normal	sets_normal	sets_exceptional	sets_elite	uniques_norm
 1396	35g	quest/coupon_exc_1h_sword						
 1397	36g	quest/coupon_exc_2h_axe						
 1398	37g	quest/coupon_exc_mace						
-1399	38g	quest/coupon_exc_1h_axe						
+1399	38g	quest/coupon_exc_polearm						
 1400	39g	quest/coupon_exc_2h_axe						
 1401	40g	quest/coupon_exc_1h_sword						
 1402	41g	quest/coupon_exc_staff						

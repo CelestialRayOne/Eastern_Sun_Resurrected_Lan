@@ -970,7 +970,7 @@ Runeword979	Wisdom	1			helm									PulIthEld	r71	r56	r52				enepercent		75	75	e
 Runeword980	Diablo	1			char									Ma Mo No	r33	r35	r36				allskills		1	1	fireskill		1	1	kill-skill	Emberquake Proc	2	45	kill-skill	Super Nova	2	45	pierce-fire		15	15	pierce-ltng		15	15	dmg-ltng		1	1000	0
 Runeword981	Hustle (armor)	1			tors									ShaelKoEld	r63	r58	r52				move2		80	80	stam		220	220	swing2		40	40	res-all		25	25	oskill	Dodge	3	3	skill	Dodge	12	12	dexpercent		30	30	0
 Runeword982	Hustle (weapon)	1			weap									ShaelKoEld	r63	r58	r52				hit-skill	Wind Brand	15	1	hit-skill	Axe Proc	15	1	aura	Fanaticism	5	5	move2		50	50	swing2		50	50	life-on-striking		3	3	dmg%		200	200	0
-Runeword983	Mosaic	1			h2h									MalGulAmn	r73	r75	r61				skilltab	20	5	5	pierce-ele-res		30	30	abs-elem%		5	5	mosaic-repeat-chance		1	1	att-skill	Fists of Fire Discharge	5	60	att-skill	Claws of Thunder	5	60	att-skill	Blades of Ice	5	60	0
+Runeword983	Mosaic	1			h2h									MalGulAmn	r73	r75	r61				skilltab	20	5	5	pierce-ele-res		30	30	abs-elem%		5	5	mosaic-repeat-chance		1	1	att-skill	Fists of Fire Discharge	5	60	att-skill	Claws of Thunder Discharge	5	60	att-skill	Blades of Ice Discharge	5	60	0
 Runeword984	Metamorphosis	1			helm									IoChamFal	r66	r82	r69				skilltab	16	7	7	oskill-hidden	Shared Savagery	1	1	mythicaldescnoflag	1053	1	1	strpercent		40	40	dexpercent		40	40	move2		30	30	dmg%		150	150	0
 Runeword985	Ground	1			helm									ShaelIoOrt	r63	r66	r59				hp%		20	20	res-ltng		80	80	res-ltng-max		5	5	manasteal		10	10	allskills		2	2	move2		40	40					0
 Runeword986	Temper	1			helm									ShaelIoRal	r63	r66	r58				hp%		20	20	res-fire		80	80	res-fire-max		5	5	lifesteal		10	10	allskills		2	2	swing2		40	40					0
