@@ -2098,5 +2098,6 @@
   { "m56": { "asset": "spear/maiden_spear" } },
   { "m57": { "asset": "spear/maiden_pike" } },
   { "m58": { "asset": "h2h/claws" } },
-  { "m59": { "asset": "polearm/necroscythe2" } }
+  { "m59": { "asset": "polearm/necroscythe2" } },
+  { "mjw": { "asset": "gem/perfect_diamond" } }
 ]

@@ -62,7 +62,6 @@
                     "filename": "data/hd/missiles/javelin/javelin.model",
                     "visibleLayers": 1,
                     "lightMask": 19,
-                    "shadowMask": 3,
                     "ghostShadows": false,
                     "floorModel": false,
                     "terrainBlendEnableYUpBlend": false,

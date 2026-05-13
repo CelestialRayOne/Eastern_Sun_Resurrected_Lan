@@ -1325,3 +1325,9 @@ of Skill Master	100	1	1	60		50		pal	18	1	58	oskill	Concentration	1	15											
 of Skill Master	100	1	1	80		60		pal	18	1	58	oskill	Conviction	1	5											amul	ring	shld	belt	boot	glov		pala			0	0	0
 of Skill Master	100	1	1	60		42		pal	18	1	58	oskill	Redemption	1	15											amul	ring	shld	belt	boot	glov		pala			0	0	0
 of Skill Master	100	1	1	80		60		pal	18	1	58	oskill	Aura of Divinity	1	5											amul	ring	shld	belt	boot	glov		pala			0	0	0
+of Harpoon Ballista	100	1	1	60		50				1	48	hit-skill	Harpoon Ballista	1	50									1	blac	bow										0	0	0
+of Multiple Shot Ballista	100	1	1	60		50				1	48	hit-skill	Multiple Shot Ballista	1	50									1	blac	bow										0	0	0
+of Skill Master	100	1	1	96		60				1	58	oskill	Harpoon Ballista	10	20									1	blac	bow										0	0	0
+of Skill Master	100	1	1	96		60				1	58	oskill	Multiple Shot Ballista	10	20									1	blac	bow										0	0	0
+of Skill Master	100	1	1	96		60				1	58	oskill	Iron Salvo	10	20									1	blac	jave										0	0	0
+of Skill Master	100	1	1	96		60				1	58	oskill	Ricochet Javelin	10	20									1	blac	jave										0	0	0

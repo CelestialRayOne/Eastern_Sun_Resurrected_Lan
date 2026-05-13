@@ -400,11 +400,11 @@ lifepactactive	397		1	14																																															0
 generictotalmultiplier	398		1	10																8	100																														0
 weaponmastery	399		1	14																8	0																301	3		weaponmastery	weaponmastery										0
 total_magic_resist	400		1	8											250	300				8	100			11			magicresist																								0
-placeholder401	401		1	14																12	0																8	3	2	r43	r43										0
-placeholder402	402		1	14																12	0																7	3	2	r44	r44										0
-placeholder403	403		1	14																12	0																6	3	2	r45	r45										0
-placeholder404	404		1	14																12	0																5	3	2	r46	r46										0
-placeholder405	405		1	14																12	0																33	3	2	r51	r51										0
+gemexplosioncontrol	401		1	14																																															0
+skillcontrol5	402		1	14																																															0
+goldexplosioncontrol	403		1	14																																															0
+item_skillonattack_hidden	404		1	10	20						1			2				21	0	8	0	18										1	domeleeattack	20	domissileattack	20															0
+item_skillonhit_hidden	405		1	10	20						1			2				21	0	8	0	18										1	domeleedamage	20	domissiledamage	20															0
 placeholder406	406		1	14																12	0																32	3	2	r52	r52										0
 placeholder407	407		1	14																12	0																31	3	2	r53	r53										0
 placeholder408	408		1	14																12	0																30	3	2	r54	r54										0

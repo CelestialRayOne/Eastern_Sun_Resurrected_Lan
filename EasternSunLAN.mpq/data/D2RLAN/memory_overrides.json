@@ -1199,14 +1199,329 @@
             "Values": "85C00F841F000000488B47104885C00F840D000000F74018000000800F8505000000E9B725D2FEE97326D2FE"
         },
         {
-            "Name": "Disable Legacy Toggle",
-            "Description": "Noop the legacy toggling",
-            "Address": "C178CA",
-            "Length": 7,
+            "Name": "Disable Legacy Graphics Toggle",
+            "Description": "Patches sub_140439C60 (the legacy graphics toggle implementation) with ret (0xC3) at function entry. This function is the actual toggle reachable from G key, menu checkbox, and various dispatchers. Replacing the first byte with 0xC3 makes it return immediately for all callers, neutralizing the legacy graphics toggle and preventing crashes on mods that don't support legacy mode.",
+            "Address": "439C60",
+            "Length": 1,
             "Type": "Hex",
-            "OriginalValues": "90909090909090",
-            "ModdedValues": "0F9405DEDE0501",
-            "Values": "90909090909090"
+            "OriginalValues": "F3",
+            "ModdedValues": "C3",
+            "Values": "C3"
+        },
+        {
+            "Name": "Charge Missile-on-Hit Hook",
+            "Description": "Hooks SrvDo067_Charge phase-1 hit branch at 386044 (the displaced 5-byte 'mov eax, 1' before 'jmp loc_385C18'). Redirects to cave at 149B589 which: (1) filters pTarget->dwUnitType == 1 (UNIT_MONSTER) at [r12], (2) allocates 0x90 stack frame with D2MissileStrc at [rsp+0x20], (3) zeros struct via rep stosq, (4) calls SKILLS_GetProgressiveSkillMissileId (2C5D50) with rcx=pUnit(rbx), edx=nSkillId([rsp+0xD0]), bails on negative result, (5) reads pTarget->pPath ([r12+0x38]) and pUnit->pPath ([rbx+0x38]) for X(+0x02 word) and Y(+0x06 word) coords, bails if either path is null, (6) computes through-target trajectory: nTargetX = 2*targetX - unitX, nTargetY = 2*targetY - unitY, (7) populates D2MissileStrc fields: dwFlags=0x21(+0x00), pOwner=pUnit(+0x08), nMissile(+0x20), nX=targetX(+0x2C), nY=targetY(+0x30), nTargetX(+0x3C), nTargetY(+0x40), nSkill(+0x68), nSkillLevel(+0x6C), (8) calls MISSILES_CreateMissileFromParams (3151A0) with rcx=pGame(rdi), rdx=&struct, (9) restores stack, sets eax=1, jumps back to 386049. Live regs at hook: rbx=pUnit, r12=pTarget, rdi=pGame; nSkillId at [rsp+0x40], nSkillLevel at [rsp+0x48] (post-cave-adjustment +0xD0/+0xD8). Missile spawned per skills.txt SrvMissile column (charge has no aurastate progression so SrvMissileA is used).",
+            "Address": "386020",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "?",
+            "ModdedValues": "E907581101909090",
+            "Values": "E907581101909090"
+        },
+        {
+            "Name": "Charge Missile-on-Hit Cave",
+            "Description": "Cave for Charge missile-on-hit hook (paired with patch at 386044). 243 bytes at 149B589. See companion patch description for full logic. Uses SKILLS_GetProgressiveSkillMissileId (2C5D50) and MISSILES_CreateMissileFromParams (3151A0). Returns to 386049.",
+            "Address": "149B82C",
+            "Length": 578,
+            "Type": "Hex",
+            "OriginalValues": "0000...",
+            "ModdedValues": "41833C24010F852A0200004881EC000100008B842440010000898424B80000008B842448010000898424C00000008B8424B80000004869C0840200004803056142800048898424E8000000488BCB8B9424B8000000E88A8BEBFE85C00F88BF010000898424C8000000498B4424384885C00F84AA0100000FB748020FB75006898C24D0000000899424D4000000488B43384885C00F8487010000440FB74002440FB748068D04094429C0898424D80000008D04124429C8898424DC000000488B8424E80000008B805801000083F8FF0F846D000000448B1DB8318000413BC30F835D0000004C8B15A0318000498D0C024129C34489DA4C8D05B7CCD7FE4C8D0D50493600C74424200700000048895C24388B8424B8000000894424408B8424C000000089442444488D4424384889442428E85E4F23FF83F8017D05B801000000EB05B801000000898424E000000057488DBC2450000000B90E00000033C0F348AB5FC78424480000002100000048899C24500000008B8424C8000000898424680000008B8424D00000008984246C0000008B8424D4000000898424700000008B8424D8000000898424740000008B8424DC000000898424780000008B8424B8000000898424B00000008B8424C0000000898424B4000000488BCF488D942448000000E88D97E7FEFF8C24E00000000F855AFFFFFF488BCF488BD341B80D020000448B8C24C0000000E8077BEEFE4881C4000100004C39B424B8000000E9DBA5EEFE4881C4000100004C39B424B8000000E9C7A5EEFE4C39B424B8000000E9BAA5EEFE",
+            "Values": "41833C24010F852A0200004881EC000100008B842440010000898424B80000008B842448010000898424C00000008B8424B80000004869C0840200004803056142800048898424E8000000488BCB8B9424B8000000E88A8BEBFE85C00F88BF010000898424C8000000498B4424384885C00F84AA0100000FB748020FB75006898C24D0000000899424D4000000488B43384885C00F8487010000440FB74002440FB748068D04094429C0898424D80000008D04124429C8898424DC000000488B8424E80000008B805801000083F8FF0F846D000000448B1DB8318000413BC30F835D0000004C8B15A0318000498D0C024129C34489DA4C8D05B7CCD7FE4C8D0D50493600C74424200700000048895C24388B8424B8000000894424408B8424C000000089442444488D4424384889442428E85E4F23FF83F8017D05B801000000EB05B801000000898424E000000057488DBC2450000000B90E00000033C0F348AB5FC78424480000002100000048899C24500000008B8424C8000000898424680000008B8424D00000008984246C0000008B8424D4000000898424700000008B8424D8000000898424740000008B8424DC000000898424780000008B8424B8000000898424B00000008B8424C0000000898424B4000000488BCF488D942448000000E88D97E7FEFF8C24E00000000F855AFFFFFF488BCF488BD341B80D020000448B8C24C0000000E8077BEEFE4881C4000100004C39B424B8000000E9DBA5EEFE4881C4000100004C39B424B8000000E9C7A5EEFE4C39B424B8000000E9BAA5EEFE"
+        },
+        {
+            "Name": "Smite Calc5 Multi-Hit Hook",
+            "Description": "Hooks SrvDo150_Smite at 383ABE (the call to SUNITDMG_AllocCombat at the end of the function). Replaces the 5-byte call instruction with jmp to cave at 149B69A. Cave evaluates Calc5 from skills.txt ([r15+0x168] where r15=pSkillsTxtRecord) via SKILLS_EvaluateSkillFormula (6D08C0) with args (rcx=rsi=pUnit, edx=Calc5, r8d=ebx=nSkillId, r9d=r12d=nSkillLevel), clamps result to >=1, stores hit count at [rsp+0x28], then loops calling SUNITDMG_AllocCombat (3292B0) N times with args (rcx=rdi=pGame, rdx=rsi=pUnit, r8=r14=pTarget, r9=&damage at [rsp+0x70], [rsp+0x20] byte=0x80=nSrcDam). Each iteration re-applies the same damage struct, giving N independent damage events (N x lifesteal procs, N x on-hit triggers, etc.). Live regs preserved across calls: rdi=pGame, rsi=pUnit, rbx=nSkillId, r12d=nSkillLevel, r14=pTarget, r15=pSkillsTxtRecord (all non-volatile in MS x64 ABI). After loop, jumps back to 383AC3 (mov r13d, 1) to continue normal function epilogue. Calc field offsets in D2R D2SkillsTxt: Calc1=+0x158, Calc2=+0x15C, Calc3=+0x160, Calc4=+0x164, Calc5=+0x168, Calc6=+0x16C.",
+            "Address": "383AB0",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E8AB66FAFF",
+            "ModdedValues": "E9E57B1101",
+            "Values": "E9E57B1101"
+        },
+        {
+            "Name": "Smite Calc5 Multi-Hit Cave",
+            "Description": "Cave for Smite Calc5 multi-hit hook (paired with patch at 383ABE). 70 bytes at 149B69A. See companion patch description for full logic. Uses SKILLS_EvaluateSkillFormula (6D08C0) and SUNITDMG_AllocCombat (3292B0). Returns to 383AC3.",
+            "Address": "149B69A",
+            "Length": 278,
+            "Type": "Hex",
+            "OriginalValues": "0000...",
+            "ModdedValues": "4881ECB0010000418B876801000083F8FF0F84F3000000448B1D08348000413BC30F83E30000004C8B15F0338000498D0C024129C34489DA4C8D0507CFD7FE4C8D0DA04B3600C74424200700000048897424308B8424F801000089442438448964243C488D4424304889442428E8B45123FF83F8017D05B801000000898424A80100005756488DB42430020000488DBC2458000000B92C000000F348A55E5F5756488DB42458000000488DBC2430020000B92C000000F348A55E5F488BCF488BD64D8BC64C8D8C2420020000C644242080E8F0E9E8FE488BCF488BD64D8BC64C8D8C2420020000C644242080E825DBE8FEFF8C24A80100000F85A1FFFFFF4881C4B0010000E91F83EEFE4881C4B0010000E91383EEFE",
+            "Values": "4881ECB0010000418B876801000083F8FF0F84F3000000448B1D08348000413BC30F83E30000004C8B15F0338000498D0C024129C34489DA4C8D0507CFD7FE4C8D0DA04B3600C74424200700000048897424308B8424F801000089442438448964243C488D4424304889442428E8B45123FF83F8017D05B801000000898424A80100005756488DB42430020000488DBC2458000000B92C000000F348A55E5F5756488DB42458000000488DBC2430020000B92C000000F348A55E5F488BCF488BD64D8BC64C8D8C2420020000C644242080E8F0E9E8FE488BCF488BD64D8BC64C8D8C2420020000C644242080E825DBE8FEFF8C24A80100000F85A1FFFFFF4881C4B0010000E91F83EEFE4881C4B0010000E91383EEFE"
+        },
+        {
+            "Name": "Smite Holy Shield damage display - state lookup hook",
+            "Description": "Patches the descdam=10 handler at sub_1AD860 (RVA 1ADA17) to look up state cast by skill 546 instead of vanilla skill 117 (Holy Shield). The original code at 1ADA17 walks the unit's statlist via cmp word ptr [rax], 0x75 / jnz, finding the state whose source skill is 117 to compute Smite's character-sheet bonus damage display. Since 546 (0x222) doesn't fit in the original 4-byte cmp r/m16, imm8 sign-extended encoding, we replace the 6-byte block (cmp + jnz, 1ADA17..1ADA1C) with a jmp to cave at 149B7B2 plus a NOP. The cave performs the equivalent comparison with the full 16-bit immediate (cmp word ptr [rax], 0x222) and dispatches: jne to 1ADA23 (walk to next state in linked list) or fallthrough/jmp to 1ADA1D (state matched, proceed with damage calc). Result: character sheet now reads skill 546's damage data for the bonus display instead of skill 117. Original: 66 83 38 75 75 06 = cmp word [rax], 0x75 / jnz short.",
+            "Address": "1ADA17",
+            "Length": 6,
+            "Type": "Hex",
+            "OriginalValues": "66 83 38 75 75 06",
+            "ModdedValues": "E9 96 DD 2E 01 90",
+            "Values": "E996DD2E0190"
+        },
+        {
+            "Name": "Smite Holy Shield damage display - state lookup cave",
+            "Description": "Cave for Smite Holy Shield damage display redirect (paired with hook at 1ADA17). Located at 149B7B2 (16 bytes). Performs cmp word ptr [rax], 0x222 (546, custom skill replacing Holy Shield 117 for bonus damage display), then jne to 1ADA23 (continue statlist walk) or jmp to 1ADA1D (matched, proceed with damage calc). See companion hook description for full context.",
+            "Address": "149B7B2",
+            "Length": 16,
+            "Type": "Hex",
+            "OriginalValues": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+            "ModdedValues": "66 81 38 22 02 0F 85 66 22 D1 FE E9 5B 22 D1 FE",
+            "Values": "66813822020F856622D1FEE95B22D1FE"
+        },
+        {
+            "Name": "Charge srvdofunc - damage conversion uses Calc5 instead of Calc4",
+            "Description": "Patches the Calc4 read at SrvDo067_Charge (385F10) to read Calc5 instead. The instruction `mov eax, [r13+0x164]` reads dwCalc[3] (Calc4) which is then passed to SKILLS_EvaluateSkillFormula and used as damage.dwConvPct (elemental damage conversion percentage). Changing the displacement byte from 0x64 to 0x68 redirects the read to dwCalc[4] (Calc5, offset 0x168). All other behavior — bounds check, formula evaluation, conv pct assignment — remains identical. The instruction encoding is `41 8B 85 [disp32]` = mov eax, [r13+disp32]; the disp32 is little-endian, so we patch the lowest-significance byte at 385F13 from 0x64 to 0x68.",
+            "Address": "385F13",
+            "Length": 1,
+            "Type": "Hex",
+            "OriginalValues": "64",
+            "ModdedValues": "68",
+            "Values": "68"
+        },
+        {
+            "Name": "AST_Multiplication site hook (formula evaluator overflow fix)",
+            "Description": "sub_1406D08C0 case AST_Multiplication. Replaces 32-bit `imul ecx,edx` + `jmp loc_6D0F14` (8 bytes) with `jmp <cave>` + 3 NOPs. Cave at RVA 149B7C4 sign-extends both operands to 64-bit, performs imul rcx,rdx, saturates result to [INT32_MIN, INT32_MAX], then jumps back to RVA 6D0F14. Fixes int32 overflow in skill formula evaluation that affects both LCS display and server-side stat assignment.",
+            "Address": "6D0C7A",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "0FAFCAE992020000",
+            "ModdedValues": "E945ABDC00909090",
+            "Values": "E945ABDC00909090"
+        },
+        {
+            "Name": "AST_Power site hook (formula evaluator overflow fix)",
+            "Description": "sub_1406D08C0 case AST_Power loop body. Replaces `imul ecx,r8d` + `sub rdx,1` (8 bytes) with `jmp <cave>` + 3 NOPs. Cave at RVA 149B7F5 performs 64-bit imul, saturates to int32, re-emits `sub rdx,1`, jumps back to the loop's `jnz` at RVA 6D0D8C. Companion to the Multiplication patch.",
+            "Address": "6D0D84",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "410FAFC84883EA01",
+            "ModdedValues": "E96CAADC00909090",
+            "Values": "E96CAADC00909090"
+        },
+        {
+            "Name": "AST evaluator saturation cave (Multiplication + Power)",
+            "Description": "Cave bytes at RVA 149B7C4. Two adjacent code blocks: [+0]   AST_Multiplication saturating multiply (49 bytes); [+31] AST_Power saturating multiply with re-emit of the overwritten `sub rdx,1` (53 bytes). Both use `imul rN,rN` 64-bit then cmovg/cmovl against INT32_MAX/INT32_MIN. Returns 32-bit clamped result in ecx. Routes both back to their respective rejoin points in sub_1406D08C0.",
+            "Address": "149B7C4",
+            "Length": 102,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4863C94863D2480FAFCA48B8FFFFFF7F000000004839C1480F4FC848B800000080FFFFFFFF4839C1480F4CC8E91F5723FF4863C94D63C0490FAFC848B8FFFFFF7F000000004839C1480F4FC848B800000080FFFFFFFF4839C1480F4CC84883EA01E9625523FF",
+            "Values": "4863C94863D2480FAFCA48B8FFFFFF7F000000004839C1480F4FC848B800000080FFFFFFFF4839C1480F4CC8E91F5723FF4863C94D63C0490FAFC848B8FFFFFF7F000000004839C1480F4FC848B800000080FFFFFFFF4839C1480F4CC84883EA01E9625523FF"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem post-div #1",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BD62. Cave at RVA 149BA70 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BDD6 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BD62",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7EBC1FA058BC2C1E81F03D00FAFD1",
+            "ModdedValues": "E909FD2701909090909090909090909090909090",
+            "Values": "E909FD2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem post-div #2",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BDAC. Cave at RVA 149BAB3 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BDD6 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BDAC",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7E9C1FA058BC2C1E81F03D00FAFD3",
+            "ModdedValues": "E902FD2701909090909090909090909090909090",
+            "Values": "E902FD2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem pre-div #1",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BDC2. Cave at RVA 149BAF6 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BDD6 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BDC2",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "0FAFCBB81F85EB51F7E9C1FA058BC2C1E81F03D0",
+            "ModdedValues": "E92FFD2701909090909090909090909090909090",
+            "Values": "E92FFD2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem post-div #3 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BE50. Cave at RVA 149BB39 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BE64 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BE50",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7EBC1FA058BC2C1E81F03D00FAFD1",
+            "ModdedValues": "E9E4FC2701909090909090909090909090909090",
+            "Values": "E9E4FC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem post-div #4 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BE9A. Cave at RVA 149BB7C computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BEAE (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BE9A",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7E9C1FA058BC2C1E81F03D00FAFD3",
+            "ModdedValues": "E9DDFC2701909090909090909090909090909090",
+            "Values": "E9DDFC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MinElem pre-div #2 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BEC7. Cave at RVA 149BBBF computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21BEDB (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BEC7",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "0FAFCBB81F85EB51F7E9C1FA058BCAC1E91F03D1",
+            "ModdedValues": "E9F3FC2701909090909090909090909090909090",
+            "Values": "E9F3FC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem post-div #1",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21BFED. Cave at RVA 149BC02 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C061 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21BFED",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7EBC1FA058BC2C1E81F03D00FAFD1",
+            "ModdedValues": "E910FC2701909090909090909090909090909090",
+            "Values": "E910FC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem post-div #2",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21C037. Cave at RVA 149BC45 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C061 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21C037",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7E9C1FA058BC2C1E81F03D00FAFD3",
+            "ModdedValues": "E909FC2701909090909090909090909090909090",
+            "Values": "E909FC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem pre-div #1",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21C04D. Cave at RVA 149BC88 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C061 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21C04D",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "0FAFCBB81F85EB51F7E9C1FA058BC2C1E81F03D0",
+            "ModdedValues": "E936FC2701909090909090909090909090909090",
+            "Values": "E936FC2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem post-div #3 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21C0DB. Cave at RVA 149BCCB computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C0EF (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21C0DB",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7EBC1FA058BC2C1E81F03D00FAFD1",
+            "ModdedValues": "E9EBFB2701909090909090909090909090909090",
+            "Values": "E9EBFB2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem post-div #4 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21C125. Cave at RVA 149BD0E computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C139 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21C125",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7E9C1FA058BC2C1E81F03D00FAFD3",
+            "ModdedValues": "E9E4FB2701909090909090909090909090909090",
+            "Values": "E9E4FB2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg overflow fix v4 - MaxElem pre-div #2 (formula path)",
+            "Description": "Hooks 20-byte multiply-divide sequence at RVA 21C152. Cave at RVA 149BD51 computes (ebx * ecx) / 100 in 64-bit signed math, saturates final result to [INT32_MIN, INT32_MAX], leaves in edx, jumps to RVA 21C166 (the 'add ebx, edx'). v4 fix: uses ebx/ecx as inputs (the actual operands per D2MOO source) instead of v3 which incorrectly used edx (a stale temporary).",
+            "Address": "21C152",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "0FAFCBB81F85EB51F7E9C1FA058BCAC1E91F03D1",
+            "ModdedValues": "E9FAFB2701909090909090909090909090909090",
+            "Values": "E9FAFB2701909090909090909090909090909090"
+        },
+        {
+            "Name": "ElemDmg saturation cave v4 (correct ebx*ecx semantics)",
+            "Description": "Cave at RVA 149BA70. 12 identical blocks computing (ebx * ecx) / 100 with int32 saturation. Each block is independent (different rejoin RVA) since rejoin targets the appropriate 'add ebx, edx' for each branch. Total 804 bytes.",
+            "Address": "149BA70",
+            "Length": 804,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E92303D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E002D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E99D02D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E802D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9EF02D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D902D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E91C04D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D903D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E99603D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E103D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E803D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D203D8FE",
+            "Values": "4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E92303D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E002D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E99D02D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E802D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9EF02D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D902D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E91C04D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D903D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E99603D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E103D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9E803D8FE4863C34863C9480FAFC148B96400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0E9D203D8FE"
+        },
+        {
+            "Name": "Bow/missile damage 32-bit imul overflow fix - hook",
+            "Description": "Hook at RVA 3C65B6. Original 19 bytes: imul ecx,[r14]; imul ecx; sar edx,5; mov eax,edx; shr eax,1Fh; add edx,eax; add [r14],edx. r14 = damage_struct + 0x1C (physical damage component). ecx = damage bonus percent. The 32-bit imul ecx,[r14] overflows for high damage values (e.g. 50M raw * 100% bonus = 5B which exceeds INT32_MAX), wrapping to negative. Replaces with JMP to cave at RVA 149BD96 which performs equivalent math in 64-bit with INT32 saturation. Returns to RVA 3C65C9 (next instruction after original add [r14], edx).",
+            "Address": "3C65B6",
+            "Type": "Hex",
+            "OriginalValues": "410FAF0EF7E9C1FA058BC2C1E81F03D0410116",
+            "ModdedValues": "E9DB570D019090909090909090909090909090",
+            "Values": "E9DB570D019090909090909090909090909090"
+        },
+        {
+            "Name": "Bow/missile damage 32-bit imul overflow fix - cave",
+            "Description": "Cave at RVA 149BD96. 70 bytes. Performs (ecx * *r14) / 100 in 64-bit with INT32 saturation, then adds low 32 bits to *r14. Algorithm: movsxd rcx,ecx; movsxd rax,[r14]; imul rcx,rax (64-bit); rax=100; cqo; idiv rcx; mov rdx,rax; clamp rdx to [INT32_MIN, INT32_MAX]; add [r14],edx. Returns via E9 jmp back to RVA 3C65C9.",
+            "Address": "149BD96",
+            "Length": 70,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4863C9496306480FAFC848B86400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE",
+            "Values": "4863C9496306480FAFC848B86400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE"
+        },
+        {
+            "Name": "Bow/missile damage 32-bit imul overflow fix - hook",
+            "Description": "Hook at RVA 3C65B6. Original 19 bytes are: imul ecx,[r14]; imul ecx (with 0x51EB851F); sar edx,5; mov eax,edx; shr eax,1Fh; add edx,eax; add [r14],edx. This computes ecx*(*r14)/100 with rounding then adds to *r14. r14 = damage_struct + 0x1C (physical damage component). ecx = damage bonus percent. The 32-bit imul ecx,[r14] overflows int32 for high damage values (e.g. 50M raw * 100 = 5B exceeds INT32_MAX), wrapping to negative which then gets divided and added, producing negative or wrong damage components. Replaces with JMP to cave at RVA 149BD96 which performs equivalent math in 64-bit with INT32 saturation. Returns to RVA 3C65C9.",
+            "Address": "3C65B6",
+            "Length": 19,
+            "Type": "Hex",
+            "OriginalValues": "410FAF0EF7E9C1FA058BC2C1E81F03D0410116",
+            "ModdedValues": "E9DB570D019090909090909090909090909090",
+            "Values": "E9DB570D019090909090909090909090909090"
+        },
+        {
+            "Name": "Bow/missile damage 32-bit imul overflow fix - cave",
+            "Description": "Cave at RVA 149BD96. 70 bytes. Computes (ecx * *r14) / 100 in 64-bit with INT32 saturation then adds low 32 bits to *r14. Disassembly: movsxd rcx,ecx; movsxd rax,[r14]; imul rcx,rax (64-bit); mov rax,rcx; cqo (sign-extend product to rdx:rax); mov rcx,100; idiv rcx (rax = product/100); mov rdx,rax; clamp rdx to [INT32_MIN, INT32_MAX] via cmp/cmovg/cmovl; add [r14],edx. Returns via 5-byte E9 jmp to RVA 3C65C9.",
+            "Address": "149BD96",
+            "Length": 70,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4863C9496306480FAFC84889C8489948C7C16400000048F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE",
+            "Values": "4863C9496306480FAFC84889C8489948C7C16400000048F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE"
+        },
+        {
+            "Name": "Fix Trap Damage Overflow - Site Patch",
+            "Description": "Replaces imul ebx,[rsp+2Ch]; imul edi,[rsp+2Ch]; divide-by-128; mov [rsp+24h]; mov rbx,[r12+88h]; divide-by-128; mov [rsp+B8h] with JMP to 64-bit math cave.",
+            "Category": "Alteration",
+            "Addresses": [
+                "24DEE2"
+            ],
+            "Length": 51,
+            "Type": "Hex",
+            "Values": "E9A2D6240190909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+            "OriginalValues": "0FAF5C242C0FAF7C242C8BC79983E27F03C2C1F807894424248BC3498B9C24880000009983E27F03C2C1F807898424B8000000",
+            "ModdedValues": "E9A2D6240190909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+        },
+        {
+            "Name": "Fix Trap Damage Overflow - Cave",
+            "Description": "Cave at 149B589. Does (edi*srcdam)/128 → [rsp+24h] and (ebx*srcdam)/128 → [rsp+B8h] in 64-bit, restores mov rbx,[r12+88h], jumps to 0x24DF15.",
+            "Category": "Alteration",
+            "Addresses": [
+                "149B589"
+            ],
+            "Length": 51,
+            "Type": "Hex",
+            "Values": "486344242C4863CF480FAFC848C1F907894C24244863CB480FAFC848C1F907898C24B8000000498B9C2488000000E95929DBFE",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "486344242C4863CF480FAFC848C1F907894C24244863CB480FAFC848C1F907898C24B8000000498B9C2488000000E95929DBFE"
+        },
+        {
+            "Name": "Skip Exp Loss in Protected Levels - Hook",
+            "Description": "Hooks sub_28D9A0 entry (PLAYER_ApplyDeathPenalty equivalent). Replaces first 9 bytes (push rbp; push rsi; push r12; sub rsp, 30h) with E9 rel32 JMP to cave at 149B5BE + NOPs.",
+            "Address": "28D9A0",
+            "Length": 9,
+            "Type": "Hex",
+            "OriginalValues": "40555641544883EC30",
+            "ModdedValues": "E919DC200190909090",
+            "Values": "E919DC200190909090"
+        },
+        {
+            "Name": "Skip Exp Loss in Protected Levels - Cave",
+            "Description": "Cave at 149B5BE. Saves rcx/rdx, calls UNITS_GetRoom on pDefender, walks pRoom+18h->+90h->+1F8h for levelId. Range check 0..255, bitmap lookup (32 bytes for 256 IDs). Protected levels: 141, 146, 149, 154, 159, 162, 175, 180, 181, 184, 190, 197, 198, 199, 202, 203, 206, 211, 213. If protected: pop regs, RET (skip entire death penalty). Else: pop regs, execute stolen prologue (push rbp; push rsi; push r12; sub rsp, 30h), JMP back to 28D9A9.",
+            "Address": "149B5BE",
+            "Length": 149,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000",
+            "Values": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000"
         }
     ]
 }

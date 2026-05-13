@@ -2,10 +2,10 @@
     "dependencies": {
         "particles": [
             {
-                "path": "data/hd/vfx/particles/character/enemy/diablo/vfx_DiabloFire_Skill3.particles"
+                "path": "data/hd/vfx/particles/missiles/ground_blue_fire_notrack/vfx_ground_bluefire_notrack.particles"
             },
             {
-                "path": "data/hd/vfx/particles/missiles/ground_fire_big/vfx_ground_fire_big.particles"
+                "path": "data/hd/vfx/particles/missiles/ground_blue_fire/vfx_ground_blue_fire.particles"
             }
         ],
         "models": [
@@ -95,7 +95,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_vfx1_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/missiles/ground_fire_big/vfx_ground_fire_big.particles",
+                    "filename": "data/hd/vfx/particles/missiles/ground_blue_fire/vfx_ground_blue_fire.particles",
                     "hardKillOnDestroy": false
                 }
             ]
@@ -108,51 +108,12 @@
                 {
                     "type": "UnitSourceSkillFilterComponent",
                     "name": "entity_vfx_diabloFire_UnitSourceSkillFilter",
-                    "sourceSkill": "Conflagrate"
+                    "sourceSkill": "Glacial Inferno"
                 },
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_vfx_diabloFire_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/diablo/vfx_DiabloFire_Skill3.particles",
-                    "hardKillOnDestroy": false
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "entity_vfx_diabloFire_TransformDefinition",
-                    "position": {
-                        "x": 0.0,
-                        "y": -3.0,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "entity_vfx_diabloFire",
-            "id": 1466423628,
-            "components": [
-                {
-                    "type": "UnitSourceSkillFilterComponent",
-                    "name": "entity_vfx_diabloFire_UnitSourceSkillFilter",
-                    "sourceSkill": "Conflagrate Weapon Damage"
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_diabloFire_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/diablo/vfx_DiabloFire_Skill3.particles",
+                    "filename": "data/hd/vfx/particles/missiles/ground_blue_fire_notrack/vfx_ground_bluefire_notrack.particles",
                     "hardKillOnDestroy": false
                 },
                 {

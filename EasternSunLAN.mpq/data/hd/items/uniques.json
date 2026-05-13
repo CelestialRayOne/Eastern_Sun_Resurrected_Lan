@@ -4387,5 +4387,12 @@
       "uber": "gem/larias_licentious_lament",
       "ultra": "gem/larias_licentious_lament"
     }
+  },
+  {
+    "ember_of_creation": {
+      "normal": "gem/ember_of_creation",
+      "uber": "gem/ember_of_creation",
+      "ultra": "gem/ember_of_creation"
+    }
   }
 ]
