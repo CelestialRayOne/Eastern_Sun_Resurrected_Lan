@@ -399,3 +399,8 @@ iron salvo	3	5	2	3	92		ironsalvo1	ironsalvo23	ironsalvo23	ironsalvo1	5										
 ricochet javelin	3	5	2	3	94		ricochetjavelin1	ricochetjavelin23	ricochetjavelin23	ricochetjavelin1	5												1				36	StrSkill3		usmc	256	74	StrSkill22		toht		36	StrSkillRadiusSingular	StrSkill18	rng*2	3	74	shardnumber		clc1												74	WeapDamsk		100																																																									0
 glacial inferno	3	5	2	3	94		glacialinferno1	glacialinferno1	glacialinferno1	glacialinferno1																																																																																																											0
 thunderstar	3	5	2	3	94		thunderstar1	thunderstar1	thunderstar1	thunderstar1																																																																																																											0
+singularity	3	5	2	3	94		singularity1	singularity1	singularity1	singularity1																																																																																																											0
+spiritstorm	3	5	2	3	94		spiritstorm1	spiritstorm1	spiritstorm1	spiritstorm1																																																																																																											0
+dragon breath	3	5	2	3	94		dragonbreath1	dragonbreath1	dragonbreath1	dragonbreath1																																																																																																											0
+twinkle	3	5	2	3	94		twinkle1	twinkle1	twinkle1	twinkle1																																																																																																											0
+death ritual	3	5	2	3	96		deathritual1	deathritual23	deathritual23	deathritual1																	74	allenemyresistance		ast1		36	StrSkillDurationSingular	StrSkill20	len	25																																																																																	0

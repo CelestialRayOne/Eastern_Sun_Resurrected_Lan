@@ -4851,13 +4851,14 @@
         },
         {
             "type": "AnimationState",
-            "name": "AnimationState017",
-            "_name": "Skill_Whirlwind",
+            "name": "PMODE_SEQUENCE_WHIRLWIND",
+            "_name": "SKILL_WHIRLWIND",
             "audioId": "",
             "loopCount": 0,
-            "stateId": 36,
+            "stateId": 61,
+            "enableVfxAttributes": false,
             "modeId": 18,
-            "skillIndex": 151,
+            "skillIndex": 590,
             "stepIndex": 0,
             "animationBindings": {
                 "ht1": [
@@ -4865,6 +4866,38 @@
                 ],
                 "ht2": [
                     "ht2_whirlwind"
+                ],
+                "hth": [
+                    "ht1_whirlwind"
+                ],
+                "bow": [],
+                "1hs": [
+                    "ht1_whirlwind"
+                ],
+                "1ht": [
+                    "ht1_whirlwind"
+                ],
+                "stf": [
+                    "ht1_whirlwind"
+                ],
+                "2hs": [
+                    "ht1_whirlwind"
+                ],
+                "2ht": [
+                    "ht1_whirlwind"
+                ],
+                "xbw": [],
+                "1js": [
+                    "ht1_whirlwind"
+                ],
+                "1jt": [
+                    "ht1_whirlwind"
+                ],
+                "1ss": [
+                    "1ss_whirlwind"
+                ],
+                "1st": [
+                    "ht1_whirlwind"
                 ]
             },
             "enterEvents": [],
@@ -6311,7 +6344,6 @@
             "enterEvents": [],
             "exitEvents": []
         },
-        
         {
             "type": "AnimationState",
             "name": "AnimationState018",
@@ -7622,6 +7654,7 @@
                     "crossfadeSeconds": 0.05,
                     "to": 66
                 }
+                
             ]
         },
         {
@@ -10004,6 +10037,7 @@
                     "crossfadeSeconds": 0.2,
                     "to": 66
                 }
+
             ]
         },
         {
@@ -10798,6 +10832,7 @@
                     "crossfadeSeconds": 0.2,
                     "to": 66
                 }
+
             ]
         },
         {

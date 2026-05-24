@@ -64,9 +64,9 @@
             "Address": "3748C6",
             "Length": 1,
             "Type": "Hex",
-            "Values": "EB",
+            "Values": "74",
             "OriginalValues": "74",
-            "ModdedValues": "EB"
+            "ModdedValues": "74"
         },
         {
             "Name": "Hit Chance % (Lower Bound)",
@@ -174,7 +174,7 @@
             "Address": "3654E0",
             "Length": 6,
             "Type": "Hex",
-            "Values": "0F8542010000",
+            "Values": "909090909090",
             "OriginalValues": "0F8542010000",
             "ModdedValues": "909090909090"
         },
@@ -185,7 +185,7 @@
             "Address": "3656AB",
             "Length": 6,
             "Type": "Hex",
-            "Values": "0F852B010000",
+            "Values": "909090909090",
             "OriginalValues": "0F852B010000",
             "ModdedValues": "909090909090"
         },
@@ -1522,6 +1522,66 @@
             "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
             "ModdedValues": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000",
             "Values": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000"
+        },
+        {
+            "Name": "Multi-Aura per Item - Case 151 Hook",
+            "Description": "Hook the inlined STAT_ITEM_AURA delete-walk inside sub_2D2B00 (case 151 of the server stat callback dispatcher). Replaces 11 bytes (test r15d,r15d / jz +6 / cmp [rdx+18h],r15d / jnz +8) at 0x2D35F9 with E9 jmp to cave at 0x149B651 + 6 NOPs. Cave adds skill-ID match alongside the itemGUID match so deleting events doesn't wipe other auras' events on the same item. Registers at hook: r15d=itemGUID (customId filter, 0=wildcard for deactivate), r13d=nSkillId (new skill being activated), rdx=current event in walk. Targets: 0x2D3604 (delete-call) or 0x2D360C (continue-loop).",
+            "Address": "2D35F9",
+            "Length": 11,
+            "Type": "Hex",
+            "OriginalValues": "4585FF740644397A187508",
+            "ModdedValues": "E953801C01909090909090",
+            "Values": "E953801C01909090909090"
+        },
+        {
+            "Name": "Multi-Aura per Item - Case 151 Cave",
+            "Description": "Cave at 0x149B651 (27 bytes) for case 151 multi-aura delete-walk hook. Replicates original test r15d/jz wildcard (preserves deactivate-path behavior when itemGUID=0) + cmp [rdx+18h] itemGUID match, ADDS cmp [rdx+1Ch], r13d skill match. Match (itemGUID AND skillID) -> 0x2D3604 (delete event). Wildcard (r15d=0) -> 0x2D3604 (delete all events). Mismatch -> 0x2D360C (continue loop). Without this, three item_aura stats with same itemGUID would mutually wipe each other's PERIODICSTATS events at activation.",
+            "Address": "149B651",
+            "Length": 27,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4585FF740C44397A18750B44396A1C7505E99D7FE3FEE9A07FE3FE",
+            "Values": "4585FF740C44397A18750B44396A1C7505E99D7FE3FEE9A07FE3FE"
+        },
+        {
+            "Name": "Multi-Aura per Item - sub_2999E0 Hook",
+            "Description": "Hook the periodic re-arm delete-walk inside sub_2999E0 (the indirect-dispatched STAT_ITEM_AURA handler, reached via the fcallback table at .rdata 0x158F560/0x158F7A8). Replaces 9 bytes (test ebx,ebx / jz +5 / cmp [rdx+18h],ebx / jnz +8) at 0x299B79 with E9 jmp to cave at 0x149B66C + 4 NOPs. Parallel to the case-151 patch but for this separate stat-callback path. Registers at hook: ebx=itemGUID, r14d=nSkillId, rdx=current event. Targets: 0x299B82 (delete-call) or 0x299B8A (continue-loop).",
+            "Address": "299B79",
+            "Length": 9,
+            "Type": "Hex",
+            "OriginalValues": "85DB7405395A187508",
+            "ModdedValues": "E9EE1A200190909090",
+            "Values": "E9EE1A200190909090"
+        },
+        {
+            "Name": "Multi-Aura per Item - sub_2999E0 Cave",
+            "Description": "Cave at 0x149B66C (25 bytes) for sub_2999E0 multi-aura delete-walk hook. Replicates original test ebx/jz wildcard (preserves deactivate-path behavior when itemGUID=0) + cmp [rdx+18h] itemGUID match, ADDS cmp [rdx+1Ch], r14d skill match. Match (itemGUID AND skillID) -> 0x299B82 (delete event). Wildcard (ebx=0) -> 0x299B82 (delete all events). Mismatch -> 0x299B8A (continue loop). r14d holds nSkillId from function entry (movsxd r14, r9d at 0x2999FE). Companion to case-151 patch; sub_2999E0 is the secondary STAT_ITEM_AURA dispatcher reached through the fcallback table, separate from the inlined case 151 in sub_2D2B00.",
+            "Address": "149B66C",
+            "Length": 25,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "85DB740B395A18750B4439721C7505E902E5DFFEE905E5DFFE",
+            "Values": "85DB740B395A18750B4439721C7505E902E5DFFEE905E5DFFE"
+        },
+        {
+            "Name": "Multi-Aura per Item - Case 151 Hook (Second Walk)",
+            "Description": "Hook the SECOND inlined STAT_ITEM_AURA delete-walk inside sub_2D2B00 case 151, located in the (a1+23432) pending-list branch. Replaces 11 bytes (test r15d,r15d / jz +6 / cmp [rdx+18h],r15d / jnz +8) at 0x2D36EA with E9 jmp to cave at 0x149BDDC + 6 NOPs. Without this fix, the FIRST walk patch (at 0x2D35F9) is bypassed in the pending-list code path and same-item co-existing auras get wiped down to the last-processed skill when an item carrying multiple STAT_ITEM_AURA stat entries is equipped. Registers at hook: r15d=itemGUID, r13d=nSkillId, rdx=current event. Targets: 0x2D36F5 (delete) or 0x2D36FD (continue loop).",
+            "Address": "2D36EA",
+            "Length": 11,
+            "Type": "Hex",
+            "OriginalValues": "4585FF740644397A187508",
+            "ModdedValues": "E9ED861C01909090909090",
+            "Values": "E9ED861C01909090909090"
+        },
+        {
+            "Name": "Multi-Aura per Item - Case 151 Cave (Second Walk)",
+            "Description": "Cave at 0x149BDDC (27 bytes, in .text end-padding) for case 151 second multi-aura delete-walk hook. Replicates original test r15d/jz wildcard (preserves deactivate-path behavior when itemGUID=0) + cmp [rdx+18h] itemGUID match, ADDS cmp [rdx+1Ch], r13d skill match. Match (itemGUID AND skillID) -> 0x2D36F5 (delete event). Wildcard (r15d=0) -> 0x2D36F5 (delete all events). Mismatch -> 0x2D36FD (continue loop). Companion to the first case-151 walk patch at 0x149B651 - both walks live inside case 151 but in different branches: the first is the normal activation path, this second one runs in the (a1+23432) pending-aura-list re-arm branch that fires on equip.",
+            "Address": "149BDDC",
+            "Length": 27,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "4585FF740C44397A18750B44396A1C7505E90379E3FEE90679E3FE",
+            "Values": "4585FF740C44397A18750B44396A1C7505E90379E3FEE90679E3FE"
         }
     ]
 }

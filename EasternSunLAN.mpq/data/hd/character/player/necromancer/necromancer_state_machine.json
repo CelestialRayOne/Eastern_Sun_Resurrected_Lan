@@ -1074,6 +1074,36 @@
             },
             {
                 "path": "data/hd/character/player/necromancer/animation/xbw_walk.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/stf_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/hth_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/2ht_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/2hs_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1st_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1ss_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1jt_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1js_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1ht_whirlwind.animation"
+            },
+            {
+                "path": "data/hd/character/player/barbarian/animation/1hs_whirlwind.animation"
             }
         ],
         "textures": [],
@@ -2871,6 +2901,56 @@
             "type": "AnimationItem",
             "name": "xbw_townfidget_03",
             "filename": "data/hd/character/player/necromancer/animation/xbw_townfidget_03.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "hth_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/hth_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1hs_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1hs_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1ht_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1ht_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "stf_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/stf_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "2hs_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/2hs_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "2ht_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/2ht_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1js_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1js_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1jt_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1jt_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1ss_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1ss_whirlwind.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1st_whirlwind",
+            "filename": "data/hd/character/player/barbarian/animation/1st_whirlwind.animation"
         }
     ],
     "states": [
@@ -5596,7 +5676,6 @@
             "enterEvents": [],
             "exitEvents": []
         },
-        
         {
             "type": "AnimationState",
             "name": "AnimationState018",
@@ -6112,6 +6191,55 @@
             },
             "enterEvents": [],
             "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "PMODE_SEQUENCE_WHIRLWIND",
+            "_name": "SKILL_WHIRLWIND",
+            "audioId": "",
+            "loopCount": 0,
+            "stateId": 72,
+            "modeId": 18,
+            "skillIndex": 590,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "hth_whirlwind"
+                ],
+                "bow": [],
+                "1hs": [
+                    "1hs_whirlwind"
+                ],
+                "1ht": [
+                    "1ht_whirlwind"
+                ],
+                "stf": [
+                    "stf_whirlwind"
+                ],
+                "2hs": [
+                    "2hs_whirlwind"
+                ],
+                "2ht": [
+                    "2ht_whirlwind"
+                ],
+                "xbw": [],
+                "1js": [
+                    "1js_whirlwind"
+                ],
+                "1jt": [
+                    "1jt_whirlwind"
+                ],
+                "1ss": [
+                    "1ss_whirlwind"
+                ],
+                "1st": [
+                    "1st_whirlwind"
+                ],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
         }
     ],
     "transitions": [
@@ -6407,6 +6535,12 @@
                     "name": "Death_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Death_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -6702,6 +6836,12 @@
                     "name": "Neutral_transitions_transition029",
                     "crossfadeSeconds": 0.01,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Neutral_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -6997,6 +7137,12 @@
                     "name": "Walk_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Walk_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -7292,6 +7438,12 @@
                     "name": "Run_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Run_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -7587,6 +7739,12 @@
                     "name": "Hit_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Hit_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -7882,6 +8040,12 @@
                     "name": "TownNeutral_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "TownNeutral_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -8177,6 +8341,12 @@
                     "name": "TownWalk_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "TownWalk_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -8472,6 +8642,12 @@
                     "name": "Attack1_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Attack1_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -8767,6 +8943,12 @@
                     "name": "Attack2_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Attack2_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -9062,6 +9244,12 @@
                     "name": "Block_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Block_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -9357,6 +9545,12 @@
                     "name": "Cast_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Cast_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -9652,6 +9846,12 @@
                     "name": "Throw_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Throw_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -9947,6 +10147,12 @@
                     "name": "Kick_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Kick_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -10242,6 +10448,12 @@
                     "name": "Skill1_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Skill1_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -10537,6 +10749,12 @@
                     "name": "Skill2_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Skill2_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -10832,6 +11050,12 @@
                     "name": "Skill3_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Skill3_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -11127,6 +11351,12 @@
                     "name": "Skill4_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Skill4_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -11422,6 +11652,12 @@
                     "name": "Dead_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Dead_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -11717,6 +11953,12 @@
                     "name": "Knockback_transitions_transition029",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "Knockback_transitions_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -12012,6 +12254,12 @@
                     "name": "AnimationState_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -12307,6 +12555,12 @@
                     "name": "AnimationState001_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState001_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -12602,6 +12856,12 @@
                     "name": "AnimationState002_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState002_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -12897,6 +13157,12 @@
                     "name": "AnimationState003_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState003_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -13192,6 +13458,12 @@
                     "name": "AnimationState004_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState004_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -13487,6 +13759,12 @@
                     "name": "AnimationState005_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState005_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -13782,6 +14060,12 @@
                     "name": "AnimationState006_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState006_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -14077,6 +14361,12 @@
                     "name": "AnimationState007_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState007_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -14372,6 +14662,12 @@
                     "name": "AnimationState008_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState008_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -14667,6 +14963,12 @@
                     "name": "AnimationState009_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState009_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -14962,6 +15264,12 @@
                     "name": "AnimationState010_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState010_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -15257,6 +15565,12 @@
                     "name": "AnimationState011_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState011_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -15552,6 +15866,12 @@
                     "name": "AnimationState012_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState012_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -15847,6 +16167,12 @@
                     "name": "AnimationState014_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState014_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -16142,6 +16468,12 @@
                     "name": "AnimationState015_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState015_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -16437,6 +16769,12 @@
                     "name": "AnimationState016_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState016_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -16732,6 +17070,12 @@
                     "name": "AnimationState017_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState017_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -17027,6 +17371,12 @@
                     "name": "AnimationState018_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState018_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -17322,6 +17672,12 @@
                     "name": "AnimationState019_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState019_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -17617,6 +17973,12 @@
                     "name": "AnimationState020_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState020_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -17912,6 +18274,12 @@
                     "name": "AnimationState021_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState021_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -18207,6 +18575,12 @@
                     "name": "AnimationState022_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState022_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -18502,6 +18876,12 @@
                     "name": "AnimationState013_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState013_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -18797,6 +19177,12 @@
                     "name": "AnimationState023_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState023_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -19092,6 +19478,12 @@
                     "name": "AnimationState024_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState024_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -19387,6 +19779,12 @@
                     "name": "AnimationState025_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState025_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -19682,6 +20080,12 @@
                     "name": "AnimationState026_transitiongroup_transition047",
                     "crossfadeSeconds": 0.2,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState026_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -19977,6 +20381,12 @@
                     "name": "AnimationState027_transitiongroup_transition047",
                     "crossfadeSeconds": 0.01,
                     "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState027_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
                 }
             ]
         },
@@ -20271,6 +20681,145 @@
                     "type": "AnimationTransitionItem",
                     "name": "AnimationState028_transitiongroup_transition047",
                     "crossfadeSeconds": 0.01,
+                    "to": 49
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "AnimationState028_transitiongroup_to_SKILL_WHIRLWIND",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
+                }
+            ]
+        },
+        {
+            "type": "AnimationTransitionGroup",
+            "name": "SKILL_WHIRLWIND_transitions",
+            "from": 50,
+            "settings": [
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transition_from_PMODE_SEQUENCE_WHIRLWIND_to_PMODE_SEQUENCE_WHIRLWIND",
+                    "crossfadeSeconds": 0.07,
+                    "to": 50
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition009",
+                    "crossfadeSeconds": 0.2,
+                    "to": 19
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition010",
+                    "crossfadeSeconds": 0.2,
+                    "to": 20
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition013",
+                    "crossfadeSeconds": 0.2,
+                    "to": 23
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition022",
+                    "crossfadeSeconds": 0.0,
+                    "to": 28
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition023",
+                    "crossfadeSeconds": 0.2,
+                    "to": 50
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition024",
+                    "crossfadeSeconds": 0.2,
+                    "to": 42
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition025",
+                    "crossfadeSeconds": 0.2,
+                    "to": 41
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition026",
+                    "crossfadeSeconds": 0.2,
+                    "to": 40
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition027",
+                    "crossfadeSeconds": 0.2,
+                    "to": 33
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition028",
+                    "crossfadeSeconds": 0.07,
+                    "to": 30
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition029",
+                    "crossfadeSeconds": 0.07,
+                    "to": 29
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition030",
+                    "crossfadeSeconds": 0.07,
+                    "to": 34
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition032",
+                    "crossfadeSeconds": 0.07,
+                    "to": 35
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition033",
+                    "crossfadeSeconds": 0.07,
+                    "to": 36
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition038",
+                    "crossfadeSeconds": 0.07,
+                    "to": 51
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition039",
+                    "crossfadeSeconds": 0.07,
+                    "to": 52
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition041",
+                    "crossfadeSeconds": 0.2,
+                    "to": 43
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition042",
+                    "crossfadeSeconds": 0.2,
+                    "to": 44
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition044",
+                    "crossfadeSeconds": 0.2,
+                    "to": 48
+                },
+                {
+                    "type": "AnimationTransitionItem",
+                    "name": "transitions_from_PMODE_SEQUENCE_WHIRLWIND_transition045",
+                    "crossfadeSeconds": 0.2,
                     "to": 49
                 }
             ]

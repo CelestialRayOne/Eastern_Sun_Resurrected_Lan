@@ -467,3 +467,9 @@ total-magic-resist	1	1	total_magic_resist																															none
 generic-total-multiplier	1	1	generictotalmultiplier																															none
 att-skill-hidden	1	11	item_skillonattack_hidden																												Skill	Min #	Max #	
 hit-skill-hidden	1	11	item_skillonhit_hidden																												Skill	Min #	Max #	
+velocitypercent	1	1	velocitypercent																															none
+dmg-min-total%	1	1	item_maxdamage_percent2																															
+dmg-max-total%	1	1	item_mindamage_percent2																															
+total-physical-damage%	1	1	item_mindamage_percent2			3	item_maxdamage_percent2																											
+total-attack-rate	1	1	totalattackrate																															
+total-attack-speed	1	1	totalattackspeed																															

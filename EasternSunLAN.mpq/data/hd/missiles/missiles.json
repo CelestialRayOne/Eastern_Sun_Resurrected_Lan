@@ -1697,5 +1697,18 @@
     "glacialinfernospawner": "ground_bluefire_big_notrack",
     "thunderstarspawner": "lightningbolt",
     "thunderstarspawnersec": "lightningbolt",
-    "thunderstarlightning": "expansion_shock_field"
+    "thunderstarlightning": "expansion_shock_field",
+    "spiritstormfury": "bone_spirit",
+    "spiritstormbolt": "bone_spirit",
+    "purificationdamagebolt": "electric_nova",
+    "dragonbreath": "expansion_firestorm_emitter",
+    "dragonbreathtwo": "expansion_firestorm_emitter",
+    "dragonbreaththree": "expansion_firestorm_emitter",
+    "dragonbreathfour": "expansion_firestorm_emitter",
+    "dragonbreathfive": "expansion_firestorm_emitter",
+    "dragonbreathfire": "ground_firesmall",
+    "sandstormtestbolt": "expansion_twister",
+    "twinklefury": "charged_bolt",
+    "twinklebolt": "charged_bolt",
+    "deathritualbolt": "b_a_yell_shock_wave_01"
 }

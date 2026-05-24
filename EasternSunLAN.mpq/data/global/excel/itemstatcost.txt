@@ -51,8 +51,8 @@ firemindam	48		1	32											300	1		11	0	11	0											1					102	19		ModStr1p	
 firemaxdam	49		1	32											300	1		12	0	13	0											1					101	19		ModStr1o	ModStr1o		6	19		maxelementaldamage	maxelementaldamage			2	0
 lightmindam	50		1	32											300	1		11	0	8	0											1					99	19		ModStr1r	ModStr1r		6	19		minelementaldamage	minelementaldamage			2	0
 lightmaxdam	51		1	32											300	1		12	0	14	0											1					98	19		ModStr1q	ModStr1q		6	19		maxelementaldamage	maxelementaldamage			2	0
-magicmindam	52		1	32											300	1		11	0	11	0											1					104	19		strModMagicDamage	strModMagicDamage									2	0
-magicmaxdam	53		1	32											300	1		12	0	13	0											1					103	19		strModMagicDamage	strModMagicDamage									2	0
+magicmindam	52		1	32											300	1		11	0	11	0											1					104	19		strModMagicDamageMin	strModMagicDamageMin		15	19		strModMagicDamage	strModMagicDamage			2	0
+magicmaxdam	53		1	32											300	1		12	0	13	0											1					103	19		strModMagicDamageMax	strModMagicDamageMax		15	19		strModMagicDamage	strModMagicDamage			2	0
 coldmindam	54		1	32											300	1		11	0	11	0											1					96	19		ModStr1t	ModStr1t		6	19		minelementaldamage	minelementaldamage			2	0
 coldmaxdam	55		1	32											300	1		12	0	13	0											1					95	19		ModStr1s	ModStr1s		6	19		maxelementaldamage	maxelementaldamage			2	0
 coldlength	56		1	32											300	1		8	0	8	0											1																		2	0
@@ -66,8 +66,8 @@ manadrainmaxdam	63		1	16																												1																			0
 stamdrainmindam	64		1	16																												1																			0
 stamdrainmaxdam	65		1	16																												1																			0
 stunlength	66			16																												1																			0
-velocitypercent	67	1	1	16		1												8	50	8	50																														0
-attackrate	68	1	1	16		1												8	50	8	50											1																			0
+velocitypercent	67	1	1	16		1												8	50	8	50																293	19		basemovementspeed	basemovementspeed										0
+attackrate	68	1	1	16		1												8	50	8	50											1					293	19		baseattackspeed	baseattackspeed										0
 other_animrate	69	1	1	16		1																																													0
 quantity	70		1	16																												1																			0
 value	71		1	9														8	100	8	100																														0
@@ -396,20 +396,20 @@ total_lightning_resist	257		1	8											312	300				8	100			11			lightresist	it
 total_poison_resist	258		1	8											250	300				8	100			11			poisonresist	item_resist_pois_perlevel									293	19		modtotalpoisonresist	modtotalpoisonresist		13	19		modtotalallresist	modtotalallresist			2	0
 elemental_resists_mask	395		1	32																																															0
 aether_resists_mask	396		1	32																																															0
-lifepactactive	397		1	14																																															0
+lifepactactive	397		1	2																																															0
 generictotalmultiplier	398		1	10																8	100																														0
-weaponmastery	399		1	14																8	0																301	3		weaponmastery	weaponmastery										0
+weaponmastery	399		1	8																8	0																301	3		weaponmastery	weaponmastery										0
 total_magic_resist	400		1	8											250	300				8	100			11			magicresist																								0
-gemexplosioncontrol	401		1	14																																															0
+gemexplosioncontrol	401		1	2																																															0
 skillcontrol5	402		1	14																																															0
-goldexplosioncontrol	403		1	14																																															0
+goldexplosioncontrol	403		1	2																																															0
 item_skillonattack_hidden	404		1	10	20						1			2				21	0	8	0	18										1	domeleeattack	20	domissileattack	20															0
 item_skillonhit_hidden	405		1	10	20						1			2				21	0	8	0	18										1	domeleedamage	20	domissiledamage	20															0
-placeholder406	406		1	14																12	0																32	3	2	r52	r52										0
-placeholder407	407		1	14																12	0																31	3	2	r53	r53										0
-placeholder408	408		1	14																12	0																30	3	2	r54	r54										0
-placeholder409	409		1	14																12	0																29	3	2	r55	r55										0
-placeholder410	410		1	14																12	0																28	3	2	r56	r56										0
+whirlwindcontrol	406		1	2																																															0
+cyclicstate	407		1	3																																															0
+skillcontrolcounter	408		1	11																																															0
+totalattackspeed	410		1	10																8	100			11			item_fasterattackrate																								0
+placeholder410	410		1	10																8	100																														0
 placeholder411	411		1	14																12	0																27	3	2	r57	r57										0
 placeholder412	412		1	14																12	0																26	3	2	r58	r58										0
 placeholder413	413		1	14																12	0																25	3	2	r59	r59										0
@@ -465,8 +465,8 @@ junk_08	462		1	16																16	0																92	3	2	jr8	jr8										0
 item_craftflag2	463		1	10																11	0																162	3	0	Forged Jew	Forged Jew										0
 item_tinkerflag2	464		1	12																11	0																														0
 item_24	465		1	16																16	0																21	3	2	qqq	qqq										0
-item_maxdamage_percent2	466		1	11											16	2				10	123			1			maxdamage	secondary_maxdamage	item_throw_maxdamage			1					129	3	0	ModStr2j	ModStr2j										0
-item_mindamage_percent2	467		1	11											16	2				10	123			1			mindamage	secondary_mindamage	item_throw_mindamage			1					130	3	0	ModStr2k	ModStr2k										0
+item_maxdamage_percent2	466		1	11											16	2				10	123			1			maxdamage	secondary_maxdamage	item_throw_maxdamage			1					293	19		totalmaxdamage	totalmaxdamage		14	19		totalphysicaldamage	totalphysicaldamage				0
+item_mindamage_percent2	467		1	11											16	2				10	123			1			mindamage	secondary_mindamage	item_throw_mindamage			1					293	19		totalmindamage	totalmindamage		14	19		totalphysicaldamage	totalphysicaldamage				0
 junk_09	468		1	16																16	0																70	3	2	jr9	jr9										0
 placeholder469	469		1	14																12	0																1	3	2	r50	r50										0
 xtal_00	470		1	18																12	8																12	3	2	xt0	xt0										0
