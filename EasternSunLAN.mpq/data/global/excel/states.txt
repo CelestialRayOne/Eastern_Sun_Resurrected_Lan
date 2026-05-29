@@ -51,7 +51,7 @@ meditation	48					1																																					meditationfront	meditati
 fanaticism	49					1						1	1																														fanaticismfront	fanaticismback						attackrate												paladin_aura_fanatacism									0
 redemption	50					1																																					redemptionfront	redemptionback																		paladin_aura_redemption									0
 battlecommand	51					1																																					battlecommand					battlecommandcast																							0
-unicha4	52																																																																						0
+black	52																																																								90	112	255	255	255										0
 conversion	53																										1																conversionaura																			paladin_conversion									0
 uninterruptable	54																																																			7																			0
 ironmaiden	55						1	1																																			curseironmaiden					curse_hit														necromancer_ironmaiden									0
@@ -86,7 +86,7 @@ naturalresistance	83																																																												
 smite	84																																																																						0
 nomanaregen	85			1																																																																			0
 justhit	86	1		1																																																																			0
-increasingdebuff	87																																																																						0
+orangeconviction	87					1																																					eldruin_blessing_front																												0
 shiverarmor	88								1					1																													shiverarmor							skill_armor_percent																		87			0
 battlecry	89												1	1																													battlecry							normal_damage_reduction												barbarian_battlecry_state									0
 teal	90																																																								90	110	255	255	255										0

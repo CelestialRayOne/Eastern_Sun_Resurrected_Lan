@@ -390,10 +390,10 @@ exclusiveskillcontrol	387		1	8																																															0
 skillcontrollightning1	388		1	10																																															0
 skillcontrolfire1	389		1	10																																															0
 firecontrolprogressive	390		1	10																																															0
-total_fire_resist	255		1	8											312	300				8	100			11			fireresist	item_resist_fire_perlevel									293	19		modtotalfireresist	modtotalfireresist		13	19		modtotalallresist	modtotalallresist			2	0
-total_cold_resist	256		1	8											250	300				8	100			11			coldresist	item_resist_cold_perlevel									293	19		modtotalcoldresist	modtotalcoldresist		13	19		modtotalallresist	modtotalallresist			2	0
-total_lightning_resist	257		1	8											312	300				8	100			11			lightresist	item_resist_ltng_perlevel									293	19		modtotallightningresist	modtotallightningresist		13	19		modtotalallresist	modtotalallresist			2	0
-total_poison_resist	258		1	8											250	300				8	100			11			poisonresist	item_resist_pois_perlevel									293	19		modtotalpoisonresist	modtotalpoisonresist		13	19		modtotalallresist	modtotalallresist			2	0
+total_fire_resist	391		1	8											312	300				8	100			11			fireresist	item_resist_fire_perlevel									293	19		modtotalfireresist	modtotalfireresist		13	19		modtotalallresist	modtotalallresist			2	0
+total_cold_resist	392		1	8											250	300				8	100			11			coldresist	item_resist_cold_perlevel									293	19		modtotalcoldresist	modtotalcoldresist		13	19		modtotalallresist	modtotalallresist			2	0
+total_lightning_resist	393		1	8											312	300				8	100			11			lightresist	item_resist_ltng_perlevel									293	19		modtotallightningresist	modtotallightningresist		13	19		modtotalallresist	modtotalallresist			2	0
+total_poison_resist	394		1	8											250	300				8	100			11			poisonresist	item_resist_pois_perlevel									293	19		modtotalpoisonresist	modtotalpoisonresist		13	19		modtotalallresist	modtotalallresist			2	0
 elemental_resists_mask	395		1	32																																															0
 aether_resists_mask	396		1	32																																															0
 lifepactactive	397		1	2																																															0
@@ -408,9 +408,9 @@ item_skillonhit_hidden	405		1	10	20						1			2				21	0	8	0	18										1	domelee
 whirlwindcontrol	406		1	2																																															0
 cyclicstate	407		1	3																																															0
 skillcontrolcounter	408		1	11																																															0
-totalattackspeed	410		1	10																8	100			11			item_fasterattackrate																								0
-placeholder410	410		1	10																8	100																														0
-placeholder411	411		1	14																12	0																27	3	2	r57	r57										0
+totalattackspeed	409		1	10																8	100			11			item_fasterattackrate																								0
+playermode	410		1	10																																															0
+skillcontrol6	411		1	10																																															0
 placeholder412	412		1	14																12	0																26	3	2	r58	r58										0
 placeholder413	413		1	14																12	0																25	3	2	r59	r59										0
 placeholder414	414		1	14																12	0																24	3	2	r60	r60										0

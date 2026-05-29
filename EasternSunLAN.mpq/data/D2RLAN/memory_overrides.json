@@ -503,6 +503,19 @@
             "ModdedValues": "31C990"
         },
         {
+            "Name": "Remove activation frame from calc2 for cltdofunc=17",
+            "Description": "Makes AmaDoMultipleShot (cltdofunc=17, client-side mirror of srvdofunc=8) not take into account calc2 for the purpose of activation frame. Replaces 'mov [rbp-0x15], r12d' at RVA 19EEBA (the store of v34 = Calc2-eval result, held in r12d, into the activation frame field of the local missile-spawn struct v47) with 'xor r12d, r12d; nop'. The struct field was zero-initialized earlier (v47 = 0 at RVA 19EE5A) and the original store is now skipped, so the activation frame slot stays at 0. Companion to the srvdofunc=8 patch at RVA 36FBCE.",
+            "Category": "Alteration",
+            "Addresses": [
+                "19EEBA"
+            ],
+            "Length": 4,
+            "Type": "Hex",
+            "Values": "4531E490",
+            "OriginalValues": "448965EB",
+            "ModdedValues": "4531E490"
+        },
+        {
             "Name": "SrvHit52 replace with enemy debuff clone of SrvHit18",
             "Description": "Replaces psrvhitfunc=52 with a clone of srvhitfunc18 targeting enemies, applying warcry stats as debuffs",
             "Category": "Alteration",
@@ -1582,6 +1595,102 @@
             "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
             "ModdedValues": "4585FF740C44397A18750B44396A1C7505E90379E3FEE90679E3FE",
             "Values": "4585FF740C44397A18750B44396A1C7505E90379E3FEE90679E3FE"
+        },
+        {
+            "Name": "Hook stat() resolver for playermode (stat 410)",
+            "Description": "Replace 9-byte entry prologue (test r9,r9; jz +0xAA) of sub_1401F9760 -- formula stat() field resolver dispatched from AST operand table off_141800280[5] -- with E9 jmp to cave at 0x149BDF7 + 4 NOPs. Cave intercepts statId==410 (playermode) and returns [pUnit+0xC] (player anim mode 0-19) directly. All other statIds pass through unmodified. Hook fires before field-code dispatch, so it works regardless of which field the formula uses (.base / .accr / etc).",
+            "Address": "1F9760",
+            "Type": "Hex",
+            "Length": 9,
+            "OriginalValues": "4D85C90F84AA000000",
+            "ModdedValues": "E992262A0190909090",
+            "Values": "E992262A0190909090"
+        },
+        {
+            "Name": "Playermode stat() reader cave",
+            "Description": "Cave for sub_1401F9760 hook. Signature: (ecx=statId, edx=field, r8=?, r9=&state). State pack offset 0 = pUnit. Layout: (0x00) cmp ecx,0x19A / jne pass_through / test r9,r9 / jz pass_through / mov rax,[r9] / test rax,rax / jz pass_through / mov eax,[rax+0xC] / ret -- returns mode in eax. (0x19) pass_through: replays stolen test r9,r9 / jnz resume / xor eax,eax / ret. (0x21) resume: jmp 0x1401F9769 (back to original function body after stolen 9 bytes). 38 bytes total.",
+            "Address": "149BDF7",
+            "Type": "Hex",
+            "Length": 38,
+            "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "81F99A01000075114D85C9740C498B014885C074048B400CC34D85C9750333C0C3E94CD9D5FE",
+            "Values": "81F99A01000075114D85C9740C498B014885C074048B400CC34D85C9750333C0C3E94CD9D5FE"
+        },
+        {
+            "Name": "LF psrvhitfunc=20 caster-priority hook",
+            "Description": "Hook in sub_1403D0C10 at RVA 0x3D0ED1 (the `call sub_140294020` instruction). Replaces the 5-byte E8 call with E9 jmp to cave at 0x149BE20.",
+            "Address": "3D0ED1",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E84A31ECFF",
+            "ModdedValues": "E94AAF0C01",
+            "Values": "E94AAF0C01"
+        },
+        {
+            "Name": "LF psrvhitfunc=20 caster-priority cave",
+            "Description": "Server-side caster-priority cave at 0x149BE20. 133 bytes. Same logic as before but with 8-byte alignment padding after the 7 register pushes — the 7 pushes (0x38 = 56 bytes) misalign rsp from 16-aligned to 8-aligned, which caused movdqa stores inside the downstream missile allocator (sub_140208670) to fault with #GP (reported as access violation reading 0xFFFFFFFFFFFFFFFF). Adds `sub rsp, 8` after the 7 pushes and `add rsp, 8` before the 7 pops. Stack offsets bumped by 8: pushed-rcx read at [rsp+0x58] (was 0x50), &orig_args lea at [rsp+0xD8] (was 0xD0), caster load at [rsp+0xC0] (was 0xB8).",
+            "Address": "149BE20",
+            "Length": 133,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "83BC249000000001757141F7477000000040746751524150415141524153504883EC084883EC20488B442458488904244831C048894424084889442410488D8424D80000004889442418488D0C24488B9424C00000004883EC20E8914CF3FE4883C4204883C4204883C40858415B415A415941585A59E93B50F3FEE88081DFFEE93150F3FE",
+            "Values": "83BC249000000001757141F7477000000040746751524150415141524153504883EC084883EC20488B442458488904244831C048894424084889442410488D8424D80000004889442418488D0C24488B9424C00000004883EC20E8914CF3FE4883C4204883C4204883C40858415B415A415941585A59E93B50F3FEE88081DFFEE93150F3FE"
+        },
+        {
+            "Name": "LF pclthitfunc=25 caster-priority hook",
+            "Description": "Hook in sub_1400F5300 at RVA 0xF55B1 (the `call sub_140171BA0` instruction). Replaces with E9 jmp to cave at 0x149BEB0 (moved from 0x149BEA0 to clear the server cave's expanded tail).",
+            "Address": "F55B1",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E8EAC50700",
+            "ModdedValues": "E9FA683A01",
+            "Values": "E9FA683A01"
+        },
+        {
+            "Name": "LF pclthitfunc=25 caster-priority cave",
+            "Description": "Client-side caster-priority cave at 0x149BEB0. 92 bytes. Same logic as before; address moved from 0x149BEA0 because server cave grew to 133 bytes (ends at 0x149BEA5). No alignment fix needed on client side: sub rsp 0x30 preserves 16-byte alignment.",
+            "Address": "149BEB0",
+            "Length": 92,
+            "Type": "Hex",
+            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "ModdedValues": "837C246801754B41F747700000004074414883EC30488B8424F000000048894424204831C04889442428488D8424800000004889442430488D4C2420488B9424F0000000E80793C5FE4883C430E9B496C5FEE8995CCDFEE9AA96C5FE",
+            "Values": "837C246801754B41F747700000004074414883EC30488B8424F000000048894424204831C04889442428488D8424800000004889442430488D4C2420488B9424F0000000E80793C5FE4883C430E9B496C5FEE8995CCDFEE9AA96C5FE"
+        },
+        {
+            "Name": "Frozen Orb srvhitfunc=29 fire-on-wall (pUnit-aware frame check)",
+            "Description": "In MISSMODE_SrvHit29_FrozenOrb at sub_1403D1D70, replaces the `cmp dword [rdi], 3 / jnz +0x2D` at RVA 0x3D1DCC with `test r8, r8 / jz +0x2D`. This preserves the original control-flow target (0x3D1DFE which skips the frame check and proceeds to radial spawn). Effect: when called with pUnit=NULL (wall collision or range expire), skips the frame check and spawns the radial. When called with pUnit=valid (enemy collision), runs the original frame check which returns 2 if frame>0 (no spawn on mid-flight enemy hit). The original `cmp [rdi], 3` (is-pMissile-of-type-3-MISSILE) check is sacrificed; in practice pMissile is always a missile when this srvhit is called. The mov [rdi+10h]; test rax; jz that follows remains and serves as a secondary null guard before the frame load. Edge case: enemy collision with pMissile->pSubMissile==NULL will fall through to radial spawn, but this should never happen for a valid missile in flight.",
+            "Address": "3D1DCC",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "833F03752D",
+            "ModdedValues": "4D85C0742D",
+            "Values": "4D85C0742D"
+        },
+        {
+            "Name": "Elemental damage to attacks on missiles - Hook",
+            "Description": "In MISSILES_CreateMissileFromParams (sub_1403151A0), the missile stat snapshot omits passive_fire_mastery (329), passive_ltng_mastery (330), passive_cold_mastery (331), passive_pois_mastery (332). sub_1403C5B80 reads these (lenStat arg) to scale elemental-to-attacks damage by (1+mastery/100); by engine design they only apply to melee. Hook at RVA 315B3E (right after the sub_14024E5B0 snapshot call) jumps to cave at 149BF0C, which copies stats 329-332 from owner to missile ONLY when the missile's missiles.txt ApplyMastery flag is set (default off, prevents double-counting on emin/emax spell missiles whose mastery is already baked in upstream by sub_14024D580). Steals 7 bytes (mov rdx,[r14+8]; mov rcx,rsi). Owner read from [r14+8] (stable); rsi=missile; r13=missile record ptr (set at function entry, non-volatile).",
+            "Category": "Alteration",
+            "Addresses": [
+                "315B3E"
+            ],
+            "Length": 7,
+            "Type": "Hex",
+            "OriginalValues": "498B5608488BCE",
+            "ModdedValues": "E9C96318019090",
+            "Values": "E9C96318019090"
+        },
+        {
+            "Name": "Elemental damage to attacks on missiles - Cave",
+            "Description": "Cave at 149BF0C (236 bytes). Paired with hook at 315B3E. Prologue: push rbx/rdi/rbp; sub rsp,0x28 (16-byte aligned, 0x20 shadow). ApplyMastery GATE: test byte [r13+0x25],1; jz end. r13 holds the missile record pointer (computed at sub_1403151A0 entry as id*0x1C0 + xmmword_141C9FA40, non-volatile, still valid here - verified via CE probe: r13 == recomputed record every time). ApplyMastery is missiles.txt flag-group-29 bit 8, which lands at record byte 0x25 bit 0 (confirmed empirically: ApplyMastery=1 missiles show [+0x25]&1==1, ApplyMastery=0 show [+0x25]&1==0). If clear -> skip copy (prevents double-counting masteries on emin/emax spell missiles). If set: rbx=[r14+8] (owner); if null jmp end; rbx=[rbx+0x88] (owner statlist, disp32); if null jmp end; rdi=[rsi+0x88] (missile statlist, disp32, no guard - just written by the returned snapshot); rbp=[xmmword_141C9FB70+8] (stat descriptor table base). For each statId in {329,330,331,332}: lea r8,[rbp+statId*324]; edx=statId<<16; rcx=rbx; call sub_1401E2E70 (read owner mastery%); xor r9d,r9d; r8d=eax; edx=statId; rcx=rdi; call sub_1401E5270 (write to missile). Epilogue: add rsp,0x28; pop rbp/rdi/rbx; stolen mov rdx,[r14+8]; mov rcx,rsi; jmp back to 315B45. Statlist offset 0x88 uses disp32 (0x88>127 cannot be signed disp8).",
+            "Category": "Alteration",
+            "Addresses": [
+                "149BF0C"
+            ],
+            "Length": 236,
+            "Type": "Hex",
+            "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "5357554883EC2841F64525010F84C7000000498B5E084885DB0F84BA000000488B9B880000004885DB0F84AA000000488BBE88000000488B2D2F3C80004C8D8564A00100BA00004901488BCBE8136FD4FE4531C94189C0BA49010000488BCFE80093D4FE4C8D85A8A10100BA00004A01488BCBE8EC6ED4FE4531C94189C0BA4A010000488BCFE8D992D4FE4C8D85ECA20100BA00004B01488BCBE8C56ED4FE4531C94189C0BA4B010000488BCFE8B292D4FE4C8D8530A40100BA00004C01488BCBE89E6ED4FE4531C94189C0BA4C010000488BCFE88B92D4FE4883C4285D5F5B498B5608488BCEE94D9BE7FE",
+            "Values": "5357554883EC2841F64525010F84C7000000498B5E084885DB0F84BA000000488B9B880000004885DB0F84AA000000488BBE88000000488B2D2F3C80004C8D8564A00100BA00004901488BCBE8136FD4FE4531C94189C0BA49010000488BCFE80093D4FE4C8D85A8A10100BA00004A01488BCBE8EC6ED4FE4531C94189C0BA4A010000488BCFE8D992D4FE4C8D85ECA20100BA00004B01488BCBE8C56ED4FE4531C94189C0BA4B010000488BCFE8B292D4FE4C8D8530A40100BA00004C01488BCBE89E6ED4FE4531C94189C0BA4C010000488BCFE88B92D4FE4883C4285D5F5B498B5608488BCEE94D9BE7FE"
         }
     ]
 }

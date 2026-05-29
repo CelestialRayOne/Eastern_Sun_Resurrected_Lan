@@ -473,3 +473,4 @@ dmg-max-total%	1	1	item_mindamage_percent2
 total-physical-damage%	1	1	item_mindamage_percent2			3	item_maxdamage_percent2																											
 total-attack-rate	1	1	totalattackrate																															
 total-attack-speed	1	1	totalattackspeed																															
+total-ac%	1	1	armor_override_percent																															
