@@ -74,7 +74,7 @@ firemastery	71																																																																		
 lightningmastery	72																																																																						0
 coldmastery	73																																																																						0
 swordmastery	74																																																																						0
-unicha6	75																																																																						0
+generalhelmstate	75																																																																						0
 lightningpierceaura	76					1																																					aura_resistcold					cast_resistlight														paladin_aura_resistlightning									0
 generalmythicaljewelrystate	77																																																																						0
 throwingmastery	78																																																																						0
@@ -102,7 +102,7 @@ redeemed	99																												1	1	1			1																	10			redemption
 healthpot	100																																																																						0
 holyshield	101				1																																													skill_armor_percent				Holy Shield																	0
 just_portaled	102																																																																						0
-unicha7	103																																																																						0
+generalbodyarmorstate	103																																																																						0
 corpse_nodraw	104																												1	1	1			1																																					0
 alignment	105																											1	1	1																																									0
 manapot	106																																																																						0
@@ -175,7 +175,7 @@ restinpeace	172																												1	1				1								1									17		redempt
 corpseexp	173																												1	1	1			1								1									18		corpseexplosion									necromancer_corpseexp_1									0
 whirlwind	174																																										whirlwind																												0
 fullsetgeneric	175																																										aura_fanatic																												0
-unicha13	176																																																																						0
+righteousfire	176					1																																					aura_holyfire_front	aura_holyfire_back																		paladin_aura_holyfire									0
 delerium	177																																																																						0
 antidote	178																		1																																																				0
 thawing	179																1																																																						0

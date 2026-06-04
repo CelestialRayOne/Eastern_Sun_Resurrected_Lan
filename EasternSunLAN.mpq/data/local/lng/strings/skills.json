@@ -23493,5 +23493,39 @@
     "ptBR": "Dano Frio Médio: %d-%d",
     "ruRU": "Средний холодный урон: %d-%d",
     "zhCN": "平均冰冷伤害: %d-%d"
+  },
+  {
+    "id": 50497,
+    "Key": "righteousfire1",
+    "enUS": "Righteous Fire",
+    "zhTW": "平均冰冷傷害: %d-%d",
+    "deDE": "Durchschnittlicher Kälteschaden: %d-%d",
+    "esES": "Daño Frío Promedio: %d-%d",
+    "frFR": "Dégâts de froid moyens : %d-%d",
+    "itIT": "Danno Freddo Medio: %d-%d",
+    "koKR": "평균 냉기 피해: %d-%d",
+    "plPL": "Średnie obrażenia od zimna: %d-%d",
+    "esMX": "Daño Frío Promedio: %d-%d",
+    "jaJP": "平均冷気ダメージ: %d-%d",
+    "ptBR": "Dano Frio Médio: %d-%d",
+    "ruRU": "Средний холодный урон: %d-%d",
+    "zhCN": "平均冰冷伤害: %d-%d"
+  },
+  {
+    "id": 50498,
+    "Key": "righteousfire23",
+    "enUS": "When active, aura deals fire damage to nearby enemies\nand drains 90% of maximum health per second as fire damage\nGain 1% bonus damage per 100 maximum health",
+    "zhTW": "平均冰冷傷害: %d-%d",
+    "deDE": "Durchschnittlicher Kälteschaden: %d-%d",
+    "esES": "Daño Frío Promedio: %d-%d",
+    "frFR": "Dégâts de froid moyens : %d-%d",
+    "itIT": "Danno Freddo Medio: %d-%d",
+    "koKR": "평균 냉기 피해: %d-%d",
+    "plPL": "Średnie obrażenia od zimna: %d-%d",
+    "esMX": "Daño Frío Promedio: %d-%d",
+    "jaJP": "平均冷気ダメージ: %d-%d",
+    "ptBR": "Dano Frio Médio: %d-%d",
+    "ruRU": "Средний холодный урон: %d-%d",
+    "zhCN": "平均冰冷伤害: %d-%d"
   }
 ]

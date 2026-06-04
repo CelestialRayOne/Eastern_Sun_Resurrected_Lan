@@ -411,10 +411,10 @@ skillcontrolcounter	408		1	11																																															0
 totalattackspeed	409		1	10																8	100			11			item_fasterattackrate																								0
 playermode	410		1	10																																															0
 skillcontrol6	411		1	10																																															0
-placeholder412	412		1	14																12	0																26	3	2	r58	r58										0
-placeholder413	413		1	14																12	0																25	3	2	r59	r59										0
-placeholder414	414		1	14																12	0																24	3	2	r60	r60										0
-placeholder415	415		1	14																12	0																23	3	2	r61	r61										0
+skillcontrolhelm	412		1	10																																															0
+potionmultiplier	413		1	10																8	100																292	19	2	potioneffectiveness	potioneffectiveness										0
+skillcontrolbodyarmor	412		1	10																																															0
+item_skillongethit_hidden	201		1	10	20						1			2																			damagedinmelee	21	damagedbymissile	21															0
 placeholder416	416		1	14																12	0																22	3	2	r62	r62										0
 placeholder417	417		1	14																12	0																21	3	2	r63	r63										0
 placeholder418	418		1	14																12	0																20	3	2	r64	r64										0

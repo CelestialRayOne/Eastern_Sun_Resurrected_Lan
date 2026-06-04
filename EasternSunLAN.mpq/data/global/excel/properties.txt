@@ -474,3 +474,6 @@ total-physical-damage%	1	1	item_mindamage_percent2			3	item_maxdamage_percent2
 total-attack-rate	1	1	totalattackrate																															
 total-attack-speed	1	1	totalattackspeed																															
 total-ac%	1	1	armor_override_percent																															
+potion-bonus	1	1	potionmultiplier																															
+skill-bonus	1	1	skillmultiplier																															
+gethit-skill-hidden	1	11	item_skillongethit_hidden																											#% Chance to Cast Level # [Skill] when struck	Skill	"% Chance (If 0, then default to 5)"	Skill Level	

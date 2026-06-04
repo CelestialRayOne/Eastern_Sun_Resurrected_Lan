@@ -1734,5 +1734,8 @@
     "hellpendulumfour": "ice_orb",
     "hellpendulumfive": "ice_orb",
     "hellpendulumsix": "ice_orb",
-    "hellpendulumseven": "ice_orb"
+    "hellpendulumseven": "ice_orb",
+    "frozensouldamagebolt": "frost_nova",
+    "hellrustvisual": "expansion_shockwave",
+    "atlastrustboltvis": "icespikesimproved"
 }
