@@ -108,7 +108,7 @@ alignment	105																											1	1	1																																			
 manapot	106																																																																						0
 shatter	107																												1	1	1		1	1																																					0
 poisonmastery	108																																																																						0
-unicha8	109																																																																						0
+generalshieldstate	109																																																																						0
 pregnant	110																																										impregnated									10																			0
 golem_mastery	111			1																																																																			0
 rabies	112																																										rabiesplague																												0
@@ -137,7 +137,7 @@ shrine_skill	134																																										shrine_skill	shrine_sh
 shrine_mana_regen	135																																										shrine_mana_regen	shrine_shimmer01																											0
 shrine_stamina	136																	1																									shrine_stamina	shrine_shimmer01						stamina																					0
 shrine_experience	137																																										shrine_experience	shrine_shimmer00																											0
-unicha9	138																																																																						0
+generalglovesstate	138																																																																						0
 wolf	139	3			1					1	1	1																													1										14											druid_morph	druid_morph	1	430						0
 bear	140	3			1					1	1		1	1																											1										14											druid_morph	druid_morph	1	431						0
 bloodlust	141							1																																			bloodlust_state	bloodlust_state																											0

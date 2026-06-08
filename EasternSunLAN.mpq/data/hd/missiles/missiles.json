@@ -1737,5 +1737,13 @@
     "hellpendulumseven": "ice_orb",
     "frozensouldamagebolt": "frost_nova",
     "hellrustvisual": "expansion_shockwave",
-    "atlastrustboltvis": "icespikesimproved"
+    "atlastrustboltvis": "icespikesimproved",
+    "whirlwindsplashbolt": "firebolt",
+    "izealvisefireconstruct": "bighead_lightning_missile",
+    "izealvisecoldconstruct": "bighead_lightning_missile",
+    "izealviselightningconstruct": "bighead_lightning_missile",
+    "izealvisefirebolt": "firebolt",
+    "izealvisecoldbolt": "ice_bolt",
+    "izealviselightningbolt": "lightning_javelin_notrack",
+    "drainsoulspawner": "teeth_missile_notrack"
 }

@@ -1333,3 +1333,4 @@ of Skill Master	100	1	1	96		60				1	58	oskill	Iron Salvo	10	20									1	blac	ja
 of Skill Master	100	1	1	96		60				1	58	oskill	Ricochet Javelin	10	20									1	blac	jave										0	0	0
 of Skill Master	100	1	1	96		60				1	58	oskill	Reap Thunder	10	20									1	lgld	spea										0	0	0
 of Skill Master	100	1	1	96		60				1	58	oskill	Righteous Fire	10	20									1	dred	tors										0	0	0
+of Skill Master	100	1	1	96		60				1	58	oskill	Drain Soul	10	20									1	whit	wand										0	0	0

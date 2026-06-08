@@ -6273,6 +6273,96 @@
             },
             "enterEvents": [],
             "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "PMODE_SEQUENCE_DRAIN_SOUL",
+            "_name": "SKILL_INFERNO_START",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 69,
+            "modeId": 18,
+            "skillIndex": 1208,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "hth_cast"
+                ],
+                "bow": [
+                    "bow_cast"
+                ],
+                "1hs": [
+                    "1hs_cast"
+                ],
+                "1ht": [
+                    "1ht_cast"
+                ],
+                "stf": [
+                    "stf_cast"
+                ],
+                "2hs": [
+                    "2hs_cast"
+                ],
+                "2ht": [
+                    "2ht_cast"
+                ],
+                "xbw": [
+                    "xbw_cast"
+                ],
+                "1js": [],
+                "1jt": [],
+                "1ss": [],
+                "1st": [],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "PMODE_SEQUENCE_DRAIN_SOUL",
+            "_name": "SKILL_INFERNO_LOOP",
+            "audioId": "",
+            "loopCount": 0,
+            "stateId": 70,
+            "modeId": 18,
+            "skillIndex": 1208,
+            "stepIndex": 1,
+            "animationBindings": {
+                "hth": [
+                    "hth_cast"
+                ],
+                "bow": [
+                    "bow_cast"
+                ],
+                "1hs": [
+                    "1hs_cast"
+                ],
+                "1ht": [
+                    "1ht_cast"
+                ],
+                "stf": [
+                    "stf_cast"
+                ],
+                "2hs": [
+                    "2hs_cast"
+                ],
+                "2ht": [
+                    "2ht_cast"
+                ],
+                "xbw": [
+                    "xbw_cast"
+                ],
+                "1js": [],
+                "1jt": [],
+                "1ss": [],
+                "1st": [],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
         }
     ],
     "transitions": [
