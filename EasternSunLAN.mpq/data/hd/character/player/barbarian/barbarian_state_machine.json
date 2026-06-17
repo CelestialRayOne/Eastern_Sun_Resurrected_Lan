@@ -6484,7 +6484,6 @@
             "enterEvents": [],
             "exitEvents": []
         },
-        
         {
             "type": "AnimationState",
             "name": "AnimationState005",
@@ -6656,7 +6655,6 @@
             "enterEvents": [],
             "exitEvents": []
         },
-        
         {
             "type": "AnimationState",
             "name": "AnimationState018",
@@ -6952,6 +6950,120 @@
                 "1st": [],
                 "ht1": [],
                 "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState005",
+            "_name": "SKILL_LEAP_WINDUP",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 85,
+            "modeId": 18,
+            "skillIndex": 1218,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "hth_leap_windup"
+                ],
+                "bow": [
+                    "bow_leap_windup"
+                ],
+                "1hs": [
+                    "1hs_leap_windup"
+                ],
+                "1ht": [
+                    "1ht_leap_windup"
+                ],
+                "stf": [
+                    "stf_leap_windup"
+                ],
+                "2hs": [
+                    "2hs_leap_windup"
+                ],
+                "2ht": [
+                    "2ht_leap_windup"
+                ],
+                "xbw": [
+                    "xbw_leap_windup"
+                ],
+                "1js": [
+                    "1js_leap_windup"
+                ],
+                "1jt": [
+                    "1jt_leap_windup"
+                ],
+                "1ss": [
+                    "1ss_leap_windup"
+                ],
+                "1st": [
+                    "1st_leap_windup"
+                ],
+                "ht1": [
+                    "hth_leap_windup"
+                ],
+                "ht2": [
+                    "hth_leap_windup"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState006",
+            "_name": "SKILL_LEAP_LAND",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 86,
+            "modeId": 18,
+            "skillIndex": 1218,
+            "stepIndex": 2,
+            "animationBindings": {
+                "hth": [
+                    "hth_leap_land"
+                ],
+                "bow": [
+                    "bow_leap_land"
+                ],
+                "1hs": [
+                    "1hs_leap_land"
+                ],
+                "1ht": [
+                    "1ht_leap_land"
+                ],
+                "stf": [
+                    "stf_leap_land"
+                ],
+                "2hs": [
+                    "2hs_leap_land"
+                ],
+                "2ht": [
+                    "2ht_leap_land"
+                ],
+                "xbw": [
+                    "xbw_leap_land"
+                ],
+                "1js": [
+                    "1js_leap_land"
+                ],
+                "1jt": [
+                    "1jt_leap_land"
+                ],
+                "1ss": [
+                    "1ss_leap_land"
+                ],
+                "1st": [
+                    "1st_leap_land"
+                ],
+                "ht1": [
+                    "hth_leap_rise_fall_land"
+                ],
+                "ht2": [
+                    "hth_leap_rise_fall_land"
+                ]
             },
             "enterEvents": [],
             "exitEvents": []

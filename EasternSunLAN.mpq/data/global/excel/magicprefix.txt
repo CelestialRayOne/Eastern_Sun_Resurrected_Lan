@@ -881,3 +881,12 @@ Maroon	100	1	1	70		65				4	109	stam		121	200									1	dred	jewl												0	0	
 Magical	100	1	1	60		49				8	118	res-mag		4	7									1	cred	amul	circ	ring	armo									0	0	0
 Illustrious	100	1	1	90		65				4	118	res-mag		8	15									1	cred	amul	circ	boot										0	0	0
 Vermillion	100	1		92		65				10	14	dmg-max		36	50									1	dred	jewl												0	0	0
+Puncturing	100	1	1	5	20	1				10	105	dmg-bleed	75	25	50									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	10	30	7				10	105	dmg-bleed	75	51	75									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	15	40	10				10	105	dmg-bleed	75	76	100									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	21	50	15				10	105	dmg-bleed	75	101	125									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	30	60	21				10	105	dmg-bleed	75	126	200									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	40		30				10	105	dmg-bleed	75	201	300									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	64		45				5	105	dmg-bleed	75	301	400									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	96		69				2	105	dmg-bleed	75	401	500									1	blac	weap							staf	wand	orb			0	0	0
+Puncturing	100	1	1	96		69				2	105	dmg-bleed	25	150	200									1	blac	weap							staf	wand	orb			0	0	0

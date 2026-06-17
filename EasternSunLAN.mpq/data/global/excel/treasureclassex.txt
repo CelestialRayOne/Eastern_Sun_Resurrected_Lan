@@ -3591,3 +3591,7 @@ Corrupted Zakarum 44	120	92	-2	820	820	973	1024		Corrupted Zakarum Token 44	1	Co
 Corrupted Zakarum 45	120	96	-2	820	820	973	1024		Corrupted Zakarum Token 45	1	Corrupted Zakarum Base 45	1																						0
 Gem Explosion			10						Perfect Gem	1	Blemished Gem	3	Flawless Gem	5																				0
 Gold Explosion			15						"gld,mul=1024"	1																								0
+Jackpot Explosion			1						Coupon JP (H)	1	Rune JP (H)	1	Charm JP	1																				0
+Laertes Explosion High Life			1						Perfect Gem	1	ppp	1	yyy	1																				0
+Laertes Explosion Low Life			1			1024	1024		weap96	1	armo96	1																						0
+Gold on Striking			1						"gld,mul=64"	1																								0

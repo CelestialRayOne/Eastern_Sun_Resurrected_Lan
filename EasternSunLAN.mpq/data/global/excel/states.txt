@@ -61,7 +61,7 @@ lifetap	58						1	1																																			cursereversevampire					cu
 confuse	59						1	1																			1																curseconfuse					curse_hit														necromancer_confuse									0
 decrepify	60						1	1													1																						cursedecrepify					curse_hit		skill_decrepify												necromancer_decrepify									0
 lowerresist	61						1	1															1	1	1	1																	curselowerresist					curse_hit		lightresist																					0
-unicha5	62																																																																						0
+openwounds	62								1																										1																																	85			0
 killtracker	63					1																																																																	0
 spellmastery	64																																																																						0
 dodge	65																																																																						0
@@ -74,7 +74,7 @@ firemastery	71																																																																		
 lightningmastery	72																																																																						0
 coldmastery	73																																																																						0
 swordmastery	74																																																																						0
-generalhelmstate	75																																																																						0
+generalhelmstate	75																																																																				146		0
 lightningpierceaura	76					1																																					aura_resistcold					cast_resistlight														paladin_aura_resistlightning									0
 generalmythicaljewelrystate	77																																																																						0
 throwingmastery	78																																																																						0
@@ -102,7 +102,7 @@ redeemed	99																												1	1	1			1																	10			redemption
 healthpot	100																																																																						0
 holyshield	101				1																																													skill_armor_percent				Holy Shield																	0
 just_portaled	102																																																																						0
-generalbodyarmorstate	103																																																																						0
+generalbodyarmorstate	103																																																																				146		0
 corpse_nodraw	104																												1	1	1			1																																					0
 alignment	105																											1	1	1																																									0
 manapot	106																																																																						0
@@ -153,7 +153,7 @@ firedamageaura	150					1																																					aura_resistfire				
 cyclonearmor	151																																					1	1				cyclonearmor1front	cyclonearmor2front	cyclonearmor3front						8	5																			0
 clawmastery	152																																																																						0
 cloak_of_shadows	153													1																																					2											assassin_cloakofdarkness									0
-unicha10	154																																																																						0
+generalbootsstate	154																																																																				146		0
 weaponblock	155																																																																						0
 cloaked	156																					1																					cloaked							skill_armor_percent																					0
 quickness	157	2				1																																					quickness							attackrate																					0
@@ -161,7 +161,7 @@ redtertiary	158																																																								70	100	25
 fade	159	2													1	1	1		1																								fade							poisonresist																					0
 summonresist	160																																																																						0
 sway	161																																																																						0
-unicha12	162																																																																						0
+generalbeltstate	162																																																																				146		0
 ledgeraura	163					1																																																																	0
 debugcontrol	164																																																																						0
 itemset1	165																																																																						0

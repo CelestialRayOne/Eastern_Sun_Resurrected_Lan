@@ -1223,7 +1223,7 @@
         },
         {
             "Name": "Charge Missile-on-Hit Hook",
-            "Description": "Hooks SrvDo067_Charge phase-1 hit branch at 386044 (the displaced 5-byte 'mov eax, 1' before 'jmp loc_385C18'). Redirects to cave at 149B589 which: (1) filters pTarget->dwUnitType == 1 (UNIT_MONSTER) at [r12], (2) allocates 0x90 stack frame with D2MissileStrc at [rsp+0x20], (3) zeros struct via rep stosq, (4) calls SKILLS_GetProgressiveSkillMissileId (2C5D50) with rcx=pUnit(rbx), edx=nSkillId([rsp+0xD0]), bails on negative result, (5) reads pTarget->pPath ([r12+0x38]) and pUnit->pPath ([rbx+0x38]) for X(+0x02 word) and Y(+0x06 word) coords, bails if either path is null, (6) computes through-target trajectory: nTargetX = 2*targetX - unitX, nTargetY = 2*targetY - unitY, (7) populates D2MissileStrc fields: dwFlags=0x21(+0x00), pOwner=pUnit(+0x08), nMissile(+0x20), nX=targetX(+0x2C), nY=targetY(+0x30), nTargetX(+0x3C), nTargetY(+0x40), nSkill(+0x68), nSkillLevel(+0x6C), (8) calls MISSILES_CreateMissileFromParams (3151A0) with rcx=pGame(rdi), rdx=&struct, (9) restores stack, sets eax=1, jumps back to 386049. Live regs at hook: rbx=pUnit, r12=pTarget, rdi=pGame; nSkillId at [rsp+0x40], nSkillLevel at [rsp+0x48] (post-cave-adjustment +0xD0/+0xD8). Missile spawned per skills.txt SrvMissile column (charge has no aurastate progression so SrvMissileA is used).",
+            "Description": "Hooks SrvDo067_Charge phase-1 hit branch at 386044 (the displaced 5-byte 'mov eax, 1' before 'jmp loc_385C18'). Redirects to cave at 149B82C which: (1) filters pTarget->dwUnitType == 1 (UNIT_MONSTER) at [r12], (2) allocates 0x90 stack frame with D2MissileStrc at [rsp+0x20], (3) zeros struct via rep stosq, (4) calls SKILLS_GetProgressiveSkillMissileId (2C5D50) with rcx=pUnit(rbx), edx=nSkillId([rsp+0xD0]), bails on negative result, (5) reads pTarget->pPath ([r12+0x38]) and pUnit->pPath ([rbx+0x38]) for X(+0x02 word) and Y(+0x06 word) coords, bails if either path is null, (6) computes through-target trajectory: nTargetX = 2*targetX - unitX, nTargetY = 2*targetY - unitY, (7) populates D2MissileStrc fields: dwFlags=0x21(+0x00), pOwner=pUnit(+0x08), nMissile(+0x20), nX=targetX(+0x2C), nY=targetY(+0x30), nTargetX(+0x3C), nTargetY(+0x40), nSkill(+0x68), nSkillLevel(+0x6C), (8) calls MISSILES_CreateMissileFromParams (3151A0) with rcx=pGame(rdi), rdx=&struct, (9) restores stack, sets eax=1, jumps back to 386049. Live regs at hook: rbx=pUnit, r12=pTarget, rdi=pGame; nSkillId at [rsp+0x40], nSkillLevel at [rsp+0x48] (post-cave-adjustment +0xD0/+0xD8). Missile spawned per skills.txt SrvMissile column (charge has no aurastate progression so SrvMissileA is used).",
             "Address": "386020",
             "Length": 8,
             "Type": "Hex",
@@ -1453,25 +1453,6 @@
         },
         {
             "Name": "Bow/missile damage 32-bit imul overflow fix - hook",
-            "Description": "Hook at RVA 3C65B6. Original 19 bytes: imul ecx,[r14]; imul ecx; sar edx,5; mov eax,edx; shr eax,1Fh; add edx,eax; add [r14],edx. r14 = damage_struct + 0x1C (physical damage component). ecx = damage bonus percent. The 32-bit imul ecx,[r14] overflows for high damage values (e.g. 50M raw * 100% bonus = 5B which exceeds INT32_MAX), wrapping to negative. Replaces with JMP to cave at RVA 149BD96 which performs equivalent math in 64-bit with INT32 saturation. Returns to RVA 3C65C9 (next instruction after original add [r14], edx).",
-            "Address": "3C65B6",
-            "Type": "Hex",
-            "OriginalValues": "410FAF0EF7E9C1FA058BC2C1E81F03D0410116",
-            "ModdedValues": "E9DB570D019090909090909090909090909090",
-            "Values": "E9DB570D019090909090909090909090909090"
-        },
-        {
-            "Name": "Bow/missile damage 32-bit imul overflow fix - cave",
-            "Description": "Cave at RVA 149BD96. 70 bytes. Performs (ecx * *r14) / 100 in 64-bit with INT32 saturation, then adds low 32 bits to *r14. Algorithm: movsxd rcx,ecx; movsxd rax,[r14]; imul rcx,rax (64-bit); rax=100; cqo; idiv rcx; mov rdx,rax; clamp rdx to [INT32_MIN, INT32_MAX]; add [r14],edx. Returns via E9 jmp back to RVA 3C65C9.",
-            "Address": "149BD96",
-            "Length": 70,
-            "Type": "Hex",
-            "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-            "ModdedValues": "4863C9496306480FAFC848B86400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE",
-            "Values": "4863C9496306480FAFC848B86400000000000000489948F7F94889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD0410116E9EDA7F2FE"
-        },
-        {
-            "Name": "Bow/missile damage 32-bit imul overflow fix - hook",
             "Description": "Hook at RVA 3C65B6. Original 19 bytes are: imul ecx,[r14]; imul ecx (with 0x51EB851F); sar edx,5; mov eax,edx; shr eax,1Fh; add edx,eax; add [r14],edx. This computes ecx*(*r14)/100 with rounding then adds to *r14. r14 = damage_struct + 0x1C (physical damage component). ecx = damage bonus percent. The 32-bit imul ecx,[r14] overflows int32 for high damage values (e.g. 50M raw * 100 = 5B exceeds INT32_MAX), wrapping to negative which then gets divided and added, producing negative or wrong damage components. Replaces with JMP to cave at RVA 149BD96 which performs equivalent math in 64-bit with INT32 saturation. Returns to RVA 3C65C9.",
             "Address": "3C65B6",
             "Length": 19,
@@ -1518,23 +1499,23 @@
         },
         {
             "Name": "Skip Exp Loss in Protected Levels - Hook",
-            "Description": "Hooks sub_28D9A0 entry (PLAYER_ApplyDeathPenalty equivalent). Replaces first 9 bytes (push rbp; push rsi; push r12; sub rsp, 30h) with E9 rel32 JMP to cave at 149B5BE + NOPs.",
+            "Description": "Hooks sub_28D9A0 entry. Replaces first 9 bytes (push rbp; push rsi; push r12; sub rsp, 30h) with E9 rel32 JMP to cave at 149B5BC + NOPs.",
             "Address": "28D9A0",
             "Length": 9,
             "Type": "Hex",
             "OriginalValues": "40555641544883EC30",
-            "ModdedValues": "E919DC200190909090",
-            "Values": "E919DC200190909090"
+            "ModdedValues": "E917DC200190909090",
+            "Values": "E917DC200190909090"
         },
         {
             "Name": "Skip Exp Loss in Protected Levels - Cave",
-            "Description": "Cave at 149B5BE. Saves rcx/rdx, calls UNITS_GetRoom on pDefender, walks pRoom+18h->+90h->+1F8h for levelId. Range check 0..255, bitmap lookup (32 bytes for 256 IDs). Protected levels: 141, 146, 149, 154, 159, 162, 175, 180, 181, 184, 190, 197, 198, 199, 202, 203, 206, 211, 213. If protected: pop regs, RET (skip entire death penalty). Else: pop regs, execute stolen prologue (push rbp; push rsi; push r12; sub rsp, 30h), JMP back to 28D9A9.",
-            "Address": "149B5BE",
+            "Description": "Cave at 149B5BC (moved -2 from 149B5BE to clear Multi-Aura cave at 149B651; bitmap now ends exactly at 149B650). Same logic; only the jmp-back rel32 changed (E97823DFFE, returns to 28D9A9).",
+            "Address": "149B5BC",
             "Length": 149,
             "Type": "Hex",
             "OriginalValues": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-            "ModdedValues": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000",
-            "Values": "51524889D1E868DFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97623DFFE000000000000000000000000000000000020248404803041E04C280000000000"
+            "ModdedValues": "51524889D1E86ADFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97823DFFE000000000000000000000000000000000020248404803041E04C280000000000",
+            "Values": "51524889D1E86ADFD6FE4885C00F8453000000488B40184885C00F8446000000488B80900000004885C00F84360000008B80F80100003D000100000F832500000089C1C1E80383E107488D15250000000FB61402B801000000D3E085D00F84030000005A59C35A59555641544883EC30E97823DFFE000000000000000000000000000000000020248404803041E04C280000000000"
         },
         {
             "Name": "Multi-Aura per Item - Case 151 Hook",
@@ -1691,6 +1672,262 @@
             "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "ModdedValues": "5357554883EC2841F64525010F84C7000000498B5E084885DB0F84BA000000488B9B880000004885DB0F84AA000000488BBE88000000488B2D2F3C80004C8D8564A00100BA00004901488BCBE8136FD4FE4531C94189C0BA49010000488BCFE80093D4FE4C8D85A8A10100BA00004A01488BCBE8EC6ED4FE4531C94189C0BA4A010000488BCFE8D992D4FE4C8D85ECA20100BA00004B01488BCBE8C56ED4FE4531C94189C0BA4B010000488BCFE8B292D4FE4C8D8530A40100BA00004C01488BCBE89E6ED4FE4531C94189C0BA4C010000488BCFE88B92D4FE4883C4285D5F5B498B5608488BCEE94D9BE7FE",
             "Values": "5357554883EC2841F64525010F84C7000000498B5E084885DB0F84BA000000488B9B880000004885DB0F84AA000000488BBE88000000488B2D2F3C80004C8D8564A00100BA00004901488BCBE8136FD4FE4531C94189C0BA49010000488BCFE80093D4FE4C8D85A8A10100BA00004A01488BCBE8EC6ED4FE4531C94189C0BA4A010000488BCFE8D992D4FE4C8D85ECA20100BA00004B01488BCBE8C56ED4FE4531C94189C0BA4B010000488BCFE8B292D4FE4C8D8530A40100BA00004C01488BCBE89E6ED4FE4531C94189C0BA4C010000488BCFE88B92D4FE4883C4285D5F5B498B5608488BCEE94D9BE7FE"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Unique Hook",
+            "Description": "Hooks the Unique-quality MF diminishing-returns tail inside sub_1402F8A60 (ItemRatio quality roll) at RVA 2F8C37. Replaces the 5 bytes 'idiv ecx; lea ecx,[rax+64h]' (the end of the dim=250 block: imul eax,edi,0FAh / lea ecx,[rdi+0FAh] / cdq / [idiv ecx / lea ecx,[rax+64h]]) with E9 jmp to fragment chain link A at 1511. The preceding cdq and the following test ecx,ecx are preserved. Chain (A->B->C) re-executes idiv+lea then adds MF/10 (non-saturating 0.1 tail) and rejoins at 2F8C3C. edi=raw MF, ecx=result, eax/edx dead-out.",
+            "Address": "2F8C37",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "F7F98D4864",
+            "ModdedValues": "E9D588D0FF",
+            "Values": "E9D588D0FF"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Unique Frag A",
+            "Description": "Chain link A at 1511 (10 bytes, inter-function CC padding, no xrefs). Re-executes stolen idiv ecx; lea ecx,[rax+64h] producing ecx = 100 + 250*MF/(MF+250), then E9 jmp to link B at 6821.",
+            "Address": "1511",
+            "Length": 10,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "F7F98D4864E906530000",
+            "Values": "F7F98D4864E906530000"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Unique Frag B",
+            "Description": "Chain link B at 6821 (14 bytes). Computes MF/10 without clobbering ecx (result): push rcx; mov eax,edi; cdq; push 0Ah; pop rcx; idiv ecx (eax=MF/10); E9 jmp to link C at 6DB1. edi=raw MF.",
+            "Address": "6821",
+            "Length": 14,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "5189F8996A0A59F7F9E982050000",
+            "Values": "5189F8996A0A59F7F9E982050000"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Unique Frag C",
+            "Description": "Chain link C at 6DB1 (8 bytes). pop rcx (restore result); add ecx,eax (ecx += MF/10); E9 jmp back to 2F8C3C (original test ecx,ecx). Final ecx = 100 + 250*MF/(MF+250) + MF/10.",
+            "Address": "6DB1",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCC",
+            "ModdedValues": "5901C1E9831E2F00",
+            "Values": "5901C1E9831E2F00"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Set Hook",
+            "Description": "Hooks the Set-quality MF diminishing-returns tail inside sub_1402F8A60 at RVA 2F8D0B (dim=500 block, imul eax,edi,1F4h). Replaces 'idiv ecx; lea ecx,[rax+64h]' with E9 jmp to chain link A at 7961. Rejoins at 2F8D10.",
+            "Address": "2F8D0B",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "F7F98D4864",
+            "ModdedValues": "E951ECD0FF",
+            "Values": "E951ECD0FF"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Set Frag A",
+            "Description": "Chain link A at 7961 (10 bytes). Re-executes idiv ecx; lea ecx,[rax+64h] producing ecx = 100 + 500*MF/(MF+500); E9 jmp to link B at 20191.",
+            "Address": "7961",
+            "Length": 10,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "F7F98D4864E926880100",
+            "Values": "F7F98D4864E926880100"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Set Frag B",
+            "Description": "Chain link B at 20191 (14 bytes). push rcx; mov eax,edi; cdq; push 0Ah; pop rcx; idiv ecx (eax=MF/10); E9 jmp to link C at 208A1.",
+            "Address": "20191",
+            "Length": 14,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "5189F8996A0A59F7F9E902070000",
+            "Values": "5189F8996A0A59F7F9E902070000"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Set Frag C",
+            "Description": "Chain link C at 208A1 (8 bytes). pop rcx; add ecx,eax; E9 jmp back to 2F8D10. Final ecx = 100 + 500*MF/(MF+500) + MF/10.",
+            "Address": "208A1",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCC",
+            "ModdedValues": "5901C1E967842D00",
+            "Values": "5901C1E967842D00"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Rare Hook",
+            "Description": "Hooks the Rare-quality MF diminishing-returns tail inside sub_1402F8A60 at RVA 2F8DC1 (dim=600 block, imul eax,edi,258h). Replaces 'idiv ecx; lea ecx,[rax+64h]' with E9 jmp to chain link A at 36FE1. Rejoins at 2F8DC6.",
+            "Address": "2F8DC1",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "F7F98D4864",
+            "ModdedValues": "E91BE2D3FF",
+            "Values": "E91BE2D3FF"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Rare Frag A",
+            "Description": "Chain link A at 36FE1 (10 bytes). Re-executes idiv ecx; lea ecx,[rax+64h] producing ecx = 100 + 600*MF/(MF+600); E9 jmp to link B at 37011.",
+            "Address": "36FE1",
+            "Length": 10,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "F7F98D4864E926000000",
+            "Values": "F7F98D4864E926000000"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Rare Frag B",
+            "Description": "Chain link B at 37011 (14 bytes). push rcx; mov eax,edi; cdq; push 0Ah; pop rcx; idiv ecx (eax=MF/10); E9 jmp to link C at 379D1.",
+            "Address": "37011",
+            "Length": 14,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "ModdedValues": "5189F8996A0A59F7F9E9B2090000",
+            "Values": "5189F8996A0A59F7F9E9B2090000"
+        },
+        {
+            "Name": "MF Soft-Tail (0.1) - Rare Frag C",
+            "Description": "Chain link C at 379D1 (8 bytes). pop rcx; add ecx,eax; E9 jmp back to 2F8DC6. Final ecx = 100 + 600*MF/(MF+600) + MF/10.",
+            "Address": "379D1",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "CCCCCCCCCCCCCCCC",
+            "ModdedValues": "5901C1E9ED132C00",
+            "Values": "5901C1E9ED132C00"
+        },
+        {
+            "Name": "Armageddon-as-aura jumpstart - Hook (srvdofunc 124 entry)",
+            "Description": "Hooks SKILLS_SrvDo124_Armageddon (sub_140363780) at entry. Replaces the first instruction (mov [rsp+8],rbx, 5 bytes) with E9 jmp to cave at 386C60 (former srvdofunc=143 ApplyRoyalStrikeLvl2 body, freed by removing all txt refs). The cave makes 124's internal pUsedSkill==nSkillId gate passable on the item-aura path: when the unit has the skill but isn't actively casting it (pUsedSkill null or mismatched), it fetches the skill via sub_140218CE0, transiently installs it as pUsedSkill, runs 124 (which now bootstraps the aurastate + schedules the ACTIVESTATE periodic event properly), then restores the prior pUsedSkill. Real casts of any other 124 skill pass the gate naturally and run stock (untouched). Fixes both death-persistence (item_aura PERIODICSTATS re-fires 124 on respawn, re-bootstrapping the torn-down state) and the owner-context problem (146 ticks now run with a valid pSkill). Drop the prop-applied aurastate; keep the oskill (it satisfies sub_140218CE0).",
+            "Address": "363780",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "48895C2408",
+            "ModdedValues": "E9DB340200",
+            "Values": "E9DB340200"
+        },
+        {
+            "Name": "Armageddon-as-aura jumpstart - Cave",
+            "Description": "Cave at 386C60 (191 bytes; former srvdofunc=143 body). Paired with hook at 363780. Read pSkills=[pUnit+0x100]; null->.stock. pUsedSkill=[pSkills+0x18]; if *(*pUsedSkill)==nSkillId ->.stock (real cast, untouched). .intervene: push rsi/r12-r15; rsi=pUnit r12=pGame r13d=nSkillId r14d=level; call sub_140218CE0(pUnit,nSkillId); null->.pop_stock; else save old pUsedSkill in r15, install fetched skill at [pSkills+0x18], call 124 via trampoline (rcx=pGame rdx=pUnit r8d=nSkillId r9d=level), then 'and byte [rsi+0x124],0xBF' to CLEAR the seq-suppress flag (bit0x40) that 124 set at 0x363828 - aura-context only, so the player's active sequence (leap/whirlwind/etc.) is not stalled by the periodic aura tick; real casts via .stock keep the flag. restore [pSkills+0x18]=r15, pop, ret. Trampoline=replayed 'mov [rsp+8],rbx'+jmp 363785. .stock @386D0B and trampoline @386D15 both replay+jmp; .pop_stock @386D02 pops then falls into .stock. Fixes leap/WW freeze from item-aura armageddon.",
+            "Address": "386C60",
+            "Length": 191,
+            "Type": "Hex",
+            "OriginalValues": "48895C241048897424185557415441564157488D6C24C94881ECB00000004963F0458BE1488BDA4C8BF94585C00F88B7040000483B353E8E9101488BC60F83A70400004869C0840200004803051F8E91010F84930400008BD6488BCBE84FD7FCFF448BF085C00F8E7E040000488BD3498BCFE879F0F3FF488BCBE8F115E8FF33FF4885C0746848395870448BC74C0F4540704D85C07457418B088BD183EA02742283EA02741D83FA017418498B50384885D27407440FB74202EB10448BC748",
+            "ModdedValues": "488B82000100004885C00F849B0000004C8B50184D85D20F84100000004D8B1A410FBF034439C00F847E0000005641544155415641574889D64989CC4589C54589CE4889F14489EA4883EC20E82F20E9FF4883C4204885C00F8444000000488B8E000100004C8B7918488941184C89E14889F24589E84589F14883EC20E8330000004883C42080A624010000BF488B8E000100004C897918415F415E415D415C5EC3415F415E415D415C5E48895C2408E970CAFDFF48895C2408E966CAFDFF",
+            "Values": "488B82000100004885C00F849B0000004C8B50184D85D20F84100000004D8B1A410FBF034439C00F847E0000005641544155415641574889D64989CC4589C54589CE4889F14489EA4883EC20E82F20E9FF4883C4204885C00F8444000000488B8E000100004C8B7918488941184C89E14889F24589E84589F14883EC20E8330000004883C42080A624010000BF488B8E000100004C897918415F415E415D415C5EC3415F415E415D415C5E48895C2408E970CAFDFF48895C2408E966CAFDFF"
+        },
+        {
+            "Name": "Bleed tooltip composition - Accumulator Hook",
+            "Description": "Hooks flag-epilogue of sub_1401C6BB0 at 1C709E, replacing 'cmp dword [rbx],0 / jle 1C70B0' with E9 jmp to relocated cave at 386D20. Reads stats 435/436/437 into accumulator slots and replays the stolen compare.",
+            "Address": "1C709E",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "833B007E0D",
+            "ModdedValues": "E97DFC1B00",
+            "Values": "E97DFC1B00"
+        },
+        {
+            "Name": "Bleed tooltip composition - Accumulator Cave",
+            "Description": "Cave at 386D20 (169 bytes, relocated to lead the freed body, ahead of the composer and bleed caves). Guards rdi!=0 and stat-count>=0x1B6. For statId in {435,436,437}: rcx=rdi, edx=statId<<16, r8=[141C9FB78]+324*statId, call sub_1401E2E00; stores acc[+0x8C]=bleedmindam, [+0x98]=bleedmaxdam, [+0x9C]=bleedlength. Sets acc[+0xA4]=1 if min>0 && max>0. Replays stolen cmp, jle 1C70B0 else jmp 1C70A3.",
+            "Address": "386D20",
+            "Length": 169,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7EBC1FA058BDAC1EB1F03DA410FAFD8EB6E83C6648BDF448BC64181F8000001007E47418BC083E0F03D400600007D234863C34963C8480FAFC8498BC448F7E94803D148C1FA06488BDA48C1EB3F4803DAEB2DB81F85EB5141F7E8C1FA058BC2C1E81F03D00FAFDAEB16440FAFC3B81F85EB5141F7E8C1FA058BDAC1EB1F03DA4D8BA6880000004D85E474244983FF34761E4D8D85D04100004D85C07412BA0000340049",
+            "ModdedValues": "4885FF0F8492000000488B05508E9101483DB60100000F827F0000004889F9BA0000B3014C8B052D8E91014981C08C260200E8A9C0E5FF89838C0000004889F9BA0000B4014C8B050C8E91014981C0D0270200E888C0E5FF8983980000004889F9BA0000B5014C8B05EB8D91014981C014290200E867C0E5FF89839C00000083BB8C000000007E1383BB98000000007E0AC783A400000001000000833B000F8EEC02E4FFE9DA02E4FF",
+            "Values": "4885FF0F8492000000488B05508E9101483DB60100000F827F0000004889F9BA0000B3014C8B052D8E91014981C08C260200E8A9C0E5FF89838C0000004889F9BA0000B4014C8B050C8E91014981C0D0270200E888C0E5FF8983980000004889F9BA0000B5014C8B05EB8D91014981C014290200E867C0E5FF89839C00000083BB8C000000007E1383BB98000000007E0AC783A400000001000000833B000F8EEC02E4FFE9DA02E4FF"
+        },
+        {
+            "Name": "Bleed tooltip composition - Composer Hook",
+            "Description": "Hooks sub_1401C81A0 switch-bounds at 1C81E9, replacing 'ja def_1C8591' with E9 jmp to relocated cave at 386DC9 + NOP.",
+            "Address": "1C81E9",
+            "Length": 6,
+            "Type": "Hex",
+            "OriginalValues": "0F87A2030000",
+            "ModdedValues": "E9DBEB1B0090",
+            "Values": "E9DBEB1B0090"
+        },
+        {
+            "Name": "Bleed tooltip composition - Composer Cave",
+            "Description": "Cave at 386DC9 (186 bytes incl. key string 'strModBleedDamageRange' at +163; relocated to sit after the accumulator and before the bleed cave). edi-17<=0x2A -> jmp 1C81EF (vanilla switch). edi==0x1A3/0x1A4 (436/437) -> return acc[+0xA4] flag (consumed). edi==0x1A2 (435): if flag==0 jmp 1C8591; else r15d=min, edi=max, ebx=length/25 sec, builds {keyptr,22} struct, call sub_140413960, then min/max/sec -> sub_140588DD0, jmp 1C84FC. Format arg order: min,max,seconds.",
+            "Address": "386DC9",
+            "Length": 186,
+            "Type": "Hex",
+            "OriginalValues": "B81F85EB51F7E9C1FA058BC2C1E81F03D00FAFD3B81F85EB51F7EBC1FA058BC2C1E81F03D00FAFD18BC399F7F98D04888D04808BC8...",
+            "ModdedValues": "83FF2A0F861D14E4FF81FFA20100000F842800000081FFA30100000F841100000081FFA40100000F8405000000E99617E4FF8B83A4000000E98E17E4FF83BBA4000000000F847E17E4FF448BBB8C0000008BBB980000008B839C00000099B919000000F7F989C3488D053500000048C7442458160000004889442450488D4C2450E811CB08004589F9895C24284989C0897C2420488D4C2460E8691F2000E99016E4FF7374724D6F64426C65656444616D61676552616E676500",
+            "Values": "83FF2A0F861D14E4FF81FFA20100000F842800000081FFA30100000F841100000081FFA40100000F8405000000E99617E4FF8B83A4000000E98E17E4FF83BBA4000000000F847E17E4FF448BBB8C0000008BBB980000008B839C00000099B919000000F7F989C3488D053500000048C7442458160000004889442450488D4C2450E811CB08004589F9895C24284989C0897C2420488D4C2460E8691F2000E99016E4FF7374724D6F64426C65656444616D61676552616E676500"
+        },
+        {
+            "Name": "Bleed system - Hook",
+            "Description": "In sub_140325AF0. Hooks at 326772, steals 8 bytes (mov edx,[r13+0x38]; add edx,[r13+0x30]). Jumps to relocated cave at 386E83 (now last in the freed body). r12=attacker, r13=damage_struct, r14=target.",
+            "Category": "Alteration",
+            "Addresses": [
+                "326772"
+            ],
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "418B553841035530",
+            "ModdedValues": "E90C070600909090",
+            "Values": "E90C070600909090"
+        },
+        {
+            "Name": "Bleed system - Cave",
+            "Description": "Cave at 386E83 (487 bytes, relocated to the tail of the freed srvdofunc=143 body with 254 bytes headroom). Paired with hook at 326772. Reads post-resist physical [r13+0x1C] (256ths; skip<=0). Reads attacker 435 bleedmindam / 436 bleedmaxdam / 437 bleedlength via sub_1401E2E70 (SUMMED across sources). Roll in [Sigma_min,Sigma_max] via attacker LCG (xor edx BEFORE inc ecx so jg tests range correctly). LENGTH AVERAGING (Option 1, poison-style): walks attacker statlist sublist chain [r12+0x88]->[+0x68]->[+0x48], calls GetStatValue(node,437<<16,NULL) per sublist, counts N sources with bleedlength>0 (N stored [rsp+0x60], clamped >=1); avg_length = Sigma_length / N; overwrites [rsp+0x5C] so both per_frame denom and duration use avg. per_frame = phys*roll/(100*avg); skip if avg<=0 or per_frame<=0. int32-saturated. ApplyState struct [rsp+0x20]: attacker,target,layer.lo=0,layer.hi=per_frame,duration=avg_length,stat=74,value=-per_frame,state=62,callback=0; sub_140295240. Highest-per-frame-wins refresh; stacks with poison. Epilogue restores 9 regs, replays stolen mov/add, jmp 32677A.",
+            "Category": "Alteration",
+            "Addresses": [
+                "386E83"
+            ],
+            "Length": 487,
+            "Type": "Hex",
+            "OriginalValues": "00",
+            "ModdedValues": "505152415041514152415353554883EC68418B451C85C00F8EAC010000894424504D85E40F849F010000498B9C24880000004885DB0F848E010000488B2DB38C9101488BCBBA0000B3014C8D858C260200E897BFE5FF85C00F8E6B01000089442454488BCBBA0000B4014C8D85D0270200E877BFE5FF89442458488BCBBA0000B5014C8D8514290200E85FBFE5FF85C00F8E330100008944245CC744246000000000498B8424880000004885C00F8431000000488B40684885C00F84240000004889C34531C0BA0000B501488BCBE81ABFE5FF85C07E04FF442460488B4348E9D3FFFFFF8B4C246085C97F05B9010000008B44245C99F7F98944245C85C00F8EC5000000418B44242869C0C590C66A410344242C41894424288B4C24582B4C245431D2FFC17F068B442454EB06F7F18B44245401D04863C848635C2450480FAFCB8B44245C6BC0644C63C04889C8489949F7F84889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD085D20F8E490000004C896424204C89742428C744243000000000895424348B44245C89442438C744243C4A00000089D0F7D889442440C74424443E00000048C744244800000000488D4C2420E8F4E1F0FF4883C4685D5B415B415A415941585A5958418B553841035530E910F7F9FF",
+            "Values": "505152415041514152415353554883EC68418B451C85C00F8EAC010000894424504D85E40F849F010000498B9C24880000004885DB0F848E010000488B2DB38C9101488BCBBA0000B3014C8D858C260200E897BFE5FF85C00F8E6B01000089442454488BCBBA0000B4014C8D85D0270200E877BFE5FF89442458488BCBBA0000B5014C8D8514290200E85FBFE5FF85C00F8E330100008944245CC744246000000000498B8424880000004885C00F8431000000488B40684885C00F84240000004889C34531C0BA0000B501488BCBE81ABFE5FF85C07E04FF442460488B4348E9D3FFFFFF8B4C246085C97F05B9010000008B44245C99F7F98944245C85C00F8EC5000000418B44242869C0C590C66A410344242C41894424288B4C24582B4C245431D2FFC17F068B442454EB06F7F18B44245401D04863C848635C2450480FAFCB8B44245C6BC0644C63C04889C8489949F7F84889C248B8FFFFFF7F000000004839C2480F4FD048B800000080FFFFFFFF4839C2480F4CD085D20F8E490000004C896424204C89742428C744243000000000895424348B44245C89442438C744243C4A00000089D0F7D889442440C74424443E00000048C744244800000000488D4C2420E8F4E1F0FF4883C4685D5B415B415A415941585A5958418B553841035530E910F7F9FF"
+        },
+        {
+            "Name": "Suppress aurastat self-application in srvdofunc=124",
+            "Description": "NOPs the call to SKILLS_ApplyAuraStats (sub_140361160) at RVA 363A17 inside SKILLS_SrvDo124_Armageddon (sub_140363780). This is the single call site that writes the skill's 6 aurastat/aurastatcalc pairs (skill record +116 stat ids / +136 calcs) onto the unit the aura is currently applied to (a2), via STATLIST_SetStat (sub_1401E5270) per stat. On the item_aura+oskill delivery path (with the Armageddon-as-aura jumpstart bootstrap at 363780->386C60), a2 resolves to the wearer, so these 6 stats were landing on the player as an unwanted self-buff. The aurastats on this skill are a debuff payload intended ONLY for enemies struck by the skill's psrvhitfunc=21 missile, which applies them through a SEPARATE call to sub_140361160 at RVA 3D1078 inside sub_1403D0EF0 (untouched by this patch) reading auratargetstate (+162). Removing the 363A17 call eliminates the self/ally aurastat write while leaving fully intact: (1) the aurastate registration at 363905-3639C6 (the state bitmap writes that drive periodic emanation and missile generation - the aurastate, NOT the aurastats, is what generates the missiles), (2) the ACTIVESTATE periodic event scheduling, (3) the Armageddon bootstrap, (4) the stat 350/351 skill-id/level bookkeeping written separately at 363A2A/363A3D. sub_140361160 returns void and nothing after the call consumes any register it sets; the two preceding arg-setup movs (mov rdx,rsi at 363A14; mov rcx,rbx at 363A11) become dead but harmless. Original instruction: E8 44 D7 FF FF = call sub_140361160 (disp32 0xFFFFD744, 363A1C - 0x28BC = 361160). SCOPE: this patches the call SITE inside srvdofunc=124, not the shared callee sub_140361160, so srvstfunc=28 (own call at 363BD6) and psrvhitfunc=21 (own call at 3D1078) are unaffected. However sub_140363780 is the shared BasicAura per-tick applier for ALL skills routed through srvdofunc=124, so this removes aurastat application for every such aura - confirmed acceptable as this mod uses no aurastats through the 124 path.",
+            "Address": "363A17",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E844D7FFFF",
+            "ModdedValues": "9090909090",
+            "Values": "9090909090"
+        },
+        {
+            "Name": "Block lifesteal-while-dead (revive-in-place desync fix) - Hook",
+            "Description": "Hooks LIFEDRAIN/life-stolen-per-hit applier sub_1403516D0 (the per-hit drain routine, dispatched via fn-pointer table at .rdata 0x1414BF160, no call site to redirect so hooked at entry). Replaces the first 5 bytes (mov [rsp+8],rbx) with E9 jmp to cave at 38706A. This is the routine identified via CE breakpoint at sub_1401E5270 (life-stat write, statId 6) filtered to dead players: it was the sole caller (RVA 3517FF) re-adding life (+lifesteal each hit) to the player's life stat while the player was in death anim modes DT(0)/DD(17), after UNITS_Die/sub_14030F810 had already committed life=0. Because the mod's aura keeps spawning leeching missiles after death, this leeched life accumulated in the life stat between the two death-commit passes and was cashed in at the corpse-spawn/anim-complete transition, producing a 'revive in place, stuck until Save&Exit' client/server desync (server dead, client carrying positive life). Confirmed: leech-on-hit at the combat-result applier sub_1402924F0 (RVA 292E07) did NOT fire for this build's missile leech; the drain flows exclusively through sub_1403516D0. a3 (leecher unit) arrives in r8 at entry (mov rbx,r8). Cave gates: if r8 && [r8]==0 (UNIT_PLAYER) && ([r8+0xC]==0 (DT) || [r8+0xC]==17 (DD)) -> xor eax,eax; ret (no life write, no event scheduled); else replay stolen mov [rsp+8],rbx and jmp back to 3516D5. Living players, monsters, and mercs leech normally (mode not in {0,17} or unitType!=0). Scoped to this applier only; does not touch regen, potions, or other heals (none of which were observed reviving the corpse).",
+            "Address": "3516D0",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "48895C2408",
+            "ModdedValues": "E995590300",
+            "Values": "E995590300"
+        },
+        {
+            "Name": "Block lifesteal-while-dead (revive-in-place desync fix) - Cave",
+            "Description": "Cave at 38706A (38 bytes, in the freed srvdofunc=143 body; bleed system cave ends at 38706A, original freed function extends to 387168, leaving 254 bytes free here). Paired with hook at 3516D0 (sub_1403516D0, life-stolen-per-hit applier). r8 = a3 = leecher unit at function entry. Logic: test r8,r8 / jz RUN; mov eax,[r8] (unitType) / test eax,eax / jnz RUN (not a player); mov eax,[r8+0xC] (anim mode) / test eax,eax / jz BLOCK (mode 0 = DT death-start); cmp eax,0x11 / jne RUN (0x11=17=DD dead; anything else is a live mode); BLOCK: xor eax,eax / ret (return 0 = no leech applied: skips the sub_1401E5270 stat-6 life write and the deferred-event schedule at RVA 3517FF onward); RUN: mov [rsp+8],rbx (replays the stolen entry instruction) / jmp 3516D5 (back into the original function body after the stolen 5 bytes) so leech proceeds normally for living units. Gating modes DT(0) and DD(17) covers the entire death-animation window during which the probe observed the resurrecting writes. No stack use, no register clobber beyond eax (caller-saved; function returns int in eax anyway).",
+            "Address": "38706A",
+            "Length": 38,
+            "Type": "Hex",
+            "OriginalValues": "0F77C34883EC0848890C24D92C244883C408C34883EC089BD93C24488B04244883C408C3CCCC",
+            "ModdedValues": "4D85C07417418B0085C07510418B400C85C0740583F811750331C0C348895C2408E945A6FCFF",
+            "Values": "4D85C07417418B0085C07510418B400C85C0740583F811750331C0C348895C2408E945A6FCFF"
+        },
+        {
+            "Name": "Protect states 208/223/234/250 from finisher discharge - Hook",
+            "Description": "Hook at RVA 3560FA inside sub_1403560C0 (finisher charge-expend helper; sole caller sub_140355B00 = progressive-skill server function). At this point rbx = a1 (arg-pack), ecx = decquant ([skillRec+0x1C7]=455), and the next two original instructions are 'mov rax,[rbx+8]' (rax=&progressiveCount) + 'sub [rax],ecx' (count -= decquant). Overwrites those 6 bytes with 'jmp 3870C0' (E9 rel32) + 1 nop. The cave reads the state id (a1[6] = [rbx+0x30], word) and if it is one of {208,223,234,250} forces ecx=0 so the decrement subtracts nothing; either way it replays 'mov rax,[rbx+8]; sub [rax],ecx' and returns to 14035610 0. With count unchanged (>=1) for protected states, sub_1403560C0's own 'cmp [count],0 / jle EXPIRE' is NOT taken, so it runs the normal charge-remains branch (re-sets the granting stat e.g. 386/304/390/407, re-sets the state bitmap bit, refreshes via sub_140223040) and never calls sub_1401E4300 - the state, its stats, and its client overlay all survive the finisher, and all state bookkeeping stays consistent so the state can still be toggled/removed normally afterward. Non-protected states decrement and expend exactly as before.",
+            "Address": "3560FA",
+            "Length": 6,
+            "Type": "Hex",
+            "OriginalValues": "488B43082908",
+            "ModdedValues": "E9C10F030090",
+            "Values": "E9C10F030090"
+        },
+        {
+            "Name": "Protect states 208/223/234/250 from finisher discharge - Cave",
+            "Description": "Cave at 3870C0 (53 bytes, in the freed srvdofunc=143 body extending to 387168; ends at 3870F5). Paired with hook at 3560FA in sub_1403560C0. rbx = a1 (arg-pack), ecx = decquant on entry. Logic: mov rax,[rbx+0x30] / movzx edx, word [rax] (edx = state id, ecx preserved); cmp dx,208 / je ZERO ; cmp dx,223 / je ZERO ; cmp dx,234 / je ZERO ; cmp dx,250 / je ZERO (ZERO = 3870EE); DO (fall-through for non-protected): mov rax,[rbx+8] / sub [rax],ecx (replays the stolen decrement) / jmp 140356100; ZERO: xor ecx,ecx (decquant->0) / jmp DO (3870E3) so the subtract is a no-op and the progressive count is preserved, forcing the function's charge-remains path and preventing the sub_1401E4300 expire. cmp dx,imm16 = 66 81 FA <imm16>; je rel8 = 74 <disp>. Clobbers rax,edx (rax is about to be reloaded by the function; edx unused downstream); ecx intentionally zeroed only for protected states.",
+            "Address": "3870C0",
+            "Length": 53,
+            "Type": "Hex",
+            "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "488B43300FB7106681FAD00074206681FADF0074196681FAEA0074126681FAFA00740B488B43082908E912F0FCFF33C9E9EEFFFFFF",
+            "Values": "488B43300FB7106681FAD00074206681FADF0074196681FAEA0074126681FAFA00740B488B43082908E912F0FCFF33C9E9EEFFFFFF"
         }
     ]
 }

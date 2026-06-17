@@ -11932,5 +11932,22 @@
     "ptBR": "Mágico",
     "ruRU": "Магический",
     "zhCN": "魔法的"
+  },
+  {
+    "id": 12015,
+    "Key": "Puncturing",
+    "enUS": "Puncturing",
+    "zhTW": "魔法的",
+    "deDE": "Magisch",
+    "esES": "Mágico",
+    "frFR": "Magique",
+    "itIT": "Magico",
+    "koKR": "마법의",
+    "plPL": "Magiczny",
+    "esMX": "Mágico",
+    "jaJP": "魔法の",
+    "ptBR": "Mágico",
+    "ruRU": "Магический",
+    "zhCN": "魔法的"
   }
 ]
