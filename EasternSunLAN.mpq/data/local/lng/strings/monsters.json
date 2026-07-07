@@ -12459,5 +12459,22 @@
     "ptBR": "Chuva de Veneno | Reduz Resistência a Veneno",
     "ruRU": "Ядовитый дождь | Снижает сопротивление яду",
     "zhCN": "剧毒之雨 | 降低毒素抗性"
+  },
+  {
+    "id": 55119,
+    "Key": "Poison Sentry",
+    "enUS": "Poison Sentry",
+    "zhTW": "劇毒之雨 | 降低毒素抗性",
+    "deDE": "Giftregen | Verringert Giftresistenz",
+    "esES": "Lluvia de veneno | Reduce la resistencia al veneno",
+    "esMX": "Lluvia de veneno | Reduce la resistencia al veneno",
+    "frFR": "Pluie de poison | Réduit la résistance au poison",
+    "itIT": "Pioggia di veleno | Riduce la resistenza al veleno",
+    "koKR": "독의 비 | 독 저항 감소",
+    "plPL": "Trujący deszcz | Obniża odporność na trucizny",
+    "jaJP": "ポイズン・レイン | 毒耐性低下",
+    "ptBR": "Chuva de Veneno | Reduz Resistência a Veneno",
+    "ruRU": "Ядовитый дождь | Снижает сопротивление яду",
+    "zhCN": "剧毒之雨 | 降低毒素抗性"
   }
 ]

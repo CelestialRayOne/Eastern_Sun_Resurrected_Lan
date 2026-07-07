@@ -5,7 +5,7 @@ poison	2						1																												1	1												poisonhit									95	1
 resistfire	3					1									1																												aura_resistfire					cast_resistfire		fireresist												paladin_aura_resistfire									0
 resistcold	4					1											1																										aura_resistcold					cast_resistcold		coldresist												paladin_aura_resistcold									0
 resistlight	5					1										1																											aura_resistlight					cast_resistlight		lightresist												paladin_aura_resistlightning									0
-unicha1	6																																																																						0
+conditionalstate	6																																				1										conditionalstate_1			cyclicstate	1	1																			0
 playerbody	7																																																																						0
 resistall	8					1									1	1	1																										aura_resistall_front	aura_resistall_back				cast_resistall		lightresist												paladin_aura_salvation									0
 amplifydamage	9						1	1																																			curseamplifydamage					curse_hit		damageresist												necromancer_amplifydamage									0
@@ -28,7 +28,7 @@ blazeclone	25																																																		3			Blaze Test			
 shout	26					1								1																													shout					shoutstart		skill_armor_percent																					0
 greennoheal	27																																		1	1																					95	104	128	255	128	impact_poison_1									0
 conviction	28					1																																					convictionfront	convictionback																		paladin_aura_purification									0
-generalmythicalweaponstate	29																																																																						0
+generalmythicalweaponstate	29																																																																				146		0
 energyshield	30																																										energyshield																												0
 venomclaws	31																																																	poisonmindam					mele	cgrn															0
 battleorders	32					1																																					battleorders					battleorderscast		maxmana																					0
@@ -108,7 +108,7 @@ alignment	105																											1	1	1																																			
 manapot	106																																																																						0
 shatter	107																												1	1	1		1	1																																					0
 poisonmastery	108																																																																						0
-generalshieldstate	109																																																																						0
+generalshieldstate	109																																																																				146		0
 pregnant	110																																										impregnated									10																			0
 golem_mastery	111			1																																																																			0
 rabies	112																																										rabiesplague																												0

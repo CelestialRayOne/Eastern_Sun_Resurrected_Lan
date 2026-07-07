@@ -475,6 +475,11 @@ total-attack-rate	1	1	totalattackrate
 total-attack-speed	1	1	totalattackspeed																															
 total-ac%	1	1	armor_override_percent																															
 potion-bonus	1	1	potionmultiplier																															
-skill-bonus	1	1	skillmultiplier																															
 gethit-skill-hidden	1	11	item_skillongethit_hidden																											#% Chance to Cast Level # [Skill] when struck	Skill	"% Chance (If 0, then default to 5)"	Skill Level	
-dmg-bleed	1	15	bleedmindam			16	bleedmaxdam			17	bleedlength																			Adds #-# Poison Damage Over # Seconds	Length (Frames)	Min #	Max #	# of Frames (25 Frames = 1 Second)
+dmg-bleed	1	15	bleedmindam			16	bleedmaxdam			17	bleedlength																							
+hp-mana%	1	1	item_maxhp_percent			3	item_maxmana_percent																							+# to Life		Min #	Max #	
+runemaster	1	1	runemaster																											+# to Life		Min #	Max #	
+lifemanasteal	1	1	manadrainmindam			3	lifedrainmindam																							#% Mana stolen per hit		Min #	Max #	
+deadlycrush	1	1	item_crushingblow			3	item_deadlystrike																											
+cast-skill	1	11	item_skilloncast																											#% Chance to Cast Level # [Skill] on cast	Skill	"% Chance (If 0, then default to 5)"	Skill Level	
+cast-skill-hidden	1	11	item_skilloncast_hidden																											#% Chance to Cast Level # [Skill] on cast	Skill	"% Chance (If 0, then default to 5)"	Skill Level	
