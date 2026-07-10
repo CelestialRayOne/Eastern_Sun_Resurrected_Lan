@@ -163,7 +163,7 @@ item_throw_maxdamage	160		1	10											22	32		8	0	8	0											1													
 kill_base	161			32			1	0	32																					1																					0
 skill_staminapercent	162		1	13																				11			maxstamina	item_stamina_perlevel																							0
 placeholder163	163		1	12																				1			maxstamina																								0
-skill_concentration	164		1	12																																															0
+skill_concentration	164		1	12																																	133	19		uninterruptible	uninterruptible									2	0
 skill_enchant	165		1	12																																															0
 skill_pierce	166		1	12	16																																132	19		skillpiercingattack	skillpiercingattack									2	0
 skill_conviction	167		1	12																																															0

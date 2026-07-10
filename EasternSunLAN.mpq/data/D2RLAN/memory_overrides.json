@@ -2100,26 +2100,6 @@
             "Values": "0F8CED010000"
         },
         {
-            "Name": "Resocket stat inflation fix - hook",
-            "Description": "In sub_1402499D0 (the gem/rune ITEMMODS property-apply leaf handler, reached on socket via sub_1402D42D0 -> sub_140248C00 -> dispatch table -> here, confirmed by runtime call stack), replaces the 'call sub_1401E5160' at RVA 249AD0 (the a5==0 / AddStat branch, 5 bytes) with E9 jmp to cave 35F490. Root cause confirmed by hardware write-breakpoint + Cheat Engine 'find what writes': the rune's runemaster (id 421) climbs 10->12->13 across resockets; the writer is RVA 1E421A (mov [rcx+04],ebp inside sub_1401E4120, where ebp = incoming_delta + current_stored) which maintains the FullStats aggregate at [statlist+0x80] that auras/the aggregator (sub_1401E3300) read. On resocket the rune-property apply takes sub_1402499D0's AddStat branch (sub_1401E5160) and adds the rune's property delta again with no matching subtract of the prior application, so the FullStats aggregate ratchets up and any aurastatcalc aura reading runemaster inflates (the base Stats value can display correctly while FullStats is stale). The cave converts this AddStat into an idempotent SET by subtracting the stat's current value before the add. At the hook rcx=statlist (v11/v12), edx=statId (a6, raw), r8d=value (v13), r9=a7. Stolen 5 bytes: E8 8B B6 F9 FF (call sub_1401E5160).",
-            "Address": "249AD0",
-            "Length": 5,
-            "Type": "Hex",
-            "OriginalValues": "E88BB6F9FF",
-            "ModdedValues": "E9BB591100",
-            "Values": "E9BB591100"
-        },
-        {
-            "Name": "Resocket stat inflation fix - cave",
-            "Description": "Cave at 35F490 (44 bytes, in freed srvdofunc=137 body 35F490..35F6A0, dead/never-dispatched). Paired with hook at 249AD0 in sub_1402499D0. Makes the gem/rune property AddStat idempotent (set semantics) so re-application on resocket does not accumulate. push rcx/rdx/r8/r9 (preserve AddStat args: statlist, statId, value, a7); sub rsp,0x28; shl edx,0x10 (statId -> packed key); xor r8d,r8d (record=0 -> raw stored value); call sub_1401E2E00 (returns current stored value of the stat in eax, read from the base Stats array [statlist+0x30], the same array AddStat writes its leaf to before propagating to FullStats); add rsp,0x28; pop r9/r8/rdx/rcx (restore args); sub r8d,eax (r8d = value - current, the corrective delta); call sub_1401E5160 (AddStat now nets the base value to exactly 'value' and propagates the corrected delta into the FullStats aggregate, eliminating the ratchet); jmp back to 249AD5. On first application current=0 so delta=value (identical to vanilla); genuine multi-source stacking on distinct statlists still sums. Disasm-verified in IDA.",
-            "Address": "35F490",
-            "Length": 44,
-            "Type": "Hex",
-            "OriginalValues": "48895C240848896C24104889742418",
-            "ModdedValues": "5152415041514883EC28C1E2104533C0E85B39E8FF4883C428415941585A594129C0E8A95CE8FFE919A6EEFF",
-            "Values": "5152415041514883EC28C1E2104533C0E85B39E8FF4883C428415941585A594129C0E8A95CE8FFE919A6EEFF"
-        },
-        {
             "Name": "Smite descdam=10 item_normaldamage display - hook",
             "Description": "In the descdam=10 display handler sub_1401AD860, replaces the 14-byte block at RVA 1ADCC7 (mov edx,r9d; add eax,[rsp+0x24]; cmp r9d,eax; cmovl r8d,eax) with E9 jmp to cave 35F4C0 + 9 NOP. This block finalizes the displayed min (edx, from r9d) and max (r8d) just before sub_1401A6700 formats the damage string. The descdam=10 handler (Smite's holy-damage display) does not include item_normaldamage (stat 111), which per game docs DOES apply to Smite's actual damage and is scaled by damagepercent / item_mindamage_percent / item_maxdamage_percent / strbonus. The cave computes that scaled contribution and adds it to the displayed min/max. Display-only; does not change Smite's actual damage. At the hook r14=a1 (context; a1[17]=[r14+0x88]=unit statlist), r9d=min, r8d=max, [rsp+0x24]=function var_74. Stolen 14 bytes: 8B D6? (actual: 41 8B D1 03 44 24 24 44 3B C8 44 0F 4C C0) -> mov edx,r9d (41 8B D1); add eax,[rsp+0x24] (03 44 24 24); cmp r9d,eax (44 3B C8); cmovl r8d,eax (44 0F 4C C0).",
             "Address": "1ADCC7",
@@ -2178,72 +2158,6 @@
             "OriginalValues": "0F8E88000000",
             "ModdedValues": "E98900000090",
             "Values": "E98900000090"
-        },
-        {
-            "Address": "299683",
-            "Name": "Aura dual-click: -1 reads right slot (revert read-redirect)",
-            "Type": "Hex",
-            "Length": 7,
-            "OriginalValues": "488B8200010000",
-            "ModdedValues": "488B8200010000",
-            "Values": "488B8200010000"
-        },
-        {
-            "Address": "35F5FA",
-            "Name": "Aura dual-click extended bootstrap cave",
-            "Type": "Hex",
-            "Length": 158,
-            "Description": "Left-assign bootstrap for concurrent dual-aura. sub rsp,0x38; default [rsp+0x28]=-1; if OLD left node [skillassoc+8] is an aura, save its aurastate; call sub_140219690 (left select); if saved!=-1 clear its bit in the +2760 state bitmap; sub_140299C80(ctx,unit,skillid) sets new aurastate + arms native -1 event; sub_140299430(ctx,unit,skillid,0,0) arms the skillid-specific a3>0 event so the left aura emanates independent of the right's -1 event; add rsp,0x38; ret.",
-            "OriginalValues": "39BDA40000007C76440FBF8DA000000041B801000000488BD6E898A70200488D9DAA0000004C8D3D5AFA15010FBF4BFA6685C97849480FBF036683F8317734498B14C74885D2742B0FBF85A0000000448BC189442438458BCEC7442430010000004889542428488BD64489642420E883A60200FFC74883C30283FF037CAEB801000000EB0233C0488B5C2460488B6C2468488B742470488B7C24784883C4",
-            "ModdedValues": "4883EC38C7442428FFFFFFFF488B8700010000488B40084885C074174C8B1041F6422420740D450FBF9AA000000044895C2428E85EA0EBFF448B5424284183FAFF74274489D0C1E8054489D183E11F41B80100000041D3E041F7D0488B978800000044218482C80A0000488B8FD80000004889FA4189F0E80AA6F3FF488B8FD80000004889FA4189F04531C9C744242000000000E89D9DF3FF4883C438C3",
-            "Values": "4883EC38C7442428FFFFFFFF488B8700010000488B40084885C074174C8B1041F6422420740D450FBF9AA000000044895C2428E85EA0EBFF448B5424284183FAFF74274489D0C1E8054489D183E11F41B80100000041D3E041F7D0488B978800000044218482C80A0000488B8FD80000004889FA4189F0E80AA6F3FF488B8FD80000004889FA4189F04531C9C744242000000000E89D9DF3FF4883C438C3"
-        },
-        {
-            "Address": "29A4F8",
-            "Name": "Aura issue1 teardown guard hook (->C2)",
-            "Type": "Hex",
-            "Length": 5,
-            "OriginalValues": "E853B6F4FF",
-            "ModdedValues": "E9733C0C00",
-            "Values": "E9733C0C00"
-        },
-        {
-            "Address": "35E170",
-            "Name": "Aura issue1 left-preserve teardown guard (C2)",
-            "Type": "Hex",
-            "Length": 60,
-            "Description": "Hooked from 0x29A4F8 (replaces call sub_1401E5B50). rdi=unit, rbx=old-right record. If left node [[rdi+0x100]+8] is an aura and its aurastate [rec+0xA0]==old-right aurastate [rbx+0xA0], jmp 0x29A5F3 to skip expire(sub_1401E4300)+sub_1401E45B0+bit-clear+refresh (preserving shared stat 350/351 and the state bit) and fall into the -1 deletion loop. Else replay call sub_1401E5B50 and jmp 0x29A4FD. Scratch rax/r10 only.",
-            "OriginalValues": "69C084020000480305531994010F849B0000000FBF706885F60F8E8F0000003B35B31894010F8D830000004885D27407838A24010000408B88580100",
-            "ModdedValues": "488B8700010000488B40084885C07422488B00F640242074190FBF80A0000000440FBF93A00000004439D07505E951C4F3FFE8A979E8FFE951C3F3FF",
-            "Values": "488B8700010000488B40084885C07422488B00F640242074190FBF80A0000000440FBF93A00000004439D07505E951C4F3FFE8A979E8FFE951C3F3FF"
-        },
-        {
-            "Address": "299745",
-            "Name": "Aura issue2 same-skill perform dedup hook (->I2)",
-            "Type": "Hex",
-            "Length": 5,
-            "OriginalValues": "E8C6F0FFFF",
-            "ModdedValues": "E9664A0C00",
-            "Values": "E9664A0C00"
-        },
-        {
-            "Address": "35E1B0",
-            "Name": "Aura issue2 same-skill perform dedup (I2)",
-            "Type": "Hex",
-            "Length": 38,
-            "Description": "Hooked from 0x140299745 (-1 perform). rdi=unit, r14d=right skillid. If left node [[rdi+0x100]+8] exists and its record skillid (word[rec])==r14d, jmp 0x29974A skipping call sub_140298810 (left a3>0 event remains sole emanator). Else replay perform and jmp 0x29974A. Rearm at 0x29974A preserved. Scratch r10 only.",
-            "OriginalValues": "0C099401448BC1483BCA73622BD148895C2430488B0DEE089401488D4424304903C848894424",
-            "ModdedValues": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF",
-            "Values": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF"
-        },
-        {
-            "Address": "29A3C9",
-            "Name": "Aura dual-click left bootstrap hook (->B cave)",
-            "Type": "Hex",
-            "Length": 5,
-            "OriginalValues": "E8C2F2F7FF",
-            "ModdedValues": "E82C520C00",
-            "Values": "E82C520C00"
         },
         {
             "Address": "2C0810",
@@ -2335,6 +2249,123 @@
             "OriginalValues": "00000000000000000000000000000000000000000000000000",
             "ModdedValues": "51524883EC204531C0E8F236F7FF4883C4205A59E9B8811301",
             "Values": "51524883EC204531C0E8F236F7FF4883C4205A59E9B8811301"
+        },
+        {
+            "Name": "Remove drop-rate player-count halving",
+            "Description": "In the TC drop resolver sub_1402F9210, the effective player count for NoDrop geometric scaling is computed at RVA 2F9499 as v34 = v29 + (v33 - v29)/2, where v33 (eax) = max(/playersN dword_141D637E4, living players in game) and v29 (ebx) = living players in the monster's level (clamped 1..8). This halves the weight of players not in the monster's area. Patch replaces the 9-byte averaging sequence (sub eax,ebx=2BC3 / cdq=99 / sub eax,edx=2BC2 / sar eax,1=D1F8 / add ebx,eax=03D8) at 2F9499-2F94A1 with 'mov ebx,eax' (89C3) + 7x NOP, so v34 = v33 = full real player count with no area-based halving. Solo /playersN now yields effective count N (e.g. /players8 -> 8).",
+            "Category": "Alteration",
+            "Address": "2F9499",
+            "Length": 9,
+            "Type": "Hex",
+            "OriginalValues": "2BC3992BC2D1F803D8",
+            "ModdedValues": "89C390909090909090",
+            "Values": "89C390909090909090"
+        },
+        {
+            "Name": "Resocket stat inflation fix - child sublist expire hook",
+            "Description": "In sub_140306C50 (socketable-extraction / unsocket handler), replaces the 'call sub_14020EFC0' at RVA 3079DE (rbx=filler being extracted) with E9 jmp to cave 3630FA. Root cause (confirmed by live CE probes of the exact struct for runes, gems, AND jewels): the socketed item's stats live in a child sublist node (flags=0x40, state=0) off the filler statlistEx ([filler+0x88]) head +0x68, owner=statlistEx. On resocket, gem/rune properties are AddStat-ed a second time onto the still-populated child (leaf sub_1402499D0 -> sub_140246000 finds it by state via sub_1401E5DE0), doubling every stat. The generic detach sub_14020EFC0 only expires the container node, never the child, so it survives and re-accumulates. CRITICAL type distinction (this is the jewel fix): gems/runes have their socketed properties RE-DERIVED from the gemsockets property table on every socket (sub_1402D42D0 flag-74 path, sub_140248C00(5,...)), so their child is disposable and safe to expire; JEWELS carry inherent rolled affixes with no table to rebuild from (flag-74-clear path, sub_140248C00(2,...)), so their child is the ONLY copy and must NOT be expired (doing so returns the jewel empty - confirmed by probe showing head104=0 on jewel resocket). The cave therefore GATES the expire on sub_1401FE680(filler, 74): only gems/runes are expired; jewels and other socketables are left untouched. rbx=filler, callee-saved across all internal calls. Stolen 5 bytes: E8 DD 75 F0 FF (call sub_14020EFC0), disk-verified.",
+            "Address": "3079DE",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E8DD75F0FF",
+            "ModdedValues": "E917B70500",
+            "Values": "E917B70500"
+        },
+        {
+            "Name": "Resocket stat inflation fix - child sublist expire cave (gated)",
+            "Description": "Cave at 3630FA (68 bytes), in freed space following the gear-aura-post-death prefix cave at 3630E0 (loader-overwritten region; IDA shows the original sub_1403630E0 body which never reflects runtime patch state). Paired with hook at 3079DE. Logic: mov rcx,rbx; mov edx,74; call sub_1401FE680 (ITEMS_CheckItemTypeFlag: is the filler a gem/rune?); test eax,eax; jz skip (jewel/other -> leave its child alone); mov rax,[rbx+0x88] (filler statlistEx); test/jz skip; mov rcx,[rax+0x68] (gem/rune child head, flags=0x40 state=0); test/jz skip; sub rsp,0x28; call sub_1401E4300 (expire child: unlink from statlistEx +104/+112 chain and subtract its stats from FullStats via sub_1401E4120, NO free); add rsp,0x28; skip: mov rcx,rbx; call sub_14020EFC0 (replay stolen original detach); jmp back to 3079E3. The flag-74 gate is the same discriminator sub_1402D42D0 uses to split the re-derivable gem/rune property path from the authoritative jewel-affix path, so gems/runes get the deduplication and jewels keep their affixes intact. On first socket the child doesn't exist so the null-checks skip; gems/runes work; jewels are never expired. All jz rel8/rel32 land on the shared skip target; all four calls/jmp (sub_1401FE680, sub_1401E4300, sub_14020EFC0, return jmp) generated and decode-verified in IDA against absolute targets. Loader reads Values only.",
+            "Address": "3630FA",
+            "Length": 68,
+            "Type": "Hex",
+            "OriginalValues": "8B05783049014833C4488985",
+            "ModdedValues": "488BCBBA4A000000E879B5E9FF85C00F8422000000488B83880000004885C07416488B48684885C9740D4883EC28E8D311E8FF4883C428488BCBE887BEEAFFE9A548FAFF",
+            "Values": "488BCBBA4A000000E879B5E9FF85C00F8422000000488B83880000004885C07416488B48684885C9740D4883EC28E8D311E8FF4883C428488BCBE887BEEAFFE9A548FAFF"
+        },
+        {
+            "Address": "29A3C9",
+            "Name": "Aura left-slot bootstrap hook (->same-skill guard 3632B0)",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "E8C2F2F7FF",
+            "ModdedValues": "E8E28E0C00",
+            "Values": "E8E28E0C00"
+        },
+        {
+            "Address": "363148",
+            "Name": "Aura right-slot bootstrap + unequip event-delete cave",
+            "Type": "Hex",
+            "Length": 357,
+            "Description": "Hooked from 0x29A3C9 (a2!=0 = RIGHT select, sub_140219690). Prologue reads OLD right node [[unit+0x100]+8]; if aura, saves aurastate [rsp+0x28] and skillid [rsp+0x2C]. Replays sub_140219690. If old right skill was aura: (1) delete guard on LEFT slot [[unit+0x100]+0x10] same-skillid; (2) walk [unit+0x140] deleting type-8 nodes tagged with old right skillid via sub_1402C83D0(game=[unit+0xD8],node) - the a3>0 channel that emanates the right aura; (3) clear aurastate bit [[unit+0x88]+0xAC8+...] guarded by LEFT same-aurastate; (4) sub_14022E750 refresh. Bootstrap tail arms new right aura (sub_140299C80 + sub_140299430). rbx/rbp/rsi/rdi/r12-r15 preserved.",
+            "OriginalValues": "E8032CF6FF488BCBE87B51EAFF4885C00F8432030000488B40704889B424E00100004C89B424D80100004533F6483BC3418BF6480F45F04885F60F84F80200004885DB7407838B240100004033D2488D4C246041B860010000E85A4F0D014489742438488D44246048894424304C8BCF44896C24284C8BC6488BD344897C2420498BCCE8909CF3FFF6442464010F84620200008B87500100004C8D4C246083C8024C8BC609442460488BD30FB7874E01000066094424648B8F5401000085C98B85AC0000000F45C1498BCC8985AC0000000FB687E5010000884424284489742420E82208FCFF458BCD488D542460458BC7488BCBE8CF8FF3FF8B87580100004C8B1572B893018BC8493BC27205458BCEEB4B48030D57B893014C8D0D18D04901442BD048895C2440488D44244044897C244848894424284C8D055A53EBFF418BD2C74424200700000044896C244CE825D636004C8B151EB8930144",
+            "ModdedValues": "4883EC38C7442428FFFFFFFFC744242CFFFFFFFF488B8700010000488B40084885C074204C8B1041F64224207416450FBF9AA000000044895C2428450FB71A44895C242C448BC38BD6488BCFE8F764EBFF448B5C242C4183FBFF0F84D1000000488B87400100004885C0742D4C8B5030803808751F4439581875194889C2488B8FD80000004C89542420E8F951F6FF4C8B5424204C89D0EBCE448B5C24284183FBFF0F8489000000488B8700010000488B40104885C07419488B00F640242074100FBF80A00000004439D80F8460000000488BCF4489DA4531C0E879FCEBFF488B8F880000004885C90F8442000000488B51684885D27412443952207506F6421C047525488B5248EBE9488B51704885D20F841A000000443952207506F6421C047506488B5248EBE5488BCAE83713E8FF488B8FD80000004889FA4189F0E8F569F3FF488B8FD80000004889FA4189F04531C9C744242000000000E88861F3FF4883C438C3",
+            "Values": "4883EC38C7442428FFFFFFFFC744242CFFFFFFFF488B8700010000488B40084885C074204C8B1041F64224207416450FBF9AA000000044895C2428450FB71A44895C242C448BC38BD6488BCFE8F764EBFF448B5C242C4183FBFF0F84D1000000488B87400100004885C0742D4C8B5030803808751F4439581875194889C2488B8FD80000004C89542420E8F951F6FF4C8B5424204C89D0EBCE448B5C24284183FBFF0F8489000000488B8700010000488B40104885C07419488B00F640242074100FBF80A00000004439D80F8460000000488BCF4489DA4531C0E879FCEBFF488B8F880000004885C90F8442000000488B51684885D27412443952207506F6421C047525488B5248EBE9488B51704885D20F841A000000443952207506F6421C047506488B5248EBE5488BCAE83713E8FF488B8FD80000004889FA4189F0E8F569F3FF488B8FD80000004889FA4189F04531C9C744242000000000E88861F3FF4883C438C3"
+        },
+        {
+            "Address": "299745",
+            "Name": "Aura same-skill perform dedup hook (->35E1B0)",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "E8C6F0FFFF",
+            "ModdedValues": "E9664A0C00",
+            "Values": "E9664A0C00"
+        },
+        {
+            "Address": "35E1B0",
+            "Name": "Aura same-skill perform dedup",
+            "Type": "Hex",
+            "Length": 38,
+            "Description": "Hooked from 0x299745 (the -1 perform, call sub_140298810 with v9=active-slot skillid in r14d). If the OTHER slot [[rdi+0x100]+8] holds a node whose record skillid==r14d, jmp 0x29974A skipping the perform, so same-aura-on-both-slots emanates once (no level stacking). Else replay perform and jmp 0x29974A.",
+            "OriginalValues": "0C099401448BC1483BCA73622BD148895C2430488B0DEE089401488D4424304903C848894424",
+            "ModdedValues": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF",
+            "Values": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF"
+        },
+        {
+            "Address": "29A4F8",
+            "Name": "Aura shared-state preserve guard hook (->35E170)",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "E853B6F4FF",
+            "ModdedValues": "E9733C0C00",
+            "Values": "E9733C0C00"
+        },
+        {
+            "Address": "35E170",
+            "Name": "Aura shared-state preserve guard",
+            "Type": "Hex",
+            "Length": 60,
+            "Description": "Hooked from 0x29A4F8 (right-hand aura teardown, replaces call sub_1401E5B50). rdi=unit, rbx=outgoing right skill txt record. If LEFT hand [[rdi+0x100]+8] holds an aura whose aurastate [rec+0xA0]==[rbx+0xA0], jmp 0x29A5F3 to skip the shared-state free/expire/bit-clear (preserve for the left hand). Else replay call sub_1401E5B50 and jmp 0x29A4FD.",
+            "OriginalValues": "69C084020000480305531994010F849B0000000FBF706885F60F8E8F0000003B35B31894010F8D830000004885D27407838A24010000408B88580100",
+            "ModdedValues": "488B8700010000488B40084885C07422488B00F640242074190FBF80A0000000440FBF93A00000004439D07505E951C4F3FFE8A979E8FFE951C3F3FF",
+            "Values": "488B8700010000488B40084885C07422488B00F640242074190FBF80A0000000440FBF93A00000004439D07505E951C4F3FFE8A979E8FFE951C3F3FF"
+        },
+        {
+            "Address": "299745",
+            "Name": "Aura same-skill perform dedup hook (->35E1B0)",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "E8C6F0FFFF",
+            "ModdedValues": "E9664A0C00",
+            "Values": "E9664A0C00"
+        },
+        {
+            "Address": "35E1B0",
+            "Name": "Aura same-skill perform dedup",
+            "Type": "Hex",
+            "Length": 38,
+            "Description": "Hooked from 0x299745 (the -1 perform, sub_140298810 with r14d=active-slot skillid). If the OTHER hand [[rdi+0x100]+8] holds a node with the same skillid, jmp 0x29974A skipping the perform (only one emanation for same aura both hands). Else replay and jmp 0x29974A.",
+            "OriginalValues": "0C099401448BC1483BCA73622BD148895C2430488B0DEE089401488D4424304903C848894424",
+            "ModdedValues": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF",
+            "Values": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF"
+        },
+        {
+            "Address": "3632B0",
+            "Name": "Aura same-skill re-select no-op guard",
+            "Type": "Hex",
+            "Length": 48,
+            "Description": "Prefix to the 363148 left cave. Entry rdi=unit, esi=new skillid. Reads old-left skillid (word[[[rdi+0x100]+8]]). If old==new (same aura re-selected on this hand, e.g. hotkey G press): replay sub_140219690(select) then ret - a no-op, so the aura is not torn down/rebuilt and G cannot toggle it. If different or empty hand: jmp into the 363148 cave body for the full teardown+bootstrap. Entered via CALL from 29A3C9; returns to 29A3CE (cave body's own ret also returns there).",
+            "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "488B8700010000488B40084885C0740D488B000FB7006639C67502EB05E976FEFFFF448BC38BD6488BCFE8B163EBFFC3",
+            "Values": "488B8700010000488B40084885C0740D488B000FB7006639C67502EB05E976FEFFFF448BC38BD6488BCFE8B163EBFFC3"
         }
     ]
 }
