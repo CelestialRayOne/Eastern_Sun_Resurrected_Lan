@@ -2366,6 +2366,28 @@
             "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "ModdedValues": "488B8700010000488B40084885C0740D488B000FB7006639C67502EB05E976FEFFFF448BC38BD6488BCFE8B163EBFFC3",
             "Values": "488B8700010000488B40084885C0740D488B000FB7006639C67502EB05E976FEFFFF448BC38BD6488BCFE8B163EBFFC3"
+        },
+        {
+            "Name": "WW proc stuck-token fix - Hook",
+            "Description": "In cltstfunc=31 sub_14017BF80, the restart gate at 17BFE8 (test byte [r13+14h],1 / jnz 17C2FC) refuses WW restart when the token active bit0 is set. After a CtC proc interrupts WW, bit0 is left set (the proc's stop path skips the clear at 17C4B4), so WW becomes permanently uncastable. r13 is the live token here, and this path is reached only for the local player (17BFDB) casting the matching skill (17BFE4). Hook replaces the 11-byte test+jnz (41 F6 45 14 01 0F 85 09 03 00 00) with jmp to cave 3632E0 + 6 NOP pad. Cave clears bit0 and refuses this one call; the next per-input-poll call (function runs continuously while WW held) sees bit0 clear and starts WW normally.",
+            "Category": "Alteration",
+            "Address": "17BFE8",
+            "Length": 11,
+            "Type": "Hex",
+            "OriginalValues": "41F645140185C90F850903000041",
+            "ModdedValues": "E9F3721E00909090909090",
+            "Values": "E9F3721E00909090909090"
+        },
+        {
+            "Name": "WW proc stuck-token fix - Cave",
+            "Description": "Cave in freed srvdofunc=122 body (3630E0-3634B9), placed at 3632E0 after the last existing cave (idx 209 ends 3632E0; 473B free to 3634B9). Reached from hook at 17BFE8. Tests token active bit0 [r13+14h]&1: if clear, jmp back to normal gate at 17BFF3; if set, AND byte [r13+14h],0FEh to clear bit0 then jmp to refuse label 17C2FC (WW restart resumes on the following input-poll call). r13 = live WW token, preserved across the hook jmp (no calls between gate and cave).",
+            "Category": "Alteration",
+            "Address": "3632E0",
+            "Length": 22,
+            "Type": "Hex",
+            "OriginalValues": "0000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "41F6451401740A41806514FEE90B90E1FFE9FD8CE1FF ",
+            "Values": "41F6451401740A41806514FEE90B90E1FFE9FD8CE1FF"
         }
     ]
 }

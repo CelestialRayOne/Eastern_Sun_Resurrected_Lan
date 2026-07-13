@@ -156,7 +156,7 @@ Act 1 (H) Coupon B			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	03h	
 Act 1 (H) Coupon C			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Act 1 (H) Coupon B	882	18					0
 Act 2 (H) Coupon A			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Act 1 (H) Coupon C	898	18					0
 Act 2 (H) Coupon B			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Act 2 (H) Coupon A	913	18					0
-Act 2 (H) Coupon C			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Act 2 (H) Coupon B	928			16					0
+Act 2 (H) Coupon C			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Act 2 (H) Coupon B	928	16					0
 Act 3 (H) Coupon A			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Act 2 (H) Coupon C	943			16					0
 Act 3 (H) Coupon B			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Act 3 (H) Coupon A	958			16					0
 Act 3 (H) Coupon C			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Act 3 (H) Coupon B	972			15					0
@@ -1761,7 +1761,7 @@ Class Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	10	03e	2	03
 Class Items Tier 31			1						12k	2	11h	10	13h	2	09e	10	08e	2	07e	10	06e	2	08h	2	10h	2	Class Items Tier 30	882						0
 Class Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Class Items Tier 31	898						0
 Class Items Tier 33			1						22k	10	14e	2	21h	2	15e	10	20h	2	17h	2	18h	2	16h	10	21h	2	Class Items Tier 32	913						0
-Class Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Class Items Tier 33	928								0
+Class Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Class Items Tier 33	928						0
 Class Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	10	29h	2	Class Items Tier 34	943								0
 Class Items Tier 36			1						39h	10	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Class Items Tier 35	958								0
 Class Items Tier 37			1						22e	10	45h	10	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Class Items Tier 36	972								0
@@ -1803,7 +1803,7 @@ Jewelry Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	0
 Jewelry Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Jewelry Items Tier 30	882						0
 Jewelry Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	10	09i	10	08i	10	11e	2	10e	2	Jewelry Items Tier 31	898						0
 Jewelry Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Jewelry Items Tier 32	913						0
-Jewelry Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Jewelry Items Tier 33	928								0
+Jewelry Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Jewelry Items Tier 33	928						0
 Jewelry Items Tier 35			1						33h	2	18e	2	17e	2	08j	10	32k	2	31h	2	30h	2	29h	2	Jewelry Items Tier 34	943								0
 Jewelry Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Jewelry Items Tier 35	958								0
 Jewelry Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	5	38h	2	41h	2	40h	2	Jewelry Items Tier 36	972								0
@@ -1845,7 +1845,7 @@ Belt Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	03h	
 Belt Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	10	08h	2	10h	2	Belt Items Tier 30	882						0
 Belt Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Belt Items Tier 31	898						0
 Belt Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Belt Items Tier 32	913						0
-Belt Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Belt Items Tier 33	928								0
+Belt Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Belt Items Tier 33	928						0
 Belt Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Belt Items Tier 34	943								0
 Belt Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Belt Items Tier 35	958								0
 Belt Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Belt Items Tier 36	972								0
@@ -1887,7 +1887,7 @@ Boots Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	03h
 Boots Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	10	07e	2	06e	2	08h	2	10h	2	Boots Items Tier 30	882						0
 Boots Items Tier 32			1						13e	10	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Boots Items Tier 31	898						0
 Boots Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Boots Items Tier 32	913						0
-Boots Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Boots Items Tier 33	928								0
+Boots Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Boots Items Tier 33	928						0
 Boots Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Boots Items Tier 34	943								0
 Boots Items Tier 36			1						39h	2	21e	10	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Boots Items Tier 35	958								0
 Boots Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Boots Items Tier 36	972								0
@@ -1929,7 +1929,7 @@ Missile Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	0
 Missile Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Missile Items Tier 30	882						0
 Missile Items Tier 32			1						13e	2	12e	2	15h	10	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Missile Items Tier 31	898						0
 Missile Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Missile Items Tier 32	913						0
-Missile Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Missile Items Tier 33	928								0
+Missile Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Missile Items Tier 33	928						0
 Missile Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	10	31h	2	30h	2	29h	2	Missile Items Tier 34	943								0
 Missile Items Tier 36			1						39h	10	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Missile Items Tier 35	958								0
 Missile Items Tier 37			1						22e	2	45h	2	42k	2	43h	10	11i	1	38h	10	41h	2	40h	2	Missile Items Tier 36	972								0
@@ -1971,7 +1971,7 @@ Helm Items Tier 30			1						09h	2	07h	2	06h	2	05e	10	04h	2	05h	2	04e	10	03e	10	0
 Helm Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	10	06e	2	08h	2	10h	2	Helm Items Tier 30	882						0
 Helm Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	10	Helm Items Tier 31	898						0
 Helm Items Tier 33			1						22k	2	14e	10	21h	2	15e	10	20h	2	17h	2	18h	2	16h	2	21h	2	Helm Items Tier 32	913						0
-Helm Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Helm Items Tier 33	928								0
+Helm Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Helm Items Tier 33	928						0
 Helm Items Tier 35			1						33h	2	18e	2	17e	10	08j	2	32k	2	31h	2	30h	2	29h	2	Helm Items Tier 34	943								0
 Helm Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Helm Items Tier 35	958								0
 Helm Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Helm Items Tier 36	972								0
@@ -2013,7 +2013,7 @@ Body Armor Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	
 Body Armor Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Body Armor Items Tier 30	882						0
 Body Armor Items Tier 32			1						13e	2	12e	10	15h	2	14h	2	10i	2	09i	2	08i	2	11e	10	10e	2	Body Armor Items Tier 31	898						0
 Body Armor Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Body Armor Items Tier 32	913						0
-Body Armor Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Body Armor Items Tier 33	928								0
+Body Armor Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Body Armor Items Tier 33	928						0
 Body Armor Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Body Armor Items Tier 34	943								0
 Body Armor Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Body Armor Items Tier 35	958								0
 Body Armor Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Body Armor Items Tier 36	972								0
@@ -2055,7 +2055,7 @@ Throwing Weapon Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2
 Throwing Weapon Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Throwing Weapon Items Tier 30	882						0
 Throwing Weapon Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Throwing Weapon Items Tier 31	898						0
 Throwing Weapon Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Throwing Weapon Items Tier 32	913						0
-Throwing Weapon Items Tier 34			1						28h	10	27h	2	26h	2	25h	2	24h	2	16e	2	23h	10	19h	2	Throwing Weapon Items Tier 33	928								0
+Throwing Weapon Items Tier 34			1						28h	10	27h	2	26h	2	25h	2	24h	2	16e	2	23h	10	19h	2	46d	2	Throwing Weapon Items Tier 33	928						0
 Throwing Weapon Items Tier 35			1						33h	10	18e	2	17e	2	08j	2	32k	2	31h	2	30h	10	29h	2	Throwing Weapon Items Tier 34	943								0
 Throwing Weapon Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	10	36h	2	35h	2	34h	2	Throwing Weapon Items Tier 35	958								0
 Throwing Weapon Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Throwing Weapon Items Tier 36	972								0
@@ -2097,7 +2097,7 @@ Gloves Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	03e	2	03
 Gloves Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Gloves Items Tier 30	882						0
 Gloves Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Gloves Items Tier 31	898						0
 Gloves Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Gloves Items Tier 32	913						0
-Gloves Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Gloves Items Tier 33	928								0
+Gloves Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Gloves Items Tier 33	928						0
 Gloves Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Gloves Items Tier 34	943								0
 Gloves Items Tier 36			1						39h	2	21e	2	19e	2	20e	10	37h	2	36h	2	35h	2	34h	2	Gloves Items Tier 35	958								0
 Gloves Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Gloves Items Tier 36	972								0
@@ -2139,7 +2139,7 @@ Caster Weapon Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e	2	0
 Caster Weapon Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Caster Weapon Items Tier 30	882						0
 Caster Weapon Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Caster Weapon Items Tier 31	898						0
 Caster Weapon Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	10	18h	10	16h	2	21h	2	Caster Weapon Items Tier 32	913						0
-Caster Weapon Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Caster Weapon Items Tier 33	928								0
+Caster Weapon Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Caster Weapon Items Tier 33	928						0
 Caster Weapon Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Caster Weapon Items Tier 34	943								0
 Caster Weapon Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Caster Weapon Items Tier 35	958								0
 Caster Weapon Items Tier 37			1						22e	2	45h	10	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Caster Weapon Items Tier 36	972								0
@@ -2181,7 +2181,7 @@ Club And Hammer Items Tier 30			1						09h	10	07h	2	06h	2	05e	2	04h	2	05h	2	04e	
 Club And Hammer Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Club And Hammer Items Tier 30	882						0
 Club And Hammer Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Club And Hammer Items Tier 31	898						0
 Club And Hammer Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Club And Hammer Items Tier 32	913						0
-Club And Hammer Items Tier 34			1						28h	2	27h	10	26h	2	25h	10	24h	10	16e	2	23h	2	19h	2	Club And Hammer Items Tier 33	928								0
+Club And Hammer Items Tier 34			1						28h	2	27h	10	26h	2	25h	10	24h	10	16e	2	23h	2	19h	2	46d	2	Club And Hammer Items Tier 33	928						0
 Club And Hammer Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	10	Club And Hammer Items Tier 34	943								0
 Club And Hammer Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Club And Hammer Items Tier 35	958								0
 Club And Hammer Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Club And Hammer Items Tier 36	972								0
@@ -2223,7 +2223,7 @@ Polearm And Spear Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	2	04e
 Polearm And Spear Items Tier 31			1						12k	10	11h	10	13h	2	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Polearm And Spear Items Tier 30	882						0
 Polearm And Spear Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Polearm And Spear Items Tier 31	898						0
 Polearm And Spear Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Polearm And Spear Items Tier 32	913						0
-Polearm And Spear Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Polearm And Spear Items Tier 33	928								0
+Polearm And Spear Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Polearm And Spear Items Tier 33	928						0
 Polearm And Spear Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	10	30h	2	29h	2	Polearm And Spear Items Tier 34	943								0
 Polearm And Spear Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	10	35h	2	34h	2	Polearm And Spear Items Tier 35	958								0
 Polearm And Spear Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	10	40h	2	Polearm And Spear Items Tier 36	972								0
@@ -2265,7 +2265,7 @@ Scepter And Mace Items Tier 30			1						09h	2	07h	10	06h	2	05e	2	04h	10	05h	2	04
 Scepter And Mace Items Tier 31			1						12k	2	11h	2	13h	10	09e	2	08e	2	07e	2	06e	2	08h	2	10h	2	Scepter And Mace Items Tier 30	882						0
 Scepter And Mace Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Scepter And Mace Items Tier 31	898						0
 Scepter And Mace Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Scepter And Mace Items Tier 32	913						0
-Scepter And Mace Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	Scepter And Mace Items Tier 33	928								0
+Scepter And Mace Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Scepter And Mace Items Tier 33	928						0
 Scepter And Mace Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Scepter And Mace Items Tier 34	943								0
 Scepter And Mace Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	2	34h	2	Scepter And Mace Items Tier 35	958								0
 Scepter And Mace Items Tier 37			1						22e	2	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	2	Scepter And Mace Items Tier 36	972								0
@@ -2307,7 +2307,7 @@ Shield And Sword Items Tier 30			1						09h	2	07h	2	06h	2	05e	2	04h	2	05h	10	04e
 Shield And Sword Items Tier 31			1						12k	2	11h	2	13h	2	09e	10	08e	2	07e	2	06e	2	08h	2	10h	2	Shield And Sword Items Tier 30	882						0
 Shield And Sword Items Tier 32			1						13e	2	12e	2	15h	2	14h	10	10i	2	09i	2	08i	2	11e	2	10e	2	Shield And Sword Items Tier 31	898						0
 Shield And Sword Items Tier 33			1						22k	2	14e	2	21h	2	15e	2	20h	2	17h	2	18h	2	16h	2	21h	2	Shield And Sword Items Tier 32	913						0
-Shield And Sword Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	10	23h	2	19h	10	Shield And Sword Items Tier 33	928								0
+Shield And Sword Items Tier 34			1						28h	2	27h	2	26h	2	25h	2	24h	2	16e	10	23h	2	19h	10	46d	10	Shield And Sword Items Tier 33	928						0
 Shield And Sword Items Tier 35			1						33h	2	18e	10	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Shield And Sword Items Tier 34	943								0
 Shield And Sword Items Tier 36			1						39h	2	21e	2	19e	10	20e	2	37h	2	36h	2	35h	2	34h	10	Shield And Sword Items Tier 35	958								0
 Shield And Sword Items Tier 37			1						22e	10	45h	2	42k	2	43h	2	11i	1	38h	2	41h	2	40h	10	Shield And Sword Items Tier 36	972								0
@@ -2349,7 +2349,7 @@ Axe And Knife Items Tier 30			1						09h	2	07h	2	06h	10	05e	2	04h	2	05h	2	04e	2	
 Axe And Knife Items Tier 31			1						12k	2	11h	2	13h	2	09e	2	08e	2	07e	2	06e	2	08h	10	10h	10	Axe And Knife Items Tier 30	882						0
 Axe And Knife Items Tier 32			1						13e	2	12e	2	15h	2	14h	2	10i	2	09i	2	08i	2	11e	2	10e	2	Axe And Knife Items Tier 31	898						0
 Axe And Knife Items Tier 33			1						22k	2	14e	2	21h	10	15e	2	20h	10	17h	2	18h	2	16h	2	21h	10	Axe And Knife Items Tier 32	913						0
-Axe And Knife Items Tier 34			1						28h	2	27h	2	26h	10	25h	2	24h	2	16e	2	23h	2	19h	2	Axe And Knife Items Tier 33	928								0
+Axe And Knife Items Tier 34			1						28h	2	27h	2	26h	10	25h	2	24h	2	16e	2	23h	2	19h	2	46d	2	Axe And Knife Items Tier 33	928						0
 Axe And Knife Items Tier 35			1						33h	2	18e	2	17e	2	08j	2	32k	2	31h	2	30h	2	29h	2	Axe And Knife Items Tier 34	943								0
 Axe And Knife Items Tier 36			1						39h	2	21e	2	19e	2	20e	2	37h	2	36h	2	35h	10	34h	2	Axe And Knife Items Tier 35	958								0
 Axe And Knife Items Tier 37			1						22e	2	45h	2	42k	10	43h	2	11i	1	38h	2	41h	2	40h	2	Axe And Knife Items Tier 36	972								0
@@ -3364,19 +3364,19 @@ Uber Baal			-2					0	ht2	1	Uber Tristram Base	1																						0
 Uber Mephisto			-2					0	ht3	1	Uber Tristram Base	1																						0
 Treasure Goblin Flawed Crystals 1			1						xl0		xl1		xl2		xl3		xl4		xl5		xl6		xl7		xl8		xl9							0
 Treasure Goblin Flawed Crystals 2			1						xlx	1	xly	1	Treasure Goblin Flawed Crystals 1	1																				0
-Treasure Goblin Campaign 1	119	0	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	1	"gld,mul=16384"	100	Act 1 Equip A	125	Act 1 Coupon A	50												0
-Treasure Goblin Campaign 2	119	5	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	2	"gld,mul=16384"	100	Act 1 Equip B	125	Act 1 Coupon B	50												0
-Treasure Goblin Campaign 3	119	9	15	820	820	973	1024	100	Act 1 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	3	"gld,mul=16384"	100	Act 1 Equip C	125	Act 1 Coupon C	50												0
-Treasure Goblin Campaign 4	119	12	15	820	820	973	1024	100	Act 2 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	4	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip A	125	Act 2 Coupon A	50								0
-Treasure Goblin Campaign 5	119	15	15	820	820	973	1024	100	Act 2 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	5	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip B	125	Act 2 Coupon B	50								0
-Treasure Goblin Campaign 6	119	18	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	6	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip C	125	Act 2 Coupon C	50								0
-Treasure Goblin Campaign 7	119	20	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	7	yyy	1	qqq	1	"gld,mul=16384"	100	Act 3 Equip A	125	Act 3 Coupon A	50								0
-Treasure Goblin Campaign 8	119	22	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	8	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip B	125	Act 3 Coupon B	50								0
-Treasure Goblin Campaign 9	119	24	15	820	820	973	1024	100	Act 3 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	9	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip C	125	Act 3 Coupon C	50								0
-Treasure Goblin Campaign 10	119	26	15	820	820	973	1024	100	Act 4 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	10	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip A	125	Act 4 Coupon A	50								0
-Treasure Goblin Campaign 11	119	29	15	820	820	973	1024	100	Act 4 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	11	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip B	125	Act 4 Coupon B	50								0
-Treasure Goblin Campaign 12	119	32	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	12	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip A	125	Act 5 Coupon A	50								0
-Treasure Goblin Campaign 13	119	34	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	13	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip B	125	Act 5 Coupon B	50								0
+Treasure Goblin Campaign 1	119	0	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	1	"gld,mul=16384"	100	Act 1 Equip A	125	Act 1 Coupon A	50														0
+Treasure Goblin Campaign 2	119	5	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	2	"gld,mul=16384"	100	Act 1 Equip B	125	Act 1 Coupon B	50														0
+Treasure Goblin Campaign 3	119	9	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	3	"gld,mul=16384"	100	Act 1 Equip C	125	Act 1 Coupon C	50														0
+Treasure Goblin Campaign 4	119	12	15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	4	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip A	125	Act 2 Coupon A	50										0
+Treasure Goblin Campaign 5	119	15	15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	5	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip B	125	Act 2 Coupon B	50										0
+Treasure Goblin Campaign 6	119	18	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	6	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip C	125	Act 2 Coupon C	50										0
+Treasure Goblin Campaign 7	119	20	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	7	yyy	1	qqq	1	"gld,mul=16384"	100	Act 3 Equip A	125	Act 3 Coupon A	50										0
+Treasure Goblin Campaign 8	119	22	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	8	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip B	125	Act 3 Coupon B	50										0
+Treasure Goblin Campaign 9	119	24	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	9	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip C	125	Act 3 Coupon C	50										0
+Treasure Goblin Campaign 10	119	26	15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	10	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip A	125	Act 4 Coupon A	50										0
+Treasure Goblin Campaign 11	119	29	15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	11	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip B	125	Act 4 Coupon B	50										0
+Treasure Goblin Campaign 12	119	32	15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	12	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip A	125	Act 5 Coupon A	50										0
+Treasure Goblin Campaign 13	119	34	15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	13	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip B	125	Act 5 Coupon B	50										0
 Treasure Goblin Campaign 14	119	36	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	14	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip C	125	Act 5 Coupon C	50								0
 Treasure Goblin Campaign 15	119	38	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	15	yyy	3	qqq	3	"gld,mul=16384"	100	Act 1 (N) Equip A	125	Act 1 (N) Coupon A	50								0
 Treasure Goblin Campaign 16	119	40	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	16	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon B	50								0
