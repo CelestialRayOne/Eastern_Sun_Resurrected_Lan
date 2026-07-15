@@ -88,6 +88,7 @@ Ore			1						Unique Ore 12	1	Unique Ore 13	1	Unique Ore 14	1	Unique Ore 15	1	Not
 Special Craft Stuff			2						ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1																0
 Special Craft StuffN			2						ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1																0
 Special Craft StuffH			2						qqq	1	ddd	1	Ore	1	yyy	1	ppp	1	Perfect Gem	1														0
+Legendary Consumables			1						um8	1	um9	1	u20	1	u40	1																		0
 Runes 1			1						r01	35	r02	30	r03	25	01l	14	02l	12	03l	10														0
 Runes 2			1						r04	35	r05	30	r06	25	04l	14	05l	12	06l	10	Runes 1	180												0
 Runes 3			1						r07	35	r08	30	r09	25	07l	12	08l	10	Runes 2	300														0
@@ -103,7 +104,7 @@ Runes 12			1						r34	22	r35	20	r36	18	25l	10	26l	8	Runes 11	2400														0
 Runes 13			1						r37	20	r38	18	r39	16	27l	8	28l	6	Runes 12	2880														0
 Runes 14			1						r40	18	r41	16	r42	14	29l	8	30l	6	Runes 13	3360														0
 Runes 15			1						r43	16	r44	14	r45	12	31l	8	32l	6	Runes 14	3840														0
-Runes 16			1						r50	24	r46	30	33l	18	um8	1	um9	1	u20	1	Runes 15	12960												0
+Runes 16			1						r50	24	r46	30	33l	18	Legendary Consumables	1	Runes 15	12960																0
 Charm JP			6						cx1	1	cx2	1	cx3	1																				0
 Rune JP (Norm)			-6						Runes 6	6																								0
 Rune JP (NM)			-6						Runes 11	6																								0

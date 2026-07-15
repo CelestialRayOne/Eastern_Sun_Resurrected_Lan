@@ -2099,5 +2099,6 @@
   { "m57": { "asset": "spear/maiden_pike" } },
   { "m58": { "asset": "h2h/claws" } },
   { "m59": { "asset": "polearm/necroscythe2" } },
-  { "mjw": { "asset": "gem/perfect_diamond" } }
+  { "mjw": { "asset": "gem/perfect_diamond" } },
+  { "u40": { "asset": "quest/inarius_everburning_halo" } }
 ]

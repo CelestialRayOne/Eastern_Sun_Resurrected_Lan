@@ -2388,6 +2388,94 @@
             "OriginalValues": "0000000000000000000000000000000000000000000000000000",
             "ModdedValues": "41F6451401740A41806514FEE90B90E1FFE9FD8CE1FF ",
             "Values": "41F6451401740A41806514FEE90B90E1FFE9FD8CE1FF"
+        },
+        {
+            "Name": "cloneitem parser hook",
+            "Description": "Cubemain parser sub_1402616B0: token 'cloneitem' -> output type 0xFB; else replay stolen insns (mov rcx,r12 / lea rdx,useitem).",
+            "Category": "Alteration",
+            "Address": "2618FC",
+            "Length": 10,
+            "Type": "Hex",
+            "OriginalValues": "498BCC488D15827C3201",
+            "ModdedValues": "E9F51910009090909090",
+            "Values": "E9F51910009090909090"
+        },
+        {
+            "Name": "cloneitem generator dispatch",
+            "Description": "sub_140306C50 cmp al,0FDh jnz retarget -> clone_check: 0xFB routes to spec-build loc_14030765F (r11d=input[0] classId) so it reaches the hook @307796 and gets output x/y.",
+            "Category": "Alteration",
+            "Address": "307645",
+            "Length": 6,
+            "Type": "Hex",
+            "OriginalValues": "0F8592010000",
+            "ModdedValues": "0F85DFBC0500",
+            "Values": "0F85DFBC0500"
+        },
+        {
+            "Name": "cloneitem clone hook",
+            "Description": "Replaces the call to sub_1402F58C0 @307796 with jmp to clone_hook. For 0xFB outputs, calls sub_1402F83D0(rcx=host, rdx=source=input[0]) = the game's exact item clone (serialize sub_140207610 -> deserialize sub_1402F5770, incl sockets); rax=clone flows into the generator's output store. Other outputs call sub_1402F58C0 unchanged.",
+            "Category": "Alteration",
+            "Address": "307796",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E825E1FEFF",
+            "ModdedValues": "E9AEBB0500",
+            "Values": "E9AEBB0500"
+        },
+        {
+            "Name": "cloneitem cave",
+            "Description": "srvdofunc=122 @3632F6 (136B). parser_hook + dispatch + clone_hook. cloneitem produces an EXACT duplicate via the game's own item-clone sub_1402F83D0 (no rolling) - quality, affixes, exact rolled values, sockets all preserved. ASLR-safe (rel32/RIP-rel).",
+            "Category": "Alteration",
+            "Address": "3632F6",
+            "Length": 136,
+            "Type": "Hex",
+            "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "31C9488D15750000000FB6040B48FFC13A440AFF750F4883F90A75EDC64608FBE9A3E7EFFF4C89E1488D1563622201E9E6E5EFFF3CFB7516488B542478488B024885C07409448B5804E91B43FAFFE99444FAFF41807F54FB751A488B442478488B004885C0740D4889C2E86B50F9FFE93144FAFFE85125F9FFE92744FAFF636C6F6E656974656D00",
+            "Values": "31C9488D15750000000FB6040B48FFC13A440AFF750F4883F90A75EDC64608FBE9A3E7EFFF4C89E1488D1563622201E9E6E5EFFF3CFB7516488B542478488B024885C07409448B5804E91B43FAFFE99444FAFF41807F54FB751A488B442478488B004885C0740D4889C2E86B50F9FFE93144FAFFE85125F9FFE92744FAFF636C6F6E656974656D00"
+        },
+        {
+            "Name": "PetVSPrimeEvil hook",
+            "Description": "Hook @325902 in sub_140325670 (damage-scaling classifier). Replaces 'cmp [r9],eax / jnz loc_140325910' (5B) at the pet-attacker branch tail. Context: r9=target unit, r10=difficultylevels record (base xmmword_141C9FD80, stride 0x80), eax=0 (return of sub_14021F180, tested jnz @325900). Redirects to cave @36337E to widen the target test from 'is player' to 'is player OR is primeevil'.",
+            "Category": "Alteration",
+            "Address": "325902",
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "4139017509",
+            "ModdedValues": "E977DA0300",
+            "Values": "E977DA0300"
+        },
+        {
+            "Name": "PetVSPrimeEvil cave",
+            "Description": "srvdofunc=122 body @36337E (70B), placed after cloneitem cave (3632F6+136=36337E); region 3630E0-3634B8, 243B free after this. Pet-attacker target classification for sub_140325670. If [r9]==0 (target is player) -> eax=[r10+5Ch] PetDamagePercentVSPlayer, jmp 32590B. Else resolve target classId [r9+4]: sign-check, bounds-check vs xmmword_141C9F880, index monstats qword_141C9F878 (stride 0x1DC), null-check, test flag [rec+0x3C]&0x80 (primeevil; boss is &0x40 same byte) -> eax=[r10+44h] MercenaryDamagePercentVSMercenary. Any failure -> jmp 325910 (mov eax,64h; return 100). NOTE: 0x44 is SHARED, not reassigned - the original merc-vs-merc read @3257D4 is untouched and still works. One column value now feeds both merc->merc PvP and pet->primeevil; they cannot be tuned independently. Assembled by keystone at target address; all rel32/RIP-rel machine-generated and verified by independent capstone resolve. ASLR-safe.",
+            "Category": "Alteration",
+            "Address": "36337E",
+            "Length": 70,
+            "Type": "Hex",
+            "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "4139017509418B425CE97F25FCFF4963410485C0782B483B05E5C493014889C1731F4869C1DC010000480305CAC49301740FF6403C807409418B4244E94C25FCFFE94C25FCFF",
+            "Values": "4139017509418B425CE97F25FCFF4963410485C0782B483B05E5C493014889C1731F4869C1DC010000480305CAC49301740FF6403C807409418B4244E94C25FCFFE94C25FCFF"
+        },
+        {
+            "Name": "Att-skill proc recursion fix - event node re-entrancy hook",
+            "Description": "Hook at 389EE7 in sub_140389E80 (SUNITEVENT_Trigger), inside the event-registration node walk over [pDefender+0xE0] chained via [node+0x28]. Replaces 'cmp eax,ebp / jnz 389F75' (8 bytes) with jmp to cave 3633C4 + 3 NOPs; the NOPs land exactly on 389EEF (the run-this-handler fall-through). rbx=current node, ebp=requested event id, eax=node's event id, rdi=next node (already loaded at 389EE3 before the compare, so the skip path is safe).",
+            "Category": "Bug Fix",
+            "Address": "389EE7",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "3BC50F8586000000",
+            "ModdedValues": "E9D894FDFF909090",
+            "Values": "E9D894FDFF909090"
+        },
+        {
+            "Name": "Att-skill proc recursion fix - re-entrancy guard cave",
+            "Description": "Cave @3633C4 (20B) in stomped srvdofunc=122 region (3630E0-3634B9), after PetVSPrimeEvil cave (ends 3633C4); 225B free after (3633D8-3634B9). Replicates the original event-id compare, then additionally skips any node whose in-progress bit is already set. Engine sets [node+2]|=1 at 389EFC before 'call r10' (389F16) and clears it at 389F25, so the bit is set exactly while that node's handler is executing. Logic: cmp eax,ebp / jne skipnode / test byte [rbx+2],1 / jne skipnode / jmp 389EEF (run handler) / skipnode @3633D3: jmp 389F75 (advance to next node). Breaks the synchronous domeleeattack recursion (event7 -> auraeventfunc[20] sub_140351BF0 -> sub_140365470 -> PROC_FireSkill sub_140365060 -> skill-start sub_140298810 -> srvdofunc via table -> DrainItemDurability -> event7) at depth 1. Stateless: no storage, no flag bit, no clear site, no writes to .text. Assembled by keystone at target address; all rel8/rel32 independently re-resolved from emitted bytes by capstone and asserted on instruction boundaries. ASLR-safe.",
+            "Category": "Bug Fix",
+            "Address": "3633C4",
+            "Length": 20,
+            "Type": "Hex",
+            "OriginalValues": "0000000000000000000000000000000000000000",
+            "ModdedValues": "3BC5750BF64302017505E91C6B0200E99D6B0200",
+            "Values": "3BC5750BF64302017505E91C6B0200E99D6B0200"
         }
     ]
 }

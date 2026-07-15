@@ -58309,5 +58309,39 @@
     "ptBR": "Brasa da Criação",
     "zhCN": "创世余烬",
     "ruRU": "Уголь творения"
+  },
+  {
+    "id": 28166,
+    "Key": "u40",
+    "enUS": "ÿc@Inarius' Everburning Halo",
+    "zhTW": "創世餘燼",
+    "deDE": "Glut der Schöpfung",
+    "esES": "Ascua de la Creación",
+    "frFR": "Braise de la création",
+    "itIT": "Brace della Creazione",
+    "koKR": "창조의 불씨",
+    "plPL": "Żar Stworzenia",
+    "esMX": "Ascua de la Creación",
+    "jaJP": "創造の残り火",
+    "ptBR": "Brasa da Criação",
+    "zhCN": "创世余烬",
+    "ruRU": "Уголь творения"
+  },
+  {
+    "id": 28167,
+    "Key": "inariuseverburninghalo",
+    "enUS": "copy of it. ÿc4Brandedÿc0 items cannot be modified in any way\nTransmute this with any equippable, non-runeword item to make a ÿc4brandedÿc0",
+    "zhTW": "創世餘燼",
+    "deDE": "Glut der Schöpfung",
+    "esES": "Ascua de la Creación",
+    "frFR": "Braise de la création",
+    "itIT": "Brace della Creazione",
+    "koKR": "창조의 불씨",
+    "plPL": "Żar Stworzenia",
+    "esMX": "Ascua de la Creación",
+    "jaJP": "創造の残り火",
+    "ptBR": "Brasa da Criação",
+    "zhCN": "创世余烬",
+    "ruRU": "Уголь творения"
   }
 ]
