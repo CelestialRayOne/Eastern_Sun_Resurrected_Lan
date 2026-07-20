@@ -2100,5 +2100,6 @@
   { "m58": { "asset": "h2h/claws" } },
   { "m59": { "asset": "polearm/necroscythe2" } },
   { "mjw": { "asset": "gem/perfect_diamond" } },
-  { "u40": { "asset": "quest/inarius_everburning_halo" } }
+  { "u40": { "asset": "quest/inarius_everburning_halo" } },
+  { "m60": { "asset": "armor/light_plate" } }
 ]

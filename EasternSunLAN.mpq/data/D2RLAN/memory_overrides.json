@@ -225,75 +225,37 @@
             "ModdedValues": "9090E90F01000090"
         },
         {
-            "Name": "Make Attack Rating not depend on level difference 1/5",
-            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Name": "Attack rating piecewise hit-chance - shared region",
+            "Description": "Piecewise hit-chance replacing vanilla level-scaled to-hit. Q=AR*64/Def. Below pivot 5 (Q<320): sigmoid 100*Q^5/(Q^5 + 3125*64^5), keeping the low-AR penalty. At/above pivot (Q>=320): continuous asymptotic tail 50 + 50*(Q-320)/(Q+64) (=50 + 50*x/(x+384) in Q-units, tail=6), no cliff at the seam (both pieces = 50% at the pivot). Either piece snaps to 100 at >=99.5% (permille>=995). Written into freed cltdofunc=93 (MonDoCorpseCycler sub_1401A2A50, 270B; ESR never dispatches it) as a shared body + two call stubs: BODY @1A2A50 (185B, in r8d=AR/ecx=Def/rax=AR-sxd, out eax=[0,100], ends ret; volatile rax,rcx,rdx,r8,r9,r10 only) / COMBAT STUB @1A2B09 (25B: normalize eax=AR,esi=Def -> call body -> edi=chance, eax=0x51EB851F, jmp 329CF4) / DISPLAY STUB @1A2B22 (18B: normalize r9d=AR,edx=Def -> call body -> jmp BFE867). 228B used, 42B free.",
             "Category": "Alteration",
-            "Address": "329cc8",
-            "Length": 5,
+            "Address": "1a2a50",
+            "Length": 228,
             "Type": "Hex",
-            "Values": "9090909090",
-            "OriginalValues": "0faf542448",
-            "ModdedValues": "9090909090"
+            "OriginalValues": "48895C240848896C24104889742418574881ECA00000004863F2418BE8488BF985D20F88CB000000483B3559D0AF01488BC60F83BB0000004869D88402000048031D3AD0AF010F84A70000000FBF830C0100006685C00F88970000003B0596CFAF010F8D8B000000E8F319F0FF488BCFE80B5806004885C07479488B78704885FF74704533C0488BCF418D5003E87E82F0FF0F57C0488D4C24200F1144242033D20F114424300F114424400F114424500F114424600F114424700F118424800000000F118424900000000FBF830C010000894424408974245C896C246048897C24284889",
+            "ModdedValues": "85C90F84A80000004585C00F84A500000048C1E0064831D24863C948F7F1483D4001000073494989C0490FAFC0490FAFC0490FAFC0490FAFC04989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE3030000734F4C89C8486BC0644831D249F7F2C34989C14989C04981E8400100004983C1404C89C04869C0F40100004831D249F7F14805F4010000483DE303000073124C89C0486BC0324831D249F7F14883C032C3B864000000C331C0C34863C089F14189C0E83AFFFFFF89C7B81F85EB51E9D27118004589C84963C089D1E821FFFFFFE933BDA500",
+            "Values": "85C90F84A80000004585C00F84A500000048C1E0064831D24863C948F7F1483D4001000073494989C0490FAFC0490FAFC0490FAFC0490FAFC04989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE3030000734F4C89C8486BC0644831D249F7F2C34989C14989C04981E8400100004983C1404C89C04869C0F40100004831D249F7F14805F4010000483DE303000073124C89C0486BC0324831D249F7F14883C032C3B864000000C331C0C34863C089F14189C0E83AFFFFFF89C7B81F85EB51E9D27118004589C84963C089D1E821FFFFFFE933BDA500"
         },
         {
-            "Name": "Make Attack Rating not depend on level difference 2/5",
-            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Name": "Attack rating piecewise hit-chance - combat hook",
+            "Description": "Hook at 329CB9 (lea ecx,[rax+rsi], eax=AR esi=Def both clamped >=0). Overwrites the level-scaling + [5,95] clamp span (329CB9..329CF3, 59B) with jmp to the combat stub @1A2B09 + NOP pad landing exactly on 329CF4 (RNG chain re-entry). Stub returns chance in edi and restores eax=0x51EB851F.",
             "Category": "Alteration",
-            "Addresses": [
-                "329cd2",
-                "329cd6"
-            ],
-            "Length": 4,
+            "Address": "329cb9",
+            "Length": 59,
             "Type": "Hex",
-            "Values": "90909090",
-            "OriginalValues": "8b4c244c,034c2448",
-            "ModdedValues": "90909090"
+            "OriginalValues": "8D0C3085C974086BC06499F7F98BD00FAF542448BF5F0000008B4C244C034C24488D041299F7F9B9050000003BC10F4FC8B81F85EB513BCF0F4CF9",
+            "ModdedValues": "E94B8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+            "Values": "E94B8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
         },
         {
-            "Name": "Make Attack Rating not depend on level difference 3/5",
-            "Description": "Completely remove the level difference scaling from the AR formula",
+            "Name": "Attack rating piecewise hit-chance - display hook",
+            "Description": "Hook at BFE7F8 (imul eax,r9d,0x64, bytes 41 6B C1 64; r9d=eff AR, edx=eff Def) in sub_140BFE640. Overwrites the ratio+scaling span (BFE7F8..BFE804, 13B) with jmp to the display stub @1A2B22 + NOP pad to BFE805. The stub computes the same piecewise value into eax and jumps to the return epilogue BFE867, bypassing the stock second scaling and the [5,95] clamp, so the character sheet matches combat.",
             "Category": "Alteration",
-            "Address": "329cda",
-            "Length": 3,
+            "Address": "bfe7f8",
+            "Length": 13,
             "Type": "Hex",
-            "Values": "909090",
-            "OriginalValues": "8d0412",
-            "ModdedValues": "909090"
-        },
-        {
-            "Name": "Make Attack Rating not depend on level difference 4/5",
-            "Description": "Completely remove the level difference scaling from the AR formula",
-            "Category": "Alteration",
-            "Address": "329cdd",
-            "Length": 1,
-            "Type": "Hex",
-            "Values": "90",
-            "OriginalValues": "99",
-            "ModdedValues": "90"
-        },
-        {
-            "Name": "Make Attack Rating not depend on level difference 5/5",
-            "Description": "Completely remove the level difference scaling from the AR formula",
-            "Category": "Alteration",
-            "Address": "329cde",
-            "Length": 2,
-            "Type": "Hex",
-            "Values": "9090",
-            "OriginalValues": "f7f9",
-            "ModdedValues": "9090"
-        },
-        {
-            "Name": "Make Attack Rating not depend on level difference (display)",
-            "Description": "Completely remove the level difference scaling from the AR formula",
-            "Category": "Alteration",
-            "Addresses": [
-                "bfe852"
-            ],
-            "Length": 11,
-            "Type": "Hex",
-            "Values": "89e8909090909090909090",
-            "OriginalValues": "440FAFC5438D040099F7F9",
-            "ModdedValues": "89e8909090909090909090"
+            "OriginalValues": "416BC164428D0C0A99F7F98BE8",
+            "ModdedValues": "E925435AFF9090909090909090",
+            "Values": "E925435AFF9090909090909090"
         },
         {
             "Name": "Increase item drop cap of monsters to 50 (jump to cave)",
@@ -2476,6 +2438,50 @@
             "OriginalValues": "0000000000000000000000000000000000000000",
             "ModdedValues": "3BC5750BF64302017505E91C6B0200E99D6B0200",
             "Values": "3BC5750BF64302017505E91C6B0200E99D6B0200"
+        },
+        {
+            "Name": "Poison immunity - state gate hook",
+            "Description": "Hook at 321D9D in sub_140321D70 (the state-2 poison applier; called from the damage resolver at 32734A, 32738D, 32750E). Replaces 'mov rdx,[rip+197CE54]' (7 bytes, loads states-count global 141C9EBF8) with jmp to cave 3633D8 + 2 NOPs; NOPs land exactly on 321DA4. Post-prologue, after both early-outs (r9d dmg<=0 at 321D73, r8d len<=0 at 321D97). pUnit is in RSI here (mov rsi,rdx at 321D8E). Blocks the poison STATE (the damage-over-time) from applying to a unit with state 25.",
+            "Category": "Alteration",
+            "Address": "321D9D",
+            "Length": 7,
+            "Type": "Hex",
+            "OriginalValues": "488B1554CE9701",
+            "ModdedValues": "E9361604009090",
+            "Values": "E9361604009090"
+        },
+        {
+            "Name": "Poison immunity - state gate cave",
+            "Description": "Cave @3633D8 (56B) in stomped srvdofunc=122 region (3630E0-3634B9). Mirrors the stock STATE_CANNOTFREEZE gate at 322E75: cmp dword [rip->141C9EBF8 states count],25 / jle resume / mov rax,[rsi+88h] (pStatList) / test rax,rax / je resume / cmp dword [rax+1Ch],0 / jge resume / test dword [rax+0AC8h],2000000h (bitmap idx0 bit25 = state 25) / je resume / jmp 3220EE (IMMUNE - bails via post-prologue epilogue 'add rsp,38h/pop r15,r14,rdi,rsi/ret'; NOT 3220F8, the bare ret used only by the pre-prologue early-out) / resume @363404: mov rdx,[rip->141C9EBF8] (replicates stomped load) / jmp 321DA4.",
+            "Category": "Alteration",
+            "Address": "3633D8",
+            "Length": 56,
+            "Type": "Hex",
+            "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "833D19B89301197E23488B86880000004885C0741783781C007D11F780C80A0000000000027405E9EAECFBFF488B15EDB79301E994E9FBFF",
+            "Values": "833D19B89301197E23488B86880000004885C0741783781C007D11F780C80A0000000000027405E9EAECFBFF488B15EDB79301E994E9FBFF"
+        },
+        {
+            "Name": "Poison immunity - exclude poison from damage total hook",
+            "Description": "Hook at 32677E in sub_140325AF0 (resistance calc, called from the resolver at 3270C5). Replaces 'add edx,[r13+3Ch] / add edx,[r13+34h]' (8 bytes) with jmp to cave 363410 + 3 NOPs; lands exactly on 326786. This is the damage summation that builds [r13+13Ch] (a4[79]) - the HP damage total later passed to sub_1403212C0 at 32722A, which floors at 0 and is what kills a player at 1hp. Field map from the function's own string labels: [r13+1Ch]=Dam physical, [r13+24h]=Fire, [r13+30h]=Ligt, [r13+34h]=Cold, [r13+38h]=Magc, [r13+3Ch]=Pois. Hooking here isolates the poison term BEFORE it merges into the total, so only poison is excluded - physical and all other elements are untouched. r13=pDamageStrc; pDefender is at [rsp+58h] (stored by 'mov [rsp+58h],r8' at 325B49).",
+            "Category": "Alteration",
+            "Address": "32677E",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "4103553C41035534",
+            "ModdedValues": "E98DCC0300909090",
+            "Values": "E98DCC0300909090"
+        },
+        {
+            "Name": "Poison immunity - exclude poison from damage total cave",
+            "Description": "Cave @363410 (65B) in stomped srvdofunc=122 region; 104B free after (363451-3634B9). Excludes ONLY the poison damage component from the HP damage total for units with state 25. Logic: push rax / mov rax,[rsp+60h] (pDefender; +8 for our push) / test rax,rax / je addpois / mov rax,[rax+88h] (pStatList) / test rax,rax / je addpois / cmp dword [rax+1Ch],0 / jge addpois / test dword [rax+0AC8h],2000000h (state 25) / je addpois / IMMUNE @363439: pop rax / add edx,[r13+34h] (Cold only - poison term skipped) / jmp 326786 / addpois @363443: pop rax / add edx,[r13+3Ch] (Pois) / add edx,[r13+34h] (Cold) / jmp 326786. Both exit paths pop rax exactly once. Physical, Fire, Lightning, Cold and Magic are summed normally on every path. Assembled by keystone at target address; all rel8/rel32 independently re-resolved from emitted bytes by capstone and asserted on instruction boundaries. ASLR-safe.",
+            "Category": "Alteration",
+            "Address": "363410",
+            "Length": 65,
+            "Type": "Hex",
+            "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "50488B4424604885C07428488B80880000004885C0741C83781C007D16F780C80A000000000002740A5841035534E94333FCFF584103553C41035534E93533FCFF",
+            "Values": "50488B4424604885C07428488B80880000004885C0741C83781C007D16F780C80A000000000002740A5841035534E94333FCFF584103553C41035534E93533FCFF"
         }
     ]
 }

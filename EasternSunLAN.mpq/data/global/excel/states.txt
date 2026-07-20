@@ -24,7 +24,7 @@ stunned	21																																										stun																								
 spiderlay	22																																																																						0
 dimvision	23						1	1																																			cursedimvision					curse_hit														necromancer_dimvision									0
 slowed	24																																																																						0
-blazeclone	25																																																		3			Blaze Test																	0
+poisonimmunity	25																																																																						0
 shout	26					1								1																													shout					shoutstart		skill_armor_percent																					0
 greennoheal	27																																		1	1																					95	104	128	255	128	impact_poison_1									0
 conviction	28					1																																					convictionfront	convictionback																		paladin_aura_purification									0
@@ -199,7 +199,7 @@ finditem	196																																																	item_magicbonus				
 strengthancients	197																																																																						0
 ascendancy	198					1																																					valkyrie																												0
 shadearmor	199	2												1																																					item_armor_percent																				0
-placeholder200	200					1																																					null					ice_explode		velocitypercent							100	108	150	215	255	impact_bluemotize_1									0
+hypothermia	200					1																																					lich_king_essence_front																			paladin_aura_holywind									0
 commandmastery	201																																																																						0
 superteleport	202																																										aura_elemcry							coldresist												barbarian_battlecry_state									0
 howl	203																																										taunt																			barbarian_battlecry_state									0

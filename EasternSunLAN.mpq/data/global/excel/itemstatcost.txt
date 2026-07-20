@@ -66,8 +66,8 @@ manadrainmaxdam	63		1	16																												1																			0
 stamdrainmindam	64		1	16																												1																			0
 stamdrainmaxdam	65		1	16																												1																			0
 stunlength	66			16																												1																			0
-velocitypercent	67	1	1	16		1												8	50	8	50																293	19		basemovementspeed	basemovementspeed										0
-attackrate	68	1	1	16		1												8	50	8	50											1					293	19		baseattackspeed	baseattackspeed										0
+velocitypercent	67	1	1	16		1												8	50	8	50																293	19		basemovementspeed	basemovementspeed									2	0
+attackrate	68	1	1	16		1												8	50	8	50											1					293	19		baseattackspeed	baseattackspeed									2	0
 other_animrate	69	1	1	16		1																																													0
 quantity	70		1	16																												1																			0
 value	71		1	9														8	100	8	100																														0
@@ -163,7 +163,7 @@ item_throw_maxdamage	160		1	10											22	32		8	0	8	0											1													
 kill_base	161			32			1	0	32																					1																					0
 skill_staminapercent	162		1	13																				11			maxstamina	item_stamina_perlevel																							0
 placeholder163	163		1	12																				1			maxstamina																								0
-skill_concentration	164		1	12																																	133	19		uninterruptible	uninterruptible									2	0
+skill_concentration	164		1	12																8	100																133	19		uninterruptible	uninterruptible									2	0
 skill_enchant	165		1	12																																															0
 skill_pierce	166		1	12	16																																132	19		skillpiercingattack	skillpiercingattack									2	0
 skill_conviction	167		1	12																																															0
@@ -299,7 +299,7 @@ item_crossbowpassive	296		1	12																1	0																														0
 placeholder297	297		1	12											310	62				9	100											1																			0
 placeholder298	298		1	12											310	62				9	100											1																			0
 extra_crossbow_bolts	299		1	12																9	2																51	19		extracrossbowbolts	extracrossbowbolts										0
-skillcontrol2	300		1	1																32																	5	3	2	46a	46a										0
+placeholder300	300		1	1																32																	5	3	2	46a	46a										0
 kill_dummy	301			32																																															0
 kill_display	302			32																1				2	0	kill_base	kill_dummy										305	3	2	killtracker	killtracker									2	0
 passive_summ_mastery_total	303		1	10											125	250				9	100			1			passive_summ_mastery										297	19		ModitemdamSummskTotal	ModitemdamSummskTotal									2	0
@@ -424,7 +424,7 @@ runemaster	421		1	14							1									10																															0
 item_skilloncast	422		1	10	20						1			2				21	0	8	0	18											doactive	20			160	15		Moditemskoncast	Moditemskoncast									2	0
 item_skilloncast_hidden	423		1	10	20						1			2				21	0	8	0	18											doactive	20																	0
 branded	424		1	3																3	1																1	19		branded	branded										0
-placeholder425	425		1	14																																															0
+totalmaxhp	425		1	16																9	300			11			maxhp																								0
 placeholder426	426		1	14																																															0
 placeholder427	427		1	14																																															0
 placeholder428	428		1	14																																															0

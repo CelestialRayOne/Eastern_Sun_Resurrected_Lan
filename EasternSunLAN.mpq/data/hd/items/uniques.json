@@ -4394,5 +4394,19 @@
       "uber": "gem/ember_of_creation",
       "ultra": "gem/ember_of_creation"
     }
+  },
+  {
+    "constricting_ring": {
+      "normal": "ring/constricting_ring",
+      "uber": "ring/constricting_ring",
+      "ultra": "ring/constricting_ring"
+    }
+  },
+  {
+    "the_soul_engine": {
+      "normal": "armor/the_soul_engine",
+      "uber": "armor/the_soul_engine",
+      "ultra": "armor/the_soul_engine"
+    }
   }
 ]

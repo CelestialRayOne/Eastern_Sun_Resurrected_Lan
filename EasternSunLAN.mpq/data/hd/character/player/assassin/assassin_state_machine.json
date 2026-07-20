@@ -7093,6 +7093,44 @@
             },
             "enterEvents": [],
             "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState002",
+            "_name": "SKILL_FRENZY",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 95,
+            "enableVfxAttributes": false,
+            "modeId": 18,
+            "skillIndex": 574,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "hth_attack3"
+                ],
+                "ht1": [
+                    "ht1_attack3"
+                ],
+                "ht2": [
+                    "ht2_sequence"
+                ],
+                "1js": [
+                    "ht1_attack3"
+                ],
+                "1jt": [
+                    "ht1_attack3"
+                ],
+                "1ss": [
+                    "ht1_attack3"
+                ],
+                "1st": [
+                    "ht1_attack3"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": [],
+            "exitBlendType": 0
         }
     ],
     "transitions": [
