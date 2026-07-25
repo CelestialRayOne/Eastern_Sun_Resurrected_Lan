@@ -299,7 +299,7 @@ item_crossbowpassive	296		1	12																1	0																														0
 placeholder297	297		1	12											310	62				9	100											1																			0
 placeholder298	298		1	12											310	62				9	100											1																			0
 extra_crossbow_bolts	299		1	12																9	2																51	19		extracrossbowbolts	extracrossbowbolts										0
-placeholder300	300		1	1																32																	5	3	2	46a	46a										0
+skillcontrol2	300		1	12																																															0
 kill_dummy	301			32																																															0
 kill_display	302			32																1				2	0	kill_base	kill_dummy										305	3	2	killtracker	killtracker									2	0
 passive_summ_mastery_total	303		1	10											125	250				9	100			1			passive_summ_mastery										297	19		ModitemdamSummskTotal	ModitemdamSummskTotal									2	0

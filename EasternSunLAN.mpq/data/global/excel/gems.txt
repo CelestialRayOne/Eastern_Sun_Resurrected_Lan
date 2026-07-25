@@ -125,7 +125,7 @@ Ohm Rune	r77l	18	r77	dmg%		65	65	runemaster		1	1					res-cold-max		4	4	runemaste
 Lo Rune	r78l	18	r78	deadly		30	30	runemaster		1	1					res-ltng-max		4	4	runemaster		1	1					res-ltng-max		4	4	runemaster		1	1				0
 Sur Rune	r79l	18	r79	slow		18	18	runemaster		1	1					mana%		18	18	runemaster		1	1					mana		75	75	runemaster		1	1				0
 Ber Rune	r80l	18	r80	crush		30	30	runemaster		1	1					red-dmg%		12	12	runemaster		1	1					red-dmg%		12	12	runemaster		1	1				0
-Jah Rune	r81l	18	r81	ignore-ac		1	1	runemaster		1	1					hp%		18	18	runemaster		1	1					hp		75	75	runemaster		1	1				0
+Jah Rune	r81l	18	r81	reduce-ac		33	33	runemaster		1	1					hp%		18	18	runemaster		1	1					hp		75	75	runemaster		1	1				0
 Cham Rune	r82l	18	r82	freeze		5	5	runemaster		1	1					nofreeze		1	1	runemaster		1	1					nofreeze		1	1	runemaster		1	1				0
 Zod Rune	r83l	18	r83	indestruct		1	1	runemaster		1	1					indestruct		1	1	runemaster		1	1					indestruct		1	1	runemaster		1	1				0
 Moon Rune	r84l	18	r84	allskills		1	1	extra-mag2		15	15	runemaster		1	1	allskills		1	1	abs-mag%		3	3	runemaster		1	1	allskills		1	1	abs-mag%		3	3	runemaster		1	1

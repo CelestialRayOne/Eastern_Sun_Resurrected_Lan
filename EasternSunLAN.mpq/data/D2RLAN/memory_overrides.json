@@ -225,37 +225,46 @@
             "ModdedValues": "9090E90F01000090"
         },
         {
-            "Name": "Attack rating piecewise hit-chance - shared region",
-            "Description": "Piecewise hit-chance replacing vanilla level-scaled to-hit. Q=AR*64/Def. Below pivot 5 (Q<320): sigmoid 100*Q^5/(Q^5 + 3125*64^5), keeping the low-AR penalty. At/above pivot (Q>=320): continuous asymptotic tail 50 + 50*(Q-320)/(Q+64) (=50 + 50*x/(x+384) in Q-units, tail=6), no cliff at the seam (both pieces = 50% at the pivot). Either piece snaps to 100 at >=99.5% (permille>=995). Written into freed cltdofunc=93 (MonDoCorpseCycler sub_1401A2A50, 270B; ESR never dispatches it) as a shared body + two call stubs: BODY @1A2A50 (185B, in r8d=AR/ecx=Def/rax=AR-sxd, out eax=[0,100], ends ret; volatile rax,rcx,rdx,r8,r9,r10 only) / COMBAT STUB @1A2B09 (25B: normalize eax=AR,esi=Def -> call body -> edi=chance, eax=0x51EB851F, jmp 329CF4) / DISPLAY STUB @1A2B22 (18B: normalize r9d=AR,edx=Def -> call body -> jmp BFE867). 228B used, 42B free.",
+            "Name": "Attack rating reworked hit-chance - body (cave 89)",
+            "Description": "NEW reworked body in freed cltdofunc=89 (MonDoVineBeast sub_1401A25E0). Identical to tail=3 for r<30 (Q<1920): sigmoid below pivot, plain tail=3 upper. For 1920<=Q<6400 (r in [30,100]) smoothstep-blend tail3->tail1 (w=3s^2-2s^3, s=(Q-1920)/4480); Q>=6400 pure tail1. Snaps to 100 at permille>=995 (reached at r=104). Entry contract identical to old body (in r8d=AR/ecx=Def/rax=AR-sxd, out eax=[0,100], ret; volatile rax,rcx,rdx,r8,r9,r10 only). 404B in the 1126B cave. Verified: 0 mismatch vs current for r<30; emulated 1990 AR/Def cases 0 mismatch.",
+            "Category": "Alteration",
+            "Address": "1a25e0",
+            "Length": 404,
+            "Type": "Hex",
+            "OriginalValues": "40535556574155415641574883EC50488BD94885C90F843A0400008339010F8531040000BE260100008BD6E8D0660700488BF84885C0756F488B8B000100004885C9742A488B094885C974220F1F4000488B016639307506837944FF740B488B49084885C975E9EB054885C975128BD6488BCBE8286A0700488BC84885C07407C74138010000008BD6488BCBE83F6107008BD6488BCBE865660700488BF84885C00F84AE030000837F44FF488B078B6F384C0FBF2844896C243475104533C0488BD7488BCBE8E682070003E8488B05B5D6AF0133F6448B7F2C85ED8BCE0F4FCD448B00413BC8418D470189472C440F4CC18B4724894424308B47284489842490000000898424A80000004585ED0F88420300004C3B2DDED3AF01498BC50F83320300004C69F0840200004C0335BFD3AF010F841E030000418B8638010000488B159BC3AF018BC84C89A42498000000483BC272048BEEEB5548030D79C3AF014C8D0D3ADB65012BD04489442444488D44243848895C243848894424284C8D057D5E0700C74424200700000044896C2440E84BE152",
+            "Values": "85C90F84830100004585C00F848001000048C1E0064831D24863C948F7F1483D40010000734D4989C1490FAFC1490FAFC1490FAFC1490FAFC14989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE30300000F83260100004C89C8486BC0644831D249F7F2C34989C1482D400100004989C24981F9800700000F82970000004981F9001900000F83BC0000004489D069C0F401000031D24489C981E980000000F7F105F40100004189C04489D069C0F401000031D24489C981E900010000F7F105F40100004189C24489C82D80070000C1E00C31D2B980110000F7F189C10FAFC1C1E80C4189C10FAFC1C1E80C67438D144901C029C24489D04429C00FAFC2C1E80C4401C03DE30300007372B90A00000031D2F7F1C34489D069C0F401000031D24489C981E980000000F7F1678D90F401000081FAE30300007343B90A00000031D2F7F183C032C34C89D04869C0F40100004831D24C89C94881E90001000048F7F1678D90F401000081FAE3030000730DB90A00000031D2F7F183C032C3B864000000C331C0C3"
+        },
+        {
+            "Name": "Attack rating piecewise hit-chance - shared region (stubs retargeted)",
+            "Description": "Existing 1A2A50 region, unchanged EXCEPT the two stub call targets retargeted 1A2A50->1A25E0 (combat stub @1A2B0C and display stub @1A2B25 now call the reworked body in cave 89). Old tail=3 body bytes at 1A2A50 remain but are dead (never dispatched: cltdofunc=93 unused). Only 8 bytes differ vs the previous region patch (the two call rel32s).",
             "Category": "Alteration",
             "Address": "1a2a50",
-            "Length": 228,
+            "Length": 231,
             "Type": "Hex",
-            "OriginalValues": "48895C240848896C24104889742418574881ECA00000004863F2418BE8488BF985D20F88CB000000483B3559D0AF01488BC60F83BB0000004869D88402000048031D3AD0AF010F84A70000000FBF830C0100006685C00F88970000003B0596CFAF010F8D8B000000E8F319F0FF488BCFE80B5806004885C07479488B78704885FF74704533C0488BCF418D5003E87E82F0FF0F57C0488D4C24200F1144242033D20F114424300F114424400F114424500F114424600F114424700F118424800000000F118424900000000FBF830C010000894424408974245C896C246048897C24284889",
-            "ModdedValues": "85C90F84A80000004585C00F84A500000048C1E0064831D24863C948F7F1483D4001000073494989C0490FAFC0490FAFC0490FAFC0490FAFC04989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE3030000734F4C89C8486BC0644831D249F7F2C34989C14989C04981E8400100004983C1404C89C04869C0F40100004831D249F7F14805F4010000483DE303000073124C89C0486BC0324831D249F7F14883C032C3B864000000C331C0C34863C089F14189C0E83AFFFFFF89C7B81F85EB51E9D27118004589C84963C089D1E821FFFFFFE933BDA500",
-            "Values": "85C90F84A80000004585C00F84A500000048C1E0064831D24863C948F7F1483D4001000073494989C0490FAFC0490FAFC0490FAFC0490FAFC04989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE3030000734F4C89C8486BC0644831D249F7F2C34989C14989C04981E8400100004983C1404C89C04869C0F40100004831D249F7F14805F4010000483DE303000073124C89C0486BC0324831D249F7F14883C032C3B864000000C331C0C34863C089F14189C0E83AFFFFFF89C7B81F85EB51E9D27118004589C84963C089D1E821FFFFFFE933BDA500"
+            "OriginalValues": "48895C240848896C24104889742418574881ECA00000004863F2418BE8488BF985D20F88CB000000483B3559D0AF01488BC60F83BB0000004869D88402000048031D3AD0AF010F84A70000000FBF830C0100006685C00F88970000003B0596CFAF010F8D8B000000E8F319F0FF488BCFE80B5806004885C07479488B78704885FF74704533C0488BCF418D5003E87E82F0FF0F57C0488D4C24200F1144242033D20F114424300F114424400F114424500F114424600F114424700F118424800000000F118424900000000FBF830C010000894424408974245C896C246048897C242848897C2430",
+            "Values": "85C90F84AB0000004585C00F84A800000048C1E0064831D24863C948F7F1483D4001000073494989C0490FAFC0490FAFC0490FAFC0490FAFC04989C149BA000000400D0300004D01CA4C89C84869C0E80300004831D249F7F2483DE303000073524C89C8486BC0644831D249F7F2C34989C14989C04981E8400100004981E9800000004C89C04869C0F40100004831D249F7F14805F4010000483DE303000073124C89C0486BC0324831D249F7F14883C032C3B864000000C331C0C34863C089F14189C0E8C7FAFFFF89C7B81F85EB51E9CF7118004589C84963C089D1E8AEFAFFFFE930BDA500"
         },
         {
             "Name": "Attack rating piecewise hit-chance - combat hook",
-            "Description": "Hook at 329CB9 (lea ecx,[rax+rsi], eax=AR esi=Def both clamped >=0). Overwrites the level-scaling + [5,95] clamp span (329CB9..329CF3, 59B) with jmp to the combat stub @1A2B09 + NOP pad landing exactly on 329CF4 (RNG chain re-entry). Stub returns chance in edi and restores eax=0x51EB851F.",
+            "Description": "Hook at 329CB9 (lea ecx,[rax+rsi], eax=AR esi=Def both clamped >=0). Overwrites the level-scaling + [5,95] clamp span (329CB9..329CF3, 59B) with jmp to the combat stub @1A2B0C + NOP pad landing exactly on 329CF4 (RNG chain re-entry). Stub returns chance in edi and restores eax=0x51EB851F.",
             "Category": "Alteration",
             "Address": "329cb9",
             "Length": 59,
             "Type": "Hex",
             "OriginalValues": "8D0C3085C974086BC06499F7F98BD00FAF542448BF5F0000008B4C244C034C24488D041299F7F9B9050000003BC10F4FC8B81F85EB513BCF0F4CF9",
-            "ModdedValues": "E94B8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
-            "Values": "E94B8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+            "ModdedValues": "E94E8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+            "Values": "E94E8EE7FF909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
         },
         {
             "Name": "Attack rating piecewise hit-chance - display hook",
-            "Description": "Hook at BFE7F8 (imul eax,r9d,0x64, bytes 41 6B C1 64; r9d=eff AR, edx=eff Def) in sub_140BFE640. Overwrites the ratio+scaling span (BFE7F8..BFE804, 13B) with jmp to the display stub @1A2B22 + NOP pad to BFE805. The stub computes the same piecewise value into eax and jumps to the return epilogue BFE867, bypassing the stock second scaling and the [5,95] clamp, so the character sheet matches combat.",
+            "Description": "Hook at BFE7F8 (imul eax,r9d,0x64, bytes 41 6B C1 64; r9d=eff AR, edx=eff Def) in sub_140BFE640. Overwrites the ratio+scaling span (BFE7F8..BFE804, 13B) with jmp to the display stub @1A2B25 + NOP pad to BFE805. The stub computes the same piecewise value into eax and jumps to the return epilogue BFE867, bypassing the stock second scaling and the [5,95] clamp, so the character sheet matches combat.",
             "Category": "Alteration",
             "Address": "bfe7f8",
             "Length": 13,
             "Type": "Hex",
             "OriginalValues": "416BC164428D0C0A99F7F98BE8",
-            "ModdedValues": "E925435AFF9090909090909090",
-            "Values": "E925435AFF9090909090909090"
+            "ModdedValues": "E928435AFF9090909090909090",
+            "Values": "E928435AFF9090909090909090"
         },
         {
             "Name": "Increase item drop cap of monsters to 50 (jump to cave)",
@@ -1882,24 +1891,23 @@
             "Values": "4D85C07417418B0085C07510418B400C85C0740583F811750331C0C348895C2408E945A6FCFF"
         },
         {
-            "Name": "Protect states 208/223/234/250 from finisher discharge - Hook",
-            "Description": "Hook at RVA 3560FA inside sub_1403560C0 (finisher charge-expend helper; sole caller sub_140355B00 = progressive-skill server function). At this point rbx = a1 (arg-pack), ecx = decquant ([skillRec+0x1C7]=455), and the next two original instructions are 'mov rax,[rbx+8]' (rax=&progressiveCount) + 'sub [rax],ecx' (count -= decquant). Overwrites those 6 bytes with 'jmp 3870C0' (E9 rel32) + 1 nop. The cave reads the state id (a1[6] = [rbx+0x30], word) and if it is one of {208,223,234,250} forces ecx=0 so the decrement subtracts nothing; either way it replays 'mov rax,[rbx+8]; sub [rax],ecx' and returns to 14035610 0. With count unchanged (>=1) for protected states, sub_1403560C0's own 'cmp [count],0 / jle EXPIRE' is NOT taken, so it runs the normal charge-remains branch (re-sets the granting stat e.g. 386/304/390/407, re-sets the state bitmap bit, refreshes via sub_140223040) and never calls sub_1401E4300 - the state, its stats, and its client overlay all survive the finisher, and all state bookkeeping stays consistent so the state can still be toggled/removed normally afterward. Non-protected states decrement and expend exactly as before.",
-            "Address": "3560FA",
-            "Length": 6,
+            "Name": "Protect states 208/223/234/250 from finisher teardown - Hook",
+            "Address": "35623C",
+            "Length": 7,
             "Type": "Hex",
-            "OriginalValues": "488B43082908",
-            "ModdedValues": "E9C10F030090",
-            "Values": "E9C10F030090"
+            "OriginalValues": "488B4B20488B09",
+            "ModdedValues": "E98F85E4FF9090",
+            "Values": "E98F85E4FF9090"
         },
         {
-            "Name": "Protect states 208/223/234/250 from finisher discharge - Cave",
-            "Description": "Cave at 3870C0 (53 bytes, in the freed srvdofunc=143 body extending to 387168; ends at 3870F5). Paired with hook at 3560FA in sub_1403560C0. rbx = a1 (arg-pack), ecx = decquant on entry. Logic: mov rax,[rbx+0x30] / movzx edx, word [rax] (edx = state id, ecx preserved); cmp dx,208 / je ZERO ; cmp dx,223 / je ZERO ; cmp dx,234 / je ZERO ; cmp dx,250 / je ZERO (ZERO = 3870EE); DO (fall-through for non-protected): mov rax,[rbx+8] / sub [rax],ecx (replays the stolen decrement) / jmp 140356100; ZERO: xor ecx,ecx (decquant->0) / jmp DO (3870E3) so the subtract is a no-op and the progressive count is preserved, forcing the function's charge-remains path and preventing the sub_1401E4300 expire. cmp dx,imm16 = 66 81 FA <imm16>; je rel8 = 74 <disp>. Clobbers rax,edx (rax is about to be reloaded by the function; edx unused downstream); ecx intentionally zeroed only for protected states.",
-            "Address": "3870C0",
-            "Length": 53,
+            "Name": "Protect states 208/223/234/250 from finisher teardown - Cave",
+            "Description": "Cave at 19E7D0 (103 bytes, ends 19E837) in the cltstfunc=53 body sub_14019E7D0 (19E7D0-19EA68, 665 bytes) - unused in ESR. cltstfunc table base 1414B9A00 (skills.txt column offset +274), anchor-verified via slot 31 = 14017BF80. rbx is always the arg-pack here (3560C9 mov rbx,rcx). Reads the state id from a1[6]=[rbx+30h] behind a FRAME-LOCALITY guard (the arg-pack slots are the caller's own stack locals, all within ~0xE8 of rbx, so anything outside +/-4KB is garbage and is never dereferenced). Non-protected or unreadable: replays the stolen 'mov rcx,[rbx+20h]; mov rcx,[rcx]' and jumps to 356243 for the stock expire. Protected: sets the SURVIVE FLAG via a1[5]=[rbx+28h] with the same locality guard - 'mov byte[rax],1', mirroring what the normal charge-remains path does at 35611B/35611F - then jumps to 356264 (clean add rsp,20h/pop rbx/ret). The flag is what the caller reads back at 355CA1 (cmp byte[rbp+7Fh],0); when set, 355CA5 jne 356036 runs the bitmap merge and sub_14022E750 refresh that PUSHES THE STATE UPDATE TO THE CLIENT. Without it the server keeps the state but the client is never told and the overlay clears. Verified with keystone plus unicorn emulation of the real 426-byte sub_1403560C0 against stock: 1280 real-world combinations 0 faults with the flag set in all 272 protected cases, 3440 corrupted-slot stress combinations 0 new faults, behaviour changes confined to exactly state ids 208/223/234/250.",
+            "Address": "19E7D0",
+            "Length": 103,
             "Type": "Hex",
-            "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-            "ModdedValues": "488B43300FB7106681FAD00074206681FADF0074196681FAEA0074126681FAFA00740B488B43082908E912F0FCFF33C9E9EEFFFFFF",
-            "Values": "488B43300FB7106681FAD00074206681FADF0074196681FAEA0074126681FAFA00740B488B43082908E912F0FCFF33C9E9EEFFFFFF"
+            "OriginalValues": "4C8BDC55564155415641574881EC900000004C63FA458BE8488BE985D20F88410200004C3B3DDE12B001498BC70F83310200004C69F0840200004C0335BF12B0010F841D0200004885C90F84260200004885",
+            "ModdedValues": "488B43304889C24829DA4881C2001000004881FA00200000771F0FB7106681FAD00074216681FADF00741A6681FAEA0074136681FAFA00740C488B4B20488B09E92E7A1B00488B43284889C24829DA4881C2001000004881FA002000007703C60001E92D7A1B00",
+            "Values": "488B43304889C24829DA4881C2001000004881FA00200000771F0FB7106681FAD00074216681FADF00741A6681FAEA0074136681FAFA00740C488B4B20488B09E92E7A1B00488B43284889C24829DA4881C2001000004881FA002000007703C60001E92D7A1B00"
         },
         {
             "Name": "Cap dodge to 75% (roll) - Hook 1of2",
@@ -2301,25 +2309,6 @@
             "Values": "488B8700010000488B40084885C07422488B00F640242074190FBF80A0000000440FBF93A00000004439D07505E951C4F3FFE8A979E8FFE951C3F3FF"
         },
         {
-            "Address": "299745",
-            "Name": "Aura same-skill perform dedup hook (->35E1B0)",
-            "Type": "Hex",
-            "Length": 5,
-            "OriginalValues": "E8C6F0FFFF",
-            "ModdedValues": "E9664A0C00",
-            "Values": "E9664A0C00"
-        },
-        {
-            "Address": "35E1B0",
-            "Name": "Aura same-skill perform dedup",
-            "Type": "Hex",
-            "Length": 38,
-            "Description": "Hooked from 0x299745 (the -1 perform, sub_140298810 with r14d=active-slot skillid). If the OTHER hand [[rdi+0x100]+8] holds a node with the same skillid, jmp 0x29974A skipping the perform (only one emanation for same aura both hands). Else replay and jmp 0x29974A.",
-            "OriginalValues": "0C099401448BC1483BCA73622BD148895C2430488B0DEE089401488D4424304903C848894424",
-            "ModdedValues": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF",
-            "Values": "4C8B97000100004D8B52084D85D2740C4D8B12450FB7124539F27405E83FA6F3FFE974B5F3FF"
-        },
-        {
             "Address": "3632B0",
             "Name": "Aura same-skill re-select no-op guard",
             "Type": "Hex",
@@ -2482,6 +2471,47 @@
             "OriginalValues": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "ModdedValues": "50488B4424604885C07428488B80880000004885C0741C83781C007D16F780C80A000000000002740A5841035534E94333FCFF584103553C41035534E93533FCFF",
             "Values": "50488B4424604885C07428488B80880000004885C0741C83781C007D16F780C80A000000000002740A5841035534E94333FCFF584103553C41035534E93533FCFF"
+        },
+        {
+            "Name": "Skill-freeze thaw force mode-2 (hook)",
+            "Description": "Fixes monster AI hanging after a skill-applied freeze thaws. The WORKING cold-damage thaw sub_140322B80 forces the monster to mode 2 unconditionally via sub_1402C9090(pGame,pUnit,2,...) at 322DE7 (gated only on unit-type==monster, NOT on current mode). The skill-freeze thaw sub_140295050 never does this. This hook steals the entry instruction 'mov [rsp+10h],rbx' at 295050 where rcx=pUnit and rdx=stateId are pristine, and routes to the cave. Boundary verified; returns to 295055.",
+            "Category": "Bugfix",
+            "Address": "295050",
+            "Length": 5,
+            "Type": "Hex",
+            "Values": "E9FCE30C00",
+            "OriginalValues": "48895C2410",
+            "ModdedValues": "E9FCE30C00"
+        },
+        {
+            "Name": "Skill-freeze thaw force mode-2 (cave, v5 real-dead-check)",
+            "Description": "Fixes AI-hang on live monsters AND zombie-revive when killing frozen monsters (incl. cold-immune undead). Gates the mode-2 force on the real alive/dead discriminator [pUnit+0x124] & 0xE (live=nonzero, dead=0), replacing v4's mode-12 check which missed cold-immune undead that die into mode 0. Hook at 295050 unchanged; overwrite only this cave. 100 bytes.",
+            "Category": "Bugfix",
+            "Address": "363451",
+            "Length": 100,
+            "Type": "Hex",
+            "Values": "4883EC4848894C24404889542438833901753983FA0175348B812401000083E00E742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8F35BF6FF488B4C2440488B5424384883C44848895C2410E9A01BF3FF",
+            "OriginalValues": "4883EC4848894C24404889542438833901753483FA01752F83790C0C742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8F85BF6FF488B4C2440488B5424384883C44848895C2410E9A51BF3FF"
+        },
+        {
+            "Name": "descfunc 75 - hide line when both calcs are 0 - Hook",
+            "Description": "In sub_1401B1400 (item-description line formatter), the descfunc switch reads *(record+0x3E) then does dec eax before indexing jump table jpt_1401B160E at 1401B3690, so switch index = descfunc-1. descfunc 75 = index 74 = handler 1401B3507. That handler only bails on the 5382 empty-string sentinel, never on its calc values, so it renders 'X-Y over Z seconds' (via sub_140588B40) even when both calca and calcb are 0 - the 'Poison Damage: 0-0 over 0.04 seconds' line. Mapping verified against the real jump table AND by confirming descfunc 74's handler (1401B34CD) has the expected 'test r15d,r15d / jz no-emit' calca-zero check. Hook is at 1B3524 (right after the sentinel check, before the unconditional sub_140588B40 call), stealing 'mov r9d,r15d' (calca) + 'mov [rsp+20h],r12d' (calcb). r15d = desccalca, r12d = desccalcb. 8 bytes: 5-byte jmp + 3 NOP.",
+            "Address": "1B3524",
+            "Length": 8,
+            "Type": "Hex",
+            "OriginalValues": "458BCF4489642420",
+            "ModdedValues": "E9A3EDFEFF909090",
+            "Values": "E9A3EDFEFF909090"
+        },
+        {
+            "Name": "descfunc 75 - hide line when both calcs are 0 - Cave",
+            "Description": "Cave at 1A22CC, immediately after the descfunc-36 cave inside the cltstfunc=51 body sub_1401A22B0 (286 bytes, unused in ESR). The descfunc-36 cave occupies 1A22B0-1A22CB (28 bytes); this func-75 cave occupies 1A22CC-1A22E7 (28 bytes); 56 of 286 bytes used total. Logic: test r15d,r15d / jnz emit / test r12d,r12d / jnz emit / jmp 1401B2E27 (LABEL_282, the no-emit exit that returns without drawing the line). emit: replay the two stolen instrs (mov r9d,r15d ; mov [rsp+20h],r12d) then jmp 1401B352C (mov r8,rax, into the original sub_140588B40 call). Line suppressed only when BOTH desccalca and desccalcb are 0. Verified by keystone + unicorn emulation of the real handler bytes at the real cave address: stock always emits; patched emits iff (calca||calcb), takes no-emit exit iff both 0, across {0,1,INT_MAX,0x80000000}.",
+            "Address": "1A22CC",
+            "Length": 28,
+            "Type": "Hex",
+            "OriginalValues": "243048 85C00F84C7000000488B78184885FF0F84BA000000E8C721F0",
+            "ModdedValues": "4585FF750A4585E47505E94C0B01004589F94489642420E944120100",
+            "Values": "4585FF750A4585E47505E94C0B01004589F94489642420E944120100"
         }
     ]
 }

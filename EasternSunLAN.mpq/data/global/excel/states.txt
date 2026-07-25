@@ -30,7 +30,7 @@ greennoheal	27																																		1	1																					95	104	1
 conviction	28					1																																					convictionfront	convictionback																		paladin_aura_purification									0
 generalmythicalweaponstate	29																																																																				146		0
 energyshield	30																																										energyshield																												0
-venomclaws	31																																																	poisonmindam					mele	cgrn															0
+venomclaws	31	2																																																poisonmindam					mele	cgrn															0
 battleorders	32					1																																					battleorders					battleorderscast		maxmana																					0
 might	33					1							1																														aura_might_front	aura_might_back						damagepercent												paladin_aura_might									0
 prayer	34					1																																					aura_prayer_front	aura_prayer_back																		paladin_aura_prayer									0
@@ -249,7 +249,7 @@ headhunterspeed	246																																										staminafront	stamin
 headhunterskills	247																																										aura_of_divinity																			paladin_aura_meditation									0
 headhunterhealth	248																																										battleorders																			barbarian_battleorders_1									0
 white	249																																																								90	111	255	255	255										0
-firecontrolprogressive	250																																				1										firecontrolprogressive_1			firecontrolprogressive	1	1																			0
+firecontrolprogressive	250	9																																			1										firecontrolprogressive_1			firecontrolprogressive	1	1																			0
 empoweredenchant	251																																										thunderstormfront					enchant		skill_enchant																					0
 eternalhourglass	252																																										baal_on_throne																			paladin_redeemed_soul									0
 bonemastery	253																																																																						0

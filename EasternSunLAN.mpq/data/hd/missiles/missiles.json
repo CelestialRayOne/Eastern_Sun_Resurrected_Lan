@@ -1323,7 +1323,7 @@
     "freezingarrowbolt": "ice_bolt",
     "lightningarrowfury": "lightning_strike",
     "lightningarrowfurybolt": "lightning_strike",
-    "superteleportbolt": "b_a_yell_shock_wave_01",
+    "superteleportdebuffbolt": "b_a_yell_shock_wave_01",
     "spawnbroodlingsascendancy": "bighead_lightning_missile",
     "poisonspinespawnersec": "andariel_spell",
     "poisonspinebolt": "poison_nova",
@@ -1699,6 +1699,7 @@
     "ricochetjavelin": "javelin",
     "ricochetjavelinbolt": "javelin_notrack",
     "firewavewdfirespawner": "ground_fire_big",
+    "conflagratewdspawnerfour": "ground_fire_big",
     "conflagratewdfirespawner": "ground_fire_big",
     "conflagratewdfury": "ground_fire_big_notrail",
     "glacialinfernospawner": "ground_bluefire_big_notrack",
@@ -1899,5 +1900,11 @@
     "deathgamedamagespawnerfive": "shuriken",
     "deathgamedamagespawnersix": "shuriken",
     "deathgamedamagespawnerseven": "shuriken",
-    "deathgamedamagespawnereight": "shuriken"
+    "deathgamedamagespawnereight": "shuriken",
+    "doomdualnovasfirebolt": "ground_fire_big_notrail",
+    "doomdualnovascoldbolt": "ground_bluefire_big_notrack",
+    "whirlwindtornadoesbolt": "expansion_twister",
+    "infinitycl": "chainlightningBolt",
+    "scorchwdfirespawner": "ground_fire_big",
+    "holyward": "grim_ward_large"
 }
