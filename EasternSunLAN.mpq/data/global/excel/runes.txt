@@ -735,7 +735,7 @@ Runeword745	Radiance	1			helm									Hi Ka Ru	r34	r04	r24				ac%		125	175	allsk
 Runeword746	Trip	1			boot									Ta Hi	r25	r34					ac/lvl	16			move3		40	40	vit		100	100	stam		200	200	mag%		75	75	res-all		40	40	gold%		100	100	0
 Runeword747	One	1			helm									Hi To Tsu	r34	r26	r13				allskills		1	1	att%		100	100	all-stats		100	100	dmg%		100	100	ease		100	100	mag%		100	100	gold%		100	100	0
 Runeword748	The Lovers	1			weap									Ko I Hi To	r19	r01	r34	r26			kill-skill	Fire Surge	100	20	kill-skill	Cold Surge	100	20	pierce-cold		20	20	pierce-fire		20	20	oskill	Natural Resistance	10	10	dmg-fire		600	800	dmg-cold	250	600	750	0
-Runeword749	Daylight	1			tors	shld								Hi Ru Ma	r34	r24	r33				oskill	Divinity	5	5	light		10	10	aura	Holy Fire	10	10	pierce-fire		20	20	kill-skill	Fire Surge	100	20	ac%		250	250	regen		500	500	0
+Runeword749	Daylight	1			tors	shld								Hi Ru Ma	r34	r24	r33				oskill	Aura of Divinity	5	5	light		10	10	aura	Holy Fire	10	10	pierce-fire		20	20	kill-skill	Fire Surge	100	20	ac%		250	250	regen		500	500	0
 Runeword750	Pattern	1			mace	hamm	club							Mo Yo U	r35	r07	r02				att-skill	Fend	17	30	att-skill	Cobra Strike	17	30	swing2		30	30	dmg-norm		50	70	dmg%		100	100	kill-skill	Stun	50	1	crush		33	33	0
 Runeword751	Mist	1			tors									Mo Ya	r35	r11					extra-wind		50	50	extra-cold		50	50	allskills		2	2	gethit-skill	Cloak of Shadows	20	40	gethit-skill	Whirlpool Proc	33	50	gethit-skill	Sandstorm	33	50	regen		1000	1000	0
 Runeword752	Mist	1			glov									Mo Ya	r35	r11					extra-wind		25	25	extra-cold		25	25	allskills		1	1	hit-skill	Cloak of Shadows	3	40	hit-skill	Whirlpool Proc	3	50	hit-skill	Sandstorm	3	50	regen		500	500	0
@@ -902,8 +902,8 @@ Runeword910	Winter	1			staf						orb	mana		Fu Yu	r32	r16					cast-skill	Orb of W
 Runeword912	Psychic	1			char									A Ki Ra	r12	r08	r20				dmg-mag		500	1000	dmg-undead		200	200	dmg-demon		200	200	item-skill-cooldown		15	15	ac%		150	150	hit-skill	Psychic Hammer	3	45	hit-skill	Cloak of Shadows	3	40	0
 Runeword913	Captive	1			char									Ho Ri Yo	r22	r09	r07				extra-summ		20	20	allskills		1	1	oskill	Raise Skeletal Mage	3	3	skill	Raise Skeletal Mage	12	12	pierce-fire		15	15	pierce-cold		15	15	pierce-ltng		15	15	0
 Runeword914	Wealth	1			char									To Mi	r26	r10					ac%		75	75	gold%		125	125	mag%		75	75	gold%/lvl	16			mag%/lvl	8			oskill	Find Potion	5	5					0
-Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				oskill	Call of the Wild	3	3	skill	Call of the Wild	17	17	regen		800	800	regen-mana		100	100	allskills		1	1	move2		50	50	balance2		50	50	0
-Runeword916	Harmony	1			char									Wa Se I	r27	r31	r01				hp%		25	25	balance3		25	25	mana%		25	25	swing3		25	25	move3		25	25	cast3		25	25	red-dmg%		20	20	0
+Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				oskill	Call of the Wild	20	20	aura	Prayer	15	15	regen		800	800	regen-mana		100	100	allskills		1	1	move2		50	50	balance2		50	50	0
+Runeword916	Harmony	1			char									Wa Se I	r27	r31	r01				hp%		30	30	balance3		30	30	mana%		30	30	swing3		30	30	move3		30	30	cast3		30	30	red-dmg%		20	20	0
 Runeword917	Daylight	1			char									Hi Ru Ma	r34	r24	r33				hit-skill	Fire Surge	1	40	hit-skill	Lightning Surge	1	40	pierce-fire		20	20	pierce-ltng		20	20	res-all		35	35	ac		150	150	allskills		1	1	0
 Runeword918	Spirit	1			char									Ko Ko Ro	r19	r19	r38				skill	Spirit of Nature	3	3	oskill	Spirit of Nature	12	12	passive-summ-life		25	25	hp		150	150	oskill	Battle Orders	10	10	passive-summ-elemental-resist		20	20	res-all		50	50	0
 Runeword919	Abandon	1			char									Su Te Ru	r43	r37	r24				oskill	Shade Armor	10	10	curse-res		50	50	allskills		1	1	res-all		35	35	ac		200	200	gethit-skill	Time Lapse	15	1	oskill	Battle Command	10	10	0
@@ -916,11 +916,11 @@ Runeword925	Moon				tors									JEW Tsu Ki	jew	r13	r08				ac		75	75	deadly		25	
 Runeword926	Sin				tors									JEW Tsu Mi	jew	r13	r10				ac%		125	125	crush		25	25	lifesteal		5	5	res-all		25	25	red-dmg%		8	8									0
 Runeword927	DRAGON	1			shld									SurLoSol	r79	r78	r62				aura	Righteous Fire	30	30	hp		250	250	abs-fire%		5	5	kill-skill	Fire Surge	25	60	pierce-fire		30	30	ac%		300	300	regen		800	800	0
 Runeword928	DREAM	1			shld									IoJahPul	r66	r81	r71				aura	Holy Shock	25	25	oskill-hidden	Dream Passive	1	1	mythicaldescnoflag	1369	1	1	pierce-ltng		30	30	mana		200	200	ac%		300	300	regen-mana		200	200	0
-Runeword929	Lynx	1			tors									Ya Ma Ne Ko	r11	r33	r41	r19			hit-skill	Static Field	1	33	swing1		30	30	ac%		150	200	dmg%		200	200	crush		33	33	deadly		33	33	move2		30	30	0
+Runeword929	Lynx	1			tors									Ya Ma Ne Ko	r11	r33	r41	r19			dmg-bleed	30	200	250	swing1		30	30	ac%		150	200	dmg%		200	200	crush		33	33	deadly		33	33	move2		30	30	0
 Runeword930	Pear	1			tors									Hi To Te Na Shi	r34	r26	r37	r29	r03		oskill	Raise Skeletal Mage	3	3	skill	Raise Skeletal Mage	17	17	oskill	Lower Resist	20	20	pierce-res-all		15	15	passive-summ-elemental-resist		15	15	oskill-hidden	Raise Skeletal Mage Level Bonus	1	1	mythicaldescnoflag	1051	1	1	0
 Runeword931	Maniac	1			2hsw									Ma Ni A Tsu Ku	r33	r30	r12	r13	r06		kill-skill	Headhunter Speed	2	1	kill-skill	Killer Scythe Proc	15	50	hit-skill	Poison Mastery	3	50	dmg%		300	300	hit-skill	Magic Brand	5	20	hit-skill	Magic Enhanced Axe	5	20	hit-skill	Magic Enhanced Arrow	5	20	0
-Runeword932	Sunny	1			shld									Sa Ni I	r15	r30	r01				res-cold		75	75	res-fire		75	75	regen		1000	1000	ac%		250	250	block		5	5	ac		200	200	block2		50	50	0
-Runeword933	America	1			helm										jew	gbb	grb	gwb			kill-skill	Whirlwind Proc	5	30	hit-skill	Taunt	1	40	charged	Battle Command	40	30	allskills		1	1	str		-12	-12	dex		-12	-12	vit		-12	-12	0
+Runeword932	Sunny	1			shld									Sa Ni I	r15	r30	r01				res-cold		75	75	res-fire		75	75	regen		1000	1000	ac%		300	300	block		5	5	ac		200	200	res-ltng		75	75	0
+Runeword933	America	1			helm										jew	gbb	grb	gwb			oskill	Whirlwind	10	10	hit-skill	Taunt	1	40	charged	Battle Command	40	30	allskills		1	1	str		-12	-12	dex		-12	-12	vit		-12	-12	0
 Runeword934	Austria	1			helm										grb	gwb	grb				oskill	Throwing Mastery	15	15	oskill	Penetrate	15	15	oskill	Pierce	15	15	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
 Runeword935	Britain	1			helm										grb	gwb	gbb				oskill	Sanctuary	15	15	dmg-undead		500	500	dmg-demon		500	500	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
 Runeword936	Canada	1			helm										jew	grb	gwb	grb			oskill	Shout	15	15	oskill	Bash	15	15	oskill	Battle Orders	15	15	allskills		1	1	str		-12	-12	dex		-12	-12	vit		-12	-12	0
@@ -930,44 +930,44 @@ Runeword939	Germany	1			helm										gbk	grb	gyb				oskill	Thorns	15	15	oskill	
 Runeword940	Japan	1			helm										gwb	grb	gwb				oskill	Claw Mastery	3	3	oskill	Blade Nova	3	3	kill-skill	Shuriken	10	30	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
 Runeword941	Portugal	1			helm										ggb	gyb	grb				oskill	Aura of Divinity	1	1	oskill	Find Item	15	15	light		15	15	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
 Runeword942	Russia	1			helm										gwb	gbb	grb				oskill	Spirit of Nature	15	15	passive-summ-life		20	20	oskill	Summon Grizzly	15	15	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
-Runeword943	Italy	1			helm										ggb	gwb	grb				oskill	Increased Stamina	15	15	oskill	Frenzy	15	15	res-all		40	40	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
+Runeword943	Italy	1			helm										ggb	gwb	grb				oskill	Increased Stamina	15	15	oskill	Increased Speed	15	15	res-all		40	40	allskills		1	1	str		-8	-8	dex		-8	-8	vit		-8	-8	0
 Runeword944	Land	1			weap									Ri Ku	r09	r06					dmg%		100	100	dmg-norm		15	20	swing2		-10	-10	str		50	50	kill-skill	Bash	25	1	crush		33	33	heal-kill		10	10	0
-Runeword945	Hercules	1			mele									Ka I Ri Ki	r04	r01	r09	r08			dmg%		200	200	str		50	50	oskill	Stun	10	10	str/lvl	8			crush		25	25	enr		-10	-10	red-dmg		10	10	0
-Runeword946	Maven	1			mele									Tsu U	r13	r02					dmg/lvl	16			hit-skill	Weaken	4	20	allskills		1	1	enr		25	25	vit		25	25	dmg-mag		50	100	dmg-to-mana		50	50	0
-Runeword947	Lawless	1			wand	scep	staf	mana	orb					Mu Ho U	r40	r22	r02				oskill	Poison Mastery Passive	5	5	oskill	Magic Mastery	5	5	kill-skill	Poison Surge	50	25	kill-skill	Magic Surge	50	25	pierce-pois		20	20	extra-mag2		40	40	allskills		2	2	0
+Runeword945	Hercules	1			mele									Ka I Ri Ki	r04	r01	r09	r08			swing2		-30	-30	att-skill	Stun	100	1	crush		50	50	str/lvl	16			lifesteal		10	10	att		100	100	dmg%		200	200	0
+Runeword946	Maven	1			mele									Tsu U	r13	r02					dmg/lvl	16			hit-skill	Weaken	4	20	allskills		1	1	enr		35	35	dex		35	35	dmg-mag		50	100	dmg-to-mana		50	50	0
+Runeword947	Lawless	1			wand	scep	staf	mana	orb					Mu Ho U	r40	r22	r02				total-all-magic-resists		-100	-100	oskill	Energy Shield	3	3	skill	Energy Shield	37	37	mana%		200	200	allskills		4	4	oskill	Spell Mastery	1	1	dodge		20	20	0
 Runeword948	Prohibit				weap									JEW x 6	jew	jew	jew	jew	jew	jew	vit-h2		-900	-900																									0
 Runeword949	Prohibit				tors									JEW x 6	jew	jew	jew	jew	jew	jew	vit-h2		-900	-900																									0
 Runeword950	Prohibit				helm	shld								JEW x 4	jew	jew	jew	jew			vit-h2		-900	-900																									0
 Runeword951	Rhino	1			shld									Sa I	r15	r01					allskills		1	1	red-dmg%		20	20	thorns/lvl	80			ac%		200	300	balance1		25	25	str		30	30	thorns		500	500	0
-Runeword952	Kick	1			boot									Ke Ri	r17	r09					skilltab	20	2	2	move2		30	30	crush		20	20	dex		50	50	vit		50	50	move2		30	30	ac		150	150	0
+Runeword952	Kick	1			boot									Ke Ri	r17	r09					skilltab	20	2	2	move2		30	30	crush		20	20	dex		50	50	vit		50	50	ac		150	150	knock		1	1	0
 Runeword953	Woodsman	1			shld									Ki Ko Ri	r08	r19	r09				oskill	Feral Mastery	5	5	oskill	Summon Fenris	10	10	oskill	Ferocious Bite	10	10	allskills		1	1	oskill	Call of the Wild	1	1	extra-summ		15	15	ac%		150	150	0
 Runeword954	Rainy Season	1			miss									Tsu YU	r13	r16					oskill	Cold Arrow	10	10	mana-on-striking		3	3	hit-skill	Blizzard	5	30	pierce-cold		15	15	att		250	250	dmg-cold	250	250	300	swing2		30	30	0
-Runeword955	Rebellion	1			miss									Ha N Ra N	r28	r05	r20	r05			passive-summ-life		50	50	extra-summ		50	50	hit-skill	Bone Spear	5	40	hit-skill	Cloak of Shadows	3	40	dmg-mag		600	750	extra-mag2		40	40	swing2		50	50	0
-Runeword956	Airship	1			miss									Hi Ko U Se N	r34	r19	r02	r31	r05		allskills		2	2	hit-skill	Inner Sight	3	25	hit-skill	Legendary Arrow	1	40	pierce		100	100	hit-skill	Wind Brand	10	10	dmg%/lvl	16			dmg/lvl	16			0
+Runeword955	Rebellion	1			miss									Ha N Ra N	r28	r05	r20	r05			passive-summ-life		50	50	passive-summ-all-resists		25	25	hit-skill	Bone Spear	5	40	hit-skill	Cloak of Shadows	3	40	dmg-mag		600	750	extra-mag2		40	40	swing2		50	50	0
+Runeword956	Airship	1			miss									Hi Ko U Se N	r34	r19	r02	r31	r05		allskills		4	4	hit-skill-hidden	Far Shot	40	1	dmg%/lvl	16			dmg/lvl	16			pierce		100	100	kill-skill	Arrow of Confession	25	60	dex		100	100	0
 Runeword957	Shank	1			boot									Su Ne	r43	r41					allskills		2	2	hit-skill	Decrepify	3	50	hp/lvl	40			move2		60	60	res-pois-len		75	75	gold%		200	200	deadly/lvl	8			0
 Runeword958	Navel	1			belt									He So	r44	r39					allskills		2	2	thorns		1500	1500	gethit-skill	Battle Command	15	45	balance2		30	30	block		5	5	ac%		400	400	red-dmg%		15	15	0
-Runeword959	Swamp	1			glov									Nu Ma	r45	r33					hit-skill	Cloak of Shadows	3	60	res-mag		20	20	dmg-min		50	50	hp%		30	30	slow		33	33	gethit-skill	Evade	50	60	all-stats		30	30	0
+Runeword959	Swamp	1			glov									Nu Ma	r45	r33					hit-skill	Evade	3	60	swing2		-30	-30	slow		33	33	hp%		30	30	red-dmg%		20	20	gethit-skill	Bone Armor	100	30	velocitypercent		-20	-20	0
 Runeword960	Prohibit				char									JEW x 3	jew	jew	jew				vit-h2		-900	-900																									0
 Runeword961	Rhino				shld									JEW Sa I	jew	r15	r01				allskills		1	1	res-ltng		40	40	thorns/lvl	40			ac%		200	300	balance1		25	25	str		30	30	thorns		500	500	0
 Runeword962	Master of Fire	1			char									Fire Ma Su	r85	r33	r43				oskill	Fire Mastery	3	3	cast1		20	20	mana/lvl	8			kill-skill	Fire Surge	5	50	pierce-fire		15	15	dmg-fire		425	525	abs-fire%		5	5	0
 Runeword963	Master of Water	1			char									Water Ma Su	r86	r33	r43				oskill	Cold Mastery	3	3	cast1		20	20	mana/lvl	8			kill-skill	Cold Surge	5	50	pierce-cold		15	15	dmg-cold	50	400	500	abs-cold%		5	5	0
 Runeword964	Master of Thunder	1			char									Thunder Ma Su	r91	r33	r43				oskill	Lightning Mastery	3	3	cast1		20	20	mana/lvl	8			kill-skill	Lightning Surge	5	50	pierce-ltng		15	15	dmg-ltng		1	1000	abs-ltng%		5	5	0
-Runeword965	Angel	1			char									Heaven Shi	r96	r03					oskill	Teleport	1	1	cast1		20	20	mana/lvl	8			kill-skill	Magic Surge	5	50	res-all		30	30	extra-mag2		30	30	res-all-max		3	3	0
-Runeword966	Work of God	1			2hsw									God No Mi Wa Sa	r97	r36	r10	r27	r15		aura	Sanctuary	40	40	ignore-undead-resist		1	1	ignore-demon-resist		1	1	extra-mag2		100	100	dmg%/lvl	80			hit-skill	Holy Bolt	8	60	item-skill-cooldown		50	50	0
-Runeword967	Gold Scarab	1			tors									Ko Metal Mu Shi	r19	r88	r40	r03			aura	Resist Lightning	20	20	allskills		3	3	oskill	Power Overwhelming	10	20	oskill	Find Item	15	15	ac		3000	3000	gold%		300	300	kill-skill	Find Potion	33	60	0
+Runeword965	Angel	1			char									Heaven Shi	r96	r03					oskill	Teleport	1	1	cast1		20	20	mana/lvl	8			kill-skill	Magic Surge	5	50	res-all		30	30	extra-mag2		30	30	res-all-max		5	5	0
+Runeword966	Work of God	1			2hsw									God No Mi Wa Sa	r97	r36	r10	r27	r15		att-skill	Word of God	50	60	mythicaldescnoflag	1382	1	1	oskill	Magic Mastery	1	1	item-skill-cooldown		50	50	dmg%/lvl	80			oskill	Aura of Divinity	20	20	kill-skill	Time Lapse	100	5	0
+Runeword967	Gold Scarab	1			tors									Ko Metal Mu Shi	r19	r88	r40	r03			aura	Resist Lightning	20	20	quantity		50	50	allskills		3	3	ac		3000	3000	gold%		300	300	mag%		300	300	abs-ltng%		7	7	0
 Runeword968	Creature	1			helm									Life Ki Mo No	r94	r08	r35	r36			allskills		1	1	oskill	Battle Orders	15	15	extra-summ		50	50	passive-summ-limit		2	2	res-all		50	50	aura	Vigor	15	15	nofreeze		1	1	0
-Runeword969	Shinigami	1			2hsw									Death God	r95	r97					hit-skill	Wind Brand	50	1	allskills		3	3	swing1		30	30	dmg/lvl	20			dmg%/lvl	20			indestruct		1	1	dmg		150	150	0
-Runeword970	Shinigami	1			mele									Death God	r95	r97					hit-skill	Wind Brand	50	1	allskills		2	2	swing1		30	30	dmg/lvl	16			dmg%/lvl	20			indestruct		1	1	dmg		75	75	0
-Runeword971	Moonlight	1			miss									Moon Ko U	r84	r19	r02				hit-skill	Magic Arrow	1	60	allskills		2	2	dmg-norm		150	200	hit-skill	Evade	3	60	dmg%/lvl	24			dmg-mag		2000	2500	hit-skill	Poison Mastery	3	45	0
+Runeword969	Shinigami	1			2hsw									Death God	r95	r97					hit-skill	Wind Brand	50	1	allskills		3	3	swing1		30	30	dmg/lvl	20			dmg%/lvl	20			indestruct		1	1	dmg-bleed	125	1250	1250	0
+Runeword970	Shinigami	1			mele									Death God	r95	r97					hit-skill	Wind Brand	50	1	allskills		2	2	swing1		30	30	dmg/lvl	16			dmg%/lvl	20			indestruct		1	1	dmg		400	400	0
+Runeword971	Moonlight	1			miss									Moon Ko U	r84	r19	r02				moonlight-group		250	250	oskill-hidden	Moonstorm Arrows	60	60	aura-hidden	Moonstorm Arrows	60	60	oskill	Moonstorm	20	20	aura-hidden	Moonlight Aura	1	1	takedmg-skill-hidden	Pride Reset	100	1	mythicaldescnoflag	1384	1	1	0
 Runeword972	Sunlight	1			shld									Sun Ko U	r90	r19	r02				hit-skill	Fire Surge	15	60	allskills		2	2	oskill	Molten Focus	20	20	ac%		300	300	block		10	10	pierce-fire		40	40	reduce-ac		75	75	0
-Runeword973	Tourbillion	1			2hsw									Tsu Mu Shi Wind	r13	r40	r03	r92			hit-skill	Twister	5	60	twister-limit		100	100	oskill	Wind Mastery	10	10	dmg%		500	500	red-dmg%		33	33	hit-skill	Sandstorm	1	60	hit-skill	Inner Sight	1	60	0
+Runeword973	Tourbillion	1			2hsw									Tsu Mu Shi Wind	r13	r40	r03	r92			hit-skill	Twister	5	60	twister-limit		100	100	oskill	Wind Mastery	10	10	dmg%		500	500	red-dmg%		33	33	hit-skill	Sandstorm	1	60	dmg-bleed	5	250	500	0
 Runeword974	Flickering Flame	1			helm									NefPulVex	r54	r71	r76				fireskill		7	7	aura	Resist Fire	20	20	pierce-fire		30	30	mana%		50	50	nofreeze		1	1	res-pois-len		100	100	item-skill-cooldown		20	20	0
 Runeword975	Mist	1			miss									ChamShaelGulThulIth	r82	r63	r75	r60	r56		oskill	Orb of the Mist	10	10	pierce-cold		40	40	swing2		50	50	mana-on-striking		5	5	dmg%/lvl	16			dmg/lvl	16			hit-skill	Cold Brand	20	40	0
-Runeword976	Obsession	1			staf									ZodIstLemLumIoNef	r83	r74	r70	r67	r66	r54	allskills		7	7	all-speeds		80	80	addxp		100	100	kill-skill	Time Stop	25	60	res-all		100	100	kill-skill	Static Field	100	40	oskill	Lower Resist	30	30	0
+Runeword976	Obsession	1			staf									ZodIstLemLumIoNef	r83	r74	r70	r67	r66	r54	allskills		7	7	cast-skill-hidden	Obsession Buff	100	1	cast-skill-hidden	Obsession Debuff	100	1	mythicaldescnoflag	1383	1	1	kill-skill	Elemental Surge	25	60	cast2		100	100	curse-res		100	100	0
 Runeword977	Plague	1			swor	knif								ChamShaelUm	r82	r63	r72				kill-skill	Poison Surge	100	35	aura	Cleansing	10	10	pierce-pois		25	25	poisonskill		4	4	dmg-pois	512	5000	5000	kill-skill	Spike Nova Proc	15	40	hit-skill	Poison Surge	5	50	0
 Runeword978	Unbending Will	1			swor									FalIoIthEldElHel	r69	r66	r56	r52	r51	r65	skilltab	13	5	5	hit-skill	Taunt	1	40	swing2		40	40	dmg%		350	350	red-dmg		50	50	lifesteal		20	20	kill-skill	Bash	25	40	0
 Runeword979	Wisdom	1			helm									PulIthEld	r71	r56	r52				enepercent		75	75	enr		100	100	allskills		3	3	addxp		50	50	pierce-res-all		20	20									0
-Runeword980	Diablo	1			char									Ma Mo No	r33	r35	r36				allskills		1	1	fireskill		1	1	kill-skill	Emberquake	2	45	kill-skill	Super Nova	2	45	pierce-fire		15	15	pierce-ltng		15	15	dmg-ltng		1	1000	0
+Runeword980	Diablo	1			char									Ma Mo No	r33	r35	r36				allskills		1	1	cast-skill	Emberquake	5	45	cast-skill	Super Nova	5	45	pierce-fire		15	15	pierce-ltng		15	15	dmg-ltng		1	1000	dmg-fire		400	600	0
 Runeword981	Hustle (armor)	1			tors									ShaelKoEld	r63	r58	r52				move2		80	80	stam		220	220	swing2		40	40	res-all		25	25	oskill	Dodge	3	3	skill	Dodge	12	12	dexpercent		30	30	0
 Runeword982	Hustle (weapon)	1			weap									ShaelKoEld	r63	r58	r52				hit-skill	Wind Brand	15	1	hit-skill	Axe Proc	15	1	aura	Fanaticism	5	5	move2		50	50	swing2		50	50	life-on-striking		3	3	dmg%		200	200	0
 Runeword983	Mosaic	1			h2h									MalGulAmn	r73	r75	r61				skilltab	20	5	5	pierce-ele-res		30	30	abs-elem%		5	5	mosaic-repeat-chance		1	1	att-skill	Fists of Fire Discharge	5	60	att-skill	Claws of Thunder Discharge	5	60	att-skill	Blades of Ice Discharge	5	60	0

@@ -486,3 +486,7 @@ cast-skill-hidden	1	11	item_skilloncast_hidden																											#% Chan
 res-all/lvl	1	17	item_resist_fire_perlevel			3	item_resist_cold_perlevel			3	item_resist_ltng_perlevel			3	item_resist_pois_perlevel																			
 branded	1	1	branded																															
 total-maxhp	1	1	totalmaxhp																															
+total-all-magic-resists	1	1	total_fire_resist			3	total_cold_resist			3	total_lightning_resist			3	total_poison_resist																			
+passive-summ-all-resists	1	1	passive_summ_elemental_resist			3	passive_summ_phys_resist																											none
+quantity	1	1	extra_items																															
+moonlight-group	1	15	mindamage			3	dexterity			3	tohit			3	item_tohit_percent			3	maxhp															

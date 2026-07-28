@@ -2512,6 +2512,68 @@
             "OriginalValues": "243048 85C00F84C7000000488B78184885FF0F84BA000000E8C721F0",
             "ModdedValues": "4585FF750A4585E47505E94C0B01004589F94489642420E944120100",
             "Values": "4585FF750A4585E47505E94C0B01004589F94489642420E944120100"
+        },
+        {
+            "Name": "Sequence skills work with missile weapons (Whirlwind with bows/crossbows)",
+            "Description": "Player sequence resolver sub_14024C4D0. The weapon-class slot index (ecx, from the wclass->slot table at 141853870) is scaled by 16 and added to the sequence base (rbx = qword_1414BC6A0[seqnum]) to select the per-weapon-class entry {rows_ptr, count, count}. skills.txt seqnum=10 (Whirlwind) has zeroed entries for wclass bow (slot 5) and xbw (slot 6), so sub_14020A040 stores a NULL rows_ptr into [pUnit+64], skips the whole sequence install (frame count [+72], frame [+76/80], rate [+84]=256, total [+100], first frame sub_140209F30) and never sets the sequence-active flag [pUnit+292] |= 0x4000, so the skill silently does nothing. Replaces mov rax,rcx / shl rax,4 / add rbx,rax / mov rax,rbx with shl ecx,4 / lea rax,[rbx+rcx] / cmp dword [rax+8],0 / je 24C6E7, so an empty (count==0) slot falls through to the engine's own existing loc_14024C6E7 (mov rax,rbx / jmp loc_14024C59F), which returns slot 0 (hth). rbx is deliberately left intact for that fallback. Patch ends exactly on the untouched jmp loc_14024C59F at 24C6A1. Position-independent, and covers client and server since the resolver is shared.",
+            "Address": "24C694",
+            "Length": 13,
+            "Type": "Hex",
+            "OriginalValues": "488BC148C1E0044803D8488BC3",
+            "ModdedValues": "C1E104488D040B837808007446",
+            "Values": "C1E104488D040B837808007446"
+        },
+        {
+            "Name": "Bonus treasure class picks from stat 426 - Hook",
+            "Description": "Hooks the treasure-class roll sub_1402F9210 at 2F9317, stealing 'movsd [rbp-64h],xmm0' (exactly 5 bytes, no padding needed). Chosen over the earlier candidate at 2F930D because by 2F9317 the pick count (ecx), the TC+30 value (eax) and the TC record (r9) are all already spilled to the frame, so the cave needs no xmm0 preservation across its call. Jumps to the cave at 1A22E8; returns to 2F931C.",
+            "Category": "Alteration",
+            "Addresses": [
+                "2F9317"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "F20F11459C",
+            "ModdedValues": "E9CC8FEAFF",
+            "Values": "E9CC8FEAFF"
+        },
+        {
+            "Name": "Bonus treasure class picks from stat 426 - Cave",
+            "Description": "Cave at 1A22E8 inside the cltstfunc=51 body sub_1401A22B0 (286 bytes, 1A22B0-1A23CD, unused in ESR). Occupies 1A22E8-1A23C8 (225 bytes); the descfunc-75 cave holds 1A22CC-1A22E7; 1A22B0-1A22CB free; 5 bytes headroom. Reads stat 426 off the unit credited with the kill and hands it to the percent routine at 36ABE0. When the killer is a summon or merc (unit type 1) it first calls the owner-resolution subroutine at 36ABA0 and uses the owner instead. Guards: TC record non-null and TC+0Ch (Picks) > 0, since negative Picks means a guaranteed-drop list where the counter is an index rather than a count; monster unit type==1 with classid bounds-checked against the monstats count; monstats+60 bit 7 (primeevil) must be clear; the final unit must be type 0 with a non-null statlist at +88h; itemstatcost count > 426. Reads via sub_1401E2E70(statlist, 426<<16, iscBase + 426*324) with 40 bytes of shadow space, rsp 16-aligned at the call. Verified by keystone plus capstone: rip-relative loads resolve to 1C9F880, 1C9F878, 1C9FB80, 1C9FB78; calls resolve to 36ABA0, 1E2E70 and 36ABE0; jmp returns to 2F931C.",
+            "Category": "Alteration",
+            "Addresses": [
+                "1A22E8"
+            ],
+            "Length": 225,
+            "Type": "Hex",
+            "OriginalValues": "FF488BCBE8DF5F06004885C00F84A4000000488B58704885DB0F8497000000488BCBE891A3070085C00F84870000008B0B33D283E902741D83E902741883F9017413488B43384885C074060FB74002EB0B8BC2EB07488B43388B40108947248B0B83E902743083E902742B83F9017426488B43384885C074240FB750068957288B430489472CB801000000488B7C24304883C4205BC3488B43388B50148957288B430489472CB801000000488B7C24304883C4205BC3488B7C243033C04883C4205BC3E800A051004C8BC0B90600000041B9D7050000E82D9D5100B9FFFFFFFFE8",
+            "ModdedValues": "F20F11459C5051524150415141524153EB05E9BA000000488B45904885C074F283780C007EEC488B8540FFFFFF4885C07430833801752B8B4004488B1557D5AF014839D073CC4869C0DC010000488B153CD5AF014885D274B94801D0F6403C8075B0488B8D68FFFFFF4885C974A48B0185C0741783F8017558E83A881C004889C14885C9744B8339007546488B89880000004885C9743A488B15FAD7AF014881FAAA010000762A4C8B05E2D7AF014D85C0741E4981C0281B0200BA0000AA014883EC28E8C00A04004883C428E827881C00415B415A415941585A5958E9536F1500",
+            "Values": "F20F11459C5051524150415141524153EB05E9BA000000488B45904885C074F283780C007EEC488B8540FFFFFF4885C07430833801752B8B4004488B1557D5AF014839D073CC4869C0DC010000488B153CD5AF014885D274B94801D0F6403C8075B0488B8D68FFFFFF4885C974A48B0185C0741783F8017558E83A881C004889C14885C9744B8339007546488B89880000004885C9743A488B15FAD7AF014881FAAA010000762A4C8B05E2D7AF014D85C0741E4981C0281B0200BA0000AA014883EC28E8C00A04004883C428E827881C00415B415A415941585A5958E9536F1500"
+        },
+        {
+            "Name": "Bonus picks - percent roll",
+            "Description": "Cave at 36ABE0, in the stomped srvdofunc=58 body sub_14036ABA0 (unused in ESR; the owner-resolution subroutine occupies 36ABA0-36ABDF). Occupies 36ABE0-36AC2E (79 bytes); free from 36AC2F to 36B243. Converts stat 426 from a flat pick count into a percentage. Takes the stat in eax, computes whole = stat/100 and rem = stat%100, adds whole extra picks unconditionally, and adds one more if a roll of 0-99 lands under rem. So 40 gives a 40 percent chance of one extra item, 100 gives one guaranteed, 150 gives one guaranteed plus a 50 percent chance of a second. The roll is a read-only hash of the monster's drop seed ([monster+28h] xor [monster+2Ch], multiplied by 9E3779B1, shifted right 8, mod 100) rather than a draw from the game RNG -- calling the RNG would consume from the drop seed and shift every subsequent roll in that drop, altering existing drop behaviour. Deterministic per monster, which matches how D2 drops already work. Uses only eax, ecx, edx, r10 and r11, all volatile and all already preserved by the caller, and makes no call so needs no stack alignment. Distribution verified by simulation over 200000 samples: average extra picks 0.401, 1.000, 1.503 and 2.501 for stats 40, 100, 150 and 250.",
+            "Category": "Alteration",
+            "Addresses": [
+                "36ABE0"
+            ],
+            "Length": 79,
+            "Type": "Hex",
+            "OriginalValues": "C0483B05F04E930173104869C084020000480305D84E9301EB03488BC7488945B748899C24D00000004585C00F840B0600000FB680DE0000003B05B14F93010F4DC78945AFE826B1F5FF498BCCE89E",
+            "ModdedValues": "85C07E4A31D2B964000000F7F14189C285D274314C8B9D40FFFFFF4D85DB7425418B43284133432C69C0B179379EC1E8084189D331D2B964000000F7F14439DA730341FFC24585D27E0444015598C3",
+            "Values": "85C07E4A31D2B964000000F7F14189C285D274314C8B9D40FFFFFF4D85DB7425418B43284133432C69C0B179379EC1E8084189D331D2B964000000F7F14439DA730341FFC24585D27E0444015598C3"
+        },
+        {
+            "Name": "Bonus picks - minion owner resolution subroutine",
+            "Description": "Cave at 36ABA0, stomping the srvdofunc=58 body sub_14036ABA0 (0x6A4 = 1700 bytes, unused in ESR). Occupies 36ABA0-36ABDF (64 bytes), 1636 free. Takes a minion unit in rcx and returns its owning player in rax, or 0. Reads pMonsterData at unit+10h, then the block at +30h, and resolves the owner via sub_1402C49C0(ctx = [+58h], type = [+64h], id = [+60h]) -- the same owner path sub_14032CC10 uses for monsters. Requires the owner unit type at +64h to be 0 (player) before calling, so the lookup is never invoked with a nonsense type. Self-aligning around the call (push rbx / mov rbx,rsp / and rsp,-16 / sub rsp,20h ... mov rsp,rbx / pop rbx) so it does not depend on caller stack alignment. Supersedes an earlier version that walked the unit's statlist chain for a child list flagged 0x800; live probing showed summons carry no such node, so that walk always failed. Verified by keystone plus capstone: the only external call resolves to 2C49C0.",
+            "Category": "Alteration",
+            "Addresses": [
+                "36ABA0"
+            ],
+            "Length": 64,
+            "Type": "Hex",
+            "OriginalValues": "40555741544156488D6C24C14881ECD8000000488B05BEB548014833C44889450733FF44894DA7448945AB4C8BE2488955BF4C8BF148894DC74585C0781C4963",
+            "ModdedValues": "488B41104885C07434488B40304885C0742B837864007525488B48584885C9741C448B406031D2534889E34883E4F04883EC20E8E89DF5FF4889DC5BC331C0C3",
+            "Values": "488B41104885C07434488B40304885C0742B837864007525488B48584885C9741C448B406031D2534889E34883E4F04883EC20E8E89DF5FF4889DC5BC331C0C3"
         }
     ]
 }

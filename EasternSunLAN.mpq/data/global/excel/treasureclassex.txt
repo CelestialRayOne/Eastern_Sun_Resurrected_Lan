@@ -41,11 +41,11 @@ Regular Charms			1						cx1	1	cx2	1	cx3	1	Nothing	3																		0
 Unique Charm 1			1	1024					The Perfect Cell	6	Yello Jello	6	Lothar's Will	6	Deviant Cell	4																		0
 Unique Charm 2			1	1024					The Perfect Cell	6	Yello Jello	6	Lothar's Will	6	Gheed's Fortune	5	Deviant Cell	4	Vlad Tepe's Sustenance	1	Something Wicked	1	The Unknown Hero	1										0
 Unique Charm Small			1	1024					The Perfect Cell	6	Vlad Tepe's Sustenance	1																						0
-DDD6			-6						ddd	1	ddd	1	ddd	1	ddd	1	ddd	1	ddd	1														0
-DDD5			-5						ddd	1	ddd	1	ddd	1	ddd	1	ddd	1																0
-DDD4			-4						ddd	1	ddd	1	ddd	1	ddd	1																		0
-DDD3			-3						ddd	1	ddd	1	ddd	1																				0
-DDD2			-2						ddd	1	ddd	1																						0
+DDD6			6						ddd	6																								0
+DDD5			5						ddd	5																								0
+DDD4			4						ddd	4																								0
+DDD3			3						ddd	3																								0
+DDD2			2						ddd	2																								0
 DDD1			1						ddd	64	DDD2	16	DDD3	8	DDD4	4	DDD5	2	DDD6	1														0
 Jewelry A			1						Rings	72	Amulets	48	Jewels	36	ppp	9	Regular Charms	72	DDD1	18	sdo	1												0
 Jewelry B			1						Jewelry A	129	Unique Charm 1	1																						0
@@ -441,48 +441,90 @@ Act 4 (H) Citem B	11	80	1	384	512	768	1024	0	"gld,mul=384"	60	Act 4 (H) Equip B	
 Act 5 (H) Citem A	11	81	1	384	512	768	1024	0	"gld,mul=384"	60	Act 5 (H) Equip A	36	Act 5 (H) Good	4																				0
 Act 5 (H) Citem B	11	83	1	384	512	768	1024	0	"gld,mul=384"	60	Act 5 (H) Equip B	36	Act 5 (H) Good	4																				0
 Act 5 (H) Citem C	11	85	1	384	512	768	1024	0	"gld,mul=384"	60	Act 5 (H) Equip C	36	Act 5 (H) Good	4																				0
-Act 1 Champ A	13	0	-2					0	Act 1 Citem A	1	Cpot 1	1																						0
-Act 1 Champ B	13	5	-2					0	Act 1 Citem B	1	Cpot 1	1																						0
-Act 1 Champ C	13	9	-2					0	Act 1 Citem C	1	Cpot 1	1																						0
-Act 2 Champ A	13	12	-2					0	Act 2 Citem A	1	Cpot 2	1																						0
-Act 2 Champ B	13	15	-2					0	Act 2 Citem B	1	Cpot 2	1																						0
-Act 2 Champ C	13	18	-2					0	Act 2 Citem C	1	Cpot 2	1																						0
-Act 3 Champ A	13	20	-2					0	Act 3 Citem A	1	Cpot 3	1																						0
-Act 3 Champ B	13	22	-2					0	Act 3 Citem B	1	Cpot 3	1																						0
-Act 3 Champ C	13	24	-2					0	Act 3 Citem C	1	Cpot 3	1																						0
-Act 4 Champ A	13	26	-2					0	Act 4 Citem A	1	Cpot 4	1																						0
-Act 4 Champ B	13	29	-2					0	Act 4 Citem B	1	Cpot 4	1																						0
-Act 5 Champ A	13	32	-2					0	Act 5 Citem A	1	Cpot 5	1																						0
-Act 5 Champ B	13	34	-2					0	Act 5 Citem B	1	Cpot 5	1																						0
-Act 5 Champ C	13	36	-2					0	Act 5 Citem C	1	Cpot 5	1																						0
-Act 1 (N) Champ A	13	38	-2					0	Act 1 (N) Citem A	1	Cpot 6	1																						0
-Act 1 (N) Champ B	13	40	-2					0	Act 1 (N) Citem B	1	Cpot 6	1																						0
-Act 1 (N) Champ C	13	41	-2					0	Act 1 (N) Citem C	1	Cpot 6	1																						0
-Act 2 (N) Champ A	13	42	-2					0	Act 2 (N) Citem A	1	Cpot 6	1																						0
-Act 2 (N) Champ B	13	44	-2					0	Act 2 (N) Citem B	1	Cpot 6	1																						0
-Act 2 (N) Champ C	13	45	-2					0	Act 2 (N) Citem C	1	Cpot 6	1																						0
-Act 3 (N) Champ A	13	46	-2					0	Act 3 (N) Citem A	1	Cpot 6	1																						0
-Act 3 (N) Champ B	13	48	-2					0	Act 3 (N) Citem B	1	Cpot 6	1																						0
-Act 3 (N) Champ C	13	50	-2					0	Act 3 (N) Citem C	1	Cpot 6	1																						0
-Act 4 (N) Champ A	13	51	-2					0	Act 4 (N) Citem A	1	Cpot 6	1																						0
-Act 4 (N) Champ B	13	54	-2					0	Act 4 (N) Citem B	1	Cpot 6	1																						0
-Act 5 (N) Champ A	13	57	-2					0	Act 5 (N) Citem A	1	Cpot 6	1																						0
-Act 5 (N) Champ B	13	60	-2					0	Act 5 (N) Citem B	1	Cpot 6	1																						0
-Act 5 (N) Champ C	13	62	-2					0	Act 5 (N) Citem C	1	Cpot 6	1																						0
-Act 1 (H) Champ A	13	63	-2					0	Act 1 (H) Citem A	1	Cpot 7	1																						0
-Act 1 (H) Champ B	13	66	-2					0	Act 1 (H) Citem B	1	Cpot 7	1																						0
-Act 1 (H) Champ C	13	68	-2					0	Act 1 (H) Citem C	1	Cpot 7	1																						0
-Act 2 (H) Champ A	13	69	-2					0	Act 2 (H) Citem A	1	Cpot 7	1																						0
-Act 2 (H) Champ B	13	71	-2					0	Act 2 (H) Citem B	1	Cpot 7	1																						0
-Act 2 (H) Champ C	13	72	-2					0	Act 2 (H) Citem C	1	Cpot 7	1																						0
-Act 3 (H) Champ A	13	74	-2					0	Act 3 (H) Citem A	1	Cpot 7	1																						0
-Act 3 (H) Champ B	13	75	-2					0	Act 3 (H) Citem B	1	Cpot 7	1																						0
-Act 3 (H) Champ C	13	77	-2					0	Act 3 (H) Citem C	1	Cpot 7	1																						0
-Act 4 (H) Champ A	13	78	-2					0	Act 4 (H) Citem A	1	Cpot 7	1																						0
-Act 4 (H) Champ B	13	80	-2					0	Act 4 (H) Citem B	1	Cpot 7	1																						0
-Act 5 (H) Champ A	13	81	-2					0	Act 5 (H) Citem A	1	Cpot 7	1																						0
-Act 5 (H) Champ B	13	83	-2					0	Act 5 (H) Citem B	1	Cpot 7	1																						0
-Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Cpot 7	1																						0
+Act 1 Champ A Base			-2					0	Act 1 Citem A	1	Cpot 1	1																						0
+Act 1 Champ B Base			-2					0	Act 1 Citem B	1	Cpot 1	1																						0
+Act 1 Champ C Base			-2					0	Act 1 Citem C	1	Cpot 1	1																						0
+Act 2 Champ A Base			-2					0	Act 2 Citem A	1	Cpot 2	1																						0
+Act 2 Champ B Base			-2					0	Act 2 Citem B	1	Cpot 2	1																						0
+Act 2 Champ C Base			-2					0	Act 2 Citem C	1	Cpot 2	1																						0
+Act 3 Champ A Base			-2					0	Act 3 Citem A	1	Cpot 3	1																						0
+Act 3 Champ B Base			-2					0	Act 3 Citem B	1	Cpot 3	1																						0
+Act 3 Champ C Base			-2					0	Act 3 Citem C	1	Cpot 3	1																						0
+Act 4 Champ A Base			-2					0	Act 4 Citem A	1	Cpot 4	1																						0
+Act 4 Champ B Base			-2					0	Act 4 Citem B	1	Cpot 4	1																						0
+Act 5 Champ A Base			-2					0	Act 5 Citem A	1	Cpot 5	1																						0
+Act 5 Champ B Base			-2					0	Act 5 Citem B	1	Cpot 5	1																						0
+Act 5 Champ C Base			-2					0	Act 5 Citem C	1	Cpot 5	1																						0
+Act 1 (N) Champ A Base			-2					0	Act 1 (N) Citem A	1	Cpot 6	1																						0
+Act 1 (N) Champ B Base			-2					0	Act 1 (N) Citem B	1	Cpot 6	1																						0
+Act 1 (N) Champ C Base			-2					0	Act 1 (N) Citem C	1	Cpot 6	1																						0
+Act 2 (N) Champ A Base			-2					0	Act 2 (N) Citem A	1	Cpot 6	1																						0
+Act 2 (N) Champ B Base			-2					0	Act 2 (N) Citem B	1	Cpot 6	1																						0
+Act 2 (N) Champ C Base			-2					0	Act 2 (N) Citem C	1	Cpot 6	1																						0
+Act 3 (N) Champ A Base			-2					0	Act 3 (N) Citem A	1	Cpot 6	1																						0
+Act 3 (N) Champ B Base			-2					0	Act 3 (N) Citem B	1	Cpot 6	1																						0
+Act 3 (N) Champ C Base			-2					0	Act 3 (N) Citem C	1	Cpot 6	1																						0
+Act 4 (N) Champ A Base			-2					0	Act 4 (N) Citem A	1	Cpot 6	1																						0
+Act 4 (N) Champ B Base			-2					0	Act 4 (N) Citem B	1	Cpot 6	1																						0
+Act 5 (N) Champ A Base			-2					0	Act 5 (N) Citem A	1	Cpot 6	1																						0
+Act 5 (N) Champ B Base			-2					0	Act 5 (N) Citem B	1	Cpot 6	1																						0
+Act 5 (N) Champ C Base			-2					0	Act 5 (N) Citem C	1	Cpot 6	1																						0
+Act 1 (H) Champ A Base			-2					0	Act 1 (H) Citem A	1	Cpot 7	1																						0
+Act 1 (H) Champ B Base			-2					0	Act 1 (H) Citem B	1	Cpot 7	1																						0
+Act 1 (H) Champ C Base			-2					0	Act 1 (H) Citem C	1	Cpot 7	1																						0
+Act 2 (H) Champ A Base			-2					0	Act 2 (H) Citem A	1	Cpot 7	1																						0
+Act 2 (H) Champ B Base			-2					0	Act 2 (H) Citem B	1	Cpot 7	1																						0
+Act 2 (H) Champ C Base			-2					0	Act 2 (H) Citem C	1	Cpot 7	1																						0
+Act 3 (H) Champ A Base			-2					0	Act 3 (H) Citem A	1	Cpot 7	1																						0
+Act 3 (H) Champ B Base			-2					0	Act 3 (H) Citem B	1	Cpot 7	1																						0
+Act 3 (H) Champ C Base			-2					0	Act 3 (H) Citem C	1	Cpot 7	1																						0
+Act 4 (H) Champ A Base			-2					0	Act 4 (H) Citem A	1	Cpot 7	1																						0
+Act 4 (H) Champ B Base			-2					0	Act 4 (H) Citem B	1	Cpot 7	1																						0
+Act 5 (H) Champ A Base			-2					0	Act 5 (H) Citem A	1	Cpot 7	1																						0
+Act 5 (H) Champ B Base			-2					0	Act 5 (H) Citem B	1	Cpot 7	1																						0
+Act 5 (H) Champ C Base			-2					0	Act 5 (H) Citem C	1	Cpot 7	1																						0
+Act 1 Champ A	13	0	1					0	Act 1 Champ A Base	1																								0
+Act 1 Champ B	13	5	1					0	Act 1 Champ B Base	1																								0
+Act 1 Champ C	13	9	1					0	Act 1 Champ C Base	1																								0
+Act 2 Champ A	13	12	1					0	Act 2 Champ A Base	1																								0
+Act 2 Champ B	13	15	1					0	Act 2 Champ B Base	1																								0
+Act 2 Champ C	13	18	1					0	Act 2 Champ C Base	1																								0
+Act 3 Champ A	13	20	1					0	Act 3 Champ A Base	1																								0
+Act 3 Champ B	13	22	1					0	Act 3 Champ B Base	1																								0
+Act 3 Champ C	13	24	1					0	Act 3 Champ C Base	1																								0
+Act 4 Champ A	13	26	1					0	Act 4 Champ A Base	1																								0
+Act 4 Champ B	13	29	1					0	Act 4 Champ B Base	1																								0
+Act 5 Champ A	13	32	1					0	Act 5 Champ A Base	1																								0
+Act 5 Champ B	13	34	1					0	Act 5 Champ B Base	1																								0
+Act 5 Champ C	13	36	1					0	Act 5 Champ C Base	1																								0
+Act 1 (N) Champ A	13	38	1					0	Act 1 (N) Champ A Base	1																								0
+Act 1 (N) Champ B	13	40	1					0	Act 1 (N) Champ B Base	1																								0
+Act 1 (N) Champ C	13	41	1					0	Act 1 (N) Champ C Base	1																								0
+Act 2 (N) Champ A	13	42	1					0	Act 2 (N) Champ A Base	1																								0
+Act 2 (N) Champ B	13	44	1					0	Act 2 (N) Champ B Base	1																								0
+Act 2 (N) Champ C	13	45	1					0	Act 2 (N) Champ C Base	1																								0
+Act 3 (N) Champ A	13	46	1					0	Act 3 (N) Champ A Base	1																								0
+Act 3 (N) Champ B	13	48	1					0	Act 3 (N) Champ B Base	1																								0
+Act 3 (N) Champ C	13	50	1					0	Act 3 (N) Champ C Base	1																								0
+Act 4 (N) Champ A	13	51	1					0	Act 4 (N) Champ A Base	1																								0
+Act 4 (N) Champ B	13	54	1					0	Act 4 (N) Champ B Base	1																								0
+Act 5 (N) Champ A	13	57	1					0	Act 5 (N) Champ A Base	1																								0
+Act 5 (N) Champ B	13	60	1					0	Act 5 (N) Champ B Base	1																								0
+Act 5 (N) Champ C	13	62	1					0	Act 5 (N) Champ C Base	1																								0
+Act 1 (H) Champ A	13	63	1					0	Act 1 (H) Champ A Base	1																								0
+Act 1 (H) Champ B	13	66	1					0	Act 1 (H) Champ B Base	1																								0
+Act 1 (H) Champ C	13	68	1					0	Act 1 (H) Champ C Base	1																								0
+Act 2 (H) Champ A	13	69	1					0	Act 2 (H) Champ A Base	1																								0
+Act 2 (H) Champ B	13	71	1					0	Act 2 (H) Champ B Base	1																								0
+Act 2 (H) Champ C	13	72	1					0	Act 2 (H) Champ C Base	1																								0
+Act 3 (H) Champ A	13	74	1					0	Act 3 (H) Champ A Base	1																								0
+Act 3 (H) Champ B	13	75	1					0	Act 3 (H) Champ B Base	1																								0
+Act 3 (H) Champ C	13	77	1					0	Act 3 (H) Champ C Base	1																								0
+Act 4 (H) Champ A	13	78	1					0	Act 4 (H) Champ A Base	1																								0
+Act 4 (H) Champ B	13	80	1					0	Act 4 (H) Champ B Base	1																								0
+Act 5 (H) Champ A	13	81	1					0	Act 5 (H) Champ A Base	1																								0
+Act 5 (H) Champ B	13	83	1					0	Act 5 (H) Champ B Base	1																								0
+Act 5 (H) Champ C	13	85	1					0	Act 5 (H) Champ C Base	1																								0
 Council Base			3	384	512	682	768	50	Gold	30	Act 4 Equip A	50	Act 4 Junk	14	Act 4 UGood	6																		0
 Council Base (N)			3	384	512	682	768	50	Gold	30	Act 4 (N) Equip A	50	Act 4 (N) Junk	14	Act 4 (N) UGood	6																		0
 Council Base (H)			3	384	512	682	768	50	Gold	30	Act 4 (H) Equip A	50	Act 4 (H) Junk	14	Act 4 (H) UGood	6																		0
@@ -531,48 +573,90 @@ Act 4 (H) Uitem B	14	80	1	512	614	820	1024	0	Act 4 (H) Equip B	93	Act 4 (H) UGoo
 Act 5 (H) Uitem A	14	81	1	512	614	820	1024	0	Act 5 (H) Equip A	93		7																						0
 Act 5 (H) Uitem B	14	83	1	512	614	820	1024	0	Act 5 (H) Equip B	93	Act 5 (H) UGood	7																						0
 Act 5 (H) Uitem C	14	85	1	512	614	820	1024	0	Act 5 (H) Equip C	93	Act 5 (H) UGood	7																						0
-Act 1 Unique A	15	0	-5					0	Act 1 Uitem A	2	Cpot 1	3																						0
-Act 1 Unique B	15	5	-5					0	Act 1 Uitem B	2	Cpot 1	3																						0
-Act 1 Unique C	15	9	-5					0	Act 1 Uitem C	2	Cpot 1	3																						0
-Act 2 Unique A	15	12	-5					0	Act 2 Uitem A	2	Cpot 2	3																						0
-Act 2 Unique B	15	15	-5					0	Act 2 Uitem B	2	Cpot 2	3																						0
-Act 2 Unique C	15	18	-5					0	Act 2 Uitem C	2	Cpot 2	3																						0
-Act 3 Unique A	15	20	-5					0	Act 3 Uitem A	2	Cpot 3	3																						0
-Act 3 Unique B	15	22	-5					0	Act 3 Uitem B	2	Cpot 3	3																						0
-Act 3 Unique C	15	24	-5					0	Act 3 Uitem C	2	Cpot 3	3																						0
-Act 4 Unique A	15	26	-5					0	Act 4 Uitem A	2	Cpot 4	3																						0
-Act 4 Unique B	15	29	-5					0	Act 4 Uitem B	2	Cpot 4	3																						0
-Act 5 Unique A	15	32	-5					0	Act 5 Uitem A	2	Cpot 5	3																						0
-Act 5 Unique B	15	34	-5					0	Act 5 Uitem B	2	Cpot 5	3																						0
-Act 5 Unique C	15	36	-5					0	Act 5 Uitem C	2	Cpot 5	3																						0
-Act 1 (N) Unique A	15	38	-5					0	Act 1 (N) Uitem A	2	Cpot 6	3																						0
-Act 1 (N) Unique B	15	40	-5					0	Act 1 (N) Uitem B	2	Cpot 6	3																						0
-Act 1 (N) Unique C	15	41	-5					0	Act 1 (N) Uitem C	2	Cpot 6	3																						0
-Act 2 (N) Unique A	15	42	-5					0	Act 2 (N) Uitem A	2	Cpot 6	3																						0
-Act 2 (N) Unique B	15	44	-5					0	Act 2 (N) Uitem B	2	Cpot 6	3																						0
-Act 2 (N) Unique C	15	45	-5					0	Act 2 (N) Uitem C	2	Cpot 6	3																						0
-Act 3 (N) Unique A	15	46	-5					0	Act 3 (N) Uitem A	2	Cpot 6	3																						0
-Act 3 (N) Unique B	15	48	-5					0	Act 3 (N) Uitem B	2	Cpot 6	3																						0
-Act 3 (N) Unique C	15	50	-5					0	Act 3 (N) Uitem C	2	Cpot 6	3																						0
-Act 4 (N) Unique A	15	51	-5					0	Act 4 (N) Uitem A	2	Cpot 6	3																						0
-Act 4 (N) Unique B	15	54	-5					0	Act 4 (N) Uitem B	2	Cpot 6	3																						0
-Act 5 (N) Unique A	15	57	-5					0	Act 5 (N) Uitem A	2	Cpot 6	3																						0
-Act 5 (N) Unique B	15	60	-5					0	Act 5 (N) Uitem B	2	Cpot 6	3																						0
-Act 5 (N) Unique C	15	62	-5					0	Act 5 (N) Uitem C	2	Cpot 6	3																						0
-Act 1 (H) Unique A	15	63	-5					0	Act 1 (H) Uitem A	2	Cpot 7	3																						0
-Act 1 (H) Unique B	15	66	-5					0	Act 1 (H) Uitem B	2	Cpot 7	3																						0
-Act 1 (H) Unique C	15	68	-5					0	Act 1 (H) Uitem C	2	Cpot 7	3																						0
-Act 2 (H) Unique A	15	69	-5					0	Act 2 (H) Uitem A	2	Cpot 7	3																						0
-Act 2 (H) Unique B	15	71	-5					0	Act 2 (H) Uitem B	2	Cpot 7	3																						0
-Act 2 (H) Unique C	15	72	-5					0	Act 2 (H) Uitem C	2	Cpot 7	3																						0
-Act 3 (H) Unique A	15	74	-5					0	Act 3 (H) Uitem A	2	Cpot 7	3																						0
-Act 3 (H) Unique B	15	75	-5					0	Act 3 (H) Uitem B	2	Cpot 7	3																						0
-Act 3 (H) Unique C	15	77	-5					0	Act 3 (H) Uitem C	2	Cpot 7	3																						0
-Act 4 (H) Unique A	15	78	-5					0	Act 4 (H) Uitem A	2	Cpot 7	3																						0
-Act 4 (H) Unique B	15	80	-5					0	Act 4 (H) Uitem B	2	Cpot 7	3																						0
-Act 5 (H) Unique A	15	81	-5					0	Act 5 (H) Uitem A	2	Cpot 7	3																						0
-Act 5 (H) Unique B	15	83	-5					0	Act 5 (H) Uitem B	2	Cpot 7	3																						0
-Act 5 (H) Unique C	15	85	-5					0	Act 5 (H) Uitem C	2	Cpot 7	3																						0
+Act 1 Unique A Base			-5					0	Act 1 Uitem A	2	Cpot 1	3																						0
+Act 1 Unique B Base			-5					0	Act 1 Uitem B	2	Cpot 1	3																						0
+Act 1 Unique C Base			-5					0	Act 1 Uitem C	2	Cpot 1	3																						0
+Act 2 Unique A Base			-5					0	Act 2 Uitem A	2	Cpot 2	3																						0
+Act 2 Unique B Base			-5					0	Act 2 Uitem B	2	Cpot 2	3																						0
+Act 2 Unique C Base			-5					0	Act 2 Uitem C	2	Cpot 2	3																						0
+Act 3 Unique A Base			-5					0	Act 3 Uitem A	2	Cpot 3	3																						0
+Act 3 Unique B Base			-5					0	Act 3 Uitem B	2	Cpot 3	3																						0
+Act 3 Unique C Base			-5					0	Act 3 Uitem C	2	Cpot 3	3																						0
+Act 4 Unique A Base			-5					0	Act 4 Uitem A	2	Cpot 4	3																						0
+Act 4 Unique B Base			-5					0	Act 4 Uitem B	2	Cpot 4	3																						0
+Act 5 Unique A Base			-5					0	Act 5 Uitem A	2	Cpot 5	3																						0
+Act 5 Unique B Base			-5					0	Act 5 Uitem B	2	Cpot 5	3																						0
+Act 5 Unique C Base			-5					0	Act 5 Uitem C	2	Cpot 5	3																						0
+Act 1 (N) Unique A Base			-5					0	Act 1 (N) Uitem A	2	Cpot 6	3																						0
+Act 1 (N) Unique B Base			-5					0	Act 1 (N) Uitem B	2	Cpot 6	3																						0
+Act 1 (N) Unique C Base			-5					0	Act 1 (N) Uitem C	2	Cpot 6	3																						0
+Act 2 (N) Unique A Base			-5					0	Act 2 (N) Uitem A	2	Cpot 6	3																						0
+Act 2 (N) Unique B Base			-5					0	Act 2 (N) Uitem B	2	Cpot 6	3																						0
+Act 2 (N) Unique C Base			-5					0	Act 2 (N) Uitem C	2	Cpot 6	3																						0
+Act 3 (N) Unique A Base			-5					0	Act 3 (N) Uitem A	2	Cpot 6	3																						0
+Act 3 (N) Unique B Base			-5					0	Act 3 (N) Uitem B	2	Cpot 6	3																						0
+Act 3 (N) Unique C Base			-5					0	Act 3 (N) Uitem C	2	Cpot 6	3																						0
+Act 4 (N) Unique A Base			-5					0	Act 4 (N) Uitem A	2	Cpot 6	3																						0
+Act 4 (N) Unique B Base			-5					0	Act 4 (N) Uitem B	2	Cpot 6	3																						0
+Act 5 (N) Unique A Base			-5					0	Act 5 (N) Uitem A	2	Cpot 6	3																						0
+Act 5 (N) Unique B Base			-5					0	Act 5 (N) Uitem B	2	Cpot 6	3																						0
+Act 5 (N) Unique C Base			-5					0	Act 5 (N) Uitem C	2	Cpot 6	3																						0
+Act 1 (H) Unique A Base			-5					0	Act 1 (H) Uitem A	2	Cpot 7	3																						0
+Act 1 (H) Unique B Base			-5					0	Act 1 (H) Uitem B	2	Cpot 7	3																						0
+Act 1 (H) Unique C Base			-5					0	Act 1 (H) Uitem C	2	Cpot 7	3																						0
+Act 2 (H) Unique A Base			-5					0	Act 2 (H) Uitem A	2	Cpot 7	3																						0
+Act 2 (H) Unique B Base			-5					0	Act 2 (H) Uitem B	2	Cpot 7	3																						0
+Act 2 (H) Unique C Base			-5					0	Act 2 (H) Uitem C	2	Cpot 7	3																						0
+Act 3 (H) Unique A Base			-5					0	Act 3 (H) Uitem A	2	Cpot 7	3																						0
+Act 3 (H) Unique B Base			-5					0	Act 3 (H) Uitem B	2	Cpot 7	3																						0
+Act 3 (H) Unique C Base			-5					0	Act 3 (H) Uitem C	2	Cpot 7	3																						0
+Act 4 (H) Unique A Base			-5					0	Act 4 (H) Uitem A	2	Cpot 7	3																						0
+Act 4 (H) Unique B Base			-5					0	Act 4 (H) Uitem B	2	Cpot 7	3																						0
+Act 5 (H) Unique A Base			-5					0	Act 5 (H) Uitem A	2	Cpot 7	3																						0
+Act 5 (H) Unique B Base			-5					0	Act 5 (H) Uitem B	2	Cpot 7	3																						0
+Act 5 (H) Unique C Base			-5					0	Act 5 (H) Uitem C	2	Cpot 7	3																						0
+Act 1 Unique A	15	0	1					0	Act 1 Unique A Base	1																								0
+Act 1 Unique B	15	5	1					0	Act 1 Unique B Base	1																								0
+Act 1 Unique C	15	9	1					0	Act 1 Unique C Base	1																								0
+Act 2 Unique A	15	12	1					0	Act 2 Unique A Base	1																								0
+Act 2 Unique B	15	15	1					0	Act 2 Unique B Base	1																								0
+Act 2 Unique C	15	18	1					0	Act 2 Unique C Base	1																								0
+Act 3 Unique A	15	20	1					0	Act 3 Unique A Base	1																								0
+Act 3 Unique B	15	22	1					0	Act 3 Unique B Base	1																								0
+Act 3 Unique C	15	24	1					0	Act 3 Unique C Base	1																								0
+Act 4 Unique A	15	26	1					0	Act 4 Unique A Base	1																								0
+Act 4 Unique B	15	29	1					0	Act 4 Unique B Base	1																								0
+Act 5 Unique A	15	32	1					0	Act 5 Unique A Base	1																								0
+Act 5 Unique B	15	34	1					0	Act 5 Unique B Base	1																								0
+Act 5 Unique C	15	36	1					0	Act 5 Unique C Base	1																								0
+Act 1 (N) Unique A	15	38	1					0	Act 1 (N) Unique A Base	1																								0
+Act 1 (N) Unique B	15	40	1					0	Act 1 (N) Unique B Base	1																								0
+Act 1 (N) Unique C	15	41	1					0	Act 1 (N) Unique C Base	1																								0
+Act 2 (N) Unique A	15	42	1					0	Act 2 (N) Unique A Base	1																								0
+Act 2 (N) Unique B	15	44	1					0	Act 2 (N) Unique B Base	1																								0
+Act 2 (N) Unique C	15	45	1					0	Act 2 (N) Unique C Base	1																								0
+Act 3 (N) Unique A	15	46	1					0	Act 3 (N) Unique A Base	1																								0
+Act 3 (N) Unique B	15	48	1					0	Act 3 (N) Unique B Base	1																								0
+Act 3 (N) Unique C	15	50	1					0	Act 3 (N) Unique C Base	1																								0
+Act 4 (N) Unique A	15	51	1					0	Act 4 (N) Unique A Base	1																								0
+Act 4 (N) Unique B	15	54	1					0	Act 4 (N) Unique B Base	1																								0
+Act 5 (N) Unique A	15	57	1					0	Act 5 (N) Unique A Base	1																								0
+Act 5 (N) Unique B	15	60	1					0	Act 5 (N) Unique B Base	1																								0
+Act 5 (N) Unique C	15	62	1					0	Act 5 (N) Unique C Base	1																								0
+Act 1 (H) Unique A	15	63	1					0	Act 1 (H) Unique A Base	1																								0
+Act 1 (H) Unique B	15	66	1					0	Act 1 (H) Unique B Base	1																								0
+Act 1 (H) Unique C	15	68	1					0	Act 1 (H) Unique C Base	1																								0
+Act 2 (H) Unique A	15	69	1					0	Act 2 (H) Unique A Base	1																								0
+Act 2 (H) Unique B	15	71	1					0	Act 2 (H) Unique B Base	1																								0
+Act 2 (H) Unique C	15	72	1					0	Act 2 (H) Unique C Base	1																								0
+Act 3 (H) Unique A	15	74	1					0	Act 3 (H) Unique A Base	1																								0
+Act 3 (H) Unique B	15	75	1					0	Act 3 (H) Unique B Base	1																								0
+Act 3 (H) Unique C	15	77	1					0	Act 3 (H) Unique C Base	1																								0
+Act 4 (H) Unique A	15	78	1					0	Act 4 (H) Unique A Base	1																								0
+Act 4 (H) Unique B	15	80	1					0	Act 4 (H) Unique B Base	1																								0
+Act 5 (H) Unique A	15	81	1					0	Act 5 (H) Unique A Base	1																								0
+Act 5 (H) Unique B	15	83	1					0	Act 5 (H) Unique B Base	1																								0
+Act 5 (H) Unique C	15	85	1					0	Act 5 (H) Unique C Base	1																								0
 Act 1 Super A Base			6	614	768	864	1024		"gld,mul=512"	20	Act 1 Equip A	40	Act 1 Junk	10	Act 1 UGood	5																		0
 Act 1 Super B Base			6	614	768	864	1024		"gld,mul=512"	20	Act 1 Equip B	40	Act 1 Junk	10	Act 1 UGood	5																		0
 Act 1 Super C Base			6	614	768	864	1024		"gld,mul=512"	20	Act 1 Equip C	40	Act 1 Junk	10	Act 1 UGood	5																		0
@@ -662,14 +746,14 @@ Act 5 (H) Super C			1	614	768	864	1024	25	Sets08	1	Act 5 (H) Super C Base	75				
 HoD			1						hh2	1	isc	1																						0
 HoD (N)			1						hh2	3	isc	1																						0
 HoD (H)			1						hh2	1																								0
-Bloodwitch the Wild			-2						HoD	1	Act 2 Super A	1																						0
-Bloodwitch the Wild (N)			-2						HoD (N)	1	Act 2 (N) Super A	1																						0
-Bloodwitch the Wild (H)			-2						HoD (H)	1	Act 2 (H) Super A	1																						0
-Bloodwitch the Wild (H) Desecrated			-2					0	Worldstone Shards	1	Bloodwitch the Wild (H)	1																						0
-Treehead WoodFist			-3						Act 1 Super C	1																								0
-Treehead WoodFist (N)			-3						Act 1 (N) Super C	1																								0
-Treehead WoodFist (H)			-3						Act 1 (H) Super C	1																								0
-Treehead WoodFist (H) Desecrated			-2					0	Treehead WoodFist (H)	1	Worldstone Shards	1																						0
+Bloodwitch the Wild			2						HoD	1	Act 2 Super A	1																						0
+Bloodwitch the Wild (N)			2						HoD (N)	1	Act 2 (N) Super A	1																						0
+Bloodwitch the Wild (H)			2						HoD (H)	1	Act 2 (H) Super A	1																						0
+Bloodwitch the Wild (H) Desecrated			2					0	Worldstone Shards	1	Bloodwitch the Wild (H)	1																						0
+Treehead WoodFist			3						Act 1 Super C	1																								0
+Treehead WoodFist (N)			3						Act 1 (N) Super C	1																								0
+Treehead WoodFist (H)			3						Act 1 (H) Super C	1																								0
+Treehead WoodFist (H) Desecrated			2					0	Treehead WoodFist (H)	1	Worldstone Shards	1																						0
 Act 1 Ultra			1	768	820	922	1024	25	"gld,mul=512"	15	Act 1 Equip C	50	Act 1 Junk	5	Act 1 UGood	5																		0
 Act 2 Ultra			1	768	820	922	1024	25	"gld,mul=512"	15	Act 2 Equip C	50	Act 2 Junk	5	Act 2 UGood	5																		0
 Act 3 Ultra			1	768	820	922	1024	25	"gld,mul=512"	15	Act 3 Equip C	50	Act 3 Junk	5	Act 3 UGood	5																		0
@@ -692,9 +776,9 @@ Guardian Map Drop			1						z01	1	z02	1	z03	1	z04	1	Nothing	16																0
 Countess Rune			1						Runes 6	1	Runes 3	1																						0
 Countess Rune (N)			1						Runes 11	1	Runes 5	1																						0
 Countess Rune (H)			1						Runes 16	1	Runes 10	1																						0
-Countess			-6						Act 1 Ultra	3	Countess Rune	3																						0
-Countess (N)			-6						Act 1 (N) Ultra	3	Countess Rune (N)	3																						0
-Countess (H)			-6						Act 1 (H) Ultra	3	Countess Rune (H)	3																						0
+Countess			6						Act 1 Ultra	3	Countess Rune	3																						0
+Countess (N)			6						Act 1 (N) Ultra	3	Countess Rune (N)	3																						0
+Countess (H)			6						Act 1 (H) Ultra	3	Countess Rune (H)	3																						0
 Blood Raven			6						Act 1 Ultra	160	Unique Ore 11	1																						0
 Blood Raven (N)			6						Act 1 (N) Ultra	80	Unique Ore 11	1																						0
 Blood Raven (H)			6						Act 1 (H) Ultra	40	Unique Ore 11	1																						0
@@ -1402,48 +1486,90 @@ A5C Po4 (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	po4	60		
 A5C Fkn			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Ore	1	fkn	120																0
 A5C Fkn (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Ore	2	fkn	120																0
 A5C Fkn (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Ore	3	fkn	120																0
-A5W None			-2						A5C	1	A5C None	1																						0
-A5W Hrt			-2						A5C	1	A5C Hrt	1																						0
-A5W Brz			-2						A5C	1	A5C Brz	1																						0
-A5W Jaw			-2						A5C	1	A5C Jaw	1																						0
-A5W Eyz			-2						A5C	1	A5C Eyz	1																						0
-A5W Hrn			-2						A5C	1	A5C Hrn	1																						0
-A5W Tal			-2						A5C	1	A5C Tal	1																						0
-A5W Flg			-2						A5C	1	A5C Flg	1																						0
-A5W Fng			-2						A5C	1	A5C Fng	1																						0
-A5W Qll			-2						A5C	1	A5C Qll	1																						0
-A5W Sol			-2						A5C	1	A5C Sol	1																						0
-A5W Scz			-2						A5C	1	A5C Scz	1																						0
-A5W Spe			-2						A5C	1	A5C Spe	1																						0
-A5W Rune			-2						A5C	1	A5C Rune	1																						0
-A5W None (N)			-2						A5C (N)	1	A5C None (N)	1																						0
-A5W Hrt (N)			-2						A5C (N)	1	A5C Hrt (N)	1																						0
-A5W Brz (N)			-2						A5C (N)	1	A5C Brz (N)	1																						0
-A5W Jaw (N)			-2						A5C (N)	1	A5C Jaw (N)	1																						0
-A5W Eyz (N)			-2						A5C (N)	1	A5C Eyz (N)	1																						0
-A5W Hrn (N)			-2						A5C (N)	1	A5C Hrn (N)	1																						0
-A5W Tal (N)			-2						A5C (N)	1	A5C Tal (N)	1																						0
-A5W Flg (N)			-2						A5C (N)	1	A5C Flg (N)	1																						0
-A5W Fng (N)			-2						A5C (N)	1	A5C Fng (N)	1																						0
-A5W Qll (N)			-2						A5C (N)	1	A5C Qll (N)	1																						0
-A5W Sol (N)			-2						A5C (N)	1	A5C Sol (N)	1																						0
-A5W Scz (N)			-2						A5C (N)	1	A5C Scz (N)	1																						0
-A5W Spe (N)			-2						A5C (N)	1	A5C Spe (N)	1																						0
-A5W Rune (N)			-2						A5C (N)	1	A5C Rune (N)	1																						0
-A5W None (H)			-2						A5C (H)	1	A5C None (H)	1																						0
-A5W Hrt (H)			-2						A5C (H)	1	A5C Hrt (H)	1																						0
-A5W Brz (H)			-2						A5C (H)	1	A5C Brz (H)	1																						0
-A5W Jaw (H)			-2						A5C (H)	1	A5C Jaw (H)	1																						0
-A5W Eyz (H)			-2						A5C (H)	1	A5C Eyz (H)	1																						0
-A5W Hrn (H)			-2						A5C (H)	1	A5C Hrn (H)	1																						0
-A5W Tal (H)			-2						A5C (H)	1	A5C Tal (H)	1																						0
-A5W Flg (H)			-2						A5C (H)	1	A5C Flg (H)	1																						0
-A5W Fng (H)			-2						A5C (H)	1	A5C Fng (H)	1																						0
-A5W Qll (H)			-2						A5C (H)	1	A5C Qll (H)	1																						0
-A5W Sol (H)			-2						A5C (H)	1	A5C Sol (H)	1																						0
-A5W Scz (H)			-2						A5C (H)	1	A5C Scz (H)	1																						0
-A5W Spe (H)			-2						A5C (H)	1	A5C Spe (H)	1																						0
-A5W Rune (H)			-2						A5C (H)	1	A5C Rune (H)	1																						0
+A5W None Base			-2						A5C	1	A5C None	1																						0
+A5W Hrt Base			-2						A5C	1	A5C Hrt	1																						0
+A5W Brz Base			-2						A5C	1	A5C Brz	1																						0
+A5W Jaw Base			-2						A5C	1	A5C Jaw	1																						0
+A5W Eyz Base			-2						A5C	1	A5C Eyz	1																						0
+A5W Hrn Base			-2						A5C	1	A5C Hrn	1																						0
+A5W Tal Base			-2						A5C	1	A5C Tal	1																						0
+A5W Flg Base			-2						A5C	1	A5C Flg	1																						0
+A5W Fng Base			-2						A5C	1	A5C Fng	1																						0
+A5W Qll Base			-2						A5C	1	A5C Qll	1																						0
+A5W Sol Base			-2						A5C	1	A5C Sol	1																						0
+A5W Scz Base			-2						A5C	1	A5C Scz	1																						0
+A5W Spe Base			-2						A5C	1	A5C Spe	1																						0
+A5W Rune Base			-2						A5C	1	A5C Rune	1																						0
+A5W None (N) Base			-2						A5C (N)	1	A5C None (N)	1																						0
+A5W Hrt (N) Base			-2						A5C (N)	1	A5C Hrt (N)	1																						0
+A5W Brz (N) Base			-2						A5C (N)	1	A5C Brz (N)	1																						0
+A5W Jaw (N) Base			-2						A5C (N)	1	A5C Jaw (N)	1																						0
+A5W Eyz (N) Base			-2						A5C (N)	1	A5C Eyz (N)	1																						0
+A5W Hrn (N) Base			-2						A5C (N)	1	A5C Hrn (N)	1																						0
+A5W Tal (N) Base			-2						A5C (N)	1	A5C Tal (N)	1																						0
+A5W Flg (N) Base			-2						A5C (N)	1	A5C Flg (N)	1																						0
+A5W Fng (N) Base			-2						A5C (N)	1	A5C Fng (N)	1																						0
+A5W Qll (N) Base			-2						A5C (N)	1	A5C Qll (N)	1																						0
+A5W Sol (N) Base			-2						A5C (N)	1	A5C Sol (N)	1																						0
+A5W Scz (N) Base			-2						A5C (N)	1	A5C Scz (N)	1																						0
+A5W Spe (N) Base			-2						A5C (N)	1	A5C Spe (N)	1																						0
+A5W Rune (N) Base			-2						A5C (N)	1	A5C Rune (N)	1																						0
+A5W None (H) Base			-2						A5C (H)	1	A5C None (H)	1																						0
+A5W Hrt (H) Base			-2						A5C (H)	1	A5C Hrt (H)	1																						0
+A5W Brz (H) Base			-2						A5C (H)	1	A5C Brz (H)	1																						0
+A5W Jaw (H) Base			-2						A5C (H)	1	A5C Jaw (H)	1																						0
+A5W Eyz (H) Base			-2						A5C (H)	1	A5C Eyz (H)	1																						0
+A5W Hrn (H) Base			-2						A5C (H)	1	A5C Hrn (H)	1																						0
+A5W Tal (H) Base			-2						A5C (H)	1	A5C Tal (H)	1																						0
+A5W Flg (H) Base			-2						A5C (H)	1	A5C Flg (H)	1																						0
+A5W Fng (H) Base			-2						A5C (H)	1	A5C Fng (H)	1																						0
+A5W Qll (H) Base			-2						A5C (H)	1	A5C Qll (H)	1																						0
+A5W Sol (H) Base			-2						A5C (H)	1	A5C Sol (H)	1																						0
+A5W Scz (H) Base			-2						A5C (H)	1	A5C Scz (H)	1																						0
+A5W Spe (H) Base			-2						A5C (H)	1	A5C Spe (H)	1																						0
+A5W Rune (H) Base			-2						A5C (H)	1	A5C Rune (H)	1																						0
+A5W None			1						A5W None Base	1																								0
+A5W Hrt			1						A5W Hrt Base	1																								0
+A5W Brz			1						A5W Brz Base	1																								0
+A5W Jaw			1						A5W Jaw Base	1																								0
+A5W Eyz			1						A5W Eyz Base	1																								0
+A5W Hrn			1						A5W Hrn Base	1																								0
+A5W Tal			1						A5W Tal Base	1																								0
+A5W Flg			1						A5W Flg Base	1																								0
+A5W Fng			1						A5W Fng Base	1																								0
+A5W Qll			1						A5W Qll Base	1																								0
+A5W Sol			1						A5W Sol Base	1																								0
+A5W Scz			1						A5W Scz Base	1																								0
+A5W Spe			1						A5W Spe Base	1																								0
+A5W Rune			1						A5W Rune Base	1																								0
+A5W None (N)			1						A5W None (N) Base	1																								0
+A5W Hrt (N)			1						A5W Hrt (N) Base	1																								0
+A5W Brz (N)			1						A5W Brz (N) Base	1																								0
+A5W Jaw (N)			1						A5W Jaw (N) Base	1																								0
+A5W Eyz (N)			1						A5W Eyz (N) Base	1																								0
+A5W Hrn (N)			1						A5W Hrn (N) Base	1																								0
+A5W Tal (N)			1						A5W Tal (N) Base	1																								0
+A5W Flg (N)			1						A5W Flg (N) Base	1																								0
+A5W Fng (N)			1						A5W Fng (N) Base	1																								0
+A5W Qll (N)			1						A5W Qll (N) Base	1																								0
+A5W Sol (N)			1						A5W Sol (N) Base	1																								0
+A5W Scz (N)			1						A5W Scz (N) Base	1																								0
+A5W Spe (N)			1						A5W Spe (N) Base	1																								0
+A5W Rune (N)			1						A5W Rune (N) Base	1																								0
+A5W None (H)			1						A5W None (H) Base	1																								0
+A5W Hrt (H)			1						A5W Hrt (H) Base	1																								0
+A5W Brz (H)			1						A5W Brz (H) Base	1																								0
+A5W Jaw (H)			1						A5W Jaw (H) Base	1																								0
+A5W Eyz (H)			1						A5W Eyz (H) Base	1																								0
+A5W Hrn (H)			1						A5W Hrn (H) Base	1																								0
+A5W Tal (H)			1						A5W Tal (H) Base	1																								0
+A5W Flg (H)			1						A5W Flg (H) Base	1																								0
+A5W Fng (H)			1						A5W Fng (H) Base	1																								0
+A5W Qll (H)			1						A5W Qll (H) Base	1																								0
+A5W Sol (H)			1						A5W Sol (H) Base	1																								0
+A5W Scz (H)			1						A5W Scz (H) Base	1																								0
+A5W Spe (H)			1						A5W Spe (H) Base	1																								0
+A5W Rune (H)			1						A5W Rune (H) Base	1																								0
 Cow			1						A5C	3840	Act 5 Junk	768	Nothing	1792	Unique Ore 10	2	zzz	5																0
 Cow (N)			1						A5C (N)	3840	Act 5 (N) Junk	768	Nothing	1792	Unique Ore 10	3	zzz	10																0
 Cow (H)			1						A5C (H)	3840	Act 5 (H) Junk	768	Nothing	1792	Unique Ore 10	4	zzz	20																0
@@ -1599,64 +1725,64 @@ Act 5 (H) Super Bx	19	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpo
 Act 5 (H) Super Cx	19	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																						0
 Act 4 (H) Equip C	1	82	1						weap72	2	armo72	1	weap75	6	armo75	3	weap78	14	armo78	7	weap81	2	armo81	1	Act 4 (H) Equip A	1530			36	1566	0.977			0
 Endgame Maps Tier 1 Campaign			1					50	z01	1	z02	1	z03	1	z04	1	Nothing	50																0
-Act 1 (H) Champ A Desecrated	26	80	-1					0	Act 1 (H) Champ A	1																								0
-Act 1 (H) Champ B Desecrated	26	81	-1					0	Act 1 (H) Champ B	1																								0
-Act 1 (H) Champ C Desecrated	26	82	-1					0	Act 1 (H) Champ C	1																								0
-Act 2 (H) Champ A Desecrated	26	83	-1					0	Act 2 (H) Champ A	1																								0
-Act 2 (H) Champ B Desecrated	26	84	-1					0	Act 2 (H) Champ B	1																								0
-Act 2 (H) Champ C Desecrated	26	85	-1					0	Act 2 (H) Champ C	1																								0
-Act 3 (H) Champ A Desecrated	26	86	-1					0	Act 3 (H) Champ A	1																								0
-Act 3 (H) Champ B Desecrated	26	87	-1					0	Act 3 (H) Champ B	1																								0
-Act 3 (H) Champ C Desecrated	26	88	-1					0	Act 3 (H) Champ C	1																								0
-Act 4 (H) Champ A Desecrated	26	89	-1					0	Act 4 (H) Champ A	1																								0
-Act 4 (H) Champ B Desecrated	26	90	-2					0	Worldstone Shards	1	Act 4 (H) Champ B	1																						0
-Act 5 (H) Champ A Desecrated	26	91	-2					0	Worldstone Shards	1	Act 5 (H) Champ A	1																						0
-Act 5 (H) Champ B Desecrated	26	92	-2					0	Worldstone Shards	1	Act 5 (H) Champ B	1																						0
-Act 5 (H) Champ C Desecrated	26	96	-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Champ C	1																				0
-Act 1 (H) Unique A Desecrated	26	80	-1					0	Act 1 (H) Unique A	1																								0
-Act 1 (H) Unique B Desecrated	26	81	-1					0	Act 1 (H) Unique B	1																								0
-Act 1 (H) Unique C Desecrated	26	82	-1					0	Act 1 (H) Unique C	1																								0
-Act 2 (H) Unique A Desecrated	26	83	-1					0	Act 2 (H) Unique A	1																								0
-Act 2 (H) Unique B Desecrated	26	84	-1					0	Act 2 (H) Unique B	1																								0
-Act 2 (H) Unique C Desecrated	26	85	-1					0	Act 2 (H) Unique C	1																								0
-Act 3 (H) Unique A Desecrated	26	86	-1					0	Act 3 (H) Unique A	1																								0
-Act 3 (H) Unique B Desecrated	26	87	-1					0	Act 3 (H) Unique B	1																								0
-Act 3 (H) Unique C Desecrated	26	88	-1					0	Act 3 (H) Unique C	1																								0
-Act 4 (H) Unique A Desecrated	26	89	-2					0	Act 4 (H) Unique A	1																								0
-Act 4 (H) Unique B Desecrated	26	90	-2					0	Worldstone Shards	1	Act 4 (H) Unique B	1																						0
-Act 5 (H) Unique A Desecrated	26	91	-2					0	Worldstone Shards	1	Act 5 (H) Unique A	1																						0
-Act 5 (H) Unique B Desecrated	26	92	-2					0	Worldstone Shards	1	Act 5 (H) Unique B	1																						0
-Act 5 (H) Unique C Desecrated	26	96	-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Unique C	1																				0
-Act 1 (H) Super A Desecrated	26	80	-1					0	Act 1 (H) Super A	1																								0
-Act 1 (H) Super B Desecrated	26	81	-1					0	Act 1 (H) Super B	1																								0
-Act 1 (H) Super C Desecrated	26	82	-1					0	Act 1 (H) Super C	1																								0
-Act 2 (H) Super A Desecrated	26	83	-1					0	Act 2 (H) Super A	1																								0
-Act 2 (H) Super B Desecrated	26	84	-1					0	Act 2 (H) Super B	1																								0
-Act 2 (H) Super C Desecrated	26	85	-1					0	Act 2 (H) Super C	1																								0
-Act 3 (H) Super A Desecrated	26	86	-1					0	Act 3 (H) Super A	1																								0
-Act 3 (H) Super B Desecrated	26	87	-1					0	Act 3 (H) Super B	1																								0
-Act 3 (H) Super C Desecrated	26	88	-1					0	Act 3 (H) Super C	1																								0
-Act 4 (H) Super A Desecrated	26	89	-1					0	Act 4 (H) Super A	1																								0
-Act 4 (H) Super B Desecrated	26	90	-2					0	Worldstone Shards	1	Act 4 (H) Super B	1																						0
-Act 4 (H) Super C Desecrated	26	91	-2					0	Worldstone Shards	1	Act 4 (H) Super C	1																						0
-Act 5 (H) Super A Desecrated	26	92	-2					0	Worldstone Shards	1	Act 5 (H) Super A	1																						0
-Act 5 (H) Super B Desecrated	26	94	-2					0	Worldstone Shards	1	Act 5 (H) Super B	1																						0
-Act 5 (H) Super C Desecrated	26	96	-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Super C	1																				0
-Act 1 (H) Super Ax Desecrated	26	80	-1					0	Act 1 (H) Super Ax	1																								0
-Act 1 (H) Super Bx Desecrated	26	81	-1					0	Act 1 (H) Super Bx	1																								0
-Act 1 (H) Super Cx Desecrated	26	82	-1					0	Act 1 (H) Super Cx	1																								0
-Act 2 (H) Super Ax Desecrated	26	83	-1					0	Act 2 (H) Super Ax	1																								0
-Act 2 (H) Super Bx Desecrated	26	84	-1					0	Act 2 (H) Super Bx	1																								0
-Act 2 (H) Super Cx Desecrated	26	85	-1					0	Act 2 (H) Super Cx	1																								0
-Act 3 (H) Super Ax Desecrated	26	86	-1					0	Act 3 (H) Super Ax	1																								0
-Act 3 (H) Super Bx Desecrated	26	87	-1					0	Act 3 (H) Super Bx	1																								0
-Act 3 (H) Super Cx Desecrated	26	88	-1					0	Act 3 (H) Super Cx	1																								0
-Act 4 (H) Super Ax Desecrated	26	89	-1					0	Act 4 (H) Super Ax	1																								0
-Act 4 (H) Super Bx Desecrated	26	90	-2					0	Worldstone Shards	1	Act 4 (H) Super Bx	1																						0
-Act 4 (H) Super Cx Desecrated	26	91	-2					0	Worldstone Shards	1	Act 4 (H) Super Cx	1																						0
-Act 5 (H) Super Ax Desecrated	26	92	-2					0	Worldstone Shards	1	Act 5 (H) Super Ax	1																						0
-Act 5 (H) Super Bx Desecrated	26	94	-2					0	Worldstone Shards	1	Act 5 (H) Super Bx	1																						0
-Act 5 (H) Super Cx Desecrated	26	96	-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Super Cx	1																				0
+Act 1 (H) Champ A Desecrated	26	80	1					0	Act 1 (H) Champ A	1																								0
+Act 1 (H) Champ B Desecrated	26	81	1					0	Act 1 (H) Champ B	1																								0
+Act 1 (H) Champ C Desecrated	26	82	1					0	Act 1 (H) Champ C	1																								0
+Act 2 (H) Champ A Desecrated	26	83	1					0	Act 2 (H) Champ A	1																								0
+Act 2 (H) Champ B Desecrated	26	84	1					0	Act 2 (H) Champ B	1																								0
+Act 2 (H) Champ C Desecrated	26	85	1					0	Act 2 (H) Champ C	1																								0
+Act 3 (H) Champ A Desecrated	26	86	1					0	Act 3 (H) Champ A	1																								0
+Act 3 (H) Champ B Desecrated	26	87	1					0	Act 3 (H) Champ B	1																								0
+Act 3 (H) Champ C Desecrated	26	88	1					0	Act 3 (H) Champ C	1																								0
+Act 4 (H) Champ A Desecrated	26	89	1					0	Act 4 (H) Champ A	1																								0
+Act 4 (H) Champ B Desecrated	26	90	2					0	Worldstone Shards	1	Act 4 (H) Champ B	1																						0
+Act 5 (H) Champ A Desecrated	26	91	2					0	Worldstone Shards	1	Act 5 (H) Champ A	1																						0
+Act 5 (H) Champ B Desecrated	26	92	2					0	Worldstone Shards	1	Act 5 (H) Champ B	1																						0
+Act 5 (H) Champ C Desecrated	26	96	3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Champ C	1																				0
+Act 1 (H) Unique A Desecrated	26	80	1					0	Act 1 (H) Unique A	1																								0
+Act 1 (H) Unique B Desecrated	26	81	1					0	Act 1 (H) Unique B	1																								0
+Act 1 (H) Unique C Desecrated	26	82	1					0	Act 1 (H) Unique C	1																								0
+Act 2 (H) Unique A Desecrated	26	83	1					0	Act 2 (H) Unique A	1																								0
+Act 2 (H) Unique B Desecrated	26	84	1					0	Act 2 (H) Unique B	1																								0
+Act 2 (H) Unique C Desecrated	26	85	1					0	Act 2 (H) Unique C	1																								0
+Act 3 (H) Unique A Desecrated	26	86	1					0	Act 3 (H) Unique A	1																								0
+Act 3 (H) Unique B Desecrated	26	87	1					0	Act 3 (H) Unique B	1																								0
+Act 3 (H) Unique C Desecrated	26	88	1					0	Act 3 (H) Unique C	1																								0
+Act 4 (H) Unique A Desecrated	26	89	2					0	Act 4 (H) Unique A	1																								0
+Act 4 (H) Unique B Desecrated	26	90	2					0	Worldstone Shards	1	Act 4 (H) Unique B	1																						0
+Act 5 (H) Unique A Desecrated	26	91	2					0	Worldstone Shards	1	Act 5 (H) Unique A	1																						0
+Act 5 (H) Unique B Desecrated	26	92	2					0	Worldstone Shards	1	Act 5 (H) Unique B	1																						0
+Act 5 (H) Unique C Desecrated	26	96	3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Unique C	1																				0
+Act 1 (H) Super A Desecrated	26	80	1					0	Act 1 (H) Super A	1																								0
+Act 1 (H) Super B Desecrated	26	81	1					0	Act 1 (H) Super B	1																								0
+Act 1 (H) Super C Desecrated	26	82	1					0	Act 1 (H) Super C	1																								0
+Act 2 (H) Super A Desecrated	26	83	1					0	Act 2 (H) Super A	1																								0
+Act 2 (H) Super B Desecrated	26	84	1					0	Act 2 (H) Super B	1																								0
+Act 2 (H) Super C Desecrated	26	85	1					0	Act 2 (H) Super C	1																								0
+Act 3 (H) Super A Desecrated	26	86	1					0	Act 3 (H) Super A	1																								0
+Act 3 (H) Super B Desecrated	26	87	1					0	Act 3 (H) Super B	1																								0
+Act 3 (H) Super C Desecrated	26	88	1					0	Act 3 (H) Super C	1																								0
+Act 4 (H) Super A Desecrated	26	89	1					0	Act 4 (H) Super A	1																								0
+Act 4 (H) Super B Desecrated	26	90	2					0	Worldstone Shards	1	Act 4 (H) Super B	1																						0
+Act 4 (H) Super C Desecrated	26	91	2					0	Worldstone Shards	1	Act 4 (H) Super C	1																						0
+Act 5 (H) Super A Desecrated	26	92	2					0	Worldstone Shards	1	Act 5 (H) Super A	1																						0
+Act 5 (H) Super B Desecrated	26	94	2					0	Worldstone Shards	1	Act 5 (H) Super B	1																						0
+Act 5 (H) Super C Desecrated	26	96	3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Super C	1																				0
+Act 1 (H) Super Ax Desecrated	26	80	1					0	Act 1 (H) Super Ax	1																								0
+Act 1 (H) Super Bx Desecrated	26	81	1					0	Act 1 (H) Super Bx	1																								0
+Act 1 (H) Super Cx Desecrated	26	82	1					0	Act 1 (H) Super Cx	1																								0
+Act 2 (H) Super Ax Desecrated	26	83	1					0	Act 2 (H) Super Ax	1																								0
+Act 2 (H) Super Bx Desecrated	26	84	1					0	Act 2 (H) Super Bx	1																								0
+Act 2 (H) Super Cx Desecrated	26	85	1					0	Act 2 (H) Super Cx	1																								0
+Act 3 (H) Super Ax Desecrated	26	86	1					0	Act 3 (H) Super Ax	1																								0
+Act 3 (H) Super Bx Desecrated	26	87	1					0	Act 3 (H) Super Bx	1																								0
+Act 3 (H) Super Cx Desecrated	26	88	1					0	Act 3 (H) Super Cx	1																								0
+Act 4 (H) Super Ax Desecrated	26	89	1					0	Act 4 (H) Super Ax	1																								0
+Act 4 (H) Super Bx Desecrated	26	90	2					0	Worldstone Shards	1	Act 4 (H) Super Bx	1																						0
+Act 4 (H) Super Cx Desecrated	26	91	2					0	Worldstone Shards	1	Act 4 (H) Super Cx	1																						0
+Act 5 (H) Super Ax Desecrated	26	92	2					0	Worldstone Shards	1	Act 5 (H) Super Ax	1																						0
+Act 5 (H) Super Bx Desecrated	26	94	2					0	Worldstone Shards	1	Act 5 (H) Super Bx	1																						0
+Act 5 (H) Super Cx Desecrated	26	96	3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Act 5 (H) Super Cx	1																				0
 Reporb (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Reporb (H)	1																				0
 Reziarfg (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Reziarfg (H)	1																				0
 Sarina (H) Desecrated			-3					0	Worldstone Shards	1	Endgame Maps Tier 1 Campaign	1	Sarina (H)	1																				0
@@ -3098,166 +3224,166 @@ Shrine of Destruction Bias (Unique) 2	88	102	-4					0	Shrine of Destruction Uite
 Shrine of Destruction Bias (Unique) 3	88	104	-4					0	Shrine of Destruction Uitem 3	2	Endgame Map Potion	2																						0
 Shrine of Destruction Bias (Unique) 4	88	106	-4					0	Shrine of Destruction Uitem 4	2	Endgame Map Potion	2																						0
 Shrine of Destruction Bias (Unique) 5	88	108	-4					0	Shrine of Destruction Uitem 5	2	Endgame Map Potion	2																						0
-Cellar Of Pain Bias (Champ) Desecrated 1	89	100	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 1	1																						0
-Cellar Of Pain Bias (Champ) Desecrated 2	89	102	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 2	1																						0
-Cellar Of Pain Bias (Champ) Desecrated 3	89	104	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 3	1																						0
-Cellar Of Pain Bias (Champ) Desecrated 4	89	106	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 4	1																						0
-Cellar Of Pain Bias (Champ) Desecrated 5	89	108	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 5	1																						0
-Chasm Of Horror Bias (Champ) Desecrated 1	90	100	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 1	1																						0
-Chasm Of Horror Bias (Champ) Desecrated 2	90	102	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 2	1																						0
-Chasm Of Horror Bias (Champ) Desecrated 3	90	104	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 3	1																						0
-Chasm Of Horror Bias (Champ) Desecrated 4	90	106	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 4	1																						0
-Chasm Of Horror Bias (Champ) Desecrated 5	90	108	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 5	1																						0
-Crypt Of Damnation Bias (Champ) Desecrated 1	91	100	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 1	1																						0
-Crypt Of Damnation Bias (Champ) Desecrated 2	91	102	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 2	1																						0
-Crypt Of Damnation Bias (Champ) Desecrated 3	91	104	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 3	1																						0
-Crypt Of Damnation Bias (Champ) Desecrated 4	91	106	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 4	1																						0
-Crypt Of Damnation Bias (Champ) Desecrated 5	91	108	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 5	1																						0
-Necropolis Bias (Champ) Desecrated 1	92	100	-2					0	Worldstone Shards	1	Necropolis Bias (Champ) 1	1																						0
-Necropolis Bias (Champ) Desecrated 2	92	102	-2					0	Worldstone Shards	1	Necropolis Bias (Champ) 2	1																						0
-Necropolis Bias (Champ) Desecrated 3	92	104	-2					0	Worldstone Shards	1	Necropolis Bias (Champ) 3	1																						0
-Necropolis Bias (Champ) Desecrated 4	92	106	-2					0	Worldstone Shards	1	Necropolis Bias (Champ) 4	1																						0
-Necropolis Bias (Champ) Desecrated 5	92	108	-2					0	Worldstone Shards	1	Necropolis Bias (Champ) 5	1																						0
-Ancient Tomb Bias (Champ) Desecrated 1	93	100	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 1	1																						0
-Ancient Tomb Bias (Champ) Desecrated 2	93	102	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 2	1																						0
-Ancient Tomb Bias (Champ) Desecrated 3	93	104	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 3	1																						0
-Ancient Tomb Bias (Champ) Desecrated 4	93	106	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 4	1																						0
-Ancient Tomb Bias (Champ) Desecrated 5	93	108	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 5	1																						0
-Chaos Rift Bias (Champ) Desecrated 1	94	100	-2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 1	1																						0
-Chaos Rift Bias (Champ) Desecrated 2	94	102	-2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 2	1																						0
-Chaos Rift Bias (Champ) Desecrated 3	94	104	-2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 3	1																						0
-Chaos Rift Bias (Champ) Desecrated 4	94	106	-2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 4	1																						0
-Chaos Rift Bias (Champ) Desecrated 5	94	108	-2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 5	1																						0
-Infested Lair Bias (Champ) Desecrated 1	95	100	-2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 1	1																						0
-Infested Lair Bias (Champ) Desecrated 2	95	102	-2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 2	1																						0
-Infested Lair Bias (Champ) Desecrated 3	95	104	-2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 3	1																						0
-Infested Lair Bias (Champ) Desecrated 4	95	106	-2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 4	1																						0
-Infested Lair Bias (Champ) Desecrated 5	95	108	-2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 5	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 1	96	100	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 1	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 2	96	102	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 2	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 3	96	104	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 3	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 4	96	106	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 4	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 5	96	108	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 5	1																						0
-Endless Abyss Bias (Champ) Desecrated 1	97	100	-2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 1	1																						0
-Endless Abyss Bias (Champ) Desecrated 2	97	102	-2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 2	1																						0
-Endless Abyss Bias (Champ) Desecrated 3	97	104	-2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 3	1																						0
-Endless Abyss Bias (Champ) Desecrated 4	97	106	-2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 4	1																						0
-Endless Abyss Bias (Champ) Desecrated 5	97	108	-2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 5	1																						0
-Decaying Depths Bias (Champ) Desecrated 1	97	100	-2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 1	1																						0
-Decaying Depths Bias (Champ) Desecrated 2	97	102	-2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 2	1																						0
-Decaying Depths Bias (Champ) Desecrated 3	97	104	-2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 3	1																						0
-Decaying Depths Bias (Champ) Desecrated 4	97	106	-2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 4	1																						0
-Decaying Depths Bias (Champ) Desecrated 5	97	108	-2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 5	1																						0
-Frozen Wastes Bias (Champ) Desecrated 1	98	100	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 1	1																						0
-Frozen Wastes Bias (Champ) Desecrated 2	98	102	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 2	1																						0
-Frozen Wastes Bias (Champ) Desecrated 3	98	104	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 3	1																						0
-Frozen Wastes Bias (Champ) Desecrated 4	98	106	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 4	1																						0
-Frozen Wastes Bias (Champ) Desecrated 5	98	108	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 5	1																						0
-Twisted Maze Bias (Champ) Desecrated 1	99	100	-2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 1	1																						0
-Twisted Maze Bias (Champ) Desecrated 2	99	102	-2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 2	1																						0
-Twisted Maze Bias (Champ) Desecrated 3	99	104	-2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 3	1																						0
-Twisted Maze Bias (Champ) Desecrated 4	99	106	-2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 4	1																						0
-Twisted Maze Bias (Champ) Desecrated 5	99	108	-2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 5	1																						0
-Cursed Ossuary Bias (Champ) Desecrated 1	100	100	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 1	1																						0
-Cursed Ossuary Bias (Champ) Desecrated 2	100	102	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 2	1																						0
-Cursed Ossuary Bias (Champ) Desecrated 3	100	104	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 3	1																						0
-Cursed Ossuary Bias (Champ) Desecrated 4	100	106	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 4	1																						0
-Cursed Ossuary Bias (Champ) Desecrated 5	100	108	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 5	1																						0
-Infernal Nexus Bias (Champ) Desecrated 1	101	100	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 1	1																						0
-Infernal Nexus Bias (Champ) Desecrated 2	101	102	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 2	1																						0
-Infernal Nexus Bias (Champ) Desecrated 3	101	104	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 3	1																						0
-Infernal Nexus Bias (Champ) Desecrated 4	101	106	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 4	1																						0
-Infernal Nexus Bias (Champ) Desecrated 5	101	108	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 5	1																						0
-Reliquary of Souls Bias (Champ) Desecrated 1	102	100	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 1	1																						0
-Reliquary of Souls Bias (Champ) Desecrated 2	102	102	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 2	1																						0
-Reliquary of Souls Bias (Champ) Desecrated 3	102	104	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 3	1																						0
-Reliquary of Souls Bias (Champ) Desecrated 4	102	106	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 4	1																						0
-Reliquary of Souls Bias (Champ) Desecrated 5	102	108	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 5	1																						0
-Shrine of Destruction Bias (Champ) Desecrated 1	103	100	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 1	1																						0
-Shrine of Destruction Bias (Champ) Desecrated 2	103	102	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 2	1																						0
-Shrine of Destruction Bias (Champ) Desecrated 3	103	104	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 3	1																						0
-Shrine of Destruction Bias (Champ) Desecrated 4	103	106	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 4	1																						0
-Shrine of Destruction Bias (Champ) Desecrated 5	103	108	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 5	1																						0
-Cellar Of Pain Bias (Unique) Desecrated 1	104	100	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 1	1																						0
-Cellar Of Pain Bias (Unique) Desecrated 2	104	102	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 2	1																						0
-Cellar Of Pain Bias (Unique) Desecrated 3	104	104	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 3	1																						0
-Cellar Of Pain Bias (Unique) Desecrated 4	104	106	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 4	1																						0
-Cellar Of Pain Bias (Unique) Desecrated 5	104	108	-2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 5	1																						0
-Chasm Of Horror Bias (Unique) Desecrated 1	105	100	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 1	1																						0
-Chasm Of Horror Bias (Unique) Desecrated 2	105	102	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 2	1																						0
-Chasm Of Horror Bias (Unique) Desecrated 3	105	104	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 3	1																						0
-Chasm Of Horror Bias (Unique) Desecrated 4	105	106	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 4	1																						0
-Chasm Of Horror Bias (Unique) Desecrated 5	105	108	-2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 5	1																						0
-Crypt Of Damnation Bias (Unique) Desecrated 1	106	100	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 1	1																						0
-Crypt Of Damnation Bias (Unique) Desecrated 2	106	102	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 2	1																						0
-Crypt Of Damnation Bias (Unique) Desecrated 3	106	104	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 3	1																						0
-Crypt Of Damnation Bias (Unique) Desecrated 4	106	106	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 4	1																						0
-Crypt Of Damnation Bias (Unique) Desecrated 5	106	108	-2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 5	1																						0
-Necropolis Bias (Unique) Desecrated 1	107	100	-2					0	Worldstone Shards	1	Necropolis Bias (Unique) 1	1																						0
-Necropolis Bias (Unique) Desecrated 2	107	102	-2					0	Worldstone Shards	1	Necropolis Bias (Unique) 2	1																						0
-Necropolis Bias (Unique) Desecrated 3	107	104	-2					0	Worldstone Shards	1	Necropolis Bias (Unique) 3	1																						0
-Necropolis Bias (Unique) Desecrated 4	107	106	-2					0	Worldstone Shards	1	Necropolis Bias (Unique) 4	1																						0
-Necropolis Bias (Unique) Desecrated 5	107	108	-2					0	Worldstone Shards	1	Necropolis Bias (Unique) 5	1																						0
-Ancient Tomb Bias (Unique) Desecrated 1	108	100	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 1	1																						0
-Ancient Tomb Bias (Unique) Desecrated 2	108	102	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 2	1																						0
-Ancient Tomb Bias (Unique) Desecrated 3	108	104	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 3	1																						0
-Ancient Tomb Bias (Unique) Desecrated 4	108	106	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 4	1																						0
-Ancient Tomb Bias (Unique) Desecrated 5	108	108	-2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 5	1																						0
-Chaos Rift Bias (Unique) Desecrated 1	109	100	-2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 1	1																						0
-Chaos Rift Bias (Unique) Desecrated 2	109	102	-2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 2	1																						0
-Chaos Rift Bias (Unique) Desecrated 3	109	104	-2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 3	1																						0
-Chaos Rift Bias (Unique) Desecrated 4	109	106	-2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 4	1																						0
-Chaos Rift Bias (Unique) Desecrated 5	109	108	-2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 5	1																						0
-Infested Lair Bias (Unique) Desecrated 1	110	100	-2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 1	1																						0
-Infested Lair Bias (Unique) Desecrated 2	110	102	-2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 2	1																						0
-Infested Lair Bias (Unique) Desecrated 3	110	104	-2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 3	1																						0
-Infested Lair Bias (Unique) Desecrated 4	110	106	-2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 4	1																						0
-Infested Lair Bias (Unique) Desecrated 5	110	108	-2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 5	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 1	111	100	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 1	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 2	111	102	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 2	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 3	111	104	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 3	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 4	111	106	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 4	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 5	111	108	-2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 5	1																						0
-Endless Abyss Bias (Unique) Desecrated 1	111	100	-2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 1	1																						0
-Endless Abyss Bias (Unique) Desecrated 2	111	102	-2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 2	1																						0
-Endless Abyss Bias (Unique) Desecrated 3	111	104	-2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 3	1																						0
-Endless Abyss Bias (Unique) Desecrated 4	111	106	-2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 4	1																						0
-Endless Abyss Bias (Unique) Desecrated 5	111	108	-2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 5	1																						0
-Decaying Depths Bias (Unique) Desecrated 1	112	100	-2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 1	1																						0
-Decaying Depths Bias (Unique) Desecrated 2	112	102	-2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 2	1																						0
-Decaying Depths Bias (Unique) Desecrated 3	112	104	-2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 3	1																						0
-Decaying Depths Bias (Unique) Desecrated 4	112	106	-2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 4	1																						0
-Decaying Depths Bias (Unique) Desecrated 5	112	108	-2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 5	1																						0
-Frozen Wastes Bias (Unique) Desecrated 1	113	100	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 1	1																						0
-Frozen Wastes Bias (Unique) Desecrated 2	113	102	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 2	1																						0
-Frozen Wastes Bias (Unique) Desecrated 3	113	104	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 3	1																						0
-Frozen Wastes Bias (Unique) Desecrated 4	113	106	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 4	1																						0
-Frozen Wastes Bias (Unique) Desecrated 5	113	108	-2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 5	1																						0
-Twisted Maze Bias (Unique) Desecrated 1	114	100	-2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 1	1																						0
-Twisted Maze Bias (Unique) Desecrated 2	114	102	-2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 2	1																						0
-Twisted Maze Bias (Unique) Desecrated 3	114	104	-2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 3	1																						0
-Twisted Maze Bias (Unique) Desecrated 4	114	106	-2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 4	1																						0
-Twisted Maze Bias (Unique) Desecrated 5	114	108	-2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 5	1																						0
-Cursed Ossuary Bias (Unique) Desecrated 1	115	100	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 1	1																						0
-Cursed Ossuary Bias (Unique) Desecrated 2	115	102	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 2	1																						0
-Cursed Ossuary Bias (Unique) Desecrated 3	115	104	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 3	1																						0
-Cursed Ossuary Bias (Unique) Desecrated 4	115	106	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 4	1																						0
-Cursed Ossuary Bias (Unique) Desecrated 5	115	108	-2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 5	1																						0
-Infernal Nexus Bias (Unique) Desecrated 1	116	100	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 1	1																						0
-Infernal Nexus Bias (Unique) Desecrated 2	116	102	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 2	1																						0
-Infernal Nexus Bias (Unique) Desecrated 3	116	104	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 3	1																						0
-Infernal Nexus Bias (Unique) Desecrated 4	116	106	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 4	1																						0
-Infernal Nexus Bias (Unique) Desecrated 5	116	108	-2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 5	1																						0
-Reliquary of Souls Bias (Unique) Desecrated 1	117	100	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 1	1																						0
-Reliquary of Souls Bias (Unique) Desecrated 2	117	102	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 2	1																						0
-Reliquary of Souls Bias (Unique) Desecrated 3	117	104	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 3	1																						0
-Reliquary of Souls Bias (Unique) Desecrated 4	117	106	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 4	1																						0
-Reliquary of Souls Bias (Unique) Desecrated 5	117	108	-2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 5	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 1	118	100	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 1	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 2	118	102	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 2	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 3	118	104	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 3	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 4	118	106	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 4	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 5	118	108	-2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 5	1																						0
+Cellar Of Pain Bias (Champ) Desecrated 1	89	100	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 1	1																						0
+Cellar Of Pain Bias (Champ) Desecrated 2	89	102	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 2	1																						0
+Cellar Of Pain Bias (Champ) Desecrated 3	89	104	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 3	1																						0
+Cellar Of Pain Bias (Champ) Desecrated 4	89	106	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 4	1																						0
+Cellar Of Pain Bias (Champ) Desecrated 5	89	108	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Champ) 5	1																						0
+Chasm Of Horror Bias (Champ) Desecrated 1	90	100	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 1	1																						0
+Chasm Of Horror Bias (Champ) Desecrated 2	90	102	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 2	1																						0
+Chasm Of Horror Bias (Champ) Desecrated 3	90	104	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 3	1																						0
+Chasm Of Horror Bias (Champ) Desecrated 4	90	106	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 4	1																						0
+Chasm Of Horror Bias (Champ) Desecrated 5	90	108	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Champ) 5	1																						0
+Crypt Of Damnation Bias (Champ) Desecrated 1	91	100	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 1	1																						0
+Crypt Of Damnation Bias (Champ) Desecrated 2	91	102	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 2	1																						0
+Crypt Of Damnation Bias (Champ) Desecrated 3	91	104	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 3	1																						0
+Crypt Of Damnation Bias (Champ) Desecrated 4	91	106	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 4	1																						0
+Crypt Of Damnation Bias (Champ) Desecrated 5	91	108	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Champ) 5	1																						0
+Necropolis Bias (Champ) Desecrated 1	92	100	2					0	Worldstone Shards	1	Necropolis Bias (Champ) 1	1																						0
+Necropolis Bias (Champ) Desecrated 2	92	102	2					0	Worldstone Shards	1	Necropolis Bias (Champ) 2	1																						0
+Necropolis Bias (Champ) Desecrated 3	92	104	2					0	Worldstone Shards	1	Necropolis Bias (Champ) 3	1																						0
+Necropolis Bias (Champ) Desecrated 4	92	106	2					0	Worldstone Shards	1	Necropolis Bias (Champ) 4	1																						0
+Necropolis Bias (Champ) Desecrated 5	92	108	2					0	Worldstone Shards	1	Necropolis Bias (Champ) 5	1																						0
+Ancient Tomb Bias (Champ) Desecrated 1	93	100	2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 1	1																						0
+Ancient Tomb Bias (Champ) Desecrated 2	93	102	2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 2	1																						0
+Ancient Tomb Bias (Champ) Desecrated 3	93	104	2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 3	1																						0
+Ancient Tomb Bias (Champ) Desecrated 4	93	106	2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 4	1																						0
+Ancient Tomb Bias (Champ) Desecrated 5	93	108	2					0	Worldstone Shards	1	Ancient Tomb Bias (Champ) 5	1																						0
+Chaos Rift Bias (Champ) Desecrated 1	94	100	2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 1	1																						0
+Chaos Rift Bias (Champ) Desecrated 2	94	102	2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 2	1																						0
+Chaos Rift Bias (Champ) Desecrated 3	94	104	2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 3	1																						0
+Chaos Rift Bias (Champ) Desecrated 4	94	106	2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 4	1																						0
+Chaos Rift Bias (Champ) Desecrated 5	94	108	2					0	Worldstone Shards	1	Chaos Rift Bias (Champ) 5	1																						0
+Infested Lair Bias (Champ) Desecrated 1	95	100	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 1	1																						0
+Infested Lair Bias (Champ) Desecrated 2	95	102	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 2	1																						0
+Infested Lair Bias (Champ) Desecrated 3	95	104	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 3	1																						0
+Infested Lair Bias (Champ) Desecrated 4	95	106	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 4	1																						0
+Infested Lair Bias (Champ) Desecrated 5	95	108	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 5	1																						0
+Labyrinth Of Suffering Bias (Champ) Desecrated 1	96	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 1	1																						0
+Labyrinth Of Suffering Bias (Champ) Desecrated 2	96	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 2	1																						0
+Labyrinth Of Suffering Bias (Champ) Desecrated 3	96	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 3	1																						0
+Labyrinth Of Suffering Bias (Champ) Desecrated 4	96	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 4	1																						0
+Labyrinth Of Suffering Bias (Champ) Desecrated 5	96	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 5	1																						0
+Endless Abyss Bias (Champ) Desecrated 1	97	100	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 1	1																						0
+Endless Abyss Bias (Champ) Desecrated 2	97	102	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 2	1																						0
+Endless Abyss Bias (Champ) Desecrated 3	97	104	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 3	1																						0
+Endless Abyss Bias (Champ) Desecrated 4	97	106	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 4	1																						0
+Endless Abyss Bias (Champ) Desecrated 5	97	108	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 5	1																						0
+Decaying Depths Bias (Champ) Desecrated 1	97	100	2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 1	1																						0
+Decaying Depths Bias (Champ) Desecrated 2	97	102	2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 2	1																						0
+Decaying Depths Bias (Champ) Desecrated 3	97	104	2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 3	1																						0
+Decaying Depths Bias (Champ) Desecrated 4	97	106	2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 4	1																						0
+Decaying Depths Bias (Champ) Desecrated 5	97	108	2					0	Worldstone Shards	1	Decaying Depths Bias (Champ) 5	1																						0
+Frozen Wastes Bias (Champ) Desecrated 1	98	100	2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 1	1																						0
+Frozen Wastes Bias (Champ) Desecrated 2	98	102	2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 2	1																						0
+Frozen Wastes Bias (Champ) Desecrated 3	98	104	2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 3	1																						0
+Frozen Wastes Bias (Champ) Desecrated 4	98	106	2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 4	1																						0
+Frozen Wastes Bias (Champ) Desecrated 5	98	108	2					0	Worldstone Shards	1	Frozen Wastes Bias (Champ) 5	1																						0
+Twisted Maze Bias (Champ) Desecrated 1	99	100	2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 1	1																						0
+Twisted Maze Bias (Champ) Desecrated 2	99	102	2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 2	1																						0
+Twisted Maze Bias (Champ) Desecrated 3	99	104	2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 3	1																						0
+Twisted Maze Bias (Champ) Desecrated 4	99	106	2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 4	1																						0
+Twisted Maze Bias (Champ) Desecrated 5	99	108	2					0	Worldstone Shards	1	Twisted Maze Bias (Champ) 5	1																						0
+Cursed Ossuary Bias (Champ) Desecrated 1	100	100	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 1	1																						0
+Cursed Ossuary Bias (Champ) Desecrated 2	100	102	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 2	1																						0
+Cursed Ossuary Bias (Champ) Desecrated 3	100	104	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 3	1																						0
+Cursed Ossuary Bias (Champ) Desecrated 4	100	106	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 4	1																						0
+Cursed Ossuary Bias (Champ) Desecrated 5	100	108	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Champ) 5	1																						0
+Infernal Nexus Bias (Champ) Desecrated 1	101	100	2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 1	1																						0
+Infernal Nexus Bias (Champ) Desecrated 2	101	102	2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 2	1																						0
+Infernal Nexus Bias (Champ) Desecrated 3	101	104	2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 3	1																						0
+Infernal Nexus Bias (Champ) Desecrated 4	101	106	2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 4	1																						0
+Infernal Nexus Bias (Champ) Desecrated 5	101	108	2					0	Worldstone Shards	1	Infernal Nexus Bias (Champ) 5	1																						0
+Reliquary of Souls Bias (Champ) Desecrated 1	102	100	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 1	1																						0
+Reliquary of Souls Bias (Champ) Desecrated 2	102	102	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 2	1																						0
+Reliquary of Souls Bias (Champ) Desecrated 3	102	104	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 3	1																						0
+Reliquary of Souls Bias (Champ) Desecrated 4	102	106	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 4	1																						0
+Reliquary of Souls Bias (Champ) Desecrated 5	102	108	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Champ) 5	1																						0
+Shrine of Destruction Bias (Champ) Desecrated 1	103	100	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 1	1																						0
+Shrine of Destruction Bias (Champ) Desecrated 2	103	102	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 2	1																						0
+Shrine of Destruction Bias (Champ) Desecrated 3	103	104	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 3	1																						0
+Shrine of Destruction Bias (Champ) Desecrated 4	103	106	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 4	1																						0
+Shrine of Destruction Bias (Champ) Desecrated 5	103	108	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Champ) 5	1																						0
+Cellar Of Pain Bias (Unique) Desecrated 1	104	100	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 1	1																						0
+Cellar Of Pain Bias (Unique) Desecrated 2	104	102	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 2	1																						0
+Cellar Of Pain Bias (Unique) Desecrated 3	104	104	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 3	1																						0
+Cellar Of Pain Bias (Unique) Desecrated 4	104	106	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 4	1																						0
+Cellar Of Pain Bias (Unique) Desecrated 5	104	108	2					0	Worldstone Shards	1	Cellar Of Pain Bias (Unique) 5	1																						0
+Chasm Of Horror Bias (Unique) Desecrated 1	105	100	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 1	1																						0
+Chasm Of Horror Bias (Unique) Desecrated 2	105	102	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 2	1																						0
+Chasm Of Horror Bias (Unique) Desecrated 3	105	104	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 3	1																						0
+Chasm Of Horror Bias (Unique) Desecrated 4	105	106	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 4	1																						0
+Chasm Of Horror Bias (Unique) Desecrated 5	105	108	2					0	Worldstone Shards	1	Chasm Of Horror Bias (Unique) 5	1																						0
+Crypt Of Damnation Bias (Unique) Desecrated 1	106	100	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 1	1																						0
+Crypt Of Damnation Bias (Unique) Desecrated 2	106	102	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 2	1																						0
+Crypt Of Damnation Bias (Unique) Desecrated 3	106	104	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 3	1																						0
+Crypt Of Damnation Bias (Unique) Desecrated 4	106	106	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 4	1																						0
+Crypt Of Damnation Bias (Unique) Desecrated 5	106	108	2					0	Worldstone Shards	1	Crypt Of Damnation Bias (Unique) 5	1																						0
+Necropolis Bias (Unique) Desecrated 1	107	100	2					0	Worldstone Shards	1	Necropolis Bias (Unique) 1	1																						0
+Necropolis Bias (Unique) Desecrated 2	107	102	2					0	Worldstone Shards	1	Necropolis Bias (Unique) 2	1																						0
+Necropolis Bias (Unique) Desecrated 3	107	104	2					0	Worldstone Shards	1	Necropolis Bias (Unique) 3	1																						0
+Necropolis Bias (Unique) Desecrated 4	107	106	2					0	Worldstone Shards	1	Necropolis Bias (Unique) 4	1																						0
+Necropolis Bias (Unique) Desecrated 5	107	108	2					0	Worldstone Shards	1	Necropolis Bias (Unique) 5	1																						0
+Ancient Tomb Bias (Unique) Desecrated 1	108	100	2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 1	1																						0
+Ancient Tomb Bias (Unique) Desecrated 2	108	102	2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 2	1																						0
+Ancient Tomb Bias (Unique) Desecrated 3	108	104	2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 3	1																						0
+Ancient Tomb Bias (Unique) Desecrated 4	108	106	2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 4	1																						0
+Ancient Tomb Bias (Unique) Desecrated 5	108	108	2					0	Worldstone Shards	1	Ancient Tomb Bias (Unique) 5	1																						0
+Chaos Rift Bias (Unique) Desecrated 1	109	100	2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 1	1																						0
+Chaos Rift Bias (Unique) Desecrated 2	109	102	2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 2	1																						0
+Chaos Rift Bias (Unique) Desecrated 3	109	104	2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 3	1																						0
+Chaos Rift Bias (Unique) Desecrated 4	109	106	2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 4	1																						0
+Chaos Rift Bias (Unique) Desecrated 5	109	108	2					0	Worldstone Shards	1	Chaos Rift Bias (Unique) 5	1																						0
+Infested Lair Bias (Unique) Desecrated 1	110	100	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 1	1																						0
+Infested Lair Bias (Unique) Desecrated 2	110	102	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 2	1																						0
+Infested Lair Bias (Unique) Desecrated 3	110	104	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 3	1																						0
+Infested Lair Bias (Unique) Desecrated 4	110	106	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 4	1																						0
+Infested Lair Bias (Unique) Desecrated 5	110	108	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 5	1																						0
+Labyrinth Of Suffering Bias (Unique) Desecrated 1	111	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 1	1																						0
+Labyrinth Of Suffering Bias (Unique) Desecrated 2	111	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 2	1																						0
+Labyrinth Of Suffering Bias (Unique) Desecrated 3	111	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 3	1																						0
+Labyrinth Of Suffering Bias (Unique) Desecrated 4	111	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 4	1																						0
+Labyrinth Of Suffering Bias (Unique) Desecrated 5	111	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 5	1																						0
+Endless Abyss Bias (Unique) Desecrated 1	111	100	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 1	1																						0
+Endless Abyss Bias (Unique) Desecrated 2	111	102	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 2	1																						0
+Endless Abyss Bias (Unique) Desecrated 3	111	104	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 3	1																						0
+Endless Abyss Bias (Unique) Desecrated 4	111	106	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 4	1																						0
+Endless Abyss Bias (Unique) Desecrated 5	111	108	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 5	1																						0
+Decaying Depths Bias (Unique) Desecrated 1	112	100	2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 1	1																						0
+Decaying Depths Bias (Unique) Desecrated 2	112	102	2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 2	1																						0
+Decaying Depths Bias (Unique) Desecrated 3	112	104	2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 3	1																						0
+Decaying Depths Bias (Unique) Desecrated 4	112	106	2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 4	1																						0
+Decaying Depths Bias (Unique) Desecrated 5	112	108	2					0	Worldstone Shards	1	Decaying Depths Bias (Unique) 5	1																						0
+Frozen Wastes Bias (Unique) Desecrated 1	113	100	2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 1	1																						0
+Frozen Wastes Bias (Unique) Desecrated 2	113	102	2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 2	1																						0
+Frozen Wastes Bias (Unique) Desecrated 3	113	104	2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 3	1																						0
+Frozen Wastes Bias (Unique) Desecrated 4	113	106	2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 4	1																						0
+Frozen Wastes Bias (Unique) Desecrated 5	113	108	2					0	Worldstone Shards	1	Frozen Wastes Bias (Unique) 5	1																						0
+Twisted Maze Bias (Unique) Desecrated 1	114	100	2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 1	1																						0
+Twisted Maze Bias (Unique) Desecrated 2	114	102	2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 2	1																						0
+Twisted Maze Bias (Unique) Desecrated 3	114	104	2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 3	1																						0
+Twisted Maze Bias (Unique) Desecrated 4	114	106	2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 4	1																						0
+Twisted Maze Bias (Unique) Desecrated 5	114	108	2					0	Worldstone Shards	1	Twisted Maze Bias (Unique) 5	1																						0
+Cursed Ossuary Bias (Unique) Desecrated 1	115	100	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 1	1																						0
+Cursed Ossuary Bias (Unique) Desecrated 2	115	102	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 2	1																						0
+Cursed Ossuary Bias (Unique) Desecrated 3	115	104	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 3	1																						0
+Cursed Ossuary Bias (Unique) Desecrated 4	115	106	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 4	1																						0
+Cursed Ossuary Bias (Unique) Desecrated 5	115	108	2					0	Worldstone Shards	1	Cursed Ossuary Bias (Unique) 5	1																						0
+Infernal Nexus Bias (Unique) Desecrated 1	116	100	2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 1	1																						0
+Infernal Nexus Bias (Unique) Desecrated 2	116	102	2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 2	1																						0
+Infernal Nexus Bias (Unique) Desecrated 3	116	104	2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 3	1																						0
+Infernal Nexus Bias (Unique) Desecrated 4	116	106	2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 4	1																						0
+Infernal Nexus Bias (Unique) Desecrated 5	116	108	2					0	Worldstone Shards	1	Infernal Nexus Bias (Unique) 5	1																						0
+Reliquary of Souls Bias (Unique) Desecrated 1	117	100	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 1	1																						0
+Reliquary of Souls Bias (Unique) Desecrated 2	117	102	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 2	1																						0
+Reliquary of Souls Bias (Unique) Desecrated 3	117	104	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 3	1																						0
+Reliquary of Souls Bias (Unique) Desecrated 4	117	106	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 4	1																						0
+Reliquary of Souls Bias (Unique) Desecrated 5	117	108	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 5	1																						0
+Shrine of Destruction Bias (Unique) Desecrated 1	118	100	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 1	1																						0
+Shrine of Destruction Bias (Unique) Desecrated 2	118	102	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 2	1																						0
+Shrine of Destruction Bias (Unique) Desecrated 3	118	104	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 3	1																						0
+Shrine of Destruction Bias (Unique) Desecrated 4	118	106	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 4	1																						0
+Shrine of Destruction Bias (Unique) Desecrated 5	118	108	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 5	1																						0
 Endgame Map Tier 1 Boss Bias			1					8	Endgame Map Tier 2 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 2 Boss Bias			1					8	Endgame Map Tier 3 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 3 Boss Bias			1					8	Endgame Map Tier 4 No Downgrade	4	Nothing	4																						0
@@ -3337,10 +3463,14 @@ Diablo the Invincible Boss Desecrated			-5					0	wss	3	um1	1	Eye of the Storm Bo
 Mephisto the Invincible Boss Desecrated			-5					0	wss	3	um3	1	Eye of the Storm Boss	1																				0
 Sanctum of the Dead Boss Desecrated			-7					0	wss	5	Endgame Map Rathma Unique	1	Sanctum of the Dead Boss	1																				0
 Reliquary of False Light Boss Desecrated			-7					0	wss	5	Endgame Map Lucion Unique	1	Reliquary of False Light Boss	1																				0
-Treasure Goblin			15	820	820	973	1024	500	"gld,mul=4096"	30	Unique Charm 2	6	EGM Equip 17	240	Endgame Map Valuable	60	Goblin Boss Craft	30	EGM Myth	80	Endgame Map Tier 2	6	z99	1										0
-Treasure Goblin (Champ)			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
-Treasure Goblin (Unique)			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
-Treasure Goblin Vault			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin Base			15	820	820	973	1024	500	"gld,mul=4096"	30	Unique Charm 2	6	EGM Equip 17	240	Endgame Map Valuable	60	Goblin Boss Craft	30	EGM Myth	80	Endgame Map Tier 2	6	z99	1										0
+Treasure Goblin (Champ) Base			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin (Unique) Base			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin Vault Base			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
+Treasure Goblin			1	820	820	973	1024		Treasure Goblin	1																								0
+Treasure Goblin (Champ)			1	820	820	973	1024		Treasure Goblin (Champ)	1																								0
+Treasure Goblin (Unique)			1	820	820	973	1024		Treasure Goblin (Unique)	1																								0
+Treasure Goblin Vault			1	820	820	973	1024		Treasure Goblin Vault	1																								0
 Ascendancy Class			6						Act 5 Uber	1																								0
 Ascendancy Class (N)			6						Act 5 (N) Uber	1																								0
 Ascendancy Class (H)			6						Act 5 (H) Uber	1																								0
@@ -3365,51 +3495,96 @@ Uber Baal			-2					0	ht2	1	Uber Tristram Base	1																						0
 Uber Mephisto			-2					0	ht3	1	Uber Tristram Base	1																						0
 Treasure Goblin Flawed Crystals 1			1						xl0		xl1		xl2		xl3		xl4		xl5		xl6		xl7		xl8		xl9							0
 Treasure Goblin Flawed Crystals 2			1						xlx	1	xly	1	Treasure Goblin Flawed Crystals 1	1																				0
-Treasure Goblin Campaign 1	119	0	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	1	"gld,mul=16384"	100	Act 1 Equip A	125	Act 1 Coupon A	50														0
-Treasure Goblin Campaign 2	119	5	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	2	"gld,mul=16384"	100	Act 1 Equip B	125	Act 1 Coupon B	50														0
-Treasure Goblin Campaign 3	119	9	15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	3	"gld,mul=16384"	100	Act 1 Equip C	125	Act 1 Coupon C	50														0
-Treasure Goblin Campaign 4	119	12	15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	4	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip A	125	Act 2 Coupon A	50										0
-Treasure Goblin Campaign 5	119	15	15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	5	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip B	125	Act 2 Coupon B	50										0
-Treasure Goblin Campaign 6	119	18	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	6	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip C	125	Act 2 Coupon C	50										0
-Treasure Goblin Campaign 7	119	20	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	7	yyy	1	qqq	1	"gld,mul=16384"	100	Act 3 Equip A	125	Act 3 Coupon A	50										0
-Treasure Goblin Campaign 8	119	22	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	8	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip B	125	Act 3 Coupon B	50										0
-Treasure Goblin Campaign 9	119	24	15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	9	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip C	125	Act 3 Coupon C	50										0
-Treasure Goblin Campaign 10	119	26	15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	10	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip A	125	Act 4 Coupon A	50										0
-Treasure Goblin Campaign 11	119	29	15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	11	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip B	125	Act 4 Coupon B	50										0
-Treasure Goblin Campaign 12	119	32	15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	12	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip A	125	Act 5 Coupon A	50										0
-Treasure Goblin Campaign 13	119	34	15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	13	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip B	125	Act 5 Coupon B	50										0
-Treasure Goblin Campaign 14	119	36	15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	14	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip C	125	Act 5 Coupon C	50								0
-Treasure Goblin Campaign 15	119	38	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	15	yyy	3	qqq	3	"gld,mul=16384"	100	Act 1 (N) Equip A	125	Act 1 (N) Coupon A	50								0
-Treasure Goblin Campaign 16	119	40	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	16	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon B	50								0
-Treasure Goblin Campaign 17	119	42	15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	17	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon C	50								0
-Treasure Goblin Campaign 18	119	44	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	18	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip A	125	Act 2 (N) Coupon A	50								0
-Treasure Goblin Campaign 19	119	46	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	19	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon B	50								0
-Treasure Goblin Campaign 20	119	48	15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	20	yyy	5	qqq	5	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon C	50								0
-Treasure Goblin Campaign 21	119	50	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	21	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip A	125	Act 3 (N) Coupon A	50								0
-Treasure Goblin Campaign 22	119	52	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	22	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon B	50								0
-Treasure Goblin Campaign 23	119	54	15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	23	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon C	50								0
-Treasure Goblin Campaign 24	119	56	15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	24	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip A	125	Act 4 (N) Coupon A	50								0
-Treasure Goblin Campaign 25	119	58	15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	25	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip B	125	Act 4 (N) Coupon B	50								0
-Treasure Goblin Campaign 26	119	62	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	26	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip A	125	Act 5 (N) Coupon A	50								0
-Treasure Goblin Campaign 27	119	64	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	27	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip B	125	Act 5 (N) Coupon B	50								0
-Treasure Goblin Campaign 28	119	66	15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	28	yyy	7	qqq	7	"gld,mul=16384"	100	Act 5 (N) Equip C	125	Act 5 (N) Coupon C	50								0
-Treasure Goblin Campaign 29	119	68	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	29	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip A	125	Act 1 (H) Coupon A	50								0
-Treasure Goblin Campaign 30	119	70	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	30	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon B	50								0
-Treasure Goblin Campaign 31	119	71	15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	31	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon C	50								0
-Treasure Goblin Campaign 32	119	73	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	32	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip A	125	Act 2 (H) Coupon A	50								0
-Treasure Goblin Campaign 33	119	75	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	33	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon B	50								0
-Treasure Goblin Campaign 34	119	76	15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	34	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon C	50								0
-Treasure Goblin Campaign 35	119	77	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	35	yyy	8	qqq	8	"gld,mul=16384"	100	Act 3 (H) Equip A	125	Act 3 (H) Coupon A	50								0
-Treasure Goblin Campaign 36	119	78	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	36	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon B	50								0
-Treasure Goblin Campaign 37	119	79	15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	37	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon C	50								0
-Treasure Goblin Campaign 38	119	80	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	38	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip A	125	Act 4 (H) Coupon A	50								0
-Treasure Goblin Campaign 39	119	81	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	39	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip B	125	Act 4 (H) Coupon B	50								0
-Treasure Goblin Campaign 40	119	83	15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	40	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip A	125	Act 5 (H) Coupon A	50								0
-Treasure Goblin Campaign 41	119	84	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	41	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip B	125	Act 5 (H) Coupon B	50								0
-Treasure Goblin Campaign 42	119	85	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	42	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
-Treasure Goblin Campaign 43	119	88	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	43	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
-Treasure Goblin Campaign 44	119	92	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	44	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
-Treasure Goblin Campaign 45	119	96	15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	45	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 1 Base			15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	1	"gld,mul=16384"	100	Act 1 Equip A	125	Act 1 Coupon A	50														0
+Treasure Goblin Campaign 2 Base			15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	2	"gld,mul=16384"	100	Act 1 Equip B	125	Act 1 Coupon B	50														0
+Treasure Goblin Campaign 3 Base			15	820	820	973	1024	100	Act 1 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	3	"gld,mul=16384"	100	Act 1 Equip C	125	Act 1 Coupon C	50														0
+Treasure Goblin Campaign 4 Base			15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	4	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip A	125	Act 2 Coupon A	50										0
+Treasure Goblin Campaign 5 Base			15	820	820	973	1024	100	Act 2 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	5	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip B	125	Act 2 Coupon B	50										0
+Treasure Goblin Campaign 6 Base			15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	6	yyy	1	qqq	1	"gld,mul=16384"	100	Act 2 Equip C	125	Act 2 Coupon C	50										0
+Treasure Goblin Campaign 7 Base			15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	7	yyy	1	qqq	1	"gld,mul=16384"	100	Act 3 Equip A	125	Act 3 Coupon A	50										0
+Treasure Goblin Campaign 8 Base			15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	8	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip B	125	Act 3 Coupon B	50										0
+Treasure Goblin Campaign 9 Base			15	820	820	973	1024	100	Act 3 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	9	yyy	2	qqq	2	"gld,mul=16384"	100	Act 3 Equip C	125	Act 3 Coupon C	50										0
+Treasure Goblin Campaign 10 Base			15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	10	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip A	125	Act 4 Coupon A	50										0
+Treasure Goblin Campaign 11 Base			15	820	820	973	1024	100	Act 4 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	11	yyy	2	qqq	2	"gld,mul=16384"	100	Act 4 Equip B	125	Act 4 Coupon B	50										0
+Treasure Goblin Campaign 12 Base			15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	12	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip A	125	Act 5 Coupon A	50										0
+Treasure Goblin Campaign 13 Base			15	820	820	973	1024	100	Act 5 UGood	125	Treasure Goblin Flawed Crystals 2	10	ppp	13	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip B	125	Act 5 Coupon B	50										0
+Treasure Goblin Campaign 14 Base			15	820	820	973	1024	100	Act 5 UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	14	yyy	3	qqq	3	"gld,mul=16384"	100	Act 5 Equip C	125	Act 5 Coupon C	50								0
+Treasure Goblin Campaign 15 Base			15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	15	yyy	3	qqq	3	"gld,mul=16384"	100	Act 1 (N) Equip A	125	Act 1 (N) Coupon A	50								0
+Treasure Goblin Campaign 16 Base			15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	16	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon B	50								0
+Treasure Goblin Campaign 17 Base			15	820	820	973	1024	100	Act 1 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	17	yyy	4	qqq	4	"gld,mul=16384"	100	Act 1 (N) Equip B	125	Act 1 (N) Coupon C	50								0
+Treasure Goblin Campaign 18 Base			15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	18	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip A	125	Act 2 (N) Coupon A	50								0
+Treasure Goblin Campaign 19 Base			15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	19	yyy	4	qqq	4	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon B	50								0
+Treasure Goblin Campaign 20 Base			15	820	820	973	1024	100	Act 2 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	20	yyy	5	qqq	5	"gld,mul=16384"	100	Act 2 (N) Equip B	125	Act 2 (N) Coupon C	50								0
+Treasure Goblin Campaign 21 Base			15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	21	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip A	125	Act 3 (N) Coupon A	50								0
+Treasure Goblin Campaign 22 Base			15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	22	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon B	50								0
+Treasure Goblin Campaign 23 Base			15	820	820	973	1024	100	Act 3 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	23	yyy	5	qqq	5	"gld,mul=16384"	100	Act 3 (N) Equip B	125	Act 3 (N) Coupon C	50								0
+Treasure Goblin Campaign 24 Base			15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	24	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip A	125	Act 4 (N) Coupon A	50								0
+Treasure Goblin Campaign 25 Base			15	820	820	973	1024	100	Act 4 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	25	yyy	6	qqq	6	"gld,mul=16384"	100	Act 4 (N) Equip B	125	Act 4 (N) Coupon B	50								0
+Treasure Goblin Campaign 26 Base			15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	26	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip A	125	Act 5 (N) Coupon A	50								0
+Treasure Goblin Campaign 27 Base			15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	27	yyy	6	qqq	6	"gld,mul=16384"	100	Act 5 (N) Equip B	125	Act 5 (N) Coupon B	50								0
+Treasure Goblin Campaign 28 Base			15	820	820	973	1024	100	Act 5 (N) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	28	yyy	7	qqq	7	"gld,mul=16384"	100	Act 5 (N) Equip C	125	Act 5 (N) Coupon C	50								0
+Treasure Goblin Campaign 29 Base			15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	29	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip A	125	Act 1 (H) Coupon A	50								0
+Treasure Goblin Campaign 30 Base			15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	30	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon B	50								0
+Treasure Goblin Campaign 31 Base			15	820	820	973	1024	100	Act 1 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	31	yyy	7	qqq	7	"gld,mul=16384"	100	Act 1 (H) Equip B	125	Act 1 (H) Coupon C	50								0
+Treasure Goblin Campaign 32 Base			15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	32	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip A	125	Act 2 (H) Coupon A	50								0
+Treasure Goblin Campaign 33 Base			15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	33	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon B	50								0
+Treasure Goblin Campaign 34 Base			15	820	820	973	1024	100	Act 2 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	34	yyy	8	qqq	8	"gld,mul=16384"	100	Act 2 (H) Equip B	125	Act 2 (H) Coupon C	50								0
+Treasure Goblin Campaign 35 Base			15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	35	yyy	8	qqq	8	"gld,mul=16384"	100	Act 3 (H) Equip A	125	Act 3 (H) Coupon A	50								0
+Treasure Goblin Campaign 36 Base			15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	36	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon B	50								0
+Treasure Goblin Campaign 37 Base			15	820	820	973	1024	100	Act 3 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	37	yyy	9	qqq	9	"gld,mul=16384"	100	Act 3 (H) Equip B	125	Act 3 (H) Coupon C	50								0
+Treasure Goblin Campaign 38 Base			15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	38	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip A	125	Act 4 (H) Coupon A	50								0
+Treasure Goblin Campaign 39 Base			15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	39	yyy	9	qqq	9	"gld,mul=16384"	100	Act 4 (H) Equip B	125	Act 4 (H) Coupon B	50								0
+Treasure Goblin Campaign 40 Base			15	820	820	973	1024	100	Act 4 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	40	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip A	125	Act 5 (H) Coupon A	50								0
+Treasure Goblin Campaign 41 Base			15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	41	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip B	125	Act 5 (H) Coupon B	50								0
+Treasure Goblin Campaign 42 Base			15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	42	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 43 Base			15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	43	yyy	10	qqq	10	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 44 Base			15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	44	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 45 Base			15	820	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	2	Treasure Goblin Flawed Crystals 2	10	ppp	45	yyy	11	qqq	11	"gld,mul=16384"	100	Act 5 (H) Equip C	125	Act 5 (H) Coupon C	50								0
+Treasure Goblin Campaign 1	119	0	1	820	820	973	1024		Treasure Goblin Campaign 1 Base	1																								0
+Treasure Goblin Campaign 2	119	5	1	820	820	973	1024		Treasure Goblin Campaign 2 Base	1																								0
+Treasure Goblin Campaign 3	119	9	1	820	820	973	1024		Treasure Goblin Campaign 3 Base	1																								0
+Treasure Goblin Campaign 4	119	12	1	820	820	973	1024		Treasure Goblin Campaign 4 Base	1																								0
+Treasure Goblin Campaign 5	119	15	1	820	820	973	1024		Treasure Goblin Campaign 5 Base	1																								0
+Treasure Goblin Campaign 6	119	18	1	820	820	973	1024		Treasure Goblin Campaign 6 Base	1																								0
+Treasure Goblin Campaign 7	119	20	1	820	820	973	1024		Treasure Goblin Campaign 7 Base	1																								0
+Treasure Goblin Campaign 8	119	22	1	820	820	973	1024		Treasure Goblin Campaign 8 Base	1																								0
+Treasure Goblin Campaign 9	119	24	1	820	820	973	1024		Treasure Goblin Campaign 9 Base	1																								0
+Treasure Goblin Campaign 10	119	26	1	820	820	973	1024		Treasure Goblin Campaign 10 Base	1																								0
+Treasure Goblin Campaign 11	119	29	1	820	820	973	1024		Treasure Goblin Campaign 11 Base	1																								0
+Treasure Goblin Campaign 12	119	32	1	820	820	973	1024		Treasure Goblin Campaign 12 Base	1																								0
+Treasure Goblin Campaign 13	119	34	1	820	820	973	1024		Treasure Goblin Campaign 13 Base	1																								0
+Treasure Goblin Campaign 14	119	36	1	820	820	973	1024		Treasure Goblin Campaign 14 Base	1																								0
+Treasure Goblin Campaign 15	119	38	1	820	820	973	1024		Treasure Goblin Campaign 15 Base	1																								0
+Treasure Goblin Campaign 16	119	40	1	820	820	973	1024		Treasure Goblin Campaign 16 Base	1																								0
+Treasure Goblin Campaign 17	119	42	1	820	820	973	1024		Treasure Goblin Campaign 17 Base	1																								0
+Treasure Goblin Campaign 18	119	44	1	820	820	973	1024		Treasure Goblin Campaign 18 Base	1																								0
+Treasure Goblin Campaign 19	119	46	1	820	820	973	1024		Treasure Goblin Campaign 19 Base	1																								0
+Treasure Goblin Campaign 20	119	48	1	820	820	973	1024		Treasure Goblin Campaign 20 Base	1																								0
+Treasure Goblin Campaign 21	119	50	1	820	820	973	1024		Treasure Goblin Campaign 21 Base	1																								0
+Treasure Goblin Campaign 22	119	52	1	820	820	973	1024		Treasure Goblin Campaign 22 Base	1																								0
+Treasure Goblin Campaign 23	119	54	1	820	820	973	1024		Treasure Goblin Campaign 23 Base	1																								0
+Treasure Goblin Campaign 24	119	56	1	820	820	973	1024		Treasure Goblin Campaign 24 Base	1																								0
+Treasure Goblin Campaign 25	119	58	1	820	820	973	1024		Treasure Goblin Campaign 25 Base	1																								0
+Treasure Goblin Campaign 26	119	62	1	820	820	973	1024		Treasure Goblin Campaign 26 Base	1																								0
+Treasure Goblin Campaign 27	119	64	1	820	820	973	1024		Treasure Goblin Campaign 27 Base	1																								0
+Treasure Goblin Campaign 28	119	66	1	820	820	973	1024		Treasure Goblin Campaign 28 Base	1																								0
+Treasure Goblin Campaign 29	119	68	1	820	820	973	1024		Treasure Goblin Campaign 29 Base	1																								0
+Treasure Goblin Campaign 30	119	70	1	820	820	973	1024		Treasure Goblin Campaign 30 Base	1																								0
+Treasure Goblin Campaign 31	119	71	1	820	820	973	1024		Treasure Goblin Campaign 31 Base	1																								0
+Treasure Goblin Campaign 32	119	73	1	820	820	973	1024		Treasure Goblin Campaign 32 Base	1																								0
+Treasure Goblin Campaign 33	119	75	1	820	820	973	1024		Treasure Goblin Campaign 33 Base	1																								0
+Treasure Goblin Campaign 34	119	76	1	820	820	973	1024		Treasure Goblin Campaign 34 Base	1																								0
+Treasure Goblin Campaign 35	119	77	1	820	820	973	1024		Treasure Goblin Campaign 35 Base	1																								0
+Treasure Goblin Campaign 36	119	78	1	820	820	973	1024		Treasure Goblin Campaign 36 Base	1																								0
+Treasure Goblin Campaign 37	119	79	1	820	820	973	1024		Treasure Goblin Campaign 37 Base	1																								0
+Treasure Goblin Campaign 38	119	80	1	820	820	973	1024		Treasure Goblin Campaign 38 Base	1																								0
+Treasure Goblin Campaign 39	119	81	1	820	820	973	1024		Treasure Goblin Campaign 39 Base	1																								0
+Treasure Goblin Campaign 40	119	83	1	820	820	973	1024		Treasure Goblin Campaign 40 Base	1																								0
+Treasure Goblin Campaign 41	119	84	1	820	820	973	1024		Treasure Goblin Campaign 41 Base	1																								0
+Treasure Goblin Campaign 42	119	85	1	820	820	973	1024		Treasure Goblin Campaign 42 Base	1																								0
+Treasure Goblin Campaign 43	119	88	1	820	820	973	1024		Treasure Goblin Campaign 43 Base	1																								0
+Treasure Goblin Campaign 44	119	92	1	820	820	973	1024		Treasure Goblin Campaign 44 Base	1																								0
+Treasure Goblin Campaign 45	119	96	1	820	820	973	1024		Treasure Goblin Campaign 45 Base	1																								0
 Corrupted Zakarum Token 1			1						u23	9	Nothing	81																						0
 Corrupted Zakarum Token 2			1						u23	10	Nothing	80																						0
 Corrupted Zakarum Token 3			1						u23	11	Nothing	79																						0
@@ -3545,51 +3720,96 @@ Corrupted Zakarum Base 42			10	950	820	973	1024	100	Act 5 (H) UGood	125	Unique C
 Corrupted Zakarum Base 43			10	950	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	1	ppp	43	qqq	5	"gld,mul=2048"	100	Corrupted Zakarum Equip 43	125	Act 5 (H) Coupon C	10												0
 Corrupted Zakarum Base 44			10	950	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	1	ppp	44	qqq	5	"gld,mul=2048"	100	Corrupted Zakarum Equip 44	125	Act 5 (H) Coupon C	10												0
 Corrupted Zakarum Base 45			10	950	820	973	1024	100	Act 5 (H) UGood	125	Unique Charm 2	1	ppp	45	qqq	5	"gld,mul=2048"	100	Corrupted Zakarum Equip 45	125	Act 5 (H) Coupon C	10												0
-Corrupted Zakarum 1	120	0	-2	820	820	973	1024		Corrupted Zakarum Token 1	1	Corrupted Zakarum Base 1	1																						0
-Corrupted Zakarum 2	120	5	-2	820	820	973	1024		Corrupted Zakarum Token 2	1	Corrupted Zakarum Base 2	1																						0
-Corrupted Zakarum 3	120	9	-2	820	820	973	1024		Corrupted Zakarum Token 3	1	Corrupted Zakarum Base 3	1																						0
-Corrupted Zakarum 4	120	12	-2	820	820	973	1024		Corrupted Zakarum Token 4	1	Corrupted Zakarum Base 4	1																						0
-Corrupted Zakarum 5	120	15	-2	820	820	973	1024		Corrupted Zakarum Token 5	1	Corrupted Zakarum Base 5	1																						0
-Corrupted Zakarum 6	120	18	-2	820	820	973	1024		Corrupted Zakarum Token 6	1	Corrupted Zakarum Base 6	1																						0
-Corrupted Zakarum 7	120	20	-2	820	820	973	1024		Corrupted Zakarum Token 7	1	Corrupted Zakarum Base 7	1																						0
-Corrupted Zakarum 8	120	22	-2	820	820	973	1024		Corrupted Zakarum Token 8	1	Corrupted Zakarum Base 8	1																						0
-Corrupted Zakarum 9	120	24	-2	820	820	973	1024		Corrupted Zakarum Token 9	1	Corrupted Zakarum Base 9	1																						0
-Corrupted Zakarum 10	120	26	-2	820	820	973	1024		Corrupted Zakarum Token 10	1	Corrupted Zakarum Base 10	1																						0
-Corrupted Zakarum 11	120	29	-2	820	820	973	1024		Corrupted Zakarum Token 11	1	Corrupted Zakarum Base 11	1																						0
-Corrupted Zakarum 12	120	32	-2	820	820	973	1024		Corrupted Zakarum Token 12	1	Corrupted Zakarum Base 12	1																						0
-Corrupted Zakarum 13	120	34	-2	820	820	973	1024		Corrupted Zakarum Token 13	1	Corrupted Zakarum Base 13	1																						0
-Corrupted Zakarum 14	120	36	-2	820	820	973	1024		Corrupted Zakarum Token 14	1	Corrupted Zakarum Base 14	1																						0
-Corrupted Zakarum 15	120	38	-2	820	820	973	1024		Corrupted Zakarum Token 15	1	Corrupted Zakarum Base 15	1																						0
-Corrupted Zakarum 16	120	40	-2	820	820	973	1024		Corrupted Zakarum Token 16	1	Corrupted Zakarum Base 16	1																						0
-Corrupted Zakarum 17	120	42	-2	820	820	973	1024		Corrupted Zakarum Token 17	1	Corrupted Zakarum Base 17	1																						0
-Corrupted Zakarum 18	120	44	-2	820	820	973	1024		Corrupted Zakarum Token 18	1	Corrupted Zakarum Base 18	1																						0
-Corrupted Zakarum 19	120	46	-2	820	820	973	1024		Corrupted Zakarum Token 19	1	Corrupted Zakarum Base 19	1																						0
-Corrupted Zakarum 20	120	48	-2	820	820	973	1024		Corrupted Zakarum Token 20	1	Corrupted Zakarum Base 20	1																						0
-Corrupted Zakarum 21	120	50	-2	820	820	973	1024		Corrupted Zakarum Token 21	1	Corrupted Zakarum Base 21	1																						0
-Corrupted Zakarum 22	120	52	-2	820	820	973	1024		Corrupted Zakarum Token 22	1	Corrupted Zakarum Base 22	1																						0
-Corrupted Zakarum 23	120	54	-2	820	820	973	1024		Corrupted Zakarum Token 23	1	Corrupted Zakarum Base 23	1																						0
-Corrupted Zakarum 24	120	56	-2	820	820	973	1024		Corrupted Zakarum Token 24	1	Corrupted Zakarum Base 24	1																						0
-Corrupted Zakarum 25	120	58	-2	820	820	973	1024		Corrupted Zakarum Token 25	1	Corrupted Zakarum Base 25	1																						0
-Corrupted Zakarum 26	120	62	-2	820	820	973	1024		Corrupted Zakarum Token 26	1	Corrupted Zakarum Base 26	1																						0
-Corrupted Zakarum 27	120	64	-2	820	820	973	1024		Corrupted Zakarum Token 27	1	Corrupted Zakarum Base 27	1																						0
-Corrupted Zakarum 28	120	66	-2	820	820	973	1024		Corrupted Zakarum Token 28	1	Corrupted Zakarum Base 28	1																						0
-Corrupted Zakarum 29	120	68	-2	820	820	973	1024		Corrupted Zakarum Token 29	1	Corrupted Zakarum Base 29	1																						0
-Corrupted Zakarum 30	120	70	-2	820	820	973	1024		Corrupted Zakarum Token 30	1	Corrupted Zakarum Base 30	1																						0
-Corrupted Zakarum 31	120	71	-2	820	820	973	1024		Corrupted Zakarum Token 31	1	Corrupted Zakarum Base 31	1																						0
-Corrupted Zakarum 32	120	73	-2	820	820	973	1024		Corrupted Zakarum Token 32	1	Corrupted Zakarum Base 32	1																						0
-Corrupted Zakarum 33	120	75	-2	820	820	973	1024		Corrupted Zakarum Token 33	1	Corrupted Zakarum Base 33	1																						0
-Corrupted Zakarum 34	120	76	-2	820	820	973	1024		Corrupted Zakarum Token 34	1	Corrupted Zakarum Base 34	1																						0
-Corrupted Zakarum 35	120	77	-2	820	820	973	1024		Corrupted Zakarum Token 35	1	Corrupted Zakarum Base 35	1																						0
-Corrupted Zakarum 36	120	78	-2	820	820	973	1024		Corrupted Zakarum Token 36	1	Corrupted Zakarum Base 36	1																						0
-Corrupted Zakarum 37	120	79	-2	820	820	973	1024		Corrupted Zakarum Token 37	1	Corrupted Zakarum Base 37	1																						0
-Corrupted Zakarum 38	120	80	-2	820	820	973	1024		Corrupted Zakarum Token 38	1	Corrupted Zakarum Base 38	1																						0
-Corrupted Zakarum 39	120	81	-2	820	820	973	1024		Corrupted Zakarum Token 39	1	Corrupted Zakarum Base 39	1																						0
-Corrupted Zakarum 40	120	83	-2	820	820	973	1024		Corrupted Zakarum Token 40	1	Corrupted Zakarum Base 40	1																						0
-Corrupted Zakarum 41	120	84	-2	820	820	973	1024		Corrupted Zakarum Token 41	1	Corrupted Zakarum Base 41	1																						0
-Corrupted Zakarum 42	120	85	-2	820	820	973	1024		Corrupted Zakarum Token 42	1	Corrupted Zakarum Base 42	1																						0
-Corrupted Zakarum 43	120	88	-2	820	820	973	1024		Corrupted Zakarum Token 43	1	Corrupted Zakarum Base 43	1																						0
-Corrupted Zakarum 44	120	92	-2	820	820	973	1024		Corrupted Zakarum Token 44	1	Corrupted Zakarum Base 44	1																						0
-Corrupted Zakarum 45	120	96	-2	820	820	973	1024		Corrupted Zakarum Token 45	1	Corrupted Zakarum Base 45	1																						0
+Corrupted Zakarum 1 Base			-2	820	820	973	1024		Corrupted Zakarum Token 1	1	Corrupted Zakarum Base 1	1																						0
+Corrupted Zakarum 2 Base			-2	820	820	973	1024		Corrupted Zakarum Token 2	1	Corrupted Zakarum Base 2	1																						0
+Corrupted Zakarum 3 Base			-2	820	820	973	1024		Corrupted Zakarum Token 3	1	Corrupted Zakarum Base 3	1																						0
+Corrupted Zakarum 4 Base			-2	820	820	973	1024		Corrupted Zakarum Token 4	1	Corrupted Zakarum Base 4	1																						0
+Corrupted Zakarum 5 Base			-2	820	820	973	1024		Corrupted Zakarum Token 5	1	Corrupted Zakarum Base 5	1																						0
+Corrupted Zakarum 6 Base			-2	820	820	973	1024		Corrupted Zakarum Token 6	1	Corrupted Zakarum Base 6	1																						0
+Corrupted Zakarum 7 Base			-2	820	820	973	1024		Corrupted Zakarum Token 7	1	Corrupted Zakarum Base 7	1																						0
+Corrupted Zakarum 8 Base			-2	820	820	973	1024		Corrupted Zakarum Token 8	1	Corrupted Zakarum Base 8	1																						0
+Corrupted Zakarum 9 Base			-2	820	820	973	1024		Corrupted Zakarum Token 9	1	Corrupted Zakarum Base 9	1																						0
+Corrupted Zakarum 10 Base			-2	820	820	973	1024		Corrupted Zakarum Token 10	1	Corrupted Zakarum Base 10	1																						0
+Corrupted Zakarum 11 Base			-2	820	820	973	1024		Corrupted Zakarum Token 11	1	Corrupted Zakarum Base 11	1																						0
+Corrupted Zakarum 12 Base			-2	820	820	973	1024		Corrupted Zakarum Token 12	1	Corrupted Zakarum Base 12	1																						0
+Corrupted Zakarum 13 Base			-2	820	820	973	1024		Corrupted Zakarum Token 13	1	Corrupted Zakarum Base 13	1																						0
+Corrupted Zakarum 14 Base			-2	820	820	973	1024		Corrupted Zakarum Token 14	1	Corrupted Zakarum Base 14	1																						0
+Corrupted Zakarum 15 Base			-2	820	820	973	1024		Corrupted Zakarum Token 15	1	Corrupted Zakarum Base 15	1																						0
+Corrupted Zakarum 16 Base			-2	820	820	973	1024		Corrupted Zakarum Token 16	1	Corrupted Zakarum Base 16	1																						0
+Corrupted Zakarum 17 Base			-2	820	820	973	1024		Corrupted Zakarum Token 17	1	Corrupted Zakarum Base 17	1																						0
+Corrupted Zakarum 18 Base			-2	820	820	973	1024		Corrupted Zakarum Token 18	1	Corrupted Zakarum Base 18	1																						0
+Corrupted Zakarum 19 Base			-2	820	820	973	1024		Corrupted Zakarum Token 19	1	Corrupted Zakarum Base 19	1																						0
+Corrupted Zakarum 20 Base			-2	820	820	973	1024		Corrupted Zakarum Token 20	1	Corrupted Zakarum Base 20	1																						0
+Corrupted Zakarum 21 Base			-2	820	820	973	1024		Corrupted Zakarum Token 21	1	Corrupted Zakarum Base 21	1																						0
+Corrupted Zakarum 22 Base			-2	820	820	973	1024		Corrupted Zakarum Token 22	1	Corrupted Zakarum Base 22	1																						0
+Corrupted Zakarum 23 Base			-2	820	820	973	1024		Corrupted Zakarum Token 23	1	Corrupted Zakarum Base 23	1																						0
+Corrupted Zakarum 24 Base			-2	820	820	973	1024		Corrupted Zakarum Token 24	1	Corrupted Zakarum Base 24	1																						0
+Corrupted Zakarum 25 Base			-2	820	820	973	1024		Corrupted Zakarum Token 25	1	Corrupted Zakarum Base 25	1																						0
+Corrupted Zakarum 26 Base			-2	820	820	973	1024		Corrupted Zakarum Token 26	1	Corrupted Zakarum Base 26	1																						0
+Corrupted Zakarum 27 Base			-2	820	820	973	1024		Corrupted Zakarum Token 27	1	Corrupted Zakarum Base 27	1																						0
+Corrupted Zakarum 28 Base			-2	820	820	973	1024		Corrupted Zakarum Token 28	1	Corrupted Zakarum Base 28	1																						0
+Corrupted Zakarum 29 Base			-2	820	820	973	1024		Corrupted Zakarum Token 29	1	Corrupted Zakarum Base 29	1																						0
+Corrupted Zakarum 30 Base			-2	820	820	973	1024		Corrupted Zakarum Token 30	1	Corrupted Zakarum Base 30	1																						0
+Corrupted Zakarum 31 Base			-2	820	820	973	1024		Corrupted Zakarum Token 31	1	Corrupted Zakarum Base 31	1																						0
+Corrupted Zakarum 32 Base			-2	820	820	973	1024		Corrupted Zakarum Token 32	1	Corrupted Zakarum Base 32	1																						0
+Corrupted Zakarum 33 Base			-2	820	820	973	1024		Corrupted Zakarum Token 33	1	Corrupted Zakarum Base 33	1																						0
+Corrupted Zakarum 34 Base			-2	820	820	973	1024		Corrupted Zakarum Token 34	1	Corrupted Zakarum Base 34	1																						0
+Corrupted Zakarum 35 Base			-2	820	820	973	1024		Corrupted Zakarum Token 35	1	Corrupted Zakarum Base 35	1																						0
+Corrupted Zakarum 36 Base			-2	820	820	973	1024		Corrupted Zakarum Token 36	1	Corrupted Zakarum Base 36	1																						0
+Corrupted Zakarum 37 Base			-2	820	820	973	1024		Corrupted Zakarum Token 37	1	Corrupted Zakarum Base 37	1																						0
+Corrupted Zakarum 38 Base			-2	820	820	973	1024		Corrupted Zakarum Token 38	1	Corrupted Zakarum Base 38	1																						0
+Corrupted Zakarum 39 Base			-2	820	820	973	1024		Corrupted Zakarum Token 39	1	Corrupted Zakarum Base 39	1																						0
+Corrupted Zakarum 40 Base			-2	820	820	973	1024		Corrupted Zakarum Token 40	1	Corrupted Zakarum Base 40	1																						0
+Corrupted Zakarum 41 Base			-2	820	820	973	1024		Corrupted Zakarum Token 41	1	Corrupted Zakarum Base 41	1																						0
+Corrupted Zakarum 42 Base			-2	820	820	973	1024		Corrupted Zakarum Token 42	1	Corrupted Zakarum Base 42	1																						0
+Corrupted Zakarum 43 Base			-2	820	820	973	1024		Corrupted Zakarum Token 43	1	Corrupted Zakarum Base 43	1																						0
+Corrupted Zakarum 44 Base			-2	820	820	973	1024		Corrupted Zakarum Token 44	1	Corrupted Zakarum Base 44	1																						0
+Corrupted Zakarum 45 Base			-2	820	820	973	1024		Corrupted Zakarum Token 45	1	Corrupted Zakarum Base 45	1																						0
+Corrupted Zakarum 1	120	0	1	820	820	973	1024		Corrupted Zakarum 1 Base	1																								0
+Corrupted Zakarum 2	120	5	1	820	820	973	1024		Corrupted Zakarum 2 Base	1																								0
+Corrupted Zakarum 3	120	9	1	820	820	973	1024		Corrupted Zakarum 3 Base	1																								0
+Corrupted Zakarum 4	120	12	1	820	820	973	1024		Corrupted Zakarum 4 Base	1																								0
+Corrupted Zakarum 5	120	15	1	820	820	973	1024		Corrupted Zakarum 5 Base	1																								0
+Corrupted Zakarum 6	120	18	1	820	820	973	1024		Corrupted Zakarum 6 Base	1																								0
+Corrupted Zakarum 7	120	20	1	820	820	973	1024		Corrupted Zakarum 7 Base	1																								0
+Corrupted Zakarum 8	120	22	1	820	820	973	1024		Corrupted Zakarum 8 Base	1																								0
+Corrupted Zakarum 9	120	24	1	820	820	973	1024		Corrupted Zakarum 9 Base	1																								0
+Corrupted Zakarum 10	120	26	1	820	820	973	1024		Corrupted Zakarum 10 Base	1																								0
+Corrupted Zakarum 11	120	29	1	820	820	973	1024		Corrupted Zakarum 11 Base	1																								0
+Corrupted Zakarum 12	120	32	1	820	820	973	1024		Corrupted Zakarum 12 Base	1																								0
+Corrupted Zakarum 13	120	34	1	820	820	973	1024		Corrupted Zakarum 13 Base	1																								0
+Corrupted Zakarum 14	120	36	1	820	820	973	1024		Corrupted Zakarum 14 Base	1																								0
+Corrupted Zakarum 15	120	38	1	820	820	973	1024		Corrupted Zakarum 15 Base	1																								0
+Corrupted Zakarum 16	120	40	1	820	820	973	1024		Corrupted Zakarum 16 Base	1																								0
+Corrupted Zakarum 17	120	42	1	820	820	973	1024		Corrupted Zakarum 17 Base	1																								0
+Corrupted Zakarum 18	120	44	1	820	820	973	1024		Corrupted Zakarum 18 Base	1																								0
+Corrupted Zakarum 19	120	46	1	820	820	973	1024		Corrupted Zakarum 19 Base	1																								0
+Corrupted Zakarum 20	120	48	1	820	820	973	1024		Corrupted Zakarum 20 Base	1																								0
+Corrupted Zakarum 21	120	50	1	820	820	973	1024		Corrupted Zakarum 21 Base	1																								0
+Corrupted Zakarum 22	120	52	1	820	820	973	1024		Corrupted Zakarum 22 Base	1																								0
+Corrupted Zakarum 23	120	54	1	820	820	973	1024		Corrupted Zakarum 23 Base	1																								0
+Corrupted Zakarum 24	120	56	1	820	820	973	1024		Corrupted Zakarum 24 Base	1																								0
+Corrupted Zakarum 25	120	58	1	820	820	973	1024		Corrupted Zakarum 25 Base	1																								0
+Corrupted Zakarum 26	120	62	1	820	820	973	1024		Corrupted Zakarum 26 Base	1																								0
+Corrupted Zakarum 27	120	64	1	820	820	973	1024		Corrupted Zakarum 27 Base	1																								0
+Corrupted Zakarum 28	120	66	1	820	820	973	1024		Corrupted Zakarum 28 Base	1																								0
+Corrupted Zakarum 29	120	68	1	820	820	973	1024		Corrupted Zakarum 29 Base	1																								0
+Corrupted Zakarum 30	120	70	1	820	820	973	1024		Corrupted Zakarum 30 Base	1																								0
+Corrupted Zakarum 31	120	71	1	820	820	973	1024		Corrupted Zakarum 31 Base	1																								0
+Corrupted Zakarum 32	120	73	1	820	820	973	1024		Corrupted Zakarum 32 Base	1																								0
+Corrupted Zakarum 33	120	75	1	820	820	973	1024		Corrupted Zakarum 33 Base	1																								0
+Corrupted Zakarum 34	120	76	1	820	820	973	1024		Corrupted Zakarum 34 Base	1																								0
+Corrupted Zakarum 35	120	77	1	820	820	973	1024		Corrupted Zakarum 35 Base	1																								0
+Corrupted Zakarum 36	120	78	1	820	820	973	1024		Corrupted Zakarum 36 Base	1																								0
+Corrupted Zakarum 37	120	79	1	820	820	973	1024		Corrupted Zakarum 37 Base	1																								0
+Corrupted Zakarum 38	120	80	1	820	820	973	1024		Corrupted Zakarum 38 Base	1																								0
+Corrupted Zakarum 39	120	81	1	820	820	973	1024		Corrupted Zakarum 39 Base	1																								0
+Corrupted Zakarum 40	120	83	1	820	820	973	1024		Corrupted Zakarum 40 Base	1																								0
+Corrupted Zakarum 41	120	84	1	820	820	973	1024		Corrupted Zakarum 41 Base	1																								0
+Corrupted Zakarum 42	120	85	1	820	820	973	1024		Corrupted Zakarum 42 Base	1																								0
+Corrupted Zakarum 43	120	88	1	820	820	973	1024		Corrupted Zakarum 43 Base	1																								0
+Corrupted Zakarum 44	120	92	1	820	820	973	1024		Corrupted Zakarum 44 Base	1																								0
+Corrupted Zakarum 45	120	96	1	820	820	973	1024		Corrupted Zakarum 45 Base	1																								0
 Gem Explosion			10						Perfect Gem	1	Blemished Gem	3	Flawless Gem	5																				0
 Gold Explosion			15						"gld,mul=1024"	1																								0
 Jackpot Explosion			1						Coupon JP (H)	1	Rune JP (H)	1	Charm JP	1																				0
