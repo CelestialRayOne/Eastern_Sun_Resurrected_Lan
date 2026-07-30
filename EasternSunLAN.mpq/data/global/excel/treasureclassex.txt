@@ -55,7 +55,7 @@ Flawed Gem			1						gfv	1	gfy	1	gfb	1	gfg	1	gfr	1	gfw	1	skf	1	gfk	1										0
 Normal Gem			1						gsv	1	gsy	1	gsb	1	gsg	1	gsr	1	gsw	1	sku	1	gsk	1										0
 Flawless Gem			1						gzv	1	gly	1	glb	1	glg	1	glr	1	glw	1	skl	1	gzk	1										0
 Blemished Gem			1						gpv	1	gpy	1	gpb	1	gpg	1	gpr	1	gpw	1	skz	1	gpk	1										0
-Perfect Gem			1						gvb	1	gyb	1	gbb	1	ggb	1	grb	1	gwb	1	skb	1	gpk	1										0
+Perfect Gem			1						gvb	1	gyb	1	gbb	1	ggb	1	grb	1	gwb	1	skb	1	gbk	1										0
 Unique Ore Crystals 0			2						xl0	6	xr1	5	xr2	5	xr3	5																		0
 Unique Ore Crystals 1			2						xl1	6	xr2	5	xr3	5	xr4	5																		0
 Unique Ore Crystals 2			2						xl2	6	xr3	5	xr4	5	xr5	5																		0

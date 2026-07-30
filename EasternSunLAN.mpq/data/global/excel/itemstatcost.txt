@@ -400,7 +400,7 @@ lifepactactive	397		1	4																																															0
 generictotalmultiplier	398		1	10																8	100																293	19		totalspelldamage	totalspelldamage										0
 weaponmastery	399		1	8																8	0																301	3		weaponmastery	weaponmastery										0
 total_magic_resist	400		1	8											250	300				8	100			11			magicresist																								0
-gemexplosioncontrol	401		1	2																																															0
+placeholder401	401		1	2																																															0
 skillcontrol5	402		1	14																																															0
 goldexplosioncontrol	403		1	2																																															0
 item_skillonattack_hidden	404		1	10	20						1			2				21	0	8	0	18										1	domeleeattack	20	domissileattack	20															0
@@ -412,7 +412,7 @@ totalattackspeed	409		1	10																8	100			11			item_fasterattackrate				
 playermode	410		1	10																																															0
 skillcontrol6	411		1	10																																															0
 skillcontrolhelm	412		1	24																																															0
-potionmultiplier	413		1	10																8	100																292	19	2	potioneffectiveness	potioneffectiveness										0
+potionmultiplier	413		1	10																8	100																292	19		potioneffectiveness	potioneffectiveness										0
 skillcontrolbodyarmor	414		1	10																																															0
 item_skillongethit_hidden	415		1	10	20						1			2																			damagedinmelee	21	damagedbymissile	21															0
 skillcontrolshield	416		1	10																																															0

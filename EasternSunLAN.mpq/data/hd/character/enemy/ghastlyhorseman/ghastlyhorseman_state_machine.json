@@ -137,6 +137,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 0,
+            "enableVfxAttributes": false,
             "modeId": 0,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -146,7 +147,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -155,6 +157,7 @@
             "audioId": "",
             "loopCount": 0,
             "stateId": 1,
+            "enableVfxAttributes": false,
             "modeId": 1,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -164,7 +167,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -173,6 +177,7 @@
             "audioId": "",
             "loopCount": 0,
             "stateId": 2,
+            "enableVfxAttributes": false,
             "modeId": 2,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -182,7 +187,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -191,6 +197,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 3,
+            "enableVfxAttributes": false,
             "modeId": 3,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -200,7 +207,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -209,6 +217,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 4,
+            "enableVfxAttributes": false,
             "modeId": 4,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -218,7 +227,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -227,6 +237,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 5,
+            "enableVfxAttributes": false,
             "modeId": 5,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -236,7 +247,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -245,6 +257,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 6,
+            "enableVfxAttributes": false,
             "modeId": 6,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -254,7 +267,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -263,6 +277,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 7,
+            "enableVfxAttributes": false,
             "modeId": 7,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -272,7 +287,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -281,8 +297,9 @@
             "audioId": "",
             "loopCount": 0,
             "stateId": 8,
+            "enableVfxAttributes": false,
             "modeId": 14,
-            "skillIndex": 107,
+            "skillIndex": 536,
             "stepIndex": 0,
             "animationBindings": {
                 "hth": [
@@ -290,7 +307,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -299,6 +317,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 9,
+            "enableVfxAttributes": false,
             "modeId": 14,
             "skillIndex": 574,
             "stepIndex": 0,
@@ -308,7 +327,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -317,6 +337,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 10,
+            "enableVfxAttributes": false,
             "modeId": 14,
             "skillIndex": 97,
             "stepIndex": 0,
@@ -326,7 +347,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -335,6 +357,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 11,
+            "enableVfxAttributes": false,
             "modeId": 14,
             "skillIndex": 365,
             "stepIndex": 0,
@@ -344,7 +367,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -353,6 +377,7 @@
             "audioId": "",
             "loopCount": 0,
             "stateId": 12,
+            "enableVfxAttributes": false,
             "modeId": 12,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -362,7 +387,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -371,6 +397,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 13,
+            "enableVfxAttributes": false,
             "modeId": 13,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -380,7 +407,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -389,6 +417,7 @@
             "audioId": "",
             "loopCount": 0,
             "stateId": 14,
+            "enableVfxAttributes": false,
             "modeId": 15,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -398,7 +427,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -407,6 +437,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 15,
+            "enableVfxAttributes": false,
             "modeId": 100,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -416,7 +447,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -425,6 +457,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 16,
+            "enableVfxAttributes": false,
             "modeId": 100,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -434,7 +467,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         },
         {
             "type": "AnimationState",
@@ -443,6 +477,7 @@
             "audioId": "",
             "loopCount": 1,
             "stateId": 17,
+            "enableVfxAttributes": false,
             "modeId": 100,
             "skillIndex": -1,
             "stepIndex": 0,
@@ -452,43 +487,8 @@
                 ]
             },
             "enterEvents": [],
-            "exitEvents": []
-        },
-        {
-            "type": "AnimationState",
-            "name": "AnimationState003",
-            "_name": "Skill_Zeal_FirstAttack",
-            "audioId": "",
-            "loopCount": 1,
-            "stateId": 18,
-            "modeId": 14,
-            "skillIndex": 495,
-            "stepIndex": 0,
-            "animationBindings": {
-                "hth": [
-                    "attack1"
-                ]
-            },
-            "enterEvents": [],
-            "exitEvents": []
-        },
-        {
-            "type": "AnimationState",
-            "name": "AnimationState004",
-            "_name": "Skill_Zeal_FollowUpAttack",
-            "audioId": "",
-            "loopCount": 1,
-            "stateId": 19,
-            "modeId": 14,
-            "skillIndex": 495,
-            "stepIndex": 1,
-            "animationBindings": {
-                "hth": [
-                    "attack1"
-                ]
-            },
-            "enterEvents": [],
-            "exitEvents": []
+            "exitEvents": [],
+            "exitBlendType": 0
         }
     ],
     "transitions": [

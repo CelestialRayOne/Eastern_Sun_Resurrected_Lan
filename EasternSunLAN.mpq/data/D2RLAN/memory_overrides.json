@@ -2574,6 +2574,45 @@
             "OriginalValues": "40555741544156488D6C24C14881ECD8000000488B05BEB548014833C44889450733FF44894DA7448945AB4C8BE2488955BF4C8BF148894DC74585C0781C4963",
             "ModdedValues": "488B41104885C07434488B40304885C0742B837864007525488B48584885C9741C448B406031D2534889E34883E4F04883EC20E8E89DF5FF4889DC5BC331C0C3",
             "Values": "488B41104885C07434488B40304885C0742B837864007525488B48584885C9741C448B406031D2534889E34883E4F04883EC20E8E89DF5FF4889DC5BC331C0C3"
+        },
+        {
+            "Name": "Passivestats apply on zero-mana units (hirelings)",
+            "Description": "In srvdofunc 65 (sub_1403842B0) the two stat blocks use inconsistent mana comparisons. The aurastat block at 140384404 gates on '!unit || unitType != 0 || mana >= cost', so it runs for any non-player unconditionally. The passivestat block at 140384502 gates on 'mana > cost' STRICTLY (cmp r14d,r12d / jle 1403845D7, where r14d is current mana and r12d is the mana cost). A zero-cost aura on a zero-mana unit therefore passes the first block and fails the second, which is why aurastat values apply to a hireling but passivestat values never do, while both work on a player who has mana. This changes jle to jl so the passivestat gate becomes 'mana >= cost', matching the aurastat block. The rel32 displacement 0xCF is unchanged so the failure target remains 1403845D7. No cave required.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "384502"
+            ],
+            "Length": 6,
+            "Type": "Hex",
+            "OriginalValues": "0F8ECF000000",
+            "ModdedValues": "0F8CCF000000",
+            "Values": "0F8CCF000000"
+        },
+        {
+            "Name": "Monprop aura event uses skill id instead of 0 - Hook",
+            "Description": "Supersedes the earlier 299B92 hook. In sub_1402999E0 (AiFunction10, the item-aura driver for monsters) the event delete loops treat a custom id of 0 as a wildcard that removes EVERY type-9 event on the unit. An item-granted aura's event carries the equipping item's GUID, but a monprop-granted aura has none, so its id is 0 and its tick wipes the hireling's item-aura events. Hooking after the delete loop (the previous attempt) left the very first tick still sweeping, which is why item auras were dead on entering a game but worked after a resurrect or a re-equip - those recreate the event after the sweep. This hook is placed BEFORE the loop, stealing 'mov rdx,[rdi+140h]' at 299B5B (7 bytes, the event-list head load) and jumping to the cave at 36AC60, which replays it and sets ebx (the custom id) to r14d. r14d is the skill id, confirmed by its use as the skill-id parameter of sub_140299390 at 299B48. The engine already uses the skill id as the custom id for EVENTTYPE_PERIODICSKILLS events in sub_140299430, so this is consistent with its own convention. With the id non-zero from the first tick the wildcard never triggers and no other aura's event is ever removed.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "299B5B"
+            ],
+            "Length": 7,
+            "Type": "Hex",
+            "OriginalValues": "488B9740010000",
+            "ModdedValues": "E900110D009090",
+            "Values": "E900110D009090"
+        },
+        {
+            "Name": "Monprop aura event uses skill id instead of 0 - Cave",
+            "Description": "Cave at 36AC60 in the stomped srvdofunc=58 body sub_14036ABA0. Occupies 36AC60-36AC6E (15 bytes); free to 36B243. Replays the stolen 'mov rdx,[rdi+140h]', sets ebx = r14d so both the delete loop and the subsequent re-arm use the skill id as the event custom id instead of 0, then returns to 299B62. Verified by keystone plus capstone: the return jmp resolves to 299B62.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "36AC60"
+            ],
+            "Length": 15,
+            "Type": "Hex",
+            "OriginalValues": "00004889B424C8000000498BD44C89",
+            "ModdedValues": "488B97400100004489F3E9F3EEF2FF",
+            "Values": "488B97400100004489F3E9F3EEF2FF"
         }
     ]
 }

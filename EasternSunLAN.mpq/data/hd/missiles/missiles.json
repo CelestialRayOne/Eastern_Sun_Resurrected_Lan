@@ -833,6 +833,7 @@
     "obliteratevisual": "b_a_yell_shock_wave_01",
     "berserkmagicbolt": "expansion_shockwave",
     "cataclysmrockvis": "b_a_yell_shock_wave_01",
+    "cataclysmmonrocknovavisbolt": "expansion_shockwave",
     "wildfire": "flamethrower",
     "flameburstspawner": "ground_fire_big",
     "flameburstfire": "ground_fire_big",
@@ -1924,5 +1925,8 @@
     "wordofgodsinglefurythree": "arcane_rune_3",
     "wordofgodsinglespawnerfour": "arcane_rune_3",
     "wordofgodaoebolt": "expansion_shockwave",
-    "moonstormarrowsbolt": "safe_arrow"
+    "moonstormarrowsbolt": "safe_arrow",
+    "vilemotheregg": "cocoon",
+    "vilemothereggbolt": "slug_missile",
+    "cataclysmmonfallingvis": "ceiling_chunk_fall_01"
 }

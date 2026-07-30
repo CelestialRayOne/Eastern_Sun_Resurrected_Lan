@@ -7131,6 +7131,59 @@
             "enterEvents": [],
             "exitEvents": [],
             "exitBlendType": 0
+        },
+        {
+            "type": "AnimationState",
+            "name": "PMODE_SEQUENCE_WHIRLWIND",
+            "_name": "SKILL_WHIRLWIND",
+            "audioId": "",
+            "loopCount": 0,
+            "stateId": 96,
+            "modeId": 18,
+            "skillIndex": 1432,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "hth_whirlwind"
+                ],
+                "bow": [
+                    "stf_whirlwind"
+                ],
+                "1hs": [
+                    "1hs_whirlwind"
+                ],
+                "1ht": [
+                    "1ht_whirlwind"
+                ],
+                "stf": [
+                    "stf_whirlwind"
+                ],
+                "2hs": [
+                    "2hs_whirlwind"
+                ],
+                "2ht": [
+                    "2ht_whirlwind"
+                ],
+                "xbw": [
+                    "stf_whirlwind"
+                ],
+                "1js": [
+                    "1js_whirlwind"
+                ],
+                "1jt": [
+                    "1jt_whirlwind"
+                ],
+                "1ss": [
+                    "1ss_whirlwind"
+                ],
+                "1st": [
+                    "1st_whirlwind"
+                ],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
         }
     ],
     "transitions": [
