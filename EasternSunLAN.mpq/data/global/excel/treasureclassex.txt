@@ -3467,10 +3467,10 @@ Treasure Goblin Base			15	820	820	973	1024	500	"gld,mul=4096"	30	Unique Charm 2	
 Treasure Goblin (Champ) Base			20	820	820	973	1024	250	"gld,mul=2048"	15	Unique Charm 2	8	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Treasure Goblin (Unique) Base			25	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	12	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
 Treasure Goblin Vault Base			15	820	820	973	1024	250	"gld,mul=4096"	15	Unique Charm 2	3	EGM Equip 17	120	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	40	Endgame Map Tier 2	3												0
-Treasure Goblin			1	820	820	973	1024		Treasure Goblin	1																								0
-Treasure Goblin (Champ)			1	820	820	973	1024		Treasure Goblin (Champ)	1																								0
-Treasure Goblin (Unique)			1	820	820	973	1024		Treasure Goblin (Unique)	1																								0
-Treasure Goblin Vault			1	820	820	973	1024		Treasure Goblin Vault	1																								0
+Treasure Goblin			1	820	820	973	1024		Treasure Goblin Base	1																								0
+Treasure Goblin (Champ)			1	820	820	973	1024		Treasure Goblin (Champ) Base	1																								0
+Treasure Goblin (Unique)			1	820	820	973	1024		Treasure Goblin (Unique) Base	1																								0
+Treasure Goblin Vault			1	820	820	973	1024		Treasure Goblin Vault Base	1																								0
 Ascendancy Class			6						Act 5 Uber	1																								0
 Ascendancy Class (N)			6						Act 5 (N) Uber	1																								0
 Ascendancy Class (H)			6						Act 5 (H) Uber	1																								0
