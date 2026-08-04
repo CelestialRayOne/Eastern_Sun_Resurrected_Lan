@@ -2613,6 +2613,88 @@
             "OriginalValues": "00004889B424C8000000498BD44C89",
             "ModdedValues": "488B97400100004489F3E9F3EEF2FF",
             "Values": "488B97400100004489F3E9F3EEF2FF"
+        },
+        {
+            "Name": "Skill attack rating on missiles - Hook",
+            "Description": "Vanilla bug (documented at the Phrozen Keep): skills.txt ToHit/LevToHit/ToHitCalc never reaches missile attacks. For players that column is an ATTACK RATING PERCENT, verified at 329A28 (add ebx,edi folds the incoming skill ToHit into the same bucket as tohit_percent and per-montype AR%). The melee resolver sub_140329E80 evaluates the skill record and passes it, but the missile hit check at 3D6A54 reads the MISSILE's own tohit stat (19) instead, and MISSILES_CreateMissileFromParams (sub_1403151A0) only writes that stat when the caller sets param flag 0x1000 with the AR in param+0x58. Only sub_140295AD0 does; sub_140295F20 never does, and the ~100 skill functions that build their own params and call the constructor directly (e.g. srvdofunc=11 sub_140370080 at 3702DA) never do either. Measured on Berserk (srvst 39 / srvdo 11): melee swing bonus=315 AR=10309 (50% vs Skeleton), its srvmissilea hits bonus=0 AR=6325 (8%). Hook steals the param flag test + its branch at 315B5D (test dword [r14],1000h ; je 140315BFF, 13B) and jumps to the cave at 36AC70. r14=param struct, rsi=new missile - same register roles the 315B3E elemental-mastery hook already relies on.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "315B5D"
+            ],
+            "Length": 13,
+            "Type": "Hex",
+            "OriginalValues": "41F706001000000F8495000000",
+            "ModdedValues": "E90E5105009090909090909090",
+            "Values": "E90E5105009090909090909090"
+        },
+        {
+            "Name": "Skill attack rating on missiles - Cave",
+            "Description": "Cave at 36AC70 in the stomped srvdofunc=58 body sub_14036ABA0 (36ABA0-36B243, 1700B; only reachable via the srvdofunc table - both IDA code xrefs at 355F06/355F79 are 'call r10' dispatches). Occupies 36AC70-36ACE7 (120 bytes); free to 36B242. Supplies the attack rating the caller left blank, then lets the stock code stamp it. Skips entirely if param flag 0x1000 is already set (missiles from sub_140295AD0 untouched, no double-apply) and rejoins at 315B6A. Otherwise: owner = [r14+8], players only (unit type 0 - monsters take skill ToHit as a FLAT number); skill level = [r14+64] must be > 0; skillId = [r14+60] bounds-checked unsigned against the skill count qword at 141C9FAD8. NOTE the skill id lives at params+60 (a2[15]), NOT +52 - verified by disassembly (370290 mov [rbp-0x1d],r13d) and by sub_1403151A0 copying a2[15] to missileData+12 (nSkill) and a2[16] to missileData+14 (nSkillLevel); a v1 of this cave used +52 and read 0 on every missile. Record = skillbase qword at 141C9FAD0 + 644*id. If ToHitCalc (rec+480) == -1 use ToHit (rec+472) + LevToHit (rec+476)*(lvl-1), else call sub_140218750(rcx=pUnit, rdx=calcIdx, r8d=skillId, r9d=lvl). Non-zero result goes to param+0x58 and execution rejoins at 315B6A where the stock code calls SetStat(missile, 19). All bails jump to 315BFF, the original je target. Volatiles are dead at the hook (a call returned at 315B58) and the host's shadow space is live, so the call is safe. keystone+capstone verified: RIP operands resolve to 141C9FAD8 and 141C9FAD0, call to 140218750, exits to 140315B6A and 140315BFF.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "36AC70"
+            ],
+            "Length": 120,
+            "Type": "Hex",
+            "OriginalValues": "24C0000000498BCE4C89BC24B8000000E87BABFFFF4C8BC3498BCEE8A0F9FFFF41BF010000004138BE01010000750B8BF74139BE0C0100007403418BF70F57C033C00F1145CF488945FF0F1145DF0F1145EF488B8B880000004885C9742448833DAA4E93010C761A4C8B05994E93014981C0300F0000740A",
+            "ModdedValues": "41F706001000007565498B4E084885C97461833900755C458B4E404585C97E534963563C483B153D4E930173464189D04869D284020000480315224E93018B82E001000083F8FF75168B82DC010000458D51FF410FAFC20382D8010000EB0789C2E87ADAEAFF85C0740941894658E987AEFAFFE917AFFAFF",
+            "Values": "41F706001000007565498B4E084885C97461833900755C458B4E404585C97E534963563C483B153D4E930173464189D04869D284020000480315224E93018B82E001000083F8FF75168B82DC010000458D51FF410FAFC20382D8010000EB0789C2E87ADAEAFF85C0740941894658E987AEFAFFE917AFFAFF"
+        },
+        {
+            "Name": "Aura left-slot bootstrap on game entry - Hook",
+            "Description": "sub_14031CAF0 is the entry-time skill-selection restore and it is asymmetric: the RIGHT slot goes through sub_14029A2A0 at 31CF10 (which reaches the 29A3C9 aura bootstrap), but the LEFT slot is restored by a raw call sub_140219690 at 31CE7A that never touches SetSkill. So a left-slotted aura is selected on entry but never armed, which is why the player has to reassign it by hand. Confirmed with a live trace filtered to skill 554: entry with the aura on left produced 'SELECT from=31CE7F' with no bootstrap, entry with it on right produced 'SETSKILL slot=RIGHT from=31CF15' followed immediately by BOOT_C80 and state49=LIVE. Retargets the E8 rel32 to the cave at 36AD00. Register context at the call: rdi=unit, r14d=skillId, ebx=guid, all non-volatile.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "31CE7A"
+            ],
+            "Length": 5,
+            "Type": "Hex",
+            "OriginalValues": "E811C8EFFF",
+            "ModdedValues": "E881DE0400",
+            "Values": "E881DE0400"
+        },
+        {
+            "Name": "Aura left-slot bootstrap on game entry - Cave",
+            "Description": "Cave at 36AD00 in the stomped srvdofunc=58 body sub_14036ABA0 (free tail 36ACE8-36B242). Occupies 36AD00-36AD6D (110 bytes). Entry by CALL from 31CE7A with rdi=unit, r14d=skillId, ebx=guid; returns to 31CE7F. Replays sub_140219690(rcx=rdi, edx=r14d, r8d=ebx), then bails unless [rdi]==0 (players only), the skill-association at [rdi+0x100] exists, the left node [+8] exists, its record [node] exists, and the record is an aura (byte[rec+0x24]&0x20). If all hold, runs the identical bootstrap tail the 363148 cave uses: sub_140299C80(rcx=[rdi+0xD8], rdx=rdi, r8d=r14d) then sub_140299430(pGame, rdi, r14d, r9d=0, [rsp+0x20]=0). sub rsp,0x28 provides the 32-byte shadow area plus the 5th stack argument and keeps rsp 16-byte aligned at both calls. Only volatile registers touched (rax,rcx,rdx,r8,r9). Non-aura left skills fall straight through to the plain select, so behaviour is unchanged for them. keystone+capstone verified: rel32s resolve to 140219690, 140299C80 and 140299430.",
+            "Category": "Bugfix",
+            "Addresses": [
+                "36AD00"
+            ],
+            "Length": 110,
+            "Type": "Hex",
+            "OriginalValues": "4C2428448BC88B4B048BD644897C2420E89BA9ECFF8B75D32B75CF448D46014585C07F048BF7EB2F8B43284869C8C590C66A8B432C4803C8488BC1894B2848C1E82089432C4185F0740B33D28BC141F7F08BF2EB0223F18B45CF4C8BBB88000000C1E008C1E60803F04D85FF742C",
+            "ModdedValues": "4883EC284189D84489F24889F9E87EE9EAFF833F007552488B87000100004885C07446488B40084885C0743D488B004885C07435F6402420742F488B8FD80000004889FA4589F0E834EFF2FF488B8FD80000004889FA4589F04531C9C744242000000000E8C7E6F2FF4883C428C3",
+            "Values": "4883EC284189D84489F24889F9E87EE9EAFF833F007552488B87000100004885C07446488B40084885C0743D488B004885C07435F6402420742F488B8FD80000004889FA4589F0E834EFF2FF488B8FD80000004889FA4589F04531C9C744242000000000E8C7E6F2FF4883C428C3"
+        },
+        {
+            "Name": "Holy Freeze damage on unslowable targets - shatter gate hook",
+            "Description": "sub_140388650 @38886F: replaces test rdi,rdi (3B) + jz 140388A1C (6B) with jmp cave 36AD70 + 4 NOP. Cave replays the null check and skips the 20%% state-107 shatter roll for monsters with ColdEffect>=0, preserving the invariant that unchillable monsters never receive shatter state. External jumpers 388777/388857 land on the hook start. NOPs end exactly on 388878. v3: cave relocated to the srvdo58 free tail per the 2026-08-04 json gap map.",
+            "Address": "38886F",
+            "Type": "Hex",
+            "Length": 9,
+            "OriginalValues": "4885FF0F84A4010000",
+            "ModdedValues": "E9FC24FEFF90909090",
+            "Values": "E9FC24FEFF90909090"
+        },
+        {
+            "Name": "Holy Freeze damage on unslowable targets - shatter gate cave",
+            "Description": "Cave in the srvdo58 stomped body free tail (36AD70-36ADBA), placed from the 2026-08-04 memory_overrides.json gap map: after the left-aura bootstrap cave ending 36AD6D, ~1160B remain free to 36B242. test rdi,rdi / je 36ADB6(->assert 388A1C) / cmp dword[rdi],1 / jne 36ADB1(->shatter 388878) / movsxd rax,[rdi+4] / test eax,eax / js skip / cmp rax,[rip->141C9F880 monstats count] / jae skip / imul rcx,rax,1DCh / add rcx,[rip->141C9F878 monstats base] / je skip / movzx eax,byte[rsi+104h] (pGame difficulty) / cmp byte[rax+rcx+19Ch],0 (ColdEffect signed) / jl 36ADB1 / skip@36ADAC: jmp 1403889F0 (mov eax,1 -> epilogue, no shatter) / 36ADB1: jmp 140388878 (original LCG shatter) / 36ADB6: jmp 140388A1C (assert). keystone-assembled at 14036AD70, capstone decode-back: all branches on verified boundaries, RIP loads resolve to 141C9F880/141C9F878.",
+            "Address": "36AD70",
+            "Type": "Hex",
+            "Length": 75,
+            "OriginalValues": "3D0A4E93010776224C8B05F94D93014981C0DC0800007412BA00000700498BCFE8DB80E7FF448BF0EB03448BF74533C9448BC6498BCF418D5107E8C1A4E7FF85C07442393B753E488B8B88",
+            "ModdedValues": "4885FF7441833F0175374863470485C0782A483B05F74A930173214869C8DC01000048030DDF4A930174110FB6860401000080BC089C010000007C05E93FDC0100E9C2DA0100E961DC0100",
+            "Values": "4885FF7441833F0175374863470485C0782A483B05F74A930173214869C8DC01000048030DDF4A930174110FB6860401000080BC089C010000007C05E93FDC0100E9C2DA0100E961DC0100"
+        },
+        {
+            "Name": "Holy Freeze damage on unslowable targets - gate retarget",
+            "Description": "sub_140388650 (srvdofunc 81 per-target callback): the ColdEffect>=0 fail path at 3886CB (xor eax,eax / jmp 1403889F5 = return 0, 7 bytes) becomes jmp 140388770 (the damage block) + 2 NOP. The jl at 3886C9 is untouched, so ColdEffect<0 targets keep the full original path (state+slow+damage+shatter). ColdEffect>=0 monsters now run only the damage block: copy pDamage, sub_140384840, master resolver sub_140326F80, sub_1403285C0 — no aura target state, no slow, and the shatter roll stays suppressed via the 38886F hook + 36AD70 cave. The classid-bounds/null defensive bails also land here and route to damage harmlessly.",
+            "Address": "3886CB",
+            "Type": "Hex",
+            "Length": 7,
+            "OriginalValues": "33C0E923030000",
+            "ModdedValues": "E9A00000009090",
+            "Values": "E9A00000009090"
         }
     ]
 }
