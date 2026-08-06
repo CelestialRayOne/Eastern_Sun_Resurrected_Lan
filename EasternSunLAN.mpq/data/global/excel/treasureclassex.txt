@@ -3259,11 +3259,11 @@ Infested Lair Bias (Champ) Desecrated 2	95	102	2					0	Worldstone Shards	1	Infes
 Infested Lair Bias (Champ) Desecrated 3	95	104	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 3	1																						0
 Infested Lair Bias (Champ) Desecrated 4	95	106	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 4	1																						0
 Infested Lair Bias (Champ) Desecrated 5	95	108	2					0	Worldstone Shards	1	Infested Lair Bias (Champ) 5	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 1	96	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 1	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 2	96	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 2	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 3	96	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 3	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 4	96	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 4	1																						0
-Labyrinth Of Suffering Bias (Champ) Desecrated 5	96	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 5	1																						0
+Labyrinth Of Suffering Bias (Champ) Des 1	96	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 1	1																						0
+Labyrinth Of Suffering Bias (Champ) Des 2	96	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 2	1																						0
+Labyrinth Of Suffering Bias (Champ) Des 3	96	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 3	1																						0
+Labyrinth Of Suffering Bias (Champ) Des 4	96	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 4	1																						0
+Labyrinth Of Suffering Bias (Champ) Des 5	96	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Champ) 5	1																						0
 Endless Abyss Bias (Champ) Desecrated 1	97	100	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 1	1																						0
 Endless Abyss Bias (Champ) Desecrated 2	97	102	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 2	1																						0
 Endless Abyss Bias (Champ) Desecrated 3	97	104	2					0	Worldstone Shards	1	Endless Abyss Bias (Champ) 3	1																						0
@@ -3339,11 +3339,11 @@ Infested Lair Bias (Unique) Desecrated 2	110	102	2					0	Worldstone Shards	1	Inf
 Infested Lair Bias (Unique) Desecrated 3	110	104	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 3	1																						0
 Infested Lair Bias (Unique) Desecrated 4	110	106	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 4	1																						0
 Infested Lair Bias (Unique) Desecrated 5	110	108	2					0	Worldstone Shards	1	Infested Lair Bias (Unique) 5	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 1	111	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 1	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 2	111	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 2	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 3	111	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 3	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 4	111	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 4	1																						0
-Labyrinth Of Suffering Bias (Unique) Desecrated 5	111	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 5	1																						0
+Labyrinth Of Suffering Bias (Unique) Des 1	111	100	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 1	1																						0
+Labyrinth Of Suffering Bias (Unique) Des 2	111	102	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 2	1																						0
+Labyrinth Of Suffering Bias (Unique) Des 3	111	104	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 3	1																						0
+Labyrinth Of Suffering Bias (Unique) Des 4	111	106	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 4	1																						0
+Labyrinth Of Suffering Bias (Unique) Des 5	111	108	2					0	Worldstone Shards	1	Labyrinth Of Suffering Bias (Unique) 5	1																						0
 Endless Abyss Bias (Unique) Desecrated 1	111	100	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 1	1																						0
 Endless Abyss Bias (Unique) Desecrated 2	111	102	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 2	1																						0
 Endless Abyss Bias (Unique) Desecrated 3	111	104	2					0	Worldstone Shards	1	Endless Abyss Bias (Unique) 3	1																						0
@@ -3379,11 +3379,11 @@ Reliquary of Souls Bias (Unique) Desecrated 2	117	102	2					0	Worldstone Shards	
 Reliquary of Souls Bias (Unique) Desecrated 3	117	104	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 3	1																						0
 Reliquary of Souls Bias (Unique) Desecrated 4	117	106	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 4	1																						0
 Reliquary of Souls Bias (Unique) Desecrated 5	117	108	2					0	Worldstone Shards	1	Reliquary of Souls Bias (Unique) 5	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 1	118	100	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 1	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 2	118	102	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 2	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 3	118	104	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 3	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 4	118	106	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 4	1																						0
-Shrine of Destruction Bias (Unique) Desecrated 5	118	108	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 5	1																						0
+Shrine of Destruction Bias (Unique) Des 1	118	100	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 1	1																						0
+Shrine of Destruction Bias (Unique) Des 2	118	102	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 2	1																						0
+Shrine of Destruction Bias (Unique) Des 3	118	104	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 3	1																						0
+Shrine of Destruction Bias (Unique) Des 4	118	106	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 4	1																						0
+Shrine of Destruction Bias (Unique) Des 5	118	108	2					0	Worldstone Shards	1	Shrine of Destruction Bias (Unique) 5	1																						0
 Endgame Map Tier 1 Boss Bias			1					8	Endgame Map Tier 2 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 2 Boss Bias			1					8	Endgame Map Tier 3 No Downgrade	4	Nothing	4																						0
 Endgame Map Tier 3 Boss Bias			1					8	Endgame Map Tier 4 No Downgrade	4	Nothing	4																						0
@@ -3485,8 +3485,8 @@ Uldyssian Hound Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Uldyssia
 Inarius Stalker Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Inarius Stalker Ascendancy (H)	1																						0
 Malthael Imp Ascendancy (H) Desecrated			-2						Worldstone Shards	1	Malthael Imp Ascendancy (H)	1																						0
 Gold Only Rat			1					3	"gld,mul=96"	1	Nothing	2																						0
-Uber Organ Boss Base			15					100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
-Uber Tristram Base			20					100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Uber Organ Boss Base			15	820	820	973	1024	100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
+Uber Tristram Base			20	820	820	973	1024	100	"gld,mul=1024"	15	Unique Charm 2	4	EGM Equip 17	180	Endgame Map Valuable	30	Goblin Boss Craft	15	EGM Myth	10	Endgame Map Tier 2	3												0
 Uber Andariel			-2					0	dhn	1	Uber Organ Boss Base	1																						0
 Uber Duriel			-2					0	bey	1	Uber Organ Boss Base	1																						0
 Uber Izual			-2					0	mbr	1	Uber Organ Boss Base	1																						0

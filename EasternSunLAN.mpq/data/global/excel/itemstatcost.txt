@@ -163,7 +163,7 @@ item_throw_maxdamage	160		1	10											22	32		8	0	8	0											1													
 kill_base	161			32			1	0	32																					1																					0
 skill_staminapercent	162		1	13																				11			maxstamina	item_stamina_perlevel																							0
 placeholder163	163		1	12																				1			maxstamina																								0
-skill_concentration	164		1	12																8	100																133	19		uninterruptible	uninterruptible									2	0
+skill_concentration	164		1	12																8	100																													2	0
 skill_enchant	165		1	12																																															0
 skill_pierce	166		1	12	16																																132	19		skillpiercingattack	skillpiercingattack									2	0
 skill_conviction	167		1	12																																															0
@@ -223,8 +223,8 @@ item_strength_perlevel	220		1	16											33	32		9	0	8	0			2	3	level	strength		
 item_dexterity_perlevel	221		1	16											33	32		9	0	8	0			2	3	level	dexterity										64	19		ModStr1b	ModStr1b	increaseswithplaylevelX									0
 item_energy_perlevel	222		1	16											26	32		9	0	8	0			2	3	level	energy										60	19		ModStr1d	ModStr1d	increaseswithplaylevelX									0
 item_vitality_perlevel	223		1	16											26	32		9	0	8	0			2	3	level	vitality										62	19		ModStr1c	ModStr1c	increaseswithplaylevelX									0
-item_tohit_perlevel	224		1	16											13	5		10	0	10	0			2	1	level	tohit					1					114	19		ModStr1h	ModStr1h	increaseswithplaylevelX									0
-item_tohitpercent_perlevel	225		1	16											2	64		10	0	8	0			2	1	level	item_tohit_percent					1					116	19		ModStr4c	ModStr4c	increaseswithplaylevelX									0
+item_tohit_perlevel	224		1	16											13	5		10	0	10	0			2	3	level	tohit					1					114	19		ModStr1h	ModStr1h	increaseswithplaylevelX									0
+item_tohitpercent_perlevel	225		1	16											2	64		10	0	8	0			2	3	level	item_tohit_percent					1					116	19		ModStr4c	ModStr4c	increaseswithplaylevelX									0
 item_cold_damagemax_perlevel	226		1	16											264	85		12	0	9	0			2	3	level	coldmaxdam					1					94	19		ModStr1s	ModStr1s	increaseswithplaylevelX									0
 item_fire_damagemax_perlevel	227		1	16											12	32		12	0	9	0			2	3	level	firemaxdam					1					100	19		ModStr1o	ModStr1o	increaseswithplaylevelX									0
 item_ltng_damagemax_perlevel	228		1	16											12	32		12	0	9	0			2	3	level	lightmaxdam					1					97	19		ModStr1q	ModStr1q	increaseswithplaylevelX									0
@@ -244,8 +244,8 @@ item_regenstamina_perlevel	241		1	16											19	64		6	0	7	0			2	3	level	stamin
 item_stamina_perlevel	242		1	16											26	16	8	6	0	7	0			2	3	level	maxstamina										50	19		ModStr5d	ModStr5d	increaseswithplaylevelX									0
 item_damage_demon_perlevel	243		1	16											14	2		6	0	7	0			2	3	level	item_demondamage_percent					1					111	19		ModStr4e	ModStr4e	increaseswithplaylevelX								2	0
 item_damage_undead_perlevel	244		1	16											22	2		6	0	7	0			2	3	level	item_undeaddamage_percent					1					107	19		ModStr4f	ModStr4f	increaseswithplaylevelX								2	0
-item_tohit_demon_perlevel	245		1	16											13	2		6	0	7	0			2	1	level	item_demon_tohit					1					109	19		ModStr4j	ModStr4j	increaseswithplaylevelX									0
-item_tohit_undead_perlevel	246		1	16											3	2		6	0	7	0			2	1	level	item_undead_tohit					1					105	19		ModStr4k	ModStr4k	increaseswithplaylevelX									0
+item_tohit_demon_perlevel	245		1	16											13	2		6	0	7	0			2	3	level	item_demon_tohit					1					109	19		ModStr4j	ModStr4j	increaseswithplaylevelX									0
+item_tohit_undead_perlevel	246		1	16											3	2		6	0	7	0			2	3	level	item_undead_tohit					1					105	19		ModStr4k	ModStr4k	increaseswithplaylevelX									0
 item_crushingblow_perlevel	247		1	16											53	256		6	0	6	0			2	3	level	item_crushingblow					1					86	19		ModStr5c	ModStr5c	increaseswithplaylevelX								2	0
 item_openwounds_perlevel	248		1	16											45	32		6	0	6	0			2	3	level	item_openwounds					1					82	19		ModStr3m	ModStr3m	increaseswithplaylevelX								2	0
 item_kick_damage_perlevel	249		1	16											26	32		6	0	8	0			2	3	level	item_kickdamage					1					120	19		ModStr5e	ModStr5e	increaseswithplaylevelX									0
