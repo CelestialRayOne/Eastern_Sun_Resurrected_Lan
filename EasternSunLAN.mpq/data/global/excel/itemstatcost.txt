@@ -414,7 +414,7 @@ skillcontrol6	411		1	10																																															0
 skillcontrolhelm	412		1	24																																															0
 potionmultiplier	413		1	10																8	100																292	19		potioneffectiveness	potioneffectiveness										0
 skillcontrolbodyarmor	414		1	10																																															0
-item_skillongethit_hidden	415		1	10	20						1			2																			damagedinmelee	21	damagedbymissile	21															0
+item_skillongethit_hidden	415		1	10	20						1			2				21	0	8	0	18											damagedinmelee	21	damagedbymissile	21															0
 skillcontrolshield	416		1	10																																															0
 skillcontrolgloves	417		1	10																																															0
 skillcontrolboots	418		1	10																																															0
