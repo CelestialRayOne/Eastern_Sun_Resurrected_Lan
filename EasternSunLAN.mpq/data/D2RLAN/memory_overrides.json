@@ -1144,13 +1144,25 @@
         },
         {
             "Name": "Charm Dedup - Hook IsCharmUsable",
-            "Description": "Replaces 'mov eax, 1' at 0x2005C2 (success exit of ITEMS_IsCharmUsable, RVA 0x200540) with E9 jmp to the group-dedup cave at 0x35C1E0 (srvdofunc=142 freed body). That cave handles classId-group charms {2235,2236} then falls through (jmp 149B467) to the original unique-dedup cave for all other charms. Returns to 0x2005C7.",
+            "Category": "Bugfix",
             "Address": "2005C2",
-            "Length": 5,
             "Type": "Hex",
+            "Length": 5,
             "OriginalValues": "B801000000",
-            "ModdedValues": "E919BC1500",
-            "Values": "E919BC1500"
+            "ModdedValues": "E949D1F9FF",
+            "Values": "E949D1F9FF",
+            "Description": "Retargeted 2026-08-14. Replaces 'mov eax,1' (the success exit of ITEMS_IsCharmUsable, sub_140200540 at RVA 200540) with a JMP to the rewritten group cave, now at RVA 19D710 instead of the old 35C1E0. Only the rel32 changes. The cave returns to 2005C7 exactly as before."
+        },
+        {
+            "Name": "Charm Dedup Group by item CODE {c11,c12} - Cave",
+            "Category": "Bugfix",
+            "Address": "19D710",
+            "Type": "Hex",
+            "Length": 258,
+            "OriginalValues": "488974241048897C2418554154415541564157488D6C24C94881ECC00000004863F2458BE0488BF985D20F8826020000483B359123B001488BC60F83160200004C69F8840200004C033D7223B0010F84020200008BD6E865EBFFFF448BE885C00F88F0010000488BCFE8326DF0FF488BCFE84AAB06004885C00F84D70100004C8B70704D85F60F84CA010000458BC448899C24F00000008BD6488BCFE80FECFFFF33DB448BC085C07F55418B8784000000488B15F812B0018BC8483BC27205448BC3EB3B48030DDD12B0014C8D0D9E2A66012BD048897DA7488D45A78975AF48894424284C8D05E5AD0700C744242007000000448965B3E8B4305300448BC04885FF",
+            "ModdedValues": "8B4B04E8C400000085C00F84B70000004154415641574883EC284889F9E8FEAB06004885C074514C8B60104D85E474484939DC743541833C2404752E498B4424104885C0742480785500751E8B4818F7C1004100007513418B4C2404E86B00000085C074054939DC722D498B4424104C8BA0B0000000EBB3488B4310816018FFFFFF7F4883C428415F415E415CB801000000E9202E0600488B431081481800000080488B83880000004885C074084889C1E83A6B04004883C428415F415E415C31C0E9F02D0600E98BDC2F0189C8483B05B32BB00173224869C0B40100004803059B2BB0018B80800000003D63313120740A3D63313220740331C0C3B801000000C3",
+            "Values": "8B4B04E8C400000085C00F84B70000004154415641574883EC284889F9E8FEAB06004885C074514C8B60104D85E474484939DC743541833C2404752E498B4424104885C0742480785500751E8B4818F7C1004100007513418B4C2404E86B00000085C074054939DC722D498B4424104C8BA0B0000000EBB3488B4310816018FFFFFF7F4883C428415F415E415CB801000000E9202E0600488B431081481800000080488B83880000004885C074084889C1E83A6B04004883C428415F415E415C31C0E9F02D0600E98BDC2F0189C8483B05B32BB00173224869C0B40100004803059B2BB0018B80800000003D63313120740A3D63313220740331C0C3B801000000C3",
+            "Description": "Replaces the old 'Charm Dedup Group {2235,2236}' cave at 35C1E0, which matched on ITEM CLASS IDS and silently broke when new items shifted them: c11 is now classId 2236 and c12 is 2237, so the hardcoded pair was grouping c11 with whatever item landed on 2237's old slot and missing c12 entirely. This version matches on the items.txt CODE column, which is unique across all items and can never shift. Lives in the freed cltdofunc=83 body sub_14019D710 (ApplyRoyalStrikeLvl2, usable 19D710..19D98B = 636 bytes; body ends with CC padding 19D98C..19D98F and the next function starts at 19D990). Structure is otherwise identical to the old cave: rbx=pItem, rdi=pUnit on entry; on a non-group item it falls through to the original unique-row cave via jmp 149B467 (unchanged behaviour, including non-unique -> usable); on a group item it pushes r12/r14/r15, subs 0x28, gets the inventory via sub_140208330(pUnit), and walks the [pItemData+0xB0] chain requiring each candidate to be UNIT_ITEM ([r12]==4), have valid pItemData, nInvPage ([+0x55])==0 and no BROKEN/NOEQUIP ([+0x18]&0x4100). Tie-break is unchanged (cmp r12,rbx / jb fail - lowest pItem address wins), as is the WIN path (clear bit 0x80000000 in [pItemData+0x18], return 1) and the FAIL path (set that loser bit for the renderer cave at 149B55B, then unmerge the charm's stats via sub_1401E4300 on [pItem+0x88], return 0). The only change is the group test, which is now a shared subroutine at 19D7DC: given a classId in ecx it bounds-checks against the item count, computes record = itemsTable + 436*classId, reads the code dword at record+0x80, and returns 1 for 'c11 ' (0x20313163) or 'c12 ' (0x20323163). Both the entry test and the per-candidate test call it, so the two charms form one exclusive set - one active total regardless of how many of each are carried. Item table base and count are read RIP-relative from 141CA0390 / 141CA0398 so the patch is ASLR-safe. Code offset 0x80 was confirmed live: 0x80/0x84/0x88/0x8C are code/normcode/ubercode/ultracode and read identically on these charms, 3-char codes are space-padded (0x20). cm8/cm9 were deliberately EXCLUDED - those charms are no longer obtainable."
         },
         {
             "Name": "Charm Dedup - Cave (IsCharmUsable)",
@@ -1181,16 +1193,6 @@
             "OriginalValues": "",
             "ModdedValues": "",
             "Values": "85C00F841F000000488B47104885C00F840D000000F74018000000800F8505000000E9B725D2FEE97326D2FE"
-        },
-        {
-            "Name": "Charm Dedup Group {2235,2236} - Cave",
-            "Description": "Cave at 35C1E0 (267 bytes, in the freed srvdofunc=142 body sub_14035C1E0 which spans 35C1E0..35C400, 544 bytes; we stomp it). Reached via the re-aimed ITEMS_IsCharmUsable hook at 2005C2. rbx=pItem, rdi=pUnit on entry. Reads current classId [rbx+4]; if NOT in {2235,2236} -> jmp 149B467 (original unique-dedup cave, unchanged behavior incl. non-unique->usable). If in group: push r12/r14/r15; sub rsp,0x28; pInventory=INVENTORY_GetInventory(pUnit) via sub_140208330; walk inventory list ([pItemData+0xB0] chain) for any OTHER item that is UNIT_ITEM ([r12]==4), valid pItemData, nInvPage==0 ([+0x55]), not BROKEN/NOEQUIP ([+0x18]&0x4100==0), and classId in {2235,2236}. Group is treated as one set: 2235 and 2236 are mutually exclusive, so the single lowest-pItem-address charm among all {2235,2236} wins, the rest are losers. Tie-break mirrors the unique cave: cmp r12,rbx / jb FAIL. WIN: and [pItemData+0x18],0x7FFFFFFF (clear loser bit); add rsp,0x28; pop; mov eax,1; jmp 2005C7. FAIL: or [pItemData+0x18],0x80000000 (loser marker, read by the renderer cave at 149B55B for red tint - renderer untouched); load pStatListEx [pItem+0x88]; if non-null call sub_1401E4300 to unmerge/expire the charm's stats from owner; add rsp,0x28; pop; xor eax,eax; jmp 2005C7. Field offsets and structure identical to the unique-dedup cave at 149B467, with classId-set matching substituted for dwQuality==7 + dwUniqueRow.",
-            "Address": "35C1E0",
-            "Length": 267,
-            "Type": "Hex",
-            "OriginalValues": "40535557415641574881EC2002000048",
-            "ModdedValues": "8B43043DBB0800000F84100000003DBC0800000F8405000000E969F213014154415641574883EC284889F9E820C1EAFF4885C00F847F0000004C8B60104D85E40F84720000004939DC0F845800000041833C24040F854D000000498B4424104885C00F843F000000807855000F85350000008B4818F7C1004100000F8526000000418B4C240481F9BB0800000F840C00000081F9BC0800000F85090000004939DC0F8230000000498B4424104C8BA0B0000000E985FFFFFF488B4310816018FFFFFF7F4883C428415F415E415CB801000000E91043EAFF488B431081481800000080488B83880000004885C00F84080000004889C1E82680E8FF4883C428415F415E415C31C0E9DC42EAFF",
-            "Values": "8B43043DBB0800000F84100000003DBC0800000F8405000000E969F213014154415641574883EC284889F9E820C1EAFF4885C00F847F0000004C8B60104D85E40F84720000004939DC0F845800000041833C24040F854D000000498B4424104885C00F843F000000807855000F85350000008B4818F7C1004100000F8526000000418B4C240481F9BB0800000F840C00000081F9BC0800000F85090000004939DC0F8230000000498B4424104C8BA0B0000000E985FFFFFF488B4310816018FFFFFF7F4883C428415F415E415CB801000000E91043EAFF488B431081481800000080488B83880000004885C00F84080000004889C1E82680E8FF4883C428415F415E415C31C0E9DC42EAFF"
         },
         {
             "Name": "Disable Legacy Graphics Toggle",
@@ -2484,14 +2486,15 @@
             "ModdedValues": "E9FCE30C00"
         },
         {
-            "Name": "Skill-freeze thaw force mode-2 (cave, v5 real-dead-check)",
-            "Description": "Fixes AI-hang on live monsters AND zombie-revive when killing frozen monsters (incl. cold-immune undead). Gates the mode-2 force on the real alive/dead discriminator [pUnit+0x124] & 0xE (live=nonzero, dead=0), replacing v4's mode-12 check which missed cold-immune undead that die into mode 0. Hook at 295050 unchanged; overwrite only this cave. 100 bytes.",
+            "Name": "Skill-freeze thaw force mode-2 (cave, v6 engine-native dead-check)",
+            "Description": "Replaces the v5 cave in place (hook at 295050 is UNCHANGED). Fixes 'monster killed while state-frozen stands back up when the freeze expires'. The freeze state-expiry event is NOT cancelled when a unit dies (UNITS_Die sub_14030F810 only cancels queued mode events 0/1/8/9 on the unit's 0x140 event list; state-expiry events live on the 0xE0 list and survive), so sub_140295050 still fires on the corpse - and the cave's mode-2 force then schedules a walk mode on a dead unit. sub_1402C8E00 has no dead-guard of its own (its only dead-check sits behind a state-54 branch), so the corpse animates. v5 gated on [pUnit+0x124]&0xE which does not cover the whole death window. v6 uses the engine's OWN liveness test, copied verbatim from the prologue of the very function being hooked (sub_140295050 @29507F-2950AE): a monster is live iff !([pUnit+0x124] & 0x10000) && mode != 0 (DT, death anim) && mode != 12 (DD, corpse). The v5 flag test is kept as a third layer. Layout: push rcx / push rdx / sub rsp,0x38 (rsp%16==0 at the call - callee sees the required 8; saved rdx at [rsp+0x38], saved pUnit at [rsp+0x40], shadow space 0x00-0x1F, a5/a6 at 0x20/0x28) / cmp dword[rcx],1 (monster) / cmp edx,1 (state 1 = freeze) / mov eax,[rcx+0xC] / test eax,eax / je skip (mode 0 = DT) / cmp eax,12 / je skip (mode 12 = DD) / mov eax,[rcx+0x124] / test eax,0x10000 / jne skip / test al,0x0E / je skip / zero a5+a6 / mov rcx,[rcx+0xD8] (pGame) / mov rdx,pUnit / r8d=2 / r9d=15 / call sub_1402C9090 / skip: add rsp,0x38 / pop rdx / pop rcx / mov [rsp+0x10],rbx (stolen instr) / jmp 295055. 102 bytes, ends 3634B6; host body sub_1403630E0 ends 3634B8 so it fits with 2B spare plus 7B of CC padding after. All six skip-jumps land on 3634A7; call target and jmp-back capstone-verified.",
             "Category": "Bugfix",
             "Address": "363451",
-            "Length": 100,
+            "Length": 102,
             "Type": "Hex",
-            "Values": "4883EC4848894C24404889542438833901753983FA0175348B812401000083E00E742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8F35BF6FF488B4C2440488B5424384883C44848895C2410E9A01BF3FF",
-            "OriginalValues": "4883EC4848894C24404889542438833901753483FA01752F83790C0C742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8F85BF6FF488B4C2440488B5424384883C44848895C2410E9A51BF3FF"
+            "OriginalValues": "0B6DFCFF4C8BC6488BD3498BCCE84D5EFCFF48837DB8007C16488B5DA8E80DA97600488BD3488BC84C8B0041FF5020488BB424E00100004C8BB424D8010000B801000000EB0233C0488B8DC00000004833CCE8A8170D014881C4E8010000415F415D415C5F5B",
+            "ModdedValues": "51524883EC38833901754B83FA0175468B410C85C0743F83F80C743A8B8124010000A900000100752DA80E742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8E95BF6FF4883C4385A5948895C2410E99E1BF3FF",
+            "Values": "51524883EC38833901754B83FA0175468B410C85C0743F83F80C743A8B8124010000A900000100752DA80E742931C048894424204889442428488B89D8000000488B54244041B80200000041B90F000000E8E95BF6FF4883C4385A5948895C2410E99E1BF3FF"
         },
         {
             "Name": "descfunc 75 - hide line when both calcs are 0 - Hook",
@@ -2697,26 +2700,6 @@
             "Values": "E9A00000009090"
         },
         {
-            "Name": "Left-slot aura teardown on skill removal - Hook",
-            "Description": "sub_1402D2B00 (skill grant/removal stat handler, stat 97/107 oskill path): when a removed skill's effective level hits 0 and it was the LEFT ([[unit+0x100]+8]) selection, stock does a raw call sub_140219690(unit,0,-1) at 2D327A with NO aura teardown (the right slot at 2D3316 gets full sub_14029A2A0 instead) — so weapon-swap/drop left the aura's periodic event, aurastate and stats alive. Retargets the call into the 36ADC0 cave which replays the select and tears the old aura down. Registers at site: rdi=unit, r14=dying node (preserved, re-read at 2D3306), rbx=Attack node (preserved).",
-            "Address": "2D327A",
-            "Type": "Hex",
-            "Length": 5,
-            "OriginalValues": "E81164F4FF",
-            "ModdedValues": "E8417B0900",
-            "Values": "E8417B0900"
-        },
-        {
-            "Name": "Left-slot aura teardown on skill removal - Cave",
-            "Description": "Cave 36ADC0-36AEF7 (312B, srvdo58 stomped-body free tail, after the Holy Freeze shatter cave ending 36ADBA; ~843B remain free to 36B242). Entered by CALL from 2D327A, returns 2D327F. If the dying node r14 is an aura (byte[rec+0x24]&0x20): saves aurastate word[rec+0xA0] and skillid word[rec+0] to stack sentinels. Replays sub_140219690(rdi,0,-1). Deletes [unit+0x320] type-8 events with customId(+0x18)==old skillid via sub_1402C83D0([rdi+0xD8], node), capturing next pre-call and reloading r11d after each call. Shared-state guard: if the other slot [[unit+0x100]+0x10] holds an aura with the same aurastate, skips the clear (right slot then tears down via stock 2D3316). Else sub_140222EA0(unit, state, 0) and purges statlist chains [sl+0x68]/[sl+0x70] (node+0x20==state and node+0x1C flag 4 -> sub_1401E45B0), comparing r11d (reloaded post-222EA0). Non-aura removals: sentinels stay -1, pure replay, stock-identical. Preserves rbx/r14/rdi; sub rsp,0x38 keeps alignment. keystone-assembled at 14036ADC0, capstone decode-back: all jumps on boundaries, calls resolve to 219690/2C83D0/222EA0/1E45B0.",
-            "Address": "36ADC0",
-            "Type": "Hex",
-            "Length": 312,
-            "OriginalValues": "000700E8687FE7FF413BF67E288BC648895D97412BC6C7459F070000008945A3E81B9BEAFF488D5597488D8888050000E8BBBAE7FF4C8BBB880000004C8B2D754D93014D85FF742848833D704D930106761E4D8D85980700004D85C07412BA00000600498BCFE84580E7FF448BF0EB03448BF78B0385C0750940383DAB708801EB0C83F801750E40383DDBF388017405443BF67F5F4533C9448BC6498BCF418D5106E809A4E7FF85C07442393B753E488B8B88000000BA00000600E8B07EE7FF413BF67E288BC648895D97412BC6C7459F060000008945A3E8639AEAFF488D5597488D8888050000E803BAE7FF4C8B2DC44C93014C8B35C54C93014D85E4742E498B8C24880000004885C974214983FE0C761B4D8D85300F00004D85C0740FBA00000C00E8877FE7FF448BF8EB03448BFF4C8BA388000000",
-            "ModdedValues": "4883EC38C7442428FFFFFFFFC744242CFFFFFFFF4D85F674254D8B164D85D2741D41F64224207416450FBF9AA000000044895C2428450FB71A44895C242C31D241B8FFFFFFFF4889F9E882E8EAFF448B5C242C4183FBFF7444488B87200300004885C07438803808752D4439581875274C8B50304889C2488B8FD80000004C89542420E888D5F5FF4C8B542420448B5C242C4C89D0EBC9488B4030EBC3448B5C24284183FBFF0F8487000000488B8700010000488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8745D4889F94489DA4531C0E8FC7FEBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E8BD96E7FF4883C438C3",
-            "Values": "4883EC38C7442428FFFFFFFFC744242CFFFFFFFF4D85F674254D8B164D85D2741D41F64224207416450FBF9AA000000044895C2428450FB71A44895C242C31D241B8FFFFFFFF4889F9E882E8EAFF448B5C242C4183FBFF7444488B87200300004885C07438803808752D4439581875274C8B50304889C2488B8FD80000004C89542420E888D5F5FF4C8B542420448B5C242C4C89D0EBC9488B4030EBC3448B5C24284183FBFF0F8487000000488B8700010000488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8745D4889F94489DA4531C0E8FC7FEBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E8BD96E7FF4883C438C3"
-        },
-        {
             "Name": "Left-slot aura bootstrap on weapon swap - Hook",
             "Description": "sub_1402BDE80 (weapon-swap handler, sibling of the resurrect handler): restores the incoming weapon set's remembered left binding via raw sub_140219690 at 2BE706 (no aura arming) while the right slot goes through full sub_14029A2A0 at 2BE7E0 — so a left-bound aura granted by the swapped-in weapon arrives selected but dead. Probe-confirmed: [RAWSEL from=2BE70B skill=<aura>] with no [ARM] following. Retargets the call into the 36AF90 cave. Site registers: rdi=unit, r14d=skillId, esi=guid, rbx=found node (read at 2BE70B, preserved).",
             "Address": "2BE706",
@@ -2775,6 +2758,116 @@
             "OriginalValues": "74",
             "ModdedValues": "EB",
             "Values": "EB"
+        },
+        {
+            "Name": "Fix summon life 32-bit overflow (83k wall) - hook",
+            "Description": "Hook at RVA 368662 inside sub_140367F60, the shared summon stat setter called by every summon skill function (srvdofunc 15,16,31,58,60,114,115,119,144 plus 3 helper paths). It computes the pet's life as baseMaxHp + baseMaxHp*calc1/100, where baseMaxHp is STAT_MAXHP read at RVA 36855F (packed 0x70000, itemstatcost record offset 0x8DC) in 256ths and calc1 is the summon skill's calc1 evaluated at RVA 368518 from skill record offset 344. The branch taken when baseMaxHp <= 0x100000 (4096 displayed life) and calc1 <= 0x10000 does `imul ecx,edi` at RVA 36866A as a 32-bit signed multiply of baseMaxHp * calc1, then a magic divide by 100. That product exceeds INT32_MAX once the RESULTING life passes 2^31/100 = 21,474,836 in 256ths = 83,886 displayed life, so the pet's life wraps negative. The other two branches pre-divide by 100 and therefore only wrap at the engine's real 8,388,608 ceiling. This replaces the 23-byte span 368662..368678 (mov ecx,r9d / mov eax,51EB851F / imul ecx,edi / imul ecx / sar edx,5 / mov eax,edx / shr eax,1Fh / add edx,eax) with a JMP to the cave at RVA 35F600 plus 18 NOPs. The NOPs end exactly on RVA 368679 (lea edi,[r9+rdx]), which stays intact because the calc1>0x10000 branch at 36864B still jumps to it. Verified: the only branch into the replaced span is the jle at 368613 which targets 368662 itself.",
+            "Category": "Bugfix",
+            "Address": "368662",
+            "Type": "Hex",
+            "Length": 23,
+            "OriginalValues": "418BC9B81F85EB510FAFCFF7E9C1FA058BC2C1E81F03D0",
+            "ModdedValues": "E9996FFFFF909090909090909090909090909090909090",
+            "Values": "E9996FFFFF909090909090909090909090909090909090"
+        },
+        {
+            "Name": "Fix summon life 32-bit overflow (83k wall) - cave",
+            "Description": "Cave at RVA 35F600, 60 bytes, in the dead srvdofunc=137 body sub_14035F490 (35F490..35F69F), placed after the existing Smite damage overflow saturation cave which ends at 35F5F9; free space there runs to 35F69F. Recomputes the summon life delta in 64-bit with INT32 saturation of the FINAL value. Disassembly: movsxd rcx,r9d (baseMaxHp) / movsxd rax,edi (calc1 percent) / imul rax,rcx (64-bit product, cannot overflow) / mov r8,100 / cqo / idiv r8 (truncates toward zero, identical rounding to the original magic divide) / add rax,rcx (baseMaxHp + delta, computed in 64-bit so the sum cannot wrap either) / clamp to [INT32_MIN, INT32_MAX] via mov rcx,7FFFFFFF + cmp + cmovg and mov rcx,FFFFFFFF80000000 + cmp + cmovl / mov edi,eax / jmp 36867D. It returns PAST the original lea edi,[r9+rdx] at 368679 because the cave already produced the final value in edi; rdx and rax are both dead at 36867D (rdx is reloaded at 3685DF, rax by the call at 3685E7) and rcx is reloaded at 3685E4. r8 is dead at the hook point (it was only the third argument to the sub_1401E2E70 call at 36855F). Numerically identical to the original for every input where baseMaxHp*calc1 < 2^31; above that it produces the correct value instead of a negative one and saturates at INT32_MAX.",
+            "Category": "Bugfix",
+            "Address": "35F600",
+            "Type": "Hex",
+            "Length": 60,
+            "OriginalValues": "7C76440FBF8DA000000041B801000000488BD6E898A70200488D9DAA0000004C8D3D5AFA15010FBF4BFA6685C97849480FBF036683F8317734498B14",
+            "ModdedValues": "4963C94863C7480FAFC149C7C064000000489949F7F84801C848C7C1FFFFFF7F4839C8480F4FC148C7C1000000804839C8480F4CC189C7E941900000",
+            "Values": "4963C94863C7480FAFC149C7C064000000489949F7F84801C848C7C1FFFFFF7F4839C8480F4FC148C7C1000000804839C8480F4CC189C7E941900000"
+        },
+        {
+            "Name": "Left-slot aura deferred teardown - hook",
+            "Category": "Bugfix",
+            "Address": "29993C",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "4885FF745E",
+            "ModdedValues": "E97F140D00",
+            "Values": "E97F140D00",
+            "Description": "Hook at RVA 29993C inside sub_140299650, the periodic aura event handler. Replaces the stock 5 bytes (test rdi,rdi / je 29999F) with a JMP to the cave at RVA 36ADC0. 29993C is the single shared failure label of the branch-B (skill-id event) revalidation: it is reached from 2998D4 (sub_140218CE0 says the unit no longer has the skill), 2998E1 and 2998F1 (itemstatcost table bounds) and 299902 (stat 350 on the aura statlist no longer equals the skill id). Verified: all four branches target 29993C itself and nothing lands inside the 5-byte span. Register context there: rdi=pUnit, rsi=pGame, ebx=skillId, r14=the aura statlist returned by sub_1401E5B50 (guaranteed non-null on every path that reaches this label). This replaces the old teardown hook at 2D327A, which fired from the statlist fcallback sub_1402D2B00 and therefore ran on every transient item-stat re-merge; the periodic handler is evaluated once per game tick, so a same-frame strip-and-restore can never reach it while a genuinely lost skill trips it on the next tick."
+        },
+        {
+            "Name": "Left-slot aura deferred teardown - cave",
+            "Category": "Bugfix",
+            "Address": "36ADC0",
+            "Type": "Hex",
+            "Length": 194,
+            "OriginalValues": "000700E8687FE7FF413BF67E288BC648895D97412BC6C7459F070000008945A3E81B9BEAFF488D5597488D8888050000E8BBBAE7FF4C8BBB880000004C8B2D754D93014D85FF742848833D704D930106761E4D8D85980700004D85C07412BA00000600498BCFE84580E7FF448BF0EB03448BF78B0385C0750940383DAB708801EB0C83F801750E40383DDBF388017405443BF67F5F4533C9448BC6498BCF418D5106E809A4E7FF85C07442393B753E488B8B88000000BA00000600E8B07EE7FF413B",
+            "ModdedValues": "4885FF0F84B40000004D85F60F84A6000000458B5E204585DB0F8899000000488B87000100004885C07423488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8746A4883EC3044895C24284889F94489DA4531C0E87B80EBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E83C97E7FF4883C430E9C4EAF2FFE91DEBF2FF",
+            "Values": "4885FF0F84B40000004D85F60F84A6000000458B5E204585DB0F8899000000488B87000100004885C07423488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8746A4883EC3044895C24284889F94489DA4531C0E87B80EBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E83C97E7FF4883C430E9C4EAF2FFE91DEBF2FF",
+            "Description": "Cave at RVA 36ADC0, in the dead srvdofunc=58 body, replacing the retired 'Left-slot aura teardown on skill removal' cave. Reads the aurastate from the aura statlist itself at [r14+0x20] (sub_140299C80 writes it there together with the skill id at +0x28 and the level at +0x2C), so no skills.txt lookup is needed. Skips the clear when the RIGHT slot holds an aura with the same aurastate (shared-state guard). Otherwise calls sub_140222EA0(unit, state, 0) to clear the state bit, then purges the aura statlist by walking the [statlist+0x68] and [statlist+0x70] chains via [node+0x48], matching [node+0x20]==state with [node+0x1C]&4 and calling sub_1401E45B0 on the hit; the state id is held in r11d and reloaded from the local frame after the 222EA0 call. Then falls into the stock event-delete loop by jumping to RVA 299941. rdi, rsi, rbx and r14 are all preserved (only rax/rcx/rdx/r8/r11 are touched, all volatile). Its own 0x30-byte frame is allocated only around the two calls, keeping RSP 16-byte aligned; the caller's frame is never written."
+        },
+        {
+            "Name": "Aura left-slot teardown + bootstrap cave (v2)",
+            "Category": "Bugfix",
+            "Address": "363148",
+            "Type": "Hex",
+            "Length": 281,
+            "OriginalValues": "E8032CF6FF488BCBE87B51EAFF4885C00F8432030000488B40704889B424E00100004C89B424D80100004533F6483BC3418BF6480F45F04885F60F84F80200004885DB7407838B240100004033D2488D4C246041B860010000E85A4F0D014489742438488D44246048894424304C8BCF44896C24284C8BC6488BD344897C2420498BCCE8909CF3FFF6442464010F84620200008B87500100004C8D4C246083C8024C8BC609442460488BD30FB7874E01000066094424648B8F5401000085C98B85AC0000000F45C1498BCC8985AC0000000FB687E5010000884424284489742420E82208FCFF458BCD488D542460458BC7488BCBE8CF8FF3FF8B87580100004C8B1572B893018BC8493BC27205458BCEEB4B48030D57B89301",
+            "ModdedValues": "4883EC38C7442428FFFFFFFF488B87000100004885C07425488B40084885C0741C4C8B104D85D2741441F6422420740D450FBF9AA000000044895C24284189D889F24889F9E8FE64EBFF448B5C24284183FBFF0F848C000000488B87000100004885C07423488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8745D4889F94489DA4531C0E8C2FCEBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E88313E8FF488B8FD80000004889FA4189F0E8416AF3FF488B8FD80000004889FA4189F04531C9C744242000000000E8D461F3FF4883C438C3",
+            "Values": "4883EC38C7442428FFFFFFFF488B87000100004885C07425488B40084885C0741C4C8B104D85D2741441F6422420740D450FBF9AA000000044895C24284189D889F24889F9E8FE64EBFF448B5C24284183FBFF0F848C000000488B87000100004885C07423488B40104885C0741A488B004885C07412F6402420740C0FBF80A00000004439D8745D4889F94489DA4531C0E8C2FCEBFF448B5C2428488B8F880000004885C9743E488B51684885D2741244395A207506F6421C047521488B5248EBE9488B51704885D2741A44395A207506F6421C047506488B5248EBE94889D1E88313E8FF488B8FD80000004889FA4189F0E8416AF3FF488B8FD80000004889FA4189F04531C9C744242000000000E8D461F3FF4883C438C3",
+            "Description": "Replaces the 357-byte 'Aura right-slot bootstrap + unequip event-delete cave' at RVA 363148 with a corrected 281-byte version. Same contract: entered by JMP from the same-skill guard at 3632B0 with rdi=pUnit, esi=incoming skill id, ebx=guid, ends in RET. THREE FIXES. (1) The old statlist-purge loops at 363240 and 36325F compared [rdx+0x20] against R10D, which sub_140222EA0 clobbers, instead of R11D - the purge was dead code and a garbage match on a node with flag bit 4 could have freed the wrong node; both loops now compare R11D and reload it from [rsp+0x28] after the call. (2) The old event-delete loop never reloaded R11D after sub_1402C83D0 (volatile), so from the second matching event onward it compared garbage. That loop is REMOVED entirely: once the old aurastate is cleared here, the old skill's periodic events fail their own revalidation on the very next tick at the sub_140222FE0 check (RVA 2997FF) and the engine's own delete loop removes them without performing the skill. (3) The old skill-id capture at [rsp+0x2C] is gone with the loop. Everything else is unchanged: capture the old left-slot aurastate from byte[rec+0x24]&0x20 / word[rec+0xA0], replay sub_140219690(unit, skillId, guid), right-slot shared-state guard, clear + purge, then arm via sub_140299C80 followed by sub_140299430(pGame, unit, skillId, 0, 0) - the arg5=0 call is required because sub_140299C80 only arms the -1 native event, which branch A reads from the RIGHT slot and can never sustain a left-slot aura. Bytes 363261..3632AC revert to the original (unreachable) srvdofunc=122 code."
+        },
+        {
+            "Name": "Left-slot aura bootstrap on weapon swap - Cave",
+            "Category": "Bugfix",
+            "Address": "36AF90",
+            "Type": "Hex",
+            "Length": 134,
+            "OriginalValues": "393B753E488B8B88000000BA00000700E88B7DE7FF413BF67E288BC648895D97412BC6C7459F070000008945A3E83E99EAFF488D5597488D8888050000E8DEB8E7FF4C8BA3880000004D85E4742C48833D9A4B93010676224C8B05894B93014981C0980700007412BA00000600498BCCE86B7EE7FF448BF0EB03448BF78B0385C0750940383D",
+            "ModdedValues": "4883EC284189F04489F24889F9E8EEE6EAFF833F00756A488B8700010000488B40084885C0745A488B004885C07452F6402420744C488B87400100004885C074118038087506443970187435488B4030EBEA488B8FD80000004889FA4589F0E88CECF2FF488B8FD80000004889FA4589F04531C9C744242000000000E81FE4F2FF4883C428C3",
+            "Values": "4883EC284189F04489F24889F9E8EEE6EAFF833F00756A488B8700010000488B40084885C0745A488B004885C07452F6402420744C488B87400100004885C074118038087506443970187435488B4030EBEA488B8FD80000004889FA4589F0E88CECF2FF488B8FD80000004889FA4589F04531C9C744242000000000E81FE4F2FF4883C428C3",
+            "Description": "Same cave as before with ONE field corrected. The duplicate-event check read the per-unit event list head from [rdi+0x320]; the real head is [rdi+0x140]. This is the IDA decimal/hex trap: the decompiler prints the displacement as 320, which is DECIMAL 320 = 0x140, and it was written into the cave as hex 0x320. Proven twice - sub_1402C83D0 writes the head back to unit+320 (decimal) and all four walks in sub_140299650 read unit+320 (decimal), both following [node+0x30] with the type byte at [node+0] and the custom id at [node+0x18], exactly as this loop does. With the wrong offset the dedup silently never dedups, and if that qword is ever non-zero the loop hands a non-event pointer to sub_1402C83D0. Only the 4 displacement bytes change: 488B8720030000 -> 488B8740010000."
+        },
+        {
+            "Name": "LMB aura acts as move-only - client hook",
+            "Category": "Alteration",
+            "Address": "D2F2A",
+            "Type": "Hex",
+            "Length": 5,
+            "OriginalValues": "4585DB7521",
+            "ModdedValues": "E932032900",
+            "Values": "E932032900",
+            "Description": "Hook at RVA D2F2A inside sub_1400D2D50, the CLIENT click-action dispatcher. Replaces sub_14021A4F0-based approaches, which were the wrong layer: that function is the shared skill-usability classifier and its return code 6 (byte[rec+0x24]&0x20 = aura) is ALSO what the skill UI reads to draw the aura background, so forcing it to 0 both removed the golden background and let the game try to start the aura's own mode, which crashed. This patch leaves the classifier and every UI consumer completely untouched. Context at D2F2A: r15 = the target unit, esi = target id ([r15+8], loaded at D2F1E), ebp = target type ([r15], loaded at D2F27, with the caller's rbp already saved to [rsp+0x50] at D2F22), r9 = the selected skill node, r13 = the player unit, rbx = the click context, r11d = v7, dil = the click flags. The 5 replaced bytes are test r11d,r11d / jne D2F50; the cave re-does both and returns to D2F50 or D2F2F, so the non-aura path is byte-identical. RVA D314E is the client's own move-toward-entity tail (mov r8d,esi / mov edx,ebp / mov rcx,rbx / call sub_1400D20A0), which falls straight into the normal epilogue."
+        },
+        {
+            "Name": "LMB aura acts as move-only - client cave",
+            "Category": "Alteration",
+            "Address": "363261",
+            "Type": "Hex",
+            "Length": 61,
+            "OriginalValues": "4C8D0D18D04901442BD048895C2440488D44244044897C244848894424284C8D055A53EBFF418BD2C74424200700000044896C244CE825D636004C8B15",
+            "ModdedValues": "4D85C9742A4D85ED7425498B8D000100004885C974194C3949087513498B094885C9740BF64124207405E9BEFED6FF4585DB0F85B7FCD6FFE991FCD6FF",
+            "Values": "4D85C9742A4D85ED7425498B8D000100004885C974194C3949087513498B094885C9740BF64124207405E9BEFED6FF4585DB0F85B7FCD6FFE991FCD6FF",
+            "Description": "Cave at RVA 363261, in the dead srvdofunc=122 body sub_1403630E0 (free block 363261..3632AF, opened up when the 363148 teardown cave shrank from 357 to 281 bytes; the same-skill guard at 3632B0 is untouched). NOT placed at 387161 - that address is only the srvdofunc=73 epilogue plus 0xCC padding and a LIVE function begins at 387170, so the cave-region note claiming 159 free bytes there is wrong. Fires only when r9 (the selected skill node) is non-null AND r13 (the player) is non-null AND r9 == [[r13+0x100]+8] (the node really is the LEFT/primary slot) AND byte[[r9]+0x24]&0x20 (aura). Then it jumps to D314E, so the client emits a plain move-toward-entity for whatever is under the cursor - monster included - instead of a skill command, and never asks the usability classifier at all. Everything else replays the original test r11d,r11d / jne and rejoins the stock flow unchanged, so right-click, non-aura skills, ground clicks and object interaction are untouched. Only rcx is clobbered and it is dead on both exits (overwritten at D2F2F on the stock path and at D3153 on the move path); rax is deliberately NOT touched because the D2F4A path returns it."
+        },
+        {
+            "Name": "blood_mana (state 114) - server cast gate accepts life - hook",
+            "Category": "Bugfix",
+            "Address": "295002",
+            "Type": "Hex",
+            "Length": 7,
+            "OriginalValues": "488B8F88000000",
+            "ModdedValues": "E91988F0FF9090",
+            "Values": "E91988F0FF9090",
+            "Description": "Fixes: with blood_mana (state 114) active, a skill whose mana cost exceeds current mana but which the player can afford in LIFE fired on the CLIENT only - visuals, missiles and overlays appeared while the server did nothing (no cooldown, no damage, no missile collisions). ROOT CAUSE: sub_140294F40 (RVA 294F40) is a SERVER-ONLY pre-cast gate and is byte-for-byte the shared affordability predicate sub_14021A820 MINUS its blood_mana branch. It computes cost = (word[rec+0x1C2] + word[rec+0x1C4]*lvl) << byte[rec+0x1C0] from the pending skill node at [[pUnit+0x100]+0x18], then at 295002..295036 reads ONLY mana (stat 8) and does 'if (mana >= cost) return 1' else returns 0. It is called from exactly the two server skill entry points, both of which abort the cast when it returns 0: sub_140298550 @2985D1 and sub_140298810 @2989B4. The CLIENT never calls it - the client path sub_1400D0070 -> sub_14021A4F0 -> sub_14021A820 IS blood_mana-aware and compares life, which is precisely why the two sides disagreed. This replaces the 7-byte mana-statlist load at 295002 (mov rcx,[rdi+88h]) with a JMP to the cave at RVA 19D820 plus 2 NOPs. Verified over the whole 270-byte function: the only branch touching the span is 294FF7 jne 295002, which targets the hook's first byte; nothing lands inside it, and 295009 / 295034 / 294F89 / 29503C all stay intact. Registers at the hook: rdi = pUnit, ebx = the computed cost, edx = 0 (mana result slot), rsi = skill record; rbx/rsi/rdi are non-volatile and survive the stat call."
+        },
+        {
+            "Name": "blood_mana (state 114) - server cast gate accepts life - cave",
+            "Category": "Bugfix",
+            "Address": "19D820",
+            "Type": "Hex",
+            "Length": 79,
+            "OriginalValues": "3083EA02742283EA02741D83FA017418498B56384885D27407440FB74A02EB10448BCB488BD3EB08498B5638448B4A1083E902741983E902741483F901740F4885D274060FB74206EB078BC3EB038B",
+            "ModdedValues": "488B8F880000004885C9743E8B411C85C07937F781D40A000000000400742B48833D3923B0010676214C8B052823B0014981C0980700007411BA00000600E80D56040089C2E9CA770F00E99A770F00",
+            "Values": "488B8F880000004885C9743E8B411C85C07937F781D40A000000000400742B48833D3923B0010676214C8B052823B0014981C0980700007411BA00000600E80D56040089C2E9CA770F00E99A770F00",
+            "Description": "Cave at RVA 19D820, 79 bytes, in the freed cltdofunc=83 body sub_14019D710 (ApplyRoyalStrikeLvl2), immediately after the charm-dedup cave which ends at 19D811; body is usable to 19D98B so 19D86F..19D98B (285 B) remains free. Loads the statlist (mov rcx,[rdi+88h]) exactly as the original did, then applies the SAME blood_mana test the shared predicate sub_14021A820 already uses: statlist non-null, (int)[statlist+0x1C] < 0 (the has-states guard), and bit 0x40000 of the dword at [statlist+0xAD4] - that dword covers states 96..127 and bit 18 is state 114. When it matches, it reads HITPOINTS instead of mana - stat 6, packed 0x60000, itemstatcost record base + 0x798 (6*324) - bounds-checked against the row count exactly as the stock mana read is, then rejoins at 295034 (cmp edx,ebx) so the existing 'jge -> return 1' does the comparison against LIFE. Every other case, including a null statlist, a unit with no states, or a degenerate itemstatcost table, jumps to 295009 and runs the untouched stock mana path, so behaviour without blood_mana is byte-identical. Only eax, rcx, rdx and r8 are touched, all volatile and all dead or intentionally set at that point; ebx (the cost) and rdi/rsi are non-volatile and survive sub_1401E2E70. Table base and count are read RIP-relative (141C9FB78 / 141C9FB80) so the patch is ASLR-safe. NOT patched deliberately: sub_140294E70 and sub_140360030 already pay in life correctly once the gate lets the cast through."
         }
     ]
 }

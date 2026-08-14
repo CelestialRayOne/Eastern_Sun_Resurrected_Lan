@@ -681,7 +681,7 @@ Runeword686	Maiden	1			tors	helm								O To Me	r21	r26	r23				ama		3	3	eneperce
 Runeword687	Myth	1			xbow									Shi N Wa	r03	r05	r27				kill-skill	Fire Surge	100	15	kill-skill	Cold Surge	100	15	kill-skill	Lightning Surge	100	15	pierce-ele-res		20	20	swing2		50	50	oskill	Exploding Arrow	10	10	oskill	Cold Arrow	10	10	0
 Runeword688	Deception	1			tors									Sa Wa	r15	r27					crush		50	50	allskills		1	1	hp		100	100	dex		50	50	swing2		30	30	gethit-skill	Cloak of Shadows	33	40	velocitypercent		25	25	0
 Runeword689	Deception	1			glov									Sa Wa	r15	r27					crush		35	35	allskills		1	1	hp		75	75	dex		35	35	swing2		30	30	hit-skill	Cloak of Shadows	3	40	attackrate		20	20	0
-Runeword690	Youth	1			tors									Wa Ka Sa	r27	r04	r15				aura	Prayer	15	15	regen		800	800	regen-mana		100	100	allskills		1	1	move2		30	30	balance2		30	30	vit		50	50	0
+Runeword690	Youth	1			tors									Wa Ka Sa	r27	r04	r15				move2		50	50	att		500	500	att%		100	100	allskills		1	1	balance2		50	50	dodge		5	5	item-skill-cooldown		15	15	0
 Runeword691	Illustrious	1			tors									A Yu Ka Wa	r12	r16	r04	r27			allskills		2	2	dex		50	50	str		50	50	hp/lvl	8			oskill	Mind Blast	3	3	deadly		40	40	item-skill-cooldown		20	20	0
 Runeword692	Temptation	1			shld									Yu U Wa Ku	r16	r02	r27	r06			thorns		500	500	thorns/lvl	40			aura	Thorns	15	15	gethit-skill	Iron Maiden	10	40	balance2		50	50	red-dmg%		20	20	att-skill	Spike Nova Proc	33	1	0
 Runeword693	Sincerity	1			weap									Ta Chi Ka Wa Mi Mi	r25	r14	r04	r27	r10	r10	reduce-ac		100	100	dmg-mag		750	1000	swing2		30	30	enr		250	250	att-skill	Singularity	10	45	dmg-demon		300	300	dmg-undead		300	300	0
@@ -846,7 +846,7 @@ Runeword855	HEART OF THE OAK	1			staf	mace								KoVexPulThul	r68	r76	r71	r60		
 Runeword856	KINGSLAYER	1			swor	axe								MalUmGulFal	r73	r72	r75	r69			pierce-ele-res		30	30	dmg/lvl	16			dmg%/lvl	16			indestruct		1	1	oskill	Vengeance	20	20	mythicaldescnoflag	1364	1	1	oskill-hidden	Kingslayer Passive	1	1	0
 Runeword857	PASSION	1			weap									DolOrtEldLem	r64	r59	r52	r70			att-skill	Berserk	20	40	dmg-norm		40	50	dmg%		250	250	lifesteal		25	25	att%		200	200	oskill	Sword Mastery	10	10	dmg-bleed	50	1	500	0
 Runeword858	PRUDENCE	1			tors										r73	r53					aura-hidden	Prudence Aura	1	1	mythicaldescnoflag	1365	1	1	ac%		300	300	regen		500	500	red-dmg%		15	15	res-mag		15	15	allskills		2	2	0
-Runeword859	SANCTUARY	1			shld									KoKoMal	r68	r68	r73				curse-res		100	100	aura	Sanctuary	30	30	res-mag		20	20	mythicaldescnoflag	1366	1	1	allskills		2	2	ac%		300	300	dmg%		300	300	0
+Runeword859	SANCTUARY	1			shld									KoKoMal	r68	r68	r73				curse-res		100	100	aura	Sanctuary	30	30	res-mag		20	20	mythicaldescnoflag	1366	1	1	allskills		2	2	ac%		300	300	oskill-hidden	Sanctuary Passive	1	1	0
 Runeword860	SPLENDOR	1			shld										r55	r67					light		15	15	extra-mag2		30	30	allskills		1	1	gold%		100	100	mag%		50	50	enr		100	100	cast2		40	40	0
 Runeword861	STONE	1			tors									ShaelUmPulLum	r63	r72	r71	r67			velocitypercent		-30	-30	attackrate		-30	-30	strpercent		75	75	res-mag		30	30	red-dmg%		30	30	ac%		500	500	hp		200	200	0
 Runeword862	WIND	1			mele										r79	r51					dmg-bleed	5	50	100	att-skill	Twister	25	60	att-skill	Sandstorm	25	60	mythicaldescnoflag	1367	1	1	oskill-hidden	Whirlwind Tornadoes	60	60	aura-hidden	Whirlwind Tornadoes	60	60	oskill	Whirlwind	20	20	0
@@ -902,7 +902,7 @@ Runeword910	Winter	1			staf						orb	mana		Fu Yu	r32	r16					cast-skill	Orb of W
 Runeword912	Psychic	1			char									A Ki Ra	r12	r08	r20				dmg-mag		500	1000	dmg-undead		200	200	dmg-demon		200	200	item-skill-cooldown		15	15	ac%		150	150	hit-skill	Psychic Hammer	3	45	hit-skill	Cloak of Shadows	3	40	0
 Runeword913	Captive	1			char									Ho Ri Yo	r22	r09	r07				extra-summ		20	20	allskills		1	1	oskill	Raise Skeletal Mage	3	3	skill	Raise Skeletal Mage	12	12	pierce-fire		15	15	pierce-cold		15	15	pierce-ltng		15	15	0
 Runeword914	Wealth	1			char									To Mi	r26	r10					ac%		75	75	gold%		125	125	mag%		75	75	gold%/lvl	16			mag%/lvl	8			oskill	Find Potion	5	5					0
-Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				oskill	Call of the Wild	20	20	aura	Prayer	15	15	regen		800	800	regen-mana		100	100	allskills		1	1	move2		50	50	balance2		50	50	0
+Runeword915	Youth	1			char									Wa Ka Sa	r27	r04	r15				move2		50	50	att		500	500	att%		100	100	allskills		1	1	balance2		50	50	dodge		5	5	item-skill-cooldown		15	15	0
 Runeword916	Harmony	1			char									Wa Se I	r27	r31	r01				hp%		30	30	balance3		30	30	mana%		30	30	swing3		30	30	move3		30	30	cast3		30	30	red-dmg%		20	20	0
 Runeword917	Daylight	1			char									Hi Ru Ma	r34	r24	r33				hit-skill	Fire Surge	1	40	hit-skill	Lightning Surge	1	40	pierce-fire		20	20	pierce-ltng		20	20	res-all		35	35	ac		150	150	allskills		1	1	0
 Runeword918	Spirit	1			char									Ko Ko Ro	r19	r19	r38				skill	Spirit of Nature	3	3	oskill	Spirit of Nature	12	12	passive-summ-life		25	25	hp		150	150	oskill	Battle Orders	10	10	passive-summ-elemental-resist		20	20	res-all		50	50	0

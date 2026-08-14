@@ -1306,12 +1306,12 @@ of Cold Blast	100	1	1	24	48	20				2	48	hit-skill	Fire Trauma	4	25									1	lblu
 of Cold Blast	100	1	1	36	60	30				2	48	hit-skill	Fire Trauma	4	35									1	lblu	tkni	h2h	asnx								0	0	0
 of Cold Blast	100	1	1	48	80	40				2	48	hit-skill	Fire Trauma	4	45									1	lblu	tkni	h2h	asnx								0	0	0
 of Cold Blast	100	1	1	60		50				2	48	hit-skill	Fire Trauma	4	60									1	lblu	tkni	h2h	asnx								0	0	0
-of Ice Fangs	100	1	1	12	36	10				2	48	hit-skill	STeeth	4	15									1	dblu	tkni	h2h	asnx								0	0	0
+of Ice Fangs	100		1	12	36	10				2	48	hit-skill	STeeth	4	15									1	dblu	tkni	h2h	asnx								0	0	0
 of Ice Fangs	100	1	1	24	48	20				2	48	hit-skill	STeeth	4	25									1	dblu	tkni	h2h	asnx								0	0	0
 of Ice Fangs	100	1	1	36	60	30				2	48	hit-skill	STeeth	4	35									1	dblu	tkni	h2h	asnx								0	0	0
 of Ice Fangs	100	1	1	48	80	40				2	48	hit-skill	STeeth	4	45									1	dblu	tkni	h2h	asnx								0	0	0
 of Ice Fangs	100	1	1	60		50				2	48	hit-skill	STeeth	4	60									1	dblu	tkni	h2h	asnx								0	0	0
-of Cold Wave	100	1	1	12	36	10				2	48	hit-skill	SCold Missiles	4	15									1	cblu	tkni	h2h	asnx								0	0	0
+of Cold Wave	100		1	12	36	10				2	48	hit-skill	SCold Missiles	4	15									1	cblu	tkni	h2h	asnx								0	0	0
 of Cold Wave	100	1	1	24	48	20				2	48	hit-skill	SCold Missiles	4	25									1	cblu	tkni	h2h	asnx								0	0	0
 of Cold Wave	100	1	1	36	60	30				2	48	hit-skill	SCold Missiles	4	35									1	cblu	tkni	h2h	asnx								0	0	0
 of Cold Wave	100	1	1	48	80	40				2	48	hit-skill	SCold Missiles	4	45									1	cblu	tkni	h2h	asnx								0	0	0
@@ -1341,58 +1341,58 @@ of Skill Master	100	1	1	96		60				1	58	oskill	Lightning Warp	10	20									1	whi
 of Skill Master	100	1	1	96		60				1	58	oskill	Venom Veil	10	20									1	cgrn	amul										0	0	0
 of Skill Master	100	1	1	96		60				1	58	oskill	Umbral Flight	10	20									1	bwht	amul										0	0	0
 of Skill Master	100	1	1	96		60				1	58	oskill	Wind Walk	10	20									1	blac	amul										0	0	0
-of Permafrost	100	1	1	12	36	10				1	48	att-skill	Permafrost	20	15									1	dred	mana										0	0	0
+of Permafrost	100		1	12	36	10				1	48	att-skill	Permafrost	20	15									1	dred	mana										0	0	0
 of Permafrost	100	1	1	24	48	20				1	48	att-skill	Permafrost	20	25									1	dred	mana										0	0	0
 of Permafrost	100	1	1	36	60	30				1	48	att-skill	Permafrost	20	35									1	dred	mana										0	0	0
 of Permafrost	100	1	1	48	80	40				1	48	att-skill	Permafrost	20	45									1	cred	mana										0	0	0
 of Permafrost	100	1	1	60		50				1	48	att-skill	Permafrost	20	60									1	cred	mana										0	0	0
-of Conflagrate	100	1	1	12	36	10				1	48	att-skill	Conflagrate	20	15									1	dred	mana										0	0	0
+of Conflagrate	100		1	12	36	10				1	48	att-skill	Conflagrate	20	15									1	dred	mana										0	0	0
 of Conflagrate	100	1	1	24	48	20				1	48	att-skill	Conflagrate	20	25									1	dred	mana										0	0	0
 of Conflagrate	100	1	1	36	60	30				1	48	att-skill	Conflagrate	20	35									1	dred	mana										0	0	0
 of Conflagrate	100	1	1	48	80	40				1	48	att-skill	Conflagrate	20	45									1	cred	mana										0	0	0
 of Conflagrate	100	1	1	60		50				1	48	att-skill	Conflagrate	20	60									1	cred	mana										0	0	0
-of Storm Nexus	100	1	1	12	36	10				1	48	att-skill	Storm Nexus	20	15									1	dred	mana										0	0	0
+of Storm Nexus	100		1	12	36	10				1	48	att-skill	Storm Nexus	20	15									1	dred	mana										0	0	0
 of Storm Nexus	100	1	1	24	48	20				1	48	att-skill	Storm Nexus	20	25									1	dred	mana										0	0	0
 of Storm Nexus	100	1	1	36	60	30				1	48	att-skill	Storm Nexus	20	35									1	dred	mana										0	0	0
 of Storm Nexus	100	1	1	48	80	40				1	48	att-skill	Storm Nexus	20	45									1	cred	mana										0	0	0
 of Storm Nexus	100	1	1	60		50				1	48	att-skill	Storm Nexus	20	60									1	cred	mana										0	0	0
-of Orb of Winter	100	1	1	12	36	10				1	48	cast-skill	Orb of Winter	5	15									1	dblu	staf	wand	orb								0	0	0
+of Orb of Winter	100		1	12	36	10				1	48	cast-skill	Orb of Winter	5	15									1	dblu	staf	wand	orb								0	0	0
 of Orb of Winter	100	1	1	24	48	20				1	48	cast-skill	Orb of Winter	5	25									1	dblu	staf	wand	orb								0	0	0
 of Orb of Winter	100	1	1	36	60	30				1	48	cast-skill	Orb of Winter	5	35									1	dblu	staf	wand	orb								0	0	0
 of Orb of Winter	100	1	1	48	80	40				1	48	cast-skill	Orb of Winter	5	45									1	cblu	staf	wand	orb								0	0	0
 of Orb of Winter	100	1	1	60		50				1	48	cast-skill	Orb of Winter	5	60									1	cblu	staf	wand	orb								0	0	0
-of Permafrost	100	1	1	12	36	10				1	48	cast-skill	Permafrost	5	15									1	dblu	staf	wand	orb								0	0	0
+of Permafrost	100		1	12	36	10				1	48	cast-skill	Permafrost	5	15									1	dblu	staf	wand	orb								0	0	0
 of Permafrost	100	1	1	24	48	20				1	48	cast-skill	Permafrost	5	25									1	dblu	staf	wand	orb								0	0	0
 of Permafrost	100	1	1	36	60	30				1	48	cast-skill	Permafrost	5	35									1	dblu	staf	wand	orb								0	0	0
 of Permafrost	100	1	1	48	80	40				1	48	cast-skill	Permafrost	5	45									1	cblu	staf	wand	orb								0	0	0
 of Permafrost	100	1	1	60		50				1	48	cast-skill	Permafrost	5	60									1	cblu	staf	wand	orb								0	0	0
-of Conflagrate	100	1	1	12	36	10				1	48	cast-skill	Conflagrate	5	15									1	dblu	staf	wand	orb								0	0	0
+of Conflagrate	100		1	12	36	10				1	48	cast-skill	Conflagrate	5	15									1	dblu	staf	wand	orb								0	0	0
 of Conflagrate	100	1	1	24	48	20				1	48	cast-skill	Conflagrate	5	25									1	dblu	staf	wand	orb								0	0	0
 of Conflagrate	100	1	1	36	60	30				1	48	cast-skill	Conflagrate	5	35									1	dblu	staf	wand	orb								0	0	0
 of Conflagrate	100	1	1	48	80	40				1	48	cast-skill	Conflagrate	5	45									1	cblu	staf	wand	orb								0	0	0
 of Conflagrate	100	1	1	60		50				1	48	cast-skill	Conflagrate	5	60									1	cblu	staf	wand	orb								0	0	0
-of Storm Nexus	100	1	1	12	36	10				1	48	cast-skill	Storm Nexus	5	15									1	dblu	staf	wand	orb								0	0	0
+of Storm Nexus	100		1	12	36	10				1	48	cast-skill	Storm Nexus	5	15									1	dblu	staf	wand	orb								0	0	0
 of Storm Nexus	100	1	1	24	48	20				1	48	cast-skill	Storm Nexus	5	25									1	dblu	staf	wand	orb								0	0	0
 of Storm Nexus	100	1	1	36	60	30				1	48	cast-skill	Storm Nexus	5	35									1	dblu	staf	wand	orb								0	0	0
 of Storm Nexus	100	1	1	48	80	40				1	48	cast-skill	Storm Nexus	5	45									1	cblu	staf	wand	orb								0	0	0
 of Storm Nexus	100	1	1	60		50				1	48	cast-skill	Storm Nexus	5	60									1	cblu	staf	wand	orb								0	0	0
-of Rain of Fire	100	1	1	12	36	10				1	48	cast-skill	Rain of Fire	5	15									1	dblu	staf	wand	orb								0	0	0
+of Rain of Fire	100		1	12	36	10				1	48	cast-skill	Rain of Fire	5	15									1	dblu	staf	wand	orb								0	0	0
 of Rain of Fire	100	1	1	24	48	20				1	48	cast-skill	Rain of Fire	5	25									1	dblu	staf	wand	orb								0	0	0
 of Rain of Fire	100	1	1	36	60	30				1	48	cast-skill	Rain of Fire	5	35									1	dblu	staf	wand	orb								0	0	0
 of Rain of Fire	100	1	1	48	80	40				1	48	cast-skill	Rain of Fire	5	45									1	cblu	staf	wand	orb								0	0	0
 of Rain of Fire	100	1	1	60		50				1	48	cast-skill	Rain of Fire	5	60									1	cblu	staf	wand	orb								0	0	0
-of Monsoon	100	1	1	12	36	10				1	48	cast-skill	Monsoon	5	15									1	dblu	staf	wand	dclb								0	0	0
-of Monsoon	100	1	1	24	48	20				1	48	cast-skill	Monsoon	5	25									1	dblu	staf	wand	dclb								0	0	0
+of Monsoon	100		1	12	36	10				1	48	cast-skill	Monsoon	5	15									1	dblu	staf	wand	dclb								0	0	0
+of Monsoon	100		1	24	48	20				1	48	cast-skill	Monsoon	5	25									1	dblu	staf	wand	dclb								0	0	0
 of Monsoon	100	1	1	36	60	30				1	48	cast-skill	Monsoon	5	35									1	dblu	staf	wand	dclb								0	0	0
 of Monsoon	100	1	1	48	80	40				1	48	cast-skill	Monsoon	5	45									1	cblu	staf	wand	dclb								0	0	0
 of Monsoon	100	1	1	60		50				1	48	cast-skill	Monsoon	5	60									1	cblu	staf	wand	dclb								0	0	0
-of Volcano	100	1	1	12	36	10				1	48	cast-skill	Volcano	5	15									1	cred	staf	wand	dclb								0	0	0
-of Volcano	100	1	1	24	48	20				1	48	cast-skill	Volcano	5	25									1	cred	staf	wand	dclb								0	0	0
+of Volcano	100		1	12	36	10				1	48	cast-skill	Volcano	5	15									1	cred	staf	wand	dclb								0	0	0
+of Volcano	100		1	24	48	20				1	48	cast-skill	Volcano	5	25									1	cred	staf	wand	dclb								0	0	0
 of Volcano	100	1	1	36	60	30				1	48	cast-skill	Volcano	5	35									1	cred	staf	wand	dclb								0	0	0
 of Volcano	100	1	1	48	80	40				1	48	cast-skill	Volcano	5	45									1	cred	staf	wand	dclb								0	0	0
 of Volcano	100	1	1	60		50				1	48	cast-skill	Volcano	5	60									1	cred	staf	wand	dclb								0	0	0
-of Cataclysm	100	1	1	12	36	10				1	48	cast-skill	Cataclysm	5	15									1	blac	staf	wand	dclb								0	0	0
-of Cataclysm	100	1	1	24	48	20				1	48	cast-skill	Cataclysm	5	25									1	blac	staf	wand	dclb								0	0	0
+of Cataclysm	100		1	12	36	10				1	48	cast-skill	Cataclysm	5	15									1	blac	staf	wand	dclb								0	0	0
+of Cataclysm	100		1	24	48	20				1	48	cast-skill	Cataclysm	5	25									1	blac	staf	wand	dclb								0	0	0
 of Cataclysm	100	1	1	36	60	30				1	48	cast-skill	Cataclysm	5	35									1	blac	staf	wand	dclb								0	0	0
 of Cataclysm	100	1	1	48	80	40				1	48	cast-skill	Cataclysm	5	45									1	blac	staf	wand	dclb								0	0	0
 of Cataclysm	100	1	1	60		50				1	48	cast-skill	Cataclysm	5	60									1	blac	staf	wand	dclb								0	0	0
@@ -1401,18 +1401,13 @@ of Bone Wave	100	1	1	24	48	20				1	48	cast-skill	Teeth	5	25									1	blac	staf	
 of Bone Wave	100	1	1	36	60	30				1	48	cast-skill	Teeth	5	35									1	blac	staf	wand	ndgr								0	0	0
 of Bone Wave	100	1	1	48	80	40				1	48	cast-skill	Teeth	5	45									1	blac	staf	wand	ndgr								0	0	0
 of Bone Wave	100	1	1	60		50				1	48	cast-skill	Teeth	5	60									1	blac	staf	wand	ndgr								0	0	0
-of Bone Spear	100	1	1	12	36	10				1	48	cast-skill	Bone Spear	5	15									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spear	100	1	1	24	48	20				1	48	cast-skill	Bone Spear	5	25									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spear	100	1	1	36	60	30				1	48	cast-skill	Bone Spear	5	35									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spear	100	1	1	48	80	40				1	48	cast-skill	Bone Spear	5	45									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spear	100	1	1	60		50				1	48	cast-skill	Bone Spear	5	60									1	blac	staf	wand	ndgr								0	0	0
-of Bone Spirit	100	1	1	12	36	10				1	48	cast-skill	Bone Spirit	5	15									1	blac	staf	wand	ndgr								0	0	0
-of Bone Spirit	100	1	1	24	48	20				1	48	cast-skill	Bone Spirit	5	25									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spirit	100	1	1	36	60	30				1	48	cast-skill	Bone Spirit	5	35									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spirit	100	1	1	48	80	40				1	48	cast-skill	Bone Spirit	5	45									1	blac	staf	wand	ndgr								0	0	0
 of Bone Spirit	100	1	1	60		50				1	48	cast-skill	Bone Spirit	5	60									1	blac	staf	wand	ndgr								0	0	0
-of Hells Gate	100	1	1	12	36	10				1	48	cast-skill	Hells Gate	5	15									1	blac	staf	wand	ndgr								0	0	0
-of Hells Gate	100	1	1	24	48	20				1	48	cast-skill	Hells Gate	5	25									1	blac	staf	wand	ndgr								0	0	0
 of Hells Gate	100	1	1	36	60	30				1	48	cast-skill	Hells Gate	5	35									1	blac	staf	wand	ndgr								0	0	0
 of Hells Gate	100	1	1	48	80	40				1	48	cast-skill	Hells Gate	5	45									1	blac	staf	wand	ndgr								0	0	0
 of Hells Gate	100	1	1	60		50				1	48	cast-skill	Hells Gate	5	60									1	blac	staf	wand	ndgr								0	0	0
@@ -1421,18 +1416,108 @@ of Bone Wave	100	1	1	24	48	20				1	48	att-skill	Teeth	5	25									1	blac	staf	w
 of Bone Wave	100	1	1	36	60	30				1	48	att-skill	Teeth	5	35									1	blac	staf	wand	npol								0	0	0
 of Bone Wave	100	1	1	48	80	40				1	48	att-skill	Teeth	5	45									1	blac	staf	wand	npol								0	0	0
 of Bone Wave	100	1	1	60		50				1	48	att-skill	Teeth	5	60									1	blac	staf	wand	npol								0	0	0
-of Bone Spear	100	1	1	12	36	10				1	48	att-skill	Bone Spear	5	15									1	blac	staf	wand	npol								0	0	0
 of Bone Spear	100	1	1	24	48	20				1	48	att-skill	Bone Spear	5	25									1	blac	staf	wand	npol								0	0	0
 of Bone Spear	100	1	1	36	60	30				1	48	att-skill	Bone Spear	5	35									1	blac	staf	wand	npol								0	0	0
 of Bone Spear	100	1	1	48	80	40				1	48	att-skill	Bone Spear	5	45									1	blac	staf	wand	npol								0	0	0
 of Bone Spear	100	1	1	60		50				1	48	att-skill	Bone Spear	5	60									1	blac	staf	wand	npol								0	0	0
-of Bone Spirit	100	1	1	12	36	10				1	48	att-skill	Bone Spirit	5	15									1	blac	staf	wand	npol								0	0	0
-of Bone Spirit	100	1	1	24	48	20				1	48	att-skill	Bone Spirit	5	25									1	blac	staf	wand	npol								0	0	0
-of Bone Spirit	100	1	1	36	60	30				1	48	att-skill	Bone Spirit	5	35									1	blac	staf	wand	npol								0	0	0
-of Bone Spirit	100	1	1	48	80	40				1	48	att-skill	Bone Spirit	5	45									1	blac	staf	wand	npol								0	0	0
-of Bone Spirit	100	1	1	60		50				1	48	att-skill	Bone Spirit	5	60									1	blac	staf	wand	npol								0	0	0
-of Hells Gate	100	1	1	12	36	10				1	48	att-skill	Hells Gate	5	15									1	blac	staf	wand	npol								0	0	0
-of Hells Gate	100	1	1	24	48	20				1	48	att-skill	Hells Gate	5	25									1	blac	staf	wand	npol								0	0	0
-of Hells Gate	100	1	1	36	60	30				1	48	att-skill	Hells Gate	5	35									1	blac	staf	wand	npol								0	0	0
-of Hells Gate	100	1	1	48	80	40				1	48	att-skill	Hells Gate	5	45									1	blac	staf	wand	npol								0	0	0
-of Hells Gate	100	1	1	60		50				1	48	att-skill	Hells Gate	5	60									1	blac	staf	wand	npol								0	0	0
+of Bone Spirit	100	1	1	36	60	30				1	48	att-skill	Bone Spirit	5	35									1	whit	staf	wand	npol								0	0	0
+of Bone Spirit	100	1	1	48	80	40				1	48	att-skill	Bone Spirit	5	45									1	whit	staf	wand	npol								0	0	0
+of Bone Spirit	100	1	1	60		50				1	48	att-skill	Bone Spirit	5	60									1	whit	staf	wand	npol								0	0	0
+of Hells Gate	100	1	1	36	60	30				1	48	att-skill	Hells Gate	5	35									1	bwht	staf	wand	npol								0	0	0
+of Hells Gate	100	1	1	48	80	40				1	48	att-skill	Hells Gate	5	45									1	bwht	staf	wand	npol								0	0	0
+of Hells Gate	100	1	1	60		50				1	48	att-skill	Hells Gate	5	60									1	bwht	staf	wand	npol								0	0	0
+of Spearstorm	100	1	1	12	36	10				1	48	att-skill	Spearstorm	25	5									1	blac	spea	jave									0	0	0
+of Spearstorm	100	1	1	24	48	20				1	48	att-skill	Spearstorm	25	15									1	blac	spea	jave									0	0	0
+of Spearstorm	100	1	1	36	60	30				1	48	att-skill	Spearstorm	25	25									1	blac	spea	jave									0	0	0
+of Spearstorm	100	1	1	48	80	40				1	48	att-skill	Spearstorm	25	40									1	blac	spea	jave									0	0	0
+of Spearstorm	100	1	1	60		50				1	48	att-skill	Spearstorm	25	60									1	blac	spea	jave									0	0	0
+of Fend	100	1	1	12	36	10				1	48	att-skill	Fend	25	5									1	blac	spea	jave									0	0	0
+of Fend	100	1	1	24	48	20				1	48	att-skill	Fend	25	15									1	blac	spea	jave									0	0	0
+of Fend	100	1	1	36	60	30				1	48	att-skill	Fend	25	25									1	blac	spea	jave									0	0	0
+of Fend	100	1	1	48	80	40				1	48	att-skill	Fend	25	40									1	blac	spea	jave									0	0	0
+of Fend	100	1	1	60		50				1	48	att-skill	Fend	25	60									1	blac	spea	jave									0	0	0
+of Dance of Death	100	1	1	24	48	20				1	48	att-skill	Dance of Death	25	15									1	blac	spea	jave									0	0	0
+of Dance of Death	100	1	1	36	60	30				1	48	att-skill	Dance of Death	25	25									1	blac	spea	jave									0	0	0
+of Dance of Death	100	1	1	48	80	40				1	48	att-skill	Dance of Death	25	40									1	blac	spea	jave									0	0	0
+of Dance of Death	100	1	1	60		50				1	48	att-skill	Dance of Death	25	60									1	blac	spea	jave									0	0	0
+of Dragon Blade	100	1	1	12	36	10				1	48	att-skill	Cobra Strike	25	5									1	blac	asnx	h2h1	h2h2								0	0	0
+of Dragon Blade	100	1	1	24	48	20				1	48	att-skill	Cobra Strike	25	15									1	blac	asnx	h2h1	h2h2								0	0	0
+of Dragon Blade	100	1	1	36	60	30				1	48	att-skill	Cobra Strike	25	25									1	blac	asnx	h2h1	h2h2								0	0	0
+of Dragon Blade	100	1	1	48	80	40				1	48	att-skill	Cobra Strike	25	40									1	blac	asnx	h2h1	h2h2								0	0	0
+of Dragon Blade	100	1	1	60		50				1	48	att-skill	Cobra Strike	25	60									1	blac	asnx	h2h1	h2h2								0	0	0
+of Stun	100	1	1	12	36	10				1	48	att-skill	Stun	25	5									1	blac	weap							staf	wand	orb	0	0	0
+of Stun	100	1	1	24	48	20				1	48	att-skill	Stun	25	15									1	blac	weap							staf	wand	orb	0	0	0
+of Stun	100	1	1	36	60	30				1	48	att-skill	Stun	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Stun	100	1	1	48	80	40				1	48	att-skill	Stun	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Stun	100	1	1	60		50				1	48	att-skill	Stun	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Concentrate	100	1	1	12	36	10				1	48	att-skill	Concentrate	25	5									1	lgry	weap							staf	wand	orb	0	0	0
+of Concentrate	100	1	1	24	48	20				1	48	att-skill	Concentrate	25	15									1	lgry	weap							staf	wand	orb	0	0	0
+of Concentrate	100	1	1	36	60	30				1	48	att-skill	Concentrate	25	25									1	lgry	weap							staf	wand	orb	0	0	0
+of Concentrate	100	1	1	48	80	40				1	48	att-skill	Concentrate	25	40									1	lgry	weap							staf	wand	orb	0	0	0
+of Concentrate	100	1	1	60		50				1	48	att-skill	Concentrate	25	60									1	lgry	weap							staf	wand	orb	0	0	0
+of Overwhelm	100	1	1	24	48	20				1	48	att-skill	Bash	25	15									1	blac	weap							staf	wand	orb	0	0	0
+of Overwhelm	100	1	1	36	60	30				1	48	att-skill	Bash	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Overwhelm	100	1	1	48	80	40				1	48	att-skill	Bash	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Overwhelm	100	1	1	60		50				1	48	att-skill	Bash	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Berserk	100	1	1	36	60	30				1	48	att-skill	Berserk	25	25									1	dgry	weap							staf	wand	orb	0	0	0
+of Berserk	100	1	1	48	80	40				1	48	att-skill	Berserk	25	40									1	dgry	weap							staf	wand	orb	0	0	0
+of Berserk	100	1	1	60		50				1	48	att-skill	Berserk	25	60									1	dgry	weap							staf	wand	orb	0	0	0
+of Axe Swarm	100	1	1	12	36	10				1	48	att-skill	Axe Swarm	25	5									1	blac	weap							staf	wand	orb	0	0	0
+of Axe Swarm	100	1	1	24	48	20				1	48	att-skill	Axe Swarm	25	15									1	blac	weap							staf	wand	orb	0	0	0
+of Axe Swarm	100	1	1	36	60	30				1	48	att-skill	Axe Swarm	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Axe Swarm	100	1	1	48	80	40				1	48	att-skill	Axe Swarm	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Axe Swarm	100	1	1	60		50				1	48	att-skill	Axe Swarm	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Thunder Strike	100	1	1	12	36	10				1	48	att-skill	Axe Mastery	25	5									1	lyel	weap							staf	wand	orb	0	0	0
+of Thunder Strike	100	1	1	24	48	20				1	48	att-skill	Axe Mastery	25	15									1	lyel	weap							staf	wand	orb	0	0	0
+of Thunder Strike	100	1	1	36	60	30				1	48	att-skill	Axe Mastery	25	25									1	lyel	weap							staf	wand	orb	0	0	0
+of Thunder Strike	100	1	1	48	80	40				1	48	att-skill	Axe Mastery	25	40									1	lyel	weap							staf	wand	orb	0	0	0
+of Thunder Strike	100	1	1	60		50				1	48	att-skill	Axe Mastery	25	60									1	lyel	weap							staf	wand	orb	0	0	0
+of Fury	100	1	1	36	60	30				1	48	att-skill	Fury	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Fury	100	1	1	48	80	40				1	48	att-skill	Fury	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Fury	100	1	1	60		50				1	48	att-skill	Fury	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Shockwave	100	1	1	24	48	20				1	48	att-skill	Shock Wave	25	15									1	blac	weap							staf	wand	orb	0	0	0
+of Shockwave	100	1	1	36	60	30				1	48	att-skill	Shock Wave	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Shockwave	100	1	1	48	80	40				1	48	att-skill	Shock Wave	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Shockwave	100	1	1	60		50				1	48	att-skill	Shock Wave	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Fire Claws	100	1	1	24	48	20				1	48	att-skill	Fire Claws	25	15									1	cred	weap							staf	wand	orb	0	0	0
+of Fire Claws	100	1	1	36	60	30				1	48	att-skill	Fire Claws	25	25									1	cred	weap							staf	wand	orb	0	0	0
+of Fire Claws	100	1	1	48	80	40				1	48	att-skill	Fire Claws	25	40									1	cred	weap							staf	wand	orb	0	0	0
+of Fire Claws	100	1	1	60		50				1	48	att-skill	Fire Claws	25	60									1	cred	weap							staf	wand	orb	0	0	0
+of Freezing Claws	100	1	1	24	48	20				1	48	att-skill	Freezing Claws	25	15									1	cblu	weap							staf	wand	orb	0	0	0
+of Freezing Claws	100	1	1	36	60	30				1	48	att-skill	Freezing Claws	25	25									1	cblu	weap							staf	wand	orb	0	0	0
+of Freezing Claws	100	1	1	48	80	40				1	48	att-skill	Freezing Claws	25	40									1	cblu	weap							staf	wand	orb	0	0	0
+of Freezing Claws	100	1	1	60		50				1	48	att-skill	Freezing Claws	25	60									1	cblu	weap							staf	wand	orb	0	0	0
+of Charged Claws	100	1	1	36	60	30				1	48	att-skill	SCharged Strike	25	25									1	dyel	weap							staf	wand	orb	0	0	0
+of Charged Claws	100	1	1	48	80	40				1	48	att-skill	SCharged Strike	25	40									1	dyel	weap							staf	wand	orb	0	0	0
+of Charged Claws	100	1	1	60		50				1	48	att-skill	SCharged Strike	25	60									1	dyel	weap							staf	wand	orb	0	0	0
+of Poison Weapon	100	1	1	12	36	10				1	48	att-skill	Poison Dagger	15	5									1	cgrn	weap							staf	wand	orb	0	0	0
+of Poison Weapon	100	1	1	24	48	20				1	48	att-skill	Poison Dagger	15	10									1	cgrn	weap							staf	wand	orb	0	0	0
+of Poison Weapon	100	1	1	36	60	30				1	48	att-skill	Poison Dagger	15	15									1	cgrn	weap							staf	wand	orb	0	0	0
+of Poison Weapon	100	1	1	48	80	40				1	48	att-skill	Poison Dagger	15	20									1	cgrn	weap							staf	wand	orb	0	0	0
+of Poison Weapon	100	1	1	60		50				1	48	att-skill	Poison Dagger	15	25									1	cgrn	weap							staf	wand	orb	0	0	0
+of Reap Souls	100	1	1	12	36	10				1	48	att-skill	Killer Scythe	25	5									1	blac	pole	knif						tkni			0	0	0
+of Reap Souls	100	1	1	24	48	20				1	48	att-skill	Killer Scythe	25	15									1	blac	pole	knif						tkni			0	0	0
+of Reap Souls	100	1	1	36	60	30				1	48	att-skill	Killer Scythe	25	25									1	blac	pole	knif						tkni			0	0	0
+of Reap Souls	100	1	1	48	80	40				1	48	att-skill	Killer Scythe	25	40									1	blac	pole	knif						tkni			0	0	0
+of Reap Souls	100	1	1	60		50				1	48	att-skill	Killer Scythe	25	60									1	blac	pole	knif						tkni			0	0	0
+of Zeal	100	1	1	12	36	10				1	48	att-skill	Zeal	25	5									1	blac	weap							staf	wand	orb	0	0	0
+of Zeal	100	1	1	24	48	20				1	48	att-skill	Zeal	25	15									1	blac	weap							staf	wand	orb	0	0	0
+of Zeal	100	1	1	36	60	30				1	48	att-skill	Zeal	25	25									1	blac	weap							staf	wand	orb	0	0	0
+of Zeal	100	1	1	48	80	40				1	48	att-skill	Zeal	25	40									1	blac	weap							staf	wand	orb	0	0	0
+of Zeal	100	1	1	60		50				1	48	att-skill	Zeal	25	60									1	blac	weap							staf	wand	orb	0	0	0
+of Crucify	100	1	1	12	36	10				1	48	att-skill	Crucify	25	5									1	cred	weap							staf	wand	orb	0	0	0
+of Crucify	100	1	1	24	48	20				1	48	att-skill	Crucify	25	15									1	cred	weap							staf	wand	orb	0	0	0
+of Crucify	100	1	1	36	60	30				1	48	att-skill	Crucify	25	25									1	cred	weap							staf	wand	orb	0	0	0
+of Crucify	100	1	1	48	80	40				1	48	att-skill	Crucify	25	40									1	cred	weap							staf	wand	orb	0	0	0
+of Crucify	100	1	1	60		50				1	48	att-skill	Crucify	25	60									1	cred	weap							staf	wand	orb	0	0	0
+of Vengeance	100	1	1	24	48	20				1	48	att-skill	Vengeance	25	15									1	cblu	weap							staf	wand	orb	0	0	0
+of Vengeance	100	1	1	36	60	30				1	48	att-skill	Vengeance	25	25									1	cblu	weap							staf	wand	orb	0	0	0
+of Vengeance	100	1	1	48	80	40				1	48	att-skill	Vengeance	25	40									1	cblu	weap							staf	wand	orb	0	0	0
+of Vengeance	100	1	1	60		50				1	48	att-skill	Vengeance	25	60									1	cblu	weap							staf	wand	orb	0	0	0
+of Judgement	100	1	1	36	60	30				1	48	att-skill	Judgement	12	25									1	bwht	weap							staf	wand	orb	0	0	0
+of Judgement	100	1	1	48	80	40				1	48	att-skill	Judgement	12	40									1	bwht	weap							staf	wand	orb	0	0	0
+of Judgement	100	1	1	60		50				1	48	att-skill	Judgement	12	60									1	bwht	weap							staf	wand	orb	0	0	0
+of Fanatic Swing	100	1	1	24	48	20				1	48	att-skill	Fanatic Swing	25	25									1	cred	staf	wand	orb								0	0	0
+of Fanatic Swing	100	1	1	36	60	30				1	48	att-skill	Fanatic Swing	25	35									1	cred	staf	wand	orb								0	0	0
+of Fanatic Swing	100	1	1	48	80	40				1	48	att-skill	Fanatic Swing	25	45									1	cred	staf	wand	orb								0	0	0
+of Fanatic Swing	100	1	1	60		50				1	48	att-skill	Fanatic Swing	25	60									1	cred	staf	wand	orb								0	0	0
