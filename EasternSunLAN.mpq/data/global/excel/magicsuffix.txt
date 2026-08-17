@@ -140,7 +140,7 @@ of the Whale	100	1	1	65		55				12	27	hp		101	150									1	cred	amul	tors	shld	b
 of the Whale	100	1	1	85		63				6	27	hp		151	250									1	cred	amul	tors	shld								0	0	0
 of the Leech	100	1	1	10	80	5				22	28	lifesteal		4	6	manasteal		4	6					1	cred	weap	amul	circ	ring	glov						0	0	0
 of the Locust	100	1	1	50		15				22	28	lifesteal		7	9	manasteal		7	9					1	cred	weap	amul	circ	ring	glov						0	0	0
-of the Lamprey	100	1	1	80		43				11	28	lifesteal		10	12	manasteal		10	12					1	cred	mele										0	0	0
+of the Lamprey	100	1	1	80		43				11	28	lifesteal		10	20	manasteal		10	20					1	cred	mele										0	0	0
 of the Bat	100		1	7		4				22	29	manasteal		4	6									1	cblu	weap	amul	ring	circ	glov						0	0	0
 of the Wraith	100		1	21		16				22	29	manasteal		7	9									1	cblu	weap	amul	ring	circ							0	0	0
 of the Vampire	100		1	56		48				22	29	manasteal		10	12									1	cblu	mele										0	0	0
@@ -1170,10 +1170,10 @@ of the Stone Golem	100	1	1	60		72				4	63	extra-wind		26	40									1	dgry	staf	
 of the Stone Golem	100	1	1	72		72				4	63	extra-wind		41	60									1	dgry	staf										0	0	0
 of the Stone Golem	100	1	1	85		72				2	63	extra-wind		61	80									1	dgry	staf										0	0	0
 of the Beastmaster	100	1	1	42	60	42				4	63	extra-summ		10	15									1	dgld	npol	staf									0	0	0
-of the Beastmaster	100	1	1	48		48				4	63	extra-summ		16	20									1	dgld	npol	staf									0	0	0
-of the Beastmaster	100	1	1	60		72				4	63	extra-summ		21	30									1	dgld	npol	staf									0	0	0
-of the Beastmaster	100	1	1	72		72				4	63	extra-summ		31	40									1	dgld	npol	staf									0	0	0
-of the Beastmaster	100	1	1	85		72				2	63	extra-summ		41	50									1	dgld	npol	staf									0	0	0
+of the Beastmaster	100	1	1	48		48				4	63	extra-summ		16	25									1	dgld	npol	staf									0	0	0
+of the Beastmaster	100	1	1	60		72				4	63	extra-summ		26	40									1	dgld	npol	staf									0	0	0
+of the Beastmaster	100	1	1	72		72				4	63	extra-summ		41	60									1	dgld	npol	staf									0	0	0
+of the Beastmaster	100	1	1	85		72				2	63	extra-summ		61	80									1	dgld	npol	staf									0	0	0
 of Skill Master	100	1	1	32	69	24		pal	1	2	58	oskill	Blessed Aim	1	10											weap							pala			0	0	0
 of Skill Master	100	1	1	32	94	24		pal	1	2	58	oskill	Blessed Aim	1	10											glov							pala			0	0	0
 of Skill Master	100	1	1	40	69	30		pal	6	2	58	oskill	Defiance	1	15											helm	tors						pala			0	0	0
@@ -1521,3 +1521,4 @@ of Fanatic Swing	100	1	1	24	48	20				1	48	att-skill	Fanatic Swing	25	25									
 of Fanatic Swing	100	1	1	36	60	30				1	48	att-skill	Fanatic Swing	25	35									1	cred	staf	wand	orb								0	0	0
 of Fanatic Swing	100	1	1	48	80	40				1	48	att-skill	Fanatic Swing	25	45									1	cred	staf	wand	orb								0	0	0
 of Fanatic Swing	100	1	1	60		50				1	48	att-skill	Fanatic Swing	25	60									1	cred	staf	wand	orb								0	0	0
+of Skill Master	100	1	1	72		54				1	58	oskill	Magic Mastery	1	10											amul	ring	helm	tors							0	0	0

@@ -1083,24 +1083,25 @@
         },
         {
             "Name": "Charm Aura Zone Transition Fix - Hook",
-            "Description": "Hooks call to sub_1402EC080 at 2A041F inside sub_1402A01F0 (zone-transition handler; rcx=a1=pGame, rdx=v6=pUnit). Repointed from the charm cave (149B2B1) to the gear-reapply prefix cave at 3630E0, which calls sub_1402D67E0 then falls through into the charm cave. Replaces E8 rel32 CALL with E9 rel32 JMP.",
-            "Category": "Alteration",
+            "Description": "REVERTS the 2026-08-17 reorder experiment back to the long-shipped value: jmp to the gear-reapply prefix cave at 3630E0, which calls sub_1402D67E0 and then falls through into the charm cave at 149B2B1. The reorder (hook pointing straight at 149B2B1, charm cave's terminal jmp retargeted to a tail cave at 35F63C) was based on a wrong root cause and bought nothing, so it is undone rather than left in - it changed when gear auras re-arm for no benefit. Replaces E8 rel32 CALL with E9 rel32 JMP; the stolen call sub_1402EC080 is performed inside the charm cave.",
+            "Category": "Auras",
             "Address": "2A041F",
-            "Length": 5,
             "Type": "Hex",
             "OriginalValues": "E85CBC0400",
             "ModdedValues": "E9BC2C0C00",
-            "Values": "E9BC2C0C00"
+            "Values": "E9BC2C0C00",
+            "Length": 5
         },
         {
             "Name": "Charm Aura Zone Transition Fix - Cave",
-            "Description": "Cave at 149B2B1 (253 bytes). Saves r13=pGame, r12=pUnit. Calls stolen sub_2EC080. Gets pInventory via sub_208330. Walks linked list: IsMatchingType(pItem, 0x0D) for ITEMTYPE_CHARM, checks [pItemData+B8h]==3 (inventory page, excludes cube=6/stash=7), checks [pItemData+18h] & 0x10 (IDENTIFIED flag). Collects qualifying charms (max 32). For each: NULLs [pItem+88h]+0 (pStatListEx->pUnit) then calls sub_1E5EA0(pUnit, pItem, 1) triggering case 151 STAT_ITEM_AURA -> PERIODICSTATS re-registration. Returns to 2A0424.",
+            "Description": "ONE CHANGE from the long-shipped version: the 12 bytes at cave offset 190 (RVA 149B36F) - test rax,rax / je 149B37C / mov qword [rax],0 - are replaced with 12x 0x90. That mov was the 'NULL [pItem+0x88]+0 (pStatListEx->pUnit)' step. Nulling the owner forced sub_1401E5EA0 down its full re-attach branch, and sub_1401E4EA0 begins by calling sub_1401E4300 on the charm's statlist, which UNLINKS it from the player and propagates a NEGATIVE delta for every stat it carries (sub_1401E4120(parent, key, -value, ...) at 1E4503 and 1E453F). That drives the player's aggregate item_singleskill/item_nonclassskill for the charm's oskill to 0, which fires the statlist fcallback sub_1402D2B00 case 97/107 on its removal branch: LEFT slot re-pointed to Attack via sub_140219690 @2D327A, RIGHT slot via sub_14029A2A0(unit,0,0,-1) @2D3316. The stats are then re-added by the same call, so the skill node and its level come back - but nothing re-selects the mouse slot. That is the whole bug, and it is why reordering the two passes changed nothing: the blip happens inside the charm loop wherever it runs. With the null write gone, sub_1401E5EA0 sees owner == pUnit and takes its enable/disable toggle branch instead, which for an already-enabled charm is a complete no-op and for a disabled one only propagates POSITIVE deltas - no unmerge, no blip either way. The aura re-arm is unaffected because it does not depend on the re-merge: the per-charm call at cave offset 216 goes to Multi-Aura Reactivation cave A (35C3AC), whose cave B (387090) walks the charm's own statlist entries and calls sub_2999E0 directly for every item_aura (151) layer. Also removes a latent crash: the je at offset 193 targeted 149B37C, one byte PAST the end of the 7-byte mov, i.e. into the middle of the following instruction - it would have jumped off-boundary had a charm ever had a null statlist pointer. Verified: 253/253 bytes decode linearly, no internal branch now lands off an instruction boundary, terminal jmp still 2A0424 at offset 248.",
+            "Category": "Auras",
             "Address": "149B2B1",
-            "Length": 253,
             "Type": "Hex",
-            "OriginalValues": "00...",
-            "ModdedValues": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000004885C0740848C700000000004A8B54FC204C89E141B801000000E81E10ECFE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE",
-            "Values": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000004885C0740848C700000000004A8B54FC204C89E141B801000000E81E10ECFE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE"
+            "OriginalValues": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "ModdedValues": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000009090909090909090909090904A8B54FC204C89E141B801000000E81E10ECFE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE",
+            "Values": "5553565741544155415641574881EC200100004989CD4989D4E8B10DE5FE4C89E1E859D0D6FE4885C00F84B60000004889C3488B70104531F64885F60F84640000004889F1BA0D000000E88033D6FE85C00F8436000000488B46104885C00F842900000080B8B8000000030F851C000000F64018100F84120000004183FE200F8D080000004A8974F42041FFC6488B7E104885FF0F840C000000488BB7B0000000E993FFFFFF4531FF4539F70F8D330000004A8B54FC20488B82880000009090909090909090909090904A8B54FC204C89E141B801000000E81E10ECFE41FFC7E9C4FFFFFF4881C420010000415F415E415D415C5F5E5B5DE97650E0FE",
+            "Length": 253
         },
         {
             "Name": "Cube Transmute Crash Fix - Hook",
@@ -2213,14 +2214,14 @@
         },
         {
             "Name": "Gear Aura Zone Transition Reapply - Prefix Cave",
-            "Description": "Freed srvdofunc=122 body sub_1403630E0 (3630E0-3634B9; ESR unused). Prefix to the charm zone cave: at zone transition, calls sub_1402D67E0(rcx=pGame, rdx=pUnit, r8d=0) - the full equipped-item aura reapply pass (body-loc slots 1-11, re-registers type-5 aura events; same routine weapon-swap sub_1402BBA40 and the corpse function sub_14030F9E0 call). Runs at the stable zone-transition moment (client overlay state ready), unlike the resurrect handler where it crashed at 35DC92. Preserves rcx/rdx across the call (push/push, sub 0x20 shadow, call, add 0x20, pop/pop), then jmp 149B2B1 into the existing charm cave which performs its stolen sub_2EC080 call and charm-specific re-arm. On death->respawn-in-town the zone load triggers this, re-arming gear auras.",
-            "Category": "Alteration",
+            "Description": "RESTORED to its long-shipped form (part of undoing the reorder experiment). Freed srvdofunc=122 body sub_1403630E0. At zone transition calls sub_1402D67E0(rcx=pGame, rdx=pUnit, r8d=0) - the full equipped-item aura reapply pass - preserving rcx/rdx across the call (push/push, sub 0x20 shadow, call, add 0x20, pop/pop), then jmp 149B2B1 into the charm cave. NOTE for later, not fixed here: this clobbers r8d (zeroed for the sub_1402D67E0 argument) and r9d (volatile, destroyed by the call) before the charm cave makes its stolen call sub_1402EC080, which stock code reaches with r8d=ebp and r9d=[rsp+0xB0] set at 2A040E-2A0416. It has always been that way and nothing has been reported, but it is a real argument mismatch worth revisiting on its own.",
+            "Category": "Auras",
             "Address": "3630E0",
-            "Length": 25,
             "Type": "Hex",
             "OriginalValues": "00000000000000000000000000000000000000000000000000",
             "ModdedValues": "51524883EC204531C0E8F236F7FF4883C4205A59E9B8811301",
-            "Values": "51524883EC204531C0E8F236F7FF4883C4205A59E9B8811301"
+            "Values": "51524883EC204531C0E8F236F7FF4883C4205A59E9B8811301",
+            "Length": 25
         },
         {
             "Name": "Remove drop-rate player-count halving",
@@ -2868,6 +2869,50 @@
             "ModdedValues": "488B8F880000004885C9743E8B411C85C07937F781D40A000000000400742B48833D3923B0010676214C8B052823B0014981C0980700007411BA00000600E80D56040089C2E9CA770F00E99A770F00",
             "Values": "488B8F880000004885C9743E8B411C85C07937F781D40A000000000400742B48833D3923B0010676214C8B052823B0014981C0980700007411BA00000600E80D56040089C2E9CA770F00E99A770F00",
             "Description": "Cave at RVA 19D820, 79 bytes, in the freed cltdofunc=83 body sub_14019D710 (ApplyRoyalStrikeLvl2), immediately after the charm-dedup cave which ends at 19D811; body is usable to 19D98B so 19D86F..19D98B (285 B) remains free. Loads the statlist (mov rcx,[rdi+88h]) exactly as the original did, then applies the SAME blood_mana test the shared predicate sub_14021A820 already uses: statlist non-null, (int)[statlist+0x1C] < 0 (the has-states guard), and bit 0x40000 of the dword at [statlist+0xAD4] - that dword covers states 96..127 and bit 18 is state 114. When it matches, it reads HITPOINTS instead of mana - stat 6, packed 0x60000, itemstatcost record base + 0x798 (6*324) - bounds-checked against the row count exactly as the stock mana read is, then rejoins at 295034 (cmp edx,ebx) so the existing 'jge -> return 1' does the comparison against LIFE. Every other case, including a null statlist, a unit with no states, or a degenerate itemstatcost table, jumps to 295009 and runs the untouched stock mana path, so behaviour without blood_mana is byte-identical. Only eax, rcx, rdx and r8 are touched, all volatile and all dead or intentionally set at that point; ebx (the cost) and rdi/rsi are non-volatile and survive sub_1401E2E70. Table base and count are read RIP-relative (141C9FB78 / 141C9FB80) so the patch is ASLR-safe. NOT patched deliberately: sub_140294E70 and sub_140360030 already pay in life correctly once the gate lets the cast through."
+        },
+        {
+            "Name": "Durability tick no longer forces a full gear refresh - Hook",
+            "Description": "sub_1400DA980 is the CLIENT handler for server message id 62 (item stat update; the table entry is at 141841B40 + 62*0x18 = 141842110). After applying the stat with sub_1401E5440 it does: cmp ebp,70 / je 1400DAB36 (stat 70 = maxdurability gets its own tiny block) / else call sub_140099650 = the FULL equipment refresh. sub_140099650 unequips and re-applies the stats of every one of the 11 equipped body slots (sub_140099570 / sub_140098DC0), then re-resolves and re-selects BOTH mouse skills (sub_140218C70 -> sub_140169DA0 -> sub_140219690 / sub_140219750), then rebuilds the player composite if either hand slot changed. Whirlwind drains weapon durability on every hit (sub_140374CA0 -> sub_1403292B0 -> sub_1403290C0 -> sub_1402F75C0, 10% per hit for weapons), and each drain sends this packet, so mid-whirl the client tears down and re-applies all equipped item stats and re-selects the mouse skills. When Whirlwind is an oskill granted BY an equipped item, its stat blips to 0 during that teardown, the skill node level is zeroed and recomputed and the selected-skill slot is momentarily re-pointed, which drops the client's sequence state and the spin animation stops while the server keeps whirlwinding. A charm is not in an equipped body slot, so it never blips - which is exactly why the bug only appeared with the oskill on a weapon, and why an indestructible weapon has no stutter. Hook replaces cmp ebp,46h / je 1400DAB36 (5 bytes, 83 FD 46 74 12) with a jmp to the cave. Branch audit of all 17 branches in sub_1400DA980: nothing targets 1400DAB1F and nothing lands inside the 5-byte span.",
+            "Category": "Items",
+            "Address": "DAB1F",
+            "Type": "Hex",
+            "OriginalValues": "83FD467412",
+            "ModdedValues": "E9EE062900",
+            "Values": "E9EE062900",
+            "Length": 5
+        },
+        {
+            "Name": "Durability tick no longer forces a full gear refresh - Cave",
+            "Description": "Replays the stock stat-70 test, then adds stat 72 (current durability) to the set of stats that do NOT trigger sub_140099650. Logic: ebp==70 -> jmp 1400DAB36 (stock maxdurability block, unchanged); ebp==72 -> jmp 1400DAB5B (the function epilogue, which 9 existing branches already target) so the durability value is still applied by the sub_1401E5440 call above but no gear refresh runs; anything else -> jmp 1400DAB24, the stock refresh path, byte-identical to before. Nothing is clobbered - only the flags, which the stock cmp sets anyway. Correctness argument: a change to an item's CURRENT durability cannot change which items are equipped or what stats they grant, so the refresh was never needed for it; the engine already skips it for stat 70, and item breakage is handled by its own packets via sub_1402F70A0 / sub_140312210 / sub_140312740, not by this refresh. Side benefit: this full re-merge currently fires roughly every 10 melee hits for every character, so removing it also removes a recurring source of aura/skill-selection blips. Cave home: free tail of the dead srvdofunc=58 body sub_14036ABA0 (36ABA0-36B243), after the hit-chance display cave which ends 36B211; occupies 36B212-36B228, leaving 36B229-36B242 free. Keystone-assembled at 14036B212, every rel re-derived from the emitted bytes with capstone, all three targets confirmed to be existing instruction boundaries. Collision-checked against all 307 live entries: none.",
+            "Category": "Items",
+            "Address": "36B212",
+            "Type": "Hex",
+            "OriginalValues": "00000000000000000000000000000000000000000000",
+            "ModdedValues": "83FD460F841BF9D6FF83FD480F8437F9D6FFE9FBF8D6FF",
+            "Values": "83FD460F841BF9D6FF83FD480F8437F9D6FFE9FBF8D6FF",
+            "Length": 23
+        },
+        {
+            "Name": "Evil urn monster blocklist - Hook",
+            "Description": "Redirects the evil urn's walk-mode check (call sub_1400A4440 inside OperateFn 68, sub_1403BF6D0) to the blocklist wrapper cave at 36AE90. Replaces the original 5-byte call rel32 exactly.",
+            "Category": "Monsters",
+            "Address": "3BF80C",
+            "Type": "Hex",
+            "OriginalValues": "E82F4CCEFF",
+            "ModdedValues": "call 36AE90",
+            "Values": "E87FB6FAFF",
+            "Length": 5
+        },
+        {
+            "Name": "Evil urn monster blocklist - Cave",
+            "Description": "Wrapper around the monster-mode check. Calls the original check (sub_1400A4440), and if it passed, compares the monster id against a zero-terminated uint32 blocklist at 36AEC4 (12 slots). On a match it returns 0, so the urn's own loop advances to the next monster type in the zone list. If every type is blocked the vanilla list-exhausted path runs and nothing spawns. sub rsp,38 / mov [rsp+30],ecx / call A4440 / mov ecx,[rsp+30] / add rsp,38 / test eax,eax / je ret / lea rdx,[36AEC4] / mov r8d,[rdx] / test r8d,r8d / je ret / add rdx,4 / cmp r8d,ecx / jne loop / xor eax,eax / ret. Table = 1121,1122,1123,1124,1125 then zeros.",
+            "Category": "Monsters",
+            "Address": "36AE90",
+            "Type": "Hex",
+            "OriginalValues": "9F060000008945A3E8639AEAFF488D5597488D8888050000E803BAE7FF4C8B2DC44C93014C8B35C54C93014D85E4742E498B8C24880000004885C974214983FE0C761B4D8D85300F00004D85C0740FBA00000C00E8877FE7FF448BF8EB03448BFF4C8BA3",
+            "ModdedValues": "wrapper + id table",
+            "Values": "4883EC38894C2430E8A395D3FF8B4C24304883C43885C0741A488D1514000000448B024585C0740B4883C2044139C875EF31C0C3610400006204000063040000640400006504000000000000000000000000000000000000000000000000000000000000",
+            "Length": 100
         }
     ]
 }
