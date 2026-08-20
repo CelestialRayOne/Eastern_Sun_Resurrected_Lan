@@ -596,7 +596,7 @@ Runeword596	Composure	1			mele									U Ki Yo	r02	r08	r07				oskill	Claw Master
 Runeword597	Melody	1			miss									Ki Yo Ku	r08	r07	r06				hit-skill	Fire Surge	10	10	hit-skill	Cold Surge	10	10	hit-skill	Lightning Surge	10	10	swing2		50	50	move2		50	50	aura	Conviction	10	10					0
 Runeword598	Famine	1			tors									Ki Ki N	r08	r08	r05				regen		400	400	regen-mana		100	100	lifesteal		10	10	manasteal		5	5	heal-kill		40	40	mana-kill		20	20	ac%		125	125	0
 Runeword599	Insanity	1			tors									Ki Yo U Ki	r08	r07	r02	r08			all-speeds		50	50	ac%		100	100	all-stats		20	20	item-skill-cooldown		10	10	oskill	Power of Athulua	1	1									0
-Runeword600	Hunt	1			helm	char								Ka Ri	r04	r09					allskills		1	1	kill-skill	Warm Up	100	10	move2		40	40	oskill	Blade Nova	1	1	deadly		50	50	dexpercent		20	20	stam/lvl	80			0
+Runeword600	Hunt	1			helm	char								Ka Ri	r04	r09					allskills		1	1	kill-skill	Warm Up	100	10	move2		40	40	deadly		50	50	dexpercent		20	20	stam/lvl	80			reduce-ac		33	33	0
 Runeword601	Wrath	1			mace	hamm	club							I Ka Ri	r01	r04	r09				pierce-ltng		10	10	kill-skill	Static Field	25	45	dmg-ltng		1	500	swing2		50	50	balance2		50	50	crush		50	50					0
 Runeword603	Fog	1			tors	helm								Ki Ri	r08	r09					ac%		100	100	dex		30	30	red-dmg%		10	10	hit-skill	Cloak of Shadows	5	10	dexpercent		20	20	move2		30	30	att		100	100	0
 Runeword604	Noir	1			h2h	swor	knif							Ki Ri Ka	r08	r09	r04				freeze		5	5	kill-skill	Cold Surge	100	10	dmg-cold	25	100	150	mana-kill		10	10	regen		200	200	swing2		50	50	slow		30	30	0

@@ -427,7 +427,7 @@ branded	424		1	3																3	1																1	19		branded	branded								
 totalmaxhp	425		1	16																9	300			11			maxhp																								0
 extra_items	426		1	14																12																	15	19		itemquantity	itemquantity									2	0
 total_physical_resist	427		1	8											250	300				8	100			11			damageresist										293	19		modtotalphysicalresist	modtotalphysicalresist		13	19		modtotalallresist	modtotalallresist			2	0
-placeholder428	428		1	14																																															0
+skillcontrolstrafe	428		1	14																																															0
 placeholder429	429		1	14																																															0
 placeholder430	430		1	14																																															0
 placeholder431	431		1	14																																															0

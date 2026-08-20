@@ -52140,23 +52140,6 @@
     "ruRU": "Каждые 20 уровней один дополнительный основной снаряд"
   },
   {
-    "id": 46903,
-    "Key": "strafechain",
-    "enUS": "Projectiles chain once",
-    "zhTW": "彈藥鏈接一次",
-    "deDE": "Projektile verketten sich einmal",
-    "esES": "Los proyectiles se encadenan una vez.",
-    "frFR": "Les projectiles se chaînent une fois.",
-    "itIT": "I proiettili si concatenano una volta",
-    "koKR": "발사체가 한 번 연쇄됩니다.",
-    "plPL": "Pociski łańcuchowo raz",
-    "esMX": "Los proyectiles encadenan una vez.",
-    "jaJP": "弾丸が一度連鎖する",
-    "ptBR": "Projéteis encadeiam uma vez",
-    "zhCN": "投射物链击一次",
-    "ruRU": "Снаряды цепляются один раз"
-  },
-  {
     "id": 46905,
     "Key": "shadowpetaura",
     "enUS": "Can spawn with auras at equipment level 85 and above",

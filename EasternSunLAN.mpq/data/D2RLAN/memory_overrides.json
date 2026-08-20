@@ -2711,16 +2711,6 @@
             "Values": "E885C80A00"
         },
         {
-            "Name": "Left-slot aura bootstrap on weapon swap - Cave",
-            "Description": "Cave 36AF90-36B015 (134B, srvdo58 stomped-body free tail after the resurrect cave; ~557B remain to 36B242). Entered by CALL from 2BE706, returns 2BE70B. Replays sub_140219690(rdi, r14d, esi), then players only ([rdi]==0): reads the left node [[rdi+0x100]+8] -> record, requires aura flag byte[rec+0x24]&0x20, then DEDUP: walks [rdi+0x320] and skips arming if a type-8 event with customId(+0x18)==r14d already exists; otherwise arms via sub_140299C80([rdi+0xD8], rdi, r14d) + sub_140299430(pGame, rdi, r14d, 0, 0). Identical body to the resurrect cave except the skill id comes from r14d. Preserves rbx/rdi/rsi/r14/r15; sub rsp,0x28. Standalone on purpose (no chaining into 36AF00) so the two entries cannot break each other. keystone-assembled, capstone decode-back verified (calls 219690/299C80/299430, all jumps on boundaries).",
-            "Address": "36AF90",
-            "Type": "Hex",
-            "Length": 134,
-            "OriginalValues": "393B753E488B8B88000000BA00000700E88B7DE7FF413BF67E288BC648895D97412BC6C7459F070000008945A3E83E99EAFF488D5597488D8888050000E8DEB8E7FF4C8BA3880000004D85E4742C48833D9A4B93010676224C8B05894B93014981C0980700007412BA00000600498BCCE86B7EE7FF448BF0EB03448BF78B0385C0750940383D",
-            "ModdedValues": "4883EC284189F04489F24889F9E8EEE6EAFF833F00756A488B8700010000488B40084885C0745A488B004885C07452F6402420744C488B87200300004885C074118038087506443970187435488B4030EBEA488B8FD80000004889FA4589F0E88CECF2FF488B8FD80000004889FA4589F04531C9C744242000000000E81FE4F2FF4883C428C3",
-            "Values": "4883EC284189F04489F24889F9E8EEE6EAFF833F00756A488B8700010000488B40084885C0745A488B004885C07452F6402420744C488B87200300004885C074118038087506443970187435488B4030EBEA488B8FD80000004889FA4589F0E88CECF2FF488B8FD80000004889FA4589F04531C9C744242000000000E81FE4F2FF4883C428C3"
-        },
-        {
             "Name": "Attack rating piecewise hit-chance - shared region (stubs retargeted + live-defense export)",
             "Description": "REPLACES the previous 231B entry at this address. Same 1A2A50 region (cltdofunc=93 MonDoCorpseCycler, sub_1401A2A50, size 0x10E -> usable to 1A2B5D; 263B used, 7B spare). TWO changes vs the shipped 231B version. (1) The combat stub's exit at 1A2B20 retargets jmp 329CF4 -> jmp 1A2B37 (E9CF711800 -> E912000000). (2) 32B EXPORT STUB appended at 1A2B37: `cmp dword[r14],0 / jne SKIP / test r13,r13 / jz SKIP / mov ecx,[r13+4] / mov [rip->1424B54C4],ecx / mov [rip->1424B54C0],esi / SKIP: jmp 329CF4`. Publishes the DEFENDER'S LIVE DEFENSE and its monstats row to a scratch pair in the .data tail padding, gated to player attackers only. Register safety at that point: r14=attacker unit, r13=defender unit and esi=Def are all still live (the curve body at 1A25E0 clobbers only rax,rcx,rdx,r8,r9,r10); the stub touches only ecx, which 329CF4 overwrites on its first instruction; eax=0x51EB851F is preserved so the RNG reciprocal chain is intact. The display stub at 1A2B25 and both hooks (329CB9, BFE7F8) are untouched. Scratch target justified by the live PE section table: .data RVA 017F6000 VirtSize 00CBF4A9 Characteristics C0000040 (writable), tail padding 024B54A9-024B5FFF = 2903B, reads all zero, page Protect=4. keystone-assembled at 1A2B37, capstone decode-back verified.",
             "Address": "1a2a50",
@@ -2913,6 +2903,127 @@
             "ModdedValues": "wrapper + id table",
             "Values": "4883EC38894C2430E8A395D3FF8B4C24304883C43885C0741A488D1514000000448B024585C0740B4883C2044139C875EF31C0C3610400006204000063040000640400006504000000000000000000000000000000000000000000000000000000000000",
             "Length": 100
+        },
+        {
+            "Name": "skills.txt srcdam -> prgcalc3 [1/3] Hook",
+            "Description": "Skill-start sub_140298810, at the point the skills.txt record is resolved. rbx=pUnit, r12=skillId, esi=skillLevel and rbp=skillId*0x284 are all live here and none are clobbered earlier; the following instruction (je at 298873) tests whether rbp resolved. Replaces the 7-byte 'add rbp,[rip->141C9FAD0]', which the cave performs itself before restoring ZF.",
+            "Category": "Skills",
+            "Address": "29886C",
+            "Type": "Hex",
+            "OriginalValues": "48032D5D72A001",
+            "ModdedValues": "jmp 36AEF4 + 2 NOP",
+            "Values": "E983260D009090",
+            "Length": 7
+        },
+        {
+            "Name": "skills.txt srcdam -> prgcalc3 [2/3] Cave",
+            "Description": "Restores 'add rbp,[skillTable]', reads prgcalc3 at skill-record offset 96. If it is 0 or outside the formula pool the cave does nothing and the static srcdam byte stands, so untouched skills are unaffected. Otherwise it evaluates the expression in the caster's context via sub_1406D08C0(poolBase+off, poolSize-off, sub_1402185E0, off_141800280, 7, &ctx) with ctx={unit,skillId,skillLevel}, skips the write if the result is <=0, clamps to 255 and stores into byte[skillRec+485]. Saves and restores rdx (298879 reads [rdx]). Ends with 'test rbp,rbp' to restore ZF for the je at 298873. Occupies 36AEF4-36AF7F.",
+            "Category": "Skills",
+            "Address": "36AEF4",
+            "Type": "Hex",
+            "OriginalValues": "880000004D85E40F84140200004983FE0C0F860A0200004D8D85300F00004D85C00F84FA010000BA00000C00498BCCE8487FE7FF85C00F84E5010000443BF80F8DDC010000448BC0418BD78BCEE8BAF0D7FF83F8018BF0B8010000000F4CF04983FE07761E4D8D85DC0800004D85C07412BA00000700498BCCE8FE7EE7FF448BF0EB03448BF74533C9448BC6",
+            "ModdedValues": "prgcalc3 evaluator -> srcdam byte",
+            "Values": "48032DD54B93018B456085C074764C8B15B73B93014C39D0736A4883EC504889542448488B0D9A3B93014801C14489D229C24C8D05B3D6EAFF4C8D0D4C53490148895C2438448964244089742444488D4424384889442428C744242007000000E867593600488B5424484883C45085C07E123DFF0000007E05B8FF0000008885E50100004885EDE9F3D8F2FF",
+            "Length": 140
+        },
+        {
+            "Name": "skills.txt srcdam -> prgcalc3 [3/3] Missile ungate",
+            "Description": "sub_14024D580 missile damage init. edi holds skills.txt srcdam (loaded 24D95E, non-volatile across the five damage-getter calls). Vanilla 'cmovne ecx,edi' discards it whenever the missile's own missiles.txt SrcDamage byte is 0xFF/blank. 'lea ecx,[rdi+rdi]' makes it unconditional AND doubles it in one 3-byte instruction, so srcdam 255 -> 510 -> 398% weapon damage. Scoped to the nSkill>0 branch, so missiles whose missiles.txt SrcDamage is itself the damage source are untouched. Boundaries verified: 24D9F8 and 24D9FC remain instruction starts.",
+            "Category": "Skills",
+            "Address": "24D9F5",
+            "Type": "Hex",
+            "OriginalValues": "0F45CF",
+            "Values": "8BCF90",
+            "ModdedValues": "mov ecx,edi + NOP",
+            "Length": 3
+        },
+        {
+            "Name": "Left-slot aura bootstrap on RESURRECT - Hook",
+            "Description": "ISSUE 1. sub_1402BC200 (resurrect handler) re-selects the LEFT slot with a RAW call sub_140219690 at 2BC80B, bypassing sub_14029A2A0 and therefore the 29A3C9 aura hook - so after death a left-slot aura is re-selected but never re-armed. Bypass site #4 of six; it was left raw in Aug 2025 on the belief that other patches re-bootstrapped after death, but the game-entry cave that was doing that (31CE7A -> 36AD00) is no longer in the file. Registers byte-verified at 2BC803-2BC80B: rcx=rdi unit, edx=ebx skillId, r8d=esi guid; r15 = found node, read again at 2BC815, preserved by the cave.",
+            "Category": "Skills",
+            "Address": "2BC80B",
+            "Type": "Hex",
+            "OriginalValues": "E880CEF5FF",
+            "ModdedValues": "call 19D890",
+            "Values": "E88010EEFF",
+            "Length": 5
+        },
+        {
+            "Name": "Left-slot aura bootstrap on RESURRECT - Cave",
+            "Description": "Body identical to the confirmed-working weapon-swap cave, with the skill-id register r14d -> ebx for this call site. Replays sub_140219690(rdi, ebx, esi); player only; requires the LEFT slot node [[rdi+0x100]+8] to hold a record with the aura flag byte[rec+0x24]&0x20; walks the event list at [rdi+0x140] and bails if a type-8 PERIODICSKILLS event with customId==ebx already exists; else arms sub_140299C80([rdi+0xD8],rdi,ebx) then sub_140299430(pGame,rdi,ebx,0,0). Preserves rbx/rdi/rsi/r15. Lives in the cltdofunc-83 dead body (probe-confirmed dead 2026-08-19), 19D890-19D913.",
+            "Category": "Skills",
+            "Address": "19D890",
+            "Type": "Hex",
+            "OriginalValues": "0F1145E7448965F7488D3C85000000000F114517C745B7030000004C8D254E27E6FF0F1145C744894DDB0F11450744896DD70F1145278975F3C7451F03000000428B842320795701488D4DB78945E333D2428B8423507C57018945E7418BC74C69F8C590C66A4D03FE4D8BF744897D2349C1EE20E87731F6FF8BCE488BD0E80DE6FFFFFF",
+            "ModdedValues": "resurrect aura bootstrap",
+            "Values": "4883EC284189F089DA4889F9E8EFBD0700833F007569488B8700010000488B40084885C07459488B004885C07451F6402420744B488B87400100004885C0741080380875053958187435488B4030EBEB488B8FD80000004889FA4189D8E88EC30F00488B8FD80000004889FA4189D84531C9C744242000000000E821BB0F004883C428C3",
+            "Length": 132
+        },
+        {
+            "Name": "Left-slot aura swap teardown + bootstrap - Hook (REPLACES the old 36AF90 target)",
+            "Description": "ISSUE 2. Same hook site as before (2BE706 in the weapon-swap handler sub_1402BDE80) but retargeted from the arm-only cave 36AF90 to the new teardown+arm cave at 35C1E0. Registers byte-verified at 2BE6FD-2BE70B: rcx=rdi unit, edx=r14d skillId, r8d=esi guid; rbx = found node, read at 2BE70B, preserved.",
+            "Category": "Skills",
+            "Address": "2BE706",
+            "Type": "Hex",
+            "OriginalValues": "E885AFF5FF",
+            "ModdedValues": "call 35C1E0",
+            "Values": "E8D5DA0900",
+            "Length": 5
+        },
+        {
+            "Name": "Left-slot aura swap teardown + bootstrap - Cave",
+            "Description": "Fixes the gap that let an aura survive a swap to a set with nothing on LMB: the old cave only ARMED, it never looked at what was previously selected, and the deferred teardown at 29993C cannot cover it because branch-B revalidation only fails when the skill is GONE or the state is stale. Sequence: (1) BEFORE the replay, capture the OLD left node's aurastate word[rec+0xA0] and skill id word[rec+0] if it carries the aura flag; (2) replay sub_140219690(rdi, r14d, esi); (3) player only; (4) read the NEW left node's skill id if it is an aura; (5) if the old aura is still the selected one, return - it stays armed; (6) otherwise, unless the RIGHT slot holds an aura with the SAME aurastate (shared-state guard), call sub_140222EA0(rdi, oldState, 0) - clearing the state makes the old skill's periodic events fail their own revalidation at the sub_140222FE0 check next tick and the engine deletes them itself, the same mechanism the 363148 v2 rewrite uses; (7) if the new left node is an aura, arm it. An internal helper walks [[rdi+0x100]+slot] -> node -> record and validates the aura flag, called for left(8) and right(0x10). Frame sub rsp,0x38: shadow [0,0x20), 5th arg [0x20], oldState [0x28], oldSkill [0x2C], newSkill [0x30]. Preserves rbx/rdi/rsi/r14/r15. Lives in the freed srvdofunc-142 body alongside the dodge-clamp and multi-aura caves, 35C1E0-35C2E3.",
+            "Category": "Skills",
+            "Address": "35C1E0",
+            "Type": "Hex",
+            "OriginalValues": "40535557415641574881EC20020000488B05829F49014833C448898424000200004963F8458BF1488BEA4C8BF94585C00F88C9010000483B3DBB389401488BC70F83B90100004869D88402000048031D9C3894010F84A5010000458BC14889B424180200008BD7488BCDE87101E4FF8BF085C075528B8384000000488B155E2894018BC8483BC2733E48030D482894014C8D0D09404A012BD048896C2460488D442460897C246848894424284C8D054DC3EBFFC744242007000000448974246CE81B4637008BF033D2488D8C24A400000041B85C010000E844BE0D01458BCEC78424A000000002000000448BC7488D9424A0000000488BCDE89300F4FF458BCE488D9424",
+            "ModdedValues": "swap teardown + bootstrap",
+            "Values": "4883EC38834C2428FF834C242CFF836424300041B908000000E8BF0000004885C074120FB788A0000000894C24280FB708894C242C4189F04489F24889F9E86DD4EBFF833F000F858C00000041B908000000E8860000004885C074070FB708894C24308B4C242C83F9FF74323B4C2430746641B910000000E8600000004885C0740D0FB780A00000003B442428740F4889F98B5424284531C0E8226CECFF448B5424304585D27430488B8FD80000004889FA448B442430E8E4D9F3FF488B8FD80000004889FA448B4424304531C98364242000E878D1F3FF4883C438C3488B87000100004885C074184A8B04084885C0740F488B004885C07407F64024207401C331C0C3",
+            "Length": 260
+        },
+        {
+            "Name": "Dead-unit lookup guard [1/4] SERVER hook",
+            "Description": "Skill 182 'Spirit Keeper Explosion' is cast by a summon as it DIES (100% on-death proc, srvdofunc 8 = sub_14036F7D0, missile spread). The missiles outlive their caster: UNITS_FreeUnit stamps dwUnitType=6 / dwUnitId=-1 on the summon and returns the block to the pool, so every later resolution of the missile's owner reads that tombstone. sub_1402C49C0 is the SERVER unit-by-(type,id) lookup and the shared bottom of that call graph. It does 'v3 = sub_1402C4950(type,pGame); result = *v3' with no null check, and sub_1402C4950 returns 0 for any type outside 0-4, so a tombstoned or recycled owner faults at 2C49E3. Replaces 'mov rax,[rax]' + 'test rax,rax' (6 bytes) with a jump to the guard cave.",
+            "Category": "Important",
+            "Address": "2C49E3",
+            "Type": "Hex",
+            "OriginalValues": "488B004885C0",
+            "ModdedValues": "jmp 19D930 + NOP",
+            "Values": "E9488FEDFF90",
+            "Length": 6
+        },
+        {
+            "Name": "Dead-unit lookup guard [2/4] SERVER cave",
+            "Description": "cmp r8d,-1 (a3 = unit id, the UNITS_FreeUnit tombstone) / je ret0 ; test rax,rax (null bucket from an out-of-range type) / je ret0 ; then the two displaced instructions and jmp 2C49E9 so a valid lookup runs byte-for-byte, flags included, for the je that follows. ret0: jmp 2C4A02, the function's OWN zero-return tail. Returning 0 is the documented contract - sub_1402CE500 calls this very function and null-checks the result at 2CE562, and sub_1402C5D50 clears its stale target on 0 - so the missing check here is the vanilla bug, not an assumption being broken. Lives in the cltdofunc-83 dead body at 19D930-19D94A.",
+            "Category": "Important",
+            "Address": "19D930",
+            "Type": "Hex",
+            "OriginalValues": "4803DF4881FB000100007C94488B9C24F0000000B8010000004C8D",
+            "ModdedValues": "tombstone + null-bucket guard",
+            "Values": "4183F8FF74104885C0740B488B004885C0E9A3701200E9B7701200",
+            "Length": 27
+        },
+        {
+            "Name": "Dead-unit lookup guard [3/4] CLIENT hook",
+            "Description": "sub_140066510 is THE shared client unit-by-(bucket,id,type) hash lookup, roughly 500 call sites, and the client half of the same problem. It walks a chain from [a1 + 8*bucket] comparing [node+8]==id and [node]==type with no validation of the id. A tombstone id of -1 makes the bucket index -1 & 0x7F = 0x7F and the walk follows whatever that slot holds, faulting at 66513 (initial bucket read) or 6651C (chain compare). Guarding callers was wrong - the captured dumps came in through TWO different ones (sub_1400A44B0 at A44F3 and the site at D9AC5) - so the guard belongs in the callee. Replaces the 7-byte prologue (movsxd rax,edx / mov rax,[rcx+rax*8]).",
+            "Category": "Important",
+            "Address": "66510",
+            "Type": "Hex",
+            "OriginalValues": "4863C2488B04C1",
+            "ModdedValues": "jmp 19D914 + 2 NOP",
+            "Values": "E9FF7313009090",
+            "Length": 7
+        },
+        {
+            "Name": "Dead-unit lookup guard [4/4] CLIENT cave",
+            "Description": "cmp r8d,-1 / je ret0 ; replays movsxd rax,edx and mov rax,[rcx+rax*8] then jmp 066517 so a valid id proceeds byte-for-byte ; ret0: xor eax,eax / ret. Returning 0 is the function's own not-found result - it already ends in 'return 0' when the chain runs out - so all ~500 callers handle it. A live unit can never carry id -1. Lives in the cltdofunc-83 dead body at 19D914-19D928. SUPERSEDES the earlier A44CF caller-side guard: remove that hook if present.",
+            "Category": "Important",
+            "Address": "19D914",
+            "Type": "Hex",
+            "OriginalValues": "C04885D27416833A037511488B4A104885C9740848",
+            "ModdedValues": "tombstone id -> not found",
+            "Values": "4183F8FF740C4863C2488B04C1E9F18BECFF31C0C3",
+            "Length": 21
         }
     ]
 }
