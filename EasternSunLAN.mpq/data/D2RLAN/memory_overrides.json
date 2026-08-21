@@ -3033,7 +3033,7 @@
             "Type": "Hex",
             "OriginalValues": "B8AF000000",
             "ModdedValues": "mov eax, 196",
-            "Values": "B8C4000000",
+            "Values": "B8AF000000",
             "Length": 5
         }
     ]
