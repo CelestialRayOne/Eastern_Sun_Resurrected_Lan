@@ -623,7 +623,7 @@ Runeword627	Reason	1			helm	char								Ri Yu U	r09	r16	r02				nofreeze		1	1	all
 Runeword628	Savant	1			armo									Yu Ri Ka	r16	r09	r04				allskills		1	1	item-skill-cooldown		10	10	cast2		20	20	cast-skill	Time Lapse	100	3	enr		30	30	dex		30	30	str		30	30	0
 Runeword629	Gloom	1			pole	spea	blun							Yu U U Tsu	r16	r02	r02	r13			dmg-mag		200	400	aura	Sanctuary	20	20	swing2		30	30	hit-skill	Cloak of Shadows	3	20	res-mag		15	15	swing2		30	30	crush		30	30	0
 Runeword630	Hiten Misturugi Ryu	1			swor									Ke N Shi N	r17	r05	r03	r05			dmg/lvl	16			dmg%/lvl	16			reduce-ac		100	100	att/lvl	24			deadly		100	100	ease		200	200	swing3		30	30	0
-Runeword631	Humble	1			miss									Ke N Ki Yo	r17	r05	r08	r07			aura	Eagle Eye Aura	20	20	dmg-norm		50	75	pierce		100	100	swing2		-30	-30	crush		50	50	deadly		50	50	lifesteal		20	20	0
+Runeword631	Humble	1			miss									Ke N Ki Yo	r17	r05	r08	r07			aura	Eagle Eye Aura	20	20	dmg-norm		50	75	pierce		100	100	crush		50	50	deadly		50	50	lifesteal		20	20	dmg%		100	100	0
 Runeword632	Ascend	1			tors									Shi Yo Ri Yu Ke N	r03	r07	r09	r16	r17	r05	hp/lvl	16			mana/lvl	16			all-stats/lvl	8			ac%/lvl	40			res-all/lvl	8			gold%/lvl	24			mag%/lvl	24			0
 Runeword633	Wisdom	1			helm	char								Chi E	r14	r18					cast-skill	Time Lapse	100	5	item-skill-cooldown		15	15	allskills		1	1	extra-mag2		25	25	extra-wind		25	25	mana-kill		30	30	addxp		25	25	0
 Runeword634	Blood	1			swor	axe								Ke Tsu E Ki	r17	r13	r18	r08			dmg-bleed	50	500	600	kill-skill	Spike Nova Proc	17	20	dmg%		150	150	lifesteal		15	15	deadly		33	33	dex		50	50	att		250	250	0

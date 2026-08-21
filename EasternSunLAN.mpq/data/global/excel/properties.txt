@@ -483,7 +483,7 @@ lifemanasteal	1	1	manadrainmindam			3	lifedrainmindam																							#% M
 deadlycrush	1	1	item_crushingblow			3	item_deadlystrike																											
 cast-skill	1	11	item_skilloncast																											#% Chance to Cast Level # [Skill] on cast	Skill	"% Chance (If 0, then default to 5)"	Skill Level	
 cast-skill-hidden	1	11	item_skilloncast_hidden																											#% Chance to Cast Level # [Skill] on cast	Skill	"% Chance (If 0, then default to 5)"	Skill Level	
-res-all/lvl	1	17	item_resist_fire_perlevel			3	item_resist_cold_perlevel			3	item_resist_ltng_perlevel			3	item_resist_pois_perlevel																			
+res-all/lvl	1	17	item_resist_fire_perlevel			17	item_resist_cold_perlevel			17	item_resist_ltng_perlevel			17	item_resist_pois_perlevel																			
 branded	1	1	branded																															
 total-maxhp	1	1	totalmaxhp																															
 total-all-magic-resists	1	1	total_fire_resist			3	total_cold_resist			3	total_lightning_resist			3	total_poison_resist																			

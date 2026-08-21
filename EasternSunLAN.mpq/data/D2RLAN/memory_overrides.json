@@ -3024,6 +3024,17 @@
             "ModdedValues": "tombstone id -> not found",
             "Values": "4183F8FF740C4863C2488B04C1E9F18BECFF31C0C3",
             "Length": 21
+        },
+        {
+            "Name": "Faster cast rate ceiling raised to 500 FCR",
+            "Description": "Vanilla clamps the cast animation rate at 175 percent, which the diminishing-return curve reaches at exactly 200 faster cast rate - every point past 200 is dead. The clamp lives in sub_14020A760, the merged animation-rate updater, at RVA 20A82A: 'mov eax, 0AFh' (175) feeding 'cmp ecx,eax / cmovg ecx,eax' at 20A82F/20A831. Full cast branch from 20A80D: read stat 105 item_fastercastrate via sub_1401E5620, skip if zero, else efcr = 120*FCR/(FCR+120) by imul 120 / add 120 / idiv, then rate = efcr + 100 (add ecx,64h), clamp, then animSpeed = rate * AnimationSpeed / 100. Raising the immediate to 0C4h (196) moves the ceiling to the value the curve reaches at 500 FCR, so faster cast rate keeps paying all the way to 500 instead of stopping at 200. Only the immediate changes; the instruction, its length and every surrounding branch are untouched.",
+            "Category": "Alteration",
+            "Address": "20A82A",
+            "Type": "Hex",
+            "OriginalValues": "B8AF000000",
+            "ModdedValues": "mov eax, 196",
+            "Values": "B8C4000000",
+            "Length": 5
         }
     ]
 }
