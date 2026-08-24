@@ -944,7 +944,7 @@ Runeword953	Woodsman	1			shld									Ki Ko Ri	r08	r19	r09				oskill	Feral Maste
 Runeword954	Rainy Season	1			miss									Tsu YU	r13	r16					oskill	Cold Arrow	10	10	mana-on-striking		3	3	hit-skill	Blizzard	5	30	pierce-cold		15	15	att		250	250	dmg-cold	250	250	300	swing2		30	30	0
 Runeword955	Rebellion	1			miss									Ha N Ra N	r28	r05	r20	r05			passive-summ-life		50	50	passive-summ-all-resists		25	25	hit-skill	Bone Spear	5	40	hit-skill	Cloak of Shadows	3	40	dmg-mag		600	750	extra-mag2		40	40	swing2		50	50	0
 Runeword956	Airship	1			miss									Hi Ko U Se N	r34	r19	r02	r31	r05		allskills		4	4	hit-skill-hidden	Far Shot	40	1	dmg%/lvl	16			dmg/lvl	16			pierce		100	100	kill-skill	Arrow of Confession	25	60	dex		100	100	0
-Runeword957	Shank	1			boot									Su Ne	r43	r41					allskills		2	2	hit-skill	Decrepify	3	50	hp/lvl	40			move2		60	60	res-pois-len		75	75	gold%		200	200	deadly/lvl	8			0
+Runeword957	Shank	1			boot									Su Ne	r43	r41					allskills		2	2	hit-skill	Decrepify	3	50	hp/lvl	16			move2		60	60	res-pois-len		75	75	gold%		200	200	deadly/lvl	8			0
 Runeword958	Navel	1			belt									He So	r44	r39					allskills		2	2	thorns		1500	1500	gethit-skill	Battle Command	15	45	balance2		30	30	block		5	5	ac%		400	400	red-dmg%		15	15	0
 Runeword959	Swamp	1			glov									Nu Ma	r45	r33					hit-skill	Evade	3	60	swing2		-30	-30	slow		33	33	hp%		30	30	red-dmg%		20	20	gethit-skill	Bone Armor	100	30	velocitypercent		-20	-20	0
 Runeword960	Prohibit				char									JEW x 3	jew	jew	jew				vit-h2		-900	-900																									0
