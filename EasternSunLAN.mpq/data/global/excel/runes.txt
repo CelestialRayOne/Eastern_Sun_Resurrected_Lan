@@ -593,7 +593,7 @@ Runeword592	Greed	1			helm	tors								Yo Ku	r07	r06					gold%		100	100	mag%		10
 Runeword593	Machine	1			weap	char								Ki Ka I	r08	r04	r01				dmg/lvl	8			str		50	50	dex		50	50	strpercent		20	20	dexpercent		20	20	attackrate		20	20					0
 Runeword595	Gold	1			tors	shld	belt							Ki N	r08	r05					gold%		300	300	thorns		300	300	thorns/lvl	32			res-ltng		40	40	res-fire		40	40	res-cold		40	40	ac%		120	120	0
 Runeword596	Composure	1			mele									U Ki Yo	r02	r08	r07				oskill	Claw Mastery	5	5	aura	Concentration	5	5	deadly		30	30	crush		30	30	dmg/lvl	16			swing2		30	30					0
-Runeword597	Melody	1			miss									Ki Yo Ku	r08	r07	r06				hit-skill	Fire Surge	10	10	hit-skill	Cold Surge	10	10	hit-skill	Lightning Surge	10	10	swing2		50	50	move2		50	50	aura	Conviction	10	10					0
+Runeword597	Melody	1			miss									Ki Yo Ku	r08	r07	r06				hit-skill	Fire Surge	5	10	hit-skill	Cold Surge	5	10	hit-skill	Lightning Surge	5	10	swing2		50	50	move2		50	50	aura	Conviction	10	10					0
 Runeword598	Famine	1			tors									Ki Ki N	r08	r08	r05				regen		400	400	regen-mana		100	100	lifesteal		10	10	manasteal		5	5	heal-kill		40	40	mana-kill		20	20	ac%		125	125	0
 Runeword599	Insanity	1			tors									Ki Yo U Ki	r08	r07	r02	r08			all-speeds		50	50	ac%		100	100	all-stats		20	20	item-skill-cooldown		10	10	oskill	Power of Athulua	1	1									0
 Runeword600	Hunt	1			helm	char								Ka Ri	r04	r09					allskills		1	1	kill-skill	Warm Up	100	10	move2		40	40	deadly		50	50	dexpercent		20	20	stam/lvl	80			reduce-ac		33	33	0
@@ -783,7 +783,7 @@ Runeword793	Unknown	1			tors									Ki Chi Su U	r08	r14	r43	r02			allskills		2	
 Runeword793	Unknown	1			tors									Ri Chi Su U	r09	r14	r43	r02			allskills		2	2	mana-kill		25	25	oskill	Fire Mastery	10	10	oskill	Cold Mastery	10	10	ac		500	500	pierce-fire		25	25	pierce-cold		25	25	0
 Runeword793	Unknown	1			tors									Mi Chi Su U	r10	r14	r43	r02			allskills		2	2	mana-kill		25	25	oskill	Fire Mastery	10	10	oskill	Lightning Mastery	10	10	ac		500	500	pierce-fire		25	25	pierce-ltng		25	25	0
 Runeword794	Dodge	1			shld									Ka Wa Su	r04	r27	r43				dodge		30	30	velocitypercent		30	30	dexpercent		40	40	attackrate		30	30	allskills		2	2	total-ac%		-50	-50	abs-elem%		7	7	0
-Runeword795	Admiration	1			weap									Su U Ha I	r43	r02	r28	r01			aura	Might	20	20	dmg%		500	500	swing2		50	50	oskill	Natural Resistance	10	10	kill-skill	Battle Orders	1	60	hit-skill	Inner Sight	1	60	hit-skill	Spearstorm	1	20	0
+Runeword795	Admiration	1			weap									Su U Ha I	r43	r02	r28	r01			aura	Might	20	20	dmg%		500	500	swing2		50	50	oskill	Natural Resistance	10	10	kill-skill	Battle Orders	1	40	hit-skill	Inner Sight	1	30	hit-skill	Spearstorm	1	20	0
 Runeword796	Jindujun	1			tors									Su Ha Ra Shi I	r43	r28	r20	r03	r01		aura	Vigor	15	15	oskill	Teleport	1	1	hp		500	500	allskills		3	3	item-skill-cooldown		20	20	res-all-max		3	3	cast-skill	Time Stop	100	1	0
 Runeword797	Revenge	1			weap									Ho U Fu Ku Su Ru	r22	r02	r32	r06	r43	r24	gethit-skill	Fend	25	60	hit-skill	Taunt	1	60	dmg%		350	350	dmg-max		200	200	thorns/lvl	240			aura	Thorns	40	40	hit-skill	Axe Proc	20	40	0
 Runeword798	Burn	1			mele									Mo Ya Su	r35	r11	r43				att-skill	Incinerate Proc	100	60	aura	Fire Pierce Aura	20	20	pierce-fire		20	20	swing2		50	50	cast2		50	50	dmg-fire		2000	4000	fireskill		7	7	0
