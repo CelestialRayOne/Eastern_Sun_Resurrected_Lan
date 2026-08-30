@@ -804,7 +804,7 @@ Seal			4						Act 4 Ultra	100	Unique Ore 2	1																						0
 Seal (N)			4						Act 4 (N) Ultra	50	Unique Ore 2	1																						0
 Seal (H)			4						Act 4 (H) Ultra	25	Unique Ore 2	1																						0
 Cow King			6						Act 5 Ultra	1																								0
-Cow King (N)			6						Act 5 (H) Ultra	1																								0
+Cow King (N)			6						Act 5 (N) Ultra	1																								0
 Cow King (H)			6						Act 5 (H) Ultra	1																								0
 Treant King			6						Act 5 Uber	100	Unique Ore 10	1																						0
 Treant King (N)			6						Act 5 (N) Uber	50	Unique Ore 10	1																						0
