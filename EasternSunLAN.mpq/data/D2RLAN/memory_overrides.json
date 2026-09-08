@@ -2994,6 +2994,17 @@
             "ModdedValues": "mov eax, 196",
             "Values": "B8C4000000",
             "Length": 5
+        },
+        {
+            "Name": "Fix automap .map blob length 16-bit truncation",
+            "Description": "Automap cell blob length was computed as (int16)(count*2) and stored sign-extended into the 32-bit length field of the .map record header. Any automap layer holding more than 5461 cells (32768 bytes) wrote a negative length, which memmove consumed as ~4GB and crashed the game on the next automap flush (layer change or leaving the game). Computes the length as a full 32-bit value, matching the loader which already reads it unsigned 32-bit. Site: sub_1400950B0 tail, movzx ecx,[rsi+8] / add cx,cx / movsx ecx,cx -> mov ecx,[rsi+8] / add ecx,ecx + nops.",
+            "Category": "Bugfix",
+            "Address": "9520F",
+            "Length": 13,
+            "Type": "Hex",
+            "Values": "8B4E0803C941890F9090909090",
+            "OriginalValues": "0FB74E086603C90FBFC941890F",
+            "ModdedValues": "8B4E0803C941890F9090909090"
         }
     ]
 }
